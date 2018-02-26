@@ -9,7 +9,8 @@
     "build:watch": "babel lib -w -d build",
     "lint": "eslint lib/**; exit 0",
     "lint:watch": "esw -w lib/**",
-    "prepublish": "npm run build"
+    "prepublish": "npm run build",
+    "storybook": "start-storybook -p 9901 -c .storybook"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,12 @@
   "author": "Luis Díaz",
   "license": "ISC",
   "devDependencies": {
+    "@storybook/addon-console": "^1.0.0",
+    "@storybook/addon-info": "^3.3.14",
+    "@storybook/addon-knobs": "^3.3.14",
+    "@storybook/addon-options": "^3.3.14",
+    "@storybook/addons": "^3.3.14",
+    "@storybook/react": "^3.3.14",
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.0",
     "babel-eslint": "^8.0.3",
