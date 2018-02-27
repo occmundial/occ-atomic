@@ -1,8 +1,8 @@
 import React from 'react';
 import injectSheet from 'react-jss';
 import { storiesOf } from '@storybook/react';
-import { action } from '@storybook/addon-actions';
-import { withKnobs, text, boolean, number, select } from '@storybook/addon-knobs/react';
+// import { action } from '@storybook/addon-actions';
+import { withKnobs, text, boolean, select } from '@storybook/addon-knobs/react';
 import { Button } from '../../lib/index';
 
 const stories = storiesOf('Button', module);
@@ -123,17 +123,15 @@ stories.add('Themes', () => (
                     target={target}>
                   {text('Label', 'Button')}
               </Button></Space>
-              <div style={{background:'#ddd', padding:'15px'}}>
-                  <pre>
-                      <code className="language-js">
-                          {`import { Button } from 'r12-common';
+              <pre style={{background:'#ddd', padding:'15px', overflowX:'auto'}}>
+                  <code>
+                      {`import { Button } from 'r12-common';
 
 <Button${theme ? ` theme="${theme}"` : ''}${size ? ` size="${size}"` : ''}${disabled ? ' disabled' : ''}${icon ? ` icon="plus"` : ''}${loading ? ' loading' : ''}${onClick ? ` onClick="() => {console.log('onClick event')}"` : ''}${href ? ` href="${href}"` : ''}${target ? ` target="${target}"` : ''}>
-    ${text('Label', 'Button')}
+${text('Label', 'Button')}
 </Button>`}
-                      </code>
-                  </pre>
-              </div>
+                  </code>
+              </pre>
         </div>)
     }))
 ;
