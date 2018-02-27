@@ -8,6 +8,7 @@ setOptions({
 
 function loadStories() {
     require('../stories/elements/Button.js');
+    require('../stories/elements/Input.js');
 }
 
 configure(loadStories, module);
