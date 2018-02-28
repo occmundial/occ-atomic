@@ -10,6 +10,7 @@ function loadStories() {
     require('../stories/elements/Input.js');
     require('../stories/elements/Card.js');
     require('../stories/elements/Grid.js');
+    require('../stories/elements/Flexbox.js');
 }
 
 configure(loadStories, module);
