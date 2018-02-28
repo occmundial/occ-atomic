@@ -26,7 +26,7 @@ stories.add('Default', () => (
             </Container>
         </div>
     )).add('Playground', (() => {
-        const shadow = number('Shadow', 0, {range: true, min:0, max:7, step:1});
+        const shadow = number('Shadow', 0, {range: true, min:0, max:6, step:1});
         const padding = boolean('No padding', true);
         return (<div>
             <h1 style={{fontFamily:'Open Sans'}}>Playground</h1>
