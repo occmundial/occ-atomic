@@ -8,6 +8,8 @@ setOptions({
 function loadStories() {
     require('../stories/elements/Button.js');
     require('../stories/elements/Input.js');
+    require('../stories/elements/Card.js');
+    require('../stories/elements/Grid.js');
 }
 
 configure(loadStories, module);
