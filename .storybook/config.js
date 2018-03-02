@@ -11,6 +11,7 @@ function loadStories() {
     require('../stories/elements/Card.js');
     require('../stories/elements/Grid.js');
     require('../stories/elements/Flexbox.js');
+    require('../stories/elements/Droplist.js');
 }
 
 configure(loadStories, module);
