@@ -12,6 +12,7 @@ function loadStories() {
     require('../stories/elements/Grid.js');
     require('../stories/elements/Flexbox.js');
     require('../stories/elements/Droplist.js');
+    require('../stories/molecules/Autocomplete.js');
 }
 
 configure(loadStories, module);
