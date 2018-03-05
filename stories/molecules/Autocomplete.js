@@ -12,16 +12,17 @@ class AutocompleteWrapper extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            value: '',
             focus: false
         };
         this.onChange = this.onChange.bind(this);
+        this.onClick = this.onClick.bind(this);
     }
     
     onChange(value) {
-        this.setState({
-            value
-        });
+        console.log(value);
+    }
+    onClick(item) {
+        console.log(item);
     }
     
     render() {
@@ -53,8 +54,8 @@ class AutocompleteWrapper extends React.Component {
                     itemTextKey="text"
                     itemTextRightKey="textRight"
                     itemIdKey="text"
-                    valueProp={value}
                     onChange={this.onChange}
+                    onClick={this.onClick}
                 />
             </div>
         );
