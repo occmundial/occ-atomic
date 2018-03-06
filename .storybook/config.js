@@ -13,6 +13,7 @@ function loadStories() {
     require('../stories/elements/Flexbox.js');
     require('../stories/elements/Droplist.js');
     require('../stories/molecules/Autocomplete.js');
+    require('../stories/elements/Label.js');
 }
 
 configure(loadStories, module);

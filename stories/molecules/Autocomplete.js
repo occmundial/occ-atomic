@@ -26,7 +26,6 @@ class AutocompleteWrapper extends React.Component {
     }
     
     render() {
-        const { value } = this.state;
         const items = [
             {
                 text: 'Administrador',
@@ -49,13 +48,17 @@ class AutocompleteWrapper extends React.Component {
             <div>
                 <Autocomplete
                     name="default"
+                    label="Label"
                     placeholder="Placeholder"
+                    limitPlaceholder="Limit of 2 options"
                     items={items}
                     itemTextKey="text"
                     itemTextRightKey="textRight"
                     itemIdKey="text"
                     onChange={this.onChange}
                     onClick={this.onClick}
+                    stackLabels
+                    limit={2}
                 />
             </div>
         );
