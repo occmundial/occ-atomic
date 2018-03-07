@@ -8,6 +8,14 @@ setOptions({
 function loadStories() {
     require('../stories/elements/Button.js');
     require('../stories/elements/Input.js');
+    require('../stories/elements/Card.js');
+    require('../stories/elements/Grid.js');
+    require('../stories/elements/Flexbox.js');
+    require('../stories/elements/Droplist.js');
+    require('../stories/molecules/Autocomplete.js');
+    require('../stories/elements/Label.js');
+    require('../stories/molecules/SubHeader.js');
+    require('../stories/molecules/LayerApp.js');
 }
 
 configure(loadStories, module);

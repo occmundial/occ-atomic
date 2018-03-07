@@ -67,6 +67,15 @@ class InputWrapper extends React.Component {
                     placeholder="Placeholder"
                     valueProp="Filled" />
             );
+        } else if (type == "clear") {
+            return (
+                <Input
+                    name="default"
+                    label="Label"
+                    placeholder="Placeholder"
+                    clear={true}
+                    valueProp="Clear the input value" />
+            );
         } else if (type == "autofocus") {
             return (
                 <Input
@@ -74,6 +83,15 @@ class InputWrapper extends React.Component {
                     label="Label"
                     placeholder="Placeholder"
                     autoFocus />
+            );
+        } else if (type == "selectonfocus") {
+            return (
+                <Input
+                    name="default"
+                    label="Label"
+                    placeholder="Placeholder"
+                    selectOnFocus
+                    valueProp="Select the input value" />
             );
         } else if (type == "counter") {
             return (
@@ -137,7 +155,9 @@ class InputWrapper extends React.Component {
                         maxLength={knobs.maxLength}
                         counter={knobs.counter}
                         type={knobs.type}
+                        clear={knobs.clear}
                         readOnly={knobs.readOnly}
+                        selectOnFocus={knobs.selectOnFocus}
                         autoFocus={knobs.autoFocus}
                         error={knobs.error}
                         valid={knobs.valid}
@@ -184,6 +204,17 @@ stories.add('Default', () => (
                 </Row>
             </Container>
         </div>
+    )).add('Clear', () => (
+        <div>
+            <h1 style={{fontFamily:'Open Sans'}}>Clear</h1>
+            <Container fluid={true}>
+                <Row>
+                    <Column xs={{col:12}} md={{col:6}}>
+                        <InputWrapper type="clear" />
+                    </Column>
+                </Row>
+            </Container>
+        </div>
     )).add('Auto-Focus', () => (
         <div>
             <h1 style={{fontFamily:'Open Sans'}}>Auto-Focus</h1>
@@ -191,6 +222,17 @@ stories.add('Default', () => (
                 <Row>
                     <Column xs={{col:12}} md={{col:6}}>
                         <InputWrapper type="autofocus" />
+                    </Column>
+                </Row>
+            </Container>
+        </div>
+    )).add('Select on focus', () => (
+        <div>
+            <h1 style={{fontFamily:'Open Sans'}}>Select on focus</h1>
+            <Container fluid={true}>
+                <Row>
+                    <Column xs={{col:12}} md={{col:6}}>
+                        <InputWrapper type="selectonfocus" />
                     </Column>
                 </Row>
             </Container>
@@ -258,7 +300,9 @@ stories.add('Default', () => (
         const counter = boolean('Show counter', false);
         const type = select('Type', typeOptions, 'text');
         const readOnly = boolean('Read-only', false);
+        const clear = boolean('Clear', false);
         const autoFocus = boolean('Auto-focus', false);
+        const selectOnFocus = boolean('Select on focus', false);
         const error = text('Error', '');
         const valid = boolean('Valid', false);
         const onFocus = boolean('onFocus', false);
@@ -271,7 +315,9 @@ stories.add('Default', () => (
             maxLength,
             counter,
             type,
+            clear,
             readOnly,
+            selectOnFocus,
             autoFocus,
             error,
             valid,
@@ -292,7 +338,7 @@ stories.add('Default', () => (
                         <code>
                             {`import { Input } from 'r12-common';
       
-<Input${value ? ` valueProp="${value}"` : ''}${label ? ` label="${label}"` : ''}${placeholder ? ` placeholder="${placeholder}"` : ''}${maxLength ? ` maxLength={${maxLength}}` : ''}${counter ? ' counter' : ''}${type ? ` type="${type}"` : ''}${readOnly ? ' readOnly' : ''}${autoFocus ? ' autoFocus' : ''}${error ? ` error="${error}"` : ''}${valid ? ' valid' : ''}${onFocus ? ` onFocus="() => {console.log('onFocus event')}"` : ''}${onChange ? ` onChange="() => {console.log('onChange event')}"` : ''}${onBlur ? ` onBlur="() => {console.log('onBlur event')}"` : ''}>`}
+<Input${value ? ` valueProp="${value}"` : ''}${label ? ` label="${label}"` : ''}${placeholder ? ` placeholder="${placeholder}"` : ''}${maxLength ? ` maxLength={${maxLength}}` : ''}${counter ? ' counter' : ''}${type ? ` type="${type}"` : ''}${clear ? ' clear' : ''}${readOnly ? ' readOnly' : ''}${selectOnFocus ? ' selectOnFocus' : ''}${autoFocus ? ' autoFocus' : ''}${error ? ` error="${error}"` : ''}${valid ? ' valid' : ''}${onFocus ? ` onFocus="() => {console.log('onFocus event')}"` : ''}${onChange ? ` onChange="() => {console.log('onChange event')}"` : ''}${onBlur ? ` onBlur="() => {console.log('onBlur event')}"` : ''}>`}
                         </code>
                     </pre>
                 </Container>

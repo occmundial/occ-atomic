@@ -1,7 +1,6 @@
 import React from 'react';
 import injectSheet from 'react-jss';
 import { storiesOf } from '@storybook/react';
-// import { action } from '@storybook/addon-actions';
 import { withKnobs, text, boolean, select } from '@storybook/addon-knobs/react';
 import { Button } from '../../lib/index';
 
