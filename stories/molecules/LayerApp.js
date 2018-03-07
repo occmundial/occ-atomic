@@ -9,13 +9,13 @@ stories.addDecorator(withKnobs);
 
 stories.add('LayerApp', () => (
         <div>
-            <LayerApp theme="white" left="Text or button" right="Text or button" center="LayerApp">
+            <LayerApp left="Text or button" right="Text or button" center="LayerApp">
                 <Title h={1}>Layer content</Title>
             </LayerApp>
         </div>
     )).add('LayerApp2', () => (
         <div>
-            <LayerApp left="Text or button" right="Text or button" center="LayerApp">
+            <LayerApp theme="white" left="Text or button" right="Text or button" center="LayerApp">
                 <Title h={1}>Layer content</Title>
             </LayerApp>
         </div>
