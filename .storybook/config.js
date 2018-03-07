@@ -14,6 +14,8 @@ function loadStories() {
     require('../stories/elements/Droplist.js');
     require('../stories/molecules/Autocomplete.js');
     require('../stories/elements/Label.js');
+    require('../stories/molecules/SubHeader.js');
+    require('../stories/molecules/LayerApp.js');
 }
 
 configure(loadStories, module);
