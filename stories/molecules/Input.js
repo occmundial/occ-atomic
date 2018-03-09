@@ -76,6 +76,15 @@ class InputWrapper extends React.Component {
                     clear={true}
                     valueProp="Clear the input value" />
             );
+        } else if (type == "icon") {
+            return (
+                <Input
+                    name="default"
+                    label="Label"
+                    placeholder="Placeholder"
+                    clear={true}
+                    iconName="search" />
+            );
         } else if (type == "autofocus") {
             return (
                 <Input
@@ -133,13 +142,23 @@ class InputWrapper extends React.Component {
                     />
                 </div>
             );
-        } else if (type == "readonly") {
+        } else if (type == "animationicon") {
+            return (
+                <div>
+                    <Input
+                        name="default"
+                        placeholder="Placeholder"
+                        iconName="search"
+                    />
+                </div>
+            );
+        } else if (type == "disabled") {
             return (
                 <div>
                     <Input
                         name="default"
                         label="Label"
-                        readOnly
+                        disabled
                         valueProp="Pre-filled value"
                     />
                 </div>
@@ -156,7 +175,7 @@ class InputWrapper extends React.Component {
                         counter={knobs.counter}
                         type={knobs.type}
                         clear={knobs.clear}
-                        readOnly={knobs.readOnly}
+                        disabled={knobs.disabled}
                         selectOnFocus={knobs.selectOnFocus}
                         autoFocus={knobs.autoFocus}
                         error={knobs.error}
@@ -211,6 +230,17 @@ stories.add('Default', () => (
                 <Row>
                     <Column xs={{col:12}} md={{col:6}}>
                         <InputWrapper type="clear" />
+                    </Column>
+                </Row>
+            </Container>
+        </div>
+    )).add('Icon', () => (
+        <div>
+            <h1 style={{fontFamily:'Open Sans'}}>Icon</h1>
+            <Container fluid={true}>
+                <Row>
+                    <Column xs={{col:12}} md={{col:6}}>
+                        <InputWrapper type="icon" />
                     </Column>
                 </Row>
             </Container>
@@ -281,13 +311,24 @@ stories.add('Default', () => (
                 </Row>
             </Container>
         </div>
-    )).add('Read-only', () => (
+    )).add('Animation with icon', () => (
         <div>
-            <h1 style={{fontFamily:'Open Sans'}}>Read-only</h1>
+            <h1 style={{fontFamily:'Open Sans'}}>Animation with icon</h1>
             <Container fluid={true}>
                 <Row>
                     <Column xs={{col:12}} md={{col:6}}>
-                        <InputWrapper type="readonly" />
+                        <InputWrapper type="animationicon" />
+                    </Column>
+                </Row>
+            </Container>
+        </div>
+    )).add('Disabled', () => (
+        <div>
+            <h1 style={{fontFamily:'Open Sans'}}>Disabled</h1>
+            <Container fluid={true}>
+                <Row>
+                    <Column xs={{col:12}} md={{col:6}}>
+                        <InputWrapper type="disabled" />
                     </Column>
                 </Row>
             </Container>
@@ -299,7 +340,7 @@ stories.add('Default', () => (
         const maxLength = number('Max. length', 60);
         const counter = boolean('Show counter', false);
         const type = select('Type', typeOptions, 'text');
-        const readOnly = boolean('Read-only', false);
+        const disabled = boolean('Disabled', false);
         const clear = boolean('Clear', false);
         const autoFocus = boolean('Auto-focus', false);
         const selectOnFocus = boolean('Select on focus', false);
@@ -316,7 +357,7 @@ stories.add('Default', () => (
             counter,
             type,
             clear,
-            readOnly,
+            disabled,
             selectOnFocus,
             autoFocus,
             error,
@@ -338,7 +379,7 @@ stories.add('Default', () => (
                         <code>
                             {`import { Input } from 'r12-common';
       
-<Input${value ? ` valueProp="${value}"` : ''}${label ? ` label="${label}"` : ''}${placeholder ? ` placeholder="${placeholder}"` : ''}${maxLength ? ` maxLength={${maxLength}}` : ''}${counter ? ' counter' : ''}${type ? ` type="${type}"` : ''}${clear ? ' clear' : ''}${readOnly ? ' readOnly' : ''}${selectOnFocus ? ' selectOnFocus' : ''}${autoFocus ? ' autoFocus' : ''}${error ? ` error="${error}"` : ''}${valid ? ' valid' : ''}${onFocus ? ` onFocus="() => {console.log('onFocus event')}"` : ''}${onChange ? ` onChange="() => {console.log('onChange event')}"` : ''}${onBlur ? ` onBlur="() => {console.log('onBlur event')}"` : ''}>`}
+<Input${value ? ` valueProp="${value}"` : ''}${label ? ` label="${label}"` : ''}${placeholder ? ` placeholder="${placeholder}"` : ''}${maxLength ? ` maxLength={${maxLength}}` : ''}${counter ? ' counter' : ''}${type ? ` type="${type}"` : ''}${clear ? ' clear' : ''}${disabled ? ' disabled' : ''}${selectOnFocus ? ' selectOnFocus' : ''}${autoFocus ? ' autoFocus' : ''}${error ? ` error="${error}"` : ''}${valid ? ' valid' : ''}${onFocus ? ` onFocus="() => {console.log('onFocus event')}"` : ''}${onChange ? ` onChange="() => {console.log('onChange event')}"` : ''}${onBlur ? ` onBlur="() => {console.log('onBlur event')}"` : ''}>`}
                         </code>
                     </pre>
                 </Container>
