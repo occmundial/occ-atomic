@@ -13,7 +13,7 @@ Here's the documentation on how to implement each of the Element components:
 The `Button` component has different properties which will define how it will look and work.
 Here's a table with the properties available:
 | Property  | Type  | Options  | Default  | Description  |
-|---|---|---|---|---|
+| --- | --- | --- | --- | --- |
 | `theme`  | string  | main, secondary, flat, blue  | main  | This property defines the style and look of the button.  |
 | `size`  | string  | md, lg  |   | This sets the size of the button. By default the button is small, so you don't have to set the size in that case.  |
 | `block`  | boolean  | true \| false  | false  | This will expand the `Button` to occupy the whole width  |
