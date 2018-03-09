@@ -1,12 +1,14 @@
 # Elements
 Here's the documentation on how to implement each of the Element components:
 
-- Button
-- ButtonAlign
-- Card
-- Icon
-- Label
-- Title
+- [Button](#button)
+- [ButtonAlign](#buttonalign)
+- [Card](#card)
+- [Icon](#icon)
+- [Label](#label)
+- [Title](#title)
+
+To see the documentation about layout components, go to: [Layout](./Layout.md))
 
 ## Button
 

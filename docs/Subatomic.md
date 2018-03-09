@@ -1,15 +1,13 @@
-[[toc]]
-
 # Subatomic
 Subatomic is the name given to files that contain values and sometimes functions that in a certain way constitute the Elements and everything else. This helps to maintain the style guide more easily.
 
 These subatomic 'libraries' are:
   
-- Colors
-- Fonts
-- Grid
-- Shadows
-- Icons
+- [Colors](#colors)
+- [Fonts](#fonts)
+- [Grid](#grid)
+- [Shadows](#shadows)
+- [Icons](#icons)
 
 `colors`, `fonts`, `grid` and `shadows` are very basic, they're just an object with certain values which you can access from your components like:
 ```jsx

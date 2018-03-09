@@ -1,11 +1,9 @@
-[[toc]]
-
 # Layout
 R12-common contains multiple layout components. They offer three ways to construct layout:
 
-- Grid
-- Display
-- Flex
+- [Grid](#grid)
+- [Display](#display)
+- [Flex](#flex)
 
 ## Grid
 These components are based on the grid of bootstrap. The usage is pretty simple, and it works exactly the same as it does in bootstrap.
