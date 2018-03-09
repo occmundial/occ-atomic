@@ -2,7 +2,7 @@
 Here's the documentation on how to implement each of the Element components:
 
 - [Button](#button)
-- [ButtonAlign](#buttonalign)
+- [ButtonAlign](#button-align)
 - [Card](#card)
 - [Icon](#icon)
 - [Label](#label)
