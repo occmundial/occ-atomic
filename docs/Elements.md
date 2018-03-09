@@ -12,17 +12,18 @@ Here's the documentation on how to implement each of the Element components:
 
 The `Button` component has different properties which will define how it will look and work.
 Here's a table with the properties available:
-| Property  | Type  | Options  | Default  | Description  |
-| --- | --- | --- | --- | --- |
-| `theme`  | string  | main, secondary, flat, blue  | main  | This property defines the style and look of the button.  |
-| `size`  | string  | md, lg  |   | This sets the size of the button. By default the button is small, so you don't have to set the size in that case.  |
-| `block`  | boolean  | true \| false  | false  | This will expand the `Button` to occupy the whole width  |
-| `disabled`  | boolean  | true \| false  | false  | This will disable the button, preventing any interaction and applying a grey theme.  |
-| `loading`  | boolean  | true \| false  | false  | This will put the button in a loading state, preventing any interaction and showing a spinning icon.  |
-| `icon`  | string  |   |   | The `icon` property can receive any icon name available in the [Icons](./Subatomic.md#Icons) library. The icon will be displayed at the left.  |
-| `onClick`  | function  |   |   | You can pass any function you want to execute on the `onClick` event.  |
-| `href`  | string  |   |   | If you want to use your button as a link, you can pass a url.  |
-| `target`  | string  |   |   | You can set a target if you have already setted an `href`.  |
+
+| Property | Type | Options | Default | Description |
+|----------|----------|----------|----------|----------|
+| `theme` | string | main, secondary, flat, blue | main | This property defines the style and look of the button. |
+| `size` | string | md, lg |  | This sets the size of the button. By default the button is small, so you don't have to set the size in that case. |
+| `block` | boolean | true \| false | false | This will expand the `Button` to occupy the whole width |
+| `disabled` | boolean | true \| false | false | This will disable the button, preventing any interaction and applying a grey theme. |
+| `loading` | boolean | true \| false | false | This will put the button in a loading state, preventing any interaction and showing a spinning icon. |
+| `icon` | string |  |  | The `icon` property can receive any icon name available in the [Icons](./Subatomic.md#Icons) library. The icon will be displayed at the left. |
+| `onClick` | function |  |  | You can pass any function you want to execute on the `onClick` event. |
+| `href` | string |  |  | If you want to use your button as a link, you can pass a url. |
+| `target` | string |  |  | You can set a target if you have already setted an `href`. |
 
 You can also set an id, className or a style object.
 
