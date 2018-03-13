@@ -195,6 +195,7 @@ const typeOptions = {
     text: 'Text',
     email: 'Email',
     password: 'Password',
+    textarea: 'Textarea',
     date: 'Date',
     number: 'Number',
     search: 'Search',
