@@ -37,7 +37,7 @@ import { Button } from 'r12-common';
 ```
 For more details, check how to implement each component:
 
-- [Subatomic]()
-- [Elements]()
+- [Subatomic](./docs/Subatomic.md)
+- [Elements](./docs/Elements.md)
 - [Molecules]()
 - [Organisms]()
