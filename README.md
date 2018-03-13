@@ -39,5 +39,5 @@ For more details, check how to implement each component:
 
 - [Subatomic](./docs/Subatomic.md)
 - [Elements](./docs/Elements.md)
-- [Molecules]()
+- [Molecules](./docs/Molecules.md)
 - [Organisms]()
