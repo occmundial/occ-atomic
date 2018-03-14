@@ -44,7 +44,7 @@ class InputWrapper extends React.Component {
         const { value } = this.state;
         this.setState({
             error: 'Error message',
-            valid: value.length
+            valid: !!value.length
         });
         
     }
