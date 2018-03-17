@@ -7,6 +7,7 @@ Here's the documentation on how to implement each of the Element components:
 - [Icon](#icon)
 - [Label](#label)
 - [Title](#title)
+- [TourTip](#tour-tip)
 
 To see the documentation about layout components, go to: [Layout](./Layout.md))
 
@@ -100,4 +101,22 @@ import { Title } from 'r12-common';
 
 // In your component
 <Title h={1}>This is an H1 tag</Title>
+```
+
+## TourTip
+You can use this component when you want to highlight a certain content in your site. It will display a text bubble on one side of the content to point to.
+
+To make it work, you have to wrap the TourTip and the content to highlight inside a container with a `position:relative` (to avoid conflict measuring the right position to render the TourTip), specify and `id` for the content to hightlight, and send it to the property `target` of the TourTip too.
+
+Use the property `direction` to specify where to draw the TourTip (`left`, `right`, `up` or `down`) and the property `align` to specify to where should it be aligned (`left`, `center` or `right` if the direction is `up` or `down`. `top`, `center` and `bottom` if the direction is `left` or `right`).
+
+This is an example of how to use it:
+```jsx
+import { TourTip } from 'r12-common';
+
+// In your component
+<div style={{position:'relative'}}>
+  <div id="my-content" style={{width:200, height:200, background:'#000'}}>
+  <TourTip target="my-content" direction="right" align="bottom">This is my TourTip</TourTip>
+</div>
 ```

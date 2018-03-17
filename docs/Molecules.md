@@ -6,6 +6,7 @@ Here's the documentation on how to implement each of the Molecule components:
 - [Autocomplete](#autocomplete)
 - [SubHeader](#sub-header)
 - [LayerApp](#layer-app)
+- [SlideDown](#slide-down)
 
 ## Input
 The ` Input` component is a powerful tool to use with `redux-form` or without it.
@@ -260,4 +261,22 @@ import YourContent from './YourContent';
 >
   <YourContent />
 </LayerApp>
+```
+
+## SlideDown
+This component is rendered at first as a single tab. When clicked it will display its content with an animation.
+
+To use it you just have to send a property named `title` with the text to display inside the tab, and feed the component with anything you want to show.
+
+If you want to show the content expanded by default send the boolean property `expanded`.
+
+Here's an example of how to implement it:
+```jsx
+import { SlideDown } from 'r12-common';
+
+// In your component
+<SlideDown title="My tab" expanded>
+  <h4>This is the content</h4>
+  <p>It will be displayed by default.</p>
+</SlideDown>
 ```
