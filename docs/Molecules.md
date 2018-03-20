@@ -270,13 +270,44 @@ To use it you just have to send a property named `title` with the text to displa
 
 If you want to show the content expanded by default send the boolean property `expanded`.
 
+Another property is `active`. This will show a blue marker on the right side of the title
+
 Here's an example of how to implement it:
 ```jsx
 import { SlideDown } from 'r12-common';
 
 // In your component
-<SlideDown title="My tab" expanded>
+<SlideDown title="My tab" expanded active>
   <h4>This is the content</h4>
   <p>It will be displayed by default.</p>
 </SlideDown>
+```
+
+## SwitchGroup
+The `SwitchGroup` component renders a horizontally aligned group of buttons. This component needs to receive an array of objects named `buttons`, and each objects can contain: `text` and `sec`. `text` is the label of the button, and `sec` is a secondary text, in a different color, shown right after the `text`.
+
+To catch the value of the selected button you need to send a function called `onClick`. The `SwitchGroup` will send the object of the button selected and its index in the array to that function.
+
+Finally, to specify which button is currently selected, you need to send the property `selected` with the index of the selected button.
+
+Here's an example:
+```jsx
+import { SwitchGroup } from 'r12-common';
+
+// Your array
+const buttons = [
+  {
+    text: 'Button 1',
+    sec: '(default)'
+  },
+  {
+    text: 'Button 2'
+  },
+  {
+    text: 'Button 3'
+  }
+];
+
+// In your component
+<SwitchGroup buttons={buttons} selected={0} onClick={(button, index) => {console.log(button, index);}} />
 ```
