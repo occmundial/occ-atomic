@@ -9,6 +9,7 @@
     "build:watch": "babel lib -w -d build",
     "lint": "eslint lib/**; exit 0",
     "lint:watch": "esw -w lib/**",
+    "prepublish": "npm run build",
     "prepare": "npm run build",
     "storybook": "start-storybook -p 9901 -c .storybook"
   },
