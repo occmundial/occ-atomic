@@ -44,7 +44,7 @@ class InputWrapper extends React.Component {
         const { value } = this.state;
         this.setState({
             error: 'Error message',
-            valid: value.length
+            valid: !!value.length
         });
         
     }
@@ -52,6 +52,20 @@ class InputWrapper extends React.Component {
     render() {
         const { error, valid } = this.state;
         const { children, type, knobs } = this.props;
+        const options = [
+            {
+                value:'1',
+                text:'Option 1'
+            },
+            {
+                value:'2',
+                text:'Option 2'
+            },
+            {
+                value:'3',
+                text:'Option 3'
+            }
+        ];
         if (type == "default") {
             return (
                 <Input
@@ -174,6 +188,7 @@ class InputWrapper extends React.Component {
                         maxLength={knobs.maxLength}
                         counter={knobs.counter}
                         type={knobs.type}
+                        options={options}
                         clear={knobs.clear}
                         disabled={knobs.disabled}
                         selectOnFocus={knobs.selectOnFocus}
@@ -196,6 +211,7 @@ const typeOptions = {
     email: 'Email',
     password: 'Password',
     textarea: 'Textarea',
+    select: 'Select',
     date: 'Date',
     number: 'Number',
     search: 'Search',

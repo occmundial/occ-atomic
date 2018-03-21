@@ -6,6 +6,7 @@ Here's the documentation on how to implement each of the Molecule components:
 - [Autocomplete](#autocomplete)
 - [SubHeader](#sub-header)
 - [LayerApp](#layer-app)
+- [SlideDown](#slide-down)
 
 ## Input
 The ` Input` component is a powerful tool to use with `redux-form` or without it.
@@ -260,4 +261,53 @@ import YourContent from './YourContent';
 >
   <YourContent />
 </LayerApp>
+```
+
+## SlideDown
+This component is rendered at first as a single tab. When clicked it will display its content with an animation.
+
+To use it you just have to send a property named `title` with the text to display inside the tab, and feed the component with anything you want to show.
+
+If you want to show the content expanded by default send the boolean property `expanded`.
+
+Another property is `active`. This will show a blue marker on the right side of the title
+
+Here's an example of how to implement it:
+```jsx
+import { SlideDown } from 'r12-common';
+
+// In your component
+<SlideDown title="My tab" expanded active>
+  <h4>This is the content</h4>
+  <p>It will be displayed by default.</p>
+</SlideDown>
+```
+
+## SwitchGroup
+The `SwitchGroup` component renders a horizontally aligned group of buttons. This component needs to receive an array of objects named `buttons`, and each objects can contain: `text` and `sec`. `text` is the label of the button, and `sec` is a secondary text, in a different color, shown right after the `text`.
+
+To catch the value of the selected button you need to send a function called `onClick`. The `SwitchGroup` will send the object of the button selected and its index in the array to that function.
+
+Finally, to specify which button is currently selected, you need to send the property `selected` with the index of the selected button.
+
+Here's an example:
+```jsx
+import { SwitchGroup } from 'r12-common';
+
+// Your array
+const buttons = [
+  {
+    text: 'Button 1',
+    sec: '(default)'
+  },
+  {
+    text: 'Button 2'
+  },
+  {
+    text: 'Button 3'
+  }
+];
+
+// In your component
+<SwitchGroup buttons={buttons} selected={0} onClick={(button, index) => {console.log(button, index);}} />
 ```
