@@ -4,6 +4,7 @@ Here's the documentation on how to implement each of the Element components:
 - [Button](#button)
 - [ButtonAlign](#button-align)
 - [Card](#card)
+- [Check](#check)
 - [Icon](#icon)
 - [Label](#label)
 - [Title](#title)
@@ -66,6 +67,26 @@ import { Card } from 'r12-common';
 </Card>
 ```
 
+## Check
+This component is a replacement for native checkboxes. It works with `redux-form` or by itself. It can receive an `onChange` function to catch the value of the `Check`.
+
+You can also set a label using the `label` property, and even put a floating text on the right, using `right`.
+
+To disable the checkbox, use the boolean property `disabled`.
+
+It can receive an `id`, a `className` or a `style` object. The `id` will be returned with the value in the `onChange` event.
+
+Here are some examples:
+```jsx
+import { Check } from 'r12-common';
+
+// In your component
+<Check id="check1" />
+<Check id="check2" label="Check with label" disabled />
+<Check id="check3" label="Label" right="Text on the right" />
+<Check id="check4" value={true} onChange={(value, id) => {console.log(value, id);}} />
+```
+
 ## Icon
 The `Icon` component receives an `iconName` property. With this property it can apply the default values for `width`, `height` and `display` of the icon in the [Icons](./Subatomic.md#icons) library, and the `icon` itself. You can user the properties `width`, `height` and `display` if you don't want to use the default values. You can also use the property `colors` to send an array of colors and ignore the default ones.
 
@@ -116,7 +137,22 @@ import { TourTip } from 'r12-common';
 
 // In your component
 <div style={{position:'relative'}}>
-  <div id="my-content" style={{width:200, height:200, background:'#000'}}>
+  <div id="my-content" style={{width:200, height:200, background:'#000'}} />
   <TourTip target="my-content" direction="right" align="bottom">This is my TourTip</TourTip>
 </div>
+```
+
+## WindowSize
+This is a HOC (Higher order component) that will return the window size (according to the established sizes in [grid](./Subatomic.md#grid)) to your component. Implementation is straightforward, just wrap your component with WindowSize and it will receive a `size` property with 'xs', 'sm', 'md' or 'lg' as its value.
+
+Here's an example:
+```jsx
+import { WindowSize } from 'r12common';
+import MyComponent from './MyComponent';
+
+export default WindowSize(MyComponent);
+
+// In 'MyComponent'
+const { size } = this.props;
+console.log(size);
 ```

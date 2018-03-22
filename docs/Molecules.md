@@ -7,6 +7,7 @@ Here's the documentation on how to implement each of the Molecule components:
 - [SubHeader](#sub-header)
 - [LayerApp](#layer-app)
 - [SlideDown](#slide-down)
+- [SwitchGroup](#switch-group)
 
 ## Input
 The ` Input` component is a powerful tool to use with `redux-form` or without it.
