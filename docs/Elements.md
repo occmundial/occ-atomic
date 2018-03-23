@@ -113,6 +113,17 @@ import { Label } from 'r12-common';
 </Label>
 ```
 
+## RangeCounter
+Use this component to display the range of a total set of items that you're currently rendering. Send a numeric value to `min` and `max` to define the range, the same goes for `total`. If you want to change the separator symbol between `min` and `max` send a string in the property `symbol`. The `type` property displays what type of elements are we counting. The `of` property is the connection between the `min` - `max` and the `total`. `RangeCounter` will add commas to your number values.
+
+Example:
+```jsx
+import { RangeCounter } from 'r12-common';
+
+// In your component
+<RangeCounter min={1} symbol=" - " max={25} of="of" total={10000} type="elements />
+```
+
 ## Title
 This component will render a heading tag with its corresponding styles. It just needs to receive the property `h` with a numeric value between 1 and 6.
 
