@@ -113,6 +113,29 @@ import { Label } from 'r12-common';
 </Label>
 ```
 
+## OrderBy
+Show this component before or after your content list. It will display a `select` with the options that you send to it in the property `options`, which is an array of objects. Each object should contain the `text` and `value` properties.
+The `OrderBy` also has the `text` and `value` properties. You can display a label at the left with the property `text`, and set a default value with the `value` property.
+
+Here's how to use it:
+```jsx
+import { OrderBy } from 'r12-common';
+
+const options = [
+  {
+    text: 'Option 1',
+    value: '1'
+  },
+  {
+    text: 'Option 2',
+    value: '2'
+  }
+];
+
+// In your component
+<OrderBy options={options} text="Order:" value='2' />
+```
+
 ## RangeCounter
 Use this component to display the range of a total set of items that you're currently rendering. Send a numeric value to `min` and `max` to define the range, the same goes for `total`. If you want to change the separator symbol between `min` and `max` send a string in the property `symbol`. The `type` property displays what type of elements are we counting. The `of` property is the connection between the `min` - `max` and the `total`. `RangeCounter` will add commas to your number values.
 
