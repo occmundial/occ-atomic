@@ -1,6 +1,7 @@
 # Elements
 Here's the documentation on how to implement each of the Element components:
 
+- [Avatar](#avatar)
 - [Button](#button)
 - [ButtonAlign](#button-align)
 - [Card](#card)
@@ -11,6 +12,21 @@ Here's the documentation on how to implement each of the Element components:
 - [TourTip](#tour-tip)
 
 To see the documentation about layout components, go to: [Layout](./Layout.md))
+
+## Avatar
+The `Avatar`, if given a URL of a picture, will display a rounded 'avatar' with the picture, but it also counts with two fallbacks.
+
+If you don't have the picture, you can use the properties `gender` or `name`. The first one will show a "proto-avatar", with a default svg image of the corresponding gender, the options are `m` and `f`. The second one will take the first two initials of the given name and render them as the avatar. Use just one of the fallbacks, if you send both the `gender` will be used.
+
+By default, the avatar will be displayed at 70px x 70px, but you can use the property `size` to define any numberic value to resize the avatar.
+
+This is an example:
+```jsx
+import { Avatar } from 'r12-common';
+
+// In your component
+<Avatar photo="{MyPhotoURL}" size={50} gender="f" />
+```
 
 ## Button
 
@@ -55,7 +71,7 @@ import { Button, ButtonAlign } from 'r12-common';
 ```
 
 ## Card
-Cards are the containers of certain relevant content, they use the level of shadow to empathize its hierarchy. It can receive two properties. By default it has a padding at the top and bottom, with the boolean property `noPadding` these padding are cancelled. The other property is `shadow`, which is related to the 6 levels of shadow in the [Shadows](./Subatomic.md#shadows) library, so it can receive a numeric value between 1 and 6.
+Cards are the containers of certain relevant content, they use the level of shadow to empathize its hierarchy. It can receive two properties. With the boolean property `noPadding` the default paddings are cancelled. The other property is `shadow`, which is related to the 6 levels of shadow in the [Shadows](./Subatomic.md#shadows) library, so it can receive a numeric value between 1 and 6.
 
 Here's an example:
 ```jsx
