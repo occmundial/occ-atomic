@@ -8,8 +8,11 @@ Here's the documentation on how to implement each of the Element components:
 - [Check](#check)
 - [Icon](#icon)
 - [Label](#label)
+- [OrderBy](#order-by)
+- [RangeCounter](#range-counter)
 - [Title](#title)
 - [TourTip](#tour-tip)
+- [WindowSize](#window-size)
 
 To see the documentation about layout components, go to: [Layout](./Layout.md))
 
