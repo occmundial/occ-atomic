@@ -8,6 +8,7 @@ Here's the documentation on how to implement each of the Molecule components:
 - [LayerApp](#layer-app)
 - [SlideDown](#slide-down)
 - [SwitchGroup](#switch-group)
+- [Pager](#pager)
 
 ## Input
 The ` Input` component is a powerful tool to use with `redux-form` or without it.
@@ -311,4 +312,31 @@ const buttons = [
 
 // In your component
 <SwitchGroup buttons={buttons} selected={0} onClick={(button, index) => {console.log(button, index);}} />
+```
+
+## Pager
+The `Pager` component will display a range of pages to select, including buttons on the sides to navigate to the previous or next page.
+
+These are the properties you can use:
+
+| Property                | Type             |Default   | Description                                                                                                     |
+| ------------------------| -----------------|----------| ----------------------------------------------------------------------------------------------------------------|
+| `pageCount`             | number (required)|10        | The total amount of pages available.                                                                            |
+| `pageRangeDisplayed`    | number (required)|2         | The number of pages visible at the center of the `Pager`.                                                       |
+| `marginPagesDisplayed`  | number (required)|3         | The number of pages visible at the left and right side of the `Pager`.                                          |
+| `previousLabel`         | string           |'Previous'| The label for the button to navigate to the previous page.                                                      |
+| `nextLabel`             | string           |'Next'    | The label for the button to navigate to the next page.                                                          |
+| `onPageChange`          | function         |          | This function will be executed when the user changes the page, it will receive an object with the selected page.|
+| `initialPage`           | number           |          | You can set which page will be selected by default.                                                             |
+| `forcePage`             | number           |          | `forcePage` will change the current selected page if you need to.                                               |
+| `disableInitialCallback`| boolean          |false     | If you don't want to call the `onPageChange` after mounting the component, you can disable the callback.        |
+| `hideNumbers`           | boolean          |false     | You can hide the numbers of the pages and just display the `previous` and `next` buttons.                       |
+| `breakLabel`            | string           |'...'     | This string will separate the page numbers in the middle with the page numbers on the sides of the pager.       |
+
+Here's an implementation example:
+```jsx
+import { Pager } from 'r12-common';
+
+// In your component
+<Pager pageCount={15} pageRangeDisplayed={3} marginPagesDisplayed={1} onPageChange={(selected) => {console.log(selected);}} />
 ```
