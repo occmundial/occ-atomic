@@ -1,0 +1,92 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AvatarContent renders correctly 1`] = `
+ShallowWrapper {
+  "complexSelector": ComplexSelector {
+    "buildPredicate": [Function],
+    "childrenOfNode": [Function],
+    "findWhereUnwrapped": [Function],
+  },
+  "length": 1,
+  "node": <div
+    className="wrap"
+  >
+    <div
+      className="cont capital"
+      style={Object {}}
+    >
+      <span>
+        J
+        D
+      </span>
+    </div>
+  </div>,
+  "nodes": Array [
+    <div
+      className="wrap"
+    >
+      <div
+        className="cont capital"
+        style={Object {}}
+      >
+        <span>
+          J
+          D
+        </span>
+      </div>
+    </div>,
+  ],
+  "options": Object {},
+  "renderer": ReactShallowRenderer {
+    "_context": Object {},
+    "_element": <AvatarContent
+      classes={
+        Object {
+          "capital": "capital",
+          "cont": "cont",
+          "f": "f",
+          "m": "m",
+          "wrap": "wrap",
+        }
+      }
+      name="John Doe"
+    />,
+    "_forcedUpdate": false,
+    "_instance": null,
+    "_newState": null,
+    "_rendered": <div
+      className="wrap"
+    >
+      <div
+        className="cont capital"
+        style={Object {}}
+      >
+        <span>
+          J
+          D
+        </span>
+      </div>
+    </div>,
+    "_rendering": false,
+    "_updater": Updater {
+      "_callbacks": Array [],
+      "_renderer": [Circular],
+    },
+    "getRenderOutput": [Function],
+    "render": [Function],
+  },
+  "root": [Circular],
+  "unrendered": <AvatarContent
+    classes={
+      Object {
+        "capital": "capital",
+        "cont": "cont",
+        "f": "f",
+        "m": "m",
+        "wrap": "wrap",
+      }
+    }
+    name="John Doe"
+  />,
+}
+`;

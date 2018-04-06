@@ -1,0 +1,95 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Avatar renders correctly 1`] = `
+ShallowWrapper {
+  "complexSelector": ComplexSelector {
+    "buildPredicate": [Function],
+    "childrenOfNode": [Function],
+    "findWhereUnwrapped": [Function],
+  },
+  "length": 1,
+  "node": <div
+    className="circle"
+    id={undefined}
+    style={undefined}
+  >
+    <Jss(AvatarContent)
+      gender={undefined}
+      name="John Doe"
+      photo={undefined}
+      size={undefined}
+    />
+  </div>,
+  "nodes": Array [
+    <div
+      className="circle"
+      id={undefined}
+      style={undefined}
+    >
+      <Jss(AvatarContent)
+        gender={undefined}
+        name="John Doe"
+        photo={undefined}
+        size={undefined}
+      />
+    </div>,
+  ],
+  "options": Object {},
+  "renderer": ReactShallowRenderer {
+    "_context": Object {},
+    "_element": <Avatar
+      classes={
+        Object {
+          "circle": "circle",
+        }
+      }
+      name="John Doe"
+    />,
+    "_forcedUpdate": false,
+    "_instance": Avatar {
+      "context": Object {},
+      "props": Object {
+        "classes": Object {
+          "circle": "circle",
+        },
+        "name": "John Doe",
+      },
+      "refs": Object {},
+      "state": null,
+      "updater": Updater {
+        "_callbacks": Array [],
+        "_renderer": [Circular],
+      },
+    },
+    "_newState": null,
+    "_rendered": <div
+      className="circle"
+      id={undefined}
+      style={undefined}
+    >
+      <Jss(AvatarContent)
+        gender={undefined}
+        name="John Doe"
+        photo={undefined}
+        size={undefined}
+      />
+    </div>,
+    "_rendering": false,
+    "_updater": Updater {
+      "_callbacks": Array [],
+      "_renderer": [Circular],
+    },
+    "getRenderOutput": [Function],
+    "render": [Function],
+  },
+  "root": [Circular],
+  "unrendered": <Avatar
+    classes={
+      Object {
+        "circle": "circle",
+      }
+    }
+    name="John Doe"
+  />,
+}
+`;
