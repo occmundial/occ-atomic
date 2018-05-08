@@ -1,0 +1,133 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card matches the snapshot 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Card
+    classes={
+      Object {
+        "card": "card",
+        "cardNoPadding": "cardNoPadding",
+        "shadow0": "shadow0",
+        "shadow1": "shadow1",
+        "shadow2": "shadow2",
+        "shadow3": "shadow3",
+        "shadow4": "shadow4",
+        "shadow5": "shadow5",
+        "shadow6": "shadow6",
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": undefined,
+      "className": "card",
+      "id": undefined,
+      "style": undefined,
+    },
+    "ref": null,
+    "rendered": null,
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": undefined,
+        "className": "card",
+        "id": undefined,
+        "style": undefined,
+      },
+      "ref": null,
+      "rendered": null,
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`CardJSS matches the snapshot 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Jss(Card) />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "classes": Object {
+        "card": "Card-card-0-1-1",
+        "cardNoPadding": "Card-cardNoPadding-0-1-2",
+        "shadow0": "Card-shadow0-0-1-3",
+        "shadow1": "Card-shadow1-0-1-4",
+        "shadow2": "Card-shadow2-0-1-5",
+        "shadow3": "Card-shadow3-0-1-6",
+        "shadow4": "Card-shadow4-0-1-7",
+        "shadow5": "Card-shadow5-0-1-8",
+        "shadow6": "Card-shadow6-0-1-9",
+      },
+    },
+    "ref": null,
+    "rendered": null,
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "classes": Object {
+          "card": "Card-card-0-1-1",
+          "cardNoPadding": "Card-cardNoPadding-0-1-2",
+          "shadow0": "Card-shadow0-0-1-3",
+          "shadow1": "Card-shadow1-0-1-4",
+          "shadow2": "Card-shadow2-0-1-5",
+          "shadow3": "Card-shadow3-0-1-6",
+          "shadow4": "Card-shadow4-0-1-7",
+          "shadow5": "Card-shadow5-0-1-8",
+          "shadow6": "Card-shadow6-0-1-9",
+        },
+      },
+      "ref": null,
+      "rendered": null,
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
