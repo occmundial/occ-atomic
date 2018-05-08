@@ -52,6 +52,12 @@
     "react-waypoint": "^8.0.0"
   },
   "jest": {
-    "setupTestFrameworkScriptFile": "./setupTests.js"
+    "setupTestFrameworkScriptFile": "./setupTests.js",
+    "collectCoverageFrom": [
+      "lib/**/*.js"
+    ],
+    "coverageReporters": [
+      "lcov"
+    ]
   }
 }
