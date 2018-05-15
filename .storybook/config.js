@@ -18,6 +18,7 @@ function loadStories() {
     require('../stories/elements/Check.js');
     require('../stories/molecules/SubHeader.js');
     require('../stories/molecules/LayerApp.js');
+    require('../stories/molecules/Pager.js');
 }
 
 configure(loadStories, module);
