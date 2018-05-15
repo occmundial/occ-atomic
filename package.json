@@ -58,6 +58,9 @@
     ],
     "coverageReporters": [
       "lcov"
+    ],
+    "roots": [
+      "<rootDir>/lib/"
     ]
   }
 }
