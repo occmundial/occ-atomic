@@ -1,0 +1,1317 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Menu matches the snapshot 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Menu
+    classes={
+      Object {
+        "@media (max-width: 767px)": "@media (max-width: 767px)",
+        "btnContainer": "btnContainer",
+        "btnMenu": "btnMenu",
+        "btnMenuOpen": "btnMenuOpen",
+        "company": "company",
+        "dropdownMenu": "dropdownMenu",
+        "dropdownMenuOpen": "dropdownMenuOpen",
+        "listAnchor": "listAnchor",
+        "menuIcon": "menuIcon",
+        "separator": "separator",
+        "signOut": "signOut",
+        "userName": "userName",
+      }
+    }
+    config={Object {}}
+    properties={
+      Array [
+        Object {
+          "propdescription": "AccesoVersionAnterior",
+        },
+      ]
+    }
+    recruiterData={
+      Object {
+        "isadmin": true,
+        "levelaccount": "Administrator",
+        "typeaccount": "OCC",
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <div
+        className="btnContainer"
+      >
+        <button
+          className="btnMenu "
+          onClick={[Function]}
+        >
+          <p
+            className="userName"
+          >
+            Diana
+          </p>
+          <i
+            className="menuIcon"
+          />
+        </button>
+        <ul
+          className="dropdownMenu "
+        >
+          <li>
+            <a
+              className="listAnchor"
+              href={NaN}
+              id="lnk-user-menu-datos-personales"
+            >
+              Datos personales
+            </a>
+          </li>
+          <li>
+            <a
+              className="listAnchor"
+              href={NaN}
+              id="lnk-user-menu-estado-cuenta"
+            >
+              Estado de cuenta
+            </a>
+          </li>
+          <li>
+            <a
+              className="listAnchor"
+              href={NaN}
+              id="lnk-user-menu-estado-cuenta"
+            >
+              Reportes de uso
+            </a>
+          </li>
+          <li>
+            <a
+              className="listAnchor"
+              href={NaN}
+              id="lnk-user-menu-cambiar-pass"
+            >
+              Cambiar contraseña
+            </a>
+          </li>
+          <li
+            className="separator"
+          />
+          <li>
+            <a
+              className="listAnchor"
+              href={undefined}
+              id="lnk-user-menu-asistencia"
+              target="_blank"
+            >
+              Ayuda
+            </a>
+          </li>
+          <li>
+            <a
+              className="listAnchor"
+              id="lnk-user-r11"
+              onClick={undefined}
+            >
+              Ir a la versión anterior
+            </a>
+          </li>
+          <li
+            className="separator"
+          />
+          <li
+            className="dropdown-cerrar-sesion"
+          >
+            <a
+              className="listAnchor signOut"
+              id="salir"
+              onClick={undefined}
+            >
+              Cerrar sesión
+            </a>
+          </li>
+        </ul>
+      </div>,
+      "className": "company",
+      "id": "CompanyMenu",
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <button
+            className="btnMenu "
+            onClick={[Function]}
+          >
+            <p
+              className="userName"
+            >
+              Diana
+            </p>
+            <i
+              className="menuIcon"
+            />
+          </button>,
+          <ul
+            className="dropdownMenu "
+          >
+            <li>
+              <a
+                className="listAnchor"
+                href={NaN}
+                id="lnk-user-menu-datos-personales"
+              >
+                Datos personales
+              </a>
+            </li>
+            <li>
+              <a
+                className="listAnchor"
+                href={NaN}
+                id="lnk-user-menu-estado-cuenta"
+              >
+                Estado de cuenta
+              </a>
+            </li>
+            <li>
+              <a
+                className="listAnchor"
+                href={NaN}
+                id="lnk-user-menu-estado-cuenta"
+              >
+                Reportes de uso
+              </a>
+            </li>
+            <li>
+              <a
+                className="listAnchor"
+                href={NaN}
+                id="lnk-user-menu-cambiar-pass"
+              >
+                Cambiar contraseña
+              </a>
+            </li>
+            <li
+              className="separator"
+            />
+            <li>
+              <a
+                className="listAnchor"
+                href={undefined}
+                id="lnk-user-menu-asistencia"
+                target="_blank"
+              >
+                Ayuda
+              </a>
+            </li>
+            <li>
+              <a
+                className="listAnchor"
+                id="lnk-user-r11"
+                onClick={undefined}
+              >
+                Ir a la versión anterior
+              </a>
+            </li>
+            <li
+              className="separator"
+            />
+            <li
+              className="dropdown-cerrar-sesion"
+            >
+              <a
+                className="listAnchor signOut"
+                id="salir"
+                onClick={undefined}
+              >
+                Cerrar sesión
+              </a>
+            </li>
+          </ul>,
+        ],
+        "className": "btnContainer",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <p
+                className="userName"
+              >
+                Diana
+              </p>,
+              <i
+                className="menuIcon"
+              />,
+            ],
+            "className": "btnMenu ",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Diana",
+                "className": "userName",
+              },
+              "ref": null,
+              "rendered": "Diana",
+              "type": "p",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "menuIcon",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "i",
+            },
+          ],
+          "type": "button",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <li>
+                <a
+                  className="listAnchor"
+                  href={NaN}
+                  id="lnk-user-menu-datos-personales"
+                >
+                  Datos personales
+                </a>
+              </li>,
+              undefined,
+              <li>
+                <a
+                  className="listAnchor"
+                  href={NaN}
+                  id="lnk-user-menu-estado-cuenta"
+                >
+                  Estado de cuenta
+                </a>
+              </li>,
+              <li>
+                <a
+                  className="listAnchor"
+                  href={NaN}
+                  id="lnk-user-menu-estado-cuenta"
+                >
+                  Reportes de uso
+                </a>
+              </li>,
+              <li>
+                <a
+                  className="listAnchor"
+                  href={NaN}
+                  id="lnk-user-menu-cambiar-pass"
+                >
+                  Cambiar contraseña
+                </a>
+              </li>,
+              <li
+                className="separator"
+              />,
+              <li>
+                <a
+                  className="listAnchor"
+                  href={undefined}
+                  id="lnk-user-menu-asistencia"
+                  target="_blank"
+                >
+                  Ayuda
+                </a>
+              </li>,
+              <li>
+                <a
+                  className="listAnchor"
+                  id="lnk-user-r11"
+                  onClick={undefined}
+                >
+                  Ir a la versión anterior
+                </a>
+              </li>,
+              <li
+                className="separator"
+              />,
+              <li
+                className="dropdown-cerrar-sesion"
+              >
+                <a
+                  className="listAnchor signOut"
+                  id="salir"
+                  onClick={undefined}
+                >
+                  Cerrar sesión
+                </a>
+              </li>,
+            ],
+            "className": "dropdownMenu ",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <a
+                  className="listAnchor"
+                  href={NaN}
+                  id="lnk-user-menu-datos-personales"
+                >
+                  Datos personales
+                </a>,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Datos personales",
+                  "className": "listAnchor",
+                  "href": NaN,
+                  "id": "lnk-user-menu-datos-personales",
+                },
+                "ref": null,
+                "rendered": "Datos personales",
+                "type": "a",
+              },
+              "type": "li",
+            },
+            undefined,
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <a
+                  className="listAnchor"
+                  href={NaN}
+                  id="lnk-user-menu-estado-cuenta"
+                >
+                  Estado de cuenta
+                </a>,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Estado de cuenta",
+                  "className": "listAnchor",
+                  "href": NaN,
+                  "id": "lnk-user-menu-estado-cuenta",
+                },
+                "ref": null,
+                "rendered": "Estado de cuenta",
+                "type": "a",
+              },
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <a
+                  className="listAnchor"
+                  href={NaN}
+                  id="lnk-user-menu-estado-cuenta"
+                >
+                  Reportes de uso
+                </a>,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Reportes de uso",
+                  "className": "listAnchor",
+                  "href": NaN,
+                  "id": "lnk-user-menu-estado-cuenta",
+                },
+                "ref": null,
+                "rendered": "Reportes de uso",
+                "type": "a",
+              },
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <a
+                  className="listAnchor"
+                  href={NaN}
+                  id="lnk-user-menu-cambiar-pass"
+                >
+                  Cambiar contraseña
+                </a>,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Cambiar contraseña",
+                  "className": "listAnchor",
+                  "href": NaN,
+                  "id": "lnk-user-menu-cambiar-pass",
+                },
+                "ref": null,
+                "rendered": "Cambiar contraseña",
+                "type": "a",
+              },
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "separator",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <a
+                  className="listAnchor"
+                  href={undefined}
+                  id="lnk-user-menu-asistencia"
+                  target="_blank"
+                >
+                  Ayuda
+                </a>,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Ayuda",
+                  "className": "listAnchor",
+                  "href": undefined,
+                  "id": "lnk-user-menu-asistencia",
+                  "target": "_blank",
+                },
+                "ref": null,
+                "rendered": "Ayuda",
+                "type": "a",
+              },
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <a
+                  className="listAnchor"
+                  id="lnk-user-r11"
+                  onClick={undefined}
+                >
+                  Ir a la versión anterior
+                </a>,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Ir a la versión anterior",
+                  "className": "listAnchor",
+                  "id": "lnk-user-r11",
+                  "onClick": undefined,
+                },
+                "ref": null,
+                "rendered": "Ir a la versión anterior",
+                "type": "a",
+              },
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "separator",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <a
+                  className="listAnchor signOut"
+                  id="salir"
+                  onClick={undefined}
+                >
+                  Cerrar sesión
+                </a>,
+                "className": "dropdown-cerrar-sesion",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Cerrar sesión",
+                  "className": "listAnchor signOut",
+                  "id": "salir",
+                  "onClick": undefined,
+                },
+                "ref": null,
+                "rendered": "Cerrar sesión",
+                "type": "a",
+              },
+              "type": "li",
+            },
+          ],
+          "type": "ul",
+        },
+      ],
+      "type": "div",
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div
+          className="btnContainer"
+        >
+          <button
+            className="btnMenu "
+            onClick={[Function]}
+          >
+            <p
+              className="userName"
+            >
+              Diana
+            </p>
+            <i
+              className="menuIcon"
+            />
+          </button>
+          <ul
+            className="dropdownMenu "
+          >
+            <li>
+              <a
+                className="listAnchor"
+                href={NaN}
+                id="lnk-user-menu-datos-personales"
+              >
+                Datos personales
+              </a>
+            </li>
+            <li>
+              <a
+                className="listAnchor"
+                href={NaN}
+                id="lnk-user-menu-estado-cuenta"
+              >
+                Estado de cuenta
+              </a>
+            </li>
+            <li>
+              <a
+                className="listAnchor"
+                href={NaN}
+                id="lnk-user-menu-estado-cuenta"
+              >
+                Reportes de uso
+              </a>
+            </li>
+            <li>
+              <a
+                className="listAnchor"
+                href={NaN}
+                id="lnk-user-menu-cambiar-pass"
+              >
+                Cambiar contraseña
+              </a>
+            </li>
+            <li
+              className="separator"
+            />
+            <li>
+              <a
+                className="listAnchor"
+                href={undefined}
+                id="lnk-user-menu-asistencia"
+                target="_blank"
+              >
+                Ayuda
+              </a>
+            </li>
+            <li>
+              <a
+                className="listAnchor"
+                id="lnk-user-r11"
+                onClick={undefined}
+              >
+                Ir a la versión anterior
+              </a>
+            </li>
+            <li
+              className="separator"
+            />
+            <li
+              className="dropdown-cerrar-sesion"
+            >
+              <a
+                className="listAnchor signOut"
+                id="salir"
+                onClick={undefined}
+              >
+                Cerrar sesión
+              </a>
+            </li>
+          </ul>
+        </div>,
+        "className": "company",
+        "id": "CompanyMenu",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <button
+              className="btnMenu "
+              onClick={[Function]}
+            >
+              <p
+                className="userName"
+              >
+                Diana
+              </p>
+              <i
+                className="menuIcon"
+              />
+            </button>,
+            <ul
+              className="dropdownMenu "
+            >
+              <li>
+                <a
+                  className="listAnchor"
+                  href={NaN}
+                  id="lnk-user-menu-datos-personales"
+                >
+                  Datos personales
+                </a>
+              </li>
+              <li>
+                <a
+                  className="listAnchor"
+                  href={NaN}
+                  id="lnk-user-menu-estado-cuenta"
+                >
+                  Estado de cuenta
+                </a>
+              </li>
+              <li>
+                <a
+                  className="listAnchor"
+                  href={NaN}
+                  id="lnk-user-menu-estado-cuenta"
+                >
+                  Reportes de uso
+                </a>
+              </li>
+              <li>
+                <a
+                  className="listAnchor"
+                  href={NaN}
+                  id="lnk-user-menu-cambiar-pass"
+                >
+                  Cambiar contraseña
+                </a>
+              </li>
+              <li
+                className="separator"
+              />
+              <li>
+                <a
+                  className="listAnchor"
+                  href={undefined}
+                  id="lnk-user-menu-asistencia"
+                  target="_blank"
+                >
+                  Ayuda
+                </a>
+              </li>
+              <li>
+                <a
+                  className="listAnchor"
+                  id="lnk-user-r11"
+                  onClick={undefined}
+                >
+                  Ir a la versión anterior
+                </a>
+              </li>
+              <li
+                className="separator"
+              />
+              <li
+                className="dropdown-cerrar-sesion"
+              >
+                <a
+                  className="listAnchor signOut"
+                  id="salir"
+                  onClick={undefined}
+                >
+                  Cerrar sesión
+                </a>
+              </li>
+            </ul>,
+          ],
+          "className": "btnContainer",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <p
+                  className="userName"
+                >
+                  Diana
+                </p>,
+                <i
+                  className="menuIcon"
+                />,
+              ],
+              "className": "btnMenu ",
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Diana",
+                  "className": "userName",
+                },
+                "ref": null,
+                "rendered": "Diana",
+                "type": "p",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "className": "menuIcon",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "i",
+              },
+            ],
+            "type": "button",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <li>
+                  <a
+                    className="listAnchor"
+                    href={NaN}
+                    id="lnk-user-menu-datos-personales"
+                  >
+                    Datos personales
+                  </a>
+                </li>,
+                undefined,
+                <li>
+                  <a
+                    className="listAnchor"
+                    href={NaN}
+                    id="lnk-user-menu-estado-cuenta"
+                  >
+                    Estado de cuenta
+                  </a>
+                </li>,
+                <li>
+                  <a
+                    className="listAnchor"
+                    href={NaN}
+                    id="lnk-user-menu-estado-cuenta"
+                  >
+                    Reportes de uso
+                  </a>
+                </li>,
+                <li>
+                  <a
+                    className="listAnchor"
+                    href={NaN}
+                    id="lnk-user-menu-cambiar-pass"
+                  >
+                    Cambiar contraseña
+                  </a>
+                </li>,
+                <li
+                  className="separator"
+                />,
+                <li>
+                  <a
+                    className="listAnchor"
+                    href={undefined}
+                    id="lnk-user-menu-asistencia"
+                    target="_blank"
+                  >
+                    Ayuda
+                  </a>
+                </li>,
+                <li>
+                  <a
+                    className="listAnchor"
+                    id="lnk-user-r11"
+                    onClick={undefined}
+                  >
+                    Ir a la versión anterior
+                  </a>
+                </li>,
+                <li
+                  className="separator"
+                />,
+                <li
+                  className="dropdown-cerrar-sesion"
+                >
+                  <a
+                    className="listAnchor signOut"
+                    id="salir"
+                    onClick={undefined}
+                  >
+                    Cerrar sesión
+                  </a>
+                </li>,
+              ],
+              "className": "dropdownMenu ",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <a
+                    className="listAnchor"
+                    href={NaN}
+                    id="lnk-user-menu-datos-personales"
+                  >
+                    Datos personales
+                  </a>,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Datos personales",
+                    "className": "listAnchor",
+                    "href": NaN,
+                    "id": "lnk-user-menu-datos-personales",
+                  },
+                  "ref": null,
+                  "rendered": "Datos personales",
+                  "type": "a",
+                },
+                "type": "li",
+              },
+              undefined,
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <a
+                    className="listAnchor"
+                    href={NaN}
+                    id="lnk-user-menu-estado-cuenta"
+                  >
+                    Estado de cuenta
+                  </a>,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Estado de cuenta",
+                    "className": "listAnchor",
+                    "href": NaN,
+                    "id": "lnk-user-menu-estado-cuenta",
+                  },
+                  "ref": null,
+                  "rendered": "Estado de cuenta",
+                  "type": "a",
+                },
+                "type": "li",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <a
+                    className="listAnchor"
+                    href={NaN}
+                    id="lnk-user-menu-estado-cuenta"
+                  >
+                    Reportes de uso
+                  </a>,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Reportes de uso",
+                    "className": "listAnchor",
+                    "href": NaN,
+                    "id": "lnk-user-menu-estado-cuenta",
+                  },
+                  "ref": null,
+                  "rendered": "Reportes de uso",
+                  "type": "a",
+                },
+                "type": "li",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <a
+                    className="listAnchor"
+                    href={NaN}
+                    id="lnk-user-menu-cambiar-pass"
+                  >
+                    Cambiar contraseña
+                  </a>,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Cambiar contraseña",
+                    "className": "listAnchor",
+                    "href": NaN,
+                    "id": "lnk-user-menu-cambiar-pass",
+                  },
+                  "ref": null,
+                  "rendered": "Cambiar contraseña",
+                  "type": "a",
+                },
+                "type": "li",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "className": "separator",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "li",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <a
+                    className="listAnchor"
+                    href={undefined}
+                    id="lnk-user-menu-asistencia"
+                    target="_blank"
+                  >
+                    Ayuda
+                  </a>,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Ayuda",
+                    "className": "listAnchor",
+                    "href": undefined,
+                    "id": "lnk-user-menu-asistencia",
+                    "target": "_blank",
+                  },
+                  "ref": null,
+                  "rendered": "Ayuda",
+                  "type": "a",
+                },
+                "type": "li",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <a
+                    className="listAnchor"
+                    id="lnk-user-r11"
+                    onClick={undefined}
+                  >
+                    Ir a la versión anterior
+                  </a>,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Ir a la versión anterior",
+                    "className": "listAnchor",
+                    "id": "lnk-user-r11",
+                    "onClick": undefined,
+                  },
+                  "ref": null,
+                  "rendered": "Ir a la versión anterior",
+                  "type": "a",
+                },
+                "type": "li",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "className": "separator",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "li",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <a
+                    className="listAnchor signOut"
+                    id="salir"
+                    onClick={undefined}
+                  >
+                    Cerrar sesión
+                  </a>,
+                  "className": "dropdown-cerrar-sesion",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Cerrar sesión",
+                    "className": "listAnchor signOut",
+                    "id": "salir",
+                    "onClick": undefined,
+                  },
+                  "ref": null,
+                  "rendered": "Cerrar sesión",
+                  "type": "a",
+                },
+                "type": "li",
+              },
+            ],
+            "type": "ul",
+          },
+        ],
+        "type": "div",
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`MenuJSS matches the snapshot 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Jss(Menu)
+    config={Object {}}
+    properties={
+      Array [
+        Object {
+          "propdescription": "AccesoVersionAnterior",
+        },
+      ]
+    }
+    recruiterData={
+      Object {
+        "isadmin": true,
+        "levelaccount": "Administrator",
+        "typeaccount": "OCC",
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "classes": Object {
+        "btnContainer": "Menu-btnContainer-0-1-2",
+        "btnMenu": "Menu-btnMenu-0-1-3",
+        "btnMenuOpen": "Menu-btnMenuOpen-0-1-4",
+        "company": "Menu-company-0-1-1",
+        "dropdownMenu": "Menu-dropdownMenu-0-1-7",
+        "dropdownMenuOpen": "Menu-dropdownMenuOpen-0-1-8",
+        "listAnchor": "Menu-listAnchor-0-1-9",
+        "menuIcon": "Menu-menuIcon-0-1-6",
+        "separator": "Menu-separator-0-1-11",
+        "signOut": "Menu-signOut-0-1-10",
+        "userName": "Menu-userName-0-1-5",
+      },
+      "config": Object {},
+      "properties": Array [
+        Object {
+          "propdescription": "AccesoVersionAnterior",
+        },
+      ],
+      "recruiterData": Object {
+        "isadmin": true,
+        "levelaccount": "Administrator",
+        "typeaccount": "OCC",
+      },
+    },
+    "ref": null,
+    "rendered": null,
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "classes": Object {
+          "btnContainer": "Menu-btnContainer-0-1-2",
+          "btnMenu": "Menu-btnMenu-0-1-3",
+          "btnMenuOpen": "Menu-btnMenuOpen-0-1-4",
+          "company": "Menu-company-0-1-1",
+          "dropdownMenu": "Menu-dropdownMenu-0-1-7",
+          "dropdownMenuOpen": "Menu-dropdownMenuOpen-0-1-8",
+          "listAnchor": "Menu-listAnchor-0-1-9",
+          "menuIcon": "Menu-menuIcon-0-1-6",
+          "separator": "Menu-separator-0-1-11",
+          "signOut": "Menu-signOut-0-1-10",
+          "userName": "Menu-userName-0-1-5",
+        },
+        "config": Object {},
+        "properties": Array [
+          Object {
+            "propdescription": "AccesoVersionAnterior",
+          },
+        ],
+        "recruiterData": Object {
+          "isadmin": true,
+          "levelaccount": "Administrator",
+          "typeaccount": "OCC",
+        },
+      },
+      "ref": null,
+      "rendered": null,
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

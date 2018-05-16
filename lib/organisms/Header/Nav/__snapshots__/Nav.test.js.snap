@@ -1,0 +1,497 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Nav matches the snapshot 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Nav
+    classes={
+      Object {
+        "@media (max-width: 767px)": "@media (max-width: 767px)",
+        "@media (min-width: 768px)": "@media (min-width: 768px)",
+        "activeItem": "activeItem",
+        "dashboard": "dashboard",
+        "listAnchor": "listAnchor",
+        "listItem": "listItem",
+        "menu": "menu",
+        "publications": "publications",
+        "talent": "talent",
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <li
+          className="listItem "
+          id="actividad"
+          onClick={undefined}
+        >
+          <i
+            className="dashboard undefined"
+          />
+          <a
+            className="listAnchor"
+          >
+            Mi actividad
+          </a>
+        </li>,
+        <li
+          className="listItem "
+          id="publicaciones"
+          onClick={undefined}
+        >
+          <i
+            className="publications undefined"
+          />
+          <a
+            className="listAnchor"
+          >
+            Publicaciones
+          </a>
+        </li>,
+        <li
+          className="listItem "
+          id="talento"
+          onClick={undefined}
+        >
+          <i
+            className="talent undefined"
+          />
+          <a
+            className="listAnchor"
+          >
+            Talento
+          </a>
+        </li>,
+      ],
+      "className": "menu",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <i
+              className="dashboard undefined"
+            />,
+            <a
+              className="listAnchor"
+            >
+              Mi actividad
+            </a>,
+          ],
+          "className": "listItem ",
+          "id": "actividad",
+          "onClick": undefined,
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": "dashboard undefined",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "i",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Mi actividad",
+              "className": "listAnchor",
+            },
+            "ref": null,
+            "rendered": "Mi actividad",
+            "type": "a",
+          },
+        ],
+        "type": "li",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <i
+              className="publications undefined"
+            />,
+            <a
+              className="listAnchor"
+            >
+              Publicaciones
+            </a>,
+          ],
+          "className": "listItem ",
+          "id": "publicaciones",
+          "onClick": undefined,
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": "publications undefined",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "i",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Publicaciones",
+              "className": "listAnchor",
+            },
+            "ref": null,
+            "rendered": "Publicaciones",
+            "type": "a",
+          },
+        ],
+        "type": "li",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <i
+              className="talent undefined"
+            />,
+            <a
+              className="listAnchor"
+            >
+              Talento
+            </a>,
+          ],
+          "className": "listItem ",
+          "id": "talento",
+          "onClick": undefined,
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": "talent undefined",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "i",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Talento",
+              "className": "listAnchor",
+            },
+            "ref": null,
+            "rendered": "Talento",
+            "type": "a",
+          },
+        ],
+        "type": "li",
+      },
+    ],
+    "type": "ul",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <li
+            className="listItem "
+            id="actividad"
+            onClick={undefined}
+          >
+            <i
+              className="dashboard undefined"
+            />
+            <a
+              className="listAnchor"
+            >
+              Mi actividad
+            </a>
+          </li>,
+          <li
+            className="listItem "
+            id="publicaciones"
+            onClick={undefined}
+          >
+            <i
+              className="publications undefined"
+            />
+            <a
+              className="listAnchor"
+            >
+              Publicaciones
+            </a>
+          </li>,
+          <li
+            className="listItem "
+            id="talento"
+            onClick={undefined}
+          >
+            <i
+              className="talent undefined"
+            />
+            <a
+              className="listAnchor"
+            >
+              Talento
+            </a>
+          </li>,
+        ],
+        "className": "menu",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <i
+                className="dashboard undefined"
+              />,
+              <a
+                className="listAnchor"
+              >
+                Mi actividad
+              </a>,
+            ],
+            "className": "listItem ",
+            "id": "actividad",
+            "onClick": undefined,
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "dashboard undefined",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "i",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Mi actividad",
+                "className": "listAnchor",
+              },
+              "ref": null,
+              "rendered": "Mi actividad",
+              "type": "a",
+            },
+          ],
+          "type": "li",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <i
+                className="publications undefined"
+              />,
+              <a
+                className="listAnchor"
+              >
+                Publicaciones
+              </a>,
+            ],
+            "className": "listItem ",
+            "id": "publicaciones",
+            "onClick": undefined,
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "publications undefined",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "i",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Publicaciones",
+                "className": "listAnchor",
+              },
+              "ref": null,
+              "rendered": "Publicaciones",
+              "type": "a",
+            },
+          ],
+          "type": "li",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <i
+                className="talent undefined"
+              />,
+              <a
+                className="listAnchor"
+              >
+                Talento
+              </a>,
+            ],
+            "className": "listItem ",
+            "id": "talento",
+            "onClick": undefined,
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "talent undefined",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "i",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Talento",
+                "className": "listAnchor",
+              },
+              "ref": null,
+              "rendered": "Talento",
+              "type": "a",
+            },
+          ],
+          "type": "li",
+        },
+      ],
+      "type": "ul",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`NavJSS matches the snapshot 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Jss(Nav) />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "classes": Object {
+        "activeItem": "Nav-activeItem-0-1-3",
+        "dashboard": "Nav-dashboard-0-1-5",
+        "icon": "Nav-icon-0-1-8",
+        "listAnchor": "Nav-listAnchor-0-1-4",
+        "listItem": "Nav-listItem-0-1-2",
+        "menu": "Nav-menu-0-1-1",
+        "publications": "Nav-publications-0-1-6",
+        "talent": "Nav-talent-0-1-7",
+      },
+    },
+    "ref": null,
+    "rendered": null,
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "classes": Object {
+          "activeItem": "Nav-activeItem-0-1-3",
+          "dashboard": "Nav-dashboard-0-1-5",
+          "icon": "Nav-icon-0-1-8",
+          "listAnchor": "Nav-listAnchor-0-1-4",
+          "listItem": "Nav-listItem-0-1-2",
+          "menu": "Nav-menu-0-1-1",
+          "publications": "Nav-publications-0-1-6",
+          "talent": "Nav-talent-0-1-7",
+        },
+      },
+      "ref": null,
+      "rendered": null,
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
