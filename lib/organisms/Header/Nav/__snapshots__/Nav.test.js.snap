@@ -5,17 +5,24 @@ ShallowWrapper {
   "length": 1,
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <Nav
+    buttons={
+      Array [
+        Object {
+          "icon": "dashboard",
+          "id": "item1",
+          "label": "Item 1",
+        },
+      ]
+    }
     classes={
       Object {
         "@media (max-width: 767px)": "@media (max-width: 767px)",
         "@media (min-width: 768px)": "@media (min-width: 768px)",
         "activeItem": "activeItem",
-        "dashboard": "dashboard",
+        "icon": "icon",
         "listAnchor": "listAnchor",
         "listItem": "listItem",
         "menu": "menu",
-        "publications": "publications",
-        "talent": "talent",
       }
     }
   />,
@@ -34,44 +41,18 @@ ShallowWrapper {
       "children": Array [
         <li
           className="listItem "
-          id="actividad"
+          id="item1"
           onClick={undefined}
         >
-          <i
-            className="dashboard undefined"
+          <Jss(Icon)
+            className="icon"
+            colors={undefined}
+            iconName="dashboard"
           />
           <a
             className="listAnchor"
           >
-            Mi actividad
-          </a>
-        </li>,
-        <li
-          className="listItem "
-          id="publicaciones"
-          onClick={undefined}
-        >
-          <i
-            className="publications undefined"
-          />
-          <a
-            className="listAnchor"
-          >
-            Publicaciones
-          </a>
-        </li>,
-        <li
-          className="listItem "
-          id="talento"
-          onClick={undefined}
-        >
-          <i
-            className="talent undefined"
-          />
-          <a
-            className="listAnchor"
-          >
-            Talento
+            Item 1
           </a>
         </li>,
       ],
@@ -81,21 +62,23 @@ ShallowWrapper {
     "rendered": Array [
       Object {
         "instance": null,
-        "key": undefined,
+        "key": "item1",
         "nodeType": "host",
         "props": Object {
           "children": Array [
-            <i
-              className="dashboard undefined"
+            <Jss(Icon)
+              className="icon"
+              colors={undefined}
+              iconName="dashboard"
             />,
             <a
               className="listAnchor"
             >
-              Mi actividad
+              Item 1
             </a>,
           ],
           "className": "listItem ",
-          "id": "actividad",
+          "id": "item1",
           "onClick": undefined,
         },
         "ref": null,
@@ -103,118 +86,26 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "host",
+            "nodeType": "class",
             "props": Object {
-              "className": "dashboard undefined",
+              "className": "icon",
+              "colors": undefined,
+              "iconName": "dashboard",
             },
             "ref": null,
             "rendered": null,
-            "type": "i",
+            "type": [Function],
           },
           Object {
             "instance": null,
             "key": undefined,
             "nodeType": "host",
             "props": Object {
-              "children": "Mi actividad",
+              "children": "Item 1",
               "className": "listAnchor",
             },
             "ref": null,
-            "rendered": "Mi actividad",
-            "type": "a",
-          },
-        ],
-        "type": "li",
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": Array [
-            <i
-              className="publications undefined"
-            />,
-            <a
-              className="listAnchor"
-            >
-              Publicaciones
-            </a>,
-          ],
-          "className": "listItem ",
-          "id": "publicaciones",
-          "onClick": undefined,
-        },
-        "ref": null,
-        "rendered": Array [
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "className": "publications undefined",
-            },
-            "ref": null,
-            "rendered": null,
-            "type": "i",
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": "Publicaciones",
-              "className": "listAnchor",
-            },
-            "ref": null,
-            "rendered": "Publicaciones",
-            "type": "a",
-          },
-        ],
-        "type": "li",
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": Array [
-            <i
-              className="talent undefined"
-            />,
-            <a
-              className="listAnchor"
-            >
-              Talento
-            </a>,
-          ],
-          "className": "listItem ",
-          "id": "talento",
-          "onClick": undefined,
-        },
-        "ref": null,
-        "rendered": Array [
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "className": "talent undefined",
-            },
-            "ref": null,
-            "rendered": null,
-            "type": "i",
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": "Talento",
-              "className": "listAnchor",
-            },
-            "ref": null,
-            "rendered": "Talento",
+            "rendered": "Item 1",
             "type": "a",
           },
         ],
@@ -232,44 +123,18 @@ ShallowWrapper {
         "children": Array [
           <li
             className="listItem "
-            id="actividad"
+            id="item1"
             onClick={undefined}
           >
-            <i
-              className="dashboard undefined"
+            <Jss(Icon)
+              className="icon"
+              colors={undefined}
+              iconName="dashboard"
             />
             <a
               className="listAnchor"
             >
-              Mi actividad
-            </a>
-          </li>,
-          <li
-            className="listItem "
-            id="publicaciones"
-            onClick={undefined}
-          >
-            <i
-              className="publications undefined"
-            />
-            <a
-              className="listAnchor"
-            >
-              Publicaciones
-            </a>
-          </li>,
-          <li
-            className="listItem "
-            id="talento"
-            onClick={undefined}
-          >
-            <i
-              className="talent undefined"
-            />
-            <a
-              className="listAnchor"
-            >
-              Talento
+              Item 1
             </a>
           </li>,
         ],
@@ -279,21 +144,23 @@ ShallowWrapper {
       "rendered": Array [
         Object {
           "instance": null,
-          "key": undefined,
+          "key": "item1",
           "nodeType": "host",
           "props": Object {
             "children": Array [
-              <i
-                className="dashboard undefined"
+              <Jss(Icon)
+                className="icon"
+                colors={undefined}
+                iconName="dashboard"
               />,
               <a
                 className="listAnchor"
               >
-                Mi actividad
+                Item 1
               </a>,
             ],
             "className": "listItem ",
-            "id": "actividad",
+            "id": "item1",
             "onClick": undefined,
           },
           "ref": null,
@@ -301,118 +168,26 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "host",
+              "nodeType": "class",
               "props": Object {
-                "className": "dashboard undefined",
+                "className": "icon",
+                "colors": undefined,
+                "iconName": "dashboard",
               },
               "ref": null,
               "rendered": null,
-              "type": "i",
+              "type": [Function],
             },
             Object {
               "instance": null,
               "key": undefined,
               "nodeType": "host",
               "props": Object {
-                "children": "Mi actividad",
+                "children": "Item 1",
                 "className": "listAnchor",
               },
               "ref": null,
-              "rendered": "Mi actividad",
-              "type": "a",
-            },
-          ],
-          "type": "li",
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": Array [
-              <i
-                className="publications undefined"
-              />,
-              <a
-                className="listAnchor"
-              >
-                Publicaciones
-              </a>,
-            ],
-            "className": "listItem ",
-            "id": "publicaciones",
-            "onClick": undefined,
-          },
-          "ref": null,
-          "rendered": Array [
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "className": "publications undefined",
-              },
-              "ref": null,
-              "rendered": null,
-              "type": "i",
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": "Publicaciones",
-                "className": "listAnchor",
-              },
-              "ref": null,
-              "rendered": "Publicaciones",
-              "type": "a",
-            },
-          ],
-          "type": "li",
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": Array [
-              <i
-                className="talent undefined"
-              />,
-              <a
-                className="listAnchor"
-              >
-                Talento
-              </a>,
-            ],
-            "className": "listItem ",
-            "id": "talento",
-            "onClick": undefined,
-          },
-          "ref": null,
-          "rendered": Array [
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "className": "talent undefined",
-              },
-              "ref": null,
-              "rendered": null,
-              "type": "i",
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": "Talento",
-                "className": "listAnchor",
-              },
-              "ref": null,
-              "rendered": "Talento",
+              "rendered": "Item 1",
               "type": "a",
             },
           ],
@@ -436,7 +211,17 @@ exports[`NavJSS matches the snapshot 1`] = `
 ShallowWrapper {
   "length": 1,
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <Jss(Nav) />,
+  Symbol(enzyme.__unrendered__): <Jss(Nav)
+    buttons={
+      Array [
+        Object {
+          "icon": "dashboard",
+          "id": "item1",
+          "label": "Item 1",
+        },
+      ]
+    }
+  />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
@@ -449,15 +234,19 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "class",
     "props": Object {
+      "buttons": Array [
+        Object {
+          "icon": "dashboard",
+          "id": "item1",
+          "label": "Item 1",
+        },
+      ],
       "classes": Object {
-        "activeItem": "Nav-activeItem-0-1-3",
-        "dashboard": "Nav-dashboard-0-1-5",
-        "icon": "Nav-icon-0-1-8",
-        "listAnchor": "Nav-listAnchor-0-1-4",
+        "activeItem": "Nav-activeItem-0-1-4",
+        "icon": "Nav-icon-0-1-3",
+        "listAnchor": "Nav-listAnchor-0-1-5",
         "listItem": "Nav-listItem-0-1-2",
         "menu": "Nav-menu-0-1-1",
-        "publications": "Nav-publications-0-1-6",
-        "talent": "Nav-talent-0-1-7",
       },
     },
     "ref": null,
@@ -470,15 +259,19 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "class",
       "props": Object {
+        "buttons": Array [
+          Object {
+            "icon": "dashboard",
+            "id": "item1",
+            "label": "Item 1",
+          },
+        ],
         "classes": Object {
-          "activeItem": "Nav-activeItem-0-1-3",
-          "dashboard": "Nav-dashboard-0-1-5",
-          "icon": "Nav-icon-0-1-8",
-          "listAnchor": "Nav-listAnchor-0-1-4",
+          "activeItem": "Nav-activeItem-0-1-4",
+          "icon": "Nav-icon-0-1-3",
+          "listAnchor": "Nav-listAnchor-0-1-5",
           "listItem": "Nav-listItem-0-1-2",
           "menu": "Nav-menu-0-1-1",
-          "publications": "Nav-publications-0-1-6",
-          "talent": "Nav-talent-0-1-7",
         },
       },
       "ref": null,

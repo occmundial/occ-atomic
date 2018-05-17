@@ -63,33 +63,10 @@ ShallowWrapper {
                   className="bubble"
                 />
               </a>
-              <Jss(Menu)
-                classes={
-                  Object {
-                    "@media (max-width: 767px)": "@media (max-width: 767px)",
-                    "@media (min-width: 1200px)": "@media (min-width: 1200px)",
-                    "bubble": "bubble",
-                    "content": "content",
-                    "master": "master",
-                    "messages": "messages",
-                    "navbar": "navbar",
-                    "separate": "separate",
-                    "shadow": "shadow",
-                    "title": "title",
-                    "user": "user",
-                  }
-                }
-                config={Object {}}
-              />
             </div>
             <Hidden
               xs={true}
-            >
-              <Jss(Nav)
-                active={undefined}
-                navigate={undefined}
-              />
-            </Hidden>
+            />
           </div>
         </div>,
         <Visible
@@ -109,12 +86,7 @@ ShallowWrapper {
             >
               <div
                 className=""
-              >
-                <Jss(Nav)
-                  active={undefined}
-                  navigate={undefined}
-                />
-              </div>
+              />
             </Waypoint>
           </div>
         </Visible>,
@@ -154,33 +126,10 @@ ShallowWrapper {
                   className="bubble"
                 />
               </a>
-              <Jss(Menu)
-                classes={
-                  Object {
-                    "@media (max-width: 767px)": "@media (max-width: 767px)",
-                    "@media (min-width: 1200px)": "@media (min-width: 1200px)",
-                    "bubble": "bubble",
-                    "content": "content",
-                    "master": "master",
-                    "messages": "messages",
-                    "navbar": "navbar",
-                    "separate": "separate",
-                    "shadow": "shadow",
-                    "title": "title",
-                    "user": "user",
-                  }
-                }
-                config={Object {}}
-              />
             </div>
             <Hidden
               xs={true}
-            >
-              <Jss(Nav)
-                active={undefined}
-                navigate={undefined}
-              />
-            </Hidden>
+            />
           </div>,
           "className": "master shadow",
         },
@@ -213,33 +162,10 @@ ShallowWrapper {
                     className="bubble"
                   />
                 </a>
-                <Jss(Menu)
-                  classes={
-                    Object {
-                      "@media (max-width: 767px)": "@media (max-width: 767px)",
-                      "@media (min-width: 1200px)": "@media (min-width: 1200px)",
-                      "bubble": "bubble",
-                      "content": "content",
-                      "master": "master",
-                      "messages": "messages",
-                      "navbar": "navbar",
-                      "separate": "separate",
-                      "shadow": "shadow",
-                      "title": "title",
-                      "user": "user",
-                    }
-                  }
-                  config={Object {}}
-                />
               </div>,
               <Hidden
                 xs={true}
-              >
-                <Jss(Nav)
-                  active={undefined}
-                  navigate={undefined}
-                />
-              </Hidden>,
+              />,
             ],
             "className": "content",
           },
@@ -297,24 +223,7 @@ ShallowWrapper {
                       className="bubble"
                     />
                   </a>,
-                  <Jss(Menu)
-                    classes={
-                      Object {
-                        "@media (max-width: 767px)": "@media (max-width: 767px)",
-                        "@media (min-width: 1200px)": "@media (min-width: 1200px)",
-                        "bubble": "bubble",
-                        "content": "content",
-                        "master": "master",
-                        "messages": "messages",
-                        "navbar": "navbar",
-                        "separate": "separate",
-                        "shadow": "shadow",
-                        "title": "title",
-                        "user": "user",
-                      }
-                    }
-                    config={Object {}}
-                  />,
+                  undefined,
                 ],
                 "className": "user",
               },
@@ -346,30 +255,7 @@ ShallowWrapper {
                   },
                   "type": "a",
                 },
-                Object {
-                  "instance": null,
-                  "key": undefined,
-                  "nodeType": "class",
-                  "props": Object {
-                    "classes": Object {
-                      "@media (max-width: 767px)": "@media (max-width: 767px)",
-                      "@media (min-width: 1200px)": "@media (min-width: 1200px)",
-                      "bubble": "bubble",
-                      "content": "content",
-                      "master": "master",
-                      "messages": "messages",
-                      "navbar": "navbar",
-                      "separate": "separate",
-                      "shadow": "shadow",
-                      "title": "title",
-                      "user": "user",
-                    },
-                    "config": Object {},
-                  },
-                  "ref": null,
-                  "rendered": null,
-                  "type": [Function],
-                },
+                undefined,
               ],
               "type": "div",
             },
@@ -378,25 +264,11 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "class",
               "props": Object {
-                "children": <Jss(Nav)
-                  active={undefined}
-                  navigate={undefined}
-                />,
+                "children": undefined,
                 "xs": true,
               },
               "ref": null,
-              "rendered": Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "class",
-                "props": Object {
-                  "active": undefined,
-                  "navigate": undefined,
-                },
-                "ref": null,
-                "rendered": null,
-                "type": [Function],
-              },
+              "rendered": null,
               "type": [Function],
             },
           ],
@@ -423,12 +295,7 @@ ShallowWrapper {
             >
               <div
                 className=""
-              >
-                <Jss(Nav)
-                  active={undefined}
-                  navigate={undefined}
-                />
-              </div>
+              />
             </Waypoint>
           </div>,
           "xs": true,
@@ -450,12 +317,7 @@ ShallowWrapper {
             >
               <div
                 className=""
-              >
-                <Jss(Nav)
-                  active={undefined}
-                  navigate={undefined}
-                />
-              </div>
+              />
             </Waypoint>,
             "className": "separate",
           },
@@ -468,12 +330,7 @@ ShallowWrapper {
               "bottomOffset": "0px",
               "children": <div
                 className=""
-              >
-                <Jss(Nav)
-                  active={undefined}
-                  navigate={undefined}
-                />
-              </div>,
+              />,
               "fireOnRapidScroll": true,
               "horizontal": false,
               "onEnter": [Function],
@@ -487,25 +344,11 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "host",
               "props": Object {
-                "children": <Jss(Nav)
-                  active={undefined}
-                  navigate={undefined}
-                />,
+                "children": undefined,
                 "className": "",
               },
               "ref": null,
-              "rendered": Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "class",
-                "props": Object {
-                  "active": undefined,
-                  "navigate": undefined,
-                },
-                "ref": null,
-                "rendered": null,
-                "type": [Function],
-              },
+              "rendered": null,
               "type": "div",
             },
             "type": [Function],
@@ -552,33 +395,10 @@ ShallowWrapper {
                     className="bubble"
                   />
                 </a>
-                <Jss(Menu)
-                  classes={
-                    Object {
-                      "@media (max-width: 767px)": "@media (max-width: 767px)",
-                      "@media (min-width: 1200px)": "@media (min-width: 1200px)",
-                      "bubble": "bubble",
-                      "content": "content",
-                      "master": "master",
-                      "messages": "messages",
-                      "navbar": "navbar",
-                      "separate": "separate",
-                      "shadow": "shadow",
-                      "title": "title",
-                      "user": "user",
-                    }
-                  }
-                  config={Object {}}
-                />
               </div>
               <Hidden
                 xs={true}
-              >
-                <Jss(Nav)
-                  active={undefined}
-                  navigate={undefined}
-                />
-              </Hidden>
+              />
             </div>
           </div>,
           <Visible
@@ -598,12 +418,7 @@ ShallowWrapper {
               >
                 <div
                   className=""
-                >
-                  <Jss(Nav)
-                    active={undefined}
-                    navigate={undefined}
-                  />
-                </div>
+                />
               </Waypoint>
             </div>
           </Visible>,
@@ -643,33 +458,10 @@ ShallowWrapper {
                     className="bubble"
                   />
                 </a>
-                <Jss(Menu)
-                  classes={
-                    Object {
-                      "@media (max-width: 767px)": "@media (max-width: 767px)",
-                      "@media (min-width: 1200px)": "@media (min-width: 1200px)",
-                      "bubble": "bubble",
-                      "content": "content",
-                      "master": "master",
-                      "messages": "messages",
-                      "navbar": "navbar",
-                      "separate": "separate",
-                      "shadow": "shadow",
-                      "title": "title",
-                      "user": "user",
-                    }
-                  }
-                  config={Object {}}
-                />
               </div>
               <Hidden
                 xs={true}
-              >
-                <Jss(Nav)
-                  active={undefined}
-                  navigate={undefined}
-                />
-              </Hidden>
+              />
             </div>,
             "className": "master shadow",
           },
@@ -702,33 +494,10 @@ ShallowWrapper {
                       className="bubble"
                     />
                   </a>
-                  <Jss(Menu)
-                    classes={
-                      Object {
-                        "@media (max-width: 767px)": "@media (max-width: 767px)",
-                        "@media (min-width: 1200px)": "@media (min-width: 1200px)",
-                        "bubble": "bubble",
-                        "content": "content",
-                        "master": "master",
-                        "messages": "messages",
-                        "navbar": "navbar",
-                        "separate": "separate",
-                        "shadow": "shadow",
-                        "title": "title",
-                        "user": "user",
-                      }
-                    }
-                    config={Object {}}
-                  />
                 </div>,
                 <Hidden
                   xs={true}
-                >
-                  <Jss(Nav)
-                    active={undefined}
-                    navigate={undefined}
-                  />
-                </Hidden>,
+                />,
               ],
               "className": "content",
             },
@@ -786,24 +555,7 @@ ShallowWrapper {
                         className="bubble"
                       />
                     </a>,
-                    <Jss(Menu)
-                      classes={
-                        Object {
-                          "@media (max-width: 767px)": "@media (max-width: 767px)",
-                          "@media (min-width: 1200px)": "@media (min-width: 1200px)",
-                          "bubble": "bubble",
-                          "content": "content",
-                          "master": "master",
-                          "messages": "messages",
-                          "navbar": "navbar",
-                          "separate": "separate",
-                          "shadow": "shadow",
-                          "title": "title",
-                          "user": "user",
-                        }
-                      }
-                      config={Object {}}
-                    />,
+                    undefined,
                   ],
                   "className": "user",
                 },
@@ -835,30 +587,7 @@ ShallowWrapper {
                     },
                     "type": "a",
                   },
-                  Object {
-                    "instance": null,
-                    "key": undefined,
-                    "nodeType": "class",
-                    "props": Object {
-                      "classes": Object {
-                        "@media (max-width: 767px)": "@media (max-width: 767px)",
-                        "@media (min-width: 1200px)": "@media (min-width: 1200px)",
-                        "bubble": "bubble",
-                        "content": "content",
-                        "master": "master",
-                        "messages": "messages",
-                        "navbar": "navbar",
-                        "separate": "separate",
-                        "shadow": "shadow",
-                        "title": "title",
-                        "user": "user",
-                      },
-                      "config": Object {},
-                    },
-                    "ref": null,
-                    "rendered": null,
-                    "type": [Function],
-                  },
+                  undefined,
                 ],
                 "type": "div",
               },
@@ -867,25 +596,11 @@ ShallowWrapper {
                 "key": undefined,
                 "nodeType": "class",
                 "props": Object {
-                  "children": <Jss(Nav)
-                    active={undefined}
-                    navigate={undefined}
-                  />,
+                  "children": undefined,
                   "xs": true,
                 },
                 "ref": null,
-                "rendered": Object {
-                  "instance": null,
-                  "key": undefined,
-                  "nodeType": "class",
-                  "props": Object {
-                    "active": undefined,
-                    "navigate": undefined,
-                  },
-                  "ref": null,
-                  "rendered": null,
-                  "type": [Function],
-                },
+                "rendered": null,
                 "type": [Function],
               },
             ],
@@ -912,12 +627,7 @@ ShallowWrapper {
               >
                 <div
                   className=""
-                >
-                  <Jss(Nav)
-                    active={undefined}
-                    navigate={undefined}
-                  />
-                </div>
+                />
               </Waypoint>
             </div>,
             "xs": true,
@@ -939,12 +649,7 @@ ShallowWrapper {
               >
                 <div
                   className=""
-                >
-                  <Jss(Nav)
-                    active={undefined}
-                    navigate={undefined}
-                  />
-                </div>
+                />
               </Waypoint>,
               "className": "separate",
             },
@@ -957,12 +662,7 @@ ShallowWrapper {
                 "bottomOffset": "0px",
                 "children": <div
                   className=""
-                >
-                  <Jss(Nav)
-                    active={undefined}
-                    navigate={undefined}
-                  />
-                </div>,
+                />,
                 "fireOnRapidScroll": true,
                 "horizontal": false,
                 "onEnter": [Function],
@@ -976,25 +676,11 @@ ShallowWrapper {
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
-                  "children": <Jss(Nav)
-                    active={undefined}
-                    navigate={undefined}
-                  />,
+                  "children": undefined,
                   "className": "",
                 },
                 "ref": null,
-                "rendered": Object {
-                  "instance": null,
-                  "key": undefined,
-                  "nodeType": "class",
-                  "props": Object {
-                    "active": undefined,
-                    "navigate": undefined,
-                  },
-                  "ref": null,
-                  "rendered": null,
-                  "type": [Function],
-                },
+                "rendered": null,
                 "type": "div",
               },
               "type": [Function],
