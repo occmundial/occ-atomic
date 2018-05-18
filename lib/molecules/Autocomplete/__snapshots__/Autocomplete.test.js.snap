@@ -1,0 +1,292 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Autocomplete matches the snapshot 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Autocomplete
+    classes={
+      Object {
+        "autoComplete": "autoComplete",
+        "droplist": "droplist",
+        "labels": "labels",
+      }
+    }
+    items={
+      Array [
+        Object {
+          "text": "Administrador",
+          "textRight": "(222)",
+        },
+        Object {
+          "text": "Administrador Sr",
+          "textRight": "(134)",
+        },
+        Object {
+          "text": "Administrador Jr",
+          "textRight": "(52)",
+        },
+        Object {
+          "text": "Administrar",
+          "textRight": "(6)",
+        },
+      ]
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <Jss(Input)
+          autoFocus={false}
+          clear={false}
+          counter={false}
+          disabled={false}
+          iconName={undefined}
+          label={undefined}
+          maxLength={100}
+          name={undefined}
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          onRef={[Function]}
+          placeholder={undefined}
+          selectOnFocus={false}
+          type="text"
+          valueProp=""
+        />,
+        "",
+        "",
+      ],
+      "className": "autoComplete",
+      "id": undefined,
+      "style": undefined,
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "autoFocus": false,
+          "clear": false,
+          "counter": false,
+          "disabled": false,
+          "iconName": undefined,
+          "label": undefined,
+          "maxLength": 100,
+          "name": undefined,
+          "onBlur": [Function],
+          "onChange": [Function],
+          "onFocus": [Function],
+          "onRef": [Function],
+          "placeholder": undefined,
+          "selectOnFocus": false,
+          "type": "text",
+          "valueProp": "",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      "",
+      "",
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <Jss(Input)
+            autoFocus={false}
+            clear={false}
+            counter={false}
+            disabled={false}
+            iconName={undefined}
+            label={undefined}
+            maxLength={100}
+            name={undefined}
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            onRef={[Function]}
+            placeholder={undefined}
+            selectOnFocus={false}
+            type="text"
+            valueProp=""
+          />,
+          "",
+          "",
+        ],
+        "className": "autoComplete",
+        "id": undefined,
+        "style": undefined,
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "autoFocus": false,
+            "clear": false,
+            "counter": false,
+            "disabled": false,
+            "iconName": undefined,
+            "label": undefined,
+            "maxLength": 100,
+            "name": undefined,
+            "onBlur": [Function],
+            "onChange": [Function],
+            "onFocus": [Function],
+            "onRef": [Function],
+            "placeholder": undefined,
+            "selectOnFocus": false,
+            "type": "text",
+            "valueProp": "",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        "",
+        "",
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`AutocompleteJSS matches the snapshot 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Jss(Autocomplete)
+    items={
+      Array [
+        Object {
+          "text": "Administrador",
+          "textRight": "(222)",
+        },
+        Object {
+          "text": "Administrador Sr",
+          "textRight": "(134)",
+        },
+        Object {
+          "text": "Administrador Jr",
+          "textRight": "(52)",
+        },
+        Object {
+          "text": "Administrar",
+          "textRight": "(6)",
+        },
+      ]
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "classes": Object {
+        "autoComplete": "Autocomplete-autoComplete-0-1-1",
+        "droplist": "Autocomplete-droplist-0-1-2",
+        "labels": "Autocomplete-labels-0-1-3",
+      },
+      "items": Array [
+        Object {
+          "text": "Administrador",
+          "textRight": "(222)",
+        },
+        Object {
+          "text": "Administrador Sr",
+          "textRight": "(134)",
+        },
+        Object {
+          "text": "Administrador Jr",
+          "textRight": "(52)",
+        },
+        Object {
+          "text": "Administrar",
+          "textRight": "(6)",
+        },
+      ],
+    },
+    "ref": null,
+    "rendered": null,
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "classes": Object {
+          "autoComplete": "Autocomplete-autoComplete-0-1-1",
+          "droplist": "Autocomplete-droplist-0-1-2",
+          "labels": "Autocomplete-labels-0-1-3",
+        },
+        "items": Array [
+          Object {
+            "text": "Administrador",
+            "textRight": "(222)",
+          },
+          Object {
+            "text": "Administrador Sr",
+            "textRight": "(134)",
+          },
+          Object {
+            "text": "Administrador Jr",
+            "textRight": "(52)",
+          },
+          Object {
+            "text": "Administrar",
+            "textRight": "(6)",
+          },
+        ],
+      },
+      "ref": null,
+      "rendered": null,
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

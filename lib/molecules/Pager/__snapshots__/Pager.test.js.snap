@@ -1,0 +1,634 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pager matches the snapshot 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Pager
+    breakLabel="..."
+    classes={
+      Object {
+        "btn": "btn",
+        "disabled": "disabled",
+        "next": "next",
+        "pager": "pager",
+        "prev": "prev",
+      }
+    }
+    disableInitialCallback={false}
+    hideNumbers={false}
+    marginPagesDisplayed={3}
+    nextLabel="Next"
+    pageCount={10}
+    pageRangeDisplayed={2}
+    previousLabel="Previous"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <li
+          className="btn prev disabled"
+          onClick={[Function]}
+          tabIndex="0"
+        >
+          <Jss(Icon)
+            colors={
+              Array [
+                "#adb4bb",
+              ]
+            }
+            iconName="arrowDown"
+          />
+           
+          Previous
+        </li>,
+        Array [
+          <Jss(Page)
+            onClick={[Function]}
+            page={1}
+            selected={true}
+          />,
+          <Jss(Page)
+            onClick={[Function]}
+            page={2}
+            selected={false}
+          />,
+          <Jss(Page)
+            onClick={[Function]}
+            page={3}
+            selected={false}
+          />,
+          <Jss(Break)
+            label="..."
+          />,
+          <Jss(Page)
+            onClick={[Function]}
+            page={8}
+            selected={false}
+          />,
+          <Jss(Page)
+            onClick={[Function]}
+            page={9}
+            selected={false}
+          />,
+          <Jss(Page)
+            onClick={[Function]}
+            page={10}
+            selected={false}
+          />,
+        ],
+        <li
+          className="btn next"
+          onClick={[Function]}
+          tabIndex="0"
+        >
+          Next
+           
+          <Jss(Icon)
+            colors={
+              Array [
+                "#adb4bb",
+              ]
+            }
+            iconName="arrowDown"
+          />
+        </li>,
+      ],
+      "className": "pager",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <Jss(Icon)
+              colors={
+                Array [
+                  "#adb4bb",
+                ]
+              }
+              iconName="arrowDown"
+            />,
+            " ",
+            "Previous",
+          ],
+          "className": "btn prev disabled",
+          "onClick": [Function],
+          "tabIndex": "0",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "colors": Array [
+                "#adb4bb",
+              ],
+              "iconName": "arrowDown",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          " ",
+          "Previous",
+        ],
+        "type": "li",
+      },
+      Object {
+        "instance": null,
+        "key": "0",
+        "nodeType": "class",
+        "props": Object {
+          "onClick": [Function],
+          "page": 1,
+          "selected": true,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "1",
+        "nodeType": "class",
+        "props": Object {
+          "onClick": [Function],
+          "page": 2,
+          "selected": false,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "2",
+        "nodeType": "class",
+        "props": Object {
+          "onClick": [Function],
+          "page": 3,
+          "selected": false,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "3",
+        "nodeType": "class",
+        "props": Object {
+          "label": "...",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "7",
+        "nodeType": "class",
+        "props": Object {
+          "onClick": [Function],
+          "page": 8,
+          "selected": false,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "8",
+        "nodeType": "class",
+        "props": Object {
+          "onClick": [Function],
+          "page": 9,
+          "selected": false,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "9",
+        "nodeType": "class",
+        "props": Object {
+          "onClick": [Function],
+          "page": 10,
+          "selected": false,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            "Next",
+            " ",
+            <Jss(Icon)
+              colors={
+                Array [
+                  "#adb4bb",
+                ]
+              }
+              iconName="arrowDown"
+            />,
+          ],
+          "className": "btn next",
+          "onClick": [Function],
+          "tabIndex": "0",
+        },
+        "ref": null,
+        "rendered": Array [
+          "Next",
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "colors": Array [
+                "#adb4bb",
+              ],
+              "iconName": "arrowDown",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": "li",
+      },
+    ],
+    "type": "ul",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <li
+            className="btn prev disabled"
+            onClick={[Function]}
+            tabIndex="0"
+          >
+            <Jss(Icon)
+              colors={
+                Array [
+                  "#adb4bb",
+                ]
+              }
+              iconName="arrowDown"
+            />
+             
+            Previous
+          </li>,
+          Array [
+            <Jss(Page)
+              onClick={[Function]}
+              page={1}
+              selected={true}
+            />,
+            <Jss(Page)
+              onClick={[Function]}
+              page={2}
+              selected={false}
+            />,
+            <Jss(Page)
+              onClick={[Function]}
+              page={3}
+              selected={false}
+            />,
+            <Jss(Break)
+              label="..."
+            />,
+            <Jss(Page)
+              onClick={[Function]}
+              page={8}
+              selected={false}
+            />,
+            <Jss(Page)
+              onClick={[Function]}
+              page={9}
+              selected={false}
+            />,
+            <Jss(Page)
+              onClick={[Function]}
+              page={10}
+              selected={false}
+            />,
+          ],
+          <li
+            className="btn next"
+            onClick={[Function]}
+            tabIndex="0"
+          >
+            Next
+             
+            <Jss(Icon)
+              colors={
+                Array [
+                  "#adb4bb",
+                ]
+              }
+              iconName="arrowDown"
+            />
+          </li>,
+        ],
+        "className": "pager",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <Jss(Icon)
+                colors={
+                  Array [
+                    "#adb4bb",
+                  ]
+                }
+                iconName="arrowDown"
+              />,
+              " ",
+              "Previous",
+            ],
+            "className": "btn prev disabled",
+            "onClick": [Function],
+            "tabIndex": "0",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "colors": Array [
+                  "#adb4bb",
+                ],
+                "iconName": "arrowDown",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            " ",
+            "Previous",
+          ],
+          "type": "li",
+        },
+        Object {
+          "instance": null,
+          "key": "0",
+          "nodeType": "class",
+          "props": Object {
+            "onClick": [Function],
+            "page": 1,
+            "selected": true,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "1",
+          "nodeType": "class",
+          "props": Object {
+            "onClick": [Function],
+            "page": 2,
+            "selected": false,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "2",
+          "nodeType": "class",
+          "props": Object {
+            "onClick": [Function],
+            "page": 3,
+            "selected": false,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "3",
+          "nodeType": "class",
+          "props": Object {
+            "label": "...",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "7",
+          "nodeType": "class",
+          "props": Object {
+            "onClick": [Function],
+            "page": 8,
+            "selected": false,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "8",
+          "nodeType": "class",
+          "props": Object {
+            "onClick": [Function],
+            "page": 9,
+            "selected": false,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "9",
+          "nodeType": "class",
+          "props": Object {
+            "onClick": [Function],
+            "page": 10,
+            "selected": false,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "Next",
+              " ",
+              <Jss(Icon)
+                colors={
+                  Array [
+                    "#adb4bb",
+                  ]
+                }
+                iconName="arrowDown"
+              />,
+            ],
+            "className": "btn next",
+            "onClick": [Function],
+            "tabIndex": "0",
+          },
+          "ref": null,
+          "rendered": Array [
+            "Next",
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "colors": Array [
+                  "#adb4bb",
+                ],
+                "iconName": "arrowDown",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": "li",
+        },
+      ],
+      "type": "ul",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`PagerJSS matches the snapshot 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Jss(Pager)
+    breakLabel="..."
+    disableInitialCallback={false}
+    hideNumbers={false}
+    marginPagesDisplayed={3}
+    nextLabel="Next"
+    pageCount={10}
+    pageRangeDisplayed={2}
+    previousLabel="Previous"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "breakLabel": "...",
+      "classes": Object {
+        "btn": "Pager-btn-0-1-2",
+        "disabled": "Pager-disabled-0-1-5",
+        "next": "Pager-next-0-1-4",
+        "pager": "Pager-pager-0-1-1",
+        "prev": "Pager-prev-0-1-3",
+      },
+      "disableInitialCallback": false,
+      "hideNumbers": false,
+      "marginPagesDisplayed": 3,
+      "nextLabel": "Next",
+      "pageCount": 10,
+      "pageRangeDisplayed": 2,
+      "previousLabel": "Previous",
+    },
+    "ref": null,
+    "rendered": null,
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "breakLabel": "...",
+        "classes": Object {
+          "btn": "Pager-btn-0-1-2",
+          "disabled": "Pager-disabled-0-1-5",
+          "next": "Pager-next-0-1-4",
+          "pager": "Pager-pager-0-1-1",
+          "prev": "Pager-prev-0-1-3",
+        },
+        "disableInitialCallback": false,
+        "hideNumbers": false,
+        "marginPagesDisplayed": 3,
+        "nextLabel": "Next",
+        "pageCount": 10,
+        "pageRangeDisplayed": 2,
+        "previousLabel": "Previous",
+      },
+      "ref": null,
+      "rendered": null,
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

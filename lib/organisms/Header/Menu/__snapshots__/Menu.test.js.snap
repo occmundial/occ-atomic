@@ -1,0 +1,503 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Menu matches the snapshot 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Menu
+    buttons={
+      Array [
+        Object {
+          "href": "http://occ.com.mx",
+          "id": "item1",
+          "label": "Item 1",
+        },
+      ]
+    }
+    classes={
+      Object {
+        "@media (max-width: 767px)": "@media (max-width: 767px)",
+        "btnContainer": "btnContainer",
+        "btnMenu": "btnMenu",
+        "btnMenuOpen": "btnMenuOpen",
+        "dropdownMenu": "dropdownMenu",
+        "dropdownMenuOpen": "dropdownMenuOpen",
+        "listAnchor": "listAnchor",
+        "menu": "menu",
+        "menuIcon": "menuIcon",
+        "separator": "separator",
+        "signOut": "signOut",
+        "userName": "userName",
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <div
+        className="btnContainer"
+      >
+        <button
+          className="btnMenu "
+          onClick={[Function]}
+        >
+          <p
+            className="userName"
+          />
+          <i
+            className="menuIcon"
+          />
+        </button>
+        <ul
+          className="dropdownMenu "
+        >
+          <li>
+            <a
+              className="listAnchor"
+              href="http://occ.com.mx"
+              id="item1"
+              label="Item 1"
+            >
+              Item 1
+            </a>
+          </li>
+        </ul>
+      </div>,
+      "className": "menu",
+      "id": undefined,
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <button
+            className="btnMenu "
+            onClick={[Function]}
+          >
+            <p
+              className="userName"
+            />
+            <i
+              className="menuIcon"
+            />
+          </button>,
+          <ul
+            className="dropdownMenu "
+          >
+            <li>
+              <a
+                className="listAnchor"
+                href="http://occ.com.mx"
+                id="item1"
+                label="Item 1"
+              >
+                Item 1
+              </a>
+            </li>
+          </ul>,
+        ],
+        "className": "btnContainer",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <p
+                className="userName"
+              />,
+              <i
+                className="menuIcon"
+              />,
+            ],
+            "className": "btnMenu ",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": undefined,
+                "className": "userName",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "p",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "menuIcon",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "i",
+            },
+          ],
+          "type": "button",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <li>
+                <a
+                  className="listAnchor"
+                  href="http://occ.com.mx"
+                  id="item1"
+                  label="Item 1"
+                >
+                  Item 1
+                </a>
+              </li>,
+            ],
+            "className": "dropdownMenu ",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": "item1",
+              "nodeType": "host",
+              "props": Object {
+                "children": <a
+                  className="listAnchor"
+                  href="http://occ.com.mx"
+                  id="item1"
+                  label="Item 1"
+                >
+                  Item 1
+                </a>,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Item 1",
+                  "className": "listAnchor",
+                  "href": "http://occ.com.mx",
+                  "id": "item1",
+                  "label": "Item 1",
+                },
+                "ref": null,
+                "rendered": "Item 1",
+                "type": "a",
+              },
+              "type": "li",
+            },
+          ],
+          "type": "ul",
+        },
+      ],
+      "type": "div",
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div
+          className="btnContainer"
+        >
+          <button
+            className="btnMenu "
+            onClick={[Function]}
+          >
+            <p
+              className="userName"
+            />
+            <i
+              className="menuIcon"
+            />
+          </button>
+          <ul
+            className="dropdownMenu "
+          >
+            <li>
+              <a
+                className="listAnchor"
+                href="http://occ.com.mx"
+                id="item1"
+                label="Item 1"
+              >
+                Item 1
+              </a>
+            </li>
+          </ul>
+        </div>,
+        "className": "menu",
+        "id": undefined,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <button
+              className="btnMenu "
+              onClick={[Function]}
+            >
+              <p
+                className="userName"
+              />
+              <i
+                className="menuIcon"
+              />
+            </button>,
+            <ul
+              className="dropdownMenu "
+            >
+              <li>
+                <a
+                  className="listAnchor"
+                  href="http://occ.com.mx"
+                  id="item1"
+                  label="Item 1"
+                >
+                  Item 1
+                </a>
+              </li>
+            </ul>,
+          ],
+          "className": "btnContainer",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <p
+                  className="userName"
+                />,
+                <i
+                  className="menuIcon"
+                />,
+              ],
+              "className": "btnMenu ",
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": undefined,
+                  "className": "userName",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "p",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "className": "menuIcon",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "i",
+              },
+            ],
+            "type": "button",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <li>
+                  <a
+                    className="listAnchor"
+                    href="http://occ.com.mx"
+                    id="item1"
+                    label="Item 1"
+                  >
+                    Item 1
+                  </a>
+                </li>,
+              ],
+              "className": "dropdownMenu ",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": "item1",
+                "nodeType": "host",
+                "props": Object {
+                  "children": <a
+                    className="listAnchor"
+                    href="http://occ.com.mx"
+                    id="item1"
+                    label="Item 1"
+                  >
+                    Item 1
+                  </a>,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Item 1",
+                    "className": "listAnchor",
+                    "href": "http://occ.com.mx",
+                    "id": "item1",
+                    "label": "Item 1",
+                  },
+                  "ref": null,
+                  "rendered": "Item 1",
+                  "type": "a",
+                },
+                "type": "li",
+              },
+            ],
+            "type": "ul",
+          },
+        ],
+        "type": "div",
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`MenuJSS matches the snapshot 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Jss(Menu)
+    buttons={
+      Array [
+        Object {
+          "href": "http://occ.com.mx",
+          "id": "item1",
+          "label": "Item 1",
+        },
+      ]
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "buttons": Array [
+        Object {
+          "href": "http://occ.com.mx",
+          "id": "item1",
+          "label": "Item 1",
+        },
+      ],
+      "classes": Object {
+        "btnContainer": "Menu-btnContainer-0-1-2",
+        "btnMenu": "Menu-btnMenu-0-1-3",
+        "btnMenuOpen": "Menu-btnMenuOpen-0-1-4",
+        "dropdownMenu": "Menu-dropdownMenu-0-1-7",
+        "dropdownMenuOpen": "Menu-dropdownMenuOpen-0-1-8",
+        "listAnchor": "Menu-listAnchor-0-1-9",
+        "menu": "Menu-menu-0-1-1",
+        "menuIcon": "Menu-menuIcon-0-1-6",
+        "separator": "Menu-separator-0-1-11",
+        "signOut": "Menu-signOut-0-1-10",
+        "userName": "Menu-userName-0-1-5",
+      },
+    },
+    "ref": null,
+    "rendered": null,
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "buttons": Array [
+          Object {
+            "href": "http://occ.com.mx",
+            "id": "item1",
+            "label": "Item 1",
+          },
+        ],
+        "classes": Object {
+          "btnContainer": "Menu-btnContainer-0-1-2",
+          "btnMenu": "Menu-btnMenu-0-1-3",
+          "btnMenuOpen": "Menu-btnMenuOpen-0-1-4",
+          "dropdownMenu": "Menu-dropdownMenu-0-1-7",
+          "dropdownMenuOpen": "Menu-dropdownMenuOpen-0-1-8",
+          "listAnchor": "Menu-listAnchor-0-1-9",
+          "menu": "Menu-menu-0-1-1",
+          "menuIcon": "Menu-menuIcon-0-1-6",
+          "separator": "Menu-separator-0-1-11",
+          "signOut": "Menu-signOut-0-1-10",
+          "userName": "Menu-userName-0-1-5",
+        },
+      },
+      "ref": null,
+      "rendered": null,
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

@@ -1,0 +1,779 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Droplist matches the snapshot 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Droplist
+    classes={
+      Object {
+        "block": "block",
+        "bold": "bold",
+        "group": "group",
+        "groupCon": "groupCon",
+        "item": "item",
+        "right": "right",
+      }
+    }
+    groups={false}
+    itemIdKey="text"
+    itemTextKey="text"
+    itemTextRightKey="textRight"
+    items={
+      Array [
+        Object {
+          "text": "Administrador",
+          "textRight": "(222)",
+        },
+        Object {
+          "text": "Administrador Sr",
+          "textRight": "(134)",
+        },
+        Object {
+          "text": "Administrador Jr",
+          "textRight": "(52)",
+        },
+        Object {
+          "text": "Administrar",
+          "textRight": "(6)",
+        },
+      ]
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="item"
+          onClick={[Function]}
+        >
+          
+          <span
+            className="bold"
+          >
+            
+          </span>
+          Administrador
+          <span
+            className="right"
+          >
+            (222)
+          </span>
+        </div>,
+        <div
+          className="item"
+          onClick={[Function]}
+        >
+          
+          <span
+            className="bold"
+          >
+            
+          </span>
+          Administrador Sr
+          <span
+            className="right"
+          >
+            (134)
+          </span>
+        </div>,
+        <div
+          className="item"
+          onClick={[Function]}
+        >
+          
+          <span
+            className="bold"
+          >
+            
+          </span>
+          Administrador Jr
+          <span
+            className="right"
+          >
+            (52)
+          </span>
+        </div>,
+        <div
+          className="item"
+          onClick={[Function]}
+        >
+          
+          <span
+            className="bold"
+          >
+            
+          </span>
+          Administrar
+          <span
+            className="right"
+          >
+            (6)
+          </span>
+        </div>,
+      ],
+      "className": "block",
+      "id": undefined,
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": "Administrador",
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            "",
+            <span
+              className="bold"
+            >
+              
+            </span>,
+            "Administrador",
+            <span
+              className="right"
+            >
+              (222)
+            </span>,
+          ],
+          "className": "item",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": Array [
+          "",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "",
+              "className": "bold",
+            },
+            "ref": null,
+            "rendered": "",
+            "type": "span",
+          },
+          "Administrador",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "(222)",
+              "className": "right",
+            },
+            "ref": null,
+            "rendered": "(222)",
+            "type": "span",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": "Administrador Sr",
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            "",
+            <span
+              className="bold"
+            >
+              
+            </span>,
+            "Administrador Sr",
+            <span
+              className="right"
+            >
+              (134)
+            </span>,
+          ],
+          "className": "item",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": Array [
+          "",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "",
+              "className": "bold",
+            },
+            "ref": null,
+            "rendered": "",
+            "type": "span",
+          },
+          "Administrador Sr",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "(134)",
+              "className": "right",
+            },
+            "ref": null,
+            "rendered": "(134)",
+            "type": "span",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": "Administrador Jr",
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            "",
+            <span
+              className="bold"
+            >
+              
+            </span>,
+            "Administrador Jr",
+            <span
+              className="right"
+            >
+              (52)
+            </span>,
+          ],
+          "className": "item",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": Array [
+          "",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "",
+              "className": "bold",
+            },
+            "ref": null,
+            "rendered": "",
+            "type": "span",
+          },
+          "Administrador Jr",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "(52)",
+              "className": "right",
+            },
+            "ref": null,
+            "rendered": "(52)",
+            "type": "span",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": "Administrar",
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            "",
+            <span
+              className="bold"
+            >
+              
+            </span>,
+            "Administrar",
+            <span
+              className="right"
+            >
+              (6)
+            </span>,
+          ],
+          "className": "item",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": Array [
+          "",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "",
+              "className": "bold",
+            },
+            "ref": null,
+            "rendered": "",
+            "type": "span",
+          },
+          "Administrar",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "(6)",
+              "className": "right",
+            },
+            "ref": null,
+            "rendered": "(6)",
+            "type": "span",
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="item"
+            onClick={[Function]}
+          >
+            
+            <span
+              className="bold"
+            >
+              
+            </span>
+            Administrador
+            <span
+              className="right"
+            >
+              (222)
+            </span>
+          </div>,
+          <div
+            className="item"
+            onClick={[Function]}
+          >
+            
+            <span
+              className="bold"
+            >
+              
+            </span>
+            Administrador Sr
+            <span
+              className="right"
+            >
+              (134)
+            </span>
+          </div>,
+          <div
+            className="item"
+            onClick={[Function]}
+          >
+            
+            <span
+              className="bold"
+            >
+              
+            </span>
+            Administrador Jr
+            <span
+              className="right"
+            >
+              (52)
+            </span>
+          </div>,
+          <div
+            className="item"
+            onClick={[Function]}
+          >
+            
+            <span
+              className="bold"
+            >
+              
+            </span>
+            Administrar
+            <span
+              className="right"
+            >
+              (6)
+            </span>
+          </div>,
+        ],
+        "className": "block",
+        "id": undefined,
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": "Administrador",
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "",
+              <span
+                className="bold"
+              >
+                
+              </span>,
+              "Administrador",
+              <span
+                className="right"
+              >
+                (222)
+              </span>,
+            ],
+            "className": "item",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": Array [
+            "",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "",
+                "className": "bold",
+              },
+              "ref": null,
+              "rendered": "",
+              "type": "span",
+            },
+            "Administrador",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "(222)",
+                "className": "right",
+              },
+              "ref": null,
+              "rendered": "(222)",
+              "type": "span",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": "Administrador Sr",
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "",
+              <span
+                className="bold"
+              >
+                
+              </span>,
+              "Administrador Sr",
+              <span
+                className="right"
+              >
+                (134)
+              </span>,
+            ],
+            "className": "item",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": Array [
+            "",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "",
+                "className": "bold",
+              },
+              "ref": null,
+              "rendered": "",
+              "type": "span",
+            },
+            "Administrador Sr",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "(134)",
+                "className": "right",
+              },
+              "ref": null,
+              "rendered": "(134)",
+              "type": "span",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": "Administrador Jr",
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "",
+              <span
+                className="bold"
+              >
+                
+              </span>,
+              "Administrador Jr",
+              <span
+                className="right"
+              >
+                (52)
+              </span>,
+            ],
+            "className": "item",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": Array [
+            "",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "",
+                "className": "bold",
+              },
+              "ref": null,
+              "rendered": "",
+              "type": "span",
+            },
+            "Administrador Jr",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "(52)",
+                "className": "right",
+              },
+              "ref": null,
+              "rendered": "(52)",
+              "type": "span",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": "Administrar",
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "",
+              <span
+                className="bold"
+              >
+                
+              </span>,
+              "Administrar",
+              <span
+                className="right"
+              >
+                (6)
+              </span>,
+            ],
+            "className": "item",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": Array [
+            "",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "",
+                "className": "bold",
+              },
+              "ref": null,
+              "rendered": "",
+              "type": "span",
+            },
+            "Administrar",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "(6)",
+                "className": "right",
+              },
+              "ref": null,
+              "rendered": "(6)",
+              "type": "span",
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`DroplistJSS matches the snapshot 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Jss(Droplist)
+    groups={false}
+    itemIdKey="text"
+    itemTextKey="text"
+    itemTextRightKey="textRight"
+    items={
+      Array [
+        Object {
+          "text": "Administrador",
+          "textRight": "(222)",
+        },
+        Object {
+          "text": "Administrador Sr",
+          "textRight": "(134)",
+        },
+        Object {
+          "text": "Administrador Jr",
+          "textRight": "(52)",
+        },
+        Object {
+          "text": "Administrar",
+          "textRight": "(6)",
+        },
+      ]
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "classes": Object {
+        "block": "Droplist-block-0-1-1",
+        "bold": "Droplist-bold-0-1-6",
+        "group": "Droplist-group-0-1-3",
+        "groupCon": "Droplist-groupCon-0-1-2",
+        "item": "Droplist-item-0-1-4",
+        "right": "Droplist-right-0-1-5",
+      },
+      "groups": false,
+      "itemIdKey": "text",
+      "itemTextKey": "text",
+      "itemTextRightKey": "textRight",
+      "items": Array [
+        Object {
+          "text": "Administrador",
+          "textRight": "(222)",
+        },
+        Object {
+          "text": "Administrador Sr",
+          "textRight": "(134)",
+        },
+        Object {
+          "text": "Administrador Jr",
+          "textRight": "(52)",
+        },
+        Object {
+          "text": "Administrar",
+          "textRight": "(6)",
+        },
+      ],
+    },
+    "ref": null,
+    "rendered": null,
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "classes": Object {
+          "block": "Droplist-block-0-1-1",
+          "bold": "Droplist-bold-0-1-6",
+          "group": "Droplist-group-0-1-3",
+          "groupCon": "Droplist-groupCon-0-1-2",
+          "item": "Droplist-item-0-1-4",
+          "right": "Droplist-right-0-1-5",
+        },
+        "groups": false,
+        "itemIdKey": "text",
+        "itemTextKey": "text",
+        "itemTextRightKey": "textRight",
+        "items": Array [
+          Object {
+            "text": "Administrador",
+            "textRight": "(222)",
+          },
+          Object {
+            "text": "Administrador Sr",
+            "textRight": "(134)",
+          },
+          Object {
+            "text": "Administrador Jr",
+            "textRight": "(52)",
+          },
+          Object {
+            "text": "Administrar",
+            "textRight": "(6)",
+          },
+        ],
+      },
+      "ref": null,
+      "rendered": null,
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

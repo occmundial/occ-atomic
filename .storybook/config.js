@@ -19,6 +19,7 @@ function loadStories() {
     require('../stories/elements/Icon.js');
     require('../stories/molecules/SubHeader.js');
     require('../stories/molecules/LayerApp.js');
+    require('../stories/molecules/Pager.js');
 }
 
 configure(loadStories, module);

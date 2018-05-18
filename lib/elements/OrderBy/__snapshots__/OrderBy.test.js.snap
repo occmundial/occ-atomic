@@ -1,0 +1,322 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OrderBy matches the snapshot 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <OrderBy
+    classes={
+      Object {
+        "select": "select",
+        "text": "text",
+        "wrap": "wrap",
+      }
+    }
+    options={
+      Array [
+        Object {
+          "text": "Option 1",
+          "value": 1,
+        },
+        Object {
+          "text": "Option 2,",
+          "value": 2,
+        },
+      ]
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <span
+          className="text"
+        />,
+        <select
+          className="select"
+          onChange={[Function]}
+          value={undefined}
+        >
+          <option
+            value={1}
+          >
+            Option 1
+          </option>
+          <option
+            value={2}
+          >
+            Option 2,
+          </option>
+        </select>,
+      ],
+      "className": "wrap",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": undefined,
+          "className": "text",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "span",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <option
+              value={1}
+            >
+              Option 1
+            </option>,
+            <option
+              value={2}
+            >
+              Option 2,
+            </option>,
+          ],
+          "className": "select",
+          "onChange": [Function],
+          "value": undefined,
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": "1",
+            "nodeType": "host",
+            "props": Object {
+              "children": "Option 1",
+              "value": 1,
+            },
+            "ref": null,
+            "rendered": "Option 1",
+            "type": "option",
+          },
+          Object {
+            "instance": null,
+            "key": "2",
+            "nodeType": "host",
+            "props": Object {
+              "children": "Option 2,",
+              "value": 2,
+            },
+            "ref": null,
+            "rendered": "Option 2,",
+            "type": "option",
+          },
+        ],
+        "type": "select",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <span
+            className="text"
+          />,
+          <select
+            className="select"
+            onChange={[Function]}
+            value={undefined}
+          >
+            <option
+              value={1}
+            >
+              Option 1
+            </option>
+            <option
+              value={2}
+            >
+              Option 2,
+            </option>
+          </select>,
+        ],
+        "className": "wrap",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": undefined,
+            "className": "text",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "span",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <option
+                value={1}
+              >
+                Option 1
+              </option>,
+              <option
+                value={2}
+              >
+                Option 2,
+              </option>,
+            ],
+            "className": "select",
+            "onChange": [Function],
+            "value": undefined,
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": "1",
+              "nodeType": "host",
+              "props": Object {
+                "children": "Option 1",
+                "value": 1,
+              },
+              "ref": null,
+              "rendered": "Option 1",
+              "type": "option",
+            },
+            Object {
+              "instance": null,
+              "key": "2",
+              "nodeType": "host",
+              "props": Object {
+                "children": "Option 2,",
+                "value": 2,
+              },
+              "ref": null,
+              "rendered": "Option 2,",
+              "type": "option",
+            },
+          ],
+          "type": "select",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`OrderByJSS matches the snapshot 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Jss(OrderBy)
+    options={
+      Array [
+        Object {
+          "text": "Option 1",
+          "value": 1,
+        },
+        Object {
+          "text": "Option 2,",
+          "value": 2,
+        },
+      ]
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "classes": Object {
+        "select": "OrderBy-select-0-1-3",
+        "text": "OrderBy-text-0-1-2",
+        "wrap": "OrderBy-wrap-0-1-1",
+      },
+      "options": Array [
+        Object {
+          "text": "Option 1",
+          "value": 1,
+        },
+        Object {
+          "text": "Option 2,",
+          "value": 2,
+        },
+      ],
+    },
+    "ref": null,
+    "rendered": null,
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "classes": Object {
+          "select": "OrderBy-select-0-1-3",
+          "text": "OrderBy-text-0-1-2",
+          "wrap": "OrderBy-wrap-0-1-1",
+        },
+        "options": Array [
+          Object {
+            "text": "Option 1",
+            "value": 1,
+          },
+          Object {
+            "text": "Option 2,",
+            "value": 2,
+          },
+        ],
+      },
+      "ref": null,
+      "rendered": null,
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
