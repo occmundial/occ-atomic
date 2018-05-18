@@ -16,6 +16,7 @@ function loadStories() {
     require('../stories/molecules/Autocomplete.js');
     require('../stories/elements/Label.js');
     require('../stories/elements/Check.js');
+    require('../stories/elements/Icon.js');
     require('../stories/molecules/SubHeader.js');
     require('../stories/molecules/LayerApp.js');
     require('../stories/molecules/Pager.js');
