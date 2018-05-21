@@ -49,8 +49,8 @@ ShallowWrapper {
             className="link"
             href="http://occ.com.mx"
             id="item1"
-            label="Item 1"
             onClick={undefined}
+            target={undefined}
           >
             Item 1
           </a>
@@ -73,8 +73,8 @@ ShallowWrapper {
               className="link"
               href="http://occ.com.mx"
               id="item1"
-              label="Item 1"
               onClick={undefined}
+              target={undefined}
             >
               Item 1
             </a>
@@ -94,8 +94,8 @@ ShallowWrapper {
                 className="link"
                 href="http://occ.com.mx"
                 id="item1"
-                label="Item 1"
                 onClick={undefined}
+                target={undefined}
               >
                 Item 1
               </a>,
@@ -114,8 +114,8 @@ ShallowWrapper {
                 "className": "link",
                 "href": "http://occ.com.mx",
                 "id": "item1",
-                "label": "Item 1",
                 "onClick": undefined,
+                "target": undefined,
               },
               "ref": null,
               "rendered": "Item 1",
@@ -146,8 +146,8 @@ ShallowWrapper {
               className="link"
               href="http://occ.com.mx"
               id="item1"
-              label="Item 1"
               onClick={undefined}
+              target={undefined}
             >
               Item 1
             </a>
@@ -170,8 +170,8 @@ ShallowWrapper {
                 className="link"
                 href="http://occ.com.mx"
                 id="item1"
-                label="Item 1"
                 onClick={undefined}
+                target={undefined}
               >
                 Item 1
               </a>
@@ -191,8 +191,8 @@ ShallowWrapper {
                   className="link"
                   href="http://occ.com.mx"
                   id="item1"
-                  label="Item 1"
                   onClick={undefined}
+                  target={undefined}
                 >
                   Item 1
                 </a>,
@@ -211,8 +211,8 @@ ShallowWrapper {
                   "className": "link",
                   "href": "http://occ.com.mx",
                   "id": "item1",
-                  "label": "Item 1",
                   "onClick": undefined,
+                  "target": undefined,
                 },
                 "ref": null,
                 "rendered": "Item 1",
