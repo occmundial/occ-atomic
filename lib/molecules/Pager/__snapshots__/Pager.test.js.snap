@@ -578,11 +578,11 @@ ShallowWrapper {
     "props": Object {
       "breakLabel": "...",
       "classes": Object {
-        "btn": "Pager-btn-0-1-2",
-        "disabled": "Pager-disabled-0-1-5",
-        "next": "Pager-next-0-1-4",
-        "pager": "Pager-pager-0-1-1",
-        "prev": "Pager-prev-0-1-3",
+        "btn": "Pager-btn-0-1-15",
+        "disabled": "Pager-disabled-0-1-18",
+        "next": "Pager-next-0-1-17",
+        "pager": "Pager-pager-0-1-14",
+        "prev": "Pager-prev-0-1-16",
       },
       "disableInitialCallback": false,
       "hideNumbers": false,
@@ -604,11 +604,11 @@ ShallowWrapper {
       "props": Object {
         "breakLabel": "...",
         "classes": Object {
-          "btn": "Pager-btn-0-1-2",
-          "disabled": "Pager-disabled-0-1-5",
-          "next": "Pager-next-0-1-4",
-          "pager": "Pager-pager-0-1-1",
-          "prev": "Pager-prev-0-1-3",
+          "btn": "Pager-btn-0-1-15",
+          "disabled": "Pager-disabled-0-1-18",
+          "next": "Pager-next-0-1-17",
+          "pager": "Pager-pager-0-1-14",
+          "prev": "Pager-prev-0-1-16",
         },
         "disableInitialCallback": false,
         "hideNumbers": false,
