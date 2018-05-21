@@ -335,11 +335,11 @@ ShallowWrapper {
     "nodeType": "class",
     "props": Object {
       "classes": Object {
-        "button": "SlideDown-button-0-1-1",
-        "content": "SlideDown-content-0-1-2",
-        "dot": "SlideDown-dot-0-1-5",
-        "hide": "SlideDown-hide-0-1-3",
-        "show": "SlideDown-show-0-1-4",
+        "button": "SlideDown-button-0-1-46",
+        "content": "SlideDown-content-0-1-47",
+        "dot": "SlideDown-dot-0-1-50",
+        "hide": "SlideDown-hide-0-1-48",
+        "show": "SlideDown-show-0-1-49",
       },
       "expanded": false,
     },
@@ -354,11 +354,11 @@ ShallowWrapper {
       "nodeType": "class",
       "props": Object {
         "classes": Object {
-          "button": "SlideDown-button-0-1-1",
-          "content": "SlideDown-content-0-1-2",
-          "dot": "SlideDown-dot-0-1-5",
-          "hide": "SlideDown-hide-0-1-3",
-          "show": "SlideDown-show-0-1-4",
+          "button": "SlideDown-button-0-1-46",
+          "content": "SlideDown-content-0-1-47",
+          "dot": "SlideDown-dot-0-1-50",
+          "hide": "SlideDown-hide-0-1-48",
+          "show": "SlideDown-show-0-1-49",
         },
         "expanded": false,
       },
