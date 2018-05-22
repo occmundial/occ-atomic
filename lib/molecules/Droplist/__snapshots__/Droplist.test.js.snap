@@ -15,8 +15,11 @@ ShallowWrapper {
         "right": "right",
       }
     }
+    groupIdKey="id"
+    groupItemsKey="items"
+    groupNameKey="text"
     groups={false}
-    itemIdKey="text"
+    itemIdKey="id"
     itemTextKey="text"
     itemTextRightKey="textRight"
     items={
@@ -699,8 +702,11 @@ ShallowWrapper {
   "length": 1,
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <Jss(Droplist)
+    groupIdKey="id"
+    groupItemsKey="items"
+    groupNameKey="text"
     groups={false}
-    itemIdKey="text"
+    itemIdKey="id"
     itemTextKey="text"
     itemTextRightKey="textRight"
     items={
@@ -744,8 +750,11 @@ ShallowWrapper {
         "item": "Droplist-item-0-1-4",
         "right": "Droplist-right-0-1-5",
       },
+      "groupIdKey": "id",
+      "groupItemsKey": "items",
+      "groupNameKey": "text",
       "groups": false,
-      "itemIdKey": "text",
+      "itemIdKey": "id",
       "itemTextKey": "text",
       "itemTextRightKey": "textRight",
       "items": Array [
@@ -785,8 +794,11 @@ ShallowWrapper {
           "item": "Droplist-item-0-1-4",
           "right": "Droplist-right-0-1-5",
         },
+        "groupIdKey": "id",
+        "groupItemsKey": "items",
+        "groupNameKey": "text",
         "groups": false,
-        "itemIdKey": "text",
+        "itemIdKey": "id",
         "itemTextKey": "text",
         "itemTextRightKey": "textRight",
         "items": Array [
