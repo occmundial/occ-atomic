@@ -550,6 +550,51 @@ ShallowWrapper {
 }
 `;
 
+exports[`Pager styles matches the snapshot 1`] = `
+Object {
+  "btn": Object {
+    "& span": Object {
+      "marginBottom": "-2px",
+    },
+    "&:hover": Object {
+      "background": "#ECECEE",
+      "borderColor": "#ECECEE",
+    },
+    "border": "1px solid #bfbfbf",
+    "borderRadius": "5px",
+    "cursor": "pointer",
+    "display": "inline-block",
+    "fontFamily": "'Open Sans', sans-serif",
+    "outline": "0",
+    "padding": "3px 13px",
+    "transition": "0.3s all",
+  },
+  "disabled": Object {
+    "opacity": "0.4",
+    "pointerEvents": "none",
+  },
+  "next": Object {
+    "& span": Object {
+      "transform": "rotate(-90deg)",
+    },
+    "marginLeft": "15px",
+  },
+  "pager": Object {
+    "color": "#727272",
+    "fontFamily": "'Open Sans', sans-serif",
+    "fontSize": "13px",
+    "listStyle": "none",
+    "paddingLeft": "0",
+  },
+  "prev": Object {
+    "& span": Object {
+      "transform": "rotate(90deg)",
+    },
+    "marginRight": "15px",
+  },
+}
+`;
+
 exports[`PagerJSS matches the snapshot 1`] = `
 ShallowWrapper {
   "length": 1,

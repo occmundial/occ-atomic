@@ -252,6 +252,53 @@ ShallowWrapper {
 }
 `;
 
+exports[`SwitchGroup styles matches the snapshot 1`] = `
+Object {
+  "active": Object {
+    "background": "#1476fb",
+    "borderColor": "#1476fb",
+    "color": "#ffffff",
+    "zIndex": "1",
+  },
+  "button": Object {
+    "&:first-child": Object {
+      "borderRadius": "15px 0 0 15px",
+    },
+    "&:hover": Object {
+      "borderColor": "#1476fb",
+      "zIndex": "1",
+    },
+    "&:last-child": Object {
+      "borderRadius": "0 15px 15px 0",
+    },
+    "&:not(:first-child)": Object {
+      "marginLeft": "-1px",
+    },
+    "background": "transparent",
+    "border": "1px solid #bfbfbf",
+    "boxSizing": "border-box",
+    "color": "#242424",
+    "cursor": "pointer",
+    "flex": "1",
+    "fontFamily": "'Open Sans', sans-serif",
+    "fontSize": "13px",
+    "height": "30px",
+    "outline": "0",
+    "overflow": "hidden",
+    "padding": "0 10px",
+    "position": "relative",
+    "textOverflow": "ellipsis",
+    "transition": "0.3s all",
+    "whiteSpace": "nowrap",
+    "zIndex": "0",
+  },
+  "sec": Object {
+    "color": "#bfbfbf",
+    "marginLeft": "3px",
+  },
+}
+`;
+
 exports[`SwitchGroupJSS matches the snapshot 1`] = `
 ShallowWrapper {
   "length": 1,

@@ -105,6 +105,51 @@ ShallowWrapper {
 }
 `;
 
+exports[`SubHeader styles matches the snapshot 1`] = `
+Object {
+  "blue": Object {
+    "background": "#1476fb",
+    "color": "#ffffff",
+  },
+  "center": Object {
+    "height": "100%",
+    "left": "50%",
+    "position": "absolute",
+    "transform": "translateX(-50%)",
+  },
+  "fixed": Object {
+    "left": "0",
+    "position": "fixed",
+    "top": "0",
+    "width": "100%",
+    "zIndex": "10",
+  },
+  "left": Object {
+    "float": "left",
+    "height": "100%",
+  },
+  "right": Object {
+    "float": "right",
+    "height": "100%",
+  },
+  "subHeader": Object {
+    "boxShadow": "0 1px 10px rgba(0, 0, 0, 0.1)",
+    "fontFamily": "'Open Sans', sans-serif",
+    "fontSize": "16px",
+    "height": "60px",
+    "padding": "0 15px",
+    "position": "relative",
+  },
+  "white": Object {
+    "background": "#ffffff",
+    "color": "#242424",
+  },
+  "wrapper": Object {
+    "height": "60px",
+  },
+}
+`;
+
 exports[`SubHeaderJSS matches the snapshot 1`] = `
 ShallowWrapper {
   "length": 1,

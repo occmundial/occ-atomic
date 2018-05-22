@@ -143,6 +143,21 @@ ShallowWrapper {
 }
 `;
 
+exports[`RangeCounter styles matches the snapshot 1`] = `
+Object {
+  "cont": Object {
+    "boxSizing": "border-box",
+    "color": "#727272",
+    "fontFamily": "'Open Sans', sans-serif",
+    "fontSize": "14px",
+    "lineHeight": "18px",
+  },
+  "num": Object {
+    "color": "#242424",
+  },
+}
+`;
+
 exports[`RangeCounterJSS matches the snapshot 1`] = `
 ShallowWrapper {
   "length": 1,

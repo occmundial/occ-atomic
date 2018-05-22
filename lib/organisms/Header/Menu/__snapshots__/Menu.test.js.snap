@@ -408,6 +408,112 @@ ShallowWrapper {
 }
 `;
 
+exports[`Menu styles matches the snapshot 1`] = `
+Object {
+  "@media (max-width: 767px)": Object {
+    "dropdownMenu": Object {
+      "width": "200px",
+    },
+  },
+  "btnContainer": Object {
+    "display": "inline-block",
+    "position": "relative",
+    "verticalAlign": "middle",
+  },
+  "btnMenu": Object {
+    "&:hover": Object {
+      "background": "#ffffff",
+      "color": "#1476fb",
+    },
+    "&:hover $menuIcon": Object {
+      "background": "url(data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgogICAgICAgICAgICAJIHZpZXdCb3g9IjAgMCAzLjEgMTMuMSIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMy4xIDEzLjE7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KICAgICAgICAgICAgPGNpcmNsZSBmaWxsPSIjMTQ3NmZiIiBjeD0iMS41IiBjeT0iMS41IiByPSIxLjUiLz4KICAgICAgICAgICAgPGNpcmNsZSBmaWxsPSIjMTQ3NmZiIiBjeD0iMS41IiBjeT0iMTEuNSIgcj0iMS41Ii8+CiAgICAgICAgICAgIDxjaXJjbGUgZmlsbD0iIzE0NzZmYiIgY3g9IjEuNSIgY3k9IjYuNSIgcj0iMS41Ii8+CiAgICAgICAgICAgIDwvc3ZnPg==) no-repeat center center",
+    },
+    "background": "none",
+    "border": "none",
+    "borderRadius": "3px",
+    "color": "#ffffff",
+    "cursor": "pointer",
+    "marginLeft": "10px",
+    "outline": "none !important",
+    "padding": "5px 10px 2px 10px",
+    "transition": "0.3s all",
+  },
+  "btnMenuOpen": Object {
+    "& $menuIcon": Object {
+      "background": "url(data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgogICAgICAgICAgICAJIHZpZXdCb3g9IjAgMCAzLjEgMTMuMSIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMy4xIDEzLjE7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KICAgICAgICAgICAgPGNpcmNsZSBmaWxsPSIjMTQ3NmZiIiBjeD0iMS41IiBjeT0iMS41IiByPSIxLjUiLz4KICAgICAgICAgICAgPGNpcmNsZSBmaWxsPSIjMTQ3NmZiIiBjeD0iMS41IiBjeT0iMTEuNSIgcj0iMS41Ii8+CiAgICAgICAgICAgIDxjaXJjbGUgZmlsbD0iIzE0NzZmYiIgY3g9IjEuNSIgY3k9IjYuNSIgcj0iMS41Ii8+CiAgICAgICAgICAgIDwvc3ZnPg==) no-repeat center center",
+    },
+    "background": "#ffffff",
+    "color": "#1476fb",
+  },
+  "dropdownMenu": Object {
+    "backgroundClip": "padding-box",
+    "backgroundColor": "#ffffff",
+    "border": "1px solid rgba(0,0,0,.15)",
+    "boxShadow": "0 6px 12px rgba(0,0,0,.175)",
+    "display": "none",
+    "float": "left",
+    "fontSize": "14px",
+    "listStyle": "none",
+    "margin": "13px 0 0 -187px",
+    "minWidth": "160px",
+    "padding": "5px 0",
+    "position": "absolute",
+    "right": "0",
+    "textAlign": "left",
+    "top": "100%",
+    "zIndex": "1000",
+  },
+  "dropdownMenuOpen": Object {
+    "display": "block",
+  },
+  "listAnchor": Object {
+    "&:hover, &:focus": Object {
+      "color": "#1476fb",
+      "textDecoration": "none",
+    },
+    "clear": "both",
+    "color": "#000",
+    "cursor": "pointer",
+    "display": "block",
+    "fontWeight": "400",
+    "lineHeight": "1.42857143",
+    "margin": "5px 0 5px 0",
+    "padding": "0 10px",
+    "textDecoration": "none",
+    "whiteSpace": "nowrap",
+  },
+  "menu": Object {
+    "cursor": "pointer !important",
+    "display": "inline-block",
+    "marginTop": "5px",
+  },
+  "menuIcon": Object {
+    "background": "url(data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgogICAgICAgICAgICAJIHZpZXdCb3g9IjAgMCAzLjEgMTMuMSIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMy4xIDEzLjE7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KICAgICAgICAgICAgPGNpcmNsZSBmaWxsPSIjRkZGRkZGIiBjeD0iMS41IiBjeT0iMS41IiByPSIxLjUiLz4KICAgICAgICAgICAgPGNpcmNsZSBmaWxsPSIjRkZGRkZGIiBjeD0iMS41IiBjeT0iMTEuNSIgcj0iMS41Ii8+CiAgICAgICAgICAgIDxjaXJjbGUgZmlsbD0iI0ZGRkZGRiIgY3g9IjEuNSIgY3k9IjYuNSIgcj0iMS41Ii8+CiAgICAgICAgICAgIDwvc3ZnPg==) no-repeat center center",
+    "display": "inline-block",
+    "height": "16px",
+    "transition": "0.3s all",
+    "width": "16px",
+  },
+  "separator": Object {
+    "background": "#ebebeb",
+    "height": "1px",
+  },
+  "signOut": Object {
+    "color": "#ff456a !important",
+    "margin": "10px 0 5px 0",
+  },
+  "userName": Object {
+    "display": "inline-block",
+    "margin": "0",
+    "maxWidth": "65px",
+    "overflow": "hidden",
+    "paddingRight": "5px",
+    "textOverflow": "ellipsis",
+    "whiteSpace": "nowrap",
+  },
+}
+`;
+
 exports[`MenuJSS matches the snapshot 1`] = `
 ShallowWrapper {
   "length": 1,

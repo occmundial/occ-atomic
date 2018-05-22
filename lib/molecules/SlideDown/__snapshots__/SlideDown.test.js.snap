@@ -315,6 +315,43 @@ ShallowWrapper {
 }
 `;
 
+exports[`SlideDown styles matches the snapshot 1`] = `
+Object {
+  "button": Object {
+    "cursor": "pointer",
+  },
+  "content": Object {
+    "transition": "0.3s all",
+  },
+  "dot": Object {
+    "&:after": Object {
+      "background": "#1476fb",
+      "borderRadius": "3px",
+      "content": "\\"\\"",
+      "display": "block",
+      "height": "5px",
+      "left": "calc(100% + 5px)",
+      "position": "absolute",
+      "top": "50%",
+      "transform": "translateY(-50%)",
+      "width": "5px",
+    },
+    "position": "relative",
+  },
+  "hide": Object {
+    "marginBottom": "35px",
+    "marginTop": "-35px",
+    "opacity": "0",
+    "pointerEvents": "none",
+  },
+  "show": Object {
+    "marginBottom": "0",
+    "marginTop": "0",
+    "opacity": "1",
+  },
+}
+`;
+
 exports[`SlideDownJSS matches the snapshot 1`] = `
 ShallowWrapper {
   "length": 1,

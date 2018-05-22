@@ -180,6 +180,25 @@ ShallowWrapper {
 }
 `;
 
+exports[`Autocomplete styles matches the snapshot 1`] = `
+Object {
+  "autoComplete": Object {
+    "position": "relative",
+  },
+  "droplist": Object {
+    "left": "0",
+    "position": "absolute",
+    "top": "49px",
+    "width": "100%",
+    "zIndex": "2",
+  },
+  "labels": Object {
+    "marginTop": "-18px",
+    "width": "100%",
+  },
+}
+`;
+
 exports[`AutocompleteJSS matches the snapshot 1`] = `
 ShallowWrapper {
   "length": 1,

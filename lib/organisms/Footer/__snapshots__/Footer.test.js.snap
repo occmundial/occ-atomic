@@ -238,6 +238,78 @@ ShallowWrapper {
 }
 `;
 
+exports[`Footer styles matches the snapshot 1`] = `
+Object {
+  "@media (max-width: 991px)": Object {
+    "footer": Object {
+      "display": "none !important",
+    },
+  },
+  "dropdownElement": Object {
+    "float": "left",
+    "listStyle": "none",
+  },
+  "dropdownLink": Object {
+    "&:hover": Object {
+      "color": "#ffffff",
+      "textDecoration": "none",
+    },
+    "color": "#cdcdcd",
+    "display": "block",
+    "lineHeight": "1.42857143",
+    "padding": "3px 18px",
+    "textDecoration": "none",
+  },
+  "dropdownMenu": Object {
+    "background": "#242424",
+    "borderRadius": "4px",
+    "bottom": "calc(100% + 10px)",
+    "boxShadow": "0 6px 12px rgba(0,0,0,.175)",
+    "display": "none",
+    "fontSize": "12px",
+    "left": "50%",
+    "listStyle": "none",
+    "minWidth": "160px",
+    "padding": "5px 0",
+    "position": "absolute",
+    "textAlign": "left",
+    "transform": "translateX(-50%)",
+    "zIndex": "2",
+  },
+  "footer": Object {
+    "backgroundColor": "#242424",
+    "color": "#cdcdcd",
+    "fontFamily": "'Nunito Sans', sans-serif",
+    "fontSize": "12px",
+    "height": "25px",
+    "margin": "0",
+    "padding": "0 40px",
+  },
+  "footerList": Object {
+    "listStyle": "none",
+    "margin": "0",
+    "padding": "4px 0 0 0",
+    "width": "auto",
+  },
+  "link": Object {
+    "&:hover": Object {
+      "color": "#ffffff",
+      "textDecoration": "none",
+    },
+    "color": "#cdcdcd",
+    "cursor": "pointer",
+    "textDecoration": "none",
+  },
+  "listElement": Object {
+    "float": "left",
+    "listStyle": "none",
+    "margin": "0 50px 0 0",
+    "padding": "0",
+    "position": "relative",
+  },
+}
+`;
+
 exports[`FooterJSS matches the snapshot 1`] = `
 ShallowWrapper {
   "length": 1,

@@ -135,6 +135,245 @@ ShallowWrapper {
 }
 `;
 
+exports[`Button styles matches the snapshot 1`] = `
+Object {
+  "@keyframes rotate": Object {
+    "from": Object {
+      "transform": "rotate(0deg)",
+    },
+    "to": Object {
+      "transform": "rotate(360deg)",
+    },
+  },
+  "block": Object {
+    "display": "block",
+    "width": "100%",
+  },
+  "blue": Object {
+    "& $icon": Object {
+      "background": [Function],
+    },
+    "&$disabled": Object {
+      "background": "#bfbfbf !important",
+      "border": "1px solid #bfbfbf !important",
+      "color": "#ffffff !important",
+    },
+    "&$loading": Object {
+      "background": "#0051bb",
+      "borderColor": "#0051bb",
+    },
+    "&:active": Object {
+      "background": "#0051bb",
+      "borderColor": "#0051bb",
+      "color": "#ffffff",
+    },
+    "&:hover": Object {
+      "background": "#0960d3",
+      "borderColor": "#0960d3",
+      "color": "#ffffff",
+    },
+    "background": "#1476fb",
+    "border": "1px solid #1476fb",
+    "color": "#ffffff",
+  },
+  "btn": Object {
+    "&:focus": Object {
+      "outline": "none",
+    },
+    "&:hover": Object {
+      "textDecoration": "none",
+    },
+    "alignItems": "flex-start",
+    "borderRadius": "5px",
+    "boxSizing": "border-box",
+    "cursor": "pointer",
+    "display": "inline-block",
+    "fontFamily": "'Open Sans', sans-serif",
+    "fontSize": "14px",
+    "fontWeight": "600",
+    "height": "30px",
+    "lineHeight": "24px",
+    "marginBottom": "0",
+    "maxWidth": "100%",
+    "padding": "0 30px",
+    "position": "relative",
+    "textAlign": "center",
+    "textDecoration": "none",
+    "touchAction": "manipulation",
+    "transition": "0.3s all",
+    "userSelect": "none",
+    "verticalAlign": "middle",
+    "whiteSpace": "nowrap",
+  },
+  "cont": Object {
+    "alignItems": "center",
+    "display": "flex",
+    "height": "100%",
+    "justifyContent": "center",
+    "width": "100%",
+  },
+  "disabled": Object {
+    "& $icon": Object {
+      "background": [Function],
+    },
+    "&:hover, &:active, &:focus": Object {
+      "background": "#bfbfbf",
+      "border": "1px solid #bfbfbf",
+      "color": "#ffffff",
+    },
+    "background": "#bfbfbf",
+    "border": "1px solid #bfbfbf",
+    "color": "#ffffff",
+    "cursor": "default",
+    "pointerEvents": "none",
+  },
+  "flat": Object {
+    "& $icon": Object {
+      "background": [Function],
+    },
+    "& $loadIcon": Object {
+      "background": "url(data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgogICAgICAgICAgICAJIHZpZXdCb3g9IjAgMCAyNCAyNCIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMjQgMjQ7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KICAgICAgICAgICAgPHN0eWxlIHR5cGU9InRleHQvY3NzIj4KICAgICAgICAgICAgCS5zdDB7ZmlsbDp1cmwoI1NWR0lEXzFfKTt9CiAgICAgICAgICAgIDwvc3R5bGU+CiAgICAgICAgICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iU1ZHSURfMV8iIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4MT0iMjEiIHkxPSIxMiIgeDI9IjMiIHkyPSIxMiI+CiAgICAgICAgICAgIAk8c3RvcCAgb2Zmc2V0PSIwLjE3NzgiIHN0eWxlPSJzdG9wLWNvbG9yOiNmZjQ1NmE7c3RvcC1vcGFjaXR5OjAiLz4KICAgICAgICAgICAgCTxzdG9wICBvZmZzZXQ9IjAuMjI3MSIgc3R5bGU9InN0b3AtY29sb3I6I2ZmNDU2YTtzdG9wLW9wYWNpdHk6MC4xIi8+CiAgICAgICAgICAgIAk8c3RvcCAgb2Zmc2V0PSIwLjMxNTciIHN0eWxlPSJzdG9wLWNvbG9yOiNmZjQ1NmE7c3RvcC1vcGFjaXR5OjAuNCIvPgogICAgICAgICAgICAJPHN0b3AgIG9mZnNldD0iMC40NTI1IiBzdHlsZT0ic3RvcC1jb2xvcjojZmY0NTZhO3N0b3Atb3BhY2l0eTowLjciLz4KICAgICAgICAgICAgCTxzdG9wICBvZmZzZXQ9IjAuNTU0NiIgc3R5bGU9InN0b3AtY29sb3I6I2ZmNDU2YSIvPgogICAgICAgICAgICAJPHN0b3AgIG9mZnNldD0iMC45Mjc4IiBzdHlsZT0ic3RvcC1jb2xvcjojZmY0NTZhIi8+CiAgICAgICAgICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgICAgICAgICAgIDxwYXRoIGNsYXNzPSJzdDAiIGQ9Ik0xOS4xLDEyYzAuMSw0LTMuMSw3LjItNy4xLDcuMlM0LjgsMTYsNC44LDEyUzgsNC44LDEyLDQuOFYzYy01LDAtOSw0LTksOXM0LDksOSw5czktNCw5LTlIMTkuMXoiLz4KICAgICAgICAgICAgPC9zdmc+) no-repeat center center",
+    },
+    "&$disabled": Object {
+      "& $icon": Object {
+        "background": [Function],
+      },
+      "& $loadIcon": Object {
+        "background": "url(data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgogICAgICAgICAgICAJIHZpZXdCb3g9IjAgMCAyNCAyNCIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMjQgMjQ7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KICAgICAgICAgICAgPHN0eWxlIHR5cGU9InRleHQvY3NzIj4KICAgICAgICAgICAgCS5zdDB7ZmlsbDp1cmwoI1NWR0lEXzFfKTt9CiAgICAgICAgICAgIDwvc3R5bGU+CiAgICAgICAgICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iU1ZHSURfMV8iIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4MT0iMjEiIHkxPSIxMiIgeDI9IjMiIHkyPSIxMiI+CiAgICAgICAgICAgIAk8c3RvcCAgb2Zmc2V0PSIwLjE3NzgiIHN0eWxlPSJzdG9wLWNvbG9yOiNiZmJmYmY7c3RvcC1vcGFjaXR5OjAiLz4KICAgICAgICAgICAgCTxzdG9wICBvZmZzZXQ9IjAuMjI3MSIgc3R5bGU9InN0b3AtY29sb3I6I2JmYmZiZjtzdG9wLW9wYWNpdHk6MC4xIi8+CiAgICAgICAgICAgIAk8c3RvcCAgb2Zmc2V0PSIwLjMxNTciIHN0eWxlPSJzdG9wLWNvbG9yOiNiZmJmYmY7c3RvcC1vcGFjaXR5OjAuNCIvPgogICAgICAgICAgICAJPHN0b3AgIG9mZnNldD0iMC40NTI1IiBzdHlsZT0ic3RvcC1jb2xvcjojYmZiZmJmO3N0b3Atb3BhY2l0eTowLjciLz4KICAgICAgICAgICAgCTxzdG9wICBvZmZzZXQ9IjAuNTU0NiIgc3R5bGU9InN0b3AtY29sb3I6I2JmYmZiZiIvPgogICAgICAgICAgICAJPHN0b3AgIG9mZnNldD0iMC45Mjc4IiBzdHlsZT0ic3RvcC1jb2xvcjojYmZiZmJmIi8+CiAgICAgICAgICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgICAgICAgICAgIDxwYXRoIGNsYXNzPSJzdDAiIGQ9Ik0xOS4xLDEyYzAuMSw0LTMuMSw3LjItNy4xLDcuMlM0LjgsMTYsNC44LDEyUzgsNC44LDEyLDQuOFYzYy01LDAtOSw0LTksOXM0LDksOSw5czktNCw5LTlIMTkuMXoiLz4KICAgICAgICAgICAgPC9zdmc+) no-repeat center center",
+      },
+      "background": "transparent !important",
+      "border": "1px solid transparent !important",
+      "color": "#bfbfbf !important",
+    },
+    "&$loading": Object {
+      "background": "#ffffff",
+      "borderColor": "#ffffff",
+    },
+    "&:active": Object {
+      "background": "#e0e0e0",
+      "borderColor": "#e0e0e0",
+      "color": "#ff456a",
+    },
+    "&:hover": Object {
+      "background": "#ebebeb",
+      "borderColor": "#ebebeb",
+      "color": "#ff456a",
+    },
+    "background": "transparent",
+    "border": "1px solid transparent",
+    "color": "#ff456a",
+  },
+  "icon": Object {
+    "display": "inline-block",
+    "height": "24px",
+    "transition": "0.3s all",
+    "width": "24px",
+  },
+  "lg": Object {
+    "& $icon": Object {
+      "height": "32px",
+      "width": "32px",
+    },
+    "fontSize": "18px",
+    "height": "46px",
+    "lineHeight": "32px",
+  },
+  "loadCont": Object {
+    "alignItems": "center",
+    "display": "flex",
+    "height": "100%",
+    "justifyContent": "center",
+    "left": "0",
+    "position": "absolute",
+    "top": "0",
+    "width": "100%",
+  },
+  "loadIcon": Object {
+    "animation": "rotate 1s infinite linear",
+    "background": "url(data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgogICAgICAgICAgICAJIHZpZXdCb3g9IjAgMCAyNCAyNCIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMjQgMjQ7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KICAgICAgICAgICAgPHN0eWxlIHR5cGU9InRleHQvY3NzIj4KICAgICAgICAgICAgCS5zdDB7ZmlsbDp1cmwoI1NWR0lEXzFfKTt9CiAgICAgICAgICAgIDwvc3R5bGU+CiAgICAgICAgICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iU1ZHSURfMV8iIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4MT0iMjEiIHkxPSIxMiIgeDI9IjMiIHkyPSIxMiI+CiAgICAgICAgICAgIAk8c3RvcCAgb2Zmc2V0PSIwLjE3NzgiIHN0eWxlPSJzdG9wLWNvbG9yOiNmZmZmZmY7c3RvcC1vcGFjaXR5OjAiLz4KICAgICAgICAgICAgCTxzdG9wICBvZmZzZXQ9IjAuMjI3MSIgc3R5bGU9InN0b3AtY29sb3I6I2ZmZmZmZjtzdG9wLW9wYWNpdHk6MC4xIi8+CiAgICAgICAgICAgIAk8c3RvcCAgb2Zmc2V0PSIwLjMxNTciIHN0eWxlPSJzdG9wLWNvbG9yOiNmZmZmZmY7c3RvcC1vcGFjaXR5OjAuNCIvPgogICAgICAgICAgICAJPHN0b3AgIG9mZnNldD0iMC40NTI1IiBzdHlsZT0ic3RvcC1jb2xvcjojZmZmZmZmO3N0b3Atb3BhY2l0eTowLjciLz4KICAgICAgICAgICAgCTxzdG9wICBvZmZzZXQ9IjAuNTU0NiIgc3R5bGU9InN0b3AtY29sb3I6I2ZmZmZmZiIvPgogICAgICAgICAgICAJPHN0b3AgIG9mZnNldD0iMC45Mjc4IiBzdHlsZT0ic3RvcC1jb2xvcjojZmZmZmZmIi8+CiAgICAgICAgICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgICAgICAgICAgIDxwYXRoIGNsYXNzPSJzdDAiIGQ9Ik0xOS4xLDEyYzAuMSw0LTMuMSw3LjItNy4xLDcuMlM0LjgsMTYsNC44LDEyUzgsNC44LDEyLDQuOFYzYy01LDAtOSw0LTksOXM0LDksOSw5czktNCw5LTlIMTkuMXoiLz4KICAgICAgICAgICAgPC9zdmc+) no-repeat center center",
+    "display": "inline-block",
+    "height": "24px",
+    "transition": "0.3s all",
+    "width": "24px",
+  },
+  "loading": Object {
+    "& $cont": Object {
+      "visibility": "hidden",
+    },
+    "pointerEvents": "none",
+  },
+  "main": Object {
+    "& $icon": Object {
+      "background": [Function],
+    },
+    "&$disabled": Object {
+      "background": "#bfbfbf !important",
+      "border": "1px solid #bfbfbf !important",
+      "color": "#ffffff !important",
+    },
+    "&$loading": Object {
+      "background": "#b81453",
+      "borderColor": "#b81453",
+    },
+    "&:active": Object {
+      "background": "#b81453",
+      "borderColor": "#b81453",
+      "color": "#ffffff",
+    },
+    "&:hover": Object {
+      "background": "#cc1f62",
+      "borderColor": "#cc1f62",
+      "color": "#ffffff",
+    },
+    "background": "#ff456a",
+    "border": "1px solid #ff456a",
+    "color": "#ffffff",
+  },
+  "md": Object {
+    "& $icon": Object {
+      "height": "28px",
+      "width": "28px",
+    },
+    "fontSize": "16px",
+    "height": "40px",
+    "lineHeight": "28px",
+  },
+  "secondary": Object {
+    "& $icon": Object {
+      "background": [Function],
+    },
+    "&$disabled": Object {
+      "background": "#bfbfbf !important",
+      "border": "1px solid #bfbfbf !important",
+      "color": "#ffffff !important",
+    },
+    "&$loading": Object {
+      "background": "#b81453",
+      "borderColor": "#b81453",
+    },
+    "&:active": Object {
+      "& $icon": Object {
+        "background": [Function],
+      },
+      "background": "#b81453",
+      "borderColor": "#b81453",
+      "color": "#ffffff",
+    },
+    "&:hover": Object {
+      "& $icon": Object {
+        "background": [Function],
+      },
+      "background": "#cc1f62",
+      "borderColor": "#cc1f62",
+      "color": "#ffffff",
+    },
+    "background": "transparent",
+    "border": "1px solid #ff456a",
+    "color": "#ff456a",
+  },
+}
+`;
+
 exports[`ButtonJSS matches the snapshot 1`] = `
 ShallowWrapper {
   "length": 1,

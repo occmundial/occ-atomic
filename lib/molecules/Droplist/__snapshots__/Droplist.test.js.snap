@@ -649,6 +649,51 @@ ShallowWrapper {
 }
 `;
 
+exports[`Droplist styles matches the snapshot 1`] = `
+Object {
+  "block": Object {
+    "background": "#ffffff",
+    "borderRadius": "0 0 5px 5px",
+    "boxShadow": "0 1px 14px rgba(0, 0, 0, 0.1)",
+    "padding": "5px 0",
+  },
+  "bold": Object {
+    "fontWeight": "700",
+  },
+  "group": Object {
+    "color": "#727272",
+    "fontFamily": "'Open Sans', sans-serif",
+    "fontSize": "11px",
+    "lineHeight": "28px",
+    "padding": "0 8px",
+  },
+  "groupCon": Object {
+    "borderBottom": "#ebebeb",
+  },
+  "item": Object {
+    "&:hover": Object {
+      "& $right": Object {
+        "color": "#ffffff",
+      },
+      "background": "#1476fb",
+      "color": "#ffffff",
+    },
+    "color": "#727272",
+    "cursor": "pointer",
+    "fontFamily": "'Open Sans', sans-serif",
+    "fontSize": "15px",
+    "lineHeight": "28px",
+    "padding": "0 8px",
+    "transition": "0.1s all",
+  },
+  "right": Object {
+    "color": "#bfbfbf",
+    "float": "right",
+    "transition": "0.1s all",
+  },
+}
+`;
+
 exports[`DroplistJSS matches the snapshot 1`] = `
 ShallowWrapper {
   "length": 1,

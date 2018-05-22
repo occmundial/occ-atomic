@@ -56,6 +56,20 @@ ShallowWrapper {
 }
 `;
 
+exports[`ButtonAlign styles matches the snapshot 1`] = `
+Object {
+  "lg": Object {
+    "marginTop": "3px",
+  },
+  "md": Object {
+    "marginTop": "9px",
+  },
+  "sm": Object {
+    "marginTop": "19px",
+  },
+}
+`;
+
 exports[`ButtonAlignJSS matches the snapshot 1`] = `
 ShallowWrapper {
   "length": 1,

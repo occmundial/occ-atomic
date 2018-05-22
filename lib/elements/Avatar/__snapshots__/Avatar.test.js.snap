@@ -95,6 +95,18 @@ ShallowWrapper {
 }
 `;
 
+exports[`Avatar styles matches the snapshot 1`] = `
+Object {
+  "circle": Object {
+    "borderRadius": "50%",
+    "height": [Function],
+    "overflow": "hidden",
+    "position": "relative",
+    "width": [Function],
+  },
+}
+`;
+
 exports[`AvatarJSS matches the snapshot 1`] = `
 ShallowWrapper {
   "length": 1,

@@ -234,6 +234,34 @@ ShallowWrapper {
 }
 `;
 
+exports[`OrderBy styles matches the snapshot 1`] = `
+Object {
+  "select": Object {
+    "appearance": "none",
+    "background": "url(data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgogICAgICAgICAgICAJIHZpZXdCb3g9IjAgMCAxMiAxMiIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMTIgMTI7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KICAgICAgICAgICAgPHBhdGggZmlsbD0iIzE0NzZmYiIgZD0iTTYsMy42aDMuMkM5LjcsMy42LDEwLDQsMTAsNC40YzAsMC4yLTAuMSwwLjQtMC4yLDAuNUw4LjYsNi4xbC0yLDJjLTAuMywwLjMtMC44LDAuMy0xLjEsMGwwLDBsLTItMkwyLjIsNQogICAgICAgICAgICAJQzEuOSw0LjcsMS44LDQuMiwyLjEsMy45YzAuMi0wLjIsMC40LTAuMywwLjYtMC4zQzIuNywzLjYsNiwzLjYsNiwzLjZ6Ii8+CiAgICAgICAgICAgIDwvc3ZnPg==) no-repeat center center",
+    "backgroundPosition": "calc(100% - 2px) 5px",
+    "backgroundSize": "12px 12px",
+    "border": "0",
+    "color": "#727272",
+    "cursor": "pointer",
+    "fontFamily": "'Open Sans', sans-serif",
+    "fontSize": "14px",
+    "marginLeft": "5px",
+    "outline": "0",
+    "paddingRight": "25px",
+    "textAlign": "right",
+  },
+  "text": Object {
+    "color": "#727272",
+    "fontFamily": "'Open Sans', sans-serif",
+    "fontSize": "14px",
+  },
+  "wrap": Object {
+    "display": "flex",
+  },
+}
+`;
+
 exports[`OrderByJSS matches the snapshot 1`] = `
 ShallowWrapper {
   "length": 1,

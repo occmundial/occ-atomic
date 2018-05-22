@@ -78,6 +78,70 @@ ShallowWrapper {
 }
 `;
 
+exports[`Label styles matches the snapshot 1`] = `
+Object {
+  "close": Object {
+    "&:after": Object {
+      "background": "url(data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgogICAgICAgICAgICAJIHZpZXdCb3g9IjAgMCAyNCAyNCIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMjQgMjQ7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KICAgICAgICAgICAgPHBvbHlnb24gZmlsbD0iI2FiYjZiZCIgcG9pbnRzPSIxOCw2LjggMTcuMiw2IDEyLDExLjIgNi44LDYgNiw2LjggMTEuMiwxMiA2LDE3LjIgNi44LDE4IDEyLDEyLjggMTcuMiwxOCAxOCwxNy4yIDEyLjgsMTIgIi8+CiAgICAgICAgICAgIDwvc3ZnPg==) no-repeat center center",
+      "content": "\\"\\"",
+      "height": "18px",
+      "left": "0",
+      "position": "absolute",
+      "top": "0",
+      "width": "18px",
+    },
+    "&:before": Object {
+      "background": "#ffffff",
+      "borderRadius": "50%",
+      "content": "\\"\\"",
+      "filter": "blur(10px)",
+      "height": "50px",
+      "left": "-16px",
+      "position": "absolute",
+      "top": "-16px",
+      "width": "50px",
+    },
+    "&:hover": Object {
+      "opacity": "1",
+    },
+    "borderRadius": "50%",
+    "cursor": "pointer",
+    "display": "block",
+    "height": "18px",
+    "opacity": "0",
+    "position": "absolute",
+    "right": "4px",
+    "top": "1px",
+    "transition": "0.3s all",
+    "width": "18px",
+  },
+  "cursor": Object {
+    "cursor": "pointer",
+  },
+  "default": Object {
+    "background": "#ffffff",
+    "borderColor": "#979797",
+    "color": "#979797",
+  },
+  "label": Object {
+    "border": "1px solid",
+    "borderRadius": "11px",
+    "boxSizing": "border-box",
+    "display": "inline-block",
+    "fontFamily": "'Open Sans', sans-serif",
+    "fontSize": "11px",
+    "fontWeight": "normal",
+    "height": "22px",
+    "lineHeight": "20px",
+    "marginRight": "5px",
+    "overflow": "hidden",
+    "padding": "0 15px",
+    "position": "relative",
+    "textAlign": "center",
+  },
+}
+`;
+
 exports[`LabelJSS matches the snapshot 1`] = `
 ShallowWrapper {
   "length": 1,
