@@ -25,18 +25,22 @@ ShallowWrapper {
     items={
       Array [
         Object {
+          "id": 1,
           "text": "Administrador",
           "textRight": "(222)",
         },
         Object {
+          "id": 2,
           "text": "Administrador Sr",
           "textRight": "(134)",
         },
         Object {
+          "id": 3,
           "text": "Administrador Jr",
           "textRight": "(52)",
         },
         Object {
+          "id": 4,
           "text": "Administrar",
           "textRight": "(6)",
         },
@@ -132,7 +136,7 @@ ShallowWrapper {
     "rendered": Array [
       Object {
         "instance": null,
-        "key": "Administrador",
+        "key": "1",
         "nodeType": "host",
         "props": Object {
           "children": Array [
@@ -185,7 +189,7 @@ ShallowWrapper {
       },
       Object {
         "instance": null,
-        "key": "Administrador Sr",
+        "key": "2",
         "nodeType": "host",
         "props": Object {
           "children": Array [
@@ -238,7 +242,7 @@ ShallowWrapper {
       },
       Object {
         "instance": null,
-        "key": "Administrador Jr",
+        "key": "3",
         "nodeType": "host",
         "props": Object {
           "children": Array [
@@ -291,7 +295,7 @@ ShallowWrapper {
       },
       Object {
         "instance": null,
-        "key": "Administrar",
+        "key": "4",
         "nodeType": "host",
         "props": Object {
           "children": Array [
@@ -428,7 +432,7 @@ ShallowWrapper {
       "rendered": Array [
         Object {
           "instance": null,
-          "key": "Administrador",
+          "key": "1",
           "nodeType": "host",
           "props": Object {
             "children": Array [
@@ -481,7 +485,7 @@ ShallowWrapper {
         },
         Object {
           "instance": null,
-          "key": "Administrador Sr",
+          "key": "2",
           "nodeType": "host",
           "props": Object {
             "children": Array [
@@ -534,7 +538,7 @@ ShallowWrapper {
         },
         Object {
           "instance": null,
-          "key": "Administrador Jr",
+          "key": "3",
           "nodeType": "host",
           "props": Object {
             "children": Array [
@@ -587,7 +591,7 @@ ShallowWrapper {
         },
         Object {
           "instance": null,
-          "key": "Administrar",
+          "key": "4",
           "nodeType": "host",
           "props": Object {
             "children": Array [
@@ -712,18 +716,22 @@ ShallowWrapper {
     items={
       Array [
         Object {
+          "id": 1,
           "text": "Administrador",
           "textRight": "(222)",
         },
         Object {
+          "id": 2,
           "text": "Administrador Sr",
           "textRight": "(134)",
         },
         Object {
+          "id": 3,
           "text": "Administrador Jr",
           "textRight": "(52)",
         },
         Object {
+          "id": 4,
           "text": "Administrar",
           "textRight": "(6)",
         },
@@ -759,18 +767,22 @@ ShallowWrapper {
       "itemTextRightKey": "textRight",
       "items": Array [
         Object {
+          "id": 1,
           "text": "Administrador",
           "textRight": "(222)",
         },
         Object {
+          "id": 2,
           "text": "Administrador Sr",
           "textRight": "(134)",
         },
         Object {
+          "id": 3,
           "text": "Administrador Jr",
           "textRight": "(52)",
         },
         Object {
+          "id": 4,
           "text": "Administrar",
           "textRight": "(6)",
         },
@@ -803,18 +815,22 @@ ShallowWrapper {
         "itemTextRightKey": "textRight",
         "items": Array [
           Object {
+            "id": 1,
             "text": "Administrador",
             "textRight": "(222)",
           },
           Object {
+            "id": 2,
             "text": "Administrador Sr",
             "textRight": "(134)",
           },
           Object {
+            "id": 3,
             "text": "Administrador Jr",
             "textRight": "(52)",
           },
           Object {
+            "id": 4,
             "text": "Administrar",
             "textRight": "(6)",
           },

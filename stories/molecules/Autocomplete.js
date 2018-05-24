@@ -28,85 +28,97 @@ class AutocompleteWrapper extends React.Component {
     render() {
         const { type, knobs } = this.props;
         const items = [
-            {
-                text: 'Administrador',
-                textRight: '(222)'
-            },
-            {
-                text: 'Administrador Sr',
-                textRight: '(134)'
-            },
-            {
-                text: 'Administrador Jr',
-                textRight: '(52)'
-            },
-            {
-                text: 'Administrar',
-                textRight: '(6)'
-            },
+            { text: 'Administrador', textRight: '(222)' },
+            { text: 'Administrador Sr', textRight: '(134)' },
+            { text: 'Administrador Jr', textRight: '(52)' },
+            { text: 'Administrar', textRight: '(6)' },
         ];
         if (type == "default") {
+            const inputProps = {
+                label: 'Label',
+                placeholder: 'Placeholder'
+            };
+            const droplistProps = {
+                items: items,
+                itemTextKey: 'text',
+                itemTextRightKey: 'textRight',
+                itemIdKey: 'text'
+            };
             return (
                 <div>
                     <Autocomplete
-                        label="Label"
-                        placeholder="Placeholder"
-                        items={items}
-                        itemTextKey="text"
-                        itemTextRightKey="textRight"
-                        itemIdKey="text"
+                        inputProps={inputProps}
+                        droplistProps={droplistProps}
                         onChange={this.onChange}
                     />
                 </div>
             );
         } else if (type == "item") {
+            const inputProps = {
+                label: 'Label',
+                placeholder: 'Placeholder'
+            };
+            const droplistProps = {
+                items: items,
+                itemTextKey: 'text',
+                itemTextRightKey: 'textRight',
+                itemIdKey: 'text'
+            };
             return (
                 <div>
                     <Autocomplete
-                        label="Label"
-                        placeholder="Placeholder"
-                        items={items}
-                        itemTextKey="text"
-                        itemTextRightKey="textRight"
-                        itemIdKey="text"
+                        inputProps={inputProps}
+                        droplistProps={droplistProps}
                         onClick={this.onClick}
                     />
                 </div>
             );
         } else if (type == "stack") {
+            const inputProps = {
+                label: 'Label',
+                placeholder: 'Placeholder'
+            };
+            const droplistProps = {
+                items: items,
+                itemTextKey: 'text',
+                itemTextRightKey: 'textRight',
+                itemIdKey: 'text'
+            };
             return (
                 <div>
                     <Autocomplete
-                        label="Label"
-                        placeholder="Placeholder"
-                        limitPlaceholder="Limit of 2 options"
-                        items={items}
-                        itemTextKey="text"
-                        itemTextRightKey="textRight"
-                        itemIdKey="text"
-                        onClick={this.onClick}
+                        inputProps={inputProps}
+                        droplistProps={droplistProps}
                         stackLabels
                         limit={2}
+                        limitPlaceholder="Limit of 2 options"
+                        onClick={this.onClick}
                     />
                 </div>
             );
         } else if (type == "playground") {
+            const inputProps = {
+                label: knobs.label,
+                placeholder: knobs.placeholder,
+            };
+            const droplistProps = {
+                items: JSON.parse(knobs.items),
+                groups: knobs.groups,
+                groupNameKey: knobs.groupNameKey,
+                groupIdKey: knobs.groupIdKey,
+                groupItemsKey: knobs.groupItemsKey,
+                itemTextKey: knobs.itemTextKey,
+                itemTextRightKey: knobs.itemTextRightKey,
+                itemIdKey: knobs.itemIdKey
+            };
             return (
                 <div>
                     <Autocomplete
-                        label={knobs.label}
-                        placeholder={knobs.placeholder}
+                        inputProps={inputProps}
+                        droplistProps={droplistProps}
                         onFocus={knobs.onFocus ? () => {console.log('onFocus');} : () => {}}
                         onChange={knobs.onChange ? (value) => {console.log('onChange', value);} : () => {}}
                         onBlur={knobs.onBlur ? () => {console.log('onBlur');} : () => {}}
-                        items={JSON.parse(knobs.items)}
-                        groups={knobs.groups}
-                        groupNameKey={knobs.groupNameKey}
-                        groupIdKey={knobs.groupIdKey}
-                        groupItemsKey={knobs.groupItemsKey}
-                        itemTextKey={knobs.itemTextKey}
-                        itemTextRightKey={knobs.itemTextRightKey}
-                        itemIdKey={knobs.itemIdKey}
                         onClick={knobs.onClick ? (item) => {console.log('onClick', item);} : () => {}}
                         stackLabels={knobs.stackLabels}
                         limit={knobs.limit}
