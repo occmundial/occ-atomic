@@ -8,9 +8,38 @@ ShallowWrapper {
     buttons={
       Array [
         Object {
-          "href": "http://occ.com.mx",
+          "href": "#",
           "id": "item1",
           "label": "Item 1",
+        },
+        Object {
+          "href": "#",
+          "id": "item2",
+          "label": "Item 2",
+        },
+        Object {
+          "id": "item3",
+          "label": "Item 3",
+          "sub": Object {
+            "id": "item3sub",
+            "items": Array [
+              Object {
+                "href": "#",
+                "id": "subitem1",
+                "label": "Sub-item 1",
+              },
+              Object {
+                "href": "#",
+                "id": "subitem2",
+                "label": "Sub-item 2",
+              },
+            ],
+          },
+        },
+        Object {
+          "href": "#",
+          "id": "item4",
+          "label": "Item 4",
         },
       ]
     }
@@ -47,12 +76,81 @@ ShallowWrapper {
         >
           <a
             className="link"
-            href="http://occ.com.mx"
+            href="#"
             id="item1"
             onClick={undefined}
             target={undefined}
           >
             Item 1
+          </a>
+        </li>
+        <li
+          className="listElement"
+        >
+          <a
+            className="link"
+            href="#"
+            id="item2"
+            onClick={undefined}
+            target={undefined}
+          >
+            Item 2
+          </a>
+        </li>
+        <li
+          className="listElement"
+        >
+          <a
+            className="link"
+            href={undefined}
+            id="item3"
+            onClick={[Function]}
+            target={undefined}
+          >
+            Item 3
+          </a>
+          <ul
+            className="dropdownMenu"
+            id="item3sub"
+            style={undefined}
+          >
+            <li
+              className="dropdownElement"
+            >
+              <a
+                className="dropdownLink"
+                href="#"
+                id="subitem1"
+                target={undefined}
+              >
+                Sub-item 1
+              </a>
+            </li>
+            <li
+              className="dropdownElement"
+            >
+              <a
+                className="dropdownLink"
+                href="#"
+                id="subitem2"
+                target={undefined}
+              >
+                Sub-item 2
+              </a>
+            </li>
+          </ul>
+        </li>
+        <li
+          className="listElement"
+        >
+          <a
+            className="link"
+            href="#"
+            id="item4"
+            onClick={undefined}
+            target={undefined}
+          >
+            Item 4
           </a>
         </li>
       </ul>,
@@ -71,12 +169,81 @@ ShallowWrapper {
           >
             <a
               className="link"
-              href="http://occ.com.mx"
+              href="#"
               id="item1"
               onClick={undefined}
               target={undefined}
             >
               Item 1
+            </a>
+          </li>,
+          <li
+            className="listElement"
+          >
+            <a
+              className="link"
+              href="#"
+              id="item2"
+              onClick={undefined}
+              target={undefined}
+            >
+              Item 2
+            </a>
+          </li>,
+          <li
+            className="listElement"
+          >
+            <a
+              className="link"
+              href={undefined}
+              id="item3"
+              onClick={[Function]}
+              target={undefined}
+            >
+              Item 3
+            </a>
+            <ul
+              className="dropdownMenu"
+              id="item3sub"
+              style={undefined}
+            >
+              <li
+                className="dropdownElement"
+              >
+                <a
+                  className="dropdownLink"
+                  href="#"
+                  id="subitem1"
+                  target={undefined}
+                >
+                  Sub-item 1
+                </a>
+              </li>
+              <li
+                className="dropdownElement"
+              >
+                <a
+                  className="dropdownLink"
+                  href="#"
+                  id="subitem2"
+                  target={undefined}
+                >
+                  Sub-item 2
+                </a>
+              </li>
+            </ul>
+          </li>,
+          <li
+            className="listElement"
+          >
+            <a
+              className="link"
+              href="#"
+              id="item4"
+              onClick={undefined}
+              target={undefined}
+            >
+              Item 4
             </a>
           </li>,
         ],
@@ -92,7 +259,7 @@ ShallowWrapper {
             "children": Array [
               <a
                 className="link"
-                href="http://occ.com.mx"
+                href="#"
                 id="item1"
                 onClick={undefined}
                 target={undefined}
@@ -112,13 +279,270 @@ ShallowWrapper {
               "props": Object {
                 "children": "Item 1",
                 "className": "link",
-                "href": "http://occ.com.mx",
+                "href": "#",
                 "id": "item1",
                 "onClick": undefined,
                 "target": undefined,
               },
               "ref": null,
               "rendered": "Item 1",
+              "type": "a",
+            },
+            undefined,
+          ],
+          "type": "li",
+        },
+        Object {
+          "instance": null,
+          "key": "item2",
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <a
+                className="link"
+                href="#"
+                id="item2"
+                onClick={undefined}
+                target={undefined}
+              >
+                Item 2
+              </a>,
+              undefined,
+            ],
+            "className": "listElement",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Item 2",
+                "className": "link",
+                "href": "#",
+                "id": "item2",
+                "onClick": undefined,
+                "target": undefined,
+              },
+              "ref": null,
+              "rendered": "Item 2",
+              "type": "a",
+            },
+            undefined,
+          ],
+          "type": "li",
+        },
+        Object {
+          "instance": null,
+          "key": "item3",
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <a
+                className="link"
+                href={undefined}
+                id="item3"
+                onClick={[Function]}
+                target={undefined}
+              >
+                Item 3
+              </a>,
+              <ul
+                className="dropdownMenu"
+                id="item3sub"
+                style={undefined}
+              >
+                <li
+                  className="dropdownElement"
+                >
+                  <a
+                    className="dropdownLink"
+                    href="#"
+                    id="subitem1"
+                    target={undefined}
+                  >
+                    Sub-item 1
+                  </a>
+                </li>
+                <li
+                  className="dropdownElement"
+                >
+                  <a
+                    className="dropdownLink"
+                    href="#"
+                    id="subitem2"
+                    target={undefined}
+                  >
+                    Sub-item 2
+                  </a>
+                </li>
+              </ul>,
+            ],
+            "className": "listElement",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Item 3",
+                "className": "link",
+                "href": undefined,
+                "id": "item3",
+                "onClick": [Function],
+                "target": undefined,
+              },
+              "ref": null,
+              "rendered": "Item 3",
+              "type": "a",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <li
+                    className="dropdownElement"
+                  >
+                    <a
+                      className="dropdownLink"
+                      href="#"
+                      id="subitem1"
+                      target={undefined}
+                    >
+                      Sub-item 1
+                    </a>
+                  </li>,
+                  <li
+                    className="dropdownElement"
+                  >
+                    <a
+                      className="dropdownLink"
+                      href="#"
+                      id="subitem2"
+                      target={undefined}
+                    >
+                      Sub-item 2
+                    </a>
+                  </li>,
+                ],
+                "className": "dropdownMenu",
+                "id": "item3sub",
+                "style": undefined,
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": "subitem1",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <a
+                      className="dropdownLink"
+                      href="#"
+                      id="subitem1"
+                      target={undefined}
+                    >
+                      Sub-item 1
+                    </a>,
+                    "className": "dropdownElement",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Sub-item 1",
+                      "className": "dropdownLink",
+                      "href": "#",
+                      "id": "subitem1",
+                      "target": undefined,
+                    },
+                    "ref": null,
+                    "rendered": "Sub-item 1",
+                    "type": "a",
+                  },
+                  "type": "li",
+                },
+                Object {
+                  "instance": null,
+                  "key": "subitem2",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <a
+                      className="dropdownLink"
+                      href="#"
+                      id="subitem2"
+                      target={undefined}
+                    >
+                      Sub-item 2
+                    </a>,
+                    "className": "dropdownElement",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Sub-item 2",
+                      "className": "dropdownLink",
+                      "href": "#",
+                      "id": "subitem2",
+                      "target": undefined,
+                    },
+                    "ref": null,
+                    "rendered": "Sub-item 2",
+                    "type": "a",
+                  },
+                  "type": "li",
+                },
+              ],
+              "type": "ul",
+            },
+          ],
+          "type": "li",
+        },
+        Object {
+          "instance": null,
+          "key": "item4",
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <a
+                className="link"
+                href="#"
+                id="item4"
+                onClick={undefined}
+                target={undefined}
+              >
+                Item 4
+              </a>,
+              undefined,
+            ],
+            "className": "listElement",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Item 4",
+                "className": "link",
+                "href": "#",
+                "id": "item4",
+                "onClick": undefined,
+                "target": undefined,
+              },
+              "ref": null,
+              "rendered": "Item 4",
               "type": "a",
             },
             undefined,
@@ -144,12 +568,81 @@ ShallowWrapper {
           >
             <a
               className="link"
-              href="http://occ.com.mx"
+              href="#"
               id="item1"
               onClick={undefined}
               target={undefined}
             >
               Item 1
+            </a>
+          </li>
+          <li
+            className="listElement"
+          >
+            <a
+              className="link"
+              href="#"
+              id="item2"
+              onClick={undefined}
+              target={undefined}
+            >
+              Item 2
+            </a>
+          </li>
+          <li
+            className="listElement"
+          >
+            <a
+              className="link"
+              href={undefined}
+              id="item3"
+              onClick={[Function]}
+              target={undefined}
+            >
+              Item 3
+            </a>
+            <ul
+              className="dropdownMenu"
+              id="item3sub"
+              style={undefined}
+            >
+              <li
+                className="dropdownElement"
+              >
+                <a
+                  className="dropdownLink"
+                  href="#"
+                  id="subitem1"
+                  target={undefined}
+                >
+                  Sub-item 1
+                </a>
+              </li>
+              <li
+                className="dropdownElement"
+              >
+                <a
+                  className="dropdownLink"
+                  href="#"
+                  id="subitem2"
+                  target={undefined}
+                >
+                  Sub-item 2
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li
+            className="listElement"
+          >
+            <a
+              className="link"
+              href="#"
+              id="item4"
+              onClick={undefined}
+              target={undefined}
+            >
+              Item 4
             </a>
           </li>
         </ul>,
@@ -168,12 +661,81 @@ ShallowWrapper {
             >
               <a
                 className="link"
-                href="http://occ.com.mx"
+                href="#"
                 id="item1"
                 onClick={undefined}
                 target={undefined}
               >
                 Item 1
+              </a>
+            </li>,
+            <li
+              className="listElement"
+            >
+              <a
+                className="link"
+                href="#"
+                id="item2"
+                onClick={undefined}
+                target={undefined}
+              >
+                Item 2
+              </a>
+            </li>,
+            <li
+              className="listElement"
+            >
+              <a
+                className="link"
+                href={undefined}
+                id="item3"
+                onClick={[Function]}
+                target={undefined}
+              >
+                Item 3
+              </a>
+              <ul
+                className="dropdownMenu"
+                id="item3sub"
+                style={undefined}
+              >
+                <li
+                  className="dropdownElement"
+                >
+                  <a
+                    className="dropdownLink"
+                    href="#"
+                    id="subitem1"
+                    target={undefined}
+                  >
+                    Sub-item 1
+                  </a>
+                </li>
+                <li
+                  className="dropdownElement"
+                >
+                  <a
+                    className="dropdownLink"
+                    href="#"
+                    id="subitem2"
+                    target={undefined}
+                  >
+                    Sub-item 2
+                  </a>
+                </li>
+              </ul>
+            </li>,
+            <li
+              className="listElement"
+            >
+              <a
+                className="link"
+                href="#"
+                id="item4"
+                onClick={undefined}
+                target={undefined}
+              >
+                Item 4
               </a>
             </li>,
           ],
@@ -189,7 +751,7 @@ ShallowWrapper {
               "children": Array [
                 <a
                   className="link"
-                  href="http://occ.com.mx"
+                  href="#"
                   id="item1"
                   onClick={undefined}
                   target={undefined}
@@ -209,13 +771,270 @@ ShallowWrapper {
                 "props": Object {
                   "children": "Item 1",
                   "className": "link",
-                  "href": "http://occ.com.mx",
+                  "href": "#",
                   "id": "item1",
                   "onClick": undefined,
                   "target": undefined,
                 },
                 "ref": null,
                 "rendered": "Item 1",
+                "type": "a",
+              },
+              undefined,
+            ],
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": "item2",
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <a
+                  className="link"
+                  href="#"
+                  id="item2"
+                  onClick={undefined}
+                  target={undefined}
+                >
+                  Item 2
+                </a>,
+                undefined,
+              ],
+              "className": "listElement",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Item 2",
+                  "className": "link",
+                  "href": "#",
+                  "id": "item2",
+                  "onClick": undefined,
+                  "target": undefined,
+                },
+                "ref": null,
+                "rendered": "Item 2",
+                "type": "a",
+              },
+              undefined,
+            ],
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": "item3",
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <a
+                  className="link"
+                  href={undefined}
+                  id="item3"
+                  onClick={[Function]}
+                  target={undefined}
+                >
+                  Item 3
+                </a>,
+                <ul
+                  className="dropdownMenu"
+                  id="item3sub"
+                  style={undefined}
+                >
+                  <li
+                    className="dropdownElement"
+                  >
+                    <a
+                      className="dropdownLink"
+                      href="#"
+                      id="subitem1"
+                      target={undefined}
+                    >
+                      Sub-item 1
+                    </a>
+                  </li>
+                  <li
+                    className="dropdownElement"
+                  >
+                    <a
+                      className="dropdownLink"
+                      href="#"
+                      id="subitem2"
+                      target={undefined}
+                    >
+                      Sub-item 2
+                    </a>
+                  </li>
+                </ul>,
+              ],
+              "className": "listElement",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Item 3",
+                  "className": "link",
+                  "href": undefined,
+                  "id": "item3",
+                  "onClick": [Function],
+                  "target": undefined,
+                },
+                "ref": null,
+                "rendered": "Item 3",
+                "type": "a",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <li
+                      className="dropdownElement"
+                    >
+                      <a
+                        className="dropdownLink"
+                        href="#"
+                        id="subitem1"
+                        target={undefined}
+                      >
+                        Sub-item 1
+                      </a>
+                    </li>,
+                    <li
+                      className="dropdownElement"
+                    >
+                      <a
+                        className="dropdownLink"
+                        href="#"
+                        id="subitem2"
+                        target={undefined}
+                      >
+                        Sub-item 2
+                      </a>
+                    </li>,
+                  ],
+                  "className": "dropdownMenu",
+                  "id": "item3sub",
+                  "style": undefined,
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": "subitem1",
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <a
+                        className="dropdownLink"
+                        href="#"
+                        id="subitem1"
+                        target={undefined}
+                      >
+                        Sub-item 1
+                      </a>,
+                      "className": "dropdownElement",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Sub-item 1",
+                        "className": "dropdownLink",
+                        "href": "#",
+                        "id": "subitem1",
+                        "target": undefined,
+                      },
+                      "ref": null,
+                      "rendered": "Sub-item 1",
+                      "type": "a",
+                    },
+                    "type": "li",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": "subitem2",
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <a
+                        className="dropdownLink"
+                        href="#"
+                        id="subitem2"
+                        target={undefined}
+                      >
+                        Sub-item 2
+                      </a>,
+                      "className": "dropdownElement",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Sub-item 2",
+                        "className": "dropdownLink",
+                        "href": "#",
+                        "id": "subitem2",
+                        "target": undefined,
+                      },
+                      "ref": null,
+                      "rendered": "Sub-item 2",
+                      "type": "a",
+                    },
+                    "type": "li",
+                  },
+                ],
+                "type": "ul",
+              },
+            ],
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": "item4",
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <a
+                  className="link"
+                  href="#"
+                  id="item4"
+                  onClick={undefined}
+                  target={undefined}
+                >
+                  Item 4
+                </a>,
+                undefined,
+              ],
+              "className": "listElement",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Item 4",
+                  "className": "link",
+                  "href": "#",
+                  "id": "item4",
+                  "onClick": undefined,
+                  "target": undefined,
+                },
+                "ref": null,
+                "rendered": "Item 4",
                 "type": "a",
               },
               undefined,
@@ -318,9 +1137,38 @@ ShallowWrapper {
     buttons={
       Array [
         Object {
-          "href": "http://occ.com.mx",
+          "href": "#",
           "id": "item1",
           "label": "Item 1",
+        },
+        Object {
+          "href": "#",
+          "id": "item2",
+          "label": "Item 2",
+        },
+        Object {
+          "id": "item3",
+          "label": "Item 3",
+          "sub": Object {
+            "id": "item3sub",
+            "items": Array [
+              Object {
+                "href": "#",
+                "id": "subitem1",
+                "label": "Sub-item 1",
+              },
+              Object {
+                "href": "#",
+                "id": "subitem2",
+                "label": "Sub-item 2",
+              },
+            ],
+          },
+        },
+        Object {
+          "href": "#",
+          "id": "item4",
+          "label": "Item 4",
         },
       ]
     }
@@ -339,9 +1187,38 @@ ShallowWrapper {
     "props": Object {
       "buttons": Array [
         Object {
-          "href": "http://occ.com.mx",
+          "href": "#",
           "id": "item1",
           "label": "Item 1",
+        },
+        Object {
+          "href": "#",
+          "id": "item2",
+          "label": "Item 2",
+        },
+        Object {
+          "id": "item3",
+          "label": "Item 3",
+          "sub": Object {
+            "id": "item3sub",
+            "items": Array [
+              Object {
+                "href": "#",
+                "id": "subitem1",
+                "label": "Sub-item 1",
+              },
+              Object {
+                "href": "#",
+                "id": "subitem2",
+                "label": "Sub-item 2",
+              },
+            ],
+          },
+        },
+        Object {
+          "href": "#",
+          "id": "item4",
+          "label": "Item 4",
         },
       ],
       "classes": Object {
@@ -366,9 +1243,38 @@ ShallowWrapper {
       "props": Object {
         "buttons": Array [
           Object {
-            "href": "http://occ.com.mx",
+            "href": "#",
             "id": "item1",
             "label": "Item 1",
+          },
+          Object {
+            "href": "#",
+            "id": "item2",
+            "label": "Item 2",
+          },
+          Object {
+            "id": "item3",
+            "label": "Item 3",
+            "sub": Object {
+              "id": "item3sub",
+              "items": Array [
+                Object {
+                  "href": "#",
+                  "id": "subitem1",
+                  "label": "Sub-item 1",
+                },
+                Object {
+                  "href": "#",
+                  "id": "subitem2",
+                  "label": "Sub-item 2",
+                },
+              ],
+            },
+          },
+          Object {
+            "href": "#",
+            "id": "item4",
+            "label": "Item 4",
           },
         ],
         "classes": Object {
