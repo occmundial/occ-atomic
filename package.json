@@ -1,6 +1,6 @@
 {
   "name": "r12-common",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Componentes compartidos para Recluta 12",
   "main": "build/index.js",
   "scripts": {
