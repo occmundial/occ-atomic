@@ -20,7 +20,6 @@ ShallowWrapper {
         "user": "user",
       }
     }
-    config={Object {}}
     messagesIcon={Object {}}
   />,
   Symbol(enzyme.__renderer__): Object {
@@ -657,7 +656,6 @@ ShallowWrapper {
   "length": 1,
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <Jss(Header)
-    config={Object {}}
     messagesIcon={Object {}}
   />,
   Symbol(enzyme.__renderer__): Object {
@@ -683,7 +681,6 @@ ShallowWrapper {
         "title": "Header-title-0-1-5",
         "user": "Header-user-0-1-6",
       },
-      "config": Object {},
       "messagesIcon": Object {},
     },
     "ref": null,
@@ -707,7 +704,6 @@ ShallowWrapper {
           "title": "Header-title-0-1-5",
           "user": "Header-user-0-1-6",
         },
-        "config": Object {},
         "messagesIcon": Object {},
       },
       "ref": null,
