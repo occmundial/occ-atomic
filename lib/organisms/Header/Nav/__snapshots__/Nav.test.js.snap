@@ -12,6 +12,16 @@ ShallowWrapper {
           "id": "item1",
           "label": "Item 1",
         },
+        Object {
+          "icon": "publications",
+          "id": "item2",
+          "label": "Item 2",
+        },
+        Object {
+          "icon": "talent",
+          "id": "item3",
+          "label": "Item 3",
+        },
       ]
     }
     classes={
@@ -53,6 +63,38 @@ ShallowWrapper {
             className="listAnchor"
           >
             Item 1
+          </a>
+        </li>,
+        <li
+          className="listItem "
+          id="item2"
+          onClick={undefined}
+        >
+          <Jss(Icon)
+            className="icon"
+            colors={undefined}
+            iconName="publications"
+          />
+          <a
+            className="listAnchor"
+          >
+            Item 2
+          </a>
+        </li>,
+        <li
+          className="listItem "
+          id="item3"
+          onClick={undefined}
+        >
+          <Jss(Icon)
+            className="icon"
+            colors={undefined}
+            iconName="talent"
+          />
+          <a
+            className="listAnchor"
+          >
+            Item 3
           </a>
         </li>,
       ],
@@ -111,6 +153,108 @@ ShallowWrapper {
         ],
         "type": "li",
       },
+      Object {
+        "instance": null,
+        "key": "item2",
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <Jss(Icon)
+              className="icon"
+              colors={undefined}
+              iconName="publications"
+            />,
+            <a
+              className="listAnchor"
+            >
+              Item 2
+            </a>,
+          ],
+          "className": "listItem ",
+          "id": "item2",
+          "onClick": undefined,
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "className": "icon",
+              "colors": undefined,
+              "iconName": "publications",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Item 2",
+              "className": "listAnchor",
+            },
+            "ref": null,
+            "rendered": "Item 2",
+            "type": "a",
+          },
+        ],
+        "type": "li",
+      },
+      Object {
+        "instance": null,
+        "key": "item3",
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <Jss(Icon)
+              className="icon"
+              colors={undefined}
+              iconName="talent"
+            />,
+            <a
+              className="listAnchor"
+            >
+              Item 3
+            </a>,
+          ],
+          "className": "listItem ",
+          "id": "item3",
+          "onClick": undefined,
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "className": "icon",
+              "colors": undefined,
+              "iconName": "talent",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Item 3",
+              "className": "listAnchor",
+            },
+            "ref": null,
+            "rendered": "Item 3",
+            "type": "a",
+          },
+        ],
+        "type": "li",
+      },
     ],
     "type": "ul",
   },
@@ -135,6 +279,38 @@ ShallowWrapper {
               className="listAnchor"
             >
               Item 1
+            </a>
+          </li>,
+          <li
+            className="listItem "
+            id="item2"
+            onClick={undefined}
+          >
+            <Jss(Icon)
+              className="icon"
+              colors={undefined}
+              iconName="publications"
+            />
+            <a
+              className="listAnchor"
+            >
+              Item 2
+            </a>
+          </li>,
+          <li
+            className="listItem "
+            id="item3"
+            onClick={undefined}
+          >
+            <Jss(Icon)
+              className="icon"
+              colors={undefined}
+              iconName="talent"
+            />
+            <a
+              className="listAnchor"
+            >
+              Item 3
             </a>
           </li>,
         ],
@@ -188,6 +364,108 @@ ShallowWrapper {
               },
               "ref": null,
               "rendered": "Item 1",
+              "type": "a",
+            },
+          ],
+          "type": "li",
+        },
+        Object {
+          "instance": null,
+          "key": "item2",
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <Jss(Icon)
+                className="icon"
+                colors={undefined}
+                iconName="publications"
+              />,
+              <a
+                className="listAnchor"
+              >
+                Item 2
+              </a>,
+            ],
+            "className": "listItem ",
+            "id": "item2",
+            "onClick": undefined,
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "className": "icon",
+                "colors": undefined,
+                "iconName": "publications",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Item 2",
+                "className": "listAnchor",
+              },
+              "ref": null,
+              "rendered": "Item 2",
+              "type": "a",
+            },
+          ],
+          "type": "li",
+        },
+        Object {
+          "instance": null,
+          "key": "item3",
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <Jss(Icon)
+                className="icon"
+                colors={undefined}
+                iconName="talent"
+              />,
+              <a
+                className="listAnchor"
+              >
+                Item 3
+              </a>,
+            ],
+            "className": "listItem ",
+            "id": "item3",
+            "onClick": undefined,
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "className": "icon",
+                "colors": undefined,
+                "iconName": "talent",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Item 3",
+                "className": "listAnchor",
+              },
+              "ref": null,
+              "rendered": "Item 3",
               "type": "a",
             },
           ],
@@ -312,6 +590,16 @@ ShallowWrapper {
           "id": "item1",
           "label": "Item 1",
         },
+        Object {
+          "icon": "publications",
+          "id": "item2",
+          "label": "Item 2",
+        },
+        Object {
+          "icon": "talent",
+          "id": "item3",
+          "label": "Item 3",
+        },
       ]
     }
   />,
@@ -332,6 +620,16 @@ ShallowWrapper {
           "icon": "dashboard",
           "id": "item1",
           "label": "Item 1",
+        },
+        Object {
+          "icon": "publications",
+          "id": "item2",
+          "label": "Item 2",
+        },
+        Object {
+          "icon": "talent",
+          "id": "item3",
+          "label": "Item 3",
         },
       ],
       "classes": Object {
@@ -357,6 +655,16 @@ ShallowWrapper {
             "icon": "dashboard",
             "id": "item1",
             "label": "Item 1",
+          },
+          Object {
+            "icon": "publications",
+            "id": "item2",
+            "label": "Item 2",
+          },
+          Object {
+            "icon": "talent",
+            "id": "item3",
+            "label": "Item 3",
           },
         ],
         "classes": Object {
