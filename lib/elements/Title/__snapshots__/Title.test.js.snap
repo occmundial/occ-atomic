@@ -63,6 +63,32 @@ ShallowWrapper {
 }
 `;
 
+exports[`Title styles matches the snapshot 1`] = `
+Object {
+  "h1": Object {
+    "fontSize": "22px",
+  },
+  "h2": Object {
+    "fontSize": "20px",
+  },
+  "h3": Object {
+    "fontSize": "18px",
+  },
+  "h4": Object {
+    "fontSize": "15px",
+  },
+  "title": Object {
+    "boxSizing": "border-box",
+    "color": "#3e5466",
+    "fontFamily": "'Nunito Sans', sans-serif",
+    "fontWeight": "600",
+    "lineHeight": "1.1",
+    "marginBottom": "15px",
+    "marginTop": "20px",
+  },
+}
+`;
+
 exports[`TitleJSS matches the snapshot 1`] = `
 ShallowWrapper {
   "length": 1,

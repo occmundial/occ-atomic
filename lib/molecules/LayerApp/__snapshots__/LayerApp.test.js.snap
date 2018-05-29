@@ -137,6 +137,38 @@ ShallowWrapper {
 }
 `;
 
+exports[`LayerApp styles matches the snapshot 1`] = `
+Object {
+  "blue": Object {
+    "background": "#ffffff",
+  },
+  "content": Object {
+    "boxSizing": "border-box",
+    "height": "calc(100% - 60px)",
+    "left": "0",
+    "paddingBottom": "50px",
+    "paddingTop": "30px",
+    "position": "absolute",
+    "top": "60px",
+    "width": "100%",
+    "zIndex": "1",
+  },
+  "layerApp": Object {
+    "boxSizing": "border-box",
+    "fontFamily": "'Open Sans', sans-serif",
+    "height": "100%",
+    "left": "0",
+    "overflow": "auto",
+    "position": "fixed",
+    "top": "0",
+    "width": "100%",
+  },
+  "white": Object {
+    "background": "#f7f7f7",
+  },
+}
+`;
+
 exports[`LayerAppJSS matches the snapshot 1`] = `
 ShallowWrapper {
   "length": 1,

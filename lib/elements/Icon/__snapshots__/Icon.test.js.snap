@@ -61,6 +61,27 @@ ShallowWrapper {
 }
 `;
 
+exports[`Icon styles matches the snapshot 1`] = `
+Object {
+  "click": Object {
+    "cursor": "pointer",
+  },
+  "icon": Object {
+    "&:hover": Object {
+      "background": [Function],
+    },
+    "background": [Function],
+    "border": "0",
+    "boxSizing": "border-box",
+    "display": [Function],
+    "height": [Function],
+    "outline": "0",
+    "transition": [Function],
+    "width": [Function],
+  },
+}
+`;
+
 exports[`IconJSS matches the snapshot 1`] = `
 ShallowWrapper {
   "length": 1,

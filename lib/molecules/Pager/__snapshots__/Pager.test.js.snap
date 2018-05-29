@@ -550,6 +550,51 @@ ShallowWrapper {
 }
 `;
 
+exports[`Pager styles matches the snapshot 1`] = `
+Object {
+  "btn": Object {
+    "& span": Object {
+      "marginBottom": "-2px",
+    },
+    "&:hover": Object {
+      "background": "#ECECEE",
+      "borderColor": "#ECECEE",
+    },
+    "border": "1px solid #bfbfbf",
+    "borderRadius": "5px",
+    "cursor": "pointer",
+    "display": "inline-block",
+    "fontFamily": "'Open Sans', sans-serif",
+    "outline": "0",
+    "padding": "3px 13px",
+    "transition": "0.3s all",
+  },
+  "disabled": Object {
+    "opacity": "0.4",
+    "pointerEvents": "none",
+  },
+  "next": Object {
+    "& span": Object {
+      "transform": "rotate(-90deg)",
+    },
+    "marginLeft": "15px",
+  },
+  "pager": Object {
+    "color": "#727272",
+    "fontFamily": "'Open Sans', sans-serif",
+    "fontSize": "13px",
+    "listStyle": "none",
+    "paddingLeft": "0",
+  },
+  "prev": Object {
+    "& span": Object {
+      "transform": "rotate(90deg)",
+    },
+    "marginRight": "15px",
+  },
+}
+`;
+
 exports[`PagerJSS matches the snapshot 1`] = `
 ShallowWrapper {
   "length": 1,
@@ -578,11 +623,11 @@ ShallowWrapper {
     "props": Object {
       "breakLabel": "...",
       "classes": Object {
-        "btn": "Pager-btn-0-1-2",
-        "disabled": "Pager-disabled-0-1-5",
-        "next": "Pager-next-0-1-4",
-        "pager": "Pager-pager-0-1-1",
-        "prev": "Pager-prev-0-1-3",
+        "btn": "Pager-btn-0-1-15",
+        "disabled": "Pager-disabled-0-1-18",
+        "next": "Pager-next-0-1-17",
+        "pager": "Pager-pager-0-1-14",
+        "prev": "Pager-prev-0-1-16",
       },
       "disableInitialCallback": false,
       "hideNumbers": false,
@@ -604,11 +649,11 @@ ShallowWrapper {
       "props": Object {
         "breakLabel": "...",
         "classes": Object {
-          "btn": "Pager-btn-0-1-2",
-          "disabled": "Pager-disabled-0-1-5",
-          "next": "Pager-next-0-1-4",
-          "pager": "Pager-pager-0-1-1",
-          "prev": "Pager-prev-0-1-3",
+          "btn": "Pager-btn-0-1-15",
+          "disabled": "Pager-disabled-0-1-18",
+          "next": "Pager-next-0-1-17",
+          "pager": "Pager-pager-0-1-14",
+          "prev": "Pager-prev-0-1-16",
         },
         "disableInitialCallback": false,
         "hideNumbers": false,

@@ -62,6 +62,44 @@ ShallowWrapper {
 }
 `;
 
+exports[`Container styles matches the snapshot 1`] = `
+Object {
+  "@media (min-width: 1200px)": Object {
+    "con": Object {
+      "width": "1170px",
+    },
+  },
+  "@media (min-width: 768px)": Object {
+    "con": Object {
+      "width": "750px",
+    },
+  },
+  "@media (min-width: 992px)": Object {
+    "con": Object {
+      "width": "970px",
+    },
+  },
+  "con": Object {
+    "extend": "conFluid",
+    "margin": "0 auto",
+  },
+  "conFluid": Object {
+    "&:after": Object {
+      "clear": "both",
+    },
+    "&:before, &:after": Object {
+      "content": "\\"\\"",
+      "display": "table",
+    },
+    "boxSizing": "border-box",
+    "marginLeft": "auto",
+    "marginRight": "auto",
+    "paddingLeft": "15px",
+    "paddingRight": "15px",
+  },
+}
+`;
+
 exports[`ContainerJSS matches the snapshot 1`] = `
 ShallowWrapper {
   "length": 1,

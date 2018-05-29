@@ -58,6 +58,23 @@ ShallowWrapper {
 }
 `;
 
+exports[`Row styles matches the snapshot 1`] = `
+Object {
+  "row": Object {
+    "&:after": Object {
+      "clear": "both",
+    },
+    "&:before, &:after": Object {
+      "content": "\\"\\"",
+      "display": "table",
+    },
+    "boxSizing": "border-box",
+    "marginLeft": "-15px",
+    "marginRight": "-15px",
+  },
+}
+`;
+
 exports[`RowJSS matches the snapshot 1`] = `
 ShallowWrapper {
   "length": 1,

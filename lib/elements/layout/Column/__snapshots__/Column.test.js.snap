@@ -114,6 +114,648 @@ ShallowWrapper {
 }
 `;
 
+exports[`Column styles matches the snapshot 1`] = `
+Object {
+  "@media (min-width: 1200px)": Object {
+    "lg1": Object {
+      "float": "left",
+      "width": "8.333333333333334%",
+    },
+    "lg10": Object {
+      "float": "left",
+      "width": "83.33333333333334%",
+    },
+    "lg11": Object {
+      "float": "left",
+      "width": "91.66666666666667%",
+    },
+    "lg12": Object {
+      "float": "left",
+      "width": "100%",
+    },
+    "lg2": Object {
+      "float": "left",
+      "width": "16.666666666666668%",
+    },
+    "lg3": Object {
+      "float": "left",
+      "width": "25%",
+    },
+    "lg4": Object {
+      "float": "left",
+      "width": "33.333333333333336%",
+    },
+    "lg5": Object {
+      "float": "left",
+      "width": "41.66666666666667%",
+    },
+    "lg6": Object {
+      "float": "left",
+      "width": "50%",
+    },
+    "lg7": Object {
+      "float": "left",
+      "width": "58.333333333333336%",
+    },
+    "lg8": Object {
+      "float": "left",
+      "width": "66.66666666666667%",
+    },
+    "lg9": Object {
+      "float": "left",
+      "width": "75%",
+    },
+    "offset-lg1": Object {
+      "marginLeft": "8.333333333333334%",
+    },
+    "offset-lg10": Object {
+      "marginLeft": "83.33333333333334%",
+    },
+    "offset-lg11": Object {
+      "marginLeft": "91.66666666666667%",
+    },
+    "offset-lg12": Object {
+      "marginLeft": "100%",
+    },
+    "offset-lg2": Object {
+      "marginLeft": "16.666666666666668%",
+    },
+    "offset-lg3": Object {
+      "marginLeft": "25%",
+    },
+    "offset-lg4": Object {
+      "marginLeft": "33.333333333333336%",
+    },
+    "offset-lg5": Object {
+      "marginLeft": "41.66666666666667%",
+    },
+    "offset-lg6": Object {
+      "marginLeft": "50%",
+    },
+    "offset-lg7": Object {
+      "marginLeft": "58.333333333333336%",
+    },
+    "offset-lg8": Object {
+      "marginLeft": "66.66666666666667%",
+    },
+    "offset-lg9": Object {
+      "marginLeft": "75%",
+    },
+    "pull-lg1": Object {
+      "right": "8.333333333333334%",
+    },
+    "pull-lg10": Object {
+      "right": "83.33333333333334%",
+    },
+    "pull-lg11": Object {
+      "right": "91.66666666666667%",
+    },
+    "pull-lg12": Object {
+      "right": "100%",
+    },
+    "pull-lg2": Object {
+      "right": "16.666666666666668%",
+    },
+    "pull-lg3": Object {
+      "right": "25%",
+    },
+    "pull-lg4": Object {
+      "right": "33.333333333333336%",
+    },
+    "pull-lg5": Object {
+      "right": "41.66666666666667%",
+    },
+    "pull-lg6": Object {
+      "right": "50%",
+    },
+    "pull-lg7": Object {
+      "right": "58.333333333333336%",
+    },
+    "pull-lg8": Object {
+      "right": "66.66666666666667%",
+    },
+    "pull-lg9": Object {
+      "right": "75%",
+    },
+    "push-lg1": Object {
+      "left": "8.333333333333334%",
+    },
+    "push-lg10": Object {
+      "left": "83.33333333333334%",
+    },
+    "push-lg11": Object {
+      "left": "91.66666666666667%",
+    },
+    "push-lg12": Object {
+      "left": "100%",
+    },
+    "push-lg2": Object {
+      "left": "16.666666666666668%",
+    },
+    "push-lg3": Object {
+      "left": "25%",
+    },
+    "push-lg4": Object {
+      "left": "33.333333333333336%",
+    },
+    "push-lg5": Object {
+      "left": "41.66666666666667%",
+    },
+    "push-lg6": Object {
+      "left": "50%",
+    },
+    "push-lg7": Object {
+      "left": "58.333333333333336%",
+    },
+    "push-lg8": Object {
+      "left": "66.66666666666667%",
+    },
+    "push-lg9": Object {
+      "left": "75%",
+    },
+  },
+  "@media (min-width: 768px)": Object {
+    "offset-sm1": Object {
+      "marginLeft": "8.333333333333334%",
+    },
+    "offset-sm10": Object {
+      "marginLeft": "83.33333333333334%",
+    },
+    "offset-sm11": Object {
+      "marginLeft": "91.66666666666667%",
+    },
+    "offset-sm12": Object {
+      "marginLeft": "100%",
+    },
+    "offset-sm2": Object {
+      "marginLeft": "16.666666666666668%",
+    },
+    "offset-sm3": Object {
+      "marginLeft": "25%",
+    },
+    "offset-sm4": Object {
+      "marginLeft": "33.333333333333336%",
+    },
+    "offset-sm5": Object {
+      "marginLeft": "41.66666666666667%",
+    },
+    "offset-sm6": Object {
+      "marginLeft": "50%",
+    },
+    "offset-sm7": Object {
+      "marginLeft": "58.333333333333336%",
+    },
+    "offset-sm8": Object {
+      "marginLeft": "66.66666666666667%",
+    },
+    "offset-sm9": Object {
+      "marginLeft": "75%",
+    },
+    "pull-sm1": Object {
+      "right": "8.333333333333334%",
+    },
+    "pull-sm10": Object {
+      "right": "83.33333333333334%",
+    },
+    "pull-sm11": Object {
+      "right": "91.66666666666667%",
+    },
+    "pull-sm12": Object {
+      "right": "100%",
+    },
+    "pull-sm2": Object {
+      "right": "16.666666666666668%",
+    },
+    "pull-sm3": Object {
+      "right": "25%",
+    },
+    "pull-sm4": Object {
+      "right": "33.333333333333336%",
+    },
+    "pull-sm5": Object {
+      "right": "41.66666666666667%",
+    },
+    "pull-sm6": Object {
+      "right": "50%",
+    },
+    "pull-sm7": Object {
+      "right": "58.333333333333336%",
+    },
+    "pull-sm8": Object {
+      "right": "66.66666666666667%",
+    },
+    "pull-sm9": Object {
+      "right": "75%",
+    },
+    "push-sm1": Object {
+      "left": "8.333333333333334%",
+    },
+    "push-sm10": Object {
+      "left": "83.33333333333334%",
+    },
+    "push-sm11": Object {
+      "left": "91.66666666666667%",
+    },
+    "push-sm12": Object {
+      "left": "100%",
+    },
+    "push-sm2": Object {
+      "left": "16.666666666666668%",
+    },
+    "push-sm3": Object {
+      "left": "25%",
+    },
+    "push-sm4": Object {
+      "left": "33.333333333333336%",
+    },
+    "push-sm5": Object {
+      "left": "41.66666666666667%",
+    },
+    "push-sm6": Object {
+      "left": "50%",
+    },
+    "push-sm7": Object {
+      "left": "58.333333333333336%",
+    },
+    "push-sm8": Object {
+      "left": "66.66666666666667%",
+    },
+    "push-sm9": Object {
+      "left": "75%",
+    },
+    "sm1": Object {
+      "float": "left",
+      "width": "8.333333333333334%",
+    },
+    "sm10": Object {
+      "float": "left",
+      "width": "83.33333333333334%",
+    },
+    "sm11": Object {
+      "float": "left",
+      "width": "91.66666666666667%",
+    },
+    "sm12": Object {
+      "float": "left",
+      "width": "100%",
+    },
+    "sm2": Object {
+      "float": "left",
+      "width": "16.666666666666668%",
+    },
+    "sm3": Object {
+      "float": "left",
+      "width": "25%",
+    },
+    "sm4": Object {
+      "float": "left",
+      "width": "33.333333333333336%",
+    },
+    "sm5": Object {
+      "float": "left",
+      "width": "41.66666666666667%",
+    },
+    "sm6": Object {
+      "float": "left",
+      "width": "50%",
+    },
+    "sm7": Object {
+      "float": "left",
+      "width": "58.333333333333336%",
+    },
+    "sm8": Object {
+      "float": "left",
+      "width": "66.66666666666667%",
+    },
+    "sm9": Object {
+      "float": "left",
+      "width": "75%",
+    },
+  },
+  "@media (min-width: 992px)": Object {
+    "md1": Object {
+      "float": "left",
+      "width": "8.333333333333334%",
+    },
+    "md10": Object {
+      "float": "left",
+      "width": "83.33333333333334%",
+    },
+    "md11": Object {
+      "float": "left",
+      "width": "91.66666666666667%",
+    },
+    "md12": Object {
+      "float": "left",
+      "width": "100%",
+    },
+    "md2": Object {
+      "float": "left",
+      "width": "16.666666666666668%",
+    },
+    "md3": Object {
+      "float": "left",
+      "width": "25%",
+    },
+    "md4": Object {
+      "float": "left",
+      "width": "33.333333333333336%",
+    },
+    "md5": Object {
+      "float": "left",
+      "width": "41.66666666666667%",
+    },
+    "md6": Object {
+      "float": "left",
+      "width": "50%",
+    },
+    "md7": Object {
+      "float": "left",
+      "width": "58.333333333333336%",
+    },
+    "md8": Object {
+      "float": "left",
+      "width": "66.66666666666667%",
+    },
+    "md9": Object {
+      "float": "left",
+      "width": "75%",
+    },
+    "offset-md1": Object {
+      "marginLeft": "8.333333333333334%",
+    },
+    "offset-md10": Object {
+      "marginLeft": "83.33333333333334%",
+    },
+    "offset-md11": Object {
+      "marginLeft": "91.66666666666667%",
+    },
+    "offset-md12": Object {
+      "marginLeft": "100%",
+    },
+    "offset-md2": Object {
+      "marginLeft": "16.666666666666668%",
+    },
+    "offset-md3": Object {
+      "marginLeft": "25%",
+    },
+    "offset-md4": Object {
+      "marginLeft": "33.333333333333336%",
+    },
+    "offset-md5": Object {
+      "marginLeft": "41.66666666666667%",
+    },
+    "offset-md6": Object {
+      "marginLeft": "50%",
+    },
+    "offset-md7": Object {
+      "marginLeft": "58.333333333333336%",
+    },
+    "offset-md8": Object {
+      "marginLeft": "66.66666666666667%",
+    },
+    "offset-md9": Object {
+      "marginLeft": "75%",
+    },
+    "pull-md1": Object {
+      "right": "8.333333333333334%",
+    },
+    "pull-md10": Object {
+      "right": "83.33333333333334%",
+    },
+    "pull-md11": Object {
+      "right": "91.66666666666667%",
+    },
+    "pull-md12": Object {
+      "right": "100%",
+    },
+    "pull-md2": Object {
+      "right": "16.666666666666668%",
+    },
+    "pull-md3": Object {
+      "right": "25%",
+    },
+    "pull-md4": Object {
+      "right": "33.333333333333336%",
+    },
+    "pull-md5": Object {
+      "right": "41.66666666666667%",
+    },
+    "pull-md6": Object {
+      "right": "50%",
+    },
+    "pull-md7": Object {
+      "right": "58.333333333333336%",
+    },
+    "pull-md8": Object {
+      "right": "66.66666666666667%",
+    },
+    "pull-md9": Object {
+      "right": "75%",
+    },
+    "push-md1": Object {
+      "left": "8.333333333333334%",
+    },
+    "push-md10": Object {
+      "left": "83.33333333333334%",
+    },
+    "push-md11": Object {
+      "left": "91.66666666666667%",
+    },
+    "push-md12": Object {
+      "left": "100%",
+    },
+    "push-md2": Object {
+      "left": "16.666666666666668%",
+    },
+    "push-md3": Object {
+      "left": "25%",
+    },
+    "push-md4": Object {
+      "left": "33.333333333333336%",
+    },
+    "push-md5": Object {
+      "left": "41.66666666666667%",
+    },
+    "push-md6": Object {
+      "left": "50%",
+    },
+    "push-md7": Object {
+      "left": "58.333333333333336%",
+    },
+    "push-md8": Object {
+      "left": "66.66666666666667%",
+    },
+    "push-md9": Object {
+      "left": "75%",
+    },
+  },
+  "col": Object {
+    "boxSizing": "border-box",
+    "minHeight": "1px",
+    "paddingLeft": "15px",
+    "paddingRight": "15px",
+    "position": "relative",
+  },
+  "offset-xs1": Object {
+    "marginLeft": "8.333333333333334%",
+  },
+  "offset-xs10": Object {
+    "marginLeft": "83.33333333333334%",
+  },
+  "offset-xs11": Object {
+    "marginLeft": "91.66666666666667%",
+  },
+  "offset-xs12": Object {
+    "marginLeft": "100%",
+  },
+  "offset-xs2": Object {
+    "marginLeft": "16.666666666666668%",
+  },
+  "offset-xs3": Object {
+    "marginLeft": "25%",
+  },
+  "offset-xs4": Object {
+    "marginLeft": "33.333333333333336%",
+  },
+  "offset-xs5": Object {
+    "marginLeft": "41.66666666666667%",
+  },
+  "offset-xs6": Object {
+    "marginLeft": "50%",
+  },
+  "offset-xs7": Object {
+    "marginLeft": "58.333333333333336%",
+  },
+  "offset-xs8": Object {
+    "marginLeft": "66.66666666666667%",
+  },
+  "offset-xs9": Object {
+    "marginLeft": "75%",
+  },
+  "pull-xs1": Object {
+    "right": "8.333333333333334%",
+  },
+  "pull-xs10": Object {
+    "right": "83.33333333333334%",
+  },
+  "pull-xs11": Object {
+    "right": "91.66666666666667%",
+  },
+  "pull-xs12": Object {
+    "right": "100%",
+  },
+  "pull-xs2": Object {
+    "right": "16.666666666666668%",
+  },
+  "pull-xs3": Object {
+    "right": "25%",
+  },
+  "pull-xs4": Object {
+    "right": "33.333333333333336%",
+  },
+  "pull-xs5": Object {
+    "right": "41.66666666666667%",
+  },
+  "pull-xs6": Object {
+    "right": "50%",
+  },
+  "pull-xs7": Object {
+    "right": "58.333333333333336%",
+  },
+  "pull-xs8": Object {
+    "right": "66.66666666666667%",
+  },
+  "pull-xs9": Object {
+    "right": "75%",
+  },
+  "push-xs1": Object {
+    "left": "8.333333333333334%",
+  },
+  "push-xs10": Object {
+    "left": "83.33333333333334%",
+  },
+  "push-xs11": Object {
+    "left": "91.66666666666667%",
+  },
+  "push-xs12": Object {
+    "left": "100%",
+  },
+  "push-xs2": Object {
+    "left": "16.666666666666668%",
+  },
+  "push-xs3": Object {
+    "left": "25%",
+  },
+  "push-xs4": Object {
+    "left": "33.333333333333336%",
+  },
+  "push-xs5": Object {
+    "left": "41.66666666666667%",
+  },
+  "push-xs6": Object {
+    "left": "50%",
+  },
+  "push-xs7": Object {
+    "left": "58.333333333333336%",
+  },
+  "push-xs8": Object {
+    "left": "66.66666666666667%",
+  },
+  "push-xs9": Object {
+    "left": "75%",
+  },
+  "xs1": Object {
+    "float": "left",
+    "width": "8.333333333333334%",
+  },
+  "xs10": Object {
+    "float": "left",
+    "width": "83.33333333333334%",
+  },
+  "xs11": Object {
+    "float": "left",
+    "width": "91.66666666666667%",
+  },
+  "xs12": Object {
+    "float": "left",
+    "width": "100%",
+  },
+  "xs2": Object {
+    "float": "left",
+    "width": "16.666666666666668%",
+  },
+  "xs3": Object {
+    "float": "left",
+    "width": "25%",
+  },
+  "xs4": Object {
+    "float": "left",
+    "width": "33.333333333333336%",
+  },
+  "xs5": Object {
+    "float": "left",
+    "width": "41.66666666666667%",
+  },
+  "xs6": Object {
+    "float": "left",
+    "width": "50%",
+  },
+  "xs7": Object {
+    "float": "left",
+    "width": "58.333333333333336%",
+  },
+  "xs8": Object {
+    "float": "left",
+    "width": "66.66666666666667%",
+  },
+  "xs9": Object {
+    "float": "left",
+    "width": "75%",
+  },
+}
+`;
+
 exports[`ColumnJSS matches the snapshot 1`] = `
 ShallowWrapper {
   "length": 1,

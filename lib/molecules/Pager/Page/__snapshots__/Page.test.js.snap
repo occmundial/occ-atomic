@@ -59,6 +59,28 @@ ShallowWrapper {
 }
 `;
 
+exports[`Page styles matches the snapshot 1`] = `
+Object {
+  "active": Object {
+    "background": "#1476fb !important",
+    "color": "#ffffff",
+  },
+  "li": Object {
+    "&:hover": Object {
+      "background": "#ECECEE",
+    },
+    "borderRadius": "13px",
+    "cursor": "pointer",
+    "display": "inline-block",
+    "marginLeft": "4px",
+    "marginRight": "4px",
+    "outline": "0",
+    "padding": "2px 11px",
+    "transition": "0.3s all",
+  },
+}
+`;
+
 exports[`PageJSS matches the snapshot 1`] = `
 ShallowWrapper {
   "length": 1,

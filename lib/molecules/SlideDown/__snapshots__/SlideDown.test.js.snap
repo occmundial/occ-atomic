@@ -315,6 +315,43 @@ ShallowWrapper {
 }
 `;
 
+exports[`SlideDown styles matches the snapshot 1`] = `
+Object {
+  "button": Object {
+    "cursor": "pointer",
+  },
+  "content": Object {
+    "transition": "0.3s all",
+  },
+  "dot": Object {
+    "&:after": Object {
+      "background": "#1476fb",
+      "borderRadius": "3px",
+      "content": "\\"\\"",
+      "display": "block",
+      "height": "5px",
+      "left": "calc(100% + 5px)",
+      "position": "absolute",
+      "top": "50%",
+      "transform": "translateY(-50%)",
+      "width": "5px",
+    },
+    "position": "relative",
+  },
+  "hide": Object {
+    "marginBottom": "35px",
+    "marginTop": "-35px",
+    "opacity": "0",
+    "pointerEvents": "none",
+  },
+  "show": Object {
+    "marginBottom": "0",
+    "marginTop": "0",
+    "opacity": "1",
+  },
+}
+`;
+
 exports[`SlideDownJSS matches the snapshot 1`] = `
 ShallowWrapper {
   "length": 1,
@@ -335,11 +372,11 @@ ShallowWrapper {
     "nodeType": "class",
     "props": Object {
       "classes": Object {
-        "button": "SlideDown-button-0-1-1",
-        "content": "SlideDown-content-0-1-2",
-        "dot": "SlideDown-dot-0-1-5",
-        "hide": "SlideDown-hide-0-1-3",
-        "show": "SlideDown-show-0-1-4",
+        "button": "SlideDown-button-0-1-46",
+        "content": "SlideDown-content-0-1-47",
+        "dot": "SlideDown-dot-0-1-50",
+        "hide": "SlideDown-hide-0-1-48",
+        "show": "SlideDown-show-0-1-49",
       },
       "expanded": false,
     },
@@ -354,11 +391,11 @@ ShallowWrapper {
       "nodeType": "class",
       "props": Object {
         "classes": Object {
-          "button": "SlideDown-button-0-1-1",
-          "content": "SlideDown-content-0-1-2",
-          "dot": "SlideDown-dot-0-1-5",
-          "hide": "SlideDown-hide-0-1-3",
-          "show": "SlideDown-show-0-1-4",
+          "button": "SlideDown-button-0-1-46",
+          "content": "SlideDown-content-0-1-47",
+          "dot": "SlideDown-dot-0-1-50",
+          "hide": "SlideDown-hide-0-1-48",
+          "show": "SlideDown-show-0-1-49",
         },
         "expanded": false,
       },

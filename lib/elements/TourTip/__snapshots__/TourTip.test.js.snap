@@ -62,6 +62,75 @@ ShallowWrapper {
 }
 `;
 
+exports[`TourTip styles matches the snapshot 1`] = `
+Object {
+  "down": Object {
+    "&:after": Object {
+      "borderBottom": "5px solid #1476fb",
+      "borderLeft": "5px solid transparent",
+      "borderRight": "5px solid transparent",
+      "bottom": "100%",
+      "left": "50%",
+      "transform": "translateX(-50%)",
+    },
+  },
+  "left": Object {
+    "&:after": Object {
+      "borderBottom": "5px solid transparent",
+      "borderLeft": "5px solid #1476fb",
+      "borderTop": "5px solid transparent",
+      "left": "100%",
+      "top": "50%",
+      "transform": "translateY(-50%)",
+    },
+  },
+  "right": Object {
+    "&:after": Object {
+      "borderBottom": "5px solid transparent",
+      "borderRight": "5px solid #1476fb",
+      "borderTop": "5px solid transparent",
+      "right": "100%",
+      "top": "50%",
+      "transform": "translateY(-50%)",
+    },
+  },
+  "tip": Object {
+    "&:after": Object {
+      "content": "\\"\\"",
+      "display": "block",
+      "position": "absolute",
+    },
+    "alignItems": "center",
+    "background": "#1476fb",
+    "borderRadius": "3px",
+    "boxShadow": "0 1px 14px rgba(0, 0, 0, 0.1)",
+    "boxSizing": "border-box",
+    "color": "#ffffff",
+    "display": "flex",
+    "fontFamily": "'Nunito Sans', sans-serif",
+    "fontSize": "12px",
+    "height": "40px",
+    "left": "0",
+    "padding": "0 15px",
+    "position": "absolute",
+    "top": "0",
+    "transition": "0.3s all",
+    "whiteSpace": "nowrap",
+    "zIndex": "10",
+  },
+  "up": Object {
+    "&:after": Object {
+      "borderLeft": "5px solid transparent",
+      "borderRight": "5px solid transparent",
+      "borderTop": "5px solid #1476fb",
+      "left": "50%",
+      "top": "100%",
+      "transform": "translateX(-50%)",
+    },
+  },
+}
+`;
+
 exports[`TourTipJSS matches the snapshot 1`] = `
 ShallowWrapper {
   "length": 1,

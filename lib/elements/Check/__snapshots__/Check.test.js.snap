@@ -107,6 +107,93 @@ ShallowWrapper {
 }
 `;
 
+exports[`Check styles matches the snapshot 1`] = `
+Object {
+  "active": Object {
+    "& $check": Object {
+      "&:after": Object {
+        "background": "url(data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgogICAgICAgICAgICAJIHZpZXdCb3g9IjAgMCAxNCAxNCIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMTQgMTQ7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KICAgICAgICAgICAgPHBhdGggZmlsbD0iI2ZmZmZmZiIgZD0iTTUuNSwxMC44QzUuNCwxMC45LDUuMiwxMSw1LjEsMTFzLTAuMy0wLjEtMC40LTAuMkwyLjEsOC4zYy0wLjItMC4yLTAuMi0wLjUsMC0wLjdsMC4yLTAuMgogICAgICAgICAgICAJYzAuMi0wLjIsMC41LTAuMiwwLjcsMGMwLDAsMCwwLDAsMGwyLDJsNS45LTZjMC4yLTAuMiwwLjUtMC4yLDAuNywwYzAsMCwwLDAsMCwwbDAuMiwwLjJjMC4yLDAuMiwwLjIsMC41LDAsMC43TDUuNSwxMC44eiIvPgogICAgICAgICAgICA8L3N2Zz4=) no-repeat center center",
+      },
+      "background": "#09ba8a",
+      "borderColor": "#09ba8a",
+    },
+    "& $label": Object {
+      "color": "#242424",
+    },
+  },
+  "check": Object {
+    "&:after": Object {
+      "content": "\\"\\"",
+      "display": "block",
+      "height": "14px",
+      "left": "0",
+      "position": "absolute",
+      "top": "0",
+      "width": "14px",
+    },
+    "border": "1px solid #bfbfbf",
+    "borderRadius": "1px",
+    "boxSizing": "border-box",
+    "flex": "0 0 16px",
+    "float": "left",
+    "height": "16px",
+    "margin": "4px",
+    "position": "relative",
+    "transition": "0.3s all",
+    "width": "16px",
+  },
+  "cont": Object {
+    "&:after": Object {
+      "clear": "both",
+      "content": "\\"\\"",
+      "display": "table",
+    },
+    "&:hover $check": Object {
+      "borderColor": "#09ba8a",
+    },
+    "&:hover $label": Object {
+      "color": "#242424",
+    },
+    "boxSizing": "border-box",
+    "cursor": "pointer",
+    "display": "flex",
+    "marginBottom": "15px",
+    "outline": "0",
+  },
+  "disabled": Object {
+    "& $check": Object {
+      "borderColor": "#e0e0e0",
+    },
+    "& $label": Object {
+      "color": "#bfbfbf",
+    },
+    "&$active $check": Object {
+      "background": "#e0e0e0",
+    },
+    "pointerEvents": "none",
+  },
+  "label": Object {
+    "color": "#727272",
+    "flex": "1",
+    "float": "left",
+    "fontFamily": "'Open Sans', sans-serif",
+    "fontSize": "14px",
+    "paddingLeft": "5px",
+    "paddingRight": "10px",
+    "paddingTop": "3px",
+    "transition": "0.3s all",
+  },
+  "right": Object {
+    "color": "#bfbfbf",
+    "extend": "label",
+    "flex": "none",
+    "float": "right",
+    "fontSize": "13px",
+    "paddingRight": "0",
+  },
+}
+`;
+
 exports[`CheckJSS matches the snapshot 1`] = `
 ShallowWrapper {
   "length": 1,

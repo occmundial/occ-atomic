@@ -66,6 +66,41 @@ ShallowWrapper {
 }
 `;
 
+exports[`Card styles matches the snapshot 1`] = `
+Object {
+  "card": Object {
+    "background": "#ffffff",
+    "borderRadius": "5px",
+    "padding": "30px 20px",
+  },
+  "cardNoPadding": Object {
+    "extend": "card",
+    "padding": "0",
+  },
+  "shadow0": Object {
+    "boxShadow": undefined,
+  },
+  "shadow1": Object {
+    "boxShadow": "0 1px 4px rgba(0, 0, 0, 0.05)",
+  },
+  "shadow2": Object {
+    "boxShadow": "0 1px 8px rgba(0, 0, 0, 0.05)",
+  },
+  "shadow3": Object {
+    "boxShadow": "0 1px 10px rgba(0, 0, 0, 0.1)",
+  },
+  "shadow4": Object {
+    "boxShadow": "0 1px 14px rgba(0, 0, 0, 0.1)",
+  },
+  "shadow5": Object {
+    "boxShadow": "0 1px 18px rgba(0, 0, 0, 0.1)",
+  },
+  "shadow6": Object {
+    "boxShadow": "0 6px 32px rgba(0, 0, 0, 0.1)",
+  },
+}
+`;
+
 exports[`CardJSS matches the snapshot 1`] = `
 ShallowWrapper {
   "length": 1,

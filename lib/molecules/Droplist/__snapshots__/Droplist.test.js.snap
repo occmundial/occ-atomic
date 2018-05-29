@@ -15,25 +15,32 @@ ShallowWrapper {
         "right": "right",
       }
     }
+    groupIdKey="id"
+    groupItemsKey="items"
+    groupNameKey="text"
     groups={false}
-    itemIdKey="text"
+    itemIdKey="id"
     itemTextKey="text"
     itemTextRightKey="textRight"
     items={
       Array [
         Object {
+          "id": 1,
           "text": "Administrador",
           "textRight": "(222)",
         },
         Object {
+          "id": 2,
           "text": "Administrador Sr",
           "textRight": "(134)",
         },
         Object {
+          "id": 3,
           "text": "Administrador Jr",
           "textRight": "(52)",
         },
         Object {
+          "id": 4,
           "text": "Administrar",
           "textRight": "(6)",
         },
@@ -129,7 +136,7 @@ ShallowWrapper {
     "rendered": Array [
       Object {
         "instance": null,
-        "key": "Administrador",
+        "key": "1",
         "nodeType": "host",
         "props": Object {
           "children": Array [
@@ -182,7 +189,7 @@ ShallowWrapper {
       },
       Object {
         "instance": null,
-        "key": "Administrador Sr",
+        "key": "2",
         "nodeType": "host",
         "props": Object {
           "children": Array [
@@ -235,7 +242,7 @@ ShallowWrapper {
       },
       Object {
         "instance": null,
-        "key": "Administrador Jr",
+        "key": "3",
         "nodeType": "host",
         "props": Object {
           "children": Array [
@@ -288,7 +295,7 @@ ShallowWrapper {
       },
       Object {
         "instance": null,
-        "key": "Administrar",
+        "key": "4",
         "nodeType": "host",
         "props": Object {
           "children": Array [
@@ -425,7 +432,7 @@ ShallowWrapper {
       "rendered": Array [
         Object {
           "instance": null,
-          "key": "Administrador",
+          "key": "1",
           "nodeType": "host",
           "props": Object {
             "children": Array [
@@ -478,7 +485,7 @@ ShallowWrapper {
         },
         Object {
           "instance": null,
-          "key": "Administrador Sr",
+          "key": "2",
           "nodeType": "host",
           "props": Object {
             "children": Array [
@@ -531,7 +538,7 @@ ShallowWrapper {
         },
         Object {
           "instance": null,
-          "key": "Administrador Jr",
+          "key": "3",
           "nodeType": "host",
           "props": Object {
             "children": Array [
@@ -584,7 +591,7 @@ ShallowWrapper {
         },
         Object {
           "instance": null,
-          "key": "Administrar",
+          "key": "4",
           "nodeType": "host",
           "props": Object {
             "children": Array [
@@ -649,30 +656,82 @@ ShallowWrapper {
 }
 `;
 
+exports[`Droplist styles matches the snapshot 1`] = `
+Object {
+  "block": Object {
+    "background": "#ffffff",
+    "borderRadius": "0 0 5px 5px",
+    "boxShadow": "0 1px 14px rgba(0, 0, 0, 0.1)",
+    "padding": "5px 0",
+  },
+  "bold": Object {
+    "fontWeight": "700",
+  },
+  "group": Object {
+    "color": "#727272",
+    "fontFamily": "'Open Sans', sans-serif",
+    "fontSize": "11px",
+    "lineHeight": "28px",
+    "padding": "0 8px",
+  },
+  "groupCon": Object {
+    "borderBottom": "#ebebeb",
+  },
+  "item": Object {
+    "&:hover": Object {
+      "& $right": Object {
+        "color": "#ffffff",
+      },
+      "background": "#1476fb",
+      "color": "#ffffff",
+    },
+    "color": "#727272",
+    "cursor": "pointer",
+    "fontFamily": "'Open Sans', sans-serif",
+    "fontSize": "15px",
+    "lineHeight": "28px",
+    "padding": "0 8px",
+    "transition": "0.1s all",
+  },
+  "right": Object {
+    "color": "#bfbfbf",
+    "float": "right",
+    "transition": "0.1s all",
+  },
+}
+`;
+
 exports[`DroplistJSS matches the snapshot 1`] = `
 ShallowWrapper {
   "length": 1,
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <Jss(Droplist)
+    groupIdKey="id"
+    groupItemsKey="items"
+    groupNameKey="text"
     groups={false}
-    itemIdKey="text"
+    itemIdKey="id"
     itemTextKey="text"
     itemTextRightKey="textRight"
     items={
       Array [
         Object {
+          "id": 1,
           "text": "Administrador",
           "textRight": "(222)",
         },
         Object {
+          "id": 2,
           "text": "Administrador Sr",
           "textRight": "(134)",
         },
         Object {
+          "id": 3,
           "text": "Administrador Jr",
           "textRight": "(52)",
         },
         Object {
+          "id": 4,
           "text": "Administrar",
           "textRight": "(6)",
         },
@@ -699,24 +758,31 @@ ShallowWrapper {
         "item": "Droplist-item-0-1-4",
         "right": "Droplist-right-0-1-5",
       },
+      "groupIdKey": "id",
+      "groupItemsKey": "items",
+      "groupNameKey": "text",
       "groups": false,
-      "itemIdKey": "text",
+      "itemIdKey": "id",
       "itemTextKey": "text",
       "itemTextRightKey": "textRight",
       "items": Array [
         Object {
+          "id": 1,
           "text": "Administrador",
           "textRight": "(222)",
         },
         Object {
+          "id": 2,
           "text": "Administrador Sr",
           "textRight": "(134)",
         },
         Object {
+          "id": 3,
           "text": "Administrador Jr",
           "textRight": "(52)",
         },
         Object {
+          "id": 4,
           "text": "Administrar",
           "textRight": "(6)",
         },
@@ -740,24 +806,31 @@ ShallowWrapper {
           "item": "Droplist-item-0-1-4",
           "right": "Droplist-right-0-1-5",
         },
+        "groupIdKey": "id",
+        "groupItemsKey": "items",
+        "groupNameKey": "text",
         "groups": false,
-        "itemIdKey": "text",
+        "itemIdKey": "id",
         "itemTextKey": "text",
         "itemTextRightKey": "textRight",
         "items": Array [
           Object {
+            "id": 1,
             "text": "Administrador",
             "textRight": "(222)",
           },
           Object {
+            "id": 2,
             "text": "Administrador Sr",
             "textRight": "(134)",
           },
           Object {
+            "id": 3,
             "text": "Administrador Jr",
             "textRight": "(52)",
           },
           Object {
+            "id": 4,
             "text": "Administrar",
             "textRight": "(6)",
           },
