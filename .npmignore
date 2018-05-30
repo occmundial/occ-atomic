@@ -1,3 +1,10 @@
 .babelrc
+.storybook
+coverage
 docs
 CODE_OF_CONDUCT.md
+scripts
+src
+stories
+index.html
+webpack.config.js
