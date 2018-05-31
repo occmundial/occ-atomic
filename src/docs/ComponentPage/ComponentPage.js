@@ -12,10 +12,10 @@ const ComponentPage = ({ classes, component }) => {
             <Title h={1}>{name}</Title>
             <p className={classes.desc}>{description}</p>
             
-            <h3>Example{examples.length > 1 && "s"}</h3>
+            <Title h={2}>Example{examples.length > 1 && "s"}</Title>
             {
                 examples.length > 0 ?
-                examples.map(example => <Example key={example.code} example={example} componentName={name} /> ) : 'No examples exist.'
+                examples.map((example, index) => <Example key={example.code} example={example} componentName={name} expanded={index == 0} /> ) : <p className={classes.desc}>No examples exist.</p>
             }
             <h3>Props</h3>
             {

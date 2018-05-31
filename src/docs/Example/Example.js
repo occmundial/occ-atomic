@@ -20,13 +20,13 @@ class Example extends React.Component {
     
     render() {
         const { showCode } = this.state;
-        const { classes } = this.props;
+        const { classes, expanded } = this.props;
         const { code, description, name } = this.props.example;
         const ExampleComponent = require(`../examples/${this.props.componentName}/${name}`).default;
         return (
             <div className={classes.example}>
                 { description && <h4>{description}</h4> }
-                <SlideDown title={name}>
+                <SlideDown title={name} expanded={expanded}>
                     <ExampleComponent />
                     <p>
                         <a href="#" className={classes.toggleCode} onClick={this.toggleCode}>

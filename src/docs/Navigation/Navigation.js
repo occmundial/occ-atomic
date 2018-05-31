@@ -10,11 +10,18 @@ class Navigation extends React.Component {
             term: ''
         };
         this.onSearch = this.onSearch.bind(this);
+        this.clearField = this.clearField.bind(this);
     }
     
     onSearch(value) {
         this.setState({
             term: value
+        });
+    }
+    
+    clearField() {
+        this.setState({
+            term: ''
         });
     }
     
@@ -27,7 +34,7 @@ class Navigation extends React.Component {
         const { classes, components } = this.props;
         return (
             <div className={classes.navigation}>
-                <SearchField onChange={this.onSearch} />
+                <SearchField onChange={this.onSearch} onClear={this.clearField} />
                 <ul className={classes.ul}>
                     {
                         components.map( name => {

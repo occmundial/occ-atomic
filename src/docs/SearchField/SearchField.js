@@ -4,13 +4,15 @@ import { Input } from 'r12-common';
 
 class SearchField extends React.Component{
     render() {
-        const { onChange } = this.props;
+        const { onChange, onClear } = this.props;
         return (
             <div>
                 <Input
                     label="Search"
                     placeholder="Component name"
                     onChange={onChange}
+                    clear
+                    onClear={onClear}
                 />
             </div>
         );
@@ -18,7 +20,8 @@ class SearchField extends React.Component{
 }
 
 SearchField.propTypes = {
-    onChange: PropTypes.func.isRequired
+    onChange: PropTypes.func.isRequired,
+    onClear: PropTypes.func.isRequired
 };
 
 export default SearchField;
