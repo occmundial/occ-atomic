@@ -8,11 +8,11 @@ class SearchField extends React.Component{
         return (
             <div>
                 <Input
-                    label="Search"
-                    placeholder="Component name"
+                    placeholder="Component"
                     onChange={onChange}
                     clear
                     onClear={onClear}
+                    iconName="search"
                 />
             </div>
         );

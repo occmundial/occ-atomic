@@ -58,6 +58,7 @@ ShallowWrapper {
             className="icon"
             colors={undefined}
             iconName="dashboard"
+            transition="0.3s all"
           />
           <a
             className="listAnchor"
@@ -74,6 +75,7 @@ ShallowWrapper {
             className="icon"
             colors={undefined}
             iconName="publications"
+            transition="0.3s all"
           />
           <a
             className="listAnchor"
@@ -90,6 +92,7 @@ ShallowWrapper {
             className="icon"
             colors={undefined}
             iconName="talent"
+            transition="0.3s all"
           />
           <a
             className="listAnchor"
@@ -112,6 +115,7 @@ ShallowWrapper {
               className="icon"
               colors={undefined}
               iconName="dashboard"
+              transition="0.3s all"
             />,
             <a
               className="listAnchor"
@@ -133,6 +137,7 @@ ShallowWrapper {
               "className": "icon",
               "colors": undefined,
               "iconName": "dashboard",
+              "transition": "0.3s all",
             },
             "ref": null,
             "rendered": null,
@@ -163,6 +168,7 @@ ShallowWrapper {
               className="icon"
               colors={undefined}
               iconName="publications"
+              transition="0.3s all"
             />,
             <a
               className="listAnchor"
@@ -184,6 +190,7 @@ ShallowWrapper {
               "className": "icon",
               "colors": undefined,
               "iconName": "publications",
+              "transition": "0.3s all",
             },
             "ref": null,
             "rendered": null,
@@ -214,6 +221,7 @@ ShallowWrapper {
               className="icon"
               colors={undefined}
               iconName="talent"
+              transition="0.3s all"
             />,
             <a
               className="listAnchor"
@@ -235,6 +243,7 @@ ShallowWrapper {
               "className": "icon",
               "colors": undefined,
               "iconName": "talent",
+              "transition": "0.3s all",
             },
             "ref": null,
             "rendered": null,
@@ -274,6 +283,7 @@ ShallowWrapper {
               className="icon"
               colors={undefined}
               iconName="dashboard"
+              transition="0.3s all"
             />
             <a
               className="listAnchor"
@@ -290,6 +300,7 @@ ShallowWrapper {
               className="icon"
               colors={undefined}
               iconName="publications"
+              transition="0.3s all"
             />
             <a
               className="listAnchor"
@@ -306,6 +317,7 @@ ShallowWrapper {
               className="icon"
               colors={undefined}
               iconName="talent"
+              transition="0.3s all"
             />
             <a
               className="listAnchor"
@@ -328,6 +340,7 @@ ShallowWrapper {
                 className="icon"
                 colors={undefined}
                 iconName="dashboard"
+                transition="0.3s all"
               />,
               <a
                 className="listAnchor"
@@ -349,6 +362,7 @@ ShallowWrapper {
                 "className": "icon",
                 "colors": undefined,
                 "iconName": "dashboard",
+                "transition": "0.3s all",
               },
               "ref": null,
               "rendered": null,
@@ -379,6 +393,7 @@ ShallowWrapper {
                 className="icon"
                 colors={undefined}
                 iconName="publications"
+                transition="0.3s all"
               />,
               <a
                 className="listAnchor"
@@ -400,6 +415,7 @@ ShallowWrapper {
                 "className": "icon",
                 "colors": undefined,
                 "iconName": "publications",
+                "transition": "0.3s all",
               },
               "ref": null,
               "rendered": null,
@@ -430,6 +446,7 @@ ShallowWrapper {
                 className="icon"
                 colors={undefined}
                 iconName="talent"
+                transition="0.3s all"
               />,
               <a
                 className="listAnchor"
@@ -451,6 +468,7 @@ ShallowWrapper {
                 "className": "icon",
                 "colors": undefined,
                 "iconName": "talent",
+                "transition": "0.3s all",
               },
               "ref": null,
               "rendered": null,

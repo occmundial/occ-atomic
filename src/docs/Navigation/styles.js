@@ -2,7 +2,7 @@ import { colors } from '../../../build/index';
 
 export default {
     navigation: {
-        width: 200,
+        width: 240,
         overflowX:'auto',
         padding:15
     },

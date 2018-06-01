@@ -12,6 +12,7 @@ ShallowWrapper {
         "sm": "sm",
       }
     }
+    size="sm"
   />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
@@ -74,7 +75,9 @@ exports[`ButtonAlignJSS matches the snapshot 1`] = `
 ShallowWrapper {
   "length": 1,
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <Jss(ButtonAlign) />,
+  Symbol(enzyme.__unrendered__): <Jss(ButtonAlign)
+    size="sm"
+  />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
@@ -92,6 +95,7 @@ ShallowWrapper {
         "md": "ButtonAlign-md-0-1-2",
         "sm": "ButtonAlign-sm-0-1-1",
       },
+      "size": "sm",
     },
     "ref": null,
     "rendered": null,
@@ -108,6 +112,7 @@ ShallowWrapper {
           "md": "ButtonAlign-md-0-1-2",
           "sm": "ButtonAlign-sm-0-1-1",
         },
+        "size": "sm",
       },
       "ref": null,
       "rendered": null,

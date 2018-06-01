@@ -54,6 +54,7 @@ ShallowWrapper {
                   "transform": "",
                 }
               }
+              transition="0.3s all"
             />
           </Jss(Flexbox)>
         </div>,
@@ -88,6 +89,7 @@ ShallowWrapper {
                   "transform": "",
                 }
               }
+              transition="0.3s all"
             />
           </Jss(Flexbox)>,
           "className": "button",
@@ -117,6 +119,7 @@ ShallowWrapper {
                     "transform": "",
                   }
                 }
+                transition="0.3s all"
               />,
             ],
             "display": "flex",
@@ -149,6 +152,7 @@ ShallowWrapper {
                 "style": Object {
                   "transform": "",
                 },
+                "transition": "0.3s all",
               },
               "ref": null,
               "rendered": null,
@@ -195,6 +199,7 @@ ShallowWrapper {
                     "transform": "",
                   }
                 }
+                transition="0.3s all"
               />
             </Jss(Flexbox)>
           </div>,
@@ -229,6 +234,7 @@ ShallowWrapper {
                     "transform": "",
                   }
                 }
+                transition="0.3s all"
               />
             </Jss(Flexbox)>,
             "className": "button",
@@ -258,6 +264,7 @@ ShallowWrapper {
                       "transform": "",
                     }
                   }
+                  transition="0.3s all"
                 />,
               ],
               "display": "flex",
@@ -290,6 +297,7 @@ ShallowWrapper {
                   "style": Object {
                     "transform": "",
                   },
+                  "transition": "0.3s all",
                 },
                 "ref": null,
                 "rendered": null,
