@@ -6,7 +6,7 @@ var chokidar = require('chokidar');
 
 var paths = {
     examples: path.join(__dirname, '../src', 'docs', 'examples'),
-    components: path.join(__dirname, '../lib', 'elements'),
+    components: path.join(__dirname, '../lib'),
     output: path.join(__dirname, '../src/config', 'componentData.js')
 };
 
@@ -71,11 +71,8 @@ function getExampleFiles(examplesPath, componentName) {
 
 function getDirectories(filepath) {
     return fs.readdirSync(filepath).filter(function(file) {
-        if (file == 'layout') {
-            fs.readdirSync(path.join(filepath, 'layout')).filter(function(file) {
-                return fs.statSync(path.join(filepath, 'layout', file, file+'.js')).isFile();
-            });
-        } else if (file == 'WindowSize') { return false;
+        if (file == 'index.js' || file == 'subatomic' || file == 'WindowSize') {
+            return false;
         } else {
             return fs.statSync(path.join(filepath, file, file+'.js')).isFile();
         }

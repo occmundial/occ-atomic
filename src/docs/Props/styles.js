@@ -5,7 +5,8 @@ export default {
     },
     th: {
         borderBottom:'1px solid #999',
-        padding:3
+        padding:'5px 12px',
+        textAlign:'left'
     },
     tr: {
         '&:nth-child(even)': {
@@ -13,6 +14,6 @@ export default {
         }
     },
     td: {
-        padding:5
+        padding:'5px 12px'
     }
 };

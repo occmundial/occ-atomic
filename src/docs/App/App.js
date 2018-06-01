@@ -4,7 +4,7 @@ import Navigation from '../Navigation';
 import ComponentPage from '../ComponentPage';
 import componentData from '../../config/componentData';
 
-import { Flexbox, SubHeader, Card } from '../../../build/index';
+import { Flexbox, SubHeader, Card } from 'r12-common';
 
 class App extends React.Component {
     
