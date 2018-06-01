@@ -1,7 +1,7 @@
+/* Button aligned with an input */
 import React from 'react';
 import { ButtonAlign, Button, Input, Flexbox } from 'r12-common';
 
-/* Sizes */
 export default function Example1() {
     return (
         <Flexbox display="flex">

@@ -1,7 +1,7 @@
+/* Themes */
 import React from 'react';
 import { Button } from 'r12-common';
 
-/* Themes */
 export default function Example1() {
     return (
         <div>

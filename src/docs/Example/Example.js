@@ -18,15 +18,20 @@ class Example extends React.Component {
         });
     }
     
+    sanitizeName(code) {
+        return code.substr(0, code.indexOf('\r')).replace(/[\/*]/g, '').trim();
+    }
+    
     render() {
         const { showCode } = this.state;
         const { classes, expanded } = this.props;
         const { code, description, name } = this.props.example;
         const ExampleComponent = require(`../examples/${this.props.componentName}/${name}`).default;
+        const title = this.sanitizeName(code);
         return (
             <div className={classes.example}>
                 { description && <h4>{description}</h4> }
-                <SlideDown title={name} expanded={expanded}>
+                <SlideDown title={title} expanded={expanded}>
                     <ExampleComponent />
                     <p>
                         <a href="#" className={classes.toggleCode} onClick={this.toggleCode}>

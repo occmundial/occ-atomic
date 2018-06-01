@@ -1,6 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import SearchField from '../SearchField';
+import componentOrdering from '../../config/componentOrdering';
+import { SlideDown } from 'r12-common';
 
 class Navigation extends React.Component {
     
@@ -37,14 +39,20 @@ class Navigation extends React.Component {
                 <SearchField onChange={this.onSearch} onClear={this.clearField} />
                 <ul className={classes.ul}>
                     {
-                        components.map( name => {
-                            if (this.compareSearchTerm(term, name)) {
-                                return (
-                                    <li key={name} className={classes.li}>
-                                        <a href={`#${name}`} className={classes.a}>{name}</a>
-                                    </li>
-                                );
-                            }
+                        componentOrdering.map(group => {
+                            return (
+                                <SlideDown key={group.name} title={group.name} expanded>
+                                    {group.components.map(component => {
+                                        if (this.compareSearchTerm(term, component)) {
+                                                return (
+                                                    <li key={component} className={classes.li}>
+                                                        <a href={`#${component}`} className={classes.a}>{component}</a>
+                                                    </li>
+                                                );
+                                            }
+                                    })}
+                                </SlideDown>
+                            )
                         })
                     }
                 </ul>
