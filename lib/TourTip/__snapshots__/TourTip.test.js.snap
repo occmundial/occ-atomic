@@ -16,6 +16,7 @@ ShallowWrapper {
       }
     }
     direction="down"
+    target="target"
   />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
@@ -31,6 +32,7 @@ ShallowWrapper {
     "props": Object {
       "children": undefined,
       "className": "tip down",
+      "id": undefined,
       "style": Object {},
     },
     "ref": [Function],
@@ -45,6 +47,7 @@ ShallowWrapper {
       "props": Object {
         "children": undefined,
         "className": "tip down",
+        "id": undefined,
         "style": Object {},
       },
       "ref": [Function],
@@ -138,6 +141,7 @@ ShallowWrapper {
   Symbol(enzyme.__unrendered__): <Jss(TourTip)
     align="center"
     direction="down"
+    target="target"
   />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
@@ -160,6 +164,7 @@ ShallowWrapper {
         "up": "TourTip-up-0-1-5",
       },
       "direction": "down",
+      "target": "target",
     },
     "ref": null,
     "rendered": null,
@@ -180,6 +185,7 @@ ShallowWrapper {
           "up": "TourTip-up-0-1-5",
         },
         "direction": "down",
+        "target": "target",
       },
       "ref": null,
       "rendered": null,
