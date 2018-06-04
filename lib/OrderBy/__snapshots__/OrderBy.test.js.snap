@@ -59,6 +59,8 @@ ShallowWrapper {
         </select>,
       ],
       "className": "wrap",
+      "id": undefined,
+      "style": undefined,
     },
     "ref": null,
     "rendered": Array [
@@ -155,6 +157,8 @@ ShallowWrapper {
           </select>,
         ],
         "className": "wrap",
+        "id": undefined,
+        "style": undefined,
       },
       "ref": null,
       "rendered": Array [

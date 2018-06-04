@@ -46,6 +46,8 @@ ShallowWrapper {
         "",
       ],
       "className": "cont",
+      "id": undefined,
+      "style": undefined,
     },
     "ref": null,
     "rendered": Array [
@@ -100,6 +102,8 @@ ShallowWrapper {
           "",
         ],
         "className": "cont",
+        "id": undefined,
+        "style": undefined,
       },
       "ref": null,
       "rendered": Array [
