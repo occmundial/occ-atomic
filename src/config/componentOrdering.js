@@ -19,13 +19,13 @@ module.exports = [
     {
         name: 'Molecules',
         components: [
-            'Autocomplete',
             'Droplist',
             'Input',
+            'Autocomplete',
+            'SubHeader',
             'LayerApp',
             'Pager',
             'SlideDown',
-            'SubHeader',
             'SwitchGroup'
         ]
     },
