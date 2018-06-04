@@ -28,6 +28,7 @@ ShallowWrapper {
         className="logo"
       />,
       "className": "container",
+      "id": undefined,
       "style": undefined,
     },
     "ref": null,
@@ -54,6 +55,7 @@ ShallowWrapper {
           className="logo"
         />,
         "className": "container",
+        "id": undefined,
         "style": undefined,
       },
       "ref": null,
