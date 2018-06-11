@@ -1,7 +1,7 @@
 {
   "name": "r12-common",
   "version": "0.2.2",
-  "description": "Componentes compartidos para Recluta 12",
+  "description": "Collection of shareable styled React components for OCC applications.",
   "main": "scripts/server.js",
   "scripts": {
     "prestart": "npm run gen-docs",
@@ -15,13 +15,12 @@
     "build:watch": "babel lib -w -d build",
     "lint": "eslint lib/**; exit 0",
     "lint:watch": "esw -w lib/**",
-    "prepublish": "npm run build",
     "prepare": "npm run build",
     "storybook": "start-storybook -p 9901 -c .storybook"
   },
   "repository": {
     "type": "git",
-    "url": "https://gitlab.occ.com.mx/recluta/r12-common"
+    "url": "https://gitlab.occ.com.mx/recluta/occ-atomic"
   },
   "author": "Luis Díaz",
   "license": "ISC",
