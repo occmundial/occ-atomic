@@ -28,7 +28,7 @@ module.exports = {
   },
   resolve: {
     alias: {
-      'r12-common': path.resolve(__dirname, './build/index')
+      '@occmundial/occ-atomic': path.resolve(__dirname, './build/index')
     }
   }
   

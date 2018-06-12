@@ -1,6 +1,6 @@
 /* Render a label */
 import React from 'react';
-import { Label } from 'r12-common';
+import { Label } from '@occmundial/occ-atomic';
 
 export default function Example1() {
     return (

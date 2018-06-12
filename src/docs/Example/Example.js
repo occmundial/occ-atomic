@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import CodeExample from '../CodeExample';
-import { SlideDown } from 'r12-common';
+import { SlideDown } from '@occmundial/occ-atomic';
 
 class Example extends React.Component {
     

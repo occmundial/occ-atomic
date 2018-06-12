@@ -40,7 +40,7 @@ Here are some other properties:
 
 Here's an example of how to implement it:
 ```jsx
-import { Input } from 'r12-common';
+import { Input } from '@occmundial/occ-atomic';
 import { Field } from 'redux-form';
 
 // In your component
@@ -59,7 +59,7 @@ If you already have an array with objects and don't want to change the keys' nam
 
 The implementation would be:
 ```jsx
-import { Droplist } from 'r12-common';
+import { Droplist } from '@occmundial/occ-atomic';
 
 // Your object
 const items = [
@@ -90,7 +90,7 @@ These items by default should be named `group`, `id` and `items`, but you can na
 
 The implementation would be:
 ```jsx
-import { Droplist } from 'r12-common';
+import { Droplist } from '@occmundial/occ-atomic';
 
 // Your object
 const groups = [
@@ -142,7 +142,7 @@ Here are three examples of how to implement `Autocomplete`:
 
 #### Returning the Input value
 ```jsx
-import { Autocomplete } from 'r12-common';
+import { Autocomplete } from '@occmundial/occ-atomic';
 
 // Your array
 const items = [
@@ -165,7 +165,7 @@ const items = [
 ```
 #### Returning the Item of Droplist
 ```jsx
-import { Autocomplete } from 'r12-common';
+import { Autocomplete } from '@occmundial/occ-atomic';
 
 // Your array
 const items = [
@@ -191,7 +191,7 @@ const items = [
 ```
 #### Returning the stacked items
 ```jsx
-import { Autocomplete } from 'r12-common';
+import { Autocomplete } from '@occmundial/occ-atomic';
 
 // Your array
 const items = [
@@ -225,7 +225,7 @@ You can also use the boolean property fixed, if you want the Subheader to follow
 
 Here's an example:
 ```jsx
-import { SubHeader, Button } from 'r12-common';
+import { SubHeader, Button } from '@occmundial/occ-atomic';
 
 // In your component
 <SubHeader theme="white" fixed
@@ -248,7 +248,7 @@ import { SubHeader, Button } from 'r12-common';
 
 Here's how to implement it:
 ```jsx
-import { LayerApp, Button } from 'r12-common';
+import { LayerApp, Button } from '@occmundial/occ-atomic';
 import YourContent from './YourContent';
 
 // In your component
@@ -276,7 +276,7 @@ Another property is `active`. This will show a blue marker on the right side of 
 
 Here's an example of how to implement it:
 ```jsx
-import { SlideDown } from 'r12-common';
+import { SlideDown } from '@occmundial/occ-atomic';
 
 // In your component
 <SlideDown title="My tab" expanded active>
@@ -294,7 +294,7 @@ Finally, to specify which button is currently selected, you need to send the pro
 
 Here's an example:
 ```jsx
-import { SwitchGroup } from 'r12-common';
+import { SwitchGroup } from '@occmundial/occ-atomic';
 
 // Your array
 const buttons = [
@@ -335,7 +335,7 @@ These are the properties you can use:
 
 Here's an implementation example:
 ```jsx
-import { Pager } from 'r12-common';
+import { Pager } from '@occmundial/occ-atomic';
 
 // In your component
 <Pager pageCount={15} pageRangeDisplayed={3} marginPagesDisplayed={1} onPageChange={(selected) => {console.log(selected);}} />

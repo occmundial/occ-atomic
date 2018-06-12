@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import SearchField from '../SearchField';
 import componentOrdering from '../../config/componentOrdering';
-import { SlideDown } from 'r12-common';
+import { SlideDown } from '@occmundial/occ-atomic';
 
 class Navigation extends React.Component {
     

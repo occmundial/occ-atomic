@@ -1,6 +1,6 @@
 /* Stack on labels */
 import React from 'react';
-import { Autocomplete } from 'r12-common';
+import { Autocomplete } from '@occmundial/occ-atomic';
 
 export default function Example2() {
     const items = [

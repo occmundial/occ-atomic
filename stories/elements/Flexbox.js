@@ -249,7 +249,7 @@ stories.add('Direction', () => (
                 </Flexbox>
                 <pre style={{background:'#ddd', padding:'15px', overflowX:'auto'}}>
                     <code>
-                        {`import { Flexbox } from 'r12-common';
+                        {`import { Flexbox } from '@occmundial/occ-atomic';
   
   <Flexbox${display ? ` display="${display}"` : ''}${direction ? ` direction="${direction}"` : ''}${wrap ? ` wrap="${wrap}"` : ''}${justifyContent ? ` justifyContent="${justifyContent}"` : ''}${alignItems ? ` alignItems="${alignItems}"` : ''}${alignContent ? ` alignContent="${alignContent}"` : ''}>
       <Flexbox>1</Flexbox>

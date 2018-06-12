@@ -1,6 +1,6 @@
 /* TourTip */
 import React from 'react';
-import { TourTip } from 'r12-common';
+import { TourTip } from '@occmundial/occ-atomic';
 
 export default function Example1() {
     return (

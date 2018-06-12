@@ -25,7 +25,7 @@ By default, the avatar will be displayed at 70px x 70px, but you can use the pro
 
 This is an example:
 ```jsx
-import { Avatar } from 'r12-common';
+import { Avatar } from '@occmundial/occ-atomic';
 
 // In your component
 <Avatar photo="{MyPhotoURL}" size={50} gender="f" />
@@ -52,7 +52,7 @@ You can also set an id, className or a style object.
 
 Here's an example:
 ```jsx
-import { Button } from 'r12-common';
+import { Button } from '@occmundial/occ-atomic';
 
 // In your component
 <Button theme="secondary" size="md" block icon="search" href="http://occ.com.mx">
@@ -65,7 +65,7 @@ The `ButtonAlign` component is just a wrapper to push to the right position a `B
 
 Here's an example:
 ```jsx
-import { Button, ButtonAlign } from 'r12-common';
+import { Button, ButtonAlign } from '@occmundial/occ-atomic';
 
 // In your component
 <ButtonAlign size="sm">
@@ -78,7 +78,7 @@ Cards are the containers of certain relevant content, they use the level of shad
 
 Here's an example:
 ```jsx
-import { Card } from 'r12-common';
+import { Card } from '@occmundial/occ-atomic';
 
 // In your component
 <Card noPadding shadow={3}>
@@ -97,7 +97,7 @@ It can receive an `id`, a `className` or a `style` object. The `id` will be retu
 
 Here are some examples:
 ```jsx
-import { Check } from 'r12-common';
+import { Check } from '@occmundial/occ-atomic';
 
 // In your component
 <Check id="check1" />
@@ -111,7 +111,7 @@ The `Icon` component receives an `iconName` property. With this property it can 
 
 Here's an example:
 ```jsx
-import { Icon } from 'r12-common';
+import { Icon } from '@occmundial/occ-atomic';
 
 // In your component
 <Icon iconName="search" width={12} height={12} display="block" colors={['#242424']} />
@@ -124,7 +124,7 @@ It can receive two functions, `oClick` and `onClose`. The `onClick` function wil
 
 Here's an example:
 ```jsx
-import { Label } from 'r12-common';
+import { Label } from '@occmundial/occ-atomic';
 
 // In your component
 <Label theme="default" onClick={/* Execute a function on click*/} onClose={/* Execute a function when clicking the 'x' icon */}>
@@ -138,7 +138,7 @@ The `OrderBy` also has the `text` and `value` properties. You can display a labe
 
 Here's how to use it:
 ```jsx
-import { OrderBy } from 'r12-common';
+import { OrderBy } from '@occmundial/occ-atomic';
 
 const options = [
   {
@@ -160,7 +160,7 @@ Use this component to display the range of a total set of items that you're curr
 
 Example:
 ```jsx
-import { RangeCounter } from 'r12-common';
+import { RangeCounter } from '@occmundial/occ-atomic';
 
 // In your component
 <RangeCounter min={1} symbol=" - " max={25} of="of" total={10000} type="elements />
@@ -171,7 +171,7 @@ This component will render a heading tag with its corresponding styles. It just 
 
 Here's an example:
 ```jsx
-import { Title } from 'r12-common';
+import { Title } from '@occmundial/occ-atomic';
 
 // In your component
 <Title h={1}>This is an H1 tag</Title>
@@ -186,7 +186,7 @@ Use the property `direction` to specify where to draw the TourTip (`left`, `righ
 
 This is an example of how to use it:
 ```jsx
-import { TourTip } from 'r12-common';
+import { TourTip } from '@occmundial/occ-atomic';
 
 // In your component
 <div style={{position:'relative'}}>

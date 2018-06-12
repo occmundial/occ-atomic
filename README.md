@@ -29,11 +29,11 @@ These components usually have a more specific use case. They are a section of th
 ## Instalation and usage
 To install this library, use the next command:
 ```
-npm install --save git+https://git@gitlab.occ.com.mx/recluta/r12-common.git#master
+npm install --save @occmundial/occ-atomic
 ```
 To use its components, you just have to import them like this:
 ```
-import { Button } from 'r12-common';
+import { Button } from '@occmundial/occ-atomic';
 ```
 For more details, check how to implement each component:
 

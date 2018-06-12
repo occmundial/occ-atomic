@@ -1,6 +1,6 @@
 /* White theme */
 import React from 'react';
-import { SubHeader } from 'r12-common';
+import { SubHeader } from '@occmundial/occ-atomic';
 
 export default function Example2() {
     return (

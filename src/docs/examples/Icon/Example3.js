@@ -1,6 +1,6 @@
 /* Icon with custom colors */
 import React from 'react';
-import { Icon, colors } from 'r12-common';
+import { Icon, colors } from '@occmundial/occ-atomic';
 
 export default function Example3() {
     return (

@@ -11,7 +11,7 @@ These subatomic 'libraries' are:
 
 `colors`, `fonts`, `grid` and `shadows` are very basic, they're just an object with certain values which you can access from your components like:
 ```jsx
-import { colors } from 'r12-common';
+import { colors } from '@occmundial/occ-atomic';
 
 // In your code
 let background = colors.white;
@@ -89,7 +89,7 @@ The `icon` property is a function. It can receive an array of colors (usually is
 
 So here's an example of how to use the `search` icon:
 ```jsx
-import { icons } from 'r12-common';
+import { icons } from '@occmundial/occ-atomic';
 
 // In your code
 const iconStyles = {

@@ -1,6 +1,6 @@
 /* OrderBy */
 import React from 'react';
-import { OrderBy } from 'r12-common';
+import { OrderBy } from '@occmundial/occ-atomic';
 
 export default function Example1() {
     const options = [

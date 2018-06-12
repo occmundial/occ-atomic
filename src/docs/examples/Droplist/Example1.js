@@ -1,6 +1,6 @@
 /* List items */
 import React from 'react';
-import { Droplist } from 'r12-common';
+import { Droplist } from '@occmundial/occ-atomic';
 
 export default function Example1() {
     const items = [

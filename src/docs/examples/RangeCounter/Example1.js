@@ -1,6 +1,6 @@
 /* RangeCounter */
 import React from 'react';
-import { RangeCounter } from 'r12-common';
+import { RangeCounter } from '@occmundial/occ-atomic';
 
 export default function Example1() {
     return (

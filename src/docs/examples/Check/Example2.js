@@ -1,6 +1,6 @@
 /* Checkbox with label and text on the right */
 import React from 'react';
-import { Check } from 'r12-common';
+import { Check } from '@occmundial/occ-atomic';
 
 export default function Example2() {
     return (

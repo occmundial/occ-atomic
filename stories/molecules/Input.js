@@ -394,7 +394,7 @@ stories.add('Default', () => (
                     </Row>
                     <pre style={{background:'#ddd', padding:'15px', overflowX:'auto'}}>
                         <code>
-                            {`import { Input } from 'r12-common';
+                            {`import { Input } from '@occmundial/occ-atomic';
       
 <Input${value ? ` valueProp="${value}"` : ''}${label ? ` label="${label}"` : ''}${placeholder ? ` placeholder="${placeholder}"` : ''}${maxLength ? ` maxLength={${maxLength}}` : ''}${counter ? ' counter' : ''}${type ? ` type="${type}"` : ''}${clear ? ' clear' : ''}${disabled ? ' disabled' : ''}${selectOnFocus ? ' selectOnFocus' : ''}${autoFocus ? ' autoFocus' : ''}${error ? ` error="${error}"` : ''}${valid ? ' valid' : ''}${onFocus ? ` onFocus="() => {console.log('onFocus event')}"` : ''}${onChange ? ` onChange="() => {console.log('onChange event')}"` : ''}${onBlur ? ` onBlur="() => {console.log('onBlur event')}"` : ''}>`}
                         </code>

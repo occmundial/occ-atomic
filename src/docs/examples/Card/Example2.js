@@ -1,6 +1,6 @@
 /* Card with no padding */
 import React from 'react';
-import { Card, Title } from 'r12-common';
+import { Card, Title } from '@occmundial/occ-atomic';
 
 export default function Example2() {
     return (

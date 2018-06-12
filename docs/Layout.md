@@ -1,5 +1,5 @@
 # Layout
-R12-common contains multiple layout components. They offer three ways to construct layout:
+OCC-Atomic contains multiple layout components. They offer three ways to construct layout:
 
 - [Grid](#grid)
 - [Display](#display)
@@ -13,7 +13,7 @@ Just import the components: Container, Row and Column. All of them can receive t
 ### Container
 Implement a `Container` using:
 ```jsx
-import { Container } from 'r12-common';
+import { Container } from '@occmundial/occ-atomic';
 
 // In your component
 <Container>
@@ -27,7 +27,7 @@ You can use the boolean prop `fluid` to allow the container to extend and use th
 ### Row
 Implementing rows is just as easy as containers, import and insert your `Row` inside a `Container` or a `Column`:
 ```jsx
-import { Container, Row } from 'r12-common';
+import { Container, Row } from '@occmundial/occ-atomic';
 
 // In your component
 <Container>
@@ -51,7 +51,7 @@ And each of these sizes can receive a value for `col`, `offset`, `push` and `pul
 
 So the usage of the whole grid works like this:
 ```jsx
-import { Container, Row, Column } from 'r12-common';
+import { Container, Row, Column } from '@occmundial/occ-atomic';
 
 // In your component
 <Container>
@@ -93,7 +93,7 @@ The display components are `Visible` and `Hidden`, and just like their names sug
 
 This is the way to use theme:
 ```jsx
-import { Visible, Hidden } from 'r12-common';
+import { Visible, Hidden } from '@occmundial/occ-atomic';
 
 // In your component
 <Visible xs>

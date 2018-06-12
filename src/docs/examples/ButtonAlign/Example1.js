@@ -1,6 +1,6 @@
 /* Button aligned with an input */
 import React from 'react';
-import { ButtonAlign, Button, Input, Flexbox } from 'r12-common';
+import { ButtonAlign, Button, Input, Flexbox } from '@occmundial/occ-atomic';
 
 export default function Example1() {
     return (

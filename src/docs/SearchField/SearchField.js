@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Input } from 'r12-common';
+import { Input } from '@occmundial/occ-atomic';
 
 class SearchField extends React.Component{
     render() {

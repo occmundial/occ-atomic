@@ -1,5 +1,5 @@
 {
-  "name": "@occmundial/r12-common",
+  "name": "@occmundial/occ-atomic",
   "version": "0.2.2",
   "description": "Collection of shareable styled React components for OCC applications.",
   "main": "scripts/server.js",

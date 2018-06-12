@@ -192,7 +192,7 @@ stories.add('Container, Row & Column', () => (
                 </Container>
                 <pre style={{background:'#ddd', padding:'15px', overflowX:'auto'}}>
                     <code>
-                        {`import { Container, Row, Column, Hidden, Visible } from 'r12-common';
+                        {`import { Container, Row, Column, Hidden, Visible } from '@occmundial/occ-atomic';
 
 <Container${conFluid ? ` fluid` : ''}>
     <Row>

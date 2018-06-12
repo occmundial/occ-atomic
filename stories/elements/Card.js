@@ -39,7 +39,7 @@ stories.add('Default', () => (
               </Container>
               <pre style={{background:'#ddd', padding:'15px', overflowX:'auto'}}>
                   <code>
-                      {`import { Card } from 'r12-common';
+                      {`import { Card } from '@occmundial/occ-atomic';
 
 <Card${shadow ? ` shadow="${shadow}"` : ''}${padding ? ' noPadding' : ''}>
     Card content

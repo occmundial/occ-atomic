@@ -1,6 +1,6 @@
 /* Title with h1 */
 import React from 'react';
-import { Title } from 'r12-common';
+import { Title } from '@occmundial/occ-atomic';
 
 export default function Example1() {
     return (

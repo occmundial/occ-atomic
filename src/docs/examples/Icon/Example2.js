@@ -1,6 +1,6 @@
 /* Icon with custom size */
 import React from 'react';
-import { Icon } from 'r12-common';
+import { Icon } from '@occmundial/occ-atomic';
 
 export default function Example2() {
     return (

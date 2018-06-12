@@ -124,7 +124,7 @@ stories.add('Themes', () => (
               </Button></Space>
               <pre style={{background:'#ddd', padding:'15px', overflowX:'auto'}}>
                   <code>
-                      {`import { Button } from 'r12-common';
+                      {`import { Button } from '@occmundial/occ-atomic';
 
 <Button${theme ? ` theme="${theme}"` : ''}${size ? ` size="${size}"` : ''}${disabled ? ' disabled' : ''}${icon ? ` icon="plus"` : ''}${loading ? ' loading' : ''}${onClick ? ` onClick="() => {console.log('onClick event')}"` : ''}${href ? ` href="${href}"` : ''}${target ? ` target="${target}"` : ''}>
 ${text('Label', 'Button')}

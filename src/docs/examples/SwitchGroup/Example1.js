@@ -1,6 +1,6 @@
 /* Simple SwitchGroup */
 import React from 'react';
-import { SwitchGroup } from 'r12-common';
+import { SwitchGroup } from '@occmundial/occ-atomic';
 
 export default function Example1() {
     const items = [

@@ -1,6 +1,6 @@
 /* Select value on focus */
 import React from 'react';
-import { Input } from 'r12-common';
+import { Input } from '@occmundial/occ-atomic';
 
 export default function Example5() {
     return (

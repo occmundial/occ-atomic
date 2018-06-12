@@ -1,6 +1,6 @@
 /* Child Flexbox */
 import React from 'react';
-import { Flexbox, colors } from 'r12-common';
+import { Flexbox, colors } from '@occmundial/occ-atomic';
 
 export default function Example6() {
     return (

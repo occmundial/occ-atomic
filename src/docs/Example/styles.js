@@ -1,4 +1,4 @@
-import { colors } from 'r12-common';
+import { colors } from '@occmundial/occ-atomic';
 
 export default {
     example: {

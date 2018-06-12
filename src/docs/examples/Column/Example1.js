@@ -1,6 +1,6 @@
 /* Columns */
 import React from 'react';
-import { Container, Row, Column, colors } from 'r12-common';
+import { Container, Row, Column, colors } from '@occmundial/occ-atomic';
 
 export default function Example1() {
     return (

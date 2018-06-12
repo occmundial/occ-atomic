@@ -1,6 +1,6 @@
 /* Container fluid */
 import React from 'react';
-import { Container, colors } from 'r12-common';
+import { Container, colors } from '@occmundial/occ-atomic';
 
 export default function Example1() {
     return (
