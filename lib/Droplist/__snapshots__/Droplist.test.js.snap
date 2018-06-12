@@ -46,6 +46,7 @@ ShallowWrapper {
         },
       ]
     }
+    term=""
   />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
@@ -737,6 +738,7 @@ ShallowWrapper {
         },
       ]
     }
+    term=""
   />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
@@ -787,6 +789,7 @@ ShallowWrapper {
           "textRight": "(6)",
         },
       ],
+      "term": "",
     },
     "ref": null,
     "rendered": null,
@@ -835,6 +838,7 @@ ShallowWrapper {
             "textRight": "(6)",
           },
         ],
+        "term": "",
       },
       "ref": null,
       "rendered": null,
