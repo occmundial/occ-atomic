@@ -1,6 +1,5 @@
 .babelrc
 .eslintrc
-.storybook
 coverage
 dist
 docs
