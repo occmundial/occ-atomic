@@ -20,7 +20,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://gitlab.occ.com.mx/recluta/occ-atomic"
+    "url": "https://github.com/occmundial/occ-atomic"
   },
   "author": "Luis Díaz",
   "license": "ISC",
