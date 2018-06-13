@@ -1,10 +1,13 @@
 .babelrc
+.eslintrc
 .storybook
 coverage
 docs
+lib
 CODE_OF_CONDUCT.md
 scripts
 src
 stories
 index.html
 webpack.config.js
+setupTests.js
