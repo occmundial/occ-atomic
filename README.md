@@ -1,4 +1,8 @@
 # OCC-Atomic
+
+To see the live version and demo of this project click here:
+https://occmundial.github.io/occ-atomic
+
 This library contains a collection of shareable styled React components, ready to use for the applications developed by OCC.
 
 OCC-Atomic uses the concept of [Atomic Design](http://atomicdesign.bradfrost.com/chapter-2/), in which the components are conceived starting for an atomic component, the simplest element, with no sub-components needed to work.

@@ -10,7 +10,7 @@ module.exports = {
   output: {
     path: path.join(__dirname, 'dist'),
     filename: 'bundle.js',
-    publicPath: '/build/'
+    publicPath: '/dist/'
   },
   module: {
     loaders: [
@@ -27,6 +27,7 @@ module.exports = {
     ]
   },
   resolve: {
+    extensions: ["*", ".js"],
     alias: {
       '@occmundial/occ-atomic': path.resolve(__dirname, './build/index')
     }

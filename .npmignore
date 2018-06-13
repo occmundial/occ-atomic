@@ -2,6 +2,7 @@
 .eslintrc
 .storybook
 coverage
+dist
 docs
 lib
 CODE_OF_CONDUCT.md
