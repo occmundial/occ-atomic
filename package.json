@@ -18,7 +18,7 @@
     "lint:watch": "esw -w lib/**",
     "prepare": "npm run build",
     "predeploy": "npm run build:bundle",
-    "deploy": "gh-pages -d dist",
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
