@@ -1,6 +1,6 @@
 {
   "name": "@occmundial/occ-atomic",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "description": "Collection of shareable styled React components for OCC applications.",
   "homepage": "http://occmundial.github.io/occ-atomic",
   "scripts": {
