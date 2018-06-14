@@ -6,11 +6,14 @@ import { Title } from '@occmundial/occ-atomic';
 
 const ComponentPage = ({ classes, component }) => {
     const { name, description, props, examples } = component;
-    
+    const descArray = description.split('\r');
     return (
         <div className={classes.page}>
             <Title h={1}>{name}</Title>
-            <p className={classes.desc}>{description}</p>
+            {descArray.map((desc, index) => (
+                <p key={index} className={classes.desc}>{desc}</p>
+            ))}
+            
             
             <Title h={2}>Example{examples.length > 1 && "s"}</Title>
             {
