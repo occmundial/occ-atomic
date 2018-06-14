@@ -1,12 +1,12 @@
 var path = require('path');
 var webpack = require('webpack');
 
-// var GLOBALS = {
-//   "process.env.NODE_ENV": JSON.stringify(
-//     process.env.NODE_ENV.indexOf("production") > -1 ? "production" : process.env.NODE_ENV
-//   ),
-//   __DEV__: false
-// };
+var GLOBALS = {
+  "process.env.NODE_ENV": JSON.stringify(
+    process.env.NODE_ENV.indexOf("production") > -1 ? "production" : process.env.NODE_ENV
+  ),
+  __DEV__: false
+};
 
 module.exports = {
     resolve: {
@@ -22,7 +22,7 @@ module.exports = {
         filename: "bundle.js"
     },
     plugins: [
-        // new webpack.DefinePlugins(GLOBALS),
+        new webpack.DefinePlugin(GLOBALS),
         new webpack.optimize.UglifyJsPlugin({ sourceMap: true })
     ],
     module: {

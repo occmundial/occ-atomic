@@ -17,7 +17,7 @@
     "lint": "eslint lib/**; exit 0",
     "lint:watch": "esw -w lib/**",
     "prepare": "npm run build",
-    "predeploy": "npm run build:bundle",
+    "predeploy": "set NODE_ENV=production && npm run build:bundle",
     "deploy": "gh-pages -d dist"
   },
   "repository": {
