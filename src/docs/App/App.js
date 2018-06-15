@@ -4,7 +4,7 @@ import Navigation from '../Navigation';
 import ComponentPage from '../ComponentPage';
 import componentData from '../../config/componentData';
 
-import { Flexbox, SubHeader, Card } from '@occmundial/occ-atomic';
+import { Flexbox, SubHeader } from '@occmundial/occ-atomic';
 
 class App extends React.Component {
     
@@ -31,7 +31,7 @@ class App extends React.Component {
                 <SubHeader left="OCC-Atomic" fixed />
                 <Flexbox className={classes.app} display="flex">
                     <Navigation components={componentData.map(component => component.name)} />
-                    <Flexbox flex="1" className={classes.cardCont}><Card shadow={3}><ComponentPage component={component} /></Card></Flexbox>
+                    <Flexbox flex="1" className={classes.cardCont}><ComponentPage component={component} /></Flexbox>
                 </Flexbox>
             </div>
         );

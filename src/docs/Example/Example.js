@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import CodeExample from '../CodeExample';
-import { SlideDown } from '@occmundial/occ-atomic';
+import { SlideDown, Card } from '@occmundial/occ-atomic';
 
 class Example extends React.Component {
     
@@ -32,13 +32,15 @@ class Example extends React.Component {
             <div className={classes.example}>
                 { description && <h4>{description}</h4> }
                 <SlideDown title={title} expanded={expanded}>
-                    <ExampleComponent />
-                    <p>
-                        <a href="#" className={classes.toggleCode} onClick={this.toggleCode}>
-                            {showCode ? "Hide" : "Show"} Code
-                        </a>
-                    </p>
-                    {showCode && <CodeExample>{code}</CodeExample>}
+                    <Card shadow={3}>
+                        <ExampleComponent />
+                        <p>
+                            <a href="#" className={classes.toggleCode} onClick={this.toggleCode}>
+                                {showCode ? "Hide" : "Show"} Code
+                            </a>
+                        </p>
+                        {showCode && <CodeExample>{code}</CodeExample>}
+                    </Card>
                 </SlideDown>
             </div>
         )

@@ -20,7 +20,7 @@ webpack(config).run((error, stats) => {
     
     console.log(`Webpack stats: ${stats}`);
     
-    console.log("Your app is compiled in producion mode in /build. It's ready to roll!");
+    console.log("Your app is compiled in producion mode in /dist. It's ready to roll!");
     
     return 0;
 });
