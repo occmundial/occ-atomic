@@ -31,7 +31,7 @@ class App extends React.Component {
             <div>
                 <SubHeader
                     left={
-                        <a href="/" className={classes.logo}>
+                        <a href="./" className={classes.logo}>
                             <Flexbox display="flex" alignItems="center">
                                 <Icon iconName="occatomic" width={45} height={45} style={{marginRight:10}} /> OCC-Atomic
                             </Flexbox>
