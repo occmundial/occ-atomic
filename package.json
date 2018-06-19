@@ -3,6 +3,7 @@
   "version": "0.3.2",
   "description": "Collection of shareable styled React components for OCC applications.",
   "homepage": "http://occmundial.github.io/occ-atomic",
+  "main": "build/index.js",
   "scripts": {
     "prestart": "npm run gen-docs",
     "start": "npm-run-all --parallel start-docs gen-docs:watch",

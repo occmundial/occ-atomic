@@ -10,7 +10,7 @@ const ComponentPage = ({ classes, component }) => {
     return (
         <div className={classes.page}>
             <Card shadow={3}>
-                <Title h={1}>{name}</Title>
+                <Title h={1}>{name} <a className={classes.gitlink} target="_blank" href={`https://github.com/occmundial/occ-atomic/tree/master/lib/${name}`}>Check component on Github</a></Title>
                 {descArray.map((desc, index) => (
                     <p key={index} className={classes.desc}>{desc}</p>
                 ))}

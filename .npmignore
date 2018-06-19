@@ -9,5 +9,6 @@ scripts
 src
 stories
 index.html
-webpack.config.js
+webpack.config.dev.js
+webpack.config.prod.js
 setupTests.js

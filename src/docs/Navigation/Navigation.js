@@ -37,11 +37,30 @@ class Navigation extends React.Component {
         return (
             <div className={classes.navigation}>
                 <SearchField onChange={this.onSearch} onClear={this.clearField} />
-                <ul className={classes.ul}>
+                    <SlideDown title="Subatomic" expanded>
+                        <ul className={classes.ul}>
+                            <li className={classes.li}>
+                                <a href="#Colors" className={classes.a}>Colors</a>
+                            </li>
+                            <li className={classes.li}>
+                                <a href="#Fonts" className={classes.a}>Fonts</a>
+                            </li>
+                            <li className={classes.li}>
+                                <a href="#Grid" className={classes.a}>Grid</a>
+                            </li>
+                            <li className={classes.li}>
+                                <a href="#Icons" className={classes.a}>Icons</a>
+                            </li>
+                            <li className={classes.li}>
+                                <a href="#Shadows" className={classes.a}>Shadows</a>
+                            </li>
+                        </ul>
+                    </SlideDown>
                     {
                         componentOrdering.map(group => {
                             return (
                                 <SlideDown key={group.name} title={group.name} expanded>
+                                    <ul className={classes.ul}>
                                     {group.components.map(component => {
                                         if (this.compareSearchTerm(term, component)) {
                                                 return (
@@ -51,11 +70,11 @@ class Navigation extends React.Component {
                                                 );
                                             }
                                     })}
+                                    </ul>
                                 </SlideDown>
                             )
                         })
                     }
-                </ul>
             </div>
         );
     }

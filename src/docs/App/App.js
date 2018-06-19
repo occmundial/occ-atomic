@@ -2,9 +2,10 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Navigation from '../Navigation';
 import ComponentPage from '../ComponentPage';
+import CustomPage from '../CustomPage';
 import componentData from '../../config/componentData';
 
-import { Flexbox, SubHeader } from '@occmundial/occ-atomic';
+import { Flexbox, SubHeader, Icon } from '@occmundial/occ-atomic';
 
 class App extends React.Component {
     
@@ -24,14 +25,29 @@ class App extends React.Component {
     render() {
         const { route } = this.state;
         const { classes } = this.props;
-        const component = route ? componentData.filter( component => component.name === route)[0] : componentData[0];
+        const component = route ? componentData.filter( component => component.name === route)[0] : undefined;
         
         return (
             <div>
-                <SubHeader left="OCC-Atomic" fixed />
+                <SubHeader
+                    left={
+                        <a href="/" className={classes.logo}>
+                            <Flexbox display="flex" alignItems="center">
+                                <Icon iconName="occatomic" width={45} height={45} style={{marginRight:10}} /> OCC-Atomic
+                            </Flexbox>
+                        </a>
+                        }
+                    fixed
+                    right={
+                        <div style={{marginRight:15}}>
+                            <a className="github-button" href="https://github.com/occmundial/occ-atomic" data-size="large" data-show-count="true" aria-label="Watch occmundial/occ-atomic on GitHub">View on Github</a>
+                        </div>}
+                />
                 <Flexbox className={classes.app} display="flex">
                     <Navigation components={componentData.map(component => component.name)} />
-                    <Flexbox flex="1" className={classes.cardCont}><ComponentPage component={component} /></Flexbox>
+                    <Flexbox flex="1" className={classes.cardCont}>
+                        {component ? <ComponentPage component={component} /> : <CustomPage route={route} />}
+                    </Flexbox>
                 </Flexbox>
             </div>
         );
