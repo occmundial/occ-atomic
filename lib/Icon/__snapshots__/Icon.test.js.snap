@@ -11,6 +11,7 @@ ShallowWrapper {
         "icon": "icon",
       }
     }
+    iconName="search"
     transition="0.3s all"
   />,
   Symbol(enzyme.__renderer__): Object {
@@ -88,6 +89,7 @@ ShallowWrapper {
   "length": 1,
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <Jss(Icon)
+    iconName="search"
     transition="0.3s all"
   />,
   Symbol(enzyme.__renderer__): Object {
@@ -106,6 +108,7 @@ ShallowWrapper {
         "click": "Icon-click-0-1-4 Icon-click-0-1-2",
         "icon": "Icon-icon-0-1-3 Icon-icon-0-1-1",
       },
+      "iconName": "search",
       "transition": "0.3s all",
     },
     "ref": null,
@@ -122,6 +125,7 @@ ShallowWrapper {
           "click": "Icon-click-0-1-4 Icon-click-0-1-2",
           "icon": "Icon-icon-0-1-3 Icon-icon-0-1-1",
         },
+        "iconName": "search",
         "transition": "0.3s all",
       },
       "ref": null,

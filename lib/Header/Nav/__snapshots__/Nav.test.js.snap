@@ -56,7 +56,11 @@ ShallowWrapper {
         >
           <Jss(Icon)
             className="icon"
-            colors={undefined}
+            colors={
+              Array [
+                "#104791",
+              ]
+            }
             iconName="dashboard"
             transition="0.3s all"
           />
@@ -73,7 +77,11 @@ ShallowWrapper {
         >
           <Jss(Icon)
             className="icon"
-            colors={undefined}
+            colors={
+              Array [
+                "#104791",
+              ]
+            }
             iconName="publications"
             transition="0.3s all"
           />
@@ -90,7 +98,11 @@ ShallowWrapper {
         >
           <Jss(Icon)
             className="icon"
-            colors={undefined}
+            colors={
+              Array [
+                "#104791",
+              ]
+            }
             iconName="talent"
             transition="0.3s all"
           />
@@ -113,7 +125,11 @@ ShallowWrapper {
           "children": Array [
             <Jss(Icon)
               className="icon"
-              colors={undefined}
+              colors={
+                Array [
+                  "#104791",
+                ]
+              }
               iconName="dashboard"
               transition="0.3s all"
             />,
@@ -135,7 +151,9 @@ ShallowWrapper {
             "nodeType": "class",
             "props": Object {
               "className": "icon",
-              "colors": undefined,
+              "colors": Array [
+                "#104791",
+              ],
               "iconName": "dashboard",
               "transition": "0.3s all",
             },
@@ -166,7 +184,11 @@ ShallowWrapper {
           "children": Array [
             <Jss(Icon)
               className="icon"
-              colors={undefined}
+              colors={
+                Array [
+                  "#104791",
+                ]
+              }
               iconName="publications"
               transition="0.3s all"
             />,
@@ -188,7 +210,9 @@ ShallowWrapper {
             "nodeType": "class",
             "props": Object {
               "className": "icon",
-              "colors": undefined,
+              "colors": Array [
+                "#104791",
+              ],
               "iconName": "publications",
               "transition": "0.3s all",
             },
@@ -219,7 +243,11 @@ ShallowWrapper {
           "children": Array [
             <Jss(Icon)
               className="icon"
-              colors={undefined}
+              colors={
+                Array [
+                  "#104791",
+                ]
+              }
               iconName="talent"
               transition="0.3s all"
             />,
@@ -241,7 +269,9 @@ ShallowWrapper {
             "nodeType": "class",
             "props": Object {
               "className": "icon",
-              "colors": undefined,
+              "colors": Array [
+                "#104791",
+              ],
               "iconName": "talent",
               "transition": "0.3s all",
             },
@@ -281,7 +311,11 @@ ShallowWrapper {
           >
             <Jss(Icon)
               className="icon"
-              colors={undefined}
+              colors={
+                Array [
+                  "#104791",
+                ]
+              }
               iconName="dashboard"
               transition="0.3s all"
             />
@@ -298,7 +332,11 @@ ShallowWrapper {
           >
             <Jss(Icon)
               className="icon"
-              colors={undefined}
+              colors={
+                Array [
+                  "#104791",
+                ]
+              }
               iconName="publications"
               transition="0.3s all"
             />
@@ -315,7 +353,11 @@ ShallowWrapper {
           >
             <Jss(Icon)
               className="icon"
-              colors={undefined}
+              colors={
+                Array [
+                  "#104791",
+                ]
+              }
               iconName="talent"
               transition="0.3s all"
             />
@@ -338,7 +380,11 @@ ShallowWrapper {
             "children": Array [
               <Jss(Icon)
                 className="icon"
-                colors={undefined}
+                colors={
+                  Array [
+                    "#104791",
+                  ]
+                }
                 iconName="dashboard"
                 transition="0.3s all"
               />,
@@ -360,7 +406,9 @@ ShallowWrapper {
               "nodeType": "class",
               "props": Object {
                 "className": "icon",
-                "colors": undefined,
+                "colors": Array [
+                  "#104791",
+                ],
                 "iconName": "dashboard",
                 "transition": "0.3s all",
               },
@@ -391,7 +439,11 @@ ShallowWrapper {
             "children": Array [
               <Jss(Icon)
                 className="icon"
-                colors={undefined}
+                colors={
+                  Array [
+                    "#104791",
+                  ]
+                }
                 iconName="publications"
                 transition="0.3s all"
               />,
@@ -413,7 +465,9 @@ ShallowWrapper {
               "nodeType": "class",
               "props": Object {
                 "className": "icon",
-                "colors": undefined,
+                "colors": Array [
+                  "#104791",
+                ],
                 "iconName": "publications",
                 "transition": "0.3s all",
               },
@@ -444,7 +498,11 @@ ShallowWrapper {
             "children": Array [
               <Jss(Icon)
                 className="icon"
-                colors={undefined}
+                colors={
+                  Array [
+                    "#104791",
+                  ]
+                }
                 iconName="talent"
                 transition="0.3s all"
               />,
@@ -466,7 +524,9 @@ ShallowWrapper {
               "nodeType": "class",
               "props": Object {
                 "className": "icon",
-                "colors": undefined,
+                "colors": Array [
+                  "#104791",
+                ],
                 "iconName": "talent",
                 "transition": "0.3s all",
               },
