@@ -152,7 +152,7 @@ Object {
     "width": "100%",
   },
   "blue": Object {
-    "& $icon": Object {
+    "& i": Object {
       "background": [Function],
     },
     "&$disabled": Object {
@@ -215,7 +215,7 @@ Object {
     "width": "100%",
   },
   "disabled": Object {
-    "& $icon": Object {
+    "& i": Object {
       "background": [Function],
     },
     "&:hover, &:active, &:focus": Object {
@@ -230,18 +230,18 @@ Object {
     "pointerEvents": "none",
   },
   "flat": Object {
-    "& $icon": Object {
-      "background": [Function],
-    },
     "& $loadIcon": Object {
       "background": "url(data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgogICAgICAgICAgICAJIHZpZXdCb3g9IjAgMCAyNCAyNCIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMjQgMjQ7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KICAgICAgICAgICAgPHN0eWxlIHR5cGU9InRleHQvY3NzIj4KICAgICAgICAgICAgCS5zdDB7ZmlsbDp1cmwoI1NWR0lEXzFfKTt9CiAgICAgICAgICAgIDwvc3R5bGU+CiAgICAgICAgICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iU1ZHSURfMV8iIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4MT0iMjEiIHkxPSIxMiIgeDI9IjMiIHkyPSIxMiI+CiAgICAgICAgICAgIAk8c3RvcCAgb2Zmc2V0PSIwLjE3NzgiIHN0eWxlPSJzdG9wLWNvbG9yOiNmZjQ1NmE7c3RvcC1vcGFjaXR5OjAiLz4KICAgICAgICAgICAgCTxzdG9wICBvZmZzZXQ9IjAuMjI3MSIgc3R5bGU9InN0b3AtY29sb3I6I2ZmNDU2YTtzdG9wLW9wYWNpdHk6MC4xIi8+CiAgICAgICAgICAgIAk8c3RvcCAgb2Zmc2V0PSIwLjMxNTciIHN0eWxlPSJzdG9wLWNvbG9yOiNmZjQ1NmE7c3RvcC1vcGFjaXR5OjAuNCIvPgogICAgICAgICAgICAJPHN0b3AgIG9mZnNldD0iMC40NTI1IiBzdHlsZT0ic3RvcC1jb2xvcjojZmY0NTZhO3N0b3Atb3BhY2l0eTowLjciLz4KICAgICAgICAgICAgCTxzdG9wICBvZmZzZXQ9IjAuNTU0NiIgc3R5bGU9InN0b3AtY29sb3I6I2ZmNDU2YSIvPgogICAgICAgICAgICAJPHN0b3AgIG9mZnNldD0iMC45Mjc4IiBzdHlsZT0ic3RvcC1jb2xvcjojZmY0NTZhIi8+CiAgICAgICAgICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgICAgICAgICAgIDxwYXRoIGNsYXNzPSJzdDAiIGQ9Ik0xOS4xLDEyYzAuMSw0LTMuMSw3LjItNy4xLDcuMlM0LjgsMTYsNC44LDEyUzgsNC44LDEyLDQuOFYzYy01LDAtOSw0LTksOXM0LDksOSw5czktNCw5LTlIMTkuMXoiLz4KICAgICAgICAgICAgPC9zdmc+) no-repeat center center",
     },
+    "& i": Object {
+      "background": [Function],
+    },
     "&$disabled": Object {
-      "& $icon": Object {
-        "background": [Function],
-      },
       "& $loadIcon": Object {
         "background": "url(data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgogICAgICAgICAgICAJIHZpZXdCb3g9IjAgMCAyNCAyNCIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMjQgMjQ7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KICAgICAgICAgICAgPHN0eWxlIHR5cGU9InRleHQvY3NzIj4KICAgICAgICAgICAgCS5zdDB7ZmlsbDp1cmwoI1NWR0lEXzFfKTt9CiAgICAgICAgICAgIDwvc3R5bGU+CiAgICAgICAgICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iU1ZHSURfMV8iIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4MT0iMjEiIHkxPSIxMiIgeDI9IjMiIHkyPSIxMiI+CiAgICAgICAgICAgIAk8c3RvcCAgb2Zmc2V0PSIwLjE3NzgiIHN0eWxlPSJzdG9wLWNvbG9yOiNiZmJmYmY7c3RvcC1vcGFjaXR5OjAiLz4KICAgICAgICAgICAgCTxzdG9wICBvZmZzZXQ9IjAuMjI3MSIgc3R5bGU9InN0b3AtY29sb3I6I2JmYmZiZjtzdG9wLW9wYWNpdHk6MC4xIi8+CiAgICAgICAgICAgIAk8c3RvcCAgb2Zmc2V0PSIwLjMxNTciIHN0eWxlPSJzdG9wLWNvbG9yOiNiZmJmYmY7c3RvcC1vcGFjaXR5OjAuNCIvPgogICAgICAgICAgICAJPHN0b3AgIG9mZnNldD0iMC40NTI1IiBzdHlsZT0ic3RvcC1jb2xvcjojYmZiZmJmO3N0b3Atb3BhY2l0eTowLjciLz4KICAgICAgICAgICAgCTxzdG9wICBvZmZzZXQ9IjAuNTU0NiIgc3R5bGU9InN0b3AtY29sb3I6I2JmYmZiZiIvPgogICAgICAgICAgICAJPHN0b3AgIG9mZnNldD0iMC45Mjc4IiBzdHlsZT0ic3RvcC1jb2xvcjojYmZiZmJmIi8+CiAgICAgICAgICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgICAgICAgICAgIDxwYXRoIGNsYXNzPSJzdDAiIGQ9Ik0xOS4xLDEyYzAuMSw0LTMuMSw3LjItNy4xLDcuMlM0LjgsMTYsNC44LDEyUzgsNC44LDEyLDQuOFYzYy01LDAtOSw0LTksOXM0LDksOSw5czktNCw5LTlIMTkuMXoiLz4KICAgICAgICAgICAgPC9zdmc+) no-repeat center center",
+      },
+      "& i": Object {
+        "background": [Function],
       },
       "background": "transparent !important",
       "border": "1px solid transparent !important",
@@ -272,7 +272,7 @@ Object {
     "width": "24px",
   },
   "lg": Object {
-    "& $icon": Object {
+    "& i": Object {
       "height": "32px",
       "width": "32px",
     },
@@ -305,7 +305,7 @@ Object {
     "pointerEvents": "none",
   },
   "main": Object {
-    "& $icon": Object {
+    "& i": Object {
       "background": [Function],
     },
     "&$disabled": Object {
@@ -332,7 +332,7 @@ Object {
     "color": "#ffffff",
   },
   "md": Object {
-    "& $icon": Object {
+    "& i": Object {
       "height": "28px",
       "width": "28px",
     },
@@ -341,7 +341,7 @@ Object {
     "lineHeight": "28px",
   },
   "secondary": Object {
-    "& $icon": Object {
+    "& i": Object {
       "background": [Function],
     },
     "&$disabled": Object {
@@ -354,7 +354,7 @@ Object {
       "borderColor": "#b81453",
     },
     "&:active": Object {
-      "& $icon": Object {
+      "& i": Object {
         "background": [Function],
       },
       "background": "#b81453",
@@ -362,7 +362,7 @@ Object {
       "color": "#ffffff",
     },
     "&:hover": Object {
-      "& $icon": Object {
+      "& i": Object {
         "background": [Function],
       },
       "background": "#cc1f62",
@@ -374,11 +374,11 @@ Object {
     "color": "#ff456a",
   },
   "white": Object {
-    "& $icon": Object {
+    "& i": Object {
       "background": [Function],
     },
     "&$disabled": Object {
-      "& $icon": Object {
+      "& i": Object {
         "background": [Function],
       },
       "background": "transparent !important",
@@ -390,7 +390,7 @@ Object {
       "borderColor": "#ffffff",
     },
     "&:active": Object {
-      "& $icon": Object {
+      "& i": Object {
         "background": [Function],
       },
       "background": "rgba(255,255,255,0.2)",
@@ -398,7 +398,7 @@ Object {
       "color": "#ffffff",
     },
     "&:hover": Object {
-      "& $icon": Object {
+      "& i": Object {
         "background": [Function],
       },
       "background": "rgba(255,255,255,0.2)",
