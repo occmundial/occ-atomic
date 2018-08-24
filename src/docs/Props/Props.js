@@ -20,7 +20,21 @@ const Props = ({ classes, props }) => {
                             return (
                                 <tr key={key} className={classes.tr}>
                                     <td className={classes.td}>{key}</td>
-                                    <td className={classes.td}>{props[key].description}</td>
+                                    <td className={classes.td}>
+                                        {props[key].description}
+                                        {props[key].type.name=='shape' && (
+                                            <ul>
+                                                {Object.keys(props[key].type.value).map(subkey => (
+                                                    <li key={subkey}>
+                                                        {subkey} ({props[key].type.value[subkey].name}{props[key].type.value[subkey].required && ' *'})
+                                                        {props[key].type.value[subkey].description && (
+                                                            <span className={classes.shapeDescription}> - {props[key].type.value[subkey].description}</span>
+                                                        )}</li>
+                                                ))}
+                                                
+                                            </ul>
+                                        )}
+                                    </td>
                                     <td className={classes.td}>{props[key].type.name}</td>
                                     <td className={classes.td}>{props[key].defaultValue && props[key].defaultValue.value}</td>
                                     <td className={classes.td}>{props[key].required && "X"}</td>

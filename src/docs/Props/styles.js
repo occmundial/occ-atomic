@@ -14,6 +14,10 @@ export default {
         }
     },
     td: {
-        padding:'5px 12px'
+        padding:'5px 12px',
+        verticalAlign:'top'
+    },
+    shapeDescription: {
+        color:'#989898'
     }
 };
