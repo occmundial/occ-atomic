@@ -2,8 +2,6 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Title, Card, colors, Avatar, Flexbox } from '@occmundial/occ-atomic';
 
-const reduceColors = (prev, curr) => Object.assign({}, prev, { [curr]: curr });
-
 const colorKeys = Object.keys(colors);
 
 const Colors = ({ classes }) => {
@@ -26,7 +24,7 @@ const Colors = ({ classes }) => {
                 ))}
             </Card>
         </div>
-    )
+    );
 };
 
 Colors.propTypes = {

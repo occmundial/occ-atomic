@@ -10,7 +10,7 @@ const IndexPage = ({ classes }) => {
                 <Title h={4}>Collection of shareable styled React components for OCC applications.</Title>
             </Card>
         </div>
-    )
+    );
 };
 
 IndexPage.propTypes = {

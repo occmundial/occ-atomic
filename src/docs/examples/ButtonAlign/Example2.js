@@ -8,5 +8,5 @@ export default function Example2() {
             <Input label="Input" />
                 <Button size="sm">Not aligned button</Button>
         </Flexbox>
-    ) 
+    );
 }

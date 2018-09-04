@@ -9,5 +9,5 @@ export default function Example7() {
             placeholder="Focus and blur the input to show the error"
             error="Input with error"
         />
-    )
+    );
 }

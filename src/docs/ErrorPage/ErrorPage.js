@@ -10,7 +10,7 @@ const ErrorPage = ({ classes }) => {
                 <Button href="/">Return to Homepage</Button>
             </Card>
         </div>
-    )
+    );
 };
 
 ErrorPage.propTypes = {

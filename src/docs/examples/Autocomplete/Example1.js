@@ -23,5 +23,5 @@ export default function Example1() {
             }}
             onChange={(value) => {console.log(value);}}
         />
-    )
+    );
 }

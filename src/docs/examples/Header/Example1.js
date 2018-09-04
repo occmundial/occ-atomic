@@ -15,7 +15,7 @@ export default class Example1 extends React.Component {
     navigate({ currentTarget: { id } }) {
         this.setState({
             selected: id
-        })
+        });
     }
     
     render() {
@@ -30,7 +30,7 @@ export default class Example1 extends React.Component {
             { id: 'menu2', href:'#Header', label: 'Item 2' },
             "separator",
             { id: 'menu3', href:'#Header', label: 'Item 3', type:"signOut" },
-        ]
+        ];
         return (
             <Header
                 logo={<SightLogo />}

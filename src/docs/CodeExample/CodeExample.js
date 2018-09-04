@@ -14,7 +14,7 @@ class CodeExample extends React.Component {
     render() {
         const { classes } = this.props;
         return (
-            <pre className={classes.pre} ref={ref => { this.element = ref }}>
+            <pre className={classes.pre} ref={ref => { this.element = ref; }}>
                 <code>
                     {this.props.children}
                 </code>

@@ -1,5 +1,4 @@
-var path = require('path');
-var webpack = require('webpack');
+const path = require('path');
 
 module.exports = {
   devtool: 'eval',
@@ -32,5 +31,4 @@ module.exports = {
       '@occmundial/occ-atomic': path.resolve(__dirname, './build/index')
     }
   }
-  
-}
+};

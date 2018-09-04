@@ -7,5 +7,5 @@ export default function Example2() {
         <Card noPadding>
             <Title h={3}>Card content</Title>
         </Card>
-    )
+    );
 }

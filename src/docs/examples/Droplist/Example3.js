@@ -14,5 +14,5 @@ export default function Example3() {
             itemTextRightKey="secondary"
             onClick={(item) => {console.log(item);}}
         />
-    )
+    );
 }

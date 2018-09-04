@@ -10,5 +10,5 @@ export default function Example2() {
             valueProp="Click on the 'x' icon"
             clear
         />
-    )
+    );
 }

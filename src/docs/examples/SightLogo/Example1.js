@@ -7,5 +7,5 @@ export default function Example1() {
         <div style={{background:colors.blue, padding:'15px 30px 70px 30px'}}>
             <SightLogo />
         </div>
-    )
+    );
 }

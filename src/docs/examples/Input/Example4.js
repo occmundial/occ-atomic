@@ -9,5 +9,5 @@ export default function Example4() {
             placeholder="Placeholder"
             autoFocus
         />
-    )
+    );
 }

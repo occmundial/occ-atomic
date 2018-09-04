@@ -23,5 +23,5 @@ export default function Example2() {
                 </Column>
             </Row>
         </Container>
-    )
+    );
 }

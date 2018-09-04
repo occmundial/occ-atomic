@@ -15,5 +15,5 @@ export default function Example3() {
                 <Column xs={{col:3, push:1}} style={{background:colors.grey5}}>Push</Column>
             </Row>
         </Container>
-    )
+    );
 }

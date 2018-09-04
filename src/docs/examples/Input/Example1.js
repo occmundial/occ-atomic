@@ -8,5 +8,5 @@ export default function Example1() {
             label="Label"
             placeholder="Placeholder"
         />
-    )
+    );
 }

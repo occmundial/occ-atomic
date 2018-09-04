@@ -10,5 +10,5 @@ export default function Example8() {
             valueProp="Focus and blur the input to show the valid status"
             valid
         />
-    )
+    );
 }

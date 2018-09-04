@@ -39,14 +39,14 @@ const Props = ({ classes, props }) => {
                                     <td className={classes.td}>{props[key].defaultValue && props[key].defaultValue.value}</td>
                                     <td className={classes.td}>{props[key].required && "X"}</td>
                                 </tr>
-                            )
+                            );
                         } else { return null; }
                     })
                 }
             </tbody>
         </table>
-    )
-}
+    );
+};
 
 Props.propTypes = {
     classes: PropTypes.object,

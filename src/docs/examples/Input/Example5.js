@@ -10,5 +10,5 @@ export default function Example5() {
             valueProp="Click on the Input to select this text"
             selectOnFocus
         />
-    )
+    );
 }

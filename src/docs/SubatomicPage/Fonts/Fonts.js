@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Title, Card, fonts, Avatar, Flexbox } from '@occmundial/occ-atomic';
+import { Title, Card, fonts } from '@occmundial/occ-atomic';
 
 const Fonts = ({ classes }) => {
     return (
@@ -23,7 +23,7 @@ const Fonts = ({ classes }) => {
                 <h3 style={{fontFamily:fonts.body, fontWeight:'300', color:'#666666'}}>Open Sans Light</h3>
             </Card>
         </div>
-    )
+    );
 };
 
 Fonts.propTypes = {

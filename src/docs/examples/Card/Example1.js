@@ -7,5 +7,5 @@ export default function Example1() {
         <Card shadow={6}>
             <Title h={3}>Card content</Title>
         </Card>
-    )
+    );
 }

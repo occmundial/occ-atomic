@@ -26,5 +26,5 @@ export default function Example2() {
             limitPlaceholder="You can't stack more labels"
             onClick={(items) => {console.log(items);}}
         />
-    )
+    );
 }

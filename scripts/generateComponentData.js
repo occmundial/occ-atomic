@@ -30,7 +30,7 @@ function generate(paths) {
             errors.push('An error ocurred while attempting to generate metadata for ' + componentName + '. ' + error);
         }
     });
-    writeFile(paths.output, "module.exports = " + JSON.stringify(errors.length ? errors : componentData));
+    writeFile(paths.output, "module.exports = " + JSON.stringify(errors.length ? errors : componentData) + ";");
 }
 
 function getComponentData(paths, componentName) {

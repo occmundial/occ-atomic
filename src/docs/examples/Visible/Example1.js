@@ -5,5 +5,5 @@ import { Visible } from '@occmundial/occ-atomic';
 export default function Example1() {
     return (
         <Visible md>Content</Visible>
-    )
+    );
 }

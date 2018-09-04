@@ -7,8 +7,8 @@ export default function Example1() {
         { text:'Button 1', sec:'(10)' },
         { text:'Button 2', sec:'(5)' },
         { text:'Button 3', sec:'(35)' }
-    ]
+    ];
     return (
         <SwitchGroup buttons={items} />
-    )
+    );
 }

@@ -13,5 +13,5 @@ export default function Example1() {
                 <Column xs={{col:6}} style={{background:colors.grey5}}>Column</Column>
             </Row>
         </Container>
-    )
+    );
 }

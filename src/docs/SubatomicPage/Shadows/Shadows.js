@@ -1,10 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Title, Card, shadows, Avatar, Flexbox } from '@occmundial/occ-atomic';
-
-const reduceShadows = (prev, curr) => Object.assign({}, prev, { [curr]: curr });
-
-const shadowKeys = Object.keys(shadows);
+import { Title, Card, shadows } from '@occmundial/occ-atomic';
 
 const Shadows = ({ classes }) => {
     return (
@@ -23,7 +19,7 @@ const Shadows = ({ classes }) => {
                 <Card className={classes.block} style={{boxShadow:shadows.lvl6}}>Level 6</Card>
             </Card>
         </div>
-    )
+    );
 };
 
 Shadows.propTypes = {

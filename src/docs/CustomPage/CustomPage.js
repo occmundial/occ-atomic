@@ -1,6 +1,5 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Title, Card } from '@occmundial/occ-atomic';
 import IndexPage from '../IndexPage';
 // import Colors from '../SubatomicPage/Colors';
 // import Fonts from '../SubatomicPage/Fonts';
@@ -9,7 +8,7 @@ import IndexPage from '../IndexPage';
 // import Shadows from '../SubatomicPage/Shadows';
 import ErrorPage from '../ErrorPage';
 
-const CustomPage = ({ classes, route }) => {
+const CustomPage = ({ route }) => {
     let Component;
     switch(route) {
         case '':

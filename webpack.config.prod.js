@@ -1,7 +1,7 @@
-var path = require('path');
-var webpack = require('webpack');
+const path = require('path');
+const webpack = require('webpack');
 
-var GLOBALS = {
+const GLOBALS = {
   "process.env.NODE_ENV": JSON.stringify(
     process.env.NODE_ENV.indexOf("production") > -1 ? "production" : process.env.NODE_ENV
   ),
@@ -38,4 +38,4 @@ module.exports = {
           },
         ]
     }
-}
+};

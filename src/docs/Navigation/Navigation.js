@@ -33,7 +33,7 @@ class Navigation extends React.Component {
     
     render() {
         const { term } = this.state;
-        const { classes, components } = this.props;
+        const { classes } = this.props;
         return (
             <div className={classes.navigation}>
                 <SearchField onChange={this.onSearch} onClear={this.clearField} />
@@ -72,7 +72,7 @@ class Navigation extends React.Component {
                                     })}
                                     </ul>
                                 </SlideDown>
-                            )
+                            );
                         })
                     }
             </div>
@@ -81,8 +81,7 @@ class Navigation extends React.Component {
 }
 
 Navigation.propTypes = {
-    classes: PropTypes.object,
-    components: PropTypes.array.isRequired
+    classes: PropTypes.object
 };
 
 export default Navigation;

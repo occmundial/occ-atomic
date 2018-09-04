@@ -2,10 +2,6 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Title, Card, grid, colors } from '@occmundial/occ-atomic';
 
-const reduceGrid = (prev, curr) => Object.assign({}, prev, { [curr]: curr });
-
-const gridKeys = Object.keys(grid);
-
 const Grid = ({ classes }) => {
     return (
         <div className={classes.page}>
@@ -25,7 +21,7 @@ const Grid = ({ classes }) => {
                 </div>
             </Card>
         </div>
-    )
+    );
 };
 
 Grid.propTypes = {

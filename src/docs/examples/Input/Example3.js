@@ -9,5 +9,5 @@ export default function Example3() {
             placeholder="Placeholder"
             iconName="search"
         />
-    )
+    );
 }

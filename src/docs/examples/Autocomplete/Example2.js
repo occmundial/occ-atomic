@@ -23,5 +23,5 @@ export default function Example2() {
             }}
             onClick={(item) => {console.log(item);}}
         />
-    )
+    );
 }

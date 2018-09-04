@@ -10,5 +10,5 @@ export default function Example1() {
     ];
     return (
         <OrderBy text="Order by:" options={options} />
-    )
+    );
 }

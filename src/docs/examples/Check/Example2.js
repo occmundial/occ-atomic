@@ -7,5 +7,5 @@ export default function Example2() {
         <div style={{display:'inline-block', width:300}}>
             <Check label="Label" right="Right text" />
         </div>
-    )
+    );
 }

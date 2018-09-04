@@ -7,5 +7,5 @@ export default function Example1() {
         <SlideDown title="SlideDown">
             Content of the SlideDown component
         </SlideDown>
-    )
+    );
 }

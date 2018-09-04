@@ -13,5 +13,5 @@ export default function Example1() {
                 <Button theme="white">White</Button>
             </div>
         </div>
-    ) 
+    );
 }

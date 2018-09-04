@@ -10,5 +10,5 @@ export default function Example1() {
                 <Button size="sm">Aligned button</Button>
             </ButtonAlign>
         </Flexbox>
-    ) 
+    );
 }

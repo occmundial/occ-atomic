@@ -36,5 +36,5 @@ export default function Example3() {
                 <div style={{background:'#BBDAE3', width:50, height:50, color:'#fff'}}>3</div>
             </Flexbox>
         </div>
-    )
+    );
 }

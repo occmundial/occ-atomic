@@ -1,13 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Title, Card, Icon, colors, icons, Avatar, Flexbox } from '@occmundial/occ-atomic';
-
-const reduceIcons = (prev, curr) => Object.assign({}, prev, { [curr]: curr });
+import { Title, Card, Icon, colors, icons } from '@occmundial/occ-atomic';
 
 const iconKeys = Object.keys(icons);
 
 const Icons = ({ classes }) => {
-    console.log(iconKeys);
     return (
         <div className={classes.page}>
             <Card shadow={3}>
@@ -38,7 +35,7 @@ const Icons = ({ classes }) => {
                 
             </Card>
         </div>
-    )
+    );
 };
 
 Icons.propTypes = {

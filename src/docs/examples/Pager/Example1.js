@@ -9,5 +9,5 @@ export default function Example1() {
             pageRangeDisplayed={3}
             marginPagesDisplayed={2}
         />
-    )
+    );
 }

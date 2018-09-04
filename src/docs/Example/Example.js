@@ -43,14 +43,15 @@ class Example extends React.Component {
                     </Card>
                 </SlideDown>
             </div>
-        )
+        );
     }
 }
 
 Example.propTypes = {
     classes: PropTypes.object,
     example: PropTypes.object.isRequired,
-    componentName: PropTypes.string.isRequired
+    componentName: PropTypes.string.isRequired,
+    expanded: PropTypes.bool
 };
 
 export default Example;

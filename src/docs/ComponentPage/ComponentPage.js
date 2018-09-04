@@ -31,7 +31,7 @@ const ComponentPage = ({ classes, component }) => {
                 }
             </Card>
         </div>
-    )
+    );
 };
 
 ComponentPage.propTypes = {

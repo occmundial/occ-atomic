@@ -21,5 +21,5 @@ export default function Example6() {
                 <Flexbox style={{background:'#BBDAE3', width:50, height:50, color:'#fff'}}>3</Flexbox>
             </Flexbox>
         </div>
-    )
+    );
 }

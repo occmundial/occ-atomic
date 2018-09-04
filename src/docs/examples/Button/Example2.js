@@ -9,5 +9,5 @@ export default function Example2() {
             <Button size="md">Medium</Button>
             <Button size="lg">Large</Button>
         </div>
-    ) 
+    );
 }

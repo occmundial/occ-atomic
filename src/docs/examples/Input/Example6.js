@@ -10,5 +10,5 @@ export default function Example6() {
             maxLength={50}
             counter
         />
-    )
+    );
 }

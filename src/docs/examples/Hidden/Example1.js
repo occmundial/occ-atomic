@@ -5,5 +5,5 @@ import { Hidden } from '@occmundial/occ-atomic';
 export default function Example1() {
     return (
         <Hidden sm>Content</Hidden>
-    )
+    );
 }

@@ -15,5 +15,5 @@ export default function Example1() {
     ];
     return (
         <Footer buttons={buttons} />
-    )
+    );
 }

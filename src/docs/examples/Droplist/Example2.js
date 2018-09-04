@@ -30,5 +30,5 @@ export default function Example1() {
             itemTextKey="name"
             itemTextRightKey="secondary"
         />
-    )
+    );
 }

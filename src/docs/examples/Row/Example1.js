@@ -10,5 +10,5 @@ export default function Example1() {
                 Row
             </Row>
         </Container>
-    )
+    );
 }

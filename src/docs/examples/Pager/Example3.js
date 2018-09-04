@@ -8,5 +8,5 @@ export default function Example2() {
             pageCount={5}
             onPageChange={(page) => {console.log(page);}}
         />
-    )
+    );
 }
