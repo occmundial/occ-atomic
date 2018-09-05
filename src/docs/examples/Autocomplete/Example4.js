@@ -19,7 +19,7 @@ export default function Example4() {
             items: [
                 { text: 'Santiago de Querétaro', textRight: '(102)', key: 'QRO2', type: 'CY', id:'3.1' }
             ]
-        }    
+        }
     ];
     return (
         <Autocomplete
