@@ -15,6 +15,7 @@ ShallowWrapper {
         "right": "right",
       }
     }
+    filter={true}
     groupIdKey="id"
     groupItemsKey="items"
     groupNameKey="text"
@@ -132,6 +133,7 @@ ShallowWrapper {
       ],
       "className": "block",
       "id": undefined,
+      "style": undefined,
     },
     "ref": null,
     "rendered": Array [
@@ -428,6 +430,7 @@ ShallowWrapper {
         ],
         "className": "block",
         "id": undefined,
+        "style": undefined,
       },
       "ref": null,
       "rendered": Array [
@@ -707,6 +710,7 @@ ShallowWrapper {
   "length": 1,
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <Jss(Droplist)
+    filter={true}
     groupIdKey="id"
     groupItemsKey="items"
     groupNameKey="text"
@@ -760,6 +764,7 @@ ShallowWrapper {
         "item": "Droplist-item-0-1-4",
         "right": "Droplist-right-0-1-5",
       },
+      "filter": true,
       "groupIdKey": "id",
       "groupItemsKey": "items",
       "groupNameKey": "text",
@@ -809,6 +814,7 @@ ShallowWrapper {
           "item": "Droplist-item-0-1-4",
           "right": "Droplist-right-0-1-5",
         },
+        "filter": true,
         "groupIdKey": "id",
         "groupItemsKey": "items",
         "groupNameKey": "text",

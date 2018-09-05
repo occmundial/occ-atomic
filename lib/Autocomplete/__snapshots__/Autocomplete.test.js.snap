@@ -66,10 +66,13 @@ ShallowWrapper {
           name={undefined}
           onBlur={[Function]}
           onChange={[Function]}
+          onClear={[Function]}
           onFocus={[Function]}
+          onKeyUp={[Function]}
           onRef={[Function]}
           placeholder={undefined}
           selectOnFocus={false}
+          theme={undefined}
           type="text"
           valueProp=""
         />,
@@ -99,10 +102,13 @@ ShallowWrapper {
           "name": undefined,
           "onBlur": [Function],
           "onChange": [Function],
+          "onClear": [Function],
           "onFocus": [Function],
+          "onKeyUp": [Function],
           "onRef": [Function],
           "placeholder": undefined,
           "selectOnFocus": false,
+          "theme": undefined,
           "type": "text",
           "valueProp": "",
         },
@@ -135,10 +141,13 @@ ShallowWrapper {
             name={undefined}
             onBlur={[Function]}
             onChange={[Function]}
+            onClear={[Function]}
             onFocus={[Function]}
+            onKeyUp={[Function]}
             onRef={[Function]}
             placeholder={undefined}
             selectOnFocus={false}
+            theme={undefined}
             type="text"
             valueProp=""
           />,
@@ -168,10 +177,13 @@ ShallowWrapper {
             "name": undefined,
             "onBlur": [Function],
             "onChange": [Function],
+            "onClear": [Function],
             "onFocus": [Function],
+            "onKeyUp": [Function],
             "onRef": [Function],
             "placeholder": undefined,
             "selectOnFocus": false,
+            "theme": undefined,
             "type": "text",
             "valueProp": "",
           },
@@ -203,7 +215,7 @@ Object {
   "droplist": Object {
     "left": "0",
     "position": "absolute",
-    "top": "49px",
+    "top": [Function],
     "width": "100%",
     "zIndex": "2",
   },
@@ -284,9 +296,9 @@ ShallowWrapper {
     "nodeType": "class",
     "props": Object {
       "classes": Object {
-        "autoComplete": "Autocomplete-autoComplete-0-1-33",
-        "droplist": "Autocomplete-droplist-0-1-34",
-        "labels": "Autocomplete-labels-0-1-35",
+        "autoComplete": "Autocomplete-autoComplete-0-1-301 Autocomplete-autoComplete-0-1-297",
+        "droplist": "Autocomplete-droplist-0-1-300 Autocomplete-droplist-0-1-298",
+        "labels": "Autocomplete-labels-0-1-302 Autocomplete-labels-0-1-299",
       },
       "droplistProps": Object {
         "items": Array [
@@ -347,9 +359,9 @@ ShallowWrapper {
       "nodeType": "class",
       "props": Object {
         "classes": Object {
-          "autoComplete": "Autocomplete-autoComplete-0-1-33",
-          "droplist": "Autocomplete-droplist-0-1-34",
-          "labels": "Autocomplete-labels-0-1-35",
+          "autoComplete": "Autocomplete-autoComplete-0-1-301 Autocomplete-autoComplete-0-1-297",
+          "droplist": "Autocomplete-droplist-0-1-300 Autocomplete-droplist-0-1-298",
+          "labels": "Autocomplete-labels-0-1-302 Autocomplete-labels-0-1-299",
         },
         "droplistProps": Object {
           "items": Array [

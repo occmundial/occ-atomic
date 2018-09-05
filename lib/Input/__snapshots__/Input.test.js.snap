@@ -69,6 +69,7 @@ ShallowWrapper {
             onBlur={[Function]}
             onChange={[Function]}
             onFocus={[Function]}
+            onKeyUp={[Function]}
             placeholder=""
             type="text"
             value=""
@@ -100,6 +101,7 @@ ShallowWrapper {
             onBlur={[Function]}
             onChange={[Function]}
             onFocus={[Function]}
+            onKeyUp={[Function]}
             placeholder=""
             type="text"
             value=""
@@ -120,6 +122,7 @@ ShallowWrapper {
             "onBlur": [Function],
             "onChange": [Function],
             "onFocus": [Function],
+            "onKeyUp": [Function],
             "placeholder": "",
             "type": "text",
             "value": "",
@@ -158,6 +161,7 @@ ShallowWrapper {
               onBlur={[Function]}
               onChange={[Function]}
               onFocus={[Function]}
+              onKeyUp={[Function]}
               placeholder=""
               type="text"
               value=""
@@ -189,6 +193,7 @@ ShallowWrapper {
               onBlur={[Function]}
               onChange={[Function]}
               onFocus={[Function]}
+              onKeyUp={[Function]}
               placeholder=""
               type="text"
               value=""
@@ -209,6 +214,7 @@ ShallowWrapper {
               "onBlur": [Function],
               "onChange": [Function],
               "onFocus": [Function],
+              "onKeyUp": [Function],
               "placeholder": "",
               "type": "text",
               "value": "",
@@ -245,182 +251,30 @@ Object {
     "outline": "0",
     "padding": "0",
     "position": "absolute",
-    "right": "0",
-    "top": "20px",
+    "right": [Function],
+    "top": [Function],
   },
-  "complete": Object {
-    "& $input": Object {
-      "borderColor": "#000000",
-    },
-    "& $placeholder": Object {
-      "color": "#000000",
-    },
-    "& $pushHolder": Object {
-      "left": "0",
-    },
-    "color": "#000000",
-  },
-  "container": Object {
-    "marginBottom": "16px",
-    "paddingBottom": "11px",
-    "position": "relative",
-  },
-  "correct": Object {
-    "& $input": Object {
-      "borderColor": "#09ba8a",
-    },
-    "& $placeholder": Object {
-      "color": "#09ba8a",
-    },
-    "& $pushHolder": Object {
-      "left": "0",
-    },
-    "color": "#09ba8a",
-  },
-  "counter": Object {
-    "position": "absolute",
-    "right": "0",
-    "top": "0",
-  },
-  "default": Object {
-    "& $input": Object {
-      "borderColor": "#bfbfbf",
-    },
-    "& $placeholder": Object {
-      "color": "#a7a7a7",
-      "fontSize": "16px",
-      "top": "20px",
-    },
-    "color": "#b0b0b0",
-  },
-  "disabled": Object {
-    "& $input": Object {
-      "borderColor": "#bfbfbf",
-      "color": "#bfbfbf",
-    },
-    "& $placeholder": Object {
-      "color": "#cdcdcd",
-      "fontSize": "16px",
-      "top": "20px",
-    },
-    "& $pushHolder": Object {
-      "left": "0",
-    },
-    "color": "#bfbfbf",
-  },
-  "error": Object {
-    "& $input": Object {
-      "borderColor": "#ef2525",
-    },
-    "& $placeholder": Object {
-      "color": "#ef2525",
-    },
-    "& $pushHolder": Object {
-      "left": "0",
-    },
-    "color": "#ef2525",
-  },
-  "expanded": Object {
-    "height": "80px",
-  },
-  "focus": Object {
-    "& $inputWrap:after": Object {
-      "left": "0",
-      "width": "100%",
-    },
-    "& $placeholder": Object {
-      "color": "#1476fb",
-    },
-    "& $pushHolder": Object {
-      "left": "0",
-    },
-    "color": "#1476fb",
-  },
-  "hasClear": Object {
-    "paddingRight": "24px",
-  },
-  "hasIcon": Object {
-    "paddingLeft": "24px",
-  },
-  "icon": Object {
-    "left": "0",
-    "position": "absolute",
-    "top": "19px",
-  },
-  "input": Object {
-    "&::placeholder": Object {
-      "color": "#a7a7a7",
-    },
-    "alignItems": "center",
-    "background": "transparent",
-    "border": "0",
-    "borderBottom": "1px solid #bfbfbf",
-    "boxSizing": "border-box",
-    "color": "#242424",
-    "display": "flex",
-    "fontFamily": "'Open Sans', sans-serif",
-    "fontSize": "16px",
-    "fontWeight": "normal",
-    "height": "34px",
-    "lineHeight": "16px",
-    "marginBottom": "4px",
-    "outline": "none",
-    "padding": "10px 0",
-    "transition": "0.3s all",
-    "width": "100%",
-  },
-  "inputWrap": Object {
-    "&:after": Object {
-      "background": "#1476fb",
-      "bottom": "0",
-      "content": "\\"\\"",
-      "display": "block",
-      "height": "1px",
-      "left": "50%",
-      "position": "absolute",
-      "transition": "0.3s all",
-      "width": "0",
-    },
-    "boxSizing": "border-box",
-    "position": "relative",
-  },
-  "label": Object {
-    "boxSizing": "border-box",
-    "display": "inline-block",
-    "float": "left",
-    "fontFamily": "'Open Sans', sans-serif",
-    "fontSize": "11px",
-    "fontWeight": "normal",
-    "marginBottom": "0",
-    "maxWidth": "100%",
-    "transition": "0.3s all",
-  },
-  "left": Object {
-    "float": "left",
-  },
-  "placeholder": Object {
-    "fontSize": "11px",
-    "pointerEvents": "none",
-    "position": "absolute",
-    "top": "0",
-  },
-  "push": Object {
-    "paddingTop": "15px",
-  },
-  "pushHolder": Object {
-    "left": "24px",
-  },
-  "select": Object {
-    "appearance": "none",
-    "background": "url(data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgogICAgICAgICAgICAJIHZpZXdCb3g9IjAgMCAxNCAxNCIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMTQgMTQ7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KICAgICAgICAgICAgPHBhdGggZmlsbD0iIzRFNjI3MyIgZD0iTTExLjUsNC4ybDAuMywwLjRjMC4xLDAuMSwwLjEsMC4yLDAsMC4zTDcuMSw5LjhjLTAuMSwwLjEtMC4yLDAuMS0wLjMsMGMwLDAsMCwwLDAsMEwyLjEsNC44CiAgICAgICAgICAgIAljLTAuMS0wLjEtMC4xLTAuMiwwLTAuM2wwLjMtMC40YzAuMS0wLjEsMC4yLTAuMSwwLjMsMGMwLDAsMCwwLDAsMGw0LjEsNC40YzAuMSwwLjEsMC4yLDAuMSwwLjMsMGMwLDAsMCwwLDAsMGw0LjEtNC40CiAgICAgICAgICAgIAlDMTEuMyw0LjEsMTEuNCw0LjEsMTEuNSw0LjJDMTEuNSw0LjEsMTEuNSw0LjIsMTEuNSw0LjJ6Ii8+CiAgICAgICAgICAgIDwvc3ZnPg==) no-repeat center center",
-    "backgroundPosition": "calc(100% - 5px) 5px",
-    "backgroundSize": "24px 24px",
-    "padding": "0",
-  },
-  "textarea": Object {
-    "lineHeight": "22px",
-    "padding": "5px 0",
-  },
+  "complete": [Function],
+  "container": [Function],
+  "correct": [Function],
+  "counter": [Function],
+  "default": [Function],
+  "disabled": [Function],
+  "error": [Function],
+  "expanded": [Function],
+  "focus": [Function],
+  "hasClear": [Function],
+  "hasIcon": [Function],
+  "icon": [Function],
+  "input": [Function],
+  "inputWrap": [Function],
+  "label": [Function],
+  "left": [Function],
+  "placeholder": [Function],
+  "push": [Function],
+  "pushHolder": [Function],
+  "select": [Function],
+  "textarea": [Function],
 }
 `;
 
@@ -452,28 +306,28 @@ ShallowWrapper {
     "props": Object {
       "autoFocus": false,
       "classes": Object {
-        "clear": "Input-clear-0-1-22",
-        "complete": "Input-complete-0-1-5",
-        "container": "Input-container-0-1-1",
-        "correct": "Input-correct-0-1-6",
-        "counter": "Input-counter-0-1-11",
-        "default": "Input-default-0-1-2",
-        "disabled": "Input-disabled-0-1-3",
-        "error": "Input-error-0-1-7",
-        "expanded": "Input-expanded-0-1-18",
-        "focus": "Input-focus-0-1-4",
-        "hasClear": "Input-hasClear-0-1-21",
-        "hasIcon": "Input-hasIcon-0-1-19",
-        "icon": "Input-icon-0-1-20",
-        "input": "Input-input-0-1-15",
-        "inputWrap": "Input-inputWrap-0-1-14",
-        "label": "Input-label-0-1-8",
-        "left": "Input-left-0-1-9",
-        "placeholder": "Input-placeholder-0-1-12",
-        "push": "Input-push-0-1-10",
-        "pushHolder": "Input-pushHolder-0-1-13",
-        "select": "Input-select-0-1-17",
-        "textarea": "Input-textarea-0-1-16",
+        "clear": "Input-clear-0-1-44 Input-clear-0-1-22",
+        "complete": "Input-complete-0-1-27 Input-complete-0-1-5",
+        "container": "Input-container-0-1-23 Input-container-0-1-1",
+        "correct": "Input-correct-0-1-28 Input-correct-0-1-6",
+        "counter": "Input-counter-0-1-33 Input-counter-0-1-11",
+        "default": "Input-default-0-1-24 Input-default-0-1-2",
+        "disabled": "Input-disabled-0-1-25 Input-disabled-0-1-3",
+        "error": "Input-error-0-1-29 Input-error-0-1-7",
+        "expanded": "Input-expanded-0-1-40 Input-expanded-0-1-18",
+        "focus": "Input-focus-0-1-26 Input-focus-0-1-4",
+        "hasClear": "Input-hasClear-0-1-43 Input-hasClear-0-1-21",
+        "hasIcon": "Input-hasIcon-0-1-41 Input-hasIcon-0-1-19",
+        "icon": "Input-icon-0-1-42 Input-icon-0-1-20",
+        "input": "Input-input-0-1-37 Input-input-0-1-15",
+        "inputWrap": "Input-inputWrap-0-1-36 Input-inputWrap-0-1-14",
+        "label": "Input-label-0-1-30 Input-label-0-1-8",
+        "left": "Input-left-0-1-31 Input-left-0-1-9",
+        "placeholder": "Input-placeholder-0-1-34 Input-placeholder-0-1-12",
+        "push": "Input-push-0-1-32 Input-push-0-1-10",
+        "pushHolder": "Input-pushHolder-0-1-35 Input-pushHolder-0-1-13",
+        "select": "Input-select-0-1-39 Input-select-0-1-17",
+        "textarea": "Input-textarea-0-1-38 Input-textarea-0-1-16",
       },
       "clear": false,
       "counter": false,
@@ -495,28 +349,28 @@ ShallowWrapper {
       "props": Object {
         "autoFocus": false,
         "classes": Object {
-          "clear": "Input-clear-0-1-22",
-          "complete": "Input-complete-0-1-5",
-          "container": "Input-container-0-1-1",
-          "correct": "Input-correct-0-1-6",
-          "counter": "Input-counter-0-1-11",
-          "default": "Input-default-0-1-2",
-          "disabled": "Input-disabled-0-1-3",
-          "error": "Input-error-0-1-7",
-          "expanded": "Input-expanded-0-1-18",
-          "focus": "Input-focus-0-1-4",
-          "hasClear": "Input-hasClear-0-1-21",
-          "hasIcon": "Input-hasIcon-0-1-19",
-          "icon": "Input-icon-0-1-20",
-          "input": "Input-input-0-1-15",
-          "inputWrap": "Input-inputWrap-0-1-14",
-          "label": "Input-label-0-1-8",
-          "left": "Input-left-0-1-9",
-          "placeholder": "Input-placeholder-0-1-12",
-          "push": "Input-push-0-1-10",
-          "pushHolder": "Input-pushHolder-0-1-13",
-          "select": "Input-select-0-1-17",
-          "textarea": "Input-textarea-0-1-16",
+          "clear": "Input-clear-0-1-44 Input-clear-0-1-22",
+          "complete": "Input-complete-0-1-27 Input-complete-0-1-5",
+          "container": "Input-container-0-1-23 Input-container-0-1-1",
+          "correct": "Input-correct-0-1-28 Input-correct-0-1-6",
+          "counter": "Input-counter-0-1-33 Input-counter-0-1-11",
+          "default": "Input-default-0-1-24 Input-default-0-1-2",
+          "disabled": "Input-disabled-0-1-25 Input-disabled-0-1-3",
+          "error": "Input-error-0-1-29 Input-error-0-1-7",
+          "expanded": "Input-expanded-0-1-40 Input-expanded-0-1-18",
+          "focus": "Input-focus-0-1-26 Input-focus-0-1-4",
+          "hasClear": "Input-hasClear-0-1-43 Input-hasClear-0-1-21",
+          "hasIcon": "Input-hasIcon-0-1-41 Input-hasIcon-0-1-19",
+          "icon": "Input-icon-0-1-42 Input-icon-0-1-20",
+          "input": "Input-input-0-1-37 Input-input-0-1-15",
+          "inputWrap": "Input-inputWrap-0-1-36 Input-inputWrap-0-1-14",
+          "label": "Input-label-0-1-30 Input-label-0-1-8",
+          "left": "Input-left-0-1-31 Input-left-0-1-9",
+          "placeholder": "Input-placeholder-0-1-34 Input-placeholder-0-1-12",
+          "push": "Input-push-0-1-32 Input-push-0-1-10",
+          "pushHolder": "Input-pushHolder-0-1-35 Input-pushHolder-0-1-13",
+          "select": "Input-select-0-1-39 Input-select-0-1-17",
+          "textarea": "Input-textarea-0-1-38 Input-textarea-0-1-16",
         },
         "clear": false,
         "counter": false,
