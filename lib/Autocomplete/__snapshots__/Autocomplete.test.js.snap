@@ -284,9 +284,9 @@ ShallowWrapper {
     "nodeType": "class",
     "props": Object {
       "classes": Object {
-        "autoComplete": "Autocomplete-autoComplete-0-1-693 Autocomplete-autoComplete-0-1-689",
-        "droplist": "Autocomplete-droplist-0-1-692 Autocomplete-droplist-0-1-690",
-        "labels": "Autocomplete-labels-0-1-694 Autocomplete-labels-0-1-691",
+        "autoComplete": "Autocomplete-autoComplete-0-1-895 Autocomplete-autoComplete-0-1-891",
+        "droplist": "Autocomplete-droplist-0-1-894 Autocomplete-droplist-0-1-892",
+        "labels": "Autocomplete-labels-0-1-896 Autocomplete-labels-0-1-893",
       },
       "droplistProps": Object {
         "items": Array [
@@ -347,9 +347,9 @@ ShallowWrapper {
       "nodeType": "class",
       "props": Object {
         "classes": Object {
-          "autoComplete": "Autocomplete-autoComplete-0-1-693 Autocomplete-autoComplete-0-1-689",
-          "droplist": "Autocomplete-droplist-0-1-692 Autocomplete-droplist-0-1-690",
-          "labels": "Autocomplete-labels-0-1-694 Autocomplete-labels-0-1-691",
+          "autoComplete": "Autocomplete-autoComplete-0-1-895 Autocomplete-autoComplete-0-1-891",
+          "droplist": "Autocomplete-droplist-0-1-894 Autocomplete-droplist-0-1-892",
+          "labels": "Autocomplete-labels-0-1-896 Autocomplete-labels-0-1-893",
         },
         "droplistProps": Object {
           "items": Array [
