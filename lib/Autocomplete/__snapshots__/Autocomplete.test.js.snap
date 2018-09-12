@@ -53,16 +53,13 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": Array [
-        <Jss(Input)
-          autoFocus={false}
+        <StyledInput
           className="undefined"
-          clear={false}
-          counter={false}
-          disabled={false}
+          clear={undefined}
+          disabled={undefined}
           iconName={undefined}
           id={undefined}
           label={undefined}
-          maxLength={100}
           name={undefined}
           onBlur={[Function]}
           onChange={[Function]}
@@ -71,34 +68,31 @@ ShallowWrapper {
           onKeyUp={[Function]}
           onRef={[Function]}
           placeholder={undefined}
-          selectOnFocus={false}
+          selectOnFocus={undefined}
           theme={undefined}
-          type="text"
+          type={undefined}
           valueProp=""
         />,
-        "",
+        null,
         "",
       ],
       "className": "autoComplete",
       "id": undefined,
       "style": undefined,
     },
-    "ref": null,
+    "ref": [Function],
     "rendered": Array [
       Object {
         "instance": null,
         "key": undefined,
-        "nodeType": "class",
+        "nodeType": "function",
         "props": Object {
-          "autoFocus": false,
           "className": "undefined",
-          "clear": false,
-          "counter": false,
-          "disabled": false,
+          "clear": undefined,
+          "disabled": undefined,
           "iconName": undefined,
           "id": undefined,
           "label": undefined,
-          "maxLength": 100,
           "name": undefined,
           "onBlur": [Function],
           "onChange": [Function],
@@ -107,16 +101,16 @@ ShallowWrapper {
           "onKeyUp": [Function],
           "onRef": [Function],
           "placeholder": undefined,
-          "selectOnFocus": false,
+          "selectOnFocus": undefined,
           "theme": undefined,
-          "type": "text",
+          "type": undefined,
           "valueProp": "",
         },
         "ref": null,
         "rendered": null,
         "type": [Function],
       },
-      "",
+      null,
       "",
     ],
     "type": "div",
@@ -128,16 +122,13 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": Array [
-          <Jss(Input)
-            autoFocus={false}
+          <StyledInput
             className="undefined"
-            clear={false}
-            counter={false}
-            disabled={false}
+            clear={undefined}
+            disabled={undefined}
             iconName={undefined}
             id={undefined}
             label={undefined}
-            maxLength={100}
             name={undefined}
             onBlur={[Function]}
             onChange={[Function]}
@@ -146,34 +137,31 @@ ShallowWrapper {
             onKeyUp={[Function]}
             onRef={[Function]}
             placeholder={undefined}
-            selectOnFocus={false}
+            selectOnFocus={undefined}
             theme={undefined}
-            type="text"
+            type={undefined}
             valueProp=""
           />,
-          "",
+          null,
           "",
         ],
         "className": "autoComplete",
         "id": undefined,
         "style": undefined,
       },
-      "ref": null,
+      "ref": [Function],
       "rendered": Array [
         Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "class",
+          "nodeType": "function",
           "props": Object {
-            "autoFocus": false,
             "className": "undefined",
-            "clear": false,
-            "counter": false,
-            "disabled": false,
+            "clear": undefined,
+            "disabled": undefined,
             "iconName": undefined,
             "id": undefined,
             "label": undefined,
-            "maxLength": 100,
             "name": undefined,
             "onBlur": [Function],
             "onChange": [Function],
@@ -182,16 +170,16 @@ ShallowWrapper {
             "onKeyUp": [Function],
             "onRef": [Function],
             "placeholder": undefined,
-            "selectOnFocus": false,
+            "selectOnFocus": undefined,
             "theme": undefined,
-            "type": "text",
+            "type": undefined,
             "valueProp": "",
           },
           "ref": null,
           "rendered": null,
           "type": [Function],
         },
-        "",
+        null,
         "",
       ],
       "type": "div",
@@ -296,9 +284,9 @@ ShallowWrapper {
     "nodeType": "class",
     "props": Object {
       "classes": Object {
-        "autoComplete": "Autocomplete-autoComplete-0-1-301 Autocomplete-autoComplete-0-1-297",
-        "droplist": "Autocomplete-droplist-0-1-300 Autocomplete-droplist-0-1-298",
-        "labels": "Autocomplete-labels-0-1-302 Autocomplete-labels-0-1-299",
+        "autoComplete": "Autocomplete-autoComplete-0-1-693 Autocomplete-autoComplete-0-1-689",
+        "droplist": "Autocomplete-droplist-0-1-692 Autocomplete-droplist-0-1-690",
+        "labels": "Autocomplete-labels-0-1-694 Autocomplete-labels-0-1-691",
       },
       "droplistProps": Object {
         "items": Array [
@@ -359,9 +347,9 @@ ShallowWrapper {
       "nodeType": "class",
       "props": Object {
         "classes": Object {
-          "autoComplete": "Autocomplete-autoComplete-0-1-301 Autocomplete-autoComplete-0-1-297",
-          "droplist": "Autocomplete-droplist-0-1-300 Autocomplete-droplist-0-1-298",
-          "labels": "Autocomplete-labels-0-1-302 Autocomplete-labels-0-1-299",
+          "autoComplete": "Autocomplete-autoComplete-0-1-693 Autocomplete-autoComplete-0-1-689",
+          "droplist": "Autocomplete-droplist-0-1-692 Autocomplete-droplist-0-1-690",
+          "labels": "Autocomplete-labels-0-1-694 Autocomplete-labels-0-1-691",
         },
         "droplistProps": Object {
           "items": Array [
