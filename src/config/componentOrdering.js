@@ -20,6 +20,7 @@ module.exports = [
         name: 'Molecules',
         components: [
             'Droplist',
+            'TextField',
             'Input',
             'Autocomplete',
             'SubHeader',
