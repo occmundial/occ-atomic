@@ -7,6 +7,7 @@ ShallowWrapper {
   Symbol(enzyme.__unrendered__): <Label
     classes={
       Object {
+        "blue": "blue",
         "close": "close",
         "cursor": "cursor",
         "default": "default",
@@ -80,6 +81,19 @@ ShallowWrapper {
 
 exports[`Label styles matches the snapshot 1`] = `
 Object {
+  "blue": Object {
+    "& $close": Object {
+      "&:after": Object {
+        "background": "url(data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgogICAgICAgICAgICAJIHZpZXdCb3g9IjAgMCAyNCAyNCIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMjQgMjQ7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KICAgICAgICAgICAgPHBvbHlnb24gZmlsbD0iI2ZmZmZmZiIgcG9pbnRzPSIxOCw2LjggMTcuMiw2IDEyLDExLjIgNi44LDYgNiw2LjggMTEuMiwxMiA2LDE3LjIgNi44LDE4IDEyLDEyLjggMTcuMiwxOCAxOCwxNy4yIDEyLjgsMTIgIi8+CiAgICAgICAgICAgIDwvc3ZnPg==) no-repeat center center",
+      },
+      "&:before": Object {
+        "background": "#083cae",
+      },
+    },
+    "background": "#083cae",
+    "borderColor": "#083cae",
+    "color": "#ffffff",
+  },
   "close": Object {
     "&:after": Object {
       "background": "url(data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgogICAgICAgICAgICAJIHZpZXdCb3g9IjAgMCAyNCAyNCIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMjQgMjQ7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KICAgICAgICAgICAgPHBvbHlnb24gZmlsbD0iI2FiYjZiZCIgcG9pbnRzPSIxOCw2LjggMTcuMiw2IDEyLDExLjIgNi44LDYgNiw2LjggMTEuMiwxMiA2LDE3LjIgNi44LDE4IDEyLDEyLjggMTcuMiwxOCAxOCwxNy4yIDEyLjgsMTIgIi8+CiAgICAgICAgICAgIDwvc3ZnPg==) no-repeat center center",
@@ -165,7 +179,8 @@ ShallowWrapper {
     "props": Object {
       "children": "Label",
       "classes": Object {
-        "close": "Label-close-0-1-4",
+        "blue": "Label-blue-0-1-4",
+        "close": "Label-close-0-1-5",
         "cursor": "Label-cursor-0-1-2",
         "default": "Label-default-0-1-3",
         "label": "Label-label-0-1-1",
@@ -184,7 +199,8 @@ ShallowWrapper {
       "props": Object {
         "children": "Label",
         "classes": Object {
-          "close": "Label-close-0-1-4",
+          "blue": "Label-blue-0-1-4",
+          "close": "Label-close-0-1-5",
           "cursor": "Label-cursor-0-1-2",
           "default": "Label-default-0-1-3",
           "label": "Label-label-0-1-1",

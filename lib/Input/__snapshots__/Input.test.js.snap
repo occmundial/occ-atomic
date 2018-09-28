@@ -362,7 +362,7 @@ Object {
     "border": "0",
     "borderBottom": "1px solid #bfbfbf",
     "boxSizing": "border-box",
-    "color": "#242424",
+    "color": "#222222",
     "display": "flex",
     "fontFamily": "'Open Sans', sans-serif",
     "fontSize": "16px",

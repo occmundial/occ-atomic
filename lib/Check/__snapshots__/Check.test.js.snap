@@ -118,7 +118,7 @@ Object {
       "borderColor": "#09ba8a",
     },
     "& $label": Object {
-      "color": "#242424",
+      "color": "#222222",
     },
   },
   "check": Object {
@@ -152,7 +152,7 @@ Object {
       "borderColor": "#09ba8a",
     },
     "&:hover $label": Object {
-      "color": "#242424",
+      "color": "#222222",
     },
     "boxSizing": "border-box",
     "cursor": "pointer",

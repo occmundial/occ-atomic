@@ -277,7 +277,7 @@ Object {
     "background": "transparent",
     "border": "1px solid #bfbfbf",
     "boxSizing": "border-box",
-    "color": "#242424",
+    "color": "#222222",
     "cursor": "pointer",
     "flex": "1",
     "fontFamily": "'Open Sans', sans-serif",

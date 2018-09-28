@@ -142,7 +142,7 @@ Object {
   },
   "white": Object {
     "background": "#ffffff",
-    "color": "#242424",
+    "color": "#222222",
   },
   "wrapper": Object {
     "height": "60px",

@@ -1080,7 +1080,7 @@ Object {
     "textDecoration": "none",
   },
   "dropdownMenu": Object {
-    "background": "#242424",
+    "background": "#222222",
     "borderRadius": "4px",
     "bottom": "calc(100% + 10px)",
     "boxShadow": "0 6px 12px rgba(0,0,0,.175)",
@@ -1096,7 +1096,7 @@ Object {
     "zIndex": "2",
   },
   "footer": Object {
-    "backgroundColor": "#242424",
+    "backgroundColor": "#222222",
     "color": "#cdcdcd",
     "fontFamily": "'Nunito Sans', sans-serif",
     "fontSize": "12px",
