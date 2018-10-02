@@ -6,8 +6,10 @@ All notable changes to this project will be documented in this file.
 
 ## 1.0.x
 
+### 1.0.1
+- Change in `TextField` background color.
 ### 1.0.0
-- New TextField component. This component will replace the old `Input` component. In following versions will be deprecated.
+- New `TextField` component. This component will replace the old `Input` component. In following versions will be deprecated.
 
 # Version 0
 
