@@ -54,14 +54,11 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": Array [
-        <div
-          className="top"
-        />,
         undefined,
-        false,
         <div
           className="inputWrap"
         >
+          
           <input
             autoFocus={false}
             className="input"
@@ -77,16 +74,14 @@ ShallowWrapper {
             value=""
           />
         </div>,
-        "",
-        <div
-          className="bottom"
-        />,
+        undefined,
       ],
       "className": "container default",
       "style": undefined,
     },
     "ref": null,
     "rendered": Array [
+      undefined,
       Object {
         "instance": null,
         "key": undefined,
@@ -95,95 +90,7 @@ ShallowWrapper {
           "children": Array [
             undefined,
             false,
-          ],
-          "className": "top",
-        },
-        "ref": null,
-        "rendered": Array [
-          undefined,
-          false,
-        ],
-        "type": "div",
-      },
-      undefined,
-      false,
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": <input
-            autoFocus={false}
-            className="input"
-            id={undefined}
-            maxLength={100}
-            name={undefined}
-            onBlur={[Function]}
-            onChange={[Function]}
-            onFocus={[Function]}
-            onKeyUp={[Function]}
-            placeholder={undefined}
-            type="text"
-            value=""
-          />,
-          "className": "inputWrap",
-        },
-        "ref": null,
-        "rendered": Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "autoFocus": false,
-            "className": "input",
-            "id": undefined,
-            "maxLength": 100,
-            "name": undefined,
-            "onBlur": [Function],
-            "onChange": [Function],
-            "onFocus": [Function],
-            "onKeyUp": [Function],
-            "placeholder": undefined,
-            "type": "text",
-            "value": "",
-          },
-          "ref": [Function],
-          "rendered": null,
-          "type": "input",
-        },
-        "type": "div",
-      },
-      "",
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": undefined,
-          "className": "bottom",
-        },
-        "ref": null,
-        "rendered": null,
-        "type": "div",
-      },
-    ],
-    "type": "div",
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "host",
-      "props": Object {
-        "children": Array [
-          <div
-            className="top"
-          />,
-          undefined,
-          false,
-          <div
-            className="inputWrap"
-          >
+            "",
             <input
               autoFocus={false}
               className="input"
@@ -197,61 +104,16 @@ ShallowWrapper {
               placeholder={undefined}
               type="text"
               value=""
-            />
-          </div>,
-          "",
-          <div
-            className="bottom"
-          />,
-        ],
-        "className": "container default",
-        "style": undefined,
-      },
-      "ref": null,
-      "rendered": Array [
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": Array [
-              undefined,
-              false,
-            ],
-            "className": "top",
-          },
-          "ref": null,
-          "rendered": Array [
-            undefined,
-            false,
-          ],
-          "type": "div",
-        },
-        undefined,
-        false,
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": <input
-              autoFocus={false}
-              className="input"
-              id={undefined}
-              maxLength={100}
-              name={undefined}
-              onBlur={[Function]}
-              onChange={[Function]}
-              onFocus={[Function]}
-              onKeyUp={[Function]}
-              placeholder={undefined}
-              type="text"
-              value=""
             />,
-            "className": "inputWrap",
-          },
-          "ref": null,
-          "rendered": Object {
+          ],
+          "className": "inputWrap",
+        },
+        "ref": null,
+        "rendered": Array [
+          undefined,
+          false,
+          "",
+          Object {
             "instance": null,
             "key": undefined,
             "nodeType": "host",
@@ -273,21 +135,105 @@ ShallowWrapper {
             "rendered": null,
             "type": "input",
           },
-          "type": "div",
-        },
-        "",
+        ],
+        "type": "div",
+      },
+      undefined,
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          undefined,
+          <div
+            className="inputWrap"
+          >
+            
+            <input
+              autoFocus={false}
+              className="input"
+              id={undefined}
+              maxLength={100}
+              name={undefined}
+              onBlur={[Function]}
+              onChange={[Function]}
+              onFocus={[Function]}
+              onKeyUp={[Function]}
+              placeholder={undefined}
+              type="text"
+              value=""
+            />
+          </div>,
+          undefined,
+        ],
+        "className": "container default",
+        "style": undefined,
+      },
+      "ref": null,
+      "rendered": Array [
+        undefined,
         Object {
           "instance": null,
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": undefined,
-            "className": "bottom",
+            "children": Array [
+              undefined,
+              false,
+              "",
+              <input
+                autoFocus={false}
+                className="input"
+                id={undefined}
+                maxLength={100}
+                name={undefined}
+                onBlur={[Function]}
+                onChange={[Function]}
+                onFocus={[Function]}
+                onKeyUp={[Function]}
+                placeholder={undefined}
+                type="text"
+                value=""
+              />,
+            ],
+            "className": "inputWrap",
           },
           "ref": null,
-          "rendered": null,
+          "rendered": Array [
+            undefined,
+            false,
+            "",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "autoFocus": false,
+                "className": "input",
+                "id": undefined,
+                "maxLength": 100,
+                "name": undefined,
+                "onBlur": [Function],
+                "onChange": [Function],
+                "onFocus": [Function],
+                "onKeyUp": [Function],
+                "placeholder": undefined,
+                "type": "text",
+                "value": "",
+              },
+              "ref": [Function],
+              "rendered": null,
+              "type": "input",
+            },
+          ],
           "type": "div",
         },
+        undefined,
       ],
       "type": "div",
     },
@@ -320,7 +266,7 @@ Object {
     "padding": 0,
     "position": "absolute",
     "right": 12,
-    "top": 32,
+    "top": 8,
   },
   "container": Object {
     "marginBottom": 8,
@@ -370,14 +316,14 @@ Object {
   "icon": Object {
     "left": 12,
     "position": "absolute",
-    "top": 32,
+    "top": 8,
   },
   "input": Object {
     "&::placeholder": Object {
       "color": "#aaaaaa",
     },
     "alignItems": "center",
-    "background": "transparent",
+    "background": "#ffffff",
     "border": "1px solid #dddddd",
     "borderRadius": 4,
     "boxSizing": "border-box",
@@ -417,7 +363,7 @@ Object {
     "padding": 0,
     "position": "absolute",
     "right": 16,
-    "top": 34,
+    "top": 11,
     "zIndex": 1,
   },
   "right": Object {
