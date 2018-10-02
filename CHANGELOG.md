@@ -6,6 +6,9 @@ All notable changes to this project will be documented in this file.
 
 ## 1.0.x
 
+### 1.0.3
+- Bug fix in `TextField`.
+
 ### 1.0.2
 - The `TextField` component can now get smaller without `label` and `assistiveText`.
 
