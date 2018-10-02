@@ -6,6 +6,9 @@ All notable changes to this project will be documented in this file.
 
 ## 1.0.x
 
+### 1.0.4
+- Bug fix in className of the `TextField` component.
+
 ### 1.0.3
 - Bug fix in `TextField`.
 
