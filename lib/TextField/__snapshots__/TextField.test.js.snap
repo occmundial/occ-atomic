@@ -17,6 +17,7 @@ ShallowWrapper {
         "disabled": "disabled",
         "error": "error",
         "errorAssistiveText": "errorAssistiveText",
+        "errorIcon": "errorIcon",
         "focus": "focus",
         "hasClear": "hasClear",
         "hasIcon": "hasIcon",
@@ -310,8 +311,19 @@ Object {
     "height": 20,
     "marginTop": 4,
   },
-  "clear": Object {},
+  "clear": Object {
+    "background": "none",
+    "border": 0,
+    "cursor": "pointer",
+    "margin": 0,
+    "outline": 0,
+    "padding": 0,
+    "position": "absolute",
+    "right": 12,
+    "top": 32,
+  },
   "container": Object {
+    "marginBottom": 8,
     "position": "relative",
   },
   "counter": Object {},
@@ -338,12 +350,17 @@ Object {
   "errorAssistiveText": Object {
     "color": "#fe4a49",
   },
+  "errorIcon": Object {
+    "marginBottom": -2,
+  },
   "focus": Object {
     "& $input": Object {
       "borderColor": "#083cae",
     },
   },
-  "hasClear": Object {},
+  "hasClear": Object {
+    "paddingRight": 42,
+  },
   "hasIcon": Object {
     "paddingLeft": 42,
   },
@@ -364,6 +381,7 @@ Object {
     "border": "1px solid #dddddd",
     "borderRadius": 4,
     "boxSizing": "border-box",
+    "caretColor": "#083cae",
     "color": "#222222",
     "display": "flex",
     "fontFamily": "'Open Sans', sans-serif",
@@ -391,7 +409,12 @@ Object {
     "float": "left",
   },
   "passIcon": Object {
+    "background": "none",
+    "border": 0,
     "cursor": "pointer",
+    "margin": 0,
+    "outline": 0,
+    "padding": 0,
     "position": "absolute",
     "right": 16,
     "top": 34,
@@ -400,7 +423,10 @@ Object {
   "right": Object {
     "float": "right",
   },
-  "textarea": Object {},
+  "textarea": Object {
+    "height": 72,
+    "resize": "none",
+  },
   "top": Object {
     "&:after": Object {
       "clear": "both",
@@ -440,7 +466,7 @@ ShallowWrapper {
       "autoFocus": false,
       "classes": Object {
         "assistiveText": "TextField-assistiveText-0-1-20",
-        "bottom": "TextField-bottom-0-1-22",
+        "bottom": "TextField-bottom-0-1-23",
         "clear": "TextField-clear-0-1-19",
         "container": "TextField-container-0-1-1",
         "counter": "TextField-counter-0-1-10",
@@ -448,6 +474,7 @@ ShallowWrapper {
         "disabled": "TextField-disabled-0-1-4",
         "error": "TextField-error-0-1-6",
         "errorAssistiveText": "TextField-errorAssistiveText-0-1-21",
+        "errorIcon": "TextField-errorIcon-0-1-22",
         "focus": "TextField-focus-0-1-5",
         "hasClear": "TextField-hasClear-0-1-18",
         "hasIcon": "TextField-hasIcon-0-1-14",
@@ -483,7 +510,7 @@ ShallowWrapper {
         "autoFocus": false,
         "classes": Object {
           "assistiveText": "TextField-assistiveText-0-1-20",
-          "bottom": "TextField-bottom-0-1-22",
+          "bottom": "TextField-bottom-0-1-23",
           "clear": "TextField-clear-0-1-19",
           "container": "TextField-container-0-1-1",
           "counter": "TextField-counter-0-1-10",
@@ -491,6 +518,7 @@ ShallowWrapper {
           "disabled": "TextField-disabled-0-1-4",
           "error": "TextField-error-0-1-6",
           "errorAssistiveText": "TextField-errorAssistiveText-0-1-21",
+          "errorIcon": "TextField-errorIcon-0-1-22",
           "focus": "TextField-focus-0-1-5",
           "hasClear": "TextField-hasClear-0-1-18",
           "hasIcon": "TextField-hasIcon-0-1-14",
