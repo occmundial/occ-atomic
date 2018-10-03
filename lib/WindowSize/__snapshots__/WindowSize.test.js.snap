@@ -18,6 +18,7 @@ ShallowWrapper {
     "nodeType": "function",
     "props": Object {
       "size": "md",
+      "winWidth": 1024,
     },
     "ref": null,
     "rendered": null,
@@ -37,6 +38,7 @@ ShallowWrapper {
       "nodeType": "function",
       "props": Object {
         "size": "md",
+        "winWidth": 1024,
       },
       "ref": null,
       "rendered": null,
