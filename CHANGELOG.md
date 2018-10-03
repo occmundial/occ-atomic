@@ -6,6 +6,10 @@ All notable changes to this project will be documented in this file.
 
 ## 1.0.x
 
+### 1.0.5
+- `Hidden` can now hide the elements using css (passing the `mediaQuery` property) instead of removing them from the DOM.
+- WindowSize now passes the `winWidth` property and not just `size`.
+
 ### 1.0.4
 - Bug fix in className of the `TextField` component.
 
