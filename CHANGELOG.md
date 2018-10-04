@@ -6,6 +6,9 @@ All notable changes to this project will be documented in this file.
 
 ## 1.0.x
 
+### 1.0.6
+- Changes in styles of `Button` component's main theme.
+
 ### 1.0.5
 - `Hidden` can now hide the elements using css (passing the `mediaQuery` property) instead of removing them from the DOM.
 - WindowSize now passes the `winWidth` property and not just `size`.
