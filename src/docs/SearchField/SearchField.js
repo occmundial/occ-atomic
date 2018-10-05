@@ -4,7 +4,7 @@ import { Input } from '@occmundial/occ-atomic';
 
 class SearchField extends React.Component{
     render() {
-        const { onChange, onClear } = this.props;
+        const { onChange, onClear, value } = this.props;
         return (
             <div>
                 <Input
@@ -13,6 +13,7 @@ class SearchField extends React.Component{
                     clear
                     onClear={onClear}
                     iconName="search"
+                    valueProp={value}
                 />
             </div>
         );
@@ -21,7 +22,8 @@ class SearchField extends React.Component{
 
 SearchField.propTypes = {
     onChange: PropTypes.func.isRequired,
-    onClear: PropTypes.func.isRequired
+    onClear: PropTypes.func.isRequired,
+    value: PropTypes.string
 };
 
 export default SearchField;

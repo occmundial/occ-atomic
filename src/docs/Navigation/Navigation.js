@@ -36,7 +36,7 @@ class Navigation extends React.Component {
         const { classes } = this.props;
         return (
             <div className={classes.navigation}>
-                <SearchField onChange={this.onSearch} onClear={this.clearField} />
+                <SearchField onChange={this.onSearch} onClear={this.clearField} value={term} />
                     {/* <SlideDown title="Subatomic" expanded>
                         <ul className={classes.ul}>
                             <li className={classes.li}>
