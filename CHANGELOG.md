@@ -6,6 +6,9 @@ All notable changes to this project will be documented in this file.
 
 ## 1.0.x
 
+### 1.0.7
+- The `Container` component can now receive an `onClick` function.
+
 ### 1.0.6
 - Changes in styles of `Button` component's main theme.
 
