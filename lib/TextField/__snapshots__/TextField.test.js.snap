@@ -348,6 +348,11 @@ Object {
     "position": "relative",
   },
   "label": Object {
+    "& a": Object {
+      "color": "#1476fb",
+      "outline": "none",
+      "textDecoration": "none",
+    },
     "color": "#222222",
     "fontFamily": "'Open Sans', sans-serif",
     "fontSize": 12,
