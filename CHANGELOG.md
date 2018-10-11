@@ -6,6 +6,9 @@ All notable changes to this project will be documented in this file.
 
 ## 1.0.x
 
+### 1.0.9
+- `Pager` page count now starts from 1 and not from 0.
+
 ### 1.0.8
 - New `lockHeight` property in `TextField`, to render the component with the same height even if it has no `label` or `assistiveText`.
 - Now `assistiveText` can be a string or any jsx node. Links are already styled, but you can send anything you need.
