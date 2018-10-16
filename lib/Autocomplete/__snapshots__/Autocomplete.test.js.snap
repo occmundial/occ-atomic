@@ -54,11 +54,12 @@ ShallowWrapper {
     "props": Object {
       "children": Array [
         <StyledInput
-          className="undefined"
+          className={undefined}
           clear={undefined}
           disabled={undefined}
           iconName={undefined}
           id={undefined}
+          inputClassName={undefined}
           label={undefined}
           name={undefined}
           onBlur={[Function]}
@@ -87,11 +88,12 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "class",
         "props": Object {
-          "className": "undefined",
+          "className": undefined,
           "clear": undefined,
           "disabled": undefined,
           "iconName": undefined,
           "id": undefined,
+          "inputClassName": undefined,
           "label": undefined,
           "name": undefined,
           "onBlur": [Function],
@@ -123,11 +125,12 @@ ShallowWrapper {
       "props": Object {
         "children": Array [
           <StyledInput
-            className="undefined"
+            className={undefined}
             clear={undefined}
             disabled={undefined}
             iconName={undefined}
             id={undefined}
+            inputClassName={undefined}
             label={undefined}
             name={undefined}
             onBlur={[Function]}
@@ -156,11 +159,12 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "class",
           "props": Object {
-            "className": "undefined",
+            "className": undefined,
             "clear": undefined,
             "disabled": undefined,
             "iconName": undefined,
             "id": undefined,
+            "inputClassName": undefined,
             "label": undefined,
             "name": undefined,
             "onBlur": [Function],
