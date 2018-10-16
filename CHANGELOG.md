@@ -6,6 +6,9 @@ All notable changes to this project will be documented in this file.
 
 ## 1.0.x
 
+### 1.0.10
+- Implementation of the `inputClassName` prop in the `Input`, `TextField` and `Autocomplete` components.
+
 ### 1.0.9
 - `Pager` page count now starts from 1 and not from 0.
 
