@@ -6,6 +6,10 @@ All notable changes to this project will be documented in this file.
 
 ## 1.0.x
 
+### 1.0.11
+- The clickable area of the `eye` icon in `TextField` is now bigger.
+- The sub-string `no-repeat center center` has been removed from the response of the icon function in the icons library.
+
 ### 1.0.10
 - Implementation of the `inputClassName` prop in the `Input`, `TextField` and `Autocomplete` components.
 
