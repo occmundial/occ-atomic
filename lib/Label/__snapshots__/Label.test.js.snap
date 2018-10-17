@@ -84,7 +84,7 @@ Object {
   "blue": Object {
     "& $close": Object {
       "&:after": Object {
-        "background": "url(data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgogICAgICAgICAgICAJIHZpZXdCb3g9IjAgMCAyNCAyNCIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMjQgMjQ7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KICAgICAgICAgICAgPHBvbHlnb24gZmlsbD0iI2ZmZmZmZiIgcG9pbnRzPSIxOCw2LjggMTcuMiw2IDEyLDExLjIgNi44LDYgNiw2LjggMTEuMiwxMiA2LDE3LjIgNi44LDE4IDEyLDEyLjggMTcuMiwxOCAxOCwxNy4yIDEyLjgsMTIgIi8+CiAgICAgICAgICAgIDwvc3ZnPg==) no-repeat center center",
+        "background": "url(data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgogICAgICAgICAgICAJIHZpZXdCb3g9IjAgMCAyNCAyNCIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMjQgMjQ7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KICAgICAgICAgICAgPHBvbHlnb24gZmlsbD0iI2ZmZmZmZiIgcG9pbnRzPSIxOCw2LjggMTcuMiw2IDEyLDExLjIgNi44LDYgNiw2LjggMTEuMiwxMiA2LDE3LjIgNi44LDE4IDEyLDEyLjggMTcuMiwxOCAxOCwxNy4yIDEyLjgsMTIgIi8+CiAgICAgICAgICAgIDwvc3ZnPg==)",
       },
       "&:before": Object {
         "background": "#083cae",
@@ -96,7 +96,7 @@ Object {
   },
   "close": Object {
     "&:after": Object {
-      "background": "url(data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgogICAgICAgICAgICAJIHZpZXdCb3g9IjAgMCAyNCAyNCIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMjQgMjQ7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KICAgICAgICAgICAgPHBvbHlnb24gZmlsbD0iI2FiYjZiZCIgcG9pbnRzPSIxOCw2LjggMTcuMiw2IDEyLDExLjIgNi44LDYgNiw2LjggMTEuMiwxMiA2LDE3LjIgNi44LDE4IDEyLDEyLjggMTcuMiwxOCAxOCwxNy4yIDEyLjgsMTIgIi8+CiAgICAgICAgICAgIDwvc3ZnPg==) no-repeat center center",
+      "background": "url(data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgogICAgICAgICAgICAJIHZpZXdCb3g9IjAgMCAyNCAyNCIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMjQgMjQ7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KICAgICAgICAgICAgPHBvbHlnb24gZmlsbD0iI2FiYjZiZCIgcG9pbnRzPSIxOCw2LjggMTcuMiw2IDEyLDExLjIgNi44LDYgNiw2LjggMTEuMiwxMiA2LDE3LjIgNi44LDE4IDEyLDEyLjggMTcuMiwxOCAxOCwxNy4yIDEyLjgsMTIgIi8+CiAgICAgICAgICAgIDwvc3ZnPg==)",
       "content": "\\"\\"",
       "height": "18px",
       "left": "0",
