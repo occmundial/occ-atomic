@@ -275,7 +275,9 @@ Object {
     "marginBottom": 8,
     "position": "relative",
   },
-  "counter": Object {},
+  "counter": Object {
+    "color": "#aaaaaa",
+  },
   "default": Object {},
   "disabled": Object {
     "& $input": Object {

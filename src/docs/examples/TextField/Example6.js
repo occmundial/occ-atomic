@@ -7,7 +7,7 @@ export default function Example6() {
         <TextField
             label="Label"
             placeholder="Placeholder"
-            assistiveText="Assistive text"
+            // assistiveText="Assistive text"
             maxLength={30}
             counter
         />
