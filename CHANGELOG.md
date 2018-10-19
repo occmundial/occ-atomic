@@ -6,6 +6,10 @@ All notable changes to this project will be documented in this file.
 
 ## 1.0.x
 
+### 1.0.13
+- The `clear` and `password` icons in `TextField` are now wrapped by a div and not a button to avoid focusing on them with tab.
+- Fix in the disabled state of `TextField`. Now it works well with the `lockHeight` prop.
+
 ### 1.0.12
 - Change in the `counter` of `TextField`. Now it shows the written characters and the max length, instead of the remaining characters.
 
