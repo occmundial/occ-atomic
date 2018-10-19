@@ -37,12 +37,12 @@ class Navigation extends React.Component {
         return (
             <div className={classes.navigation}>
                 <SearchField onChange={this.onSearch} onClear={this.clearField} value={term} />
-                    {/* <SlideDown title="Subatomic" expanded>
+                    <SlideDown title="Subatomic" expanded>
                         <ul className={classes.ul}>
                             <li className={classes.li}>
                                 <a href="#Colors" className={classes.a}>Colors</a>
                             </li>
-                            <li className={classes.li}>
+                            {/* <li className={classes.li}>
                                 <a href="#Fonts" className={classes.a}>Fonts</a>
                             </li>
                             <li className={classes.li}>
@@ -53,9 +53,9 @@ class Navigation extends React.Component {
                             </li>
                             <li className={classes.li}>
                                 <a href="#Shadows" className={classes.a}>Shadows</a>
-                            </li>
+                            </li> */}
                         </ul>
-                    </SlideDown> */}
+                    </SlideDown>
                     {
                         componentOrdering.map(group => {
                             return (

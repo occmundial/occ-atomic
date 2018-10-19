@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import IndexPage from '../IndexPage';
-// import Colors from '../SubatomicPage/Colors';
+import Colors from '../SubatomicPage/Colors';
 // import Fonts from '../SubatomicPage/Fonts';
 // import Grid from '../SubatomicPage/Grid';
 // import Icons from '../SubatomicPage/Icons';
@@ -14,9 +14,9 @@ const CustomPage = ({ route }) => {
         case '':
             Component = <IndexPage />;
             break;
-        // case 'Colors':
-        //     Component = <Colors />;
-        //     break;
+        case 'Colors':
+            Component = <Colors />;
+            break;
         // case 'Fonts':
         //     Component = <Fonts />;
         //     break;
