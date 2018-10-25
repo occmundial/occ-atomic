@@ -1,7 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Title, Card, colors } from '@occmundial/occ-atomic';
-import hexToRgba from 'hex-rgba';
 
 const primary = [
     {id:1, text:'Lighter', hex:colors.primLighter, code:'primLighter', color:colors.ink, height:1},

@@ -65,6 +65,8 @@ ShallowWrapper {
         <div
           className="item"
           onClick={[Function]}
+          onMouseDown={[Function]}
+          onMouseUp={[Function]}
         >
           
           <span
@@ -82,6 +84,8 @@ ShallowWrapper {
         <div
           className="item"
           onClick={[Function]}
+          onMouseDown={[Function]}
+          onMouseUp={[Function]}
         >
           
           <span
@@ -99,6 +103,8 @@ ShallowWrapper {
         <div
           className="item"
           onClick={[Function]}
+          onMouseDown={[Function]}
+          onMouseUp={[Function]}
         >
           
           <span
@@ -116,6 +122,8 @@ ShallowWrapper {
         <div
           className="item"
           onClick={[Function]}
+          onMouseDown={[Function]}
+          onMouseUp={[Function]}
         >
           
           <span
@@ -158,6 +166,8 @@ ShallowWrapper {
           ],
           "className": "item",
           "onClick": [Function],
+          "onMouseDown": [Function],
+          "onMouseUp": [Function],
         },
         "ref": null,
         "rendered": Array [
@@ -211,6 +221,8 @@ ShallowWrapper {
           ],
           "className": "item",
           "onClick": [Function],
+          "onMouseDown": [Function],
+          "onMouseUp": [Function],
         },
         "ref": null,
         "rendered": Array [
@@ -264,6 +276,8 @@ ShallowWrapper {
           ],
           "className": "item",
           "onClick": [Function],
+          "onMouseDown": [Function],
+          "onMouseUp": [Function],
         },
         "ref": null,
         "rendered": Array [
@@ -317,6 +331,8 @@ ShallowWrapper {
           ],
           "className": "item",
           "onClick": [Function],
+          "onMouseDown": [Function],
+          "onMouseUp": [Function],
         },
         "ref": null,
         "rendered": Array [
@@ -362,6 +378,8 @@ ShallowWrapper {
           <div
             className="item"
             onClick={[Function]}
+            onMouseDown={[Function]}
+            onMouseUp={[Function]}
           >
             
             <span
@@ -379,6 +397,8 @@ ShallowWrapper {
           <div
             className="item"
             onClick={[Function]}
+            onMouseDown={[Function]}
+            onMouseUp={[Function]}
           >
             
             <span
@@ -396,6 +416,8 @@ ShallowWrapper {
           <div
             className="item"
             onClick={[Function]}
+            onMouseDown={[Function]}
+            onMouseUp={[Function]}
           >
             
             <span
@@ -413,6 +435,8 @@ ShallowWrapper {
           <div
             className="item"
             onClick={[Function]}
+            onMouseDown={[Function]}
+            onMouseUp={[Function]}
           >
             
             <span
@@ -455,6 +479,8 @@ ShallowWrapper {
             ],
             "className": "item",
             "onClick": [Function],
+            "onMouseDown": [Function],
+            "onMouseUp": [Function],
           },
           "ref": null,
           "rendered": Array [
@@ -508,6 +534,8 @@ ShallowWrapper {
             ],
             "className": "item",
             "onClick": [Function],
+            "onMouseDown": [Function],
+            "onMouseUp": [Function],
           },
           "ref": null,
           "rendered": Array [
@@ -561,6 +589,8 @@ ShallowWrapper {
             ],
             "className": "item",
             "onClick": [Function],
+            "onMouseDown": [Function],
+            "onMouseUp": [Function],
           },
           "ref": null,
           "rendered": Array [
@@ -614,6 +644,8 @@ ShallowWrapper {
             ],
             "className": "item",
             "onClick": [Function],
+            "onMouseDown": [Function],
+            "onMouseUp": [Function],
           },
           "ref": null,
           "rendered": Array [
