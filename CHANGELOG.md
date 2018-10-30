@@ -6,9 +6,11 @@ All notable changes to this project will be documented in this file.
 
 ## 1.1.x
 
+### 1.1.1
+- New `spacing` library.
+
 ### 1.1.0
 - New `Text` component.
-- New `spacing` library.
 
 ## 1.0.x
 
