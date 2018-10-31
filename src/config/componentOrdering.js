@@ -41,6 +41,7 @@ module.exports = [
     {
         name: 'Layout',
         components: [
+            'Grid',
             'Container',
             'Row',
             'Column',

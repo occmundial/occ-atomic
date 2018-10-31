@@ -1,17 +1,13 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Container matches the snapshot 1`] = `
+exports[`Row matches the snapshot 1`] = `
 ShallowWrapper {
   "length": 1,
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <Container
+  Symbol(enzyme.__unrendered__): <Row
     classes={
       Object {
-        "@media (min-width: 1200px)": "@media (min-width: 1200px)",
-        "@media (min-width: 768px)": "@media (min-width: 768px)",
-        "@media (min-width: 992px)": "@media (min-width: 992px)",
-        "con": "con",
-        "conFluid": "conFluid",
+        "row": "row",
       }
     }
   />,
@@ -28,9 +24,8 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": undefined,
-      "className": "con",
+      "className": "row",
       "id": undefined,
-      "onClick": undefined,
       "style": undefined,
     },
     "ref": null,
@@ -44,9 +39,8 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": undefined,
-        "className": "con",
+        "className": "row",
         "id": undefined,
-        "onClick": undefined,
         "style": undefined,
       },
       "ref": null,
@@ -64,28 +58,9 @@ ShallowWrapper {
 }
 `;
 
-exports[`Container styles matches the snapshot 1`] = `
+exports[`Row styles matches the snapshot 1`] = `
 Object {
-  "@media (min-width: 1200px)": Object {
-    "con": Object {
-      "width": "1170px",
-    },
-  },
-  "@media (min-width: 768px)": Object {
-    "con": Object {
-      "width": "750px",
-    },
-  },
-  "@media (min-width: 992px)": Object {
-    "con": Object {
-      "width": "970px",
-    },
-  },
-  "con": Object {
-    "extend": "conFluid",
-    "margin": "0 auto",
-  },
-  "conFluid": Object {
+  "row": Object {
     "&:after": Object {
       "clear": "both",
     },
@@ -94,19 +69,17 @@ Object {
       "display": "table",
     },
     "boxSizing": "border-box",
-    "marginLeft": "auto",
-    "marginRight": "auto",
-    "paddingLeft": "15px",
-    "paddingRight": "15px",
+    "marginLeft": -12,
+    "marginRight": -12,
   },
 }
 `;
 
-exports[`ContainerJSS matches the snapshot 1`] = `
+exports[`RowJSS matches the snapshot 1`] = `
 ShallowWrapper {
   "length": 1,
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <Jss(Container) />,
+  Symbol(enzyme.__unrendered__): <Jss(Row) />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
@@ -120,8 +93,7 @@ ShallowWrapper {
     "nodeType": "function",
     "props": Object {
       "classes": Object {
-        "con": "Container-con-0-1-2",
-        "conFluid": "Container-conFluid-0-1-1",
+        "row": "Row-row-0-1-1",
       },
     },
     "ref": null,
@@ -135,8 +107,7 @@ ShallowWrapper {
       "nodeType": "function",
       "props": Object {
         "classes": Object {
-          "con": "Container-con-0-1-2",
-          "conFluid": "Container-conFluid-0-1-1",
+          "row": "Row-row-0-1-1",
         },
       },
       "ref": null,
