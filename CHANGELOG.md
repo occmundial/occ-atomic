@@ -6,6 +6,9 @@ All notable changes to this project will be documented in this file.
 
 ## 1.1.x
 
+### 1.1.2
+- New `Grid` component.
+
 ### 1.1.1
 - New `spacing` library.
 
