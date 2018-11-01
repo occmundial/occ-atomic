@@ -6,6 +6,9 @@ All notable changes to this project will be documented in this file.
 
 ## 1.1.x
 
+### 1.1.3
+- `TextField` can now be a `select` type. The `options` prop can be simple options or grouped options. Also now it can receive the `required` prop.
+
 ### 1.1.2
 - New `Grid` component.
 
