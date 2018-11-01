@@ -29,6 +29,8 @@ ShallowWrapper {
         "left": "left",
         "passIcon": "passIcon",
         "right": "right",
+        "select": "select",
+        "selectDisabled": "selectDisabled",
         "textarea": "textarea",
         "top": "top",
       }
@@ -70,6 +72,7 @@ ShallowWrapper {
             onFocus={[Function]}
             onKeyUp={[Function]}
             placeholder={undefined}
+            required={undefined}
             type="text"
             value=""
           />
@@ -102,6 +105,7 @@ ShallowWrapper {
               onFocus={[Function]}
               onKeyUp={[Function]}
               placeholder={undefined}
+              required={undefined}
               type="text"
               value=""
             />,
@@ -128,6 +132,7 @@ ShallowWrapper {
               "onFocus": [Function],
               "onKeyUp": [Function],
               "placeholder": undefined,
+              "required": undefined,
               "type": "text",
               "value": "",
             },
@@ -165,6 +170,7 @@ ShallowWrapper {
               onFocus={[Function]}
               onKeyUp={[Function]}
               placeholder={undefined}
+              required={undefined}
               type="text"
               value=""
             />
@@ -197,6 +203,7 @@ ShallowWrapper {
                 onFocus={[Function]}
                 onKeyUp={[Function]}
                 placeholder={undefined}
+                required={undefined}
                 type="text"
                 value=""
               />,
@@ -223,6 +230,7 @@ ShallowWrapper {
                 "onFocus": [Function],
                 "onKeyUp": [Function],
                 "placeholder": undefined,
+                "required": undefined,
                 "type": "text",
                 "value": "",
               },
@@ -381,6 +389,36 @@ Object {
   "right": Object {
     "float": "right",
   },
+  "select": Object {
+    "& optgroup": Object {
+      "color": "#777777",
+      "fontSize": 12,
+      "fontWeight": "normal",
+      "lineHeight": 40,
+    },
+    "& option": Object {
+      "&:disabled": Object {
+        "color": "#aaaaaa",
+      },
+      "color": "#222222",
+      "fontSize": 14,
+      "lineHeight": 40,
+    },
+    "&:invalid, & option[value=\\"\\"]": Object {
+      "color": "#aaaaaa",
+    },
+    "appearance": "none",
+    "background": "url(data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgogICAgICAgICAgICAJIHZpZXdCb3g9IjAgMCAxNCAxNCIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMTQgMTQ7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KICAgICAgICAgICAgPHBhdGggZmlsbD0iIzIyMjIyMiIgZD0iTTExLjUsNC4ybDAuMywwLjRjMC4xLDAuMSwwLjEsMC4yLDAsMC4zTDcuMSw5LjhjLTAuMSwwLjEtMC4yLDAuMS0wLjMsMGMwLDAsMCwwLDAsMEwyLjEsNC44CiAgICAgICAgICAgIAljLTAuMS0wLjEtMC4xLTAuMiwwLTAuM2wwLjMtMC40YzAuMS0wLjEsMC4yLTAuMSwwLjMsMGMwLDAsMCwwLDAsMGw0LjEsNC40YzAuMSwwLjEsMC4yLDAuMSwwLjMsMGMwLDAsMCwwLDAsMGw0LjEtNC40CiAgICAgICAgICAgIAlDMTEuMyw0LjEsMTEuNCw0LjEsMTEuNSw0LjJDMTEuNSw0LjEsMTEuNSw0LjIsMTEuNSw0LjJ6Ii8+CiAgICAgICAgICAgIDwvc3ZnPg==)",
+    "backgroundPosition": "calc(100% - 16px) center",
+    "backgroundRepeat": "no-repeat",
+    "backgroundSize": "20px 20px",
+  },
+  "selectDisabled": Object {
+    "background": "url(data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgogICAgICAgICAgICAJIHZpZXdCb3g9IjAgMCAxNCAxNCIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMTQgMTQ7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KICAgICAgICAgICAgPHBhdGggZmlsbD0iI2RkZGRkZCIgZD0iTTExLjUsNC4ybDAuMywwLjRjMC4xLDAuMSwwLjEsMC4yLDAsMC4zTDcuMSw5LjhjLTAuMSwwLjEtMC4yLDAuMS0wLjMsMGMwLDAsMCwwLDAsMEwyLjEsNC44CiAgICAgICAgICAgIAljLTAuMS0wLjEtMC4xLTAuMiwwLTAuM2wwLjMtMC40YzAuMS0wLjEsMC4yLTAuMSwwLjMsMGMwLDAsMCwwLDAsMGw0LjEsNC40YzAuMSwwLjEsMC4yLDAuMSwwLjMsMGMwLDAsMCwwLDAsMGw0LjEtNC40CiAgICAgICAgICAgIAlDMTEuMyw0LjEsMTEuNCw0LjEsMTEuNSw0LjJDMTEuNSw0LjEsMTEuNSw0LjIsMTEuNSw0LjJ6Ii8+CiAgICAgICAgICAgIDwvc3ZnPg==)",
+    "backgroundPosition": "calc(100% - 16px) center",
+    "backgroundRepeat": "no-repeat",
+    "backgroundSize": "20px 20px",
+  },
   "textarea": Object {
     "height": 72,
     "resize": "none",
@@ -423,28 +461,30 @@ ShallowWrapper {
     "props": Object {
       "autoFocus": false,
       "classes": Object {
-        "assistiveText": "TextField-assistiveText-0-1-20",
-        "bottom": "TextField-bottom-0-1-23",
-        "clear": "TextField-clear-0-1-19",
+        "assistiveText": "TextField-assistiveText-0-1-22",
+        "bottom": "TextField-bottom-0-1-25",
+        "clear": "TextField-clear-0-1-21",
         "container": "TextField-container-0-1-1",
         "counter": "TextField-counter-0-1-10",
         "default": "TextField-default-0-1-3",
         "disabled": "TextField-disabled-0-1-4",
         "error": "TextField-error-0-1-6",
-        "errorAssistiveText": "TextField-errorAssistiveText-0-1-21",
-        "errorIcon": "TextField-errorIcon-0-1-22",
+        "errorAssistiveText": "TextField-errorAssistiveText-0-1-23",
+        "errorIcon": "TextField-errorIcon-0-1-24",
         "focus": "TextField-focus-0-1-5",
-        "hasClear": "TextField-hasClear-0-1-18",
-        "hasIcon": "TextField-hasIcon-0-1-14",
-        "hasPass": "TextField-hasPass-0-1-15",
-        "icon": "TextField-icon-0-1-16",
+        "hasClear": "TextField-hasClear-0-1-20",
+        "hasIcon": "TextField-hasIcon-0-1-16",
+        "hasPass": "TextField-hasPass-0-1-17",
+        "icon": "TextField-icon-0-1-18",
         "input": "TextField-input-0-1-12",
         "inputWrap": "TextField-inputWrap-0-1-11",
         "label": "TextField-label-0-1-7",
         "left": "TextField-left-0-1-8",
-        "passIcon": "TextField-passIcon-0-1-17",
+        "passIcon": "TextField-passIcon-0-1-19",
         "right": "TextField-right-0-1-9",
-        "textarea": "TextField-textarea-0-1-13",
+        "select": "TextField-select-0-1-13",
+        "selectDisabled": "TextField-selectDisabled-0-1-14",
+        "textarea": "TextField-textarea-0-1-15",
         "top": "TextField-top-0-1-2",
       },
       "clear": false,
@@ -467,28 +507,30 @@ ShallowWrapper {
       "props": Object {
         "autoFocus": false,
         "classes": Object {
-          "assistiveText": "TextField-assistiveText-0-1-20",
-          "bottom": "TextField-bottom-0-1-23",
-          "clear": "TextField-clear-0-1-19",
+          "assistiveText": "TextField-assistiveText-0-1-22",
+          "bottom": "TextField-bottom-0-1-25",
+          "clear": "TextField-clear-0-1-21",
           "container": "TextField-container-0-1-1",
           "counter": "TextField-counter-0-1-10",
           "default": "TextField-default-0-1-3",
           "disabled": "TextField-disabled-0-1-4",
           "error": "TextField-error-0-1-6",
-          "errorAssistiveText": "TextField-errorAssistiveText-0-1-21",
-          "errorIcon": "TextField-errorIcon-0-1-22",
+          "errorAssistiveText": "TextField-errorAssistiveText-0-1-23",
+          "errorIcon": "TextField-errorIcon-0-1-24",
           "focus": "TextField-focus-0-1-5",
-          "hasClear": "TextField-hasClear-0-1-18",
-          "hasIcon": "TextField-hasIcon-0-1-14",
-          "hasPass": "TextField-hasPass-0-1-15",
-          "icon": "TextField-icon-0-1-16",
+          "hasClear": "TextField-hasClear-0-1-20",
+          "hasIcon": "TextField-hasIcon-0-1-16",
+          "hasPass": "TextField-hasPass-0-1-17",
+          "icon": "TextField-icon-0-1-18",
           "input": "TextField-input-0-1-12",
           "inputWrap": "TextField-inputWrap-0-1-11",
           "label": "TextField-label-0-1-7",
           "left": "TextField-left-0-1-8",
-          "passIcon": "TextField-passIcon-0-1-17",
+          "passIcon": "TextField-passIcon-0-1-19",
           "right": "TextField-right-0-1-9",
-          "textarea": "TextField-textarea-0-1-13",
+          "select": "TextField-select-0-1-13",
+          "selectDisabled": "TextField-selectDisabled-0-1-14",
+          "textarea": "TextField-textarea-0-1-15",
           "top": "TextField-top-0-1-2",
         },
         "clear": false,
