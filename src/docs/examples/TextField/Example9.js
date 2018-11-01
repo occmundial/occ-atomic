@@ -3,8 +3,8 @@ import React from 'react';
 import { TextField } from '@occmundial/occ-atomic';
 
 const options = [
-    {value:1, text:'foo', disabled: false},
-    {value:2, text:'bar', disabled: true}
+    {value:1, label:'foo', disabled: false},
+    {value:2, label:'bar', disabled: true}
 ];
 
 const options2 = [
