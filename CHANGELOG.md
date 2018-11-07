@@ -6,6 +6,9 @@ All notable changes to this project will be documented in this file.
 
 ## 1.1.x
 
+### 1.1.7
+- Added a `regex` prop to `TextField`. With this property the component will not change the value if it doesn't match with the regular expression.
+
 ### 1.1.6
 - New `Pill` component.
 
