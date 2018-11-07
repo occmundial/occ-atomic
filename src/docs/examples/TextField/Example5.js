@@ -1,4 +1,4 @@
-/* Select value on focus */
+/* Validation with regex */
 import React from 'react';
 import { TextField } from '@occmundial/occ-atomic';
 
@@ -6,10 +6,9 @@ export default function Example5() {
     return (
         <TextField
             label="Label"
-            placeholder="Placeholder"
+            placeholder="Numbers"
             assistiveText="Assistive text"
-            valueProp="Click on the TextField to select this text"
-            selectOnFocus
+            regex="^[0-9]*$"
         />
     );
 }

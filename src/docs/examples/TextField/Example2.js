@@ -1,4 +1,4 @@
-/* Clear TextField */
+/* Select value on focus and clear TextField */
 import React from 'react';
 import { TextField } from '@occmundial/occ-atomic';
 
@@ -8,7 +8,8 @@ export default function Example2() {
             label="Label"
             placeholder="Placeholder"
             assistiveText="Assistive text"
-            valueProp="Value"
+            valueProp="Click on the TextField to select this text"
+            selectOnFocus
             clear
         />
     );
