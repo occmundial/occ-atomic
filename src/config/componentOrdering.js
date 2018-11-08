@@ -7,6 +7,7 @@ module.exports = [
             'ButtonAlign',
             'Card',
             'Check',
+            'Checkbox',
             'Icon',
             'Label',
             'OrderBy',
