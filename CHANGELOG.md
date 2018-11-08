@@ -6,6 +6,9 @@ All notable changes to this project will be documented in this file.
 
 ## 1.1.x
 
+### 1.1.8
+- New `Checkbox` component.
+
 ### 1.1.7
 - Added a `regex` prop to `TextField`. With this property the component will not change the value if it doesn't match with the regular expression.
 
@@ -95,7 +98,7 @@ All notable changes to this project will be documented in this file.
 - New `rel` prop in the `Button` component. If the `Button` component is set as a link (using the `href` prop) it will be able to receive the `rel` attribute.
 
 ### 0.6.8
-- Fixes in the `Input` component. It solves problems with the theming of the `Input` since version **0.5.0**. 
+- Fixes in the `Input` component. It solves problems with the theming of the `Input` since version **0.5.0**.
 
 ### 0.6.7
 *This version has problems with the Input and Autocomplete components. We recommend not using it.*
