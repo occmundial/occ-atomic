@@ -2,7 +2,7 @@
 import React from 'react';
 import { Pill } from '@occmundial/occ-atomic';
 
-export default class Example1 extends React.Component {
+export default class Example2 extends React.Component {
 
     constructor(props) {
         super(props);
@@ -10,46 +10,48 @@ export default class Example1 extends React.Component {
             pills: [
                 {
                     id:1,
-                    value:'10',
+                    value:10,
                     label:'Element 1'
                 },
                 {
                     id:2,
-                    value:'20',
-                    label:'Element 2'
+                    value:20,
+                    label:'Element 2',
+                    selected: true
                 },
                 {
                     id:3,
-                    value:'30',
+                    value:30,
                     label:'Element 3',
                     disabled: true
                 },
                 {
                     id:4,
-                    value:'40',
+                    value:40,
                     label:'Element 4'
-                },
-            ],
-            selected: undefined
+                }
+            ]
         };
         this.onChange = this.onChange.bind(this);
     }
 
-    onChange(selected) {
+    onChange(id) {
+        const { pills } = this.state;
+        const index = pills.findIndex(pill => pill.id == id);
+        pills[index].selected = !pills[index].selected;
         this.setState({
-            selected
+            pills
         });
     }
 
     render() {
-        const { pills, selected } = this.state;
+        const { pills } = this.state;
         return (
             <Pill
                 label="Label"
-                group={pills}
+                choice={pills}
                 assistiveText="Assistive Text"
                 onChange={this.onChange}
-                selected={selected}
             />
         );
     }
