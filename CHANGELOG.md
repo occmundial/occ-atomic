@@ -6,6 +6,9 @@ All notable changes to this project will be documented in this file.
 
 ## 1.1.x
 
+### 1.1.10
+- Fix in dropdown of `TextField`. The component couldn't show a dropdown with error correctly.
+
 ### 1.1.9
 - Changes in the `Pill` component. Now it works in three different modes. `group` for a combined bar of buttons with only one option selectable at a time. `stack` for a list of pills that can be clicked and closed. `choice` for a set of buttons with individual state, to select as many as needed.
 
