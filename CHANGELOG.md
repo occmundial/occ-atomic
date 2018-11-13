@@ -6,6 +6,10 @@ All notable changes to this project will be documented in this file.
 
 ## 1.1.x
 
+### 1.1.11
+- Fix in `TextField` status when changing between focus and disabled.
+- Changes in the styles of `Pill` with stacked elements.
+
 ### 1.1.10
 - Fix in dropdown of `TextField`. The component couldn't show a dropdown with error correctly.
 
