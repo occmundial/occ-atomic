@@ -6,6 +6,13 @@ All notable changes to this project will be documented in this file.
 
 ## 1.1.x
 
+### 1.1.12
+- New `Button` themes (`primary`, `secondary`, `tertiary`, `ghostPink`, `ghostGrey`, `ghostWhite`). Older themes have been removed.
+- New `medium` spacing value.
+- Fixes of status in `TextField`.
+- Changes in styles of dropdown in `TextField`.
+- Color `secLighter` has changed.
+
 ### 1.1.11
 - Fix in `TextField` status when changing between focus and disabled.
 - Changes in the styles of `Pill` with stacked elements.
