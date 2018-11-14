@@ -26,7 +26,7 @@ ShallowWrapper {
       block={false}
       disabled={false}
       size="sm"
-      theme="main"
+      theme="primary"
     >
       Button
     </Jss(Button)>,
@@ -46,7 +46,7 @@ ShallowWrapper {
         block={false}
         disabled={false}
         size="sm"
-        theme="main"
+        theme="primary"
       >
         Button
       </Jss(Button)>,

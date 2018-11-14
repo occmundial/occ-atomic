@@ -412,6 +412,7 @@ Object {
       "color": "#aaaaaa",
     },
     "appearance": "none",
+    "paddingRight": 40,
   },
   "selectIcon": Object {
     "background": "none",

@@ -10,25 +10,27 @@ ShallowWrapper {
       Object {
         "@keyframes rotate": "@keyframes rotate",
         "block": "block",
-        "blue": "blue",
         "btn": "btn",
         "cont": "cont",
         "disabled": "disabled",
-        "flat": "flat",
+        "ghostGrey": "ghostGrey",
+        "ghostPink": "ghostPink",
+        "ghostWhite": "ghostWhite",
         "icon": "icon",
+        "iconOnly": "iconOnly",
         "lg": "lg",
         "loadCont": "loadCont",
         "loadIcon": "loadIcon",
         "loading": "loading",
-        "main": "main",
         "md": "md",
+        "primary": "primary",
         "secondary": "secondary",
-        "white": "white",
+        "tertiary": "tertiary",
       }
     }
     disabled={false}
     size="sm"
-    theme="main"
+    theme="primary"
   >
     Button
   </Button>,
@@ -53,7 +55,7 @@ ShallowWrapper {
         </span>,
         undefined,
       ],
-      "className": "btn main",
+      "className": "btn primary",
       "id": undefined,
       "onClick": undefined,
       "style": undefined,
@@ -97,7 +99,7 @@ ShallowWrapper {
           </span>,
           undefined,
         ],
-        "className": "btn main",
+        "className": "btn primary",
         "id": undefined,
         "onClick": undefined,
         "style": undefined,
@@ -151,33 +153,6 @@ Object {
     "display": "block",
     "width": "100%",
   },
-  "blue": Object {
-    "& i": Object {
-      "background": [Function],
-    },
-    "&$disabled": Object {
-      "background": "#bfbfbf !important",
-      "border": "1px solid #bfbfbf !important",
-      "color": "#ffffff !important",
-    },
-    "&$loading": Object {
-      "background": "#0051bb",
-      "borderColor": "#0051bb",
-    },
-    "&:active": Object {
-      "background": "#0051bb",
-      "borderColor": "#0051bb",
-      "color": "#ffffff",
-    },
-    "&:hover": Object {
-      "background": "#0960d3",
-      "borderColor": "#0960d3",
-      "color": "#ffffff",
-    },
-    "background": "#1476fb",
-    "border": "1px solid #1476fb",
-    "color": "#ffffff",
-  },
   "btn": Object {
     "&:focus": Object {
       "outline": "none",
@@ -194,7 +169,7 @@ Object {
     "fontWeight": 600,
     "height": 32,
     "letterSpacing": 1,
-    "lineHeight": 24,
+    "lineHeight": "24px",
     "marginBottom": 0,
     "maxWidth": "100%",
     "padding": "0 16px",
@@ -220,51 +195,89 @@ Object {
       "background": [Function],
     },
     "&:hover, &:active, &:focus": Object {
-      "background": "#bfbfbf",
-      "border": "1px solid #bfbfbf",
+      "background": "#f13465",
+      "border": "1px solid #f13465",
       "color": "#ffffff",
     },
-    "background": "#bfbfbf",
-    "border": "1px solid #bfbfbf",
+    "background": "#f13465",
+    "border": "1px solid #f13465",
     "color": "#ffffff",
     "cursor": "default",
+    "opacity": 0.4,
     "pointerEvents": "none",
   },
-  "flat": Object {
+  "ghostGrey": Object {
     "& $loadIcon": Object {
-      "background": "url(data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgogICAgICAgICAgICAJIHZpZXdCb3g9IjAgMCAyNCAyNCIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMjQgMjQ7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KICAgICAgICAgICAgPHN0eWxlIHR5cGU9InRleHQvY3NzIj4KICAgICAgICAgICAgCS5zdDB7ZmlsbDp1cmwoI1NWR0lEXzFfKTt9CiAgICAgICAgICAgIDwvc3R5bGU+CiAgICAgICAgICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iU1ZHSURfMV8iIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4MT0iMjEiIHkxPSIxMiIgeDI9IjMiIHkyPSIxMiI+CiAgICAgICAgICAgIAk8c3RvcCAgb2Zmc2V0PSIwLjE3NzgiIHN0eWxlPSJzdG9wLWNvbG9yOiNmZjQ1NmE7c3RvcC1vcGFjaXR5OjAiLz4KICAgICAgICAgICAgCTxzdG9wICBvZmZzZXQ9IjAuMjI3MSIgc3R5bGU9InN0b3AtY29sb3I6I2ZmNDU2YTtzdG9wLW9wYWNpdHk6MC4xIi8+CiAgICAgICAgICAgIAk8c3RvcCAgb2Zmc2V0PSIwLjMxNTciIHN0eWxlPSJzdG9wLWNvbG9yOiNmZjQ1NmE7c3RvcC1vcGFjaXR5OjAuNCIvPgogICAgICAgICAgICAJPHN0b3AgIG9mZnNldD0iMC40NTI1IiBzdHlsZT0ic3RvcC1jb2xvcjojZmY0NTZhO3N0b3Atb3BhY2l0eTowLjciLz4KICAgICAgICAgICAgCTxzdG9wICBvZmZzZXQ9IjAuNTU0NiIgc3R5bGU9InN0b3AtY29sb3I6I2ZmNDU2YSIvPgogICAgICAgICAgICAJPHN0b3AgIG9mZnNldD0iMC45Mjc4IiBzdHlsZT0ic3RvcC1jb2xvcjojZmY0NTZhIi8+CiAgICAgICAgICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgICAgICAgICAgIDxwYXRoIGNsYXNzPSJzdDAiIGQ9Ik0xOS4xLDEyYzAuMSw0LTMuMSw3LjItNy4xLDcuMlM0LjgsMTYsNC44LDEyUzgsNC44LDEyLDQuOFYzYy01LDAtOSw0LTksOXM0LDksOSw5czktNCw5LTlIMTkuMXoiLz4KICAgICAgICAgICAgPC9zdmc+)",
+      "background": "url(data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgogICAgICAgICAgICAJIHZpZXdCb3g9IjAgMCAyNCAyNCIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMjQgMjQ7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KICAgICAgICAgICAgPHN0eWxlIHR5cGU9InRleHQvY3NzIj4KICAgICAgICAgICAgCS5zdDB7ZmlsbDp1cmwoI1NWR0lEXzFfKTt9CiAgICAgICAgICAgIDwvc3R5bGU+CiAgICAgICAgICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iU1ZHSURfMV8iIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4MT0iMjEiIHkxPSIxMiIgeDI9IjMiIHkyPSIxMiI+CiAgICAgICAgICAgIAk8c3RvcCAgb2Zmc2V0PSIwLjE3NzgiIHN0eWxlPSJzdG9wLWNvbG9yOiM3Nzc3Nzc7c3RvcC1vcGFjaXR5OjAiLz4KICAgICAgICAgICAgCTxzdG9wICBvZmZzZXQ9IjAuMjI3MSIgc3R5bGU9InN0b3AtY29sb3I6Izc3Nzc3NztzdG9wLW9wYWNpdHk6MC4xIi8+CiAgICAgICAgICAgIAk8c3RvcCAgb2Zmc2V0PSIwLjMxNTciIHN0eWxlPSJzdG9wLWNvbG9yOiM3Nzc3Nzc7c3RvcC1vcGFjaXR5OjAuNCIvPgogICAgICAgICAgICAJPHN0b3AgIG9mZnNldD0iMC40NTI1IiBzdHlsZT0ic3RvcC1jb2xvcjojNzc3Nzc3O3N0b3Atb3BhY2l0eTowLjciLz4KICAgICAgICAgICAgCTxzdG9wICBvZmZzZXQ9IjAuNTU0NiIgc3R5bGU9InN0b3AtY29sb3I6Izc3Nzc3NyIvPgogICAgICAgICAgICAJPHN0b3AgIG9mZnNldD0iMC45Mjc4IiBzdHlsZT0ic3RvcC1jb2xvcjojNzc3Nzc3Ii8+CiAgICAgICAgICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgICAgICAgICAgIDxwYXRoIGNsYXNzPSJzdDAiIGQ9Ik0xOS4xLDEyYzAuMSw0LTMuMSw3LjItNy4xLDcuMlM0LjgsMTYsNC44LDEyUzgsNC44LDEyLDQuOFYzYy01LDAtOSw0LTksOXM0LDksOSw5czktNCw5LTlIMTkuMXoiLz4KICAgICAgICAgICAgPC9zdmc+)",
     },
     "& i": Object {
       "background": [Function],
     },
     "&$disabled": Object {
-      "& $loadIcon": Object {
-        "background": "url(data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgogICAgICAgICAgICAJIHZpZXdCb3g9IjAgMCAyNCAyNCIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMjQgMjQ7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KICAgICAgICAgICAgPHN0eWxlIHR5cGU9InRleHQvY3NzIj4KICAgICAgICAgICAgCS5zdDB7ZmlsbDp1cmwoI1NWR0lEXzFfKTt9CiAgICAgICAgICAgIDwvc3R5bGU+CiAgICAgICAgICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iU1ZHSURfMV8iIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4MT0iMjEiIHkxPSIxMiIgeDI9IjMiIHkyPSIxMiI+CiAgICAgICAgICAgIAk8c3RvcCAgb2Zmc2V0PSIwLjE3NzgiIHN0eWxlPSJzdG9wLWNvbG9yOiNiZmJmYmY7c3RvcC1vcGFjaXR5OjAiLz4KICAgICAgICAgICAgCTxzdG9wICBvZmZzZXQ9IjAuMjI3MSIgc3R5bGU9InN0b3AtY29sb3I6I2JmYmZiZjtzdG9wLW9wYWNpdHk6MC4xIi8+CiAgICAgICAgICAgIAk8c3RvcCAgb2Zmc2V0PSIwLjMxNTciIHN0eWxlPSJzdG9wLWNvbG9yOiNiZmJmYmY7c3RvcC1vcGFjaXR5OjAuNCIvPgogICAgICAgICAgICAJPHN0b3AgIG9mZnNldD0iMC40NTI1IiBzdHlsZT0ic3RvcC1jb2xvcjojYmZiZmJmO3N0b3Atb3BhY2l0eTowLjciLz4KICAgICAgICAgICAgCTxzdG9wICBvZmZzZXQ9IjAuNTU0NiIgc3R5bGU9InN0b3AtY29sb3I6I2JmYmZiZiIvPgogICAgICAgICAgICAJPHN0b3AgIG9mZnNldD0iMC45Mjc4IiBzdHlsZT0ic3RvcC1jb2xvcjojYmZiZmJmIi8+CiAgICAgICAgICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgICAgICAgICAgIDxwYXRoIGNsYXNzPSJzdDAiIGQ9Ik0xOS4xLDEyYzAuMSw0LTMuMSw3LjItNy4xLDcuMlM0LjgsMTYsNC44LDEyUzgsNC44LDEyLDQuOFYzYy01LDAtOSw0LTksOXM0LDksOSw5czktNCw5LTlIMTkuMXoiLz4KICAgICAgICAgICAgPC9zdmc+)",
-      },
       "& i": Object {
         "background": [Function],
       },
       "background": "transparent !important",
-      "border": "1px solid transparent !important",
-      "color": "#bfbfbf !important",
+      "border": "none !important",
+      "color": "#222222 !important",
     },
-    "&$loading": Object {
-      "background": "#ffffff",
-      "borderColor": "#ffffff",
-    },
-    "&:active": Object {
-      "background": "#e0e0e0",
-      "borderColor": "#e0e0e0",
-      "color": "#ff456a",
-    },
-    "&:hover": Object {
-      "background": "#ebebeb",
-      "borderColor": "#ebebeb",
-      "color": "#ff456a",
+    "&:hover, &:active": Object {
+      "& i": Object {
+        "background": [Function],
+      },
+      "color": "#777777",
     },
     "background": "transparent",
-    "border": "1px solid transparent",
-    "color": "#ff456a",
+    "border": "none",
+    "color": "#222222",
+    "paddingLeft": 0,
+    "paddingRight": 0,
+  },
+  "ghostPink": Object {
+    "& $loadIcon": Object {
+      "background": "url(data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgogICAgICAgICAgICAJIHZpZXdCb3g9IjAgMCAyNCAyNCIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMjQgMjQ7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KICAgICAgICAgICAgPHN0eWxlIHR5cGU9InRleHQvY3NzIj4KICAgICAgICAgICAgCS5zdDB7ZmlsbDp1cmwoI1NWR0lEXzFfKTt9CiAgICAgICAgICAgIDwvc3R5bGU+CiAgICAgICAgICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iU1ZHSURfMV8iIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4MT0iMjEiIHkxPSIxMiIgeDI9IjMiIHkyPSIxMiI+CiAgICAgICAgICAgIAk8c3RvcCAgb2Zmc2V0PSIwLjE3NzgiIHN0eWxlPSJzdG9wLWNvbG9yOiNmMTM0NjU7c3RvcC1vcGFjaXR5OjAiLz4KICAgICAgICAgICAgCTxzdG9wICBvZmZzZXQ9IjAuMjI3MSIgc3R5bGU9InN0b3AtY29sb3I6I2YxMzQ2NTtzdG9wLW9wYWNpdHk6MC4xIi8+CiAgICAgICAgICAgIAk8c3RvcCAgb2Zmc2V0PSIwLjMxNTciIHN0eWxlPSJzdG9wLWNvbG9yOiNmMTM0NjU7c3RvcC1vcGFjaXR5OjAuNCIvPgogICAgICAgICAgICAJPHN0b3AgIG9mZnNldD0iMC40NTI1IiBzdHlsZT0ic3RvcC1jb2xvcjojZjEzNDY1O3N0b3Atb3BhY2l0eTowLjciLz4KICAgICAgICAgICAgCTxzdG9wICBvZmZzZXQ9IjAuNTU0NiIgc3R5bGU9InN0b3AtY29sb3I6I2YxMzQ2NSIvPgogICAgICAgICAgICAJPHN0b3AgIG9mZnNldD0iMC45Mjc4IiBzdHlsZT0ic3RvcC1jb2xvcjojZjEzNDY1Ii8+CiAgICAgICAgICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgICAgICAgICAgIDxwYXRoIGNsYXNzPSJzdDAiIGQ9Ik0xOS4xLDEyYzAuMSw0LTMuMSw3LjItNy4xLDcuMlM0LjgsMTYsNC44LDEyUzgsNC44LDEyLDQuOFYzYy01LDAtOSw0LTksOXM0LDksOSw5czktNCw5LTlIMTkuMXoiLz4KICAgICAgICAgICAgPC9zdmc+)",
+    },
+    "& i": Object {
+      "background": [Function],
+    },
+    "&$disabled": Object {
+      "& i": Object {
+        "background": [Function],
+      },
+      "background": "transparent !important",
+      "border": "none !important",
+      "color": "#f13465 !important",
+    },
+    "&:hover, &:active": Object {
+      "& i": Object {
+        "background": [Function],
+      },
+      "color": "#cc1b4a",
+    },
+    "background": "transparent",
+    "border": "none",
+    "color": "#f13465",
+    "paddingLeft": 0,
+    "paddingRight": 0,
+  },
+  "ghostWhite": Object {
+    "& i": Object {
+      "background": [Function],
+    },
+    "&$disabled": Object {
+      "& i": Object {
+        "background": [Function],
+      },
+      "background": "transparent !important",
+      "border": "1px solid #dddddd !important",
+      "color": "#ffffff !important",
+    },
+    "&:hover, &:active": Object {
+      "opacity": 0.6,
+    },
+    "background": "transparent",
+    "border": "1px solid #dddddd",
+    "color": "#ffffff",
   },
   "icon": Object {
     "display": "inline-block",
@@ -273,14 +286,23 @@ Object {
     "transition": "0.3s all",
     "width": 18,
   },
+  "iconOnly": Object {
+    "& i": Object {
+      "marginRight": 0,
+    },
+    "padding": "0 8px",
+  },
   "lg": Object {
     "& i": Object {
       "height": 20,
       "width": 20,
     },
+    "&$iconOnly": Object {
+      "padding": "0 16px",
+    },
     "fontSize": 14,
     "height": 48,
-    "lineHeight": 24,
+    "lineHeight": "24px",
   },
   "loadCont": Object {
     "alignItems": "center",
@@ -307,18 +329,21 @@ Object {
     },
     "pointerEvents": "none",
   },
-  "main": Object {
+  "md": Object {
+    "& i": Object {
+      "height": 20,
+      "width": 20,
+    },
+    "&$iconOnly": Object {
+      "padding": "0 12px",
+    },
+    "fontSize": 14,
+    "height": 40,
+    "lineHeight": "24px",
+  },
+  "primary": Object {
     "& i": Object {
       "background": [Function],
-    },
-    "&$disabled": Object {
-      "background": "#bfbfbf !important",
-      "border": "1px solid #bfbfbf !important",
-      "color": "#ffffff !important",
-    },
-    "&$loading": Object {
-      "background": "#f13465",
-      "borderColor": "#f13465",
     },
     "&:hover, &:active": Object {
       "background": "#cc1b4a",
@@ -329,49 +354,32 @@ Object {
     "border": "1px solid #f13465",
     "color": "#ffffff",
   },
-  "md": Object {
-    "& i": Object {
-      "height": 20,
-      "width": 20,
-    },
-    "fontSize": 14,
-    "height": 40,
-    "lineHeight": 24,
-  },
   "secondary": Object {
+    "& $loadIcon": Object {
+      "background": "url(data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgogICAgICAgICAgICAJIHZpZXdCb3g9IjAgMCAyNCAyNCIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMjQgMjQ7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KICAgICAgICAgICAgPHN0eWxlIHR5cGU9InRleHQvY3NzIj4KICAgICAgICAgICAgCS5zdDB7ZmlsbDp1cmwoI1NWR0lEXzFfKTt9CiAgICAgICAgICAgIDwvc3R5bGU+CiAgICAgICAgICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iU1ZHSURfMV8iIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4MT0iMjEiIHkxPSIxMiIgeDI9IjMiIHkyPSIxMiI+CiAgICAgICAgICAgIAk8c3RvcCAgb2Zmc2V0PSIwLjE3NzgiIHN0eWxlPSJzdG9wLWNvbG9yOiNmMTM0NjU7c3RvcC1vcGFjaXR5OjAiLz4KICAgICAgICAgICAgCTxzdG9wICBvZmZzZXQ9IjAuMjI3MSIgc3R5bGU9InN0b3AtY29sb3I6I2YxMzQ2NTtzdG9wLW9wYWNpdHk6MC4xIi8+CiAgICAgICAgICAgIAk8c3RvcCAgb2Zmc2V0PSIwLjMxNTciIHN0eWxlPSJzdG9wLWNvbG9yOiNmMTM0NjU7c3RvcC1vcGFjaXR5OjAuNCIvPgogICAgICAgICAgICAJPHN0b3AgIG9mZnNldD0iMC40NTI1IiBzdHlsZT0ic3RvcC1jb2xvcjojZjEzNDY1O3N0b3Atb3BhY2l0eTowLjciLz4KICAgICAgICAgICAgCTxzdG9wICBvZmZzZXQ9IjAuNTU0NiIgc3R5bGU9InN0b3AtY29sb3I6I2YxMzQ2NSIvPgogICAgICAgICAgICAJPHN0b3AgIG9mZnNldD0iMC45Mjc4IiBzdHlsZT0ic3RvcC1jb2xvcjojZjEzNDY1Ii8+CiAgICAgICAgICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgICAgICAgICAgIDxwYXRoIGNsYXNzPSJzdDAiIGQ9Ik0xOS4xLDEyYzAuMSw0LTMuMSw3LjItNy4xLDcuMlM0LjgsMTYsNC44LDEyUzgsNC44LDEyLDQuOFYzYy01LDAtOSw0LTksOXM0LDksOSw5czktNCw5LTlIMTkuMXoiLz4KICAgICAgICAgICAgPC9zdmc+)",
+    },
     "& i": Object {
       "background": [Function],
     },
     "&$disabled": Object {
-      "background": "#bfbfbf !important",
-      "border": "1px solid #bfbfbf !important",
-      "color": "#ffffff !important",
+      "background": "#feeff3 !important",
+      "border": "1px solid #feeff3 !important",
+      "color": "#f13465 !important",
     },
-    "&$loading": Object {
-      "background": "#b81453",
-      "borderColor": "#b81453",
-    },
-    "&:active": Object {
+    "&:hover, &:active": Object {
       "& i": Object {
         "background": [Function],
       },
-      "background": "#b81453",
-      "borderColor": "#b81453",
-      "color": "#ffffff",
+      "color": "#cc1b4a",
     },
-    "&:hover": Object {
-      "& i": Object {
-        "background": [Function],
-      },
-      "background": "#cc1f62",
-      "borderColor": "#cc1f62",
-      "color": "#ffffff",
-    },
-    "background": "transparent",
-    "border": "1px solid #ff456a",
-    "color": "#ff456a",
+    "background": "#feeff3",
+    "border": "1px solid #feeff3",
+    "color": "#f13465",
   },
-  "white": Object {
+  "tertiary": Object {
+    "& $loadIcon": Object {
+      "background": "url(data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgogICAgICAgICAgICAJIHZpZXdCb3g9IjAgMCAyNCAyNCIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMjQgMjQ7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KICAgICAgICAgICAgPHN0eWxlIHR5cGU9InRleHQvY3NzIj4KICAgICAgICAgICAgCS5zdDB7ZmlsbDp1cmwoI1NWR0lEXzFfKTt9CiAgICAgICAgICAgIDwvc3R5bGU+CiAgICAgICAgICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iU1ZHSURfMV8iIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4MT0iMjEiIHkxPSIxMiIgeDI9IjMiIHkyPSIxMiI+CiAgICAgICAgICAgIAk8c3RvcCAgb2Zmc2V0PSIwLjE3NzgiIHN0eWxlPSJzdG9wLWNvbG9yOiM3Nzc3Nzc7c3RvcC1vcGFjaXR5OjAiLz4KICAgICAgICAgICAgCTxzdG9wICBvZmZzZXQ9IjAuMjI3MSIgc3R5bGU9InN0b3AtY29sb3I6Izc3Nzc3NztzdG9wLW9wYWNpdHk6MC4xIi8+CiAgICAgICAgICAgIAk8c3RvcCAgb2Zmc2V0PSIwLjMxNTciIHN0eWxlPSJzdG9wLWNvbG9yOiM3Nzc3Nzc7c3RvcC1vcGFjaXR5OjAuNCIvPgogICAgICAgICAgICAJPHN0b3AgIG9mZnNldD0iMC40NTI1IiBzdHlsZT0ic3RvcC1jb2xvcjojNzc3Nzc3O3N0b3Atb3BhY2l0eTowLjciLz4KICAgICAgICAgICAgCTxzdG9wICBvZmZzZXQ9IjAuNTU0NiIgc3R5bGU9InN0b3AtY29sb3I6Izc3Nzc3NyIvPgogICAgICAgICAgICAJPHN0b3AgIG9mZnNldD0iMC45Mjc4IiBzdHlsZT0ic3RvcC1jb2xvcjojNzc3Nzc3Ii8+CiAgICAgICAgICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgICAgICAgICAgIDxwYXRoIGNsYXNzPSJzdDAiIGQ9Ik0xOS4xLDEyYzAuMSw0LTMuMSw3LjItNy4xLDcuMlM0LjgsMTYsNC44LDEyUzgsNC44LDEyLDQuOFYzYy01LDAtOSw0LTksOXM0LDksOSw5czktNCw5LTlIMTkuMXoiLz4KICAgICAgICAgICAgPC9zdmc+)",
+    },
     "& i": Object {
       "background": [Function],
     },
@@ -379,33 +387,19 @@ Object {
       "& i": Object {
         "background": [Function],
       },
-      "background": "transparent !important",
-      "border": "1px solid rgba(255,255,255,0.6) !important",
-      "color": "rgba(255,255,255,0.6) !important",
+      "background": "#ffffff !important",
+      "border": "1px solid #dddddd !important",
+      "color": "#222222 !important",
     },
-    "&$loading": Object {
-      "background": "rgba(255,255,255,0.2)",
-      "borderColor": "#ffffff",
-    },
-    "&:active": Object {
+    "&:hover, &:active": Object {
       "& i": Object {
         "background": [Function],
       },
-      "background": "rgba(255,255,255,0.2)",
-      "borderColor": "#ffffff",
-      "color": "#ffffff",
+      "color": "#777777",
     },
-    "&:hover": Object {
-      "& i": Object {
-        "background": [Function],
-      },
-      "background": "rgba(255,255,255,0.2)",
-      "borderColor": "#ffffff",
-      "color": "#ffffff",
-    },
-    "background": "transparent",
-    "border": "1px solid #ffffff",
-    "color": "#ffffff",
+    "background": "#ffffff",
+    "border": "1px solid #dddddd",
+    "color": "#222222",
   },
 }
 `;
@@ -418,7 +412,7 @@ ShallowWrapper {
     block={false}
     disabled={false}
     size="sm"
-    theme="main"
+    theme="primary"
   />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
@@ -434,25 +428,27 @@ ShallowWrapper {
     "props": Object {
       "block": false,
       "classes": Object {
-        "block": "Button-block-0-1-28 Button-block-0-1-13",
-        "blue": "Button-blue-0-1-20 Button-blue-0-1-8",
-        "btn": "Button-btn-0-1-22 Button-btn-0-1-1",
-        "cont": "Button-cont-0-1-23 Button-cont-0-1-2",
-        "disabled": "Button-disabled-0-1-21 Button-disabled-0-1-10",
-        "flat": "Button-flat-0-1-19 Button-flat-0-1-7",
-        "icon": "Button-icon-0-1-29 Button-icon-0-1-14",
-        "lg": "Button-lg-0-1-27 Button-lg-0-1-12",
-        "loadCont": "Button-loadCont-0-1-24 Button-loadCont-0-1-3",
-        "loadIcon": "Button-loadIcon-0-1-30 Button-loadIcon-0-1-15",
-        "loading": "Button-loading-0-1-25 Button-loading-0-1-9",
-        "main": "Button-main-0-1-16 Button-main-0-1-4",
-        "md": "Button-md-0-1-26 Button-md-0-1-11",
-        "secondary": "Button-secondary-0-1-17 Button-secondary-0-1-5",
-        "white": "Button-white-0-1-18 Button-white-0-1-6",
+        "block": "Button-block-0-1-31 Button-block-0-1-14",
+        "btn": "Button-btn-0-1-25 Button-btn-0-1-1",
+        "cont": "Button-cont-0-1-26 Button-cont-0-1-2",
+        "disabled": "Button-disabled-0-1-24 Button-disabled-0-1-11",
+        "ghostGrey": "Button-ghostGrey-0-1-22 Button-ghostGrey-0-1-8",
+        "ghostPink": "Button-ghostPink-0-1-21 Button-ghostPink-0-1-7",
+        "ghostWhite": "Button-ghostWhite-0-1-23 Button-ghostWhite-0-1-9",
+        "icon": "Button-icon-0-1-32 Button-icon-0-1-15",
+        "iconOnly": "Button-iconOnly-0-1-33 Button-iconOnly-0-1-16",
+        "lg": "Button-lg-0-1-30 Button-lg-0-1-13",
+        "loadCont": "Button-loadCont-0-1-27 Button-loadCont-0-1-3",
+        "loadIcon": "Button-loadIcon-0-1-34 Button-loadIcon-0-1-17",
+        "loading": "Button-loading-0-1-28 Button-loading-0-1-10",
+        "md": "Button-md-0-1-29 Button-md-0-1-12",
+        "primary": "Button-primary-0-1-18 Button-primary-0-1-4",
+        "secondary": "Button-secondary-0-1-19 Button-secondary-0-1-5",
+        "tertiary": "Button-tertiary-0-1-20 Button-tertiary-0-1-6",
       },
       "disabled": false,
       "size": "sm",
-      "theme": "main",
+      "theme": "primary",
     },
     "ref": null,
     "rendered": null,
@@ -466,25 +462,27 @@ ShallowWrapper {
       "props": Object {
         "block": false,
         "classes": Object {
-          "block": "Button-block-0-1-28 Button-block-0-1-13",
-          "blue": "Button-blue-0-1-20 Button-blue-0-1-8",
-          "btn": "Button-btn-0-1-22 Button-btn-0-1-1",
-          "cont": "Button-cont-0-1-23 Button-cont-0-1-2",
-          "disabled": "Button-disabled-0-1-21 Button-disabled-0-1-10",
-          "flat": "Button-flat-0-1-19 Button-flat-0-1-7",
-          "icon": "Button-icon-0-1-29 Button-icon-0-1-14",
-          "lg": "Button-lg-0-1-27 Button-lg-0-1-12",
-          "loadCont": "Button-loadCont-0-1-24 Button-loadCont-0-1-3",
-          "loadIcon": "Button-loadIcon-0-1-30 Button-loadIcon-0-1-15",
-          "loading": "Button-loading-0-1-25 Button-loading-0-1-9",
-          "main": "Button-main-0-1-16 Button-main-0-1-4",
-          "md": "Button-md-0-1-26 Button-md-0-1-11",
-          "secondary": "Button-secondary-0-1-17 Button-secondary-0-1-5",
-          "white": "Button-white-0-1-18 Button-white-0-1-6",
+          "block": "Button-block-0-1-31 Button-block-0-1-14",
+          "btn": "Button-btn-0-1-25 Button-btn-0-1-1",
+          "cont": "Button-cont-0-1-26 Button-cont-0-1-2",
+          "disabled": "Button-disabled-0-1-24 Button-disabled-0-1-11",
+          "ghostGrey": "Button-ghostGrey-0-1-22 Button-ghostGrey-0-1-8",
+          "ghostPink": "Button-ghostPink-0-1-21 Button-ghostPink-0-1-7",
+          "ghostWhite": "Button-ghostWhite-0-1-23 Button-ghostWhite-0-1-9",
+          "icon": "Button-icon-0-1-32 Button-icon-0-1-15",
+          "iconOnly": "Button-iconOnly-0-1-33 Button-iconOnly-0-1-16",
+          "lg": "Button-lg-0-1-30 Button-lg-0-1-13",
+          "loadCont": "Button-loadCont-0-1-27 Button-loadCont-0-1-3",
+          "loadIcon": "Button-loadIcon-0-1-34 Button-loadIcon-0-1-17",
+          "loading": "Button-loading-0-1-28 Button-loading-0-1-10",
+          "md": "Button-md-0-1-29 Button-md-0-1-12",
+          "primary": "Button-primary-0-1-18 Button-primary-0-1-4",
+          "secondary": "Button-secondary-0-1-19 Button-secondary-0-1-5",
+          "tertiary": "Button-tertiary-0-1-20 Button-tertiary-0-1-6",
         },
         "disabled": false,
         "size": "sm",
-        "theme": "main",
+        "theme": "primary",
       },
       "ref": null,
       "rendered": null,
