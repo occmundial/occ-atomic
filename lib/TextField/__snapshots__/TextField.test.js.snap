@@ -408,9 +408,13 @@ Object {
       "fontSize": 14,
       "lineHeight": 40,
     },
+    "&::-ms-expand": Object {
+      "display": "none",
+    },
     "&:invalid, & option[value=\\"\\"]": Object {
       "color": "#aaaaaa",
     },
+    "-webkit-appearance": "none",
     "appearance": "none",
     "paddingRight": 40,
   },
