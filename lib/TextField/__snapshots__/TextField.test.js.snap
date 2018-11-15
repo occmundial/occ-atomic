@@ -39,6 +39,7 @@ ShallowWrapper {
     counter={false}
     disabled={false}
     maxLength={100}
+    options={Array []}
     selectOnFocus={false}
     type="text"
     valueProp=""
@@ -456,6 +457,7 @@ ShallowWrapper {
     counter={false}
     disabled={false}
     maxLength={100}
+    options={Array []}
     selectOnFocus={false}
     type="text"
     valueProp=""
@@ -504,6 +506,7 @@ ShallowWrapper {
       "counter": false,
       "disabled": false,
       "maxLength": 100,
+      "options": Array [],
       "selectOnFocus": false,
       "type": "text",
       "valueProp": "",
@@ -550,6 +553,7 @@ ShallowWrapper {
         "counter": false,
         "disabled": false,
         "maxLength": 100,
+        "options": Array [],
         "selectOnFocus": false,
         "type": "text",
         "valueProp": "",
