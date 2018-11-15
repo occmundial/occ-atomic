@@ -6,6 +6,10 @@ All notable changes to this project will be documented in this file.
 
 ## 1.1.x
 
+### 1.1.13
+- Fixes in the disabled state of `select` and `textarea` `TextField` types.
+- Adjustment in the arrow icon of the `select` `TextField` type.
+
 ### 1.1.12
 - New `Button` themes (`primary`, `secondary`, `tertiary`, `ghostPink`, `ghostGrey`, `ghostWhite`). Older themes have been removed.
 - New `medium` spacing value.
