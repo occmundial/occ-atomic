@@ -398,7 +398,7 @@ Object {
       "color": "#777777",
       "fontSize": 12,
       "fontWeight": "normal",
-      "lineHeight": 40,
+      "lineHeight": "40px",
     },
     "& option": Object {
       "&:disabled": Object {
@@ -406,7 +406,7 @@ Object {
       },
       "color": "#222222",
       "fontSize": 14,
-      "lineHeight": 40,
+      "lineHeight": "40px",
     },
     "&::-ms-expand": Object {
       "display": "none",
@@ -414,9 +414,8 @@ Object {
     "&:invalid, & option[value=\\"\\"]": Object {
       "color": "#aaaaaa",
     },
-    "-webkit-appearance": "none",
     "appearance": "none",
-    "paddingRight": 40,
+    "paddingRight": 32,
   },
   "selectIcon": Object {
     "background": "none",
@@ -424,15 +423,16 @@ Object {
     "height": 24,
     "margin": 0,
     "outline": 0,
-    "padding": 3,
+    "padding": "3px 0",
     "pointerEvents": "none",
     "position": "absolute",
     "right": 12,
     "top": 8,
-    "width": 24,
+    "width": 18,
     "zIndex": 1,
   },
   "textarea": Object {
+    "alignItems": "flex-start",
     "height": 72,
     "resize": "none",
   },
