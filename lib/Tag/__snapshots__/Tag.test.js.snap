@@ -1,0 +1,232 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tag matches the snapshot 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Tag
+    classes={
+      Object {
+        "default": "default",
+        "defaultIcon": "defaultIcon",
+        "error": "error",
+        "errorIcon": "errorIcon",
+        "icon": "icon",
+        "info": "info",
+        "infoIcon": "infoIcon",
+        "success": "success",
+        "successIcon": "successIcon",
+        "tag": "tag",
+        "warning": "warning",
+        "warningIcon": "warningIcon",
+      }
+    }
+    theme="default"
+  >
+    Tag
+  </Tag>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        undefined,
+        "Tag",
+      ],
+      "className": "tag default",
+      "style": undefined,
+    },
+    "ref": null,
+    "rendered": Array [
+      undefined,
+      "Tag",
+    ],
+    "type": "label",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          undefined,
+          "Tag",
+        ],
+        "className": "tag default",
+        "style": undefined,
+      },
+      "ref": null,
+      "rendered": Array [
+        undefined,
+        "Tag",
+      ],
+      "type": "label",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`Tag styles matches the snapshot 1`] = `
+Object {
+  "default": Object {
+    "background": "#dddddd",
+    "color": "#000000",
+  },
+  "defaultIcon": Object {
+    "background": [Function],
+  },
+  "error": Object {
+    "background": "#fe4a49",
+    "color": "#222222",
+  },
+  "errorIcon": Object {
+    "background": [Function],
+  },
+  "icon": Object {
+    "backgroundRepeat": "no-repeat",
+    "content": "\\"\\"",
+    "display": "inline-block",
+    "height": "12px",
+    "left": "0px",
+    "marginLeft": "1px",
+    "marginRight": "4px",
+    "position": "relative",
+    "top": "2px",
+    "width": "12px",
+  },
+  "info": Object {
+    "backgroundColor": "#6b2d5c",
+    "color": "#ffffff",
+  },
+  "infoIcon": Object {
+    "background": [Function],
+  },
+  "success": Object {
+    "background": "#09cc99",
+    "color": "#222222",
+  },
+  "successIcon": Object {
+    "background": [Function],
+  },
+  "tag": Object {
+    "borderRadius": "16px",
+    "boxSizing": "border-box",
+    "display": "inline-block",
+    "fontFamily": "'Open Sans', sans-serif",
+    "fontSize": "10px",
+    "fontWeight": "600",
+    "height": "14px",
+    "lineHeight": "14px",
+    "overflow": "hidden",
+    "paddingBottom": "16px",
+    "paddingLeft": "8px",
+    "paddingRight": "8px",
+    "paddingTop": "0px",
+    "position": "relative",
+    "textAlign": "center",
+  },
+  "warning": Object {
+    "background": "#ffc549",
+    "color": "#222222",
+  },
+  "warningIcon": Object {
+    "background": [Function],
+  },
+}
+`;
+
+exports[`TagJSS matches the snapshot 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Jss(Tag)
+    theme="default"
+  >
+    Tag
+  </Jss(Tag)>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": "Tag",
+      "classes": Object {
+        "default": "Tag-default-0-1-19 Tag-default-0-1-2",
+        "defaultIcon": "Tag-defaultIcon-0-1-13 Tag-defaultIcon-0-1-8",
+        "error": "Tag-error-0-1-23 Tag-error-0-1-6",
+        "errorIcon": "Tag-errorIcon-0-1-17 Tag-errorIcon-0-1-12",
+        "icon": "Tag-icon-0-1-24 Tag-icon-0-1-7",
+        "info": "Tag-info-0-1-20 Tag-info-0-1-3",
+        "infoIcon": "Tag-infoIcon-0-1-14 Tag-infoIcon-0-1-9",
+        "success": "Tag-success-0-1-21 Tag-success-0-1-4",
+        "successIcon": "Tag-successIcon-0-1-15 Tag-successIcon-0-1-10",
+        "tag": "Tag-tag-0-1-18 Tag-tag-0-1-1",
+        "warning": "Tag-warning-0-1-22 Tag-warning-0-1-5",
+        "warningIcon": "Tag-warningIcon-0-1-16 Tag-warningIcon-0-1-11",
+      },
+      "theme": "default",
+    },
+    "ref": null,
+    "rendered": "Tag",
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": "Tag",
+        "classes": Object {
+          "default": "Tag-default-0-1-19 Tag-default-0-1-2",
+          "defaultIcon": "Tag-defaultIcon-0-1-13 Tag-defaultIcon-0-1-8",
+          "error": "Tag-error-0-1-23 Tag-error-0-1-6",
+          "errorIcon": "Tag-errorIcon-0-1-17 Tag-errorIcon-0-1-12",
+          "icon": "Tag-icon-0-1-24 Tag-icon-0-1-7",
+          "info": "Tag-info-0-1-20 Tag-info-0-1-3",
+          "infoIcon": "Tag-infoIcon-0-1-14 Tag-infoIcon-0-1-9",
+          "success": "Tag-success-0-1-21 Tag-success-0-1-4",
+          "successIcon": "Tag-successIcon-0-1-15 Tag-successIcon-0-1-10",
+          "tag": "Tag-tag-0-1-18 Tag-tag-0-1-1",
+          "warning": "Tag-warning-0-1-22 Tag-warning-0-1-5",
+          "warningIcon": "Tag-warningIcon-0-1-16 Tag-warningIcon-0-1-11",
+        },
+        "theme": "default",
+      },
+      "ref": null,
+      "rendered": "Tag",
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

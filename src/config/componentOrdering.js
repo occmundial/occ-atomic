@@ -13,6 +13,7 @@ module.exports = [
             'OrderBy',
             'RangeCounter',
             'SightLogo',
+            'Tag',
             'Text',
             'Title',
             'TourTip'
