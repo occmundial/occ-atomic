@@ -92,6 +92,8 @@ ShallowWrapper {
         undefined,
       ],
       "className": "container",
+      "id": undefined,
+      "style": undefined,
     },
     "ref": null,
     "rendered": Array [
@@ -253,6 +255,8 @@ ShallowWrapper {
           undefined,
         ],
         "className": "container",
+        "id": undefined,
+        "style": undefined,
       },
       "ref": null,
       "rendered": Array [
@@ -458,6 +462,8 @@ ShallowWrapper {
         undefined,
       ],
       "className": "container",
+      "id": undefined,
+      "style": undefined,
     },
     "ref": null,
     "rendered": Array [
@@ -531,6 +537,8 @@ ShallowWrapper {
           undefined,
         ],
         "className": "container",
+        "id": undefined,
+        "style": undefined,
       },
       "ref": null,
       "rendered": Array [
@@ -672,6 +680,8 @@ ShallowWrapper {
         undefined,
       ],
       "className": "container",
+      "id": undefined,
+      "style": undefined,
     },
     "ref": null,
     "rendered": Array [
@@ -833,6 +843,8 @@ ShallowWrapper {
           undefined,
         ],
         "className": "container",
+        "id": undefined,
+        "style": undefined,
       },
       "ref": null,
       "rendered": Array [
