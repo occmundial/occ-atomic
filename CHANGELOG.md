@@ -6,6 +6,10 @@ All notable changes to this project will be documented in this file.
 
 ## 1.1.x
 
+### 1.1.14
+- The `Pill` component can now receive `className`, `id` and `style` props.
+- New `moreOptions` icon.
+
 ### 1.1.13
 - Fixes in the disabled state of `select` and `textarea` `TextField` types.
 - Adjustment in the arrow icon of the `select` `TextField` type.
