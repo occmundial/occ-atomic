@@ -1,0 +1,275 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tag matches the snapshot 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Tag
+    classes={
+      Object {
+        "default": "default",
+        "defaultIcon": "defaultIcon",
+        "error": "error",
+        "errorIcon": "errorIcon",
+        "icon": "icon",
+        "info": "info",
+        "infoIcon": "infoIcon",
+        "success": "success",
+        "successIcon": "successIcon",
+        "tag": "tag",
+        "tagText": "tagText",
+        "warning": "warning",
+        "warningIcon": "warningIcon",
+      }
+    }
+    theme="default"
+  >
+    Tag
+  </Tag>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        undefined,
+        <span
+          className="tagText"
+        >
+          Tag
+        </span>,
+      ],
+      "className": "tag default",
+      "style": undefined,
+    },
+    "ref": null,
+    "rendered": Array [
+      undefined,
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Tag",
+          "className": "tagText",
+        },
+        "ref": null,
+        "rendered": "Tag",
+        "type": "span",
+      },
+    ],
+    "type": "label",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          undefined,
+          <span
+            className="tagText"
+          >
+            Tag
+          </span>,
+        ],
+        "className": "tag default",
+        "style": undefined,
+      },
+      "ref": null,
+      "rendered": Array [
+        undefined,
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Tag",
+            "className": "tagText",
+          },
+          "ref": null,
+          "rendered": "Tag",
+          "type": "span",
+        },
+      ],
+      "type": "label",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`Tag styles matches the snapshot 1`] = `
+Object {
+  "default": Object {
+    "background": "#dddddd",
+    "color": "#222222",
+  },
+  "defaultIcon": Object {
+    "background": [Function],
+  },
+  "error": Object {
+    "background": "#fe4a49",
+    "color": "#ffffff",
+  },
+  "errorIcon": Object {
+    "background": [Function],
+  },
+  "icon": Object {
+    "backgroundRepeat": "no-repeat",
+    "content": "\\"\\"",
+    "display": "inline-block",
+    "height": "12px",
+    "left": "0px",
+    "marginRight": "4px",
+    "paddingBottom": "0px",
+    "position": "relative",
+    "top": "0px",
+    "width": "12px",
+  },
+  "info": Object {
+    "backgroundColor": "#6b2d5c",
+    "color": "#ffffff",
+  },
+  "infoIcon": Object {
+    "background": [Function],
+  },
+  "success": Object {
+    "background": "#09cc99",
+    "color": "#ffffff",
+  },
+  "successIcon": Object {
+    "background": [Function],
+  },
+  "tag": Object {
+    "borderRadius": "16px",
+    "boxSizing": "border-box",
+    "display": "inline-block",
+    "height": "16px",
+    "lineHeight": "12px",
+    "overflow": "hidden",
+    "paddingLeft": "8px",
+    "paddingRight": "8px",
+    "position": "relative",
+    "textAlign": "center",
+  },
+  "tagText": Object {
+    "boxSizing": "border-box",
+    "display": "inline-block",
+    "fontFamily": "'Open Sans', sans-serif",
+    "fontSize": "10px",
+    "fontStretch": "normal",
+    "fontStyle": "normal",
+    "fontWeight": "600",
+    "letterSpacing": "normal",
+    "lineHeight": "12px",
+    "overflow": "hidden",
+    "paddingTop": "2px",
+    "position": "relative",
+    "textAlign": "center",
+  },
+  "warning": Object {
+    "background": "#ffc549",
+    "color": "#222222",
+  },
+  "warningIcon": Object {
+    "background": [Function],
+  },
+}
+`;
+
+exports[`TagJSS matches the snapshot 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Jss(Tag)
+    theme="default"
+  >
+    Tag
+  </Jss(Tag)>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": "Tag",
+      "classes": Object {
+        "default": "Tag-default-0-1-21 Tag-default-0-1-3",
+        "defaultIcon": "Tag-defaultIcon-0-1-14 Tag-defaultIcon-0-1-9",
+        "error": "Tag-error-0-1-25 Tag-error-0-1-7",
+        "errorIcon": "Tag-errorIcon-0-1-18 Tag-errorIcon-0-1-13",
+        "icon": "Tag-icon-0-1-26 Tag-icon-0-1-8",
+        "info": "Tag-info-0-1-22 Tag-info-0-1-4",
+        "infoIcon": "Tag-infoIcon-0-1-15 Tag-infoIcon-0-1-10",
+        "success": "Tag-success-0-1-23 Tag-success-0-1-5",
+        "successIcon": "Tag-successIcon-0-1-16 Tag-successIcon-0-1-11",
+        "tag": "Tag-tag-0-1-19 Tag-tag-0-1-1",
+        "tagText": "Tag-tagText-0-1-20 Tag-tagText-0-1-2",
+        "warning": "Tag-warning-0-1-24 Tag-warning-0-1-6",
+        "warningIcon": "Tag-warningIcon-0-1-17 Tag-warningIcon-0-1-12",
+      },
+      "theme": "default",
+    },
+    "ref": null,
+    "rendered": "Tag",
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": "Tag",
+        "classes": Object {
+          "default": "Tag-default-0-1-21 Tag-default-0-1-3",
+          "defaultIcon": "Tag-defaultIcon-0-1-14 Tag-defaultIcon-0-1-9",
+          "error": "Tag-error-0-1-25 Tag-error-0-1-7",
+          "errorIcon": "Tag-errorIcon-0-1-18 Tag-errorIcon-0-1-13",
+          "icon": "Tag-icon-0-1-26 Tag-icon-0-1-8",
+          "info": "Tag-info-0-1-22 Tag-info-0-1-4",
+          "infoIcon": "Tag-infoIcon-0-1-15 Tag-infoIcon-0-1-10",
+          "success": "Tag-success-0-1-23 Tag-success-0-1-5",
+          "successIcon": "Tag-successIcon-0-1-16 Tag-successIcon-0-1-11",
+          "tag": "Tag-tag-0-1-19 Tag-tag-0-1-1",
+          "tagText": "Tag-tagText-0-1-20 Tag-tagText-0-1-2",
+          "warning": "Tag-warning-0-1-24 Tag-warning-0-1-6",
+          "warningIcon": "Tag-warningIcon-0-1-17 Tag-warningIcon-0-1-12",
+        },
+        "theme": "default",
+      },
+      "ref": null,
+      "rendered": "Tag",
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
