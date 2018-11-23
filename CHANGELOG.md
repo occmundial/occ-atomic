@@ -6,6 +6,10 @@ All notable changes to this project will be documented in this file.
 
 ## 1.1.x
 
+### 1.1.15
+- New `Tag` component.
+- Changes in `Checkbox` styles.
+
 ### 1.1.14
 - The `Pill` component can now receive `className`, `id` and `style` props.
 - New `moreOptions` icon.
