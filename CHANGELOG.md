@@ -6,6 +6,9 @@ All notable changes to this project will be documented in this file.
 
 ## 1.1.x
 
+### 1.1.16
+- New `mask` and `guide` props in `TextField`. This props will allow you to make the field follow a pattern.
+
 ### 1.1.15
 - New `Tag` component.
 - Changes in `Checkbox` styles.
