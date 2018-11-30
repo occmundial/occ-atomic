@@ -1,4 +1,4 @@
-/* Pill test */
+/* Pill Group */
 import React from 'react';
 import { Pill } from '@occmundial/occ-atomic';
 
