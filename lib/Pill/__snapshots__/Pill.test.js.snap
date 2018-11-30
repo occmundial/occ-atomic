@@ -1088,15 +1088,15 @@ ShallowWrapper {
     "nodeType": "class",
     "props": Object {
       "classes": Object {
-        "assistiveText": "Pill-assistiveText-0-1-17",
-        "bottom": "Pill-bottom-0-1-16",
-        "container": "Pill-container-0-1-11",
-        "disabled": "Pill-disabled-0-1-15",
-        "errorAssistiveText": "Pill-errorAssistiveText-0-1-18",
-        "errorIcon": "Pill-errorIcon-0-1-19",
-        "label": "Pill-label-0-1-13",
-        "left": "Pill-left-0-1-14",
-        "top": "Pill-top-0-1-12",
+        "assistiveText": "Pill-assistiveText-0-1-19",
+        "bottom": "Pill-bottom-0-1-18",
+        "container": "Pill-container-0-1-13",
+        "disabled": "Pill-disabled-0-1-17",
+        "errorAssistiveText": "Pill-errorAssistiveText-0-1-20",
+        "errorIcon": "Pill-errorIcon-0-1-21",
+        "label": "Pill-label-0-1-15",
+        "left": "Pill-left-0-1-16",
+        "top": "Pill-top-0-1-14",
       },
       "group": Array [
         Object {
@@ -1128,15 +1128,15 @@ ShallowWrapper {
       "nodeType": "class",
       "props": Object {
         "classes": Object {
-          "assistiveText": "Pill-assistiveText-0-1-17",
-          "bottom": "Pill-bottom-0-1-16",
-          "container": "Pill-container-0-1-11",
-          "disabled": "Pill-disabled-0-1-15",
-          "errorAssistiveText": "Pill-errorAssistiveText-0-1-18",
-          "errorIcon": "Pill-errorIcon-0-1-19",
-          "label": "Pill-label-0-1-13",
-          "left": "Pill-left-0-1-14",
-          "top": "Pill-top-0-1-12",
+          "assistiveText": "Pill-assistiveText-0-1-19",
+          "bottom": "Pill-bottom-0-1-18",
+          "container": "Pill-container-0-1-13",
+          "disabled": "Pill-disabled-0-1-17",
+          "errorAssistiveText": "Pill-errorAssistiveText-0-1-20",
+          "errorIcon": "Pill-errorIcon-0-1-21",
+          "label": "Pill-label-0-1-15",
+          "left": "Pill-left-0-1-16",
+          "top": "Pill-top-0-1-14",
         },
         "group": Array [
           Object {
