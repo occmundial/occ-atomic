@@ -19,5 +19,9 @@ export default {
     },
     shapeDescription: {
         color:'#989898'
+    },
+    propsList: {
+        marginTop:0,
+        paddingLeft:5
     }
 };
