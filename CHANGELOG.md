@@ -6,6 +6,10 @@ All notable changes to this project will be documented in this file.
 
 ## 1.1.x
 
+### 1.1.17
+- Fix in styles of `Pill.Stack`.
+- Fix in styles of `TextField` disabled.
+
 ### 1.1.16
 - New `mask` and `guide` props in `TextField`. This props will allow you to make the field follow a pattern.
 
