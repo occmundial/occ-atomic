@@ -68,6 +68,7 @@
     "react-waypoint": "^8.0.0"
   },
   "jest": {
+    "testURL": "https://occmundial.github.io/occ-atomic",
     "setupTestFrameworkScriptFile": "./setupTests.js",
     "collectCoverageFrom": [
       "lib/**/*.js"

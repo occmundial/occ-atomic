@@ -2,12 +2,12 @@
 
 exports[`TextField matches the snapshot 1`] = `
 ShallowWrapper {
-  "length": 1,
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <TextField
     autoFocus={false}
     classes={
       Object {
+        "alignRight": "alignRight",
         "assistiveText": "assistiveText",
         "bottom": "bottom",
         "clear": "clear",
@@ -48,6 +48,7 @@ ShallowWrapper {
     "batchedUpdates": [Function],
     "getNode": [Function],
     "render": [Function],
+    "simulateError": [Function],
     "simulateEvent": [Function],
     "unmount": [Function],
   },
@@ -255,6 +256,16 @@ ShallowWrapper {
     "adapter": ReactSixteenAdapter {
       "options": Object {
         "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
       },
     },
   },
@@ -263,6 +274,9 @@ ShallowWrapper {
 
 exports[`TextField styles matches the snapshot 1`] = `
 Object {
+  "alignRight": Object {
+    "textAlign": "right",
+  },
   "assistiveText": Object {
     "color": "#aaaaaa",
   },
@@ -449,7 +463,6 @@ Object {
 
 exports[`TextFieldJSS matches the snapshot 1`] = `
 ShallowWrapper {
-  "length": 1,
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <Jss(TextField)
     autoFocus={false}
@@ -466,6 +479,7 @@ ShallowWrapper {
     "batchedUpdates": [Function],
     "getNode": [Function],
     "render": [Function],
+    "simulateError": [Function],
     "simulateEvent": [Function],
     "unmount": [Function],
   },
@@ -476,16 +490,17 @@ ShallowWrapper {
     "props": Object {
       "autoFocus": false,
       "classes": Object {
-        "assistiveText": "TextField-assistiveText-0-1-22",
-        "bottom": "TextField-bottom-0-1-25",
+        "alignRight": "TextField-alignRight-0-1-22",
+        "assistiveText": "TextField-assistiveText-0-1-23",
+        "bottom": "TextField-bottom-0-1-26",
         "clear": "TextField-clear-0-1-21",
         "container": "TextField-container-0-1-1",
         "counter": "TextField-counter-0-1-10",
         "default": "TextField-default-0-1-3",
         "disabled": "TextField-disabled-0-1-4",
         "error": "TextField-error-0-1-6",
-        "errorAssistiveText": "TextField-errorAssistiveText-0-1-23",
-        "errorIcon": "TextField-errorIcon-0-1-24",
+        "errorAssistiveText": "TextField-errorAssistiveText-0-1-24",
+        "errorIcon": "TextField-errorIcon-0-1-25",
         "focus": "TextField-focus-0-1-5",
         "hasClear": "TextField-hasClear-0-1-20",
         "hasIcon": "TextField-hasIcon-0-1-15",
@@ -523,16 +538,17 @@ ShallowWrapper {
       "props": Object {
         "autoFocus": false,
         "classes": Object {
-          "assistiveText": "TextField-assistiveText-0-1-22",
-          "bottom": "TextField-bottom-0-1-25",
+          "alignRight": "TextField-alignRight-0-1-22",
+          "assistiveText": "TextField-assistiveText-0-1-23",
+          "bottom": "TextField-bottom-0-1-26",
           "clear": "TextField-clear-0-1-21",
           "container": "TextField-container-0-1-1",
           "counter": "TextField-counter-0-1-10",
           "default": "TextField-default-0-1-3",
           "disabled": "TextField-disabled-0-1-4",
           "error": "TextField-error-0-1-6",
-          "errorAssistiveText": "TextField-errorAssistiveText-0-1-23",
-          "errorIcon": "TextField-errorIcon-0-1-24",
+          "errorAssistiveText": "TextField-errorAssistiveText-0-1-24",
+          "errorIcon": "TextField-errorIcon-0-1-25",
           "focus": "TextField-focus-0-1-5",
           "hasClear": "TextField-hasClear-0-1-20",
           "hasIcon": "TextField-hasIcon-0-1-15",
@@ -567,6 +583,16 @@ ShallowWrapper {
     "adapter": ReactSixteenAdapter {
       "options": Object {
         "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
       },
     },
   },
