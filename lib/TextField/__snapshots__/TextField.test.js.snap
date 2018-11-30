@@ -310,6 +310,7 @@ Object {
     "& $input": Object {
       "borderColor": "#dddddd",
       "color": "#dddddd",
+      "paddingTop": 8,
     },
     "& $label": Object {
       "color": "#dddddd",
