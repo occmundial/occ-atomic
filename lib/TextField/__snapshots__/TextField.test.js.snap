@@ -354,10 +354,13 @@ Object {
     "&::placeholder": Object {
       "color": "#aaaaaa",
     },
+    "-webkit-appearance": "none",
     "alignItems": "center",
+    "appearance": "none",
     "background": "#ffffff",
     "border": "1px solid #dddddd",
     "borderRadius": 4,
+    "boxShadow": "none",
     "boxSizing": "border-box",
     "caretColor": "#083cae",
     "color": "#222222",
@@ -429,7 +432,6 @@ Object {
     "&:invalid, & option[value=\\"\\"]": Object {
       "color": "#aaaaaa",
     },
-    "appearance": "none",
     "paddingRight": 32,
   },
   "selectIcon": Object {
