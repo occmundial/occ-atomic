@@ -38,7 +38,6 @@ ShallowWrapper {
     clear={false}
     counter={false}
     disabled={false}
-    maxLength={100}
     options={Array []}
     selectOnFocus={false}
     type="text"
@@ -67,7 +66,7 @@ ShallowWrapper {
             autoFocus={false}
             className="input"
             id={undefined}
-            maxLength={100}
+            maxLength={undefined}
             name={undefined}
             onBlur={[Function]}
             onChange={[Function]}
@@ -101,7 +100,7 @@ ShallowWrapper {
               autoFocus={false}
               className="input"
               id={undefined}
-              maxLength={100}
+              maxLength={undefined}
               name={undefined}
               onBlur={[Function]}
               onChange={[Function]}
@@ -129,7 +128,7 @@ ShallowWrapper {
               "autoFocus": false,
               "className": "input",
               "id": undefined,
-              "maxLength": 100,
+              "maxLength": undefined,
               "name": undefined,
               "onBlur": [Function],
               "onChange": [Function],
@@ -167,7 +166,7 @@ ShallowWrapper {
               autoFocus={false}
               className="input"
               id={undefined}
-              maxLength={100}
+              maxLength={undefined}
               name={undefined}
               onBlur={[Function]}
               onChange={[Function]}
@@ -201,7 +200,7 @@ ShallowWrapper {
                 autoFocus={false}
                 className="input"
                 id={undefined}
-                maxLength={100}
+                maxLength={undefined}
                 name={undefined}
                 onBlur={[Function]}
                 onChange={[Function]}
@@ -229,7 +228,7 @@ ShallowWrapper {
                 "autoFocus": false,
                 "className": "input",
                 "id": undefined,
-                "maxLength": 100,
+                "maxLength": undefined,
                 "name": undefined,
                 "onBlur": [Function],
                 "onChange": [Function],
@@ -310,7 +309,7 @@ Object {
     "& $input": Object {
       "borderColor": "#dddddd",
       "color": "#dddddd",
-      "paddingTop": 8,
+      "paddingTop": 9,
     },
     "& $label": Object {
       "color": "#dddddd",
@@ -470,7 +469,6 @@ ShallowWrapper {
     clear={false}
     counter={false}
     disabled={false}
-    maxLength={100}
     options={Array []}
     selectOnFocus={false}
     type="text"
@@ -521,7 +519,6 @@ ShallowWrapper {
       "clear": false,
       "counter": false,
       "disabled": false,
-      "maxLength": 100,
       "options": Array [],
       "selectOnFocus": false,
       "type": "text",
@@ -569,7 +566,6 @@ ShallowWrapper {
         "clear": false,
         "counter": false,
         "disabled": false,
-        "maxLength": 100,
         "options": Array [],
         "selectOnFocus": false,
         "type": "text",
