@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Title, Card, colors } from '@occmundial/occ-atomic';
+import { Title, Card, Flexbox, colors } from '@occmundial/occ-atomic';
 
 const primary = [
     {id:1, text:'Lighter', hex:colors.primLighter, code:'primLighter', color:colors.ink, height:1},
@@ -43,6 +43,10 @@ const grey = [
     {id:10, text:'900', hex:colors.grey900, code:'grey900', color:colors.white, height:1}
 ];
 
+const links = [
+    {id:1, text:'Text link', hex:colors.textLink, code:'textLink', color:colors.white, height:1}
+];
+
 const Colors = ({ classes }) => {
     return (
         <div className={classes.page}>
@@ -53,61 +57,74 @@ const Colors = ({ classes }) => {
             </Card>
             <Card shadow={3} style={{marginTop:30}}>
                 <Title h={2}>Colors</Title>
-                <div className={classes.colorBlock}>
-                    {primary.map(color => (
-                        <div className={classes.colorRow} style={{background:color.hex, color:color.color, height:color.height*48}} key={color.id}>
-                            <div className={classes.colorName}>
-                                <span className={classes.text}>{color.text}</span>
-                                <span className={classes.code}>colors.{color.code}</span>
+                <Flexbox display="flex" wrap="wrap" alignItems="start">
+                    <div className={classes.colorBlock}>
+                        {primary.map(color => (
+                            <div className={classes.colorRow} style={{background:color.hex, color:color.color, height:color.height*48}} key={color.id}>
+                                <div className={classes.colorName}>
+                                    <span className={classes.text}>{color.text}</span>
+                                    <span className={classes.code}>colors.{color.code}</span>
+                                </div>
+                                <div className={classes.hex}>{color.hex}</div>
                             </div>
-                            <div className={classes.hex}>{color.hex}</div>
-                        </div>
-                    ))}
-                </div>
-                <div className={classes.colorBlock}>
-                    {secondary.map(color => (
-                        <div className={classes.colorRow} style={{background:color.hex, color:color.color, height:color.height*48}} key={color.id}>
-                            <div className={classes.colorName}>
-                                <span className={classes.text}>{color.text}</span>
-                                <span className={classes.code}>colors.{color.code}</span>
+                        ))}
+                    </div>
+                    <div className={classes.colorBlock}>
+                        {secondary.map(color => (
+                            <div className={classes.colorRow} style={{background:color.hex, color:color.color, height:color.height*48}} key={color.id}>
+                                <div className={classes.colorName}>
+                                    <span className={classes.text}>{color.text}</span>
+                                    <span className={classes.code}>colors.{color.code}</span>
+                                </div>
+                                <div className={classes.hex}>{color.hex}</div>
                             </div>
-                            <div className={classes.hex}>{color.hex}</div>
-                        </div>
-                    ))}
-                </div>
-                <div className={classes.colorBlock}>
-                    {ink.map(color => (
-                        <div className={classes.colorRow} style={{background:color.hex, color:color.color, height:color.height*48}} key={color.id}>
-                            <div className={classes.colorName}>
-                                <span className={classes.text}>{color.text}</span>
-                                <span className={classes.code}>colors.{color.code}</span>
+                        ))}
+                    </div>
+                    <div className={classes.colorBlock}>
+                        {ink.map(color => (
+                            <div className={classes.colorRow} style={{background:color.hex, color:color.color, height:color.height*48}} key={color.id}>
+                                <div className={classes.colorName}>
+                                    <span className={classes.text}>{color.text}</span>
+                                    <span className={classes.code}>colors.{color.code}</span>
+                                </div>
+                                <div className={classes.hex}>{color.hex}</div>
                             </div>
-                            <div className={classes.hex}>{color.hex}</div>
-                        </div>
-                    ))}
-                </div>
-                <div className={classes.colorBlock}>
-                    {background.map(color => (
-                        <div className={classes.colorRow} style={{background:color.hex, color:color.color, height:color.height*48}} key={color.id}>
-                            <div className={classes.colorName}>
-                                <span className={classes.text}>{color.text}</span>
-                                <span className={classes.code}>colors.{color.code}</span>
+                        ))}
+                    </div>
+                    <div className={classes.colorBlock}>
+                        {background.map(color => (
+                            <div className={classes.colorRow} style={{background:color.hex, color:color.color, height:color.height*48}} key={color.id}>
+                                <div className={classes.colorName}>
+                                    <span className={classes.text}>{color.text}</span>
+                                    <span className={classes.code}>colors.{color.code}</span>
+                                </div>
+                                <div className={classes.hex}>{color.hex}</div>
                             </div>
-                            <div className={classes.hex}>{color.hex}</div>
-                        </div>
-                    ))}
-                </div>
-                <div className={classes.colorBlock}>
-                    {grey.map(color => (
-                        <div className={classes.colorRow} style={{background:color.hex, color:color.color, height:color.height*48}} key={color.id}>
-                            <div className={classes.colorName}>
-                                <span className={classes.text}>{color.text}</span>
-                                <span className={classes.code}>colors.{color.code}</span>
+                        ))}
+                    </div>
+                    <div className={classes.colorBlock}>
+                        {grey.map(color => (
+                            <div className={classes.colorRow} style={{background:color.hex, color:color.color, height:color.height*48}} key={color.id}>
+                                <div className={classes.colorName}>
+                                    <span className={classes.text}>{color.text}</span>
+                                    <span className={classes.code}>colors.{color.code}</span>
+                                </div>
+                                <div className={classes.hex}>{color.hex}</div>
                             </div>
-                            <div className={classes.hex}>{color.hex}</div>
-                        </div>
-                    ))}
-                </div>
+                        ))}
+                    </div>
+                    <div className={classes.colorBlock}>
+                        {links.map(color => (
+                            <div className={classes.colorRow} style={{background:color.hex, color:color.color, height:color.height*48}} key={color.id}>
+                                <div className={classes.colorName}>
+                                    <span className={classes.text}>{color.text}</span>
+                                    <span className={classes.code}>colors.{color.code}</span>
+                                </div>
+                                <div className={classes.hex}>{color.hex}</div>
+                            </div>
+                        ))}
+                    </div>
+                </Flexbox>
             </Card>
         </div>
     );
