@@ -6,6 +6,9 @@ All notable changes to this project will be documented in this file.
 
 ## 1.1.x
 
+### 1.1.19
+- New `hjWhitelist` prop in `TextField`.
+
 ### 1.1.18
 - New `textLink` color.
 - Removed default value for `maxLength` in `TextField`. Fix in styles of `TextField` to remove shadow of the input element on iOS.
