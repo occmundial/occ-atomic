@@ -38,6 +38,7 @@ ShallowWrapper {
     clear={false}
     counter={false}
     disabled={false}
+    hjWhitelist={true}
     options={Array []}
     selectOnFocus={false}
     type="text"
@@ -64,7 +65,7 @@ ShallowWrapper {
           
           <input
             autoFocus={false}
-            className="input"
+            className="input data-hj-whitelist"
             id={undefined}
             maxLength={undefined}
             name={undefined}
@@ -98,7 +99,7 @@ ShallowWrapper {
             "",
             <input
               autoFocus={false}
-              className="input"
+              className="input data-hj-whitelist"
               id={undefined}
               maxLength={undefined}
               name={undefined}
@@ -126,7 +127,7 @@ ShallowWrapper {
             "nodeType": "host",
             "props": Object {
               "autoFocus": false,
-              "className": "input",
+              "className": "input data-hj-whitelist",
               "id": undefined,
               "maxLength": undefined,
               "name": undefined,
@@ -164,7 +165,7 @@ ShallowWrapper {
             
             <input
               autoFocus={false}
-              className="input"
+              className="input data-hj-whitelist"
               id={undefined}
               maxLength={undefined}
               name={undefined}
@@ -198,7 +199,7 @@ ShallowWrapper {
               "",
               <input
                 autoFocus={false}
-                className="input"
+                className="input data-hj-whitelist"
                 id={undefined}
                 maxLength={undefined}
                 name={undefined}
@@ -226,7 +227,7 @@ ShallowWrapper {
               "nodeType": "host",
               "props": Object {
                 "autoFocus": false,
-                "className": "input",
+                "className": "input data-hj-whitelist",
                 "id": undefined,
                 "maxLength": undefined,
                 "name": undefined,
@@ -471,6 +472,7 @@ ShallowWrapper {
     clear={false}
     counter={false}
     disabled={false}
+    hjWhitelist={true}
     options={Array []}
     selectOnFocus={false}
     type="text"
@@ -521,6 +523,7 @@ ShallowWrapper {
       "clear": false,
       "counter": false,
       "disabled": false,
+      "hjWhitelist": true,
       "options": Array [],
       "selectOnFocus": false,
       "type": "text",
@@ -568,6 +571,7 @@ ShallowWrapper {
         "clear": false,
         "counter": false,
         "disabled": false,
+        "hjWhitelist": true,
         "options": Array [],
         "selectOnFocus": false,
         "type": "text",
