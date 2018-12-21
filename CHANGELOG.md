@@ -6,6 +6,9 @@ All notable changes to this project will be documented in this file.
 
 ## 1.1.x
 
+### 1.1.20
+- Adjustes for Sight on icons.
+
 ### 1.1.19
 - New `hjWhitelist` prop in `TextField`.
 

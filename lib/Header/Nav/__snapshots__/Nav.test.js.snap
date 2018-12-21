@@ -627,7 +627,10 @@ Object {
       "color": "#ffffff",
     },
   },
-  "icon": Object {},
+  "icon": Object {
+    "backgroundPosition": "center center",
+    "backgroundRepeat": "no-repeat",
+  },
   "listAnchor": Object {
     "color": "#104791",
     "display": "block",
