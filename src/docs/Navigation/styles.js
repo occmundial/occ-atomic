@@ -15,7 +15,7 @@ export default {
         padding:'3px 0'
     },
     a: {
-        color:colors.blue,
+        color:colors.textLink,
         textDecoration:'none',
         borderRadius:5,
         transition:'0.3s all',
