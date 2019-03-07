@@ -6,6 +6,9 @@ All notable changes to this project will be documented in this file.
 
 ## 1.1.x
 
+### 1.1.22
+- Fix in styles of `Pill.Choice`.
+
 ### 1.1.21
 - Fix in styles of `Pill`.
 - New `textLink` color.
