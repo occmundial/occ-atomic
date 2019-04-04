@@ -14,7 +14,6 @@ ShallowWrapper {
         "shadow3": "shadow3",
         "shadow4": "shadow4",
         "shadow5": "shadow5",
-        "shadow6": "shadow6",
       }
     }
     shadow={3}
@@ -81,33 +80,30 @@ exports[`Card styles matches the snapshot 1`] = `
 Object {
   "card": Object {
     "background": "#ffffff",
-    "borderRadius": "5px",
-    "padding": "30px 20px",
+    "borderRadius": "4px",
+    "padding": 32,
   },
   "cardNoPadding": Object {
     "extend": "card",
     "padding": "0",
   },
   "shadow0": Object {
-    "boxShadow": undefined,
+    "boxShadow": "0 0 0 0 rgba(0,0,0,0.0), 0 0 0 0 rgba(0,29,124,0)",
   },
   "shadow1": Object {
-    "boxShadow": "0 1px 4px rgba(0, 0, 0, 0.05)",
+    "boxShadow": "0 1px 2px 0 rgba(0,0,0,0.12), 0 1px 6px 0 rgba(0,29,124,0.05)",
   },
   "shadow2": Object {
-    "boxShadow": "0 1px 8px rgba(0, 0, 0, 0.05)",
+    "boxShadow": "0 3px 3px -1px rgba(0,0,0,0.12), 0 3px 12px 0 rgba(0,29,124,0.08)",
   },
   "shadow3": Object {
-    "boxShadow": "0 1px 10px rgba(0, 0, 0, 0.1)",
+    "boxShadow": "0 6px 5px -3px rgba(0,0,0,0.12), 0 6px 18px 0 rgba(0,29,124,0.08)",
   },
   "shadow4": Object {
-    "boxShadow": "0 1px 14px rgba(0, 0, 0, 0.1)",
+    "boxShadow": "0 12px 9px -5px rgba(0,0,0,0.12), 0 10px 32px 0 rgba(0,29,124,0.12)",
   },
   "shadow5": Object {
-    "boxShadow": "0 1px 18px rgba(0, 0, 0, 0.1)",
-  },
-  "shadow6": Object {
-    "boxShadow": "0 6px 32px rgba(0, 0, 0, 0.1)",
+    "boxShadow": "0 17px 12px -7px rgba(0,0,0,0.12), 0 14px 46px 0 rgba(0,29,124,0.16)",
   },
 }
 `;
@@ -140,7 +136,6 @@ ShallowWrapper {
         "shadow3": "Card-shadow3-0-1-6",
         "shadow4": "Card-shadow4-0-1-7",
         "shadow5": "Card-shadow5-0-1-8",
-        "shadow6": "Card-shadow6-0-1-9",
       },
       "shadow": 3,
     },
@@ -163,7 +158,6 @@ ShallowWrapper {
           "shadow3": "Card-shadow3-0-1-6",
           "shadow4": "Card-shadow4-0-1-7",
           "shadow5": "Card-shadow5-0-1-8",
-          "shadow6": "Card-shadow6-0-1-9",
         },
         "shadow": 3,
       },

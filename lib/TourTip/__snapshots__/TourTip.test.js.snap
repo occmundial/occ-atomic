@@ -116,7 +116,7 @@ Object {
     "alignItems": "center",
     "background": "#1476fb",
     "borderRadius": "3px",
-    "boxShadow": "0 1px 14px rgba(0, 0, 0, 0.1)",
+    "boxShadow": "0 12px 9px -5px rgba(0,0,0,0.12), 0 10px 32px 0 rgba(0,29,124,0.12)",
     "boxSizing": "border-box",
     "color": "#ffffff",
     "display": "flex",

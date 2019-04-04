@@ -11,12 +11,12 @@ const Shadows = ({ classes }) => {
                 <p>By default, the Card component has a shadow level 3.</p>
             </Card>
             <Card shadow={3} style={{marginTop:30}}>
+                <Card className={classes.block} style={{boxShadow:shadows.lvl0}}>Level 0</Card>
                 <Card className={classes.block} style={{boxShadow:shadows.lvl1}}>Level 1</Card>
                 <Card className={classes.block} style={{boxShadow:shadows.lvl2}}>Level 2</Card>
                 <Card className={classes.block} style={{boxShadow:shadows.lvl3}}>Level 3</Card>
                 <Card className={classes.block} style={{boxShadow:shadows.lvl4}}>Level 4</Card>
                 <Card className={classes.block} style={{boxShadow:shadows.lvl5}}>Level 5</Card>
-                <Card className={classes.block} style={{boxShadow:shadows.lvl6}}>Level 6</Card>
             </Card>
         </div>
     );
