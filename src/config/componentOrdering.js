@@ -31,7 +31,8 @@ module.exports = [
             'Pager',
             'SlideDown',
             'SwitchGroup',
-            'Pill'
+            'Pill',
+            'Modal'
         ]
     },
     {
