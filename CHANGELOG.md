@@ -4,6 +4,15 @@ All notable changes to this project will be documented in this file.
 
 # Version 1
 
+## 1.2.x
+
+### 1.2.0
+- New `Modal` component.
+- Changes in the `shadows` levels.
+- Changes in `Card` styles.
+- Changes in `close` icon.
+- Fix in `OrderBy` down arrow icon.
+
 ## 1.1.x
 
 ### 1.1.23
