@@ -41,6 +41,16 @@ const Props = ({ classes, props }) => {
                                             ))}
 
                                         </ul>
+                                    ) : props[key].type.name == 'enum' ? (
+                                        <span>
+                                            Any of:
+                                            <ul className={classes.propsList}>
+                                                {props[key].type.value.map(subkey => (
+                                                    <li key={subkey.value}>{subkey.value}</li>
+                                                ))}
+
+                                            </ul>
+                                        </span>
                                     ) : props[key].type.name}</td>
                                     <td className={classes.td}>{props[key].defaultValue && props[key].defaultValue.value}</td>
                                     <td className={classes.td}>{props[key].required && "X"}</td>
