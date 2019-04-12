@@ -6,8 +6,11 @@ All notable changes to this project will be documented in this file.
 
 ## 1.2.x
 
+### 1.2.2
+- Changes in `OrderBy` component.
+
 ### 1.2.1
-- Changes in `slideDown` component.
+- Changes in `SlideDown` component.
 
 ### 1.2.0
 - New `Modal` component.
