@@ -6,6 +6,9 @@ All notable changes to this project will be documented in this file.
 
 ## 1.2.x
 
+### 1.2.4
+- Fix in `SlideDown` component.
+
 ### 1.2.3
 - Fix in styles of `SlideDown`.
 
