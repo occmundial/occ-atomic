@@ -1,0 +1,246 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Checkbox matches the snapshot 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Checkbox
+    classes={
+      Object {
+        "active": "active",
+        "check": "check",
+        "cont": "cont",
+        "disabled": "disabled",
+        "label": "label",
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="check"
+        />,
+        undefined,
+      ],
+      "className": "cont",
+      "id": undefined,
+      "onClick": [Function],
+      "style": undefined,
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "className": "check",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "div",
+      },
+      undefined,
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="check"
+          />,
+          undefined,
+        ],
+        "className": "cont",
+        "id": undefined,
+        "onClick": [Function],
+        "style": undefined,
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "className": "check",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "div",
+        },
+        undefined,
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
+
+exports[`Checkbox styles matches the snapshot 1`] = `
+Object {
+  "active": Object {
+    "& $check:after": Object {
+      "background": Array [
+        "url(data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgogICAgICAgICAgICAJIHZpZXdCb3g9IjAgMCAyNCAyNCIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMjQgMjQ7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KICAgICAgICAgICAgPHBhdGggZmlsbD0iIzA4M2NhZSIgZD0iTTE4LjI4MDI1MTgsNy4zMDU3NjQ4IEwxOS43MTk3NDgyLDguNjk0MjM1MiBMMTEuMDM4NzcyNCwxNy42OTQyMzUyIEMxMC42NzM3NTY4LDE4LjA3MjY2NSAxMC4wNzgwMzIzLAogICAgICAgICAgICAxOC4xMDM3OTczIDkuNjc1NTU5NzIsMTcuNzY1NDc2IEw1LjM1NjUzNTU2LDE0LjEzNDg3NDMgTDYuNjQzNDY0NDQsMTIuNjAzOTIyMyBMMTAuMjQ3NjE2NywxNS42MzM1OTc3IEwxOC4yODAyNTE4LDcuMzA1NzY0OCBaIi8+CiAgICAgICAgICAgIDwvc3ZnPg==)",
+        "!important",
+      ],
+    },
+  },
+  "check": Object {
+    "&:after": Object {
+      "background": "transparent",
+      "content": "\\"\\"",
+      "height": 18,
+      "left": "50%",
+      "marginTop": -1,
+      "position": "absolute",
+      "top": "50%",
+      "transform": "translate(-50%, -50%)",
+      "transition": "0.3s all",
+      "width": 18,
+    },
+    "&:before": Object {
+      "background": "#ffffff",
+      "border": "1px solid #dddddd",
+      "borderRadius": 4,
+      "content": "\\"\\"",
+      "height": 16,
+      "left": "50%",
+      "position": "absolute",
+      "top": "50%",
+      "transform": "translate(-50%, -50%)",
+      "width": 16,
+    },
+    "height": 24,
+    "position": "relative",
+    "width": 24,
+  },
+  "cont": Object {
+    "&:after": Object {
+      "clear": "both",
+      "content": "\\"\\"",
+      "display": "table",
+    },
+    "&:hover $check:after": Object {
+      "background": "url(data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgogICAgICAgICAgICAJIHZpZXdCb3g9IjAgMCAyNCAyNCIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMjQgMjQ7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KICAgICAgICAgICAgPHBhdGggZmlsbD0iI2RkZGRkZCIgZD0iTTE4LjI4MDI1MTgsNy4zMDU3NjQ4IEwxOS43MTk3NDgyLDguNjk0MjM1MiBMMTEuMDM4NzcyNCwxNy42OTQyMzUyIEMxMC42NzM3NTY4LDE4LjA3MjY2NSAxMC4wNzgwMzIzLAogICAgICAgICAgICAxOC4xMDM3OTczIDkuNjc1NTU5NzIsMTcuNzY1NDc2IEw1LjM1NjUzNTU2LDE0LjEzNDg3NDMgTDYuNjQzNDY0NDQsMTIuNjAzOTIyMyBMMTAuMjQ3NjE2NywxNS42MzM1OTc3IEwxOC4yODAyNTE4LDcuMzA1NzY0OCBaIi8+CiAgICAgICAgICAgIDwvc3ZnPg==)",
+    },
+    "alignItems": "center",
+    "boxSizing": "border-box",
+    "cursor": "pointer",
+    "display": "flex",
+    "outline": "0",
+    "paddingBottom": 8,
+    "paddingTop": 8,
+  },
+  "disabled": Object {
+    "opacity": 0.4,
+    "pointerEvents": "none",
+  },
+  "label": Object {
+    "cursor": "pointer",
+    "marginLeft": 8,
+  },
+}
+`;
+
+exports[`CheckboxJSS matches the snapshot 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Jss(Checkbox) />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "classes": Object {
+        "active": "Checkbox-active-0-1-36",
+        "check": "Checkbox-check-0-1-35",
+        "cont": "Checkbox-cont-0-1-34",
+        "disabled": "Checkbox-disabled-0-1-37",
+        "label": "Checkbox-label-0-1-38",
+      },
+    },
+    "ref": null,
+    "rendered": null,
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "classes": Object {
+          "active": "Checkbox-active-0-1-36",
+          "check": "Checkbox-check-0-1-35",
+          "cont": "Checkbox-cont-0-1-34",
+          "disabled": "Checkbox-disabled-0-1-37",
+          "label": "Checkbox-label-0-1-38",
+        },
+      },
+      "ref": null,
+      "rendered": null,
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

@@ -11,6 +11,7 @@ module.exports = [
             'Icon',
             'Label',
             'OrderBy',
+            'Radio',
             'RangeCounter',
             'SightLogo',
             'Tag',
