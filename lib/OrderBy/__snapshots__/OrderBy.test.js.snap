@@ -6,8 +6,12 @@ ShallowWrapper {
   Symbol(enzyme.__unrendered__): <OrderBy
     classes={
       Object {
-        "select": "select",
-        "text": "text",
+        "button": "button",
+        "card": "card",
+        "cardWrap": "cardWrap",
+        "icon": "icon",
+        "option": "option",
+        "show": "show",
         "wrap": "wrap",
       }
     }
@@ -18,7 +22,7 @@ ShallowWrapper {
           "value": 1,
         },
         Object {
-          "text": "Option 2,",
+          "text": "Option 2",
           "value": 2,
         },
       ]
@@ -38,25 +42,65 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": Array [
-        <span
-          className="text"
-        />,
-        <select
-          className="select"
-          onChange={[Function]}
-          value={undefined}
+        <div
+          className="button"
+          onClick={[Function]}
         >
-          <option
-            value={1}
+          <Jss(Flexbox)
+            display="inline-flex"
           >
-            Option 1
-          </option>
-          <option
-            value={2}
+            <Jss(Text)
+              mid={true}
+              small={true}
+              tag="p"
+            >
+               
+              
+            </Jss(Text)>
+            <Jss(Icon)
+              className="icon"
+              colors={
+                Array [
+                  "#777777",
+                ]
+              }
+              iconName="arrowDown"
+              transition="0.3s all"
+            />
+          </Jss(Flexbox)>
+        </div>,
+        <div
+          className="cardWrap"
+          onClick={[Function]}
+        >
+          <Jss(Card)
+            className="card"
+            shadow={3}
           >
-            Option 2,
-          </option>
-        </select>,
+            <div
+              className="option"
+              onClick={[Function]}
+            >
+              <Jss(Text)
+                tag="p"
+                value={1}
+              >
+                Option 1
+              </Jss(Text)>
+            </div>
+            <div
+              className="option"
+              onClick={[Function]}
+            >
+              <Jss(Text)
+                tag="p"
+                value={2}
+              >
+                Option 2
+              </Jss(Text)>
+            </div>
+          </Jss(Card)>
+        </div>,
       ],
       "className": "wrap",
       "id": undefined,
@@ -69,62 +113,238 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": undefined,
-          "className": "text",
+          "children": <Jss(Flexbox)
+            display="inline-flex"
+          >
+            <Jss(Text)
+              mid={true}
+              small={true}
+              tag="p"
+            >
+               
+              
+            </Jss(Text)>
+            <Jss(Icon)
+              className="icon"
+              colors={
+                Array [
+                  "#777777",
+                ]
+              }
+              iconName="arrowDown"
+              transition="0.3s all"
+            />
+          </Jss(Flexbox)>,
+          "className": "button",
+          "onClick": [Function],
         },
         "ref": null,
-        "rendered": null,
-        "type": "span",
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <Jss(Text)
+                mid={true}
+                small={true}
+                tag="p"
+              >
+                 
+                
+              </Jss(Text)>,
+              <Jss(Icon)
+                className="icon"
+                colors={
+                  Array [
+                    "#777777",
+                  ]
+                }
+                iconName="arrowDown"
+                transition="0.3s all"
+              />,
+            ],
+            "display": "inline-flex",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": Array [
+                  undefined,
+                  " ",
+                  "",
+                ],
+                "mid": true,
+                "small": true,
+                "tag": "p",
+              },
+              "ref": null,
+              "rendered": Array [
+                undefined,
+                " ",
+                "",
+              ],
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "className": "icon",
+                "colors": Array [
+                  "#777777",
+                ],
+                "iconName": "arrowDown",
+                "transition": "0.3s all",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+        "type": "div",
       },
       Object {
         "instance": null,
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": Array [
-            <option
-              value={1}
+          "children": <Jss(Card)
+            className="card"
+            shadow={3}
+          >
+            <div
+              className="option"
+              onClick={[Function]}
             >
-              Option 1
-            </option>,
-            <option
-              value={2}
+              <Jss(Text)
+                tag="p"
+                value={1}
+              >
+                Option 1
+              </Jss(Text)>
+            </div>
+            <div
+              className="option"
+              onClick={[Function]}
             >
-              Option 2,
-            </option>,
-          ],
-          "className": "select",
-          "onChange": [Function],
-          "value": undefined,
+              <Jss(Text)
+                tag="p"
+                value={2}
+              >
+                Option 2
+              </Jss(Text)>
+            </div>
+          </Jss(Card)>,
+          "className": "cardWrap",
+          "onClick": [Function],
         },
         "ref": null,
-        "rendered": Array [
-          Object {
-            "instance": null,
-            "key": "1",
-            "nodeType": "host",
-            "props": Object {
-              "children": "Option 1",
-              "value": 1,
-            },
-            "ref": null,
-            "rendered": "Option 1",
-            "type": "option",
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <div
+                className="option"
+                onClick={[Function]}
+              >
+                <Jss(Text)
+                  tag="p"
+                  value={1}
+                >
+                  Option 1
+                </Jss(Text)>
+              </div>,
+              <div
+                className="option"
+                onClick={[Function]}
+              >
+                <Jss(Text)
+                  tag="p"
+                  value={2}
+                >
+                  Option 2
+                </Jss(Text)>
+              </div>,
+            ],
+            "className": "card",
+            "shadow": 3,
           },
-          Object {
-            "instance": null,
-            "key": "2",
-            "nodeType": "host",
-            "props": Object {
-              "children": "Option 2,",
-              "value": 2,
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": "1",
+              "nodeType": "host",
+              "props": Object {
+                "children": <Jss(Text)
+                  tag="p"
+                  value={1}
+                >
+                  Option 1
+                </Jss(Text)>,
+                "className": "option",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": "Option 1",
+                  "tag": "p",
+                  "value": 1,
+                },
+                "ref": null,
+                "rendered": "Option 1",
+                "type": [Function],
+              },
+              "type": "div",
             },
-            "ref": null,
-            "rendered": "Option 2,",
-            "type": "option",
-          },
-        ],
-        "type": "select",
+            Object {
+              "instance": null,
+              "key": "2",
+              "nodeType": "host",
+              "props": Object {
+                "children": <Jss(Text)
+                  tag="p"
+                  value={2}
+                >
+                  Option 2
+                </Jss(Text)>,
+                "className": "option",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": "Option 2",
+                  "tag": "p",
+                  "value": 2,
+                },
+                "ref": null,
+                "rendered": "Option 2",
+                "type": [Function],
+              },
+              "type": "div",
+            },
+          ],
+          "type": [Function],
+        },
+        "type": "div",
       },
     ],
     "type": "div",
@@ -136,25 +356,65 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": Array [
-          <span
-            className="text"
-          />,
-          <select
-            className="select"
-            onChange={[Function]}
-            value={undefined}
+          <div
+            className="button"
+            onClick={[Function]}
           >
-            <option
-              value={1}
+            <Jss(Flexbox)
+              display="inline-flex"
             >
-              Option 1
-            </option>
-            <option
-              value={2}
+              <Jss(Text)
+                mid={true}
+                small={true}
+                tag="p"
+              >
+                 
+                
+              </Jss(Text)>
+              <Jss(Icon)
+                className="icon"
+                colors={
+                  Array [
+                    "#777777",
+                  ]
+                }
+                iconName="arrowDown"
+                transition="0.3s all"
+              />
+            </Jss(Flexbox)>
+          </div>,
+          <div
+            className="cardWrap"
+            onClick={[Function]}
+          >
+            <Jss(Card)
+              className="card"
+              shadow={3}
             >
-              Option 2,
-            </option>
-          </select>,
+              <div
+                className="option"
+                onClick={[Function]}
+              >
+                <Jss(Text)
+                  tag="p"
+                  value={1}
+                >
+                  Option 1
+                </Jss(Text)>
+              </div>
+              <div
+                className="option"
+                onClick={[Function]}
+              >
+                <Jss(Text)
+                  tag="p"
+                  value={2}
+                >
+                  Option 2
+                </Jss(Text)>
+              </div>
+            </Jss(Card)>
+          </div>,
         ],
         "className": "wrap",
         "id": undefined,
@@ -167,62 +427,238 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": undefined,
-            "className": "text",
+            "children": <Jss(Flexbox)
+              display="inline-flex"
+            >
+              <Jss(Text)
+                mid={true}
+                small={true}
+                tag="p"
+              >
+                 
+                
+              </Jss(Text)>
+              <Jss(Icon)
+                className="icon"
+                colors={
+                  Array [
+                    "#777777",
+                  ]
+                }
+                iconName="arrowDown"
+                transition="0.3s all"
+              />
+            </Jss(Flexbox)>,
+            "className": "button",
+            "onClick": [Function],
           },
           "ref": null,
-          "rendered": null,
-          "type": "span",
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": Array [
+                <Jss(Text)
+                  mid={true}
+                  small={true}
+                  tag="p"
+                >
+                   
+                  
+                </Jss(Text)>,
+                <Jss(Icon)
+                  className="icon"
+                  colors={
+                    Array [
+                      "#777777",
+                    ]
+                  }
+                  iconName="arrowDown"
+                  transition="0.3s all"
+                />,
+              ],
+              "display": "inline-flex",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": Array [
+                    undefined,
+                    " ",
+                    "",
+                  ],
+                  "mid": true,
+                  "small": true,
+                  "tag": "p",
+                },
+                "ref": null,
+                "rendered": Array [
+                  undefined,
+                  " ",
+                  "",
+                ],
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "className": "icon",
+                  "colors": Array [
+                    "#777777",
+                  ],
+                  "iconName": "arrowDown",
+                  "transition": "0.3s all",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+          "type": "div",
         },
         Object {
           "instance": null,
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": Array [
-              <option
-                value={1}
+            "children": <Jss(Card)
+              className="card"
+              shadow={3}
+            >
+              <div
+                className="option"
+                onClick={[Function]}
               >
-                Option 1
-              </option>,
-              <option
-                value={2}
+                <Jss(Text)
+                  tag="p"
+                  value={1}
+                >
+                  Option 1
+                </Jss(Text)>
+              </div>
+              <div
+                className="option"
+                onClick={[Function]}
               >
-                Option 2,
-              </option>,
-            ],
-            "className": "select",
-            "onChange": [Function],
-            "value": undefined,
+                <Jss(Text)
+                  tag="p"
+                  value={2}
+                >
+                  Option 2
+                </Jss(Text)>
+              </div>
+            </Jss(Card)>,
+            "className": "cardWrap",
+            "onClick": [Function],
           },
           "ref": null,
-          "rendered": Array [
-            Object {
-              "instance": null,
-              "key": "1",
-              "nodeType": "host",
-              "props": Object {
-                "children": "Option 1",
-                "value": 1,
-              },
-              "ref": null,
-              "rendered": "Option 1",
-              "type": "option",
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": Array [
+                <div
+                  className="option"
+                  onClick={[Function]}
+                >
+                  <Jss(Text)
+                    tag="p"
+                    value={1}
+                  >
+                    Option 1
+                  </Jss(Text)>
+                </div>,
+                <div
+                  className="option"
+                  onClick={[Function]}
+                >
+                  <Jss(Text)
+                    tag="p"
+                    value={2}
+                  >
+                    Option 2
+                  </Jss(Text)>
+                </div>,
+              ],
+              "className": "card",
+              "shadow": 3,
             },
-            Object {
-              "instance": null,
-              "key": "2",
-              "nodeType": "host",
-              "props": Object {
-                "children": "Option 2,",
-                "value": 2,
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": "1",
+                "nodeType": "host",
+                "props": Object {
+                  "children": <Jss(Text)
+                    tag="p"
+                    value={1}
+                  >
+                    Option 1
+                  </Jss(Text)>,
+                  "className": "option",
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": "Option 1",
+                    "tag": "p",
+                    "value": 1,
+                  },
+                  "ref": null,
+                  "rendered": "Option 1",
+                  "type": [Function],
+                },
+                "type": "div",
               },
-              "ref": null,
-              "rendered": "Option 2,",
-              "type": "option",
-            },
-          ],
-          "type": "select",
+              Object {
+                "instance": null,
+                "key": "2",
+                "nodeType": "host",
+                "props": Object {
+                  "children": <Jss(Text)
+                    tag="p"
+                    value={2}
+                  >
+                    Option 2
+                  </Jss(Text)>,
+                  "className": "option",
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": "Option 2",
+                    "tag": "p",
+                    "value": 2,
+                  },
+                  "ref": null,
+                  "rendered": "Option 2",
+                  "type": [Function],
+                },
+                "type": "div",
+              },
+            ],
+            "type": [Function],
+          },
+          "type": "div",
         },
       ],
       "type": "div",
@@ -250,29 +686,37 @@ ShallowWrapper {
 
 exports[`OrderBy styles matches the snapshot 1`] = `
 Object {
-  "select": Object {
-    "appearance": "none",
-    "background": "url(data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgogICAgICAgICAgICAJIHZpZXdCb3g9IjAgMCAxMiAxMiIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMTIgMTI7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KICAgICAgICAgICAgPHBhdGggZmlsbD0iIzE0NzZmYiIgZD0iTTYsMy42aDMuMkM5LjcsMy42LDEwLDQsMTAsNC40YzAsMC4yLTAuMSwwLjQtMC4yLDAuNUw4LjYsNi4xbC0yLDJjLTAuMywwLjMtMC44LDAuMy0xLjEsMGwwLDBsLTItMkwyLjIsNQogICAgICAgICAgICAJQzEuOSw0LjcsMS44LDQuMiwyLjEsMy45YzAuMi0wLjIsMC40LTAuMywwLjYtMC4zQzIuNywzLjYsNiwzLjYsNiwzLjZ6Ii8+CiAgICAgICAgICAgIDwvc3ZnPg==)",
-    "backgroundPosition": "calc(100% - 2px) 5px",
-    "backgroundRepeat": "no-repeat",
-    "backgroundSize": "12px 12px",
-    "border": "0",
-    "color": "#727272",
+  "button": Object {
     "cursor": "pointer",
-    "fontFamily": "'Open Sans', sans-serif",
-    "fontSize": "14px",
-    "marginLeft": "5px",
-    "outline": "0",
-    "paddingRight": "25px",
-    "textAlign": "right",
   },
-  "text": Object {
-    "color": "#727272",
-    "fontFamily": "'Open Sans', sans-serif",
-    "fontSize": "14px",
+  "card": Object {
+    "padding": "8px 16px",
+  },
+  "cardWrap": Object {
+    "marginTop": -16,
+    "opacity": 0,
+    "pointerEvents": "none",
+    "position": "absolute",
+    "right": 0,
+    "top": "100%",
+    "transition": "0.3s all",
+  },
+  "icon": Object {
+    "marginLeft": 4,
+    "marginTop": 1,
+  },
+  "option": Object {
+    "cursor": "pointer",
+    "whiteSpace": "nowrap",
+  },
+  "show": Object {
+    "marginTop": 0,
+    "opacity": 1,
+    "pointerEvents": "auto",
   },
   "wrap": Object {
-    "display": "flex",
+    "display": "inline-block",
+    "position": "relative",
   },
 }
 `;
@@ -288,7 +732,7 @@ ShallowWrapper {
           "value": 1,
         },
         Object {
-          "text": "Option 2,",
+          "text": "Option 2",
           "value": 2,
         },
       ]
@@ -308,9 +752,13 @@ ShallowWrapper {
     "nodeType": "class",
     "props": Object {
       "classes": Object {
-        "select": "OrderBy-select-0-1-3",
-        "text": "OrderBy-text-0-1-2",
-        "wrap": "OrderBy-wrap-0-1-1",
+        "button": "OrderBy-button-0-1-83",
+        "card": "OrderBy-card-0-1-86",
+        "cardWrap": "OrderBy-cardWrap-0-1-85",
+        "icon": "OrderBy-icon-0-1-84",
+        "option": "OrderBy-option-0-1-88",
+        "show": "OrderBy-show-0-1-87",
+        "wrap": "OrderBy-wrap-0-1-82",
       },
       "options": Array [
         Object {
@@ -318,7 +766,7 @@ ShallowWrapper {
           "value": 1,
         },
         Object {
-          "text": "Option 2,",
+          "text": "Option 2",
           "value": 2,
         },
       ],
@@ -334,9 +782,13 @@ ShallowWrapper {
       "nodeType": "class",
       "props": Object {
         "classes": Object {
-          "select": "OrderBy-select-0-1-3",
-          "text": "OrderBy-text-0-1-2",
-          "wrap": "OrderBy-wrap-0-1-1",
+          "button": "OrderBy-button-0-1-83",
+          "card": "OrderBy-card-0-1-86",
+          "cardWrap": "OrderBy-cardWrap-0-1-85",
+          "icon": "OrderBy-icon-0-1-84",
+          "option": "OrderBy-option-0-1-88",
+          "show": "OrderBy-show-0-1-87",
+          "wrap": "OrderBy-wrap-0-1-82",
         },
         "options": Array [
           Object {
@@ -344,7 +796,7 @@ ShallowWrapper {
             "value": 1,
           },
           Object {
-            "text": "Option 2,",
+            "text": "Option 2",
             "value": 2,
           },
         ],
