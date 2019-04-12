@@ -6,6 +6,9 @@ All notable changes to this project will be documented in this file.
 
 ## 1.2.x
 
+### 1.2.1
+- Changes in `slideDown` component.
+
 ### 1.2.0
 - New `Modal` component.
 - Changes in the `shadows` levels.
