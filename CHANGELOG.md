@@ -4,6 +4,11 @@ All notable changes to this project will be documented in this file.
 
 # Version 1
 
+## 1.3.x
+
+### 1.3.0
+- New `Radio` component.
+
 ## 1.2.x
 
 ### 1.2.4
