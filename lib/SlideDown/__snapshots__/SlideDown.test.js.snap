@@ -8,9 +8,11 @@ ShallowWrapper {
       Object {
         "button": "button",
         "content": "content",
-        "dot": "dot",
         "hide": "hide",
+        "icon": "icon",
         "show": "show",
+        "tag": "tag",
+        "wrapper": "wrapper",
       }
     }
     expanded={false}
@@ -34,32 +36,50 @@ ShallowWrapper {
           onClick={[Function]}
         >
           <Jss(Flexbox)
-            alignItems="center"
+            alignItems="start"
             display="flex"
             justifyContent="between"
           >
-            <Jss(Title)
-              className=""
-              h={4}
-            />
-            <Jss(Icon)
-              colors={
-                Array [
-                  "#a7a7a7",
-                ]
-              }
-              iconName="arrowDown"
-              style={
-                Object {
-                  "transform": "",
+            <Jss(Flexbox)
+              alignItems="center"
+              display="flex"
+            >
+              <Jss(Flexbox)
+                alignItems="start"
+                display="flex"
+                wrap="wrap"
+              >
+                <div>
+                  <Jss(Text)
+                    tag="label"
+                  />
+                </div>
+              </Jss(Flexbox)>
+            </Jss(Flexbox)>
+            <Jss(Flexbox)
+              flex="0 0 auto"
+            >
+              <Jss(Icon)
+                className="icon"
+                colors={
+                  Array [
+                    "#222222",
+                  ]
                 }
-              }
-              transition="0.3s all"
-            />
+                iconName="arrowDown"
+                style={
+                  Object {
+                    "transform": "",
+                  }
+                }
+                transition="0.3s all"
+              />
+            </Jss(Flexbox)>
           </Jss(Flexbox)>
         </div>,
         false,
       ],
+      "className": "wrapper",
     },
     "ref": null,
     "rendered": Array [
@@ -69,28 +89,45 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": <Jss(Flexbox)
-            alignItems="center"
+            alignItems="start"
             display="flex"
             justifyContent="between"
           >
-            <Jss(Title)
-              className=""
-              h={4}
-            />
-            <Jss(Icon)
-              colors={
-                Array [
-                  "#a7a7a7",
-                ]
-              }
-              iconName="arrowDown"
-              style={
-                Object {
-                  "transform": "",
+            <Jss(Flexbox)
+              alignItems="center"
+              display="flex"
+            >
+              <Jss(Flexbox)
+                alignItems="start"
+                display="flex"
+                wrap="wrap"
+              >
+                <div>
+                  <Jss(Text)
+                    tag="label"
+                  />
+                </div>
+              </Jss(Flexbox)>
+            </Jss(Flexbox)>
+            <Jss(Flexbox)
+              flex="0 0 auto"
+            >
+              <Jss(Icon)
+                className="icon"
+                colors={
+                  Array [
+                    "#222222",
+                  ]
                 }
-              }
-              transition="0.3s all"
-            />
+                iconName="arrowDown"
+                style={
+                  Object {
+                    "transform": "",
+                  }
+                }
+                transition="0.3s all"
+              />
+            </Jss(Flexbox)>
           </Jss(Flexbox)>,
           "className": "button",
           "onClick": [Function],
@@ -101,26 +138,43 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "class",
           "props": Object {
-            "alignItems": "center",
+            "alignItems": "start",
             "children": Array [
-              <Jss(Title)
-                className=""
-                h={4}
-              />,
-              <Jss(Icon)
-                colors={
-                  Array [
-                    "#a7a7a7",
-                  ]
-                }
-                iconName="arrowDown"
-                style={
-                  Object {
-                    "transform": "",
+              <Jss(Flexbox)
+                alignItems="center"
+                display="flex"
+              >
+                <Jss(Flexbox)
+                  alignItems="start"
+                  display="flex"
+                  wrap="wrap"
+                >
+                  <div>
+                    <Jss(Text)
+                      tag="label"
+                    />
+                  </div>
+                </Jss(Flexbox)>
+              </Jss(Flexbox)>,
+              <Jss(Flexbox)
+                flex="0 0 auto"
+              >
+                <Jss(Icon)
+                  className="icon"
+                  colors={
+                    Array [
+                      "#222222",
+                    ]
                   }
-                }
-                transition="0.3s all"
-              />,
+                  iconName="arrowDown"
+                  style={
+                    Object {
+                      "transform": "",
+                    }
+                  }
+                  transition="0.3s all"
+                />
+              </Jss(Flexbox)>,
             ],
             "display": "flex",
             "justifyContent": "between",
@@ -132,12 +186,68 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "class",
               "props": Object {
-                "children": undefined,
-                "className": "",
-                "h": 4,
+                "alignItems": "center",
+                "children": <Jss(Flexbox)
+                  alignItems="start"
+                  display="flex"
+                  wrap="wrap"
+                >
+                  <div>
+                    <Jss(Text)
+                      tag="label"
+                    />
+                  </div>
+                </Jss(Flexbox)>,
+                "display": "flex",
               },
               "ref": null,
-              "rendered": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "alignItems": "start",
+                  "children": <div>
+                    <Jss(Text)
+                      tag="label"
+                    />
+                  </div>,
+                  "display": "flex",
+                  "wrap": "wrap",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <Jss(Text)
+                        tag="label"
+                      />,
+                      undefined,
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "children": undefined,
+                        "tag": "label",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                    undefined,
+                  ],
+                  "type": "div",
+                },
+                "type": [Function],
+              },
               "type": [Function],
             },
             Object {
@@ -145,17 +255,43 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "class",
               "props": Object {
-                "colors": Array [
-                  "#a7a7a7",
-                ],
-                "iconName": "arrowDown",
-                "style": Object {
-                  "transform": "",
-                },
-                "transition": "0.3s all",
+                "children": <Jss(Icon)
+                  className="icon"
+                  colors={
+                    Array [
+                      "#222222",
+                    ]
+                  }
+                  iconName="arrowDown"
+                  style={
+                    Object {
+                      "transform": "",
+                    }
+                  }
+                  transition="0.3s all"
+                />,
+                "flex": "0 0 auto",
               },
               "ref": null,
-              "rendered": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "className": "icon",
+                  "colors": Array [
+                    "#222222",
+                  ],
+                  "iconName": "arrowDown",
+                  "style": Object {
+                    "transform": "",
+                  },
+                  "transition": "0.3s all",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
               "type": [Function],
             },
           ],
@@ -179,32 +315,50 @@ ShallowWrapper {
             onClick={[Function]}
           >
             <Jss(Flexbox)
-              alignItems="center"
+              alignItems="start"
               display="flex"
               justifyContent="between"
             >
-              <Jss(Title)
-                className=""
-                h={4}
-              />
-              <Jss(Icon)
-                colors={
-                  Array [
-                    "#a7a7a7",
-                  ]
-                }
-                iconName="arrowDown"
-                style={
-                  Object {
-                    "transform": "",
+              <Jss(Flexbox)
+                alignItems="center"
+                display="flex"
+              >
+                <Jss(Flexbox)
+                  alignItems="start"
+                  display="flex"
+                  wrap="wrap"
+                >
+                  <div>
+                    <Jss(Text)
+                      tag="label"
+                    />
+                  </div>
+                </Jss(Flexbox)>
+              </Jss(Flexbox)>
+              <Jss(Flexbox)
+                flex="0 0 auto"
+              >
+                <Jss(Icon)
+                  className="icon"
+                  colors={
+                    Array [
+                      "#222222",
+                    ]
                   }
-                }
-                transition="0.3s all"
-              />
+                  iconName="arrowDown"
+                  style={
+                    Object {
+                      "transform": "",
+                    }
+                  }
+                  transition="0.3s all"
+                />
+              </Jss(Flexbox)>
             </Jss(Flexbox)>
           </div>,
           false,
         ],
+        "className": "wrapper",
       },
       "ref": null,
       "rendered": Array [
@@ -214,28 +368,45 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": <Jss(Flexbox)
-              alignItems="center"
+              alignItems="start"
               display="flex"
               justifyContent="between"
             >
-              <Jss(Title)
-                className=""
-                h={4}
-              />
-              <Jss(Icon)
-                colors={
-                  Array [
-                    "#a7a7a7",
-                  ]
-                }
-                iconName="arrowDown"
-                style={
-                  Object {
-                    "transform": "",
+              <Jss(Flexbox)
+                alignItems="center"
+                display="flex"
+              >
+                <Jss(Flexbox)
+                  alignItems="start"
+                  display="flex"
+                  wrap="wrap"
+                >
+                  <div>
+                    <Jss(Text)
+                      tag="label"
+                    />
+                  </div>
+                </Jss(Flexbox)>
+              </Jss(Flexbox)>
+              <Jss(Flexbox)
+                flex="0 0 auto"
+              >
+                <Jss(Icon)
+                  className="icon"
+                  colors={
+                    Array [
+                      "#222222",
+                    ]
                   }
-                }
-                transition="0.3s all"
-              />
+                  iconName="arrowDown"
+                  style={
+                    Object {
+                      "transform": "",
+                    }
+                  }
+                  transition="0.3s all"
+                />
+              </Jss(Flexbox)>
             </Jss(Flexbox)>,
             "className": "button",
             "onClick": [Function],
@@ -246,26 +417,43 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "class",
             "props": Object {
-              "alignItems": "center",
+              "alignItems": "start",
               "children": Array [
-                <Jss(Title)
-                  className=""
-                  h={4}
-                />,
-                <Jss(Icon)
-                  colors={
-                    Array [
-                      "#a7a7a7",
-                    ]
-                  }
-                  iconName="arrowDown"
-                  style={
-                    Object {
-                      "transform": "",
+                <Jss(Flexbox)
+                  alignItems="center"
+                  display="flex"
+                >
+                  <Jss(Flexbox)
+                    alignItems="start"
+                    display="flex"
+                    wrap="wrap"
+                  >
+                    <div>
+                      <Jss(Text)
+                        tag="label"
+                      />
+                    </div>
+                  </Jss(Flexbox)>
+                </Jss(Flexbox)>,
+                <Jss(Flexbox)
+                  flex="0 0 auto"
+                >
+                  <Jss(Icon)
+                    className="icon"
+                    colors={
+                      Array [
+                        "#222222",
+                      ]
                     }
-                  }
-                  transition="0.3s all"
-                />,
+                    iconName="arrowDown"
+                    style={
+                      Object {
+                        "transform": "",
+                      }
+                    }
+                    transition="0.3s all"
+                  />
+                </Jss(Flexbox)>,
               ],
               "display": "flex",
               "justifyContent": "between",
@@ -277,12 +465,68 @@ ShallowWrapper {
                 "key": undefined,
                 "nodeType": "class",
                 "props": Object {
-                  "children": undefined,
-                  "className": "",
-                  "h": 4,
+                  "alignItems": "center",
+                  "children": <Jss(Flexbox)
+                    alignItems="start"
+                    display="flex"
+                    wrap="wrap"
+                  >
+                    <div>
+                      <Jss(Text)
+                        tag="label"
+                      />
+                    </div>
+                  </Jss(Flexbox)>,
+                  "display": "flex",
                 },
                 "ref": null,
-                "rendered": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "alignItems": "start",
+                    "children": <div>
+                      <Jss(Text)
+                        tag="label"
+                      />
+                    </div>,
+                    "display": "flex",
+                    "wrap": "wrap",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <Jss(Text)
+                          tag="label"
+                        />,
+                        undefined,
+                      ],
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "class",
+                        "props": Object {
+                          "children": undefined,
+                          "tag": "label",
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": [Function],
+                      },
+                      undefined,
+                    ],
+                    "type": "div",
+                  },
+                  "type": [Function],
+                },
                 "type": [Function],
               },
               Object {
@@ -290,17 +534,43 @@ ShallowWrapper {
                 "key": undefined,
                 "nodeType": "class",
                 "props": Object {
-                  "colors": Array [
-                    "#a7a7a7",
-                  ],
-                  "iconName": "arrowDown",
-                  "style": Object {
-                    "transform": "",
-                  },
-                  "transition": "0.3s all",
+                  "children": <Jss(Icon)
+                    className="icon"
+                    colors={
+                      Array [
+                        "#222222",
+                      ]
+                    }
+                    iconName="arrowDown"
+                    style={
+                      Object {
+                        "transform": "",
+                      }
+                    }
+                    transition="0.3s all"
+                  />,
+                  "flex": "0 0 auto",
                 },
                 "ref": null,
-                "rendered": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "className": "icon",
+                    "colors": Array [
+                      "#222222",
+                    ],
+                    "iconName": "arrowDown",
+                    "style": Object {
+                      "transform": "",
+                    },
+                    "transition": "0.3s all",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
                 "type": [Function],
               },
             ],
@@ -339,33 +609,30 @@ Object {
     "cursor": "pointer",
   },
   "content": Object {
-    "transition": "0.3s all",
-  },
-  "dot": Object {
-    "&:after": Object {
-      "background": "#1476fb",
-      "borderRadius": "3px",
-      "content": "\\"\\"",
-      "display": "block",
-      "height": "5px",
-      "left": "calc(100% + 5px)",
-      "position": "absolute",
-      "top": "50%",
-      "transform": "translateY(-50%)",
-      "width": "5px",
-    },
-    "position": "relative",
+    "transition": "0.3s all ease-out",
   },
   "hide": Object {
-    "marginBottom": "35px",
-    "marginTop": "-35px",
-    "opacity": "0",
+    "marginBottom": 16,
+    "marginTop": -16,
+    "opacity": 0,
     "pointerEvents": "none",
   },
+  "icon": Object {
+    "marginLeft": 8,
+    "marginTop": 4,
+  },
   "show": Object {
-    "marginBottom": "0",
-    "marginTop": "0",
-    "opacity": "1",
+    "marginBottom": 0,
+    "marginTop": 0,
+    "opacity": 1,
+  },
+  "tag": Object {
+    "marginLeft": 8,
+    "marginTop": 4,
+    "pointerEvents": "none",
+  },
+  "wrapper": Object {
+    "marginBottom": 16,
   },
 }
 `;
@@ -390,11 +657,13 @@ ShallowWrapper {
     "nodeType": "class",
     "props": Object {
       "classes": Object {
-        "button": "SlideDown-button-0-1-46",
-        "content": "SlideDown-content-0-1-47",
-        "dot": "SlideDown-dot-0-1-50",
-        "hide": "SlideDown-hide-0-1-48",
-        "show": "SlideDown-show-0-1-49",
+        "button": "SlideDown-button-0-1-101",
+        "content": "SlideDown-content-0-1-102",
+        "hide": "SlideDown-hide-0-1-103",
+        "icon": "SlideDown-icon-0-1-106",
+        "show": "SlideDown-show-0-1-104",
+        "tag": "SlideDown-tag-0-1-105",
+        "wrapper": "SlideDown-wrapper-0-1-100",
       },
       "expanded": false,
     },
@@ -409,11 +678,13 @@ ShallowWrapper {
       "nodeType": "class",
       "props": Object {
         "classes": Object {
-          "button": "SlideDown-button-0-1-46",
-          "content": "SlideDown-content-0-1-47",
-          "dot": "SlideDown-dot-0-1-50",
-          "hide": "SlideDown-hide-0-1-48",
-          "show": "SlideDown-show-0-1-49",
+          "button": "SlideDown-button-0-1-101",
+          "content": "SlideDown-content-0-1-102",
+          "hide": "SlideDown-hide-0-1-103",
+          "icon": "SlideDown-icon-0-1-106",
+          "show": "SlideDown-show-0-1-104",
+          "tag": "SlideDown-tag-0-1-105",
+          "wrapper": "SlideDown-wrapper-0-1-100",
         },
         "expanded": false,
       },
