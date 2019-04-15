@@ -28,7 +28,7 @@ export default class Example1 extends React.Component {
         const { selected } = this.state;
         return (
             <div style={{display:'inline-block'}}>
-                <Radio label="Selected" options={options} selected={selected} />
+                <Radio options={options} selected={selected} />
             </div>
         );
     }

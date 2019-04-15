@@ -1,11 +1,11 @@
-/* Radio with default value */
+/* Radio with text on the right */
 import React from 'react';
 import { Radio } from '@occmundial/occ-atomic';
 
 const options = [
-    {value:1, label:'Option 1'},
-    {value:2, label:'Option 2'},
-    {value:3, label:'Option 3'}
+    {value:1, label:'Option 1', right: '(123)'},
+    {value:2, label:'Option 2', right: '(548)'},
+    {value:3, label:'Option 3', right: '(1002)'}
 ];
 
 export default class Example1 extends React.Component {
@@ -27,9 +27,7 @@ export default class Example1 extends React.Component {
     render() {
         const { selected } = this.state;
         return (
-            <div style={{display:'inline-block'}}>
-                <Radio options={options} selected={selected} />
-            </div>
+            <Radio options={options} selected={selected} />
         );
     }
 }
