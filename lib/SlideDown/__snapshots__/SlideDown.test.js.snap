@@ -12,6 +12,7 @@ ShallowWrapper {
         "icon": "icon",
         "show": "show",
         "tag": "tag",
+        "text": "text",
         "wrapper": "wrapper",
       }
     }
@@ -51,6 +52,7 @@ ShallowWrapper {
               >
                 <div>
                   <Jss(Text)
+                    className="text"
                     tag="label"
                   />
                 </div>
@@ -104,6 +106,7 @@ ShallowWrapper {
               >
                 <div>
                   <Jss(Text)
+                    className="text"
                     tag="label"
                   />
                 </div>
@@ -151,6 +154,7 @@ ShallowWrapper {
                 >
                   <div>
                     <Jss(Text)
+                      className="text"
                       tag="label"
                     />
                   </div>
@@ -194,6 +198,7 @@ ShallowWrapper {
                 >
                   <div>
                     <Jss(Text)
+                      className="text"
                       tag="label"
                     />
                   </div>
@@ -209,6 +214,7 @@ ShallowWrapper {
                   "alignItems": "start",
                   "children": <div>
                     <Jss(Text)
+                      className="text"
                       tag="label"
                     />
                   </div>,
@@ -223,6 +229,7 @@ ShallowWrapper {
                   "props": Object {
                     "children": Array [
                       <Jss(Text)
+                        className="text"
                         tag="label"
                       />,
                       undefined,
@@ -236,6 +243,7 @@ ShallowWrapper {
                       "nodeType": "class",
                       "props": Object {
                         "children": undefined,
+                        "className": "text",
                         "tag": "label",
                       },
                       "ref": null,
@@ -330,6 +338,7 @@ ShallowWrapper {
                 >
                   <div>
                     <Jss(Text)
+                      className="text"
                       tag="label"
                     />
                   </div>
@@ -383,6 +392,7 @@ ShallowWrapper {
                 >
                   <div>
                     <Jss(Text)
+                      className="text"
                       tag="label"
                     />
                   </div>
@@ -430,6 +440,7 @@ ShallowWrapper {
                   >
                     <div>
                       <Jss(Text)
+                        className="text"
                         tag="label"
                       />
                     </div>
@@ -473,6 +484,7 @@ ShallowWrapper {
                   >
                     <div>
                       <Jss(Text)
+                        className="text"
                         tag="label"
                       />
                     </div>
@@ -488,6 +500,7 @@ ShallowWrapper {
                     "alignItems": "start",
                     "children": <div>
                       <Jss(Text)
+                        className="text"
                         tag="label"
                       />
                     </div>,
@@ -502,6 +515,7 @@ ShallowWrapper {
                     "props": Object {
                       "children": Array [
                         <Jss(Text)
+                          className="text"
                           tag="label"
                         />,
                         undefined,
@@ -515,6 +529,7 @@ ShallowWrapper {
                         "nodeType": "class",
                         "props": Object {
                           "children": undefined,
+                          "className": "text",
                           "tag": "label",
                         },
                         "ref": null,
@@ -631,6 +646,9 @@ Object {
     "marginTop": 4,
     "pointerEvents": "none",
   },
+  "text": Object {
+    "cursor": "pointer",
+  },
   "wrapper": Object {
     "marginBottom": 16,
   },
@@ -658,11 +676,12 @@ ShallowWrapper {
     "props": Object {
       "classes": Object {
         "button": "SlideDown-button-0-1-101",
-        "content": "SlideDown-content-0-1-102",
-        "hide": "SlideDown-hide-0-1-103",
-        "icon": "SlideDown-icon-0-1-106",
-        "show": "SlideDown-show-0-1-104",
-        "tag": "SlideDown-tag-0-1-105",
+        "content": "SlideDown-content-0-1-103",
+        "hide": "SlideDown-hide-0-1-104",
+        "icon": "SlideDown-icon-0-1-107",
+        "show": "SlideDown-show-0-1-105",
+        "tag": "SlideDown-tag-0-1-106",
+        "text": "SlideDown-text-0-1-102",
         "wrapper": "SlideDown-wrapper-0-1-100",
       },
       "expanded": false,
@@ -679,11 +698,12 @@ ShallowWrapper {
       "props": Object {
         "classes": Object {
           "button": "SlideDown-button-0-1-101",
-          "content": "SlideDown-content-0-1-102",
-          "hide": "SlideDown-hide-0-1-103",
-          "icon": "SlideDown-icon-0-1-106",
-          "show": "SlideDown-show-0-1-104",
-          "tag": "SlideDown-tag-0-1-105",
+          "content": "SlideDown-content-0-1-103",
+          "hide": "SlideDown-hide-0-1-104",
+          "icon": "SlideDown-icon-0-1-107",
+          "show": "SlideDown-show-0-1-105",
+          "tag": "SlideDown-tag-0-1-106",
+          "text": "SlideDown-text-0-1-102",
           "wrapper": "SlideDown-wrapper-0-1-100",
         },
         "expanded": false,

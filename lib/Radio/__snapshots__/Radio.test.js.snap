@@ -11,6 +11,7 @@ ShallowWrapper {
         "disabled": "disabled",
         "label": "label",
         "radio": "radio",
+        "right": "right",
       }
     }
     options={
@@ -54,7 +55,6 @@ ShallowWrapper {
           />
           <Jss(Text)
             className="label"
-            standard={true}
             tag="label"
           >
             Option 1
@@ -70,7 +70,6 @@ ShallowWrapper {
           />
           <Jss(Text)
             className="label"
-            standard={true}
             tag="label"
           >
             Option 2
@@ -86,7 +85,6 @@ ShallowWrapper {
           />
           <Jss(Text)
             className="label"
-            standard={true}
             tag="label"
           >
             Option 3
@@ -108,11 +106,11 @@ ShallowWrapper {
             />,
             <Jss(Text)
               className="label"
-              standard={true}
               tag="label"
             >
               Option 1
             </Jss(Text)>,
+            undefined,
           ],
           "className": "cont",
           "onClick": [Function],
@@ -138,13 +136,13 @@ ShallowWrapper {
             "props": Object {
               "children": "Option 1",
               "className": "label",
-              "standard": true,
               "tag": "label",
             },
             "ref": null,
             "rendered": "Option 1",
             "type": [Function],
           },
+          undefined,
         ],
         "type": "div",
       },
@@ -159,11 +157,11 @@ ShallowWrapper {
             />,
             <Jss(Text)
               className="label"
-              standard={true}
               tag="label"
             >
               Option 2
             </Jss(Text)>,
+            undefined,
           ],
           "className": "cont",
           "onClick": [Function],
@@ -189,13 +187,13 @@ ShallowWrapper {
             "props": Object {
               "children": "Option 2",
               "className": "label",
-              "standard": true,
               "tag": "label",
             },
             "ref": null,
             "rendered": "Option 2",
             "type": [Function],
           },
+          undefined,
         ],
         "type": "div",
       },
@@ -210,11 +208,11 @@ ShallowWrapper {
             />,
             <Jss(Text)
               className="label"
-              standard={true}
               tag="label"
             >
               Option 3
             </Jss(Text)>,
+            undefined,
           ],
           "className": "cont",
           "onClick": [Function],
@@ -240,13 +238,13 @@ ShallowWrapper {
             "props": Object {
               "children": "Option 3",
               "className": "label",
-              "standard": true,
               "tag": "label",
             },
             "ref": null,
             "rendered": "Option 3",
             "type": [Function],
           },
+          undefined,
         ],
         "type": "div",
       },
@@ -270,7 +268,6 @@ ShallowWrapper {
             />
             <Jss(Text)
               className="label"
-              standard={true}
               tag="label"
             >
               Option 1
@@ -286,7 +283,6 @@ ShallowWrapper {
             />
             <Jss(Text)
               className="label"
-              standard={true}
               tag="label"
             >
               Option 2
@@ -302,7 +298,6 @@ ShallowWrapper {
             />
             <Jss(Text)
               className="label"
-              standard={true}
               tag="label"
             >
               Option 3
@@ -324,11 +319,11 @@ ShallowWrapper {
               />,
               <Jss(Text)
                 className="label"
-                standard={true}
                 tag="label"
               >
                 Option 1
               </Jss(Text)>,
+              undefined,
             ],
             "className": "cont",
             "onClick": [Function],
@@ -354,13 +349,13 @@ ShallowWrapper {
               "props": Object {
                 "children": "Option 1",
                 "className": "label",
-                "standard": true,
                 "tag": "label",
               },
               "ref": null,
               "rendered": "Option 1",
               "type": [Function],
             },
+            undefined,
           ],
           "type": "div",
         },
@@ -375,11 +370,11 @@ ShallowWrapper {
               />,
               <Jss(Text)
                 className="label"
-                standard={true}
                 tag="label"
               >
                 Option 2
               </Jss(Text)>,
+              undefined,
             ],
             "className": "cont",
             "onClick": [Function],
@@ -405,13 +400,13 @@ ShallowWrapper {
               "props": Object {
                 "children": "Option 2",
                 "className": "label",
-                "standard": true,
                 "tag": "label",
               },
               "ref": null,
               "rendered": "Option 2",
               "type": [Function],
             },
+            undefined,
           ],
           "type": "div",
         },
@@ -426,11 +421,11 @@ ShallowWrapper {
               />,
               <Jss(Text)
                 className="label"
-                standard={true}
                 tag="label"
               >
                 Option 3
               </Jss(Text)>,
+              undefined,
             ],
             "className": "cont",
             "onClick": [Function],
@@ -456,13 +451,13 @@ ShallowWrapper {
               "props": Object {
                 "children": "Option 3",
                 "className": "label",
-                "standard": true,
                 "tag": "label",
               },
               "ref": null,
               "rendered": "Option 3",
               "type": [Function],
             },
+            undefined,
           ],
           "type": "div",
         },
@@ -509,7 +504,7 @@ Object {
     "&:hover $radio:after": Object {
       "background": "#dddddd",
     },
-    "alignItems": "center",
+    "alignItems": "start",
     "boxSizing": "border-box",
     "cursor": "pointer",
     "display": "flex",
@@ -523,6 +518,8 @@ Object {
   },
   "label": Object {
     "cursor": "pointer",
+    "flex": "1",
+    "float": "left",
     "marginLeft": 8,
   },
   "radio": Object {
@@ -554,6 +551,10 @@ Object {
     "position": "relative",
     "width": 24,
   },
+  "right": Object {
+    "float": "right",
+    "marginLeft": 8,
+  },
 }
 `;
 
@@ -582,6 +583,7 @@ ShallowWrapper {
         "disabled": "Radio-disabled-0-1-4",
         "label": "Radio-label-0-1-5",
         "radio": "Radio-radio-0-1-2",
+        "right": "Radio-right-0-1-6",
       },
       "options": Array [],
     },
@@ -601,6 +603,7 @@ ShallowWrapper {
           "disabled": "Radio-disabled-0-1-4",
           "label": "Radio-label-0-1-5",
           "radio": "Radio-radio-0-1-2",
+          "right": "Radio-right-0-1-6",
         },
         "options": Array [],
       },
