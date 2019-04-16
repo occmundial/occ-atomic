@@ -6,6 +6,12 @@ All notable changes to this project will be documented in this file.
 
 ## 1.3.x
 
+### 1.3.3
+- Fix in PropTypes of `Checkbox`.
+
+### 1.3.2
+- Change in PropTypes of `Checkbox`.
+
 ### 1.3.1
 - New `right` prop in `Checkbox` and `Radio`.
 
