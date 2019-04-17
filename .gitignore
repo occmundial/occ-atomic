@@ -4,3 +4,4 @@ node_modules
 *.log
 coverage
 dist/bundle.js
+\.idea/
