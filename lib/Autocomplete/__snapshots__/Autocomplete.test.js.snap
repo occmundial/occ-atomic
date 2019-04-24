@@ -11,6 +11,7 @@ ShallowWrapper {
         "labels": "labels",
       }
     }
+    disableAutoComplete={false}
     droplistProps={
       Object {
         "items": Array [
@@ -56,6 +57,7 @@ ShallowWrapper {
         <StyledInput
           className={undefined}
           clear={undefined}
+          disableAutoComplete={false}
           disabled={undefined}
           iconName={undefined}
           id={undefined}
@@ -90,6 +92,7 @@ ShallowWrapper {
         "props": Object {
           "className": undefined,
           "clear": undefined,
+          "disableAutoComplete": false,
           "disabled": undefined,
           "iconName": undefined,
           "id": undefined,
@@ -127,6 +130,7 @@ ShallowWrapper {
           <StyledInput
             className={undefined}
             clear={undefined}
+            disableAutoComplete={false}
             disabled={undefined}
             iconName={undefined}
             id={undefined}
@@ -161,6 +165,7 @@ ShallowWrapper {
           "props": Object {
             "className": undefined,
             "clear": undefined,
+            "disableAutoComplete": false,
             "disabled": undefined,
             "iconName": undefined,
             "id": undefined,
@@ -232,6 +237,7 @@ exports[`AutocompleteJSS matches the snapshot 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <Jss(Autocomplete)
+    disableAutoComplete={false}
     droplistProps={
       Object {
         "items": Array [
@@ -302,6 +308,7 @@ ShallowWrapper {
         "droplist": "Autocomplete-droplist-0-1-37 Autocomplete-droplist-0-1-35",
         "labels": "Autocomplete-labels-0-1-39 Autocomplete-labels-0-1-36",
       },
+      "disableAutoComplete": false,
       "droplistProps": Object {
         "items": Array [
           Object {
@@ -365,6 +372,7 @@ ShallowWrapper {
           "droplist": "Autocomplete-droplist-0-1-37 Autocomplete-droplist-0-1-35",
           "labels": "Autocomplete-labels-0-1-39 Autocomplete-labels-0-1-36",
         },
+        "disableAutoComplete": false,
         "droplistProps": Object {
           "items": Array [
             Object {

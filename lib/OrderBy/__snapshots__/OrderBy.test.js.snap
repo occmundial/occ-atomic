@@ -752,13 +752,13 @@ ShallowWrapper {
     "nodeType": "class",
     "props": Object {
       "classes": Object {
-        "button": "OrderBy-button-0-1-83",
-        "card": "OrderBy-card-0-1-86",
-        "cardWrap": "OrderBy-cardWrap-0-1-85",
-        "icon": "OrderBy-icon-0-1-84",
-        "option": "OrderBy-option-0-1-88",
-        "show": "OrderBy-show-0-1-87",
-        "wrap": "OrderBy-wrap-0-1-82",
+        "button": "OrderBy-button-0-1-84",
+        "card": "OrderBy-card-0-1-87",
+        "cardWrap": "OrderBy-cardWrap-0-1-86",
+        "icon": "OrderBy-icon-0-1-85",
+        "option": "OrderBy-option-0-1-89",
+        "show": "OrderBy-show-0-1-88",
+        "wrap": "OrderBy-wrap-0-1-83",
       },
       "options": Array [
         Object {
@@ -782,13 +782,13 @@ ShallowWrapper {
       "nodeType": "class",
       "props": Object {
         "classes": Object {
-          "button": "OrderBy-button-0-1-83",
-          "card": "OrderBy-card-0-1-86",
-          "cardWrap": "OrderBy-cardWrap-0-1-85",
-          "icon": "OrderBy-icon-0-1-84",
-          "option": "OrderBy-option-0-1-88",
-          "show": "OrderBy-show-0-1-87",
-          "wrap": "OrderBy-wrap-0-1-82",
+          "button": "OrderBy-button-0-1-84",
+          "card": "OrderBy-card-0-1-87",
+          "cardWrap": "OrderBy-cardWrap-0-1-86",
+          "icon": "OrderBy-icon-0-1-85",
+          "option": "OrderBy-option-0-1-89",
+          "show": "OrderBy-show-0-1-88",
+          "wrap": "OrderBy-wrap-0-1-83",
         },
         "options": Array [
           Object {

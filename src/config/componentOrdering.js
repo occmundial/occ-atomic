@@ -16,6 +16,7 @@ module.exports = [
             'SightLogo',
             'Tag',
             'Text',
+            'TextLink',
             'Title',
             'TourTip'
         ]
@@ -41,6 +42,12 @@ module.exports = [
         components: [
             'Footer',
             'Header'
+        ]
+    },
+    {
+        name: 'Header',
+        components: [
+            'NavItem'
         ]
     },
     {
