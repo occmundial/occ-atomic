@@ -6,6 +6,9 @@ All notable changes to this project will be documented in this file.
 
 ## 1.3.x
 
+### 1.3.5
+- Fix in `Checkbox` and `Button` components.
+
 ### 1.3.4
 - New `disableAutoComplete` prop in `Input` and `Autocomplete` components.
 
