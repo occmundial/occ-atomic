@@ -6,6 +6,10 @@ All notable changes to this project will be documented in this file.
 
 ## 1.3.x
 
+### 1.3.6
+- New `strong` property for the `Text` component.
+- The title in `slideDown` has now the `strong` style.
+
 ### 1.3.5
 - Fix in `Checkbox` and `Button` components.
 
