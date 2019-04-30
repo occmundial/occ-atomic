@@ -6,6 +6,9 @@ All notable changes to this project will be documented in this file.
 
 ## 1.3.x
 
+### 1.3.7
+- New `disableAutoComplete` prop in `TextField` component.
+
 ### 1.3.6
 - New `strong` property for the `Text` component.
 - The title in `slideDown` has now the `strong` style.
