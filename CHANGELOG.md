@@ -6,6 +6,9 @@ All notable changes to this project will be documented in this file.
 
 ## 1.3.x
 
+### 1.3.10
+- The `container` property in `Modal` is now optional.
+
 ### 1.3.9
 - New `Placeholder` component.
 
