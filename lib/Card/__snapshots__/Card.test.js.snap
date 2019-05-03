@@ -79,13 +79,19 @@ ShallowWrapper {
 exports[`Card styles matches the snapshot 1`] = `
 Object {
   "card": Object {
+    "@media screen and (min-width:768px)": Object {
+      "padding": 32,
+    },
     "background": "#ffffff",
-    "borderRadius": "4px",
-    "padding": 32,
+    "borderRadius": 4,
+    "padding": 16,
   },
   "cardNoPadding": Object {
+    "@media screen and (min-width:768px)": Object {
+      "padding": 0,
+    },
     "extend": "card",
-    "padding": "0",
+    "padding": 0,
   },
   "shadow0": Object {
     "boxShadow": "0 0 0 0 rgba(0,0,0,0.0), 0 0 0 0 rgba(0,29,124,0)",
