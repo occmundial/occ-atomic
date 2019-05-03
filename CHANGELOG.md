@@ -6,6 +6,10 @@ All notable changes to this project will be documented in this file.
 
 ## 1.3.x
 
+### 1.3.8
+- Changes in styles of `Card` component.
+- The `strong` property can now be applied to `micro` style in `Text` component.
+
 ### 1.3.7
 - New `disableAutoComplete` prop in `TextField` component.
 
