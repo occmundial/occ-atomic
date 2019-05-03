@@ -33,7 +33,8 @@ module.exports = [
             'SlideDown',
             'SwitchGroup',
             'Pill',
-            'Modal'
+            'Modal',
+            'Placeholder'
         ]
     },
     {
