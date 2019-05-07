@@ -6,6 +6,9 @@ All notable changes to this project will be documented in this file.
 
 ## 1.3.x
 
+### 1.3.11
+- Changes in the names of the keyframes animations to avoid conflicts with other animations.
+
 ### 1.3.10
 - The `container` property in `Modal` is now optional.
 
