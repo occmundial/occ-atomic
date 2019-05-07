@@ -7,8 +7,8 @@ ShallowWrapper {
     classes={
       Object {
         "@global": "@global",
-        "@keyframes fadeDown": "@keyframes fadeDown",
-        "@keyframes fadeIn": "@keyframes fadeIn",
+        "@keyframes modalFadeDown": "@keyframes modalFadeDown",
+        "@keyframes modalFadeIn": "@keyframes modalFadeIn",
         "bottom": "bottom",
         "card": "card",
         "cardHide": "cardHide",
@@ -608,7 +608,7 @@ Object {
       "overflow": "hidden",
     },
   },
-  "@keyframes fadeDown": Object {
+  "@keyframes modalFadeDown": Object {
     "from": Object {
       "marginTop": -64,
       "opacity": 0,
@@ -618,7 +618,7 @@ Object {
       "opacity": 1,
     },
   },
-  "@keyframes fadeIn": Object {
+  "@keyframes modalFadeIn": Object {
     "from": Object {
       "opacity": 0,
     },
@@ -644,7 +644,7 @@ Object {
     "opacity": 0,
   },
   "cardShow": Object {
-    "animation": "0.3s fadeDown ease-out",
+    "animation": "0.3s modalFadeDown ease-out",
   },
   "cardWrapper": Object {
     "left": "50%",
@@ -711,7 +711,7 @@ Object {
     "opacity": 0,
   },
   "overlayShow": Object {
-    "animation": "0.3s fadeIn linear",
+    "animation": "0.3s modalFadeIn linear",
   },
   "secBtn": Object {
     "marginTop": 16,

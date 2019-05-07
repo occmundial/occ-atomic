@@ -6,7 +6,7 @@ ShallowWrapper {
   Symbol(enzyme.__unrendered__): <Placeholder
     classes={
       Object {
-        "@keyframes pulse": "@keyframes pulse",
+        "@keyframes placeholderPulse": "@keyframes placeholderPulse",
         "bottombase": "bottombase",
         "bottomlarge": "bottomlarge",
         "bottommedium": "bottommedium",
@@ -118,7 +118,7 @@ ShallowWrapper {
 
 exports[`Placeholder styles matches the snapshot 1`] = `
 Object {
-  "@keyframes pulse": Object {
+  "@keyframes placeholderPulse": Object {
     "0%": Object {
       "opacity": 0.5,
     },
@@ -181,7 +181,7 @@ Object {
     "height": 16,
   },
   "placeholder": Object {
-    "animation": "pulse 1s infinite ease-in-out",
+    "animation": "placeholderPulse 1s infinite ease-in-out",
     "background": "#f5f5f5",
     "borderRadius": 4,
     "height": [Function],
