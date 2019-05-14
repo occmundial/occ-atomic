@@ -6,6 +6,9 @@ All notable changes to this project will be documented in this file.
 
 ## 1.3.x
 
+### 1.3.12
+- Changes in `Modal`. Now `mainBtn` and `secBtn` accept `loading` and `disabled`.
+
 ### 1.3.11
 - Changes in the names of the keyframes animations to avoid conflicts with other animations.
 
