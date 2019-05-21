@@ -16,7 +16,6 @@ module.exports = [
             'SightLogo',
             'Tag',
             'Text',
-            'TextLink',
             'Title',
             'TourTip'
         ]
