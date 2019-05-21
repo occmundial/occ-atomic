@@ -24,16 +24,19 @@ const Props = ({ classes, props }) => {
                                         {props[key].description}
                                     </td>
                                     <td className={classes.td}>{props[key].type.name == 'shape' ? (
-                                        <ul className={classes.propsList}>
-                                            {Object.keys(props[key].type.value).map(subkey => (
-                                                <li key={subkey}>
-                                                    {subkey} ({props[key].type.value[subkey].name}{props[key].type.value[subkey].required && ' *'})
-                                                    {props[key].type.value[subkey].description && (
-                                                        <span className={classes.shapeDescription}> - {props[key].type.value[subkey].description}</span>
-                                                    )}</li>
-                                            ))}
+                                        <span>
+                                            Object with:
+                                            <ul className={classes.propsList}>
+                                                {Object.keys(props[key].type.value).map(subkey => (
+                                                    <li key={subkey}>
+                                                        {subkey} ({props[key].type.value[subkey].name}{props[key].type.value[subkey].required && ' *'})
+                                                        {props[key].type.value[subkey].description && (
+                                                            <span className={classes.shapeDescription}> - {props[key].type.value[subkey].description}</span>
+                                                        )}</li>
+                                                ))}
 
-                                        </ul>
+                                            </ul>
+                                        </span>
                                     ) : props[key].type.name == 'union' ? (
                                         <ul className={classes.propsList}>
                                             {props[key].type.value.map(subkey => (

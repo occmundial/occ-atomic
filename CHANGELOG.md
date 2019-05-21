@@ -6,6 +6,32 @@ All notable changes to this project will be documented in this file.
 
 ## 1.3.x
 
+### 1.3.12
+- Changes in `Modal`. Now `mainBtn` and `secBtn` accept `loading` and `disabled`.
+
+### 1.3.11
+- Changes in the names of the keyframes animations to avoid conflicts with other animations.
+
+### 1.3.10
+- The `container` property in `Modal` is now optional.
+
+### 1.3.9
+- New `Placeholder` component.
+
+### 1.3.8
+- Changes in styles of `Card` component.
+- The `strong` property can now be applied to `micro` style in `Text` component.
+
+### 1.3.7
+- New `disableAutoComplete` prop in `TextField` component.
+
+### 1.3.6
+- New `strong` property for the `Text` component.
+- The title in `slideDown` has now the `strong` style.
+
+### 1.3.5
+- Fix in `Checkbox` and `Button` components.
+
 ### 1.3.4
 - New `disableAutoComplete` prop in `Input` and `Autocomplete` components.
 

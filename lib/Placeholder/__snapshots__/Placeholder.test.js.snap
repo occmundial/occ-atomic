@@ -1,0 +1,339 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Placeholder matches the snapshot 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Placeholder
+    classes={
+      Object {
+        "@keyframes placeholderPulse": "@keyframes placeholderPulse",
+        "bottombase": "bottombase",
+        "bottomlarge": "bottomlarge",
+        "bottommedium": "bottommedium",
+        "bottomsmall": "bottomsmall",
+        "bottomtiny": "bottomtiny",
+        "bottomxLarge": "bottomxLarge",
+        "bottomxTiny": "bottomxTiny",
+        "heading": "heading",
+        "headline": "headline",
+        "hero": "hero",
+        "large": "large",
+        "micro": "micro",
+        "placeholder": "placeholder",
+        "round": "round",
+        "small": "small",
+        "standard": "standard",
+        "subheading": "subheading",
+        "topbase": "topbase",
+        "toplarge": "toplarge",
+        "topmedium": "topmedium",
+        "topsmall": "topsmall",
+        "toptiny": "toptiny",
+        "topxLarge": "topxLarge",
+        "topxTiny": "topxTiny",
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "alignItems": "center",
+      "children": <div
+        className="placeholder"
+      />,
+      "className": "",
+      "display": "flex",
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "className": "placeholder",
+      },
+      "ref": null,
+      "rendered": null,
+      "type": "div",
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "alignItems": "center",
+        "children": <div
+          className="placeholder"
+        />,
+        "className": "",
+        "display": "flex",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "className": "placeholder",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "div",
+      },
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
+
+exports[`Placeholder styles matches the snapshot 1`] = `
+Object {
+  "@keyframes placeholderPulse": Object {
+    "0%": Object {
+      "opacity": 0.5,
+    },
+    "100%": Object {
+      "opacity": 0.5,
+    },
+    "50%": Object {
+      "opacity": 1,
+    },
+  },
+  "bottombase": Object {
+    "marginBottom": 24,
+  },
+  "bottomlarge": Object {
+    "marginBottom": 48,
+  },
+  "bottommedium": Object {
+    "marginBottom": 32,
+  },
+  "bottomsmall": Object {
+    "marginBottom": 16,
+  },
+  "bottomtiny": Object {
+    "marginBottom": 8,
+  },
+  "bottomxLarge": Object {
+    "marginBottom": 64,
+  },
+  "bottomxTiny": Object {
+    "marginBottom": 4,
+  },
+  "heading": Object {
+    "& $placeholder": Object {
+      "height": 22,
+    },
+    "height": 32,
+  },
+  "headline": Object {
+    "& $placeholder": Object {
+      "height": 36,
+    },
+    "height": 48,
+  },
+  "hero": Object {
+    "& $placeholder": Object {
+      "height": 57,
+    },
+    "height": 72,
+  },
+  "large": Object {
+    "& $placeholder": Object {
+      "height": 16,
+    },
+    "height": 24,
+  },
+  "micro": Object {
+    "& $placeholder": Object {
+      "height": 10,
+    },
+    "height": 16,
+  },
+  "placeholder": Object {
+    "animation": "placeholderPulse 1s infinite ease-in-out",
+    "background": "#f5f5f5",
+    "borderRadius": 4,
+    "height": [Function],
+    "width": [Function],
+  },
+  "round": Object {
+    "borderRadius": "50%",
+  },
+  "small": Object {
+    "& $placeholder": Object {
+      "height": 12,
+    },
+    "height": 16,
+  },
+  "standard": Object {
+    "& $placeholder": Object {
+      "height": 14,
+    },
+    "height": 24,
+  },
+  "subheading": Object {
+    "& $placeholder": Object {
+      "height": 16,
+    },
+    "height": 24,
+  },
+  "topbase": Object {
+    "marginTop": 24,
+  },
+  "toplarge": Object {
+    "marginTop": 48,
+  },
+  "topmedium": Object {
+    "marginTop": 32,
+  },
+  "topsmall": Object {
+    "marginTop": 16,
+  },
+  "toptiny": Object {
+    "marginTop": 8,
+  },
+  "topxLarge": Object {
+    "marginTop": 64,
+  },
+  "topxTiny": Object {
+    "marginTop": 4,
+  },
+}
+`;
+
+exports[`PlaceholderJSS matches the snapshot 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Jss(Placeholder) />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "classes": Object {
+        "bottombase": "Placeholder-bottombase-0-1-45 Placeholder-bottombase-0-1-21",
+        "bottomlarge": "Placeholder-bottomlarge-0-1-47 Placeholder-bottomlarge-0-1-23",
+        "bottommedium": "Placeholder-bottommedium-0-1-46 Placeholder-bottommedium-0-1-22",
+        "bottomsmall": "Placeholder-bottomsmall-0-1-44 Placeholder-bottomsmall-0-1-20",
+        "bottomtiny": "Placeholder-bottomtiny-0-1-43 Placeholder-bottomtiny-0-1-19",
+        "bottomxLarge": "Placeholder-bottomxLarge-0-1-48 Placeholder-bottomxLarge-0-1-24",
+        "bottomxTiny": "Placeholder-bottomxTiny-0-1-42 Placeholder-bottomxTiny-0-1-18",
+        "heading": "Placeholder-heading-0-1-29 Placeholder-heading-0-1-5",
+        "headline": "Placeholder-headline-0-1-28 Placeholder-headline-0-1-4",
+        "hero": "Placeholder-hero-0-1-27 Placeholder-hero-0-1-3",
+        "large": "Placeholder-large-0-1-31 Placeholder-large-0-1-7",
+        "micro": "Placeholder-micro-0-1-34 Placeholder-micro-0-1-10",
+        "placeholder": "Placeholder-placeholder-0-1-25 Placeholder-placeholder-0-1-1",
+        "round": "Placeholder-round-0-1-26 Placeholder-round-0-1-2",
+        "small": "Placeholder-small-0-1-33 Placeholder-small-0-1-9",
+        "standard": "Placeholder-standard-0-1-32 Placeholder-standard-0-1-8",
+        "subheading": "Placeholder-subheading-0-1-30 Placeholder-subheading-0-1-6",
+        "topbase": "Placeholder-topbase-0-1-38 Placeholder-topbase-0-1-14",
+        "toplarge": "Placeholder-toplarge-0-1-40 Placeholder-toplarge-0-1-16",
+        "topmedium": "Placeholder-topmedium-0-1-39 Placeholder-topmedium-0-1-15",
+        "topsmall": "Placeholder-topsmall-0-1-37 Placeholder-topsmall-0-1-13",
+        "toptiny": "Placeholder-toptiny-0-1-36 Placeholder-toptiny-0-1-12",
+        "topxLarge": "Placeholder-topxLarge-0-1-41 Placeholder-topxLarge-0-1-17",
+        "topxTiny": "Placeholder-topxTiny-0-1-35 Placeholder-topxTiny-0-1-11",
+      },
+    },
+    "ref": null,
+    "rendered": null,
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "classes": Object {
+          "bottombase": "Placeholder-bottombase-0-1-45 Placeholder-bottombase-0-1-21",
+          "bottomlarge": "Placeholder-bottomlarge-0-1-47 Placeholder-bottomlarge-0-1-23",
+          "bottommedium": "Placeholder-bottommedium-0-1-46 Placeholder-bottommedium-0-1-22",
+          "bottomsmall": "Placeholder-bottomsmall-0-1-44 Placeholder-bottomsmall-0-1-20",
+          "bottomtiny": "Placeholder-bottomtiny-0-1-43 Placeholder-bottomtiny-0-1-19",
+          "bottomxLarge": "Placeholder-bottomxLarge-0-1-48 Placeholder-bottomxLarge-0-1-24",
+          "bottomxTiny": "Placeholder-bottomxTiny-0-1-42 Placeholder-bottomxTiny-0-1-18",
+          "heading": "Placeholder-heading-0-1-29 Placeholder-heading-0-1-5",
+          "headline": "Placeholder-headline-0-1-28 Placeholder-headline-0-1-4",
+          "hero": "Placeholder-hero-0-1-27 Placeholder-hero-0-1-3",
+          "large": "Placeholder-large-0-1-31 Placeholder-large-0-1-7",
+          "micro": "Placeholder-micro-0-1-34 Placeholder-micro-0-1-10",
+          "placeholder": "Placeholder-placeholder-0-1-25 Placeholder-placeholder-0-1-1",
+          "round": "Placeholder-round-0-1-26 Placeholder-round-0-1-2",
+          "small": "Placeholder-small-0-1-33 Placeholder-small-0-1-9",
+          "standard": "Placeholder-standard-0-1-32 Placeholder-standard-0-1-8",
+          "subheading": "Placeholder-subheading-0-1-30 Placeholder-subheading-0-1-6",
+          "topbase": "Placeholder-topbase-0-1-38 Placeholder-topbase-0-1-14",
+          "toplarge": "Placeholder-toplarge-0-1-40 Placeholder-toplarge-0-1-16",
+          "topmedium": "Placeholder-topmedium-0-1-39 Placeholder-topmedium-0-1-15",
+          "topsmall": "Placeholder-topsmall-0-1-37 Placeholder-topsmall-0-1-13",
+          "toptiny": "Placeholder-toptiny-0-1-36 Placeholder-toptiny-0-1-12",
+          "topxLarge": "Placeholder-topxLarge-0-1-41 Placeholder-topxLarge-0-1-17",
+          "topxTiny": "Placeholder-topxTiny-0-1-35 Placeholder-topxTiny-0-1-11",
+        },
+      },
+      "ref": null,
+      "rendered": null,
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
