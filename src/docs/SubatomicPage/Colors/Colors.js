@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Title, Card, Flexbox, colors } from '@occmundial/occ-atomic';
+import { Text, Card, Flexbox, colors } from '@occmundial/occ-atomic';
 
 const primary = [
     {id:1, text:'Lighter', hex:colors.primLighter, code:'primLighter', color:colors.ink, height:1},
@@ -51,12 +51,11 @@ const Colors = ({ classes }) => {
     return (
         <div className={classes.page}>
             <Card shadow={3}>
-                <Title h={1}>Colors</Title>
-                <p>OCC-Atomic includes a library of colors. The OCC styleguide is strongly based on this color palette.</p>
-                <p>To use them, you just need to import the colors object and access to the desired color.</p>
+                <Text heading bottomBase>Colors</Text>
+                <Text>OCC-Atomic includes a library of colors. The OCC styleguide is strongly based on this color palette.</Text>
+                <Text>To use them, you just need to import the colors object and access to the desired color.</Text>
             </Card>
             <Card shadow={3} style={{marginTop:30}}>
-                <Title h={2}>Colors</Title>
                 <Flexbox display="flex" wrap="wrap" alignItems="start">
                     <div className={classes.colorBlock}>
                         {primary.map(color => (
