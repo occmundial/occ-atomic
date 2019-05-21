@@ -4,7 +4,7 @@ import IndexPage from '../IndexPage';
 import Colors from '../SubatomicPage/Colors';
 // import Fonts from '../SubatomicPage/Fonts';
 // import Grid from '../SubatomicPage/Grid';
-// import Icons from '../SubatomicPage/Icons';
+import Icons from '../SubatomicPage/Icons';
 // import Shadows from '../SubatomicPage/Shadows';
 import ErrorPage from '../ErrorPage';
 
@@ -23,9 +23,9 @@ const CustomPage = ({ route }) => {
         // case 'Grid':
         //     Component = <Grid />;
         //     break;
-        // case 'Icons':
-        //     Component = <Icons />;
-        //     break;
+        case 'Icons':
+            Component = <Icons />;
+            break;
         // case 'Shadows':
         //     Component = <Shadows />;
         //     break;

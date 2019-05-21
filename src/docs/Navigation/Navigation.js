@@ -5,7 +5,7 @@ import componentOrdering from '../../config/componentOrdering';
 import { SlideDown } from '@occmundial/occ-atomic';
 
 class Navigation extends React.Component {
-    
+
     constructor(props) {
         super(props);
         this.state = {
@@ -14,23 +14,23 @@ class Navigation extends React.Component {
         this.onSearch = this.onSearch.bind(this);
         this.clearField = this.clearField.bind(this);
     }
-    
+
     onSearch(value) {
         this.setState({
             term: value
         });
     }
-    
+
     clearField() {
         this.setState({
             term: ''
         });
     }
-    
+
     compareSearchTerm(term, name) {
         return name.toLowerCase().indexOf(term.toLowerCase().trim()) > -1;
     }
-    
+
     render() {
         const { term } = this.state;
         const { classes } = this.props;
@@ -43,13 +43,13 @@ class Navigation extends React.Component {
                                 <a href="#Colors" className={classes.a}>Colors</a>
                             </li>
                             {/* <li className={classes.li}>
+                            <a href="#Icons" className={classes.a}>Icons</a>
+                            </li> */}
+                            {/* <li className={classes.li}>
                                 <a href="#Fonts" className={classes.a}>Fonts</a>
                             </li>
                             <li className={classes.li}>
                                 <a href="#Grid" className={classes.a}>Grid</a>
-                            </li>
-                            <li className={classes.li}>
-                                <a href="#Icons" className={classes.a}>Icons</a>
                             </li>
                             <li className={classes.li}>
                                 <a href="#Shadows" className={classes.a}>Shadows</a>
