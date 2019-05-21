@@ -4,6 +4,13 @@ All notable changes to this project will be documented in this file.
 
 # Version 1
 
+## 1.4.x
+
+### 1.4.0-beta.0
+- Developing the `NavTab`, `NavItem` and `NavTop` components.
+- Added new icons.
+- New `link` theme for `Text` component.
+
 ## 1.3.x
 
 ### 1.3.12
