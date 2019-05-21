@@ -14,6 +14,7 @@ module.exports = [
             'Radio',
             'RangeCounter',
             'SightLogo',
+            'SlideToggle',
             'Tag',
             'Text',
             'Title',
