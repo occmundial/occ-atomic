@@ -1,6 +1,6 @@
 /* NavTab */
 import React from 'react';
-import { NavTab, Icon, colors, spacing } from '@occmundial/occ-atomic';
+import { NavTab, Icon, colors } from '@occmundial/occ-atomic';
 
 class Example1 extends React.Component {
 

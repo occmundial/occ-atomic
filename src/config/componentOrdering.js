@@ -1,12 +1,5 @@
 module.exports = [
     {
-        name: 'Header',
-        components: [
-            'NavItem',
-            'NavTab'
-        ]
-    },
-    {
         name: 'Elements',
         components: [
             'Avatar',
@@ -50,6 +43,13 @@ module.exports = [
         components: [
             'Footer',
             'Header'
+        ]
+    },
+    {
+        name: 'Header',
+        components: [
+            'NavItem',
+            'NavTab'
         ]
     },
     {

@@ -21,7 +21,7 @@ const ComponentPage = ({ classes, component }) => {
             <Title h={2}>Example{examples.length > 1 && "s"}</Title>
             {
                 examples.length > 0 ?
-                examples.map((example, index) => <Example key={example.code} example={example} componentName={name} /> ) : <p className={classes.desc}>No examples exist.</p>
+                examples.map((example) => <Example key={example.code} example={example} componentName={name} /> ) : <p className={classes.desc}>No examples exist.</p>
             }
             <Card shadow={3} style={{marginTop:30}}>
                 <Title h={2}>Props</Title>
