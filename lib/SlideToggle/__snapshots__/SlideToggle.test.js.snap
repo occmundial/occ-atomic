@@ -1,6 +1,164 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Checkbox styles matches the snapshot 1`] = `
+exports[`SlideToggle matches the snapshot 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <SlideToggle
+    classes={
+      Object {
+        "cont": "cont",
+        "disabled": "disabled",
+        "label": "label",
+        "slider": "slider",
+        "sliderCkecked": "sliderCkecked",
+        "switch": "switch",
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="switch"
+        >
+          <span
+            className="slider  "
+            onClick={[Function]}
+          />
+        </div>,
+        undefined,
+      ],
+      "className": "cont",
+      "id": undefined,
+      "style": undefined,
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <span
+            className="slider  "
+            onClick={[Function]}
+          />,
+          "className": "switch",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "className": "slider  ",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "span",
+        },
+        "type": "div",
+      },
+      undefined,
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="switch"
+          >
+            <span
+              className="slider  "
+              onClick={[Function]}
+            />
+          </div>,
+          undefined,
+        ],
+        "className": "cont",
+        "id": undefined,
+        "style": undefined,
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <span
+              className="slider  "
+              onClick={[Function]}
+            />,
+            "className": "switch",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": "slider  ",
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "span",
+          },
+          "type": "div",
+        },
+        undefined,
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+  Symbol(enzyme.__childContext__): null,
+}
+`;
+
+exports[`SlideToggle styles matches the snapshot 1`] = `
 Object {
   "cont": Object {
     "&:after": Object {
@@ -70,7 +228,7 @@ Object {
 }
 `;
 
-exports[`CheckboxJSS matches the snapshot 1`] = `
+exports[`SlideToggleJSS matches the snapshot 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <Jss(SlideToggle) />,
@@ -119,164 +277,6 @@ ShallowWrapper {
       "ref": null,
       "rendered": null,
       "type": [Function],
-    },
-  ],
-  Symbol(enzyme.__options__): Object {
-    "adapter": ReactSixteenAdapter {
-      "options": Object {
-        "enableComponentDidUpdateOnSetState": true,
-        "legacyContextMode": "parent",
-        "lifecycles": Object {
-          "componentDidUpdate": Object {
-            "onSetState": true,
-          },
-          "getChildContext": Object {
-            "calledByRenderer": false,
-          },
-          "getDerivedStateFromError": true,
-          "getDerivedStateFromProps": Object {
-            "hasShouldComponentUpdateBug": false,
-          },
-          "getSnapshotBeforeUpdate": true,
-          "setState": Object {
-            "skipsComponentDidUpdateOnNullish": true,
-          },
-        },
-      },
-    },
-  },
-  Symbol(enzyme.__childContext__): null,
-}
-`;
-
-exports[`SlideToggle matches the snapshot 1`] = `
-ShallowWrapper {
-  Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <SlideToggle
-    classes={
-      Object {
-        "cont": "cont",
-        "disabled": "disabled",
-        "label": "label",
-        "slider": "slider",
-        "sliderCkecked": "sliderCkecked",
-        "switch": "switch",
-      }
-    }
-  />,
-  Symbol(enzyme.__renderer__): Object {
-    "batchedUpdates": [Function],
-    "checkPropTypes": [Function],
-    "getNode": [Function],
-    "render": [Function],
-    "simulateError": [Function],
-    "simulateEvent": [Function],
-    "unmount": [Function],
-  },
-  Symbol(enzyme.__node__): Object {
-    "instance": null,
-    "key": undefined,
-    "nodeType": "host",
-    "props": Object {
-      "children": Array [
-        <label
-          className="switch"
-        >
-          <span
-            className="slider  "
-            onClick={[Function]}
-          />
-        </label>,
-        undefined,
-      ],
-      "className": "cont",
-      "id": undefined,
-      "style": undefined,
-    },
-    "ref": null,
-    "rendered": Array [
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": <span
-            className="slider  "
-            onClick={[Function]}
-          />,
-          "className": "switch",
-        },
-        "ref": null,
-        "rendered": Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "className": "slider  ",
-            "onClick": [Function],
-          },
-          "ref": null,
-          "rendered": null,
-          "type": "span",
-        },
-        "type": "label",
-      },
-      undefined,
-    ],
-    "type": "div",
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "host",
-      "props": Object {
-        "children": Array [
-          <label
-            className="switch"
-          >
-            <span
-              className="slider  "
-              onClick={[Function]}
-            />
-          </label>,
-          undefined,
-        ],
-        "className": "cont",
-        "id": undefined,
-        "style": undefined,
-      },
-      "ref": null,
-      "rendered": Array [
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": <span
-              className="slider  "
-              onClick={[Function]}
-            />,
-            "className": "switch",
-          },
-          "ref": null,
-          "rendered": Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "className": "slider  ",
-              "onClick": [Function],
-            },
-            "ref": null,
-            "rendered": null,
-            "type": "span",
-          },
-          "type": "label",
-        },
-        undefined,
-      ],
-      "type": "div",
     },
   ],
   Symbol(enzyme.__options__): Object {
