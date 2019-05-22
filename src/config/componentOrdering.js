@@ -46,6 +46,13 @@ module.exports = [
         ]
     },
     {
+        name: 'Header',
+        components: [
+            'NavItem',
+            'NavTab'
+        ]
+    },
+    {
         name: 'Layout',
         components: [
             'Grid',
