@@ -6,6 +6,9 @@ All notable changes to this project will be documented in this file.
 
 ## 1.4.x
 
+### 1.4.0-beta.1
+- New icons.
+
 ### 1.4.0-beta.0
 - Developing the `NavTab`, `NavItem` and `NavTop` components.
 - Added new icons.
