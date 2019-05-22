@@ -5,7 +5,7 @@ import { SlideToggle } from '@occmundial/occ-atomic';
 export default function Example2() {
     return (
         <div style={{display:'inline-block'}}>
-            <SlideToggle label="Selected and Disabled" value disabled />
+            <SlideToggle label="Switch Off Disabled" value disabled />
         </div>
     );
 }
