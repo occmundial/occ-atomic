@@ -6,6 +6,10 @@ All notable changes to this project will be documented in this file.
 
 ## 1.4.x
 
+### 1.4.0-beta.2
+- New `SlideToggle` component.
+- New `cross` icon.
+
 ### 1.4.0-beta.1
 - New icons.
 
