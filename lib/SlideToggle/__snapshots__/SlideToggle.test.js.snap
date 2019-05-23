@@ -1,0 +1,320 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SlideToggle matches the snapshot 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <SlideToggle
+    classes={
+      Object {
+        "checked": "checked",
+        "cont": "cont",
+        "disabled": "disabled",
+        "icon": "icon",
+        "label": "label",
+        "slider": "slider",
+        "switch": "switch",
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="switch"
+          onClick={[Function]}
+        >
+          <span
+            className="slider"
+          >
+            <span
+              className="icon"
+            />
+          </span>
+        </div>,
+        undefined,
+      ],
+      "className": "cont",
+      "id": undefined,
+      "style": undefined,
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <span
+            className="slider"
+          >
+            <span
+              className="icon"
+            />
+          </span>,
+          "className": "switch",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <span
+              className="icon"
+            />,
+            "className": "slider",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": "icon",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "span",
+          },
+          "type": "span",
+        },
+        "type": "div",
+      },
+      undefined,
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="switch"
+            onClick={[Function]}
+          >
+            <span
+              className="slider"
+            >
+              <span
+                className="icon"
+              />
+            </span>
+          </div>,
+          undefined,
+        ],
+        "className": "cont",
+        "id": undefined,
+        "style": undefined,
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <span
+              className="slider"
+            >
+              <span
+                className="icon"
+              />
+            </span>,
+            "className": "switch",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <span
+                className="icon"
+              />,
+              "className": "slider",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "icon",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "span",
+            },
+            "type": "span",
+          },
+          "type": "div",
+        },
+        undefined,
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
+
+exports[`SlideToggle styles matches the snapshot 1`] = `
+Object {
+  "checked": Object {
+    "& $icon": Object {
+      "background": "url(data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgogICAgICAgICAgICAJIHZpZXdCb3g9IjAgMCAyNCAyNCIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMjQgMjQ7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KICAgICAgICAgICAgPHBhdGggZmlsbD0iIzA4M2NhZSIgZD0iTTE4LjI4MDI1MTgsNy4zMDU3NjQ4IEwxOS43MTk3NDgyLDguNjk0MjM1MiBMMTEuMDM4NzcyNCwxNy42OTQyMzUyIEMxMC42NzM3NTY4LDE4LjA3MjY2NSAxMC4wNzgwMzIzLAogICAgICAgICAgICAxOC4xMDM3OTczIDkuNjc1NTU5NzIsMTcuNzY1NDc2IEw1LjM1NjUzNTU2LDE0LjEzNDg3NDMgTDYuNjQzNDY0NDQsMTIuNjAzOTIyMyBMMTAuMjQ3NjE2NywxNS42MzM1OTc3IEwxOC4yODAyNTE4LDcuMzA1NzY0OCBaIi8+CiAgICAgICAgICAgIDwvc3ZnPg==)",
+    },
+    "& $slider": Object {
+      "left": 16,
+    },
+    "background": "#083cae",
+  },
+  "cont": Object {
+    "alignItems": "start",
+    "boxSizing": "border-box",
+    "cursor": "pointer",
+    "display": "flex",
+    "outline": 0,
+    "paddingBottom": 8,
+    "paddingTop": 8,
+  },
+  "disabled": Object {
+    "opacity": 0.4,
+    "pointerEvents": "none",
+  },
+  "icon": Object {
+    "background": "url(data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgogICAgICAgIAkgdmlld0JveD0iMCAwIDI0IDI0IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCAyNCAyNDsiIHhtbDpzcGFjZT0icHJlc2VydmUiPgogICAgICAgIDxwYXRoIGZpbGw9IiNhYWFhYWEiIGQ9Ik0xMi4xLDEwLjhsNC42LTQuNkwxOCw3LjRMMTMuNCwxMmw0LjYsNC42TDE2LjcsMThsLTQuNi00LjZMNy40LDE4bC0xLjMtMS4zbDQuNi00LjZMNi4yLDcuNGwxLjMtMS4zTDEyLjEsMTAuOHoiLz4KICAgICAgICA8L3N2Zz4=)",
+    "display": "block",
+    "height": "100%",
+    "transition": "0.3s all",
+    "width": "100%",
+  },
+  "label": Object {
+    "marginLeft": 8,
+  },
+  "slider": Object {
+    "background": "#ffffff",
+    "borderRadius": "50%",
+    "cursor": "pointer",
+    "height": 20,
+    "left": 2,
+    "position": "absolute",
+    "top": 2,
+    "transition": "0.3s all",
+    "width": 20,
+  },
+  "switch": Object {
+    "background": "#dddddd",
+    "borderRadius": 34,
+    "display": "inline-block",
+    "height": 24,
+    "position": "relative",
+    "transition": "0.3s all",
+    "width": 38,
+  },
+}
+`;
+
+exports[`SlideToggleJSS matches the snapshot 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Jss(SlideToggle) />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "classes": Object {
+        "checked": "SlideToggle-checked-0-1-38",
+        "cont": "SlideToggle-cont-0-1-36",
+        "disabled": "SlideToggle-disabled-0-1-41",
+        "icon": "SlideToggle-icon-0-1-40",
+        "label": "SlideToggle-label-0-1-42",
+        "slider": "SlideToggle-slider-0-1-39",
+        "switch": "SlideToggle-switch-0-1-37",
+      },
+    },
+    "ref": null,
+    "rendered": null,
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "classes": Object {
+          "checked": "SlideToggle-checked-0-1-38",
+          "cont": "SlideToggle-cont-0-1-36",
+          "disabled": "SlideToggle-disabled-0-1-41",
+          "icon": "SlideToggle-icon-0-1-40",
+          "label": "SlideToggle-label-0-1-42",
+          "slider": "SlideToggle-slider-0-1-39",
+          "switch": "SlideToggle-switch-0-1-37",
+        },
+      },
+      "ref": null,
+      "rendered": null,
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
