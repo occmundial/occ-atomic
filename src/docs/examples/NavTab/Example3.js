@@ -91,15 +91,6 @@ class Example3 extends React.Component {
                 selected: selected === 'profile',
                 onClick: () => this.onChange('profile'),
                 showBar: true
-            },
-            {
-                key:4,
-                type:'icon',
-                iconName:'user',
-                label: 'Profile',
-                selected: selected === 'profile',
-                onClick: () => this.onChange('profile'),
-                showBar: true
             }
         ];
         return (

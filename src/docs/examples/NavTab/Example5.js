@@ -18,7 +18,7 @@ class Example5 extends React.Component {
 
     render() {
         const { selected } = this.state;
-        const center = [
+        const flexCenter = [
             {
                 key:1,
                 type:'icon',
@@ -27,7 +27,7 @@ class Example5 extends React.Component {
                 selected: selected === 'dashboard',
                 onClick: () => this.onChange('dashboard'),
                 direction: 'col',
-                width: 64
+                width: 96
             },
             {
                 key:2,
@@ -37,7 +37,7 @@ class Example5 extends React.Component {
                 selected: selected === 'search',
                 onClick: () => this.onChange('search'),
                 direction: 'col',
-                width: 64
+                width: 96
             },
             {
                 key:3,
@@ -47,13 +47,13 @@ class Example5 extends React.Component {
                 selected: selected === 'profile',
                 onClick: () => this.onChange('profile'),
                 direction: 'col',
-                width: 64
+                width: 96
             }
         ];
         return (
             <div>
-                <NavTab blue center={center} />
-                <NavTab center={center} />
+                <NavTab blue flexCenter={flexCenter} />
+                <NavTab flexCenter={flexCenter} />
             </div>
         );
     }
