@@ -6,6 +6,10 @@ All notable changes to this project will be documented in this file.
 
 ## 1.4.x
 
+### 1.4.0-beta.3
+- Changes in `NavTab`. It accepts now the `flexCenter`, `fixed`, `hideOnScroll` and `bottom` props.
+- New `NavIcon` component.
+
 ### 1.4.0-beta.2
 - New `SlideToggle` component.
 - New `cross` icon.
