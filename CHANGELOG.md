@@ -6,6 +6,9 @@ All notable changes to this project will be documented in this file.
 
 ## 1.4.x
 
+### 1.4.1
+- New `NavAside` component.
+
 ### 1.4.0-beta.4
 - New `iconRight` prop for `Button`.
 - New icons.
