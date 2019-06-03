@@ -1,0 +1,657 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ModalPortal matches the snapshot 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <NavAsidePortal
+    container={<div />}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): null,
+  Symbol(enzyme.__nodes__): Array [
+    null,
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+  Symbol(enzyme.__childContext__): null,
+}
+`;
+
+exports[`NavAside matches the snapshot 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <NavAside
+    classes={
+      Object {
+        "@global": "@global",
+        "@keyframes asideShow": "@keyframes asideShow",
+        "@keyframes asideShowRight": "@keyframes asideShowRight",
+        "@keyframes overlayFadeIn": "@keyframes overlayFadeIn",
+        "OpenElement": "OpenElement",
+        "OpenElementRight": "OpenElementRight",
+        "ShowElement": "ShowElement",
+        "card": "card",
+        "closeIcon": "closeIcon",
+        "content": "content",
+        "customeWidth": "customeWidth",
+        "customeWidthRight": "customeWidthRight",
+        "overlay": "overlay",
+        "overlayShow": "overlayShow",
+        "showRight": "showRight",
+        "top": "top",
+      }
+    }
+    onClose={[MockFunction]}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <div
+        className="ShowElement customeWidth"
+        onClick={[Function]}
+      >
+        <Jss(Card)
+          className="card"
+          shadow={5}
+        >
+          <Jss(Flexbox)
+            alignItems="start"
+            className="top"
+            display="flex"
+            justifyContent="end"
+          >
+            <div
+              className="closeIcon"
+            >
+              <Jss(Icon)
+                colors={
+                  Array [
+                    "#222222",
+                  ]
+                }
+                height={24}
+                iconName="close"
+                onClick={[MockFunction]}
+                transition="0.3s all"
+                width={24}
+              />
+            </div>
+          </Jss(Flexbox)>
+          <div
+            className="content"
+          />
+        </Jss(Card)>
+      </div>,
+      "className": " overlay",
+      "onClick": [MockFunction],
+      "onTransitionEnd": undefined,
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <Jss(Card)
+          className="card"
+          shadow={5}
+        >
+          <Jss(Flexbox)
+            alignItems="start"
+            className="top"
+            display="flex"
+            justifyContent="end"
+          >
+            <div
+              className="closeIcon"
+            >
+              <Jss(Icon)
+                colors={
+                  Array [
+                    "#222222",
+                  ]
+                }
+                height={24}
+                iconName="close"
+                onClick={[MockFunction]}
+                transition="0.3s all"
+                width={24}
+              />
+            </div>
+          </Jss(Flexbox)>
+          <div
+            className="content"
+          />
+        </Jss(Card)>,
+        "className": "ShowElement customeWidth",
+        "onClick": [Function],
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <Jss(Flexbox)
+              alignItems="start"
+              className="top"
+              display="flex"
+              justifyContent="end"
+            >
+              <div
+                className="closeIcon"
+              >
+                <Jss(Icon)
+                  colors={
+                    Array [
+                      "#222222",
+                    ]
+                  }
+                  height={24}
+                  iconName="close"
+                  onClick={[MockFunction]}
+                  transition="0.3s all"
+                  width={24}
+                />
+              </div>
+            </Jss(Flexbox)>,
+            <div
+              className="content"
+            />,
+          ],
+          "className": "card",
+          "shadow": 5,
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "alignItems": "start",
+              "children": Array [
+                undefined,
+                <div
+                  className="closeIcon"
+                >
+                  <Jss(Icon)
+                    colors={
+                      Array [
+                        "#222222",
+                      ]
+                    }
+                    height={24}
+                    iconName="close"
+                    onClick={[MockFunction]}
+                    transition="0.3s all"
+                    width={24}
+                  />
+                </div>,
+              ],
+              "className": "top",
+              "display": "flex",
+              "justifyContent": "end",
+            },
+            "ref": null,
+            "rendered": Array [
+              undefined,
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <Jss(Icon)
+                    colors={
+                      Array [
+                        "#222222",
+                      ]
+                    }
+                    height={24}
+                    iconName="close"
+                    onClick={[MockFunction]}
+                    transition="0.3s all"
+                    width={24}
+                  />,
+                  "className": "closeIcon",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "colors": Array [
+                      "#222222",
+                    ],
+                    "height": 24,
+                    "iconName": "close",
+                    "onClick": [MockFunction],
+                    "transition": "0.3s all",
+                    "width": 24,
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": "div",
+              },
+            ],
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": undefined,
+              "className": "content",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "div",
+          },
+        ],
+        "type": [Function],
+      },
+      "type": "div",
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div
+          className="ShowElement customeWidth"
+          onClick={[Function]}
+        >
+          <Jss(Card)
+            className="card"
+            shadow={5}
+          >
+            <Jss(Flexbox)
+              alignItems="start"
+              className="top"
+              display="flex"
+              justifyContent="end"
+            >
+              <div
+                className="closeIcon"
+              >
+                <Jss(Icon)
+                  colors={
+                    Array [
+                      "#222222",
+                    ]
+                  }
+                  height={24}
+                  iconName="close"
+                  onClick={[MockFunction]}
+                  transition="0.3s all"
+                  width={24}
+                />
+              </div>
+            </Jss(Flexbox)>
+            <div
+              className="content"
+            />
+          </Jss(Card)>
+        </div>,
+        "className": " overlay",
+        "onClick": [MockFunction],
+        "onTransitionEnd": undefined,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <Jss(Card)
+            className="card"
+            shadow={5}
+          >
+            <Jss(Flexbox)
+              alignItems="start"
+              className="top"
+              display="flex"
+              justifyContent="end"
+            >
+              <div
+                className="closeIcon"
+              >
+                <Jss(Icon)
+                  colors={
+                    Array [
+                      "#222222",
+                    ]
+                  }
+                  height={24}
+                  iconName="close"
+                  onClick={[MockFunction]}
+                  transition="0.3s all"
+                  width={24}
+                />
+              </div>
+            </Jss(Flexbox)>
+            <div
+              className="content"
+            />
+          </Jss(Card)>,
+          "className": "ShowElement customeWidth",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <Jss(Flexbox)
+                alignItems="start"
+                className="top"
+                display="flex"
+                justifyContent="end"
+              >
+                <div
+                  className="closeIcon"
+                >
+                  <Jss(Icon)
+                    colors={
+                      Array [
+                        "#222222",
+                      ]
+                    }
+                    height={24}
+                    iconName="close"
+                    onClick={[MockFunction]}
+                    transition="0.3s all"
+                    width={24}
+                  />
+                </div>
+              </Jss(Flexbox)>,
+              <div
+                className="content"
+              />,
+            ],
+            "className": "card",
+            "shadow": 5,
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "alignItems": "start",
+                "children": Array [
+                  undefined,
+                  <div
+                    className="closeIcon"
+                  >
+                    <Jss(Icon)
+                      colors={
+                        Array [
+                          "#222222",
+                        ]
+                      }
+                      height={24}
+                      iconName="close"
+                      onClick={[MockFunction]}
+                      transition="0.3s all"
+                      width={24}
+                    />
+                  </div>,
+                ],
+                "className": "top",
+                "display": "flex",
+                "justifyContent": "end",
+              },
+              "ref": null,
+              "rendered": Array [
+                undefined,
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <Jss(Icon)
+                      colors={
+                        Array [
+                          "#222222",
+                        ]
+                      }
+                      height={24}
+                      iconName="close"
+                      onClick={[MockFunction]}
+                      transition="0.3s all"
+                      width={24}
+                    />,
+                    "className": "closeIcon",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "colors": Array [
+                        "#222222",
+                      ],
+                      "height": 24,
+                      "iconName": "close",
+                      "onClick": [MockFunction],
+                      "transition": "0.3s all",
+                      "width": 24,
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "type": "div",
+                },
+              ],
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": undefined,
+                "className": "content",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "div",
+            },
+          ],
+          "type": [Function],
+        },
+        "type": "div",
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+  Symbol(enzyme.__childContext__): null,
+}
+`;
+
+exports[`NavAside styles matches the snapshot 1`] = `
+Object {
+  "@global": Object {
+    "body": Object {
+      "overflow": "hidden",
+    },
+  },
+  "@keyframes asideShow": Object {
+    "from": Object {
+      "left": [Function],
+    },
+    "to": Object {
+      "left": "0px",
+    },
+  },
+  "@keyframes asideShowRight": Object {
+    "from": Object {
+      "right": [Function],
+    },
+    "to": Object {
+      "right": "0px",
+    },
+  },
+  "@keyframes overlayFadeIn": Object {
+    "from": Object {
+      "opacity": 0,
+    },
+    "to": Object {
+      "opacity": 1,
+    },
+  },
+  "OpenElement": Object {
+    "animation": "0.3s asideShow ease-out",
+    "left": "0px !important",
+  },
+  "OpenElementRight": Object {
+    "animation": "0.3s asideShowRight ease-out",
+    "right": "0px !important",
+  },
+  "ShowElement": Object {
+    "backgroundColor": "#ffffff",
+    "height": "100%",
+    "left": "-320px",
+    "maxWidth": "calc(100% - 32px)",
+    "opacity": "1 !important",
+    "overflow": "hidden",
+    "position": "fixed",
+    "top": "0",
+    "transition": "0.4s all",
+    "width": "320px",
+  },
+  "card": Object {
+    "cursor": "auto",
+    "height": "100%",
+    "overflow": "auto",
+    "padding": "unset",
+  },
+  "closeIcon": Object {
+    "alignItems": "center",
+    "display": "flex",
+    "height": 32,
+  },
+  "content": Object {
+    "@media screen and (min-width:768px)": Object {
+      "padding": 32,
+    },
+    "backgroundColor": "#ffffff",
+    "padding": 16,
+  },
+  "customeWidth": Object {
+    "left": [Function],
+    "width": [Function],
+  },
+  "customeWidthRight": Object {
+    "right": [Function],
+    "width": [Function],
+  },
+  "overlay": Object {
+    "background": "rgba(0, 0, 5, 0.85)",
+    "cursor": "pointer",
+    "height": "100%",
+    "left": 0,
+    "opacity": 0,
+    "position": "fixed",
+    "top": 0,
+    "transition": "0.3s opacity",
+    "transitionDelay": "0.2s",
+    "width": "100%",
+    "zIndex": 1000,
+  },
+  "overlayShow": Object {
+    "animation": "0.3s overlayFadeIn linear",
+    "opacity": 1,
+  },
+  "showRight": Object {
+    "left": "unset",
+    "right": "-320px",
+  },
+  "top": Object {
+    "@media screen and (min-width:768px)": Object {
+      "padding": 32,
+    },
+    "backgroundColor": "#f5f5f8",
+    "padding": 16,
+  },
+}
+`;
