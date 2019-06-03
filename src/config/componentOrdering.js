@@ -49,7 +49,8 @@ module.exports = [
         name: 'Header',
         components: [
             'NavItem',
-            'NavTab'
+            'NavTab',
+            'NavAside'
         ]
     },
     {
