@@ -4,6 +4,28 @@ All notable changes to this project will be documented in this file.
 
 # Version 1
 
+## 1.4.x
+
+### 1.4.0-beta.4
+- New `iconRight` prop for `Button`.
+- New icons.
+
+### 1.4.0-beta.3
+- Changes in `NavTab`. It accepts now the `flexCenter`, `fixed`, `hideOnScroll` and `bottom` props.
+- New `NavIcon` component.
+
+### 1.4.0-beta.2
+- New `SlideToggle` component.
+- New `cross` icon.
+
+### 1.4.0-beta.1
+- New icons.
+
+### 1.4.0-beta.0
+- Developing the `NavTab`, `NavItem` and `NavTop` components.
+- Added new icons.
+- New `link` theme for `Text` component.
+
 ## 1.3.x
 
 ### 1.3.12
