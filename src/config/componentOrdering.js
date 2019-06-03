@@ -50,7 +50,8 @@ module.exports = [
         components: [
             'NavItem',
             'NavIcon',
-            'NavTab'
+            'NavTab',
+            'NavAside'
         ]
     },
     {
