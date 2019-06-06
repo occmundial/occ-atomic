@@ -6,6 +6,9 @@ All notable changes to this project will be documented in this file.
 
 ## 1.4.x
 
+### 1.4.4
+- New `textOverflow` prop for `Radio` and `Checkbox`.
+
 ### 1.4.3
 - New icon.
 
