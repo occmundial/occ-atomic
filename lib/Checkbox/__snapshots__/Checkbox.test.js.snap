@@ -11,6 +11,7 @@ ShallowWrapper {
         "cont": "cont",
         "disabled": "disabled",
         "label": "label",
+        "overflow": "overflow",
         "right": "right",
       }
     }
@@ -181,6 +182,11 @@ Object {
     "float": "left",
     "marginLeft": 8,
   },
+  "overflow": Object {
+    "overflow": "hidden",
+    "textOverflow": "ellipsis",
+    "whiteSpace": "nowrap",
+  },
   "right": Object {
     "float": "right",
     "marginLeft": 8,
@@ -211,6 +217,7 @@ ShallowWrapper {
         "cont": "Checkbox-cont-0-1-36",
         "disabled": "Checkbox-disabled-0-1-39",
         "label": "Checkbox-label-0-1-40",
+        "overflow": "Checkbox-overflow-0-1-42",
         "right": "Checkbox-right-0-1-41",
       },
     },
@@ -230,6 +237,7 @@ ShallowWrapper {
           "cont": "Checkbox-cont-0-1-36",
           "disabled": "Checkbox-disabled-0-1-39",
           "label": "Checkbox-label-0-1-40",
+          "overflow": "Checkbox-overflow-0-1-42",
           "right": "Checkbox-right-0-1-41",
         },
       },

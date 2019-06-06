@@ -10,6 +10,7 @@ ShallowWrapper {
         "cont": "cont",
         "disabled": "disabled",
         "label": "label",
+        "overflow": "overflow",
         "radio": "radio",
         "right": "right",
       }
@@ -522,6 +523,11 @@ Object {
     "float": "left",
     "marginLeft": 8,
   },
+  "overflow": Object {
+    "overflow": "hidden",
+    "textOverflow": "ellipsis",
+    "whiteSpace": "nowrap",
+  },
   "radio": Object {
     "&:after": Object {
       "background": "transparent",
@@ -582,6 +588,7 @@ ShallowWrapper {
         "cont": "Radio-cont-0-1-1",
         "disabled": "Radio-disabled-0-1-4",
         "label": "Radio-label-0-1-5",
+        "overflow": "Radio-overflow-0-1-7",
         "radio": "Radio-radio-0-1-2",
         "right": "Radio-right-0-1-6",
       },
@@ -602,6 +609,7 @@ ShallowWrapper {
           "cont": "Radio-cont-0-1-1",
           "disabled": "Radio-disabled-0-1-4",
           "label": "Radio-label-0-1-5",
+          "overflow": "Radio-overflow-0-1-7",
           "radio": "Radio-radio-0-1-2",
           "right": "Radio-right-0-1-6",
         },
