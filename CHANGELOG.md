@@ -6,6 +6,9 @@ All notable changes to this project will be documented in this file.
 
 ## 1.4.x
 
+### 1.4.5
+- Change in scroll behavior for `NavTab`.
+
 ### 1.4.4
 - New `textOverflow` prop for `Radio` and `Checkbox`.
 
