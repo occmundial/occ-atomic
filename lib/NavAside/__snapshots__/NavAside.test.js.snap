@@ -585,7 +585,7 @@ Object {
     "cursor": "auto",
     "height": "100%",
     "overflow": "auto",
-    "padding": "unset",
+    "padding": 0,
   },
   "closeIcon": Object {
     "alignItems": "center",
@@ -625,7 +625,7 @@ Object {
     "opacity": 1,
   },
   "showRight": Object {
-    "left": "unset",
+    "left": "auto",
     "right": "-320px",
   },
   "top": Object {
