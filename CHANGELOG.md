@@ -6,6 +6,9 @@ All notable changes to this project will be documented in this file.
 
 ## 1.4.x
 
+### 1.4.9
+- Fix for fixed bottom style in `NavTab` for iOS.
+
 ### 1.4.8
 - Changes in `Modal`, `SlideDown` and `Pill`, to implement ids.
 - Fix in `NavAside`.
