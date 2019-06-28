@@ -19,6 +19,7 @@ ShallowWrapper {
         "lg": "lg",
         "mainBtn": "mainBtn",
         "md": "md",
+        "noClose": "noClose",
         "overlay": "overlay",
         "overlayHide": "overlayHide",
         "overlayShow": "overlayShow",
@@ -695,6 +696,9 @@ Object {
       "width": 322,
     },
     "width": 520,
+  },
+  "noClose": Object {
+    "cursor": "default",
   },
   "overlay": Object {
     "background": "rgba(0, 0, 5, 0.85)",
