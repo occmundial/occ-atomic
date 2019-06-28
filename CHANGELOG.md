@@ -6,6 +6,9 @@ All notable changes to this project will be documented in this file.
 
 ## 1.4.x
 
+### 1.4.10
+- The `onClose` prop in `Modal` is now optional.
+
 ### 1.4.9
 - Fix for fixed bottom style in `NavTab` for iOS.
 
