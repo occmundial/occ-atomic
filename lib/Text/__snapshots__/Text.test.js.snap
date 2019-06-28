@@ -62,6 +62,7 @@ ShallowWrapper {
     "props": Object {
       "children": "Text",
       "className": "text standard highEmphasis",
+      "id": undefined,
       "style": undefined,
     },
     "ref": null,
@@ -76,6 +77,7 @@ ShallowWrapper {
       "props": Object {
         "children": "Text",
         "className": "text standard highEmphasis",
+        "id": undefined,
         "style": undefined,
       },
       "ref": null,

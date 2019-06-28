@@ -34,7 +34,6 @@ ShallowWrapper {
       "children": Array [
         <div
           className="button"
-          id={undefined}
           onClick={[Function]}
         >
           <Jss(Flexbox)
@@ -136,7 +135,6 @@ ShallowWrapper {
             </Jss(Flexbox)>
           </Jss(Flexbox)>,
           "className": "button",
-          "id": undefined,
           "onClick": [Function],
         },
         "ref": null,
@@ -329,7 +327,6 @@ ShallowWrapper {
         "children": Array [
           <div
             className="button"
-            id={undefined}
             onClick={[Function]}
           >
             <Jss(Flexbox)
@@ -431,7 +428,6 @@ ShallowWrapper {
               </Jss(Flexbox)>
             </Jss(Flexbox)>,
             "className": "button",
-            "id": undefined,
             "onClick": [Function],
           },
           "ref": null,
