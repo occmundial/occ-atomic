@@ -6,6 +6,10 @@ All notable changes to this project will be documented in this file.
 
 ## 1.4.x
 
+### 1.4.11
+- New `id` prop for `Text`.
+- New `onToggle` prop for `SlideDown`.
+
 ### 1.4.10
 - The `onClose` prop in `Modal` is now optional.
 
