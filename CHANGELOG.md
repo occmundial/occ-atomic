@@ -6,6 +6,9 @@ All notable changes to this project will be documented in this file.
 
 ## 1.4.x
 
+### 1.4.12
+- The `secBtn` prop in the `Modal` component accepts now `href` and `target`.
+
 ### 1.4.11
 - New `id` prop for `Text`.
 - New `onToggle` prop for `SlideDown`.
