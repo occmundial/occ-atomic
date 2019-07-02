@@ -6,6 +6,9 @@ All notable changes to this project will be documented in this file.
 
 ## 1.4.x
 
+### 1.4.13
+- Changes in the grid of `NavTab` and `NavTop`.
+
 ### 1.4.12
 - The `secBtn` prop in the `Modal` component accepts now `href` and `target`.
 
