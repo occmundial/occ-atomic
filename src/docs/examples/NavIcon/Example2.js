@@ -1,4 +1,4 @@
-/* NavIcon */
+/* NavIcon with text below */
 import React from 'react';
 import { NavIcon, Card } from '@occmundial/occ-atomic';
 

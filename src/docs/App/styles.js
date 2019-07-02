@@ -1,8 +1,8 @@
-import { colors } from '@occmundial/occ-atomic';
+import { colors, spacing } from '@occmundial/occ-atomic';
 
 export default {
     app: {
-        
+        marginTop: spacing.xLarge
     },
     cardCont: {
         padding:15,

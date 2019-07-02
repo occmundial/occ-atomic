@@ -1,4 +1,4 @@
-/* NavTab */
+/* NavTab with icons */
 import React from 'react';
 import { NavTab } from '@occmundial/occ-atomic';
 
