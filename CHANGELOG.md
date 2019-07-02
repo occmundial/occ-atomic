@@ -4,6 +4,11 @@ All notable changes to this project will be documented in this file.
 
 # Version 1
 
+## 1.5.x
+
+### 1.5.0
+- Deprecation of the following components: `Autocomplete`, `ButtonAlign`, `Check`, `Column`, `Container`, `Row`, `Header`, `Menu`, `Nav`, `SightLogo`, `Input`, `LayerApp`, `SubHeader`, `SwitchGroup`, `Title`, `Visible`.
+
 ## 1.4.x
 
 ### 1.4.13
