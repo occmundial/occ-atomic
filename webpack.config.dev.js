@@ -1,4 +1,11 @@
 const path = require('path');
+const webpack = require('webpack');
+
+const GLOBALS = {
+  "process.env.NODE_ENV": JSON.stringify(
+    process.env.NODE_ENV.indexOf("development") > -1 ? "development" : process.env.NODE_ENV
+  )
+};
 
 module.exports = {
   devtool: 'eval',
@@ -11,6 +18,9 @@ module.exports = {
     filename: 'bundle.js',
     publicPath: '/dist/'
   },
+  plugins: [
+      new webpack.DefinePlugin(GLOBALS)
+  ],
   module: {
     loaders: [
       {
