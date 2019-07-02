@@ -5,7 +5,7 @@ import ComponentPage from '../ComponentPage';
 import CustomPage from '../CustomPage';
 import componentData from '../../config/componentData';
 
-import { Flexbox, NavTab, Icon } from '@occmundial/occ-atomic';
+import { Flexbox, NavTab, Icon, Text } from '@occmundial/occ-atomic';
 
 class App extends React.Component {
 
@@ -37,7 +37,7 @@ class App extends React.Component {
                             custom: (
                                 <a href="./" className={classes.logo}>
                                     <Flexbox display="flex" alignItems="center">
-                                        <Icon iconName="occatomic" width={45} height={45} style={{marginRight:10}} /> OCC-Atomic
+                                        <Icon iconName="occatomic" width={45} height={45} style={{marginRight:10}} /> <Text white subheading>OCC-Atomic</Text>
                                     </Flexbox>
                                 </a>
                             )
