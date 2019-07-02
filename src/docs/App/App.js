@@ -32,6 +32,7 @@ class App extends React.Component {
                 <NavTab
                     left={[
                         {
+                            key: 0,
                             type: 'custom',
                             custom: (
                                 <a href="./" className={classes.logo}>
@@ -44,6 +45,7 @@ class App extends React.Component {
                     ]}
                     right={[
                         {
+                            key: 0,
                             type: 'custom',
                             custom: (
                                 <div style={{marginRight:15}}>
