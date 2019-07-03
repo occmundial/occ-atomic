@@ -6,7 +6,7 @@
   "main": "build/index.js",
   "scripts": {
     "prestart": "npm run gen-docs",
-    "start": "npm-run-all --parallel start-docs gen-docs:watch",
+    "start": "set NODE_ENV=development && npm-run-all --parallel start-docs gen-docs:watch",
     "start-docs": "node scripts/server.js",
     "gen-docs": "node scripts/generateComponentData.js",
     "gen-docs:watch": "npm run gen-docs -- --watch",
