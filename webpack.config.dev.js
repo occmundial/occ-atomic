@@ -13,6 +13,7 @@ module.exports = {
     'webpack-dev-server/client?http://localhost:3030',
     './src/index.js'
   ],
+  mode: 'development',
   output: {
     path: path.join(__dirname, 'dist'),
     filename: 'bundle.js',
@@ -22,21 +23,26 @@ module.exports = {
       new webpack.DefinePlugin(GLOBALS)
   ],
   module: {
-    loaders: [
+    rules: [
       {
         test: /\.js?$/,
-        loaders: ['babel-loader'],
-        include: path.join(__dirname, 'src')
+        include: path.join(__dirname, 'src'),
+        use: {
+            loader: 'babel-loader',
+        }
       },
       {
         test: /\.css?$/,
-        loaders: ['style-loader', 'css-loader'],
-        // include: path.join(__dirname, 'src')
+        use: {
+            loader: 'css-loader',
+        }
       },
     ]
   },
+  devServer: {
+      contentBase: 'dist'
+  },
   resolve: {
-    extensions: ["*", ".js"],
     alias: {
       '@occmundial/occ-atomic': path.resolve(__dirname, './build/index')
     }

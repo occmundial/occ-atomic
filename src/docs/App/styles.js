@@ -10,5 +10,9 @@ export default {
     },
     logo: {
         textDecoration:'none'
+    },
+    githubBtn: {
+        marginLeft: spacing.small,
+        marginRight: spacing.small
     }
 };
