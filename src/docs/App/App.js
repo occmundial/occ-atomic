@@ -46,9 +46,15 @@ class App extends React.Component {
                     right={[
                         {
                             key: 0,
+                            type: 'link',
+                            link: './playroom/',
+                            text: 'Probar en Playroom'
+                        },
+                        {
+                            key: 1,
                             type: 'custom',
                             custom: (
-                                <div style={{marginRight:15}}>
+                                <div className={classes.githubBtn}>
                                     <a className="github-button" href="https://github.com/occmundial/occ-atomic" data-size="large" data-show-count="true" aria-label="Watch occmundial/occ-atomic on GitHub">View on Github</a>
                                 </div>
                             )
