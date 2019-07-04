@@ -9,12 +9,12 @@ class FrameComponent extends React.Component {
     const { children, classes } = this.props;
 
     return (
-        <div>
+        <>
             <MetaTags>
                 <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,600|Open+Sans:400,600,700" rel="stylesheet" />
             </MetaTags>
             {children}
-        </div>
+        </>
     );
   }
 }
