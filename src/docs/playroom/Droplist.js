@@ -1,17 +1,17 @@
 export default `<Droplist
-	onClick={item => alert('You clicked on ' + item.text)}
-	items={[
-		{
-			id: 1,
-			text: 'Item 1'
-		},
-		{
-			id: 2,
-			text: 'Item 2'
-		},
-		{
-			id: 3,
-			text: 'Item 3'
-		}
-	]}
+  onClick={item => alert('You clicked on ' + item.text)}
+  items={[
+    {
+      id: 1,
+      text: 'Item 1'
+    },
+    {
+      id: 2,
+      text: 'Item 2'
+    },
+    {
+      id: 3,
+      text: 'Item 3'
+    }
+  ]}
 />`;
