@@ -1,4 +1,4 @@
-import { colors, spacing } from '@occmundial/occ-atomic';
+import { spacing } from '@occmundial/occ-atomic';
 
 export default {
     page: {
