@@ -2,15 +2,30 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Example from '../Example';
 import Props from '../Props';
-import { Text, Card } from '@occmundial/occ-atomic';
+import { Text, Card, Flexbox, Button } from '@occmundial/occ-atomic';
+import base64url from 'base64-url';
 
 const ComponentPage = ({ classes, component }) => {
     const { name, description, props, examples } = component;
     const descArray = description.split('\r');
+    let playroomExample = '';
+    try {
+        playroomExample = require(`../playroom/${name}`).default;
+    } catch (e) {
+        if (e.code !== 'MODULE_NOT_FOUND') {
+            throw e;
+        }
+    }
     return (
         <div className={classes.page}>
             <Card shadow={3}>
-                <Text tag="h1" heading>{name} <a className={classes.gitlink} target="_blank" href={`https://github.com/occmundial/occ-atomic/tree/master/lib/${name}`}>Check component on Github</a></Text>
+                <Flexbox display="flex" justifyContent="between">
+                    <Text tag="h1" heading>{name}</Text>
+                    <div>
+                        <Button size="sm" theme="tertiary" target="_blank" href={`https://github.com/occmundial/occ-atomic/tree/master/lib/${name}`}>Github</Button>
+                        {playroomExample && <Button size="sm" theme="tertiary" className={classes.playroomBtn} target="_blank" href={`https://occmundial.github.io/occ-atomic/playroom/#?code=${base64url.encode(playroomExample)}`}>Playroom</Button>}
+                    </div>
+                </Flexbox>
                 {descArray.map((desc, index) => (
                     <p key={index} className={classes.desc}>{desc}</p>
                 ))}
