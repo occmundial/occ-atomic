@@ -8,7 +8,6 @@ ShallowWrapper {
       Object {
         "autoComplete": "autoComplete",
         "droplist": "droplist",
-        "labels": "labels",
       }
     }
     disableAutoComplete={false}
@@ -38,7 +37,7 @@ ShallowWrapper {
         ],
       }
     }
-    inputProps={Object {}}
+    textfieldProps={Object {}}
   />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
@@ -54,30 +53,24 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": Array [
-        <StyledInput
-          className={undefined}
-          clear={undefined}
-          disableAutoComplete={false}
-          disabled={undefined}
-          iconName={undefined}
-          id={undefined}
-          inputClassName={undefined}
-          label={undefined}
-          name={undefined}
+        <Jss(TextField)
+          autoFocus={false}
+          clear={false}
+          counter={false}
+          disabled={false}
+          hjWhitelist={true}
           onBlur={[Function]}
           onChange={[Function]}
           onClear={[Function]}
           onFocus={[Function]}
           onKeyUp={[Function]}
           onRef={[Function]}
-          placeholder={undefined}
-          selectOnFocus={undefined}
-          theme={undefined}
-          type={undefined}
+          options={Array []}
+          selectOnFocus={false}
+          type="text"
           valueProp=""
         />,
         null,
-        "",
       ],
       "className": "autoComplete",
       "id": undefined,
@@ -90,25 +83,20 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "class",
         "props": Object {
-          "className": undefined,
-          "clear": undefined,
-          "disableAutoComplete": false,
-          "disabled": undefined,
-          "iconName": undefined,
-          "id": undefined,
-          "inputClassName": undefined,
-          "label": undefined,
-          "name": undefined,
+          "autoFocus": false,
+          "clear": false,
+          "counter": false,
+          "disabled": false,
+          "hjWhitelist": true,
           "onBlur": [Function],
           "onChange": [Function],
           "onClear": [Function],
           "onFocus": [Function],
           "onKeyUp": [Function],
           "onRef": [Function],
-          "placeholder": undefined,
-          "selectOnFocus": undefined,
-          "theme": undefined,
-          "type": undefined,
+          "options": Array [],
+          "selectOnFocus": false,
+          "type": "text",
           "valueProp": "",
         },
         "ref": null,
@@ -116,7 +104,6 @@ ShallowWrapper {
         "type": [Function],
       },
       null,
-      "",
     ],
     "type": "div",
   },
@@ -127,30 +114,24 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": Array [
-          <StyledInput
-            className={undefined}
-            clear={undefined}
-            disableAutoComplete={false}
-            disabled={undefined}
-            iconName={undefined}
-            id={undefined}
-            inputClassName={undefined}
-            label={undefined}
-            name={undefined}
+          <Jss(TextField)
+            autoFocus={false}
+            clear={false}
+            counter={false}
+            disabled={false}
+            hjWhitelist={true}
             onBlur={[Function]}
             onChange={[Function]}
             onClear={[Function]}
             onFocus={[Function]}
             onKeyUp={[Function]}
             onRef={[Function]}
-            placeholder={undefined}
-            selectOnFocus={undefined}
-            theme={undefined}
-            type={undefined}
+            options={Array []}
+            selectOnFocus={false}
+            type="text"
             valueProp=""
           />,
           null,
-          "",
         ],
         "className": "autoComplete",
         "id": undefined,
@@ -163,25 +144,20 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "class",
           "props": Object {
-            "className": undefined,
-            "clear": undefined,
-            "disableAutoComplete": false,
-            "disabled": undefined,
-            "iconName": undefined,
-            "id": undefined,
-            "inputClassName": undefined,
-            "label": undefined,
-            "name": undefined,
+            "autoFocus": false,
+            "clear": false,
+            "counter": false,
+            "disabled": false,
+            "hjWhitelist": true,
             "onBlur": [Function],
             "onChange": [Function],
             "onClear": [Function],
             "onFocus": [Function],
             "onKeyUp": [Function],
             "onRef": [Function],
-            "placeholder": undefined,
-            "selectOnFocus": undefined,
-            "theme": undefined,
-            "type": undefined,
+            "options": Array [],
+            "selectOnFocus": false,
+            "type": "text",
             "valueProp": "",
           },
           "ref": null,
@@ -189,7 +165,6 @@ ShallowWrapper {
           "type": [Function],
         },
         null,
-        "",
       ],
       "type": "div",
     },
@@ -220,15 +195,11 @@ Object {
     "position": "relative",
   },
   "droplist": Object {
-    "left": "0",
+    "left": 0,
     "position": "absolute",
-    "top": [Function],
+    "top": "calc(100% - 4px)",
     "width": "100%",
-    "zIndex": "2",
-  },
-  "labels": Object {
-    "marginTop": "-18px",
-    "width": "100%",
+    "zIndex": 2,
   },
 }
 `;
@@ -264,7 +235,6 @@ ShallowWrapper {
         ],
       }
     }
-    inputProps={Object {}}
     items={
       Array [
         Object {
@@ -289,6 +259,7 @@ ShallowWrapper {
         },
       ]
     }
+    textfieldProps={Object {}}
   />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
@@ -304,9 +275,8 @@ ShallowWrapper {
     "nodeType": "class",
     "props": Object {
       "classes": Object {
-        "autoComplete": "Autocomplete-autoComplete-0-1-38 Autocomplete-autoComplete-0-1-34",
-        "droplist": "Autocomplete-droplist-0-1-37 Autocomplete-droplist-0-1-35",
-        "labels": "Autocomplete-labels-0-1-39 Autocomplete-labels-0-1-36",
+        "autoComplete": "Autocomplete-autoComplete-0-1-67",
+        "droplist": "Autocomplete-droplist-0-1-68",
       },
       "disableAutoComplete": false,
       "droplistProps": Object {
@@ -333,7 +303,6 @@ ShallowWrapper {
           },
         ],
       },
-      "inputProps": Object {},
       "items": Array [
         Object {
           "id": 1,
@@ -356,6 +325,7 @@ ShallowWrapper {
           "textRight": "(6)",
         },
       ],
+      "textfieldProps": Object {},
     },
     "ref": null,
     "rendered": null,
@@ -368,9 +338,8 @@ ShallowWrapper {
       "nodeType": "class",
       "props": Object {
         "classes": Object {
-          "autoComplete": "Autocomplete-autoComplete-0-1-38 Autocomplete-autoComplete-0-1-34",
-          "droplist": "Autocomplete-droplist-0-1-37 Autocomplete-droplist-0-1-35",
-          "labels": "Autocomplete-labels-0-1-39 Autocomplete-labels-0-1-36",
+          "autoComplete": "Autocomplete-autoComplete-0-1-67",
+          "droplist": "Autocomplete-droplist-0-1-68",
         },
         "disableAutoComplete": false,
         "droplistProps": Object {
@@ -397,7 +366,6 @@ ShallowWrapper {
             },
           ],
         },
-        "inputProps": Object {},
         "items": Array [
           Object {
             "id": 1,
@@ -420,6 +388,7 @@ ShallowWrapper {
             "textRight": "(6)",
           },
         ],
+        "textfieldProps": Object {},
       },
       "ref": null,
       "rendered": null,
