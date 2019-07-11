@@ -24,22 +24,20 @@ export default function Example3() {
     return (
         <Autocomplete
             droplistProps={{
-                items:items,
-                itemIdKey:"key",
-                itemTextKey:"text",
-                itemTextRightKey:"textRight",
+                items,
+                itemIdKey: 'key',
+                itemTextKey: 'text',
+                itemTextRightKey: 'textRight',
                 groups: true,
-                groupIdKey:"id",
-                groupNameKey:"text",
-                groupItemsKey:"items"
+                groupIdKey: 'id',
+                groupNameKey: 'text',
+                groupItemsKey: 'items'
             }}
             textfieldProps={{
-                label:"Label",
-                placeholder:"Placeholder"
+                label: 'Label',
+                placeholder: 'Placeholder'
             }}
-            selectOnEnter
-            onMouseDown={item => console.log(item)}
-            onChange={(value) => {console.log(value);}}
+            onEnter={item => console.log(item)}
         />
     );
 }

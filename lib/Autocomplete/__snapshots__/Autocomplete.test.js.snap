@@ -197,7 +197,7 @@ Object {
   "droplist": Object {
     "left": 0,
     "position": "absolute",
-    "top": "calc(100% - 4px)",
+    "top": "calc(100% - 0px)",
     "width": "100%",
     "zIndex": 2,
   },

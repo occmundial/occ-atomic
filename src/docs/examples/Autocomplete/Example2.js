@@ -1,4 +1,4 @@
-/* Return the item on click */
+/* Return the item on mouse down */
 import React from 'react';
 import { Autocomplete } from '@occmundial/occ-atomic';
 
@@ -21,7 +21,7 @@ export default function Example2() {
                 placeholder:"Placeholder",
                 valueProp:"Item"
             }}
-            onClick={(item) => {console.log(item);}}
+            onMouseDown={(item) => console.log(item)}
         />
     );
 }
