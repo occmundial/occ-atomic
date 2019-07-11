@@ -7,9 +7,9 @@ ShallowWrapper {
     classes={
       Object {
         "block": "block",
-        "bold": "bold",
         "group": "group",
         "item": "item",
+        "onFocus": "onFocus",
         "right": "right",
       }
     }
@@ -71,18 +71,19 @@ ShallowWrapper {
             tag="p"
           >
             
-            <span
-              className="bold"
+            <Jss(Text)
+              strong={true}
+              tag="b"
             >
               
-            </span>
+            </Jss(Text)>
             Administrador
           </Jss(Text)>
           <span
             className="right"
           >
             <Jss(Text)
-              mid={true}
+              low={true}
               tag="span"
             >
               (222)
@@ -99,18 +100,19 @@ ShallowWrapper {
             tag="p"
           >
             
-            <span
-              className="bold"
+            <Jss(Text)
+              strong={true}
+              tag="b"
             >
               
-            </span>
+            </Jss(Text)>
             Administrador Sr
           </Jss(Text)>
           <span
             className="right"
           >
             <Jss(Text)
-              mid={true}
+              low={true}
               tag="span"
             >
               (134)
@@ -127,18 +129,19 @@ ShallowWrapper {
             tag="p"
           >
             
-            <span
-              className="bold"
+            <Jss(Text)
+              strong={true}
+              tag="b"
             >
               
-            </span>
+            </Jss(Text)>
             Administrador Jr
           </Jss(Text)>
           <span
             className="right"
           >
             <Jss(Text)
-              mid={true}
+              low={true}
               tag="span"
             >
               (52)
@@ -155,18 +158,19 @@ ShallowWrapper {
             tag="p"
           >
             
-            <span
-              className="bold"
+            <Jss(Text)
+              strong={true}
+              tag="b"
             >
               
-            </span>
+            </Jss(Text)>
             Administrar
           </Jss(Text)>
           <span
             className="right"
           >
             <Jss(Text)
-              mid={true}
+              low={true}
               tag="span"
             >
               (6)
@@ -190,18 +194,19 @@ ShallowWrapper {
               tag="p"
             >
               
-              <span
-                className="bold"
+              <Jss(Text)
+                strong={true}
+                tag="b"
               >
                 
-              </span>
+              </Jss(Text)>
               Administrador
             </Jss(Text)>,
             <span
               className="right"
             >
               <Jss(Text)
-                mid={true}
+                low={true}
                 tag="span"
               >
                 (222)
@@ -222,11 +227,12 @@ ShallowWrapper {
             "props": Object {
               "children": Array [
                 "",
-                <span
-                  className="bold"
+                <Jss(Text)
+                  strong={true}
+                  tag="b"
                 >
                   
-                </span>,
+                </Jss(Text)>,
                 "Administrador",
               ],
               "tag": "p",
@@ -237,14 +243,15 @@ ShallowWrapper {
               Object {
                 "instance": null,
                 "key": undefined,
-                "nodeType": "host",
+                "nodeType": "class",
                 "props": Object {
                   "children": "",
-                  "className": "bold",
+                  "strong": true,
+                  "tag": "b",
                 },
                 "ref": null,
                 "rendered": "",
-                "type": "span",
+                "type": [Function],
               },
               "Administrador",
             ],
@@ -256,7 +263,7 @@ ShallowWrapper {
             "nodeType": "host",
             "props": Object {
               "children": <Jss(Text)
-                mid={true}
+                low={true}
                 tag="span"
               >
                 (222)
@@ -270,7 +277,7 @@ ShallowWrapper {
               "nodeType": "class",
               "props": Object {
                 "children": "(222)",
-                "mid": true,
+                "low": true,
                 "tag": "span",
               },
               "ref": null,
@@ -292,18 +299,19 @@ ShallowWrapper {
               tag="p"
             >
               
-              <span
-                className="bold"
+              <Jss(Text)
+                strong={true}
+                tag="b"
               >
                 
-              </span>
+              </Jss(Text)>
               Administrador Sr
             </Jss(Text)>,
             <span
               className="right"
             >
               <Jss(Text)
-                mid={true}
+                low={true}
                 tag="span"
               >
                 (134)
@@ -324,11 +332,12 @@ ShallowWrapper {
             "props": Object {
               "children": Array [
                 "",
-                <span
-                  className="bold"
+                <Jss(Text)
+                  strong={true}
+                  tag="b"
                 >
                   
-                </span>,
+                </Jss(Text)>,
                 "Administrador Sr",
               ],
               "tag": "p",
@@ -339,14 +348,15 @@ ShallowWrapper {
               Object {
                 "instance": null,
                 "key": undefined,
-                "nodeType": "host",
+                "nodeType": "class",
                 "props": Object {
                   "children": "",
-                  "className": "bold",
+                  "strong": true,
+                  "tag": "b",
                 },
                 "ref": null,
                 "rendered": "",
-                "type": "span",
+                "type": [Function],
               },
               "Administrador Sr",
             ],
@@ -358,7 +368,7 @@ ShallowWrapper {
             "nodeType": "host",
             "props": Object {
               "children": <Jss(Text)
-                mid={true}
+                low={true}
                 tag="span"
               >
                 (134)
@@ -372,7 +382,7 @@ ShallowWrapper {
               "nodeType": "class",
               "props": Object {
                 "children": "(134)",
-                "mid": true,
+                "low": true,
                 "tag": "span",
               },
               "ref": null,
@@ -394,18 +404,19 @@ ShallowWrapper {
               tag="p"
             >
               
-              <span
-                className="bold"
+              <Jss(Text)
+                strong={true}
+                tag="b"
               >
                 
-              </span>
+              </Jss(Text)>
               Administrador Jr
             </Jss(Text)>,
             <span
               className="right"
             >
               <Jss(Text)
-                mid={true}
+                low={true}
                 tag="span"
               >
                 (52)
@@ -426,11 +437,12 @@ ShallowWrapper {
             "props": Object {
               "children": Array [
                 "",
-                <span
-                  className="bold"
+                <Jss(Text)
+                  strong={true}
+                  tag="b"
                 >
                   
-                </span>,
+                </Jss(Text)>,
                 "Administrador Jr",
               ],
               "tag": "p",
@@ -441,14 +453,15 @@ ShallowWrapper {
               Object {
                 "instance": null,
                 "key": undefined,
-                "nodeType": "host",
+                "nodeType": "class",
                 "props": Object {
                   "children": "",
-                  "className": "bold",
+                  "strong": true,
+                  "tag": "b",
                 },
                 "ref": null,
                 "rendered": "",
-                "type": "span",
+                "type": [Function],
               },
               "Administrador Jr",
             ],
@@ -460,7 +473,7 @@ ShallowWrapper {
             "nodeType": "host",
             "props": Object {
               "children": <Jss(Text)
-                mid={true}
+                low={true}
                 tag="span"
               >
                 (52)
@@ -474,7 +487,7 @@ ShallowWrapper {
               "nodeType": "class",
               "props": Object {
                 "children": "(52)",
-                "mid": true,
+                "low": true,
                 "tag": "span",
               },
               "ref": null,
@@ -496,18 +509,19 @@ ShallowWrapper {
               tag="p"
             >
               
-              <span
-                className="bold"
+              <Jss(Text)
+                strong={true}
+                tag="b"
               >
                 
-              </span>
+              </Jss(Text)>
               Administrar
             </Jss(Text)>,
             <span
               className="right"
             >
               <Jss(Text)
-                mid={true}
+                low={true}
                 tag="span"
               >
                 (6)
@@ -528,11 +542,12 @@ ShallowWrapper {
             "props": Object {
               "children": Array [
                 "",
-                <span
-                  className="bold"
+                <Jss(Text)
+                  strong={true}
+                  tag="b"
                 >
                   
-                </span>,
+                </Jss(Text)>,
                 "Administrar",
               ],
               "tag": "p",
@@ -543,14 +558,15 @@ ShallowWrapper {
               Object {
                 "instance": null,
                 "key": undefined,
-                "nodeType": "host",
+                "nodeType": "class",
                 "props": Object {
                   "children": "",
-                  "className": "bold",
+                  "strong": true,
+                  "tag": "b",
                 },
                 "ref": null,
                 "rendered": "",
-                "type": "span",
+                "type": [Function],
               },
               "Administrar",
             ],
@@ -562,7 +578,7 @@ ShallowWrapper {
             "nodeType": "host",
             "props": Object {
               "children": <Jss(Text)
-                mid={true}
+                low={true}
                 tag="span"
               >
                 (6)
@@ -576,7 +592,7 @@ ShallowWrapper {
               "nodeType": "class",
               "props": Object {
                 "children": "(6)",
-                "mid": true,
+                "low": true,
                 "tag": "span",
               },
               "ref": null,
@@ -608,18 +624,19 @@ ShallowWrapper {
               tag="p"
             >
               
-              <span
-                className="bold"
+              <Jss(Text)
+                strong={true}
+                tag="b"
               >
                 
-              </span>
+              </Jss(Text)>
               Administrador
             </Jss(Text)>
             <span
               className="right"
             >
               <Jss(Text)
-                mid={true}
+                low={true}
                 tag="span"
               >
                 (222)
@@ -636,18 +653,19 @@ ShallowWrapper {
               tag="p"
             >
               
-              <span
-                className="bold"
+              <Jss(Text)
+                strong={true}
+                tag="b"
               >
                 
-              </span>
+              </Jss(Text)>
               Administrador Sr
             </Jss(Text)>
             <span
               className="right"
             >
               <Jss(Text)
-                mid={true}
+                low={true}
                 tag="span"
               >
                 (134)
@@ -664,18 +682,19 @@ ShallowWrapper {
               tag="p"
             >
               
-              <span
-                className="bold"
+              <Jss(Text)
+                strong={true}
+                tag="b"
               >
                 
-              </span>
+              </Jss(Text)>
               Administrador Jr
             </Jss(Text)>
             <span
               className="right"
             >
               <Jss(Text)
-                mid={true}
+                low={true}
                 tag="span"
               >
                 (52)
@@ -692,18 +711,19 @@ ShallowWrapper {
               tag="p"
             >
               
-              <span
-                className="bold"
+              <Jss(Text)
+                strong={true}
+                tag="b"
               >
                 
-              </span>
+              </Jss(Text)>
               Administrar
             </Jss(Text)>
             <span
               className="right"
             >
               <Jss(Text)
-                mid={true}
+                low={true}
                 tag="span"
               >
                 (6)
@@ -727,18 +747,19 @@ ShallowWrapper {
                 tag="p"
               >
                 
-                <span
-                  className="bold"
+                <Jss(Text)
+                  strong={true}
+                  tag="b"
                 >
                   
-                </span>
+                </Jss(Text)>
                 Administrador
               </Jss(Text)>,
               <span
                 className="right"
               >
                 <Jss(Text)
-                  mid={true}
+                  low={true}
                   tag="span"
                 >
                   (222)
@@ -759,11 +780,12 @@ ShallowWrapper {
               "props": Object {
                 "children": Array [
                   "",
-                  <span
-                    className="bold"
+                  <Jss(Text)
+                    strong={true}
+                    tag="b"
                   >
                     
-                  </span>,
+                  </Jss(Text)>,
                   "Administrador",
                 ],
                 "tag": "p",
@@ -774,14 +796,15 @@ ShallowWrapper {
                 Object {
                   "instance": null,
                   "key": undefined,
-                  "nodeType": "host",
+                  "nodeType": "class",
                   "props": Object {
                     "children": "",
-                    "className": "bold",
+                    "strong": true,
+                    "tag": "b",
                   },
                   "ref": null,
                   "rendered": "",
-                  "type": "span",
+                  "type": [Function],
                 },
                 "Administrador",
               ],
@@ -793,7 +816,7 @@ ShallowWrapper {
               "nodeType": "host",
               "props": Object {
                 "children": <Jss(Text)
-                  mid={true}
+                  low={true}
                   tag="span"
                 >
                   (222)
@@ -807,7 +830,7 @@ ShallowWrapper {
                 "nodeType": "class",
                 "props": Object {
                   "children": "(222)",
-                  "mid": true,
+                  "low": true,
                   "tag": "span",
                 },
                 "ref": null,
@@ -829,18 +852,19 @@ ShallowWrapper {
                 tag="p"
               >
                 
-                <span
-                  className="bold"
+                <Jss(Text)
+                  strong={true}
+                  tag="b"
                 >
                   
-                </span>
+                </Jss(Text)>
                 Administrador Sr
               </Jss(Text)>,
               <span
                 className="right"
               >
                 <Jss(Text)
-                  mid={true}
+                  low={true}
                   tag="span"
                 >
                   (134)
@@ -861,11 +885,12 @@ ShallowWrapper {
               "props": Object {
                 "children": Array [
                   "",
-                  <span
-                    className="bold"
+                  <Jss(Text)
+                    strong={true}
+                    tag="b"
                   >
                     
-                  </span>,
+                  </Jss(Text)>,
                   "Administrador Sr",
                 ],
                 "tag": "p",
@@ -876,14 +901,15 @@ ShallowWrapper {
                 Object {
                   "instance": null,
                   "key": undefined,
-                  "nodeType": "host",
+                  "nodeType": "class",
                   "props": Object {
                     "children": "",
-                    "className": "bold",
+                    "strong": true,
+                    "tag": "b",
                   },
                   "ref": null,
                   "rendered": "",
-                  "type": "span",
+                  "type": [Function],
                 },
                 "Administrador Sr",
               ],
@@ -895,7 +921,7 @@ ShallowWrapper {
               "nodeType": "host",
               "props": Object {
                 "children": <Jss(Text)
-                  mid={true}
+                  low={true}
                   tag="span"
                 >
                   (134)
@@ -909,7 +935,7 @@ ShallowWrapper {
                 "nodeType": "class",
                 "props": Object {
                   "children": "(134)",
-                  "mid": true,
+                  "low": true,
                   "tag": "span",
                 },
                 "ref": null,
@@ -931,18 +957,19 @@ ShallowWrapper {
                 tag="p"
               >
                 
-                <span
-                  className="bold"
+                <Jss(Text)
+                  strong={true}
+                  tag="b"
                 >
                   
-                </span>
+                </Jss(Text)>
                 Administrador Jr
               </Jss(Text)>,
               <span
                 className="right"
               >
                 <Jss(Text)
-                  mid={true}
+                  low={true}
                   tag="span"
                 >
                   (52)
@@ -963,11 +990,12 @@ ShallowWrapper {
               "props": Object {
                 "children": Array [
                   "",
-                  <span
-                    className="bold"
+                  <Jss(Text)
+                    strong={true}
+                    tag="b"
                   >
                     
-                  </span>,
+                  </Jss(Text)>,
                   "Administrador Jr",
                 ],
                 "tag": "p",
@@ -978,14 +1006,15 @@ ShallowWrapper {
                 Object {
                   "instance": null,
                   "key": undefined,
-                  "nodeType": "host",
+                  "nodeType": "class",
                   "props": Object {
                     "children": "",
-                    "className": "bold",
+                    "strong": true,
+                    "tag": "b",
                   },
                   "ref": null,
                   "rendered": "",
-                  "type": "span",
+                  "type": [Function],
                 },
                 "Administrador Jr",
               ],
@@ -997,7 +1026,7 @@ ShallowWrapper {
               "nodeType": "host",
               "props": Object {
                 "children": <Jss(Text)
-                  mid={true}
+                  low={true}
                   tag="span"
                 >
                   (52)
@@ -1011,7 +1040,7 @@ ShallowWrapper {
                 "nodeType": "class",
                 "props": Object {
                   "children": "(52)",
-                  "mid": true,
+                  "low": true,
                   "tag": "span",
                 },
                 "ref": null,
@@ -1033,18 +1062,19 @@ ShallowWrapper {
                 tag="p"
               >
                 
-                <span
-                  className="bold"
+                <Jss(Text)
+                  strong={true}
+                  tag="b"
                 >
                   
-                </span>
+                </Jss(Text)>
                 Administrar
               </Jss(Text)>,
               <span
                 className="right"
               >
                 <Jss(Text)
-                  mid={true}
+                  low={true}
                   tag="span"
                 >
                   (6)
@@ -1065,11 +1095,12 @@ ShallowWrapper {
               "props": Object {
                 "children": Array [
                   "",
-                  <span
-                    className="bold"
+                  <Jss(Text)
+                    strong={true}
+                    tag="b"
                   >
                     
-                  </span>,
+                  </Jss(Text)>,
                   "Administrar",
                 ],
                 "tag": "p",
@@ -1080,14 +1111,15 @@ ShallowWrapper {
                 Object {
                   "instance": null,
                   "key": undefined,
-                  "nodeType": "host",
+                  "nodeType": "class",
                   "props": Object {
                     "children": "",
-                    "className": "bold",
+                    "strong": true,
+                    "tag": "b",
                   },
                   "ref": null,
                   "rendered": "",
-                  "type": "span",
+                  "type": [Function],
                 },
                 "Administrar",
               ],
@@ -1099,7 +1131,7 @@ ShallowWrapper {
               "nodeType": "host",
               "props": Object {
                 "children": <Jss(Text)
-                  mid={true}
+                  low={true}
                   tag="span"
                 >
                   (6)
@@ -1113,7 +1145,7 @@ ShallowWrapper {
                 "nodeType": "class",
                 "props": Object {
                   "children": "(6)",
-                  "mid": true,
+                  "low": true,
                   "tag": "span",
                 },
                 "ref": null,
@@ -1157,9 +1189,6 @@ Object {
     "borderRadius": 4,
     "overflow": "hidden",
   },
-  "bold": Object {
-    "fontWeight": "700",
-  },
   "group": Object {
     "padding": Array [
       16,
@@ -1179,6 +1208,12 @@ Object {
       16,
     ],
     "transition": "0.1s all",
+  },
+  "onFocus": Object {
+    "&:hover": Object {
+      "background": "#e6ecf7",
+    },
+    "background": "#e6ecf7",
   },
   "right": Object {
     "float": "right",
@@ -1239,11 +1274,11 @@ ShallowWrapper {
     "nodeType": "class",
     "props": Object {
       "classes": Object {
-        "block": "Droplist-block-0-1-1",
-        "bold": "Droplist-bold-0-1-5",
-        "group": "Droplist-group-0-1-2",
-        "item": "Droplist-item-0-1-3",
-        "right": "Droplist-right-0-1-4",
+        "block": "Droplist-block-0-1-36",
+        "group": "Droplist-group-0-1-37",
+        "item": "Droplist-item-0-1-38",
+        "onFocus": "Droplist-onFocus-0-1-40",
+        "right": "Droplist-right-0-1-39",
       },
       "filter": true,
       "groupIdKey": "id",
@@ -1288,11 +1323,11 @@ ShallowWrapper {
       "nodeType": "class",
       "props": Object {
         "classes": Object {
-          "block": "Droplist-block-0-1-1",
-          "bold": "Droplist-bold-0-1-5",
-          "group": "Droplist-group-0-1-2",
-          "item": "Droplist-item-0-1-3",
-          "right": "Droplist-right-0-1-4",
+          "block": "Droplist-block-0-1-36",
+          "group": "Droplist-group-0-1-37",
+          "item": "Droplist-item-0-1-38",
+          "onFocus": "Droplist-onFocus-0-1-40",
+          "right": "Droplist-right-0-1-39",
         },
         "filter": true,
         "groupIdKey": "id",
