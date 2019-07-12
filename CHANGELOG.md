@@ -4,6 +4,11 @@ All notable changes to this project will be documented in this file.
 
 # Version 1
 
+## 1.6.x
+
+### 1.6.0-beta.0
+- Significant changes in `Autocomplete` and `Droplist` components.
+
 ## 1.5.x
 
 ### 1.5.1
