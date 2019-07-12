@@ -20,7 +20,7 @@ export default function Example1() {
         }
     ];
     return (
-        <Droplist 
+        <Droplist
             items={items}
             groups
             groupIdKey="group"
@@ -29,6 +29,7 @@ export default function Example1() {
             itemIdKey="name"
             itemTextKey="name"
             itemTextRightKey="secondary"
+            term="2"
         />
     );
 }

@@ -1,30 +1,43 @@
-/* Stack on labels */
+/* Return the item on Enter */
 import React from 'react';
 import { Autocomplete } from '@occmundial/occ-atomic';
 
-export default function Example2() {
+export default function Example3() {
     const items = [
-        { name: 'Item 1', secondary: '(10)' },
-        { name: 'Item 2', secondary: '(5)' },
-        { name: 'Item 3', secondary: '(30)' }
+        { text: 'Países', id:'1',
+            items: [
+                { text: 'México', textRight: '(3405)', key: 'MX', type: 'CO', id:'1.1' }
+            ]
+        },
+        { text: 'Estados', id:'2',
+            items: [
+                { text: 'Querétaro', textRight: '(222)', key: 'QRO', type: 'ST', id:'2.1' },
+                { text: 'Estado de México', textRight: '(225)', key: 'EMX', type: 'ST', id:'2.2' }
+            ]
+        },
+        { text: 'Ciudades', id:'3',
+            items: [
+                { text: 'Santiago de Querétaro', textRight: '(102)', key: 'QRO2', type: 'CY', id:'3.1' }
+            ]
+        }
     ];
     return (
         <Autocomplete
             droplistProps={{
-                items:items,
-                itemIdKey:"name",
-                itemTextKey:"name",
-                itemTextRightKey:"secondary"
+                items,
+                itemIdKey: 'key',
+                itemTextKey: 'text',
+                itemTextRightKey: 'textRight',
+                groups: true,
+                groupIdKey: 'id',
+                groupNameKey: 'text',
+                groupItemsKey: 'items'
             }}
-            inputProps={{
-                label:"Label",
-                placeholder:"Placeholder",
-                valueProp:"Item"
+            textfieldProps={{
+                label: 'Label',
+                placeholder: 'Placeholder'
             }}
-            stackLabels
-            limit={2}
-            limitPlaceholder="You can't stack more labels"
-            onClick={(items) => {console.log(items);}}
+            onEnter={item => console.log(item)}
         />
     );
 }
