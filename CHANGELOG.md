@@ -6,6 +6,9 @@ All notable changes to this project will be documented in this file.
 
 ## 1.6.x
 
+### 1.6.0-beta.2
+- Fix with `Droplist` spacing in `Autocomplete`.
+
 ### 1.6.0-beta.1
 - Added the `natives` library to resolve build problems.
 
