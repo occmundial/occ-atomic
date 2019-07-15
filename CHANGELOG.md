@@ -6,6 +6,9 @@ All notable changes to this project will be documented in this file.
 
 ## 1.6.x
 
+### 1.6.0-beta.1
+- Added the `natives` library to resolve build problems.
+
 ### 1.6.0-beta.0
 - Significant changes in `Autocomplete` and `Droplist` components.
 
