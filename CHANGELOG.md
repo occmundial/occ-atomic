@@ -6,6 +6,9 @@ All notable changes to this project will be documented in this file.
 
 ## 1.6.x
 
+### 1.6.1
+- New `trash` icon.
+
 ### 1.6.0-beta.4
 - Fix in the value returned by the `onKeyUp` function in `TextField`.
 
