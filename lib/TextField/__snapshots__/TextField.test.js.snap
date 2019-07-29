@@ -451,7 +451,7 @@ Object {
   },
   "textarea": Object {
     "alignItems": "flex-start",
-    "height": 72,
+    "height": 120,
     "resize": "none",
   },
   "top": Object {
