@@ -696,8 +696,8 @@ ShallowWrapper {
             disabled={undefined}
             id={1}
             idPrefix={undefined}
-            onClick={[Function]}
-            onClose={[Function]}
+            onClick={null}
+            onClose={null}
           >
             foo
           </Jss(Stack)>
@@ -705,8 +705,8 @@ ShallowWrapper {
             disabled={undefined}
             id={2}
             idPrefix={undefined}
-            onClick={[Function]}
-            onClose={[Function]}
+            onClick={null}
+            onClose={null}
           >
             bar
           </Jss(Stack)>
@@ -714,8 +714,8 @@ ShallowWrapper {
             disabled={undefined}
             id={3}
             idPrefix={undefined}
-            onClick={[Function]}
-            onClose={[Function]}
+            onClick={null}
+            onClose={null}
           >
             baz
           </Jss(Stack)>
@@ -723,8 +723,8 @@ ShallowWrapper {
             disabled={undefined}
             id={4}
             idPrefix={undefined}
-            onClick={[Function]}
-            onClose={[Function]}
+            onClick={null}
+            onClose={null}
           >
             qux
           </Jss(Stack)>
@@ -748,8 +748,8 @@ ShallowWrapper {
               disabled={undefined}
               id={1}
               idPrefix={undefined}
-              onClick={[Function]}
-              onClose={[Function]}
+              onClick={null}
+              onClose={null}
             >
               foo
             </Jss(Stack)>,
@@ -757,8 +757,8 @@ ShallowWrapper {
               disabled={undefined}
               id={2}
               idPrefix={undefined}
-              onClick={[Function]}
-              onClose={[Function]}
+              onClick={null}
+              onClose={null}
             >
               bar
             </Jss(Stack)>,
@@ -766,8 +766,8 @@ ShallowWrapper {
               disabled={undefined}
               id={3}
               idPrefix={undefined}
-              onClick={[Function]}
-              onClose={[Function]}
+              onClick={null}
+              onClose={null}
             >
               baz
             </Jss(Stack)>,
@@ -775,8 +775,8 @@ ShallowWrapper {
               disabled={undefined}
               id={4}
               idPrefix={undefined}
-              onClick={[Function]}
-              onClose={[Function]}
+              onClick={null}
+              onClose={null}
             >
               qux
             </Jss(Stack)>,
@@ -794,8 +794,8 @@ ShallowWrapper {
               "disabled": undefined,
               "id": 1,
               "idPrefix": undefined,
-              "onClick": [Function],
-              "onClose": [Function],
+              "onClick": null,
+              "onClose": null,
             },
             "ref": null,
             "rendered": "foo",
@@ -810,8 +810,8 @@ ShallowWrapper {
               "disabled": undefined,
               "id": 2,
               "idPrefix": undefined,
-              "onClick": [Function],
-              "onClose": [Function],
+              "onClick": null,
+              "onClose": null,
             },
             "ref": null,
             "rendered": "bar",
@@ -826,8 +826,8 @@ ShallowWrapper {
               "disabled": undefined,
               "id": 3,
               "idPrefix": undefined,
-              "onClick": [Function],
-              "onClose": [Function],
+              "onClick": null,
+              "onClose": null,
             },
             "ref": null,
             "rendered": "baz",
@@ -842,8 +842,8 @@ ShallowWrapper {
               "disabled": undefined,
               "id": 4,
               "idPrefix": undefined,
-              "onClick": [Function],
-              "onClose": [Function],
+              "onClick": null,
+              "onClose": null,
             },
             "ref": null,
             "rendered": "qux",
@@ -871,8 +871,8 @@ ShallowWrapper {
               disabled={undefined}
               id={1}
               idPrefix={undefined}
-              onClick={[Function]}
-              onClose={[Function]}
+              onClick={null}
+              onClose={null}
             >
               foo
             </Jss(Stack)>
@@ -880,8 +880,8 @@ ShallowWrapper {
               disabled={undefined}
               id={2}
               idPrefix={undefined}
-              onClick={[Function]}
-              onClose={[Function]}
+              onClick={null}
+              onClose={null}
             >
               bar
             </Jss(Stack)>
@@ -889,8 +889,8 @@ ShallowWrapper {
               disabled={undefined}
               id={3}
               idPrefix={undefined}
-              onClick={[Function]}
-              onClose={[Function]}
+              onClick={null}
+              onClose={null}
             >
               baz
             </Jss(Stack)>
@@ -898,8 +898,8 @@ ShallowWrapper {
               disabled={undefined}
               id={4}
               idPrefix={undefined}
-              onClick={[Function]}
-              onClose={[Function]}
+              onClick={null}
+              onClose={null}
             >
               qux
             </Jss(Stack)>
@@ -923,8 +923,8 @@ ShallowWrapper {
                 disabled={undefined}
                 id={1}
                 idPrefix={undefined}
-                onClick={[Function]}
-                onClose={[Function]}
+                onClick={null}
+                onClose={null}
               >
                 foo
               </Jss(Stack)>,
@@ -932,8 +932,8 @@ ShallowWrapper {
                 disabled={undefined}
                 id={2}
                 idPrefix={undefined}
-                onClick={[Function]}
-                onClose={[Function]}
+                onClick={null}
+                onClose={null}
               >
                 bar
               </Jss(Stack)>,
@@ -941,8 +941,8 @@ ShallowWrapper {
                 disabled={undefined}
                 id={3}
                 idPrefix={undefined}
-                onClick={[Function]}
-                onClose={[Function]}
+                onClick={null}
+                onClose={null}
               >
                 baz
               </Jss(Stack)>,
@@ -950,8 +950,8 @@ ShallowWrapper {
                 disabled={undefined}
                 id={4}
                 idPrefix={undefined}
-                onClick={[Function]}
-                onClose={[Function]}
+                onClick={null}
+                onClose={null}
               >
                 qux
               </Jss(Stack)>,
@@ -969,8 +969,8 @@ ShallowWrapper {
                 "disabled": undefined,
                 "id": 1,
                 "idPrefix": undefined,
-                "onClick": [Function],
-                "onClose": [Function],
+                "onClick": null,
+                "onClose": null,
               },
               "ref": null,
               "rendered": "foo",
@@ -985,8 +985,8 @@ ShallowWrapper {
                 "disabled": undefined,
                 "id": 2,
                 "idPrefix": undefined,
-                "onClick": [Function],
-                "onClose": [Function],
+                "onClick": null,
+                "onClose": null,
               },
               "ref": null,
               "rendered": "bar",
@@ -1001,8 +1001,8 @@ ShallowWrapper {
                 "disabled": undefined,
                 "id": 3,
                 "idPrefix": undefined,
-                "onClick": [Function],
-                "onClose": [Function],
+                "onClick": null,
+                "onClose": null,
               },
               "ref": null,
               "rendered": "baz",
@@ -1017,8 +1017,8 @@ ShallowWrapper {
                 "disabled": undefined,
                 "id": 4,
                 "idPrefix": undefined,
-                "onClick": [Function],
-                "onClose": [Function],
+                "onClick": null,
+                "onClose": null,
               },
               "ref": null,
               "rendered": "qux",
