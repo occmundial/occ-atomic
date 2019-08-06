@@ -6,6 +6,9 @@ All notable changes to this project will be documented in this file.
 
 ## 1.6.x
 
+## 1.6.4
+- New `upload` icon.
+
 ### 1.6.3
 - Change in height of the textarea type of `TextField`.
 
