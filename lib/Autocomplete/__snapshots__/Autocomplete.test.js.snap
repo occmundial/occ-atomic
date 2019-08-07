@@ -275,8 +275,8 @@ ShallowWrapper {
     "nodeType": "class",
     "props": Object {
       "classes": Object {
-        "autoComplete": "Autocomplete-autoComplete-0-1-70 Autocomplete-autoComplete-0-1-67",
-        "droplist": "Autocomplete-droplist-0-1-69 Autocomplete-droplist-0-1-68",
+        "autoComplete": "Autocomplete-autoComplete-0-1-74 Autocomplete-autoComplete-0-1-71",
+        "droplist": "Autocomplete-droplist-0-1-73 Autocomplete-droplist-0-1-72",
       },
       "disableAutoComplete": false,
       "droplistProps": Object {
@@ -338,8 +338,8 @@ ShallowWrapper {
       "nodeType": "class",
       "props": Object {
         "classes": Object {
-          "autoComplete": "Autocomplete-autoComplete-0-1-70 Autocomplete-autoComplete-0-1-67",
-          "droplist": "Autocomplete-droplist-0-1-69 Autocomplete-droplist-0-1-68",
+          "autoComplete": "Autocomplete-autoComplete-0-1-74 Autocomplete-autoComplete-0-1-71",
+          "droplist": "Autocomplete-droplist-0-1-73 Autocomplete-droplist-0-1-72",
         },
         "disableAutoComplete": false,
         "droplistProps": Object {

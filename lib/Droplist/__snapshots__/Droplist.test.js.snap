@@ -1274,11 +1274,11 @@ ShallowWrapper {
     "nodeType": "class",
     "props": Object {
       "classes": Object {
-        "block": "Droplist-block-0-1-36",
-        "group": "Droplist-group-0-1-37",
-        "item": "Droplist-item-0-1-38",
-        "onFocus": "Droplist-onFocus-0-1-40",
-        "right": "Droplist-right-0-1-39",
+        "block": "Droplist-block-0-1-40",
+        "group": "Droplist-group-0-1-41",
+        "item": "Droplist-item-0-1-42",
+        "onFocus": "Droplist-onFocus-0-1-44",
+        "right": "Droplist-right-0-1-43",
       },
       "filter": true,
       "groupIdKey": "id",
@@ -1323,11 +1323,11 @@ ShallowWrapper {
       "nodeType": "class",
       "props": Object {
         "classes": Object {
-          "block": "Droplist-block-0-1-36",
-          "group": "Droplist-group-0-1-37",
-          "item": "Droplist-item-0-1-38",
-          "onFocus": "Droplist-onFocus-0-1-40",
-          "right": "Droplist-right-0-1-39",
+          "block": "Droplist-block-0-1-40",
+          "group": "Droplist-group-0-1-41",
+          "item": "Droplist-item-0-1-42",
+          "onFocus": "Droplist-onFocus-0-1-44",
+          "right": "Droplist-right-0-1-43",
         },
         "filter": true,
         "groupIdKey": "id",
