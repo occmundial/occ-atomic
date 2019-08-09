@@ -32,7 +32,7 @@ export default function Example4() {
                 groupIdKey:"id",
                 groupNameKey:"text",
                 groupItemsKey:"items",
-                filter: false
+                // filter: false
             }}
             inputProps={{
                 label:"Label",

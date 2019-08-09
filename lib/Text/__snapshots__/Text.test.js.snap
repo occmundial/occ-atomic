@@ -8,9 +8,11 @@ ShallowWrapper {
       Object {
         "bottomBase": "bottomBase",
         "bottomLarge": "bottomLarge",
+        "bottomMedium": "bottomMedium",
         "bottomSmall": "bottomSmall",
         "bottomTiny": "bottomTiny",
         "bottomXLarge": "bottomXLarge",
+        "bottomXTiny": "bottomXTiny",
         "center": "center",
         "disabled": "disabled",
         "error": "error",
@@ -36,9 +38,11 @@ ShallowWrapper {
         "text": "text",
         "topBase": "topBase",
         "topLarge": "topLarge",
+        "topMedium": "topMedium",
         "topSmall": "topSmall",
         "topTiny": "topTiny",
         "topXLarge": "topXLarge",
+        "topXTiny": "topXTiny",
         "warning": "warning",
         "white": "white",
       }
@@ -49,7 +53,6 @@ ShallowWrapper {
   </Text>,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
-    "checkPropTypes": [Function],
     "getNode": [Function],
     "render": [Function],
     "simulateError": [Function],
@@ -63,6 +66,7 @@ ShallowWrapper {
     "props": Object {
       "children": "Text",
       "className": "text standard highEmphasis",
+      "id": undefined,
       "style": undefined,
     },
     "ref": null,
@@ -77,6 +81,7 @@ ShallowWrapper {
       "props": Object {
         "children": "Text",
         "className": "text standard highEmphasis",
+        "id": undefined,
         "style": undefined,
       },
       "ref": null,
@@ -88,18 +93,11 @@ ShallowWrapper {
     "adapter": ReactSixteenAdapter {
       "options": Object {
         "enableComponentDidUpdateOnSetState": true,
-        "legacyContextMode": "parent",
         "lifecycles": Object {
           "componentDidUpdate": Object {
             "onSetState": true,
           },
-          "getChildContext": Object {
-            "calledByRenderer": false,
-          },
-          "getDerivedStateFromError": true,
-          "getDerivedStateFromProps": Object {
-            "hasShouldComponentUpdateBug": false,
-          },
+          "getDerivedStateFromProps": true,
           "getSnapshotBeforeUpdate": true,
           "setState": Object {
             "skipsComponentDidUpdateOnNullish": true,
@@ -108,7 +106,6 @@ ShallowWrapper {
       },
     },
   },
-  Symbol(enzyme.__childContext__): null,
 }
 `;
 
@@ -120,6 +117,9 @@ Object {
   "bottomLarge": Object {
     "marginBottom": 48,
   },
+  "bottomMedium": Object {
+    "marginBottom": 32,
+  },
   "bottomSmall": Object {
     "marginBottom": 16,
   },
@@ -128,6 +128,9 @@ Object {
   },
   "bottomXLarge": Object {
     "marginBottom": 64,
+  },
+  "bottomXTiny": Object {
+    "marginBottom": 4,
   },
   "center": Object {
     "textAlign": "center",
@@ -226,6 +229,9 @@ Object {
   "topLarge": Object {
     "marginTop": 48,
   },
+  "topMedium": Object {
+    "marginTop": 32,
+  },
   "topSmall": Object {
     "marginTop": 16,
   },
@@ -234,6 +240,9 @@ Object {
   },
   "topXLarge": Object {
     "marginTop": 64,
+  },
+  "topXTiny": Object {
+    "marginTop": 4,
   },
   "warning": Object {
     "color": "#e69000",
@@ -254,7 +263,6 @@ ShallowWrapper {
   </Jss(Text)>,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
-    "checkPropTypes": [Function],
     "getNode": [Function],
     "render": [Function],
     "simulateError": [Function],
@@ -268,11 +276,13 @@ ShallowWrapper {
     "props": Object {
       "children": "Text",
       "classes": Object {
-        "bottomBase": "Text-bottomBase-0-1-33",
-        "bottomLarge": "Text-bottomLarge-0-1-34",
-        "bottomSmall": "Text-bottomSmall-0-1-32",
-        "bottomTiny": "Text-bottomTiny-0-1-31",
-        "bottomXLarge": "Text-bottomXLarge-0-1-35",
+        "bottomBase": "Text-bottomBase-0-1-36",
+        "bottomLarge": "Text-bottomLarge-0-1-38",
+        "bottomMedium": "Text-bottomMedium-0-1-37",
+        "bottomSmall": "Text-bottomSmall-0-1-35",
+        "bottomTiny": "Text-bottomTiny-0-1-34",
+        "bottomXLarge": "Text-bottomXLarge-0-1-39",
+        "bottomXTiny": "Text-bottomXTiny-0-1-33",
         "center": "Text-center-0-1-24",
         "disabled": "Text-disabled-0-1-17",
         "error": "Text-error-0-1-14",
@@ -296,11 +306,13 @@ ShallowWrapper {
         "subheading": "Text-subheading-0-1-5",
         "success": "Text-success-0-1-13",
         "text": "Text-text-0-1-1",
-        "topBase": "Text-topBase-0-1-28",
-        "topLarge": "Text-topLarge-0-1-29",
-        "topSmall": "Text-topSmall-0-1-27",
-        "topTiny": "Text-topTiny-0-1-26",
-        "topXLarge": "Text-topXLarge-0-1-30",
+        "topBase": "Text-topBase-0-1-29",
+        "topLarge": "Text-topLarge-0-1-31",
+        "topMedium": "Text-topMedium-0-1-30",
+        "topSmall": "Text-topSmall-0-1-28",
+        "topTiny": "Text-topTiny-0-1-27",
+        "topXLarge": "Text-topXLarge-0-1-32",
+        "topXTiny": "Text-topXTiny-0-1-26",
         "warning": "Text-warning-0-1-15",
         "white": "Text-white-0-1-18",
       },
@@ -318,11 +330,13 @@ ShallowWrapper {
       "props": Object {
         "children": "Text",
         "classes": Object {
-          "bottomBase": "Text-bottomBase-0-1-33",
-          "bottomLarge": "Text-bottomLarge-0-1-34",
-          "bottomSmall": "Text-bottomSmall-0-1-32",
-          "bottomTiny": "Text-bottomTiny-0-1-31",
-          "bottomXLarge": "Text-bottomXLarge-0-1-35",
+          "bottomBase": "Text-bottomBase-0-1-36",
+          "bottomLarge": "Text-bottomLarge-0-1-38",
+          "bottomMedium": "Text-bottomMedium-0-1-37",
+          "bottomSmall": "Text-bottomSmall-0-1-35",
+          "bottomTiny": "Text-bottomTiny-0-1-34",
+          "bottomXLarge": "Text-bottomXLarge-0-1-39",
+          "bottomXTiny": "Text-bottomXTiny-0-1-33",
           "center": "Text-center-0-1-24",
           "disabled": "Text-disabled-0-1-17",
           "error": "Text-error-0-1-14",
@@ -346,11 +360,13 @@ ShallowWrapper {
           "subheading": "Text-subheading-0-1-5",
           "success": "Text-success-0-1-13",
           "text": "Text-text-0-1-1",
-          "topBase": "Text-topBase-0-1-28",
-          "topLarge": "Text-topLarge-0-1-29",
-          "topSmall": "Text-topSmall-0-1-27",
-          "topTiny": "Text-topTiny-0-1-26",
-          "topXLarge": "Text-topXLarge-0-1-30",
+          "topBase": "Text-topBase-0-1-29",
+          "topLarge": "Text-topLarge-0-1-31",
+          "topMedium": "Text-topMedium-0-1-30",
+          "topSmall": "Text-topSmall-0-1-28",
+          "topTiny": "Text-topTiny-0-1-27",
+          "topXLarge": "Text-topXLarge-0-1-32",
+          "topXTiny": "Text-topXTiny-0-1-26",
           "warning": "Text-warning-0-1-15",
           "white": "Text-white-0-1-18",
         },
@@ -365,18 +381,11 @@ ShallowWrapper {
     "adapter": ReactSixteenAdapter {
       "options": Object {
         "enableComponentDidUpdateOnSetState": true,
-        "legacyContextMode": "parent",
         "lifecycles": Object {
           "componentDidUpdate": Object {
             "onSetState": true,
           },
-          "getChildContext": Object {
-            "calledByRenderer": false,
-          },
-          "getDerivedStateFromError": true,
-          "getDerivedStateFromProps": Object {
-            "hasShouldComponentUpdateBug": false,
-          },
+          "getDerivedStateFromProps": true,
           "getSnapshotBeforeUpdate": true,
           "setState": Object {
             "skipsComponentDidUpdateOnNullish": true,
@@ -385,6 +394,5 @@ ShallowWrapper {
       },
     },
   },
-  Symbol(enzyme.__childContext__): null,
 }
 `;

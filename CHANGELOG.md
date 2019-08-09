@@ -4,6 +4,114 @@ All notable changes to this project will be documented in this file.
 
 # Version 1
 
+## 1.7.x
+
+### 1.7.0
+- New icons.
+
+## 1.6.x
+
+### 1.6.5
+- New `topXTiny`, `bottomXTiny`, `topMedium` and `bottomMedium` props for `Text`.
+
+### 1.6.4
+- New `upload` icon.
+
+### 1.6.3
+- Change in height of the textarea type of `TextField`.
+
+### 1.6.2
+- Changes in `Pills stack`.
+
+### 1.6.1
+- New `trash` icon.
+
+### 1.6.0-beta.4
+- Fix in the value returned by the `onKeyUp` function in `TextField`.
+
+### 1.6.0-beta.3
+- Fix in `Flexbox` props.
+
+### 1.6.0-beta.2
+- Fix with `Droplist` spacing in `Autocomplete`.
+
+### 1.6.0-beta.1
+- Added the `natives` library to resolve build problems.
+
+### 1.6.0-beta.0
+- Significant changes in `Autocomplete` and `Droplist` components.
+
+## 1.5.x
+
+### 1.5.1
+- Changes in propTypes for `Avatar`, `Button`, `Card`, `Checkbox`, `Droplist`, `Flexbox`, `Grid`, `Icon` and `Modal`.
+
+### 1.5.0
+- Deprecation of the following components: `Autocomplete`, `ButtonAlign`, `Check`, `Column`, `Container`, `Row`, `Header`, `Menu`, `Nav`, `SightLogo`, `Input`, `LayerApp`, `SubHeader`, `SwitchGroup`, `Title`, `Visible`.
+
+## 1.4.x
+
+### 1.4.13
+- Changes in the grid of `NavTab` and `NavTop`.
+
+### 1.4.12
+- The `secBtn` prop in the `Modal` component accepts now `href` and `target`.
+
+### 1.4.11
+- New `id` prop for `Text`.
+- New `onToggle` prop for `SlideDown`.
+
+### 1.4.10
+- The `onClose` prop in `Modal` is now optional.
+
+### 1.4.9
+- Fix for fixed bottom style in `NavTab` for iOS.
+
+### 1.4.8
+- Changes in `Modal`, `SlideDown` and `Pill`, to implement ids.
+- Fix in `NavAside`.
+
+### 1.4.7
+- Changes in `publications` icon.
+
+### 1.4.6
+- The `mainBtn` prop in the `Modal` component accepts now `href` and `target`.
+
+### 1.4.5
+- Change in scroll behavior for `NavTab`.
+
+### 1.4.4
+- New `textOverflow` prop for `Radio` and `Checkbox`.
+
+### 1.4.3
+- New icon.
+
+### 1.4.2
+- New icons and changes in some icons.
+
+### 1.4.1
+- New `NavAside` component.
+
+### 1.4.0-beta.4
+- New `iconRight` prop for `Button`.
+- New icons.
+
+### 1.4.0-beta.3
+- Changes in `NavTab`. It accepts now the `flexCenter`, `fixed`, `hideOnScroll` and `bottom` props.
+- New `NavIcon` component.
+
+### 1.4.0-beta.2
+- New `SlideToggle` component.
+- New `cross` icon.
+
+### 1.4.0-beta.1
+- New icons.
+
+### 1.4.0-beta.0
+- Developing the `NavTab`, `NavItem` and `NavTop` components.
+- Added new icons.
+- New `link` theme for `Text` component.
+
 ## 1.3.x
 
 ### 1.3.12

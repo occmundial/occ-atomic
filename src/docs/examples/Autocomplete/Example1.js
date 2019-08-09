@@ -16,7 +16,7 @@ export default function Example1() {
                 itemTextKey:"name",
                 itemTextRightKey:"secondary"
             }}
-            inputProps={{
+            textfieldProps={{
                 label:"Label",
                 placeholder:"Placeholder",
                 valueProp:"Item"

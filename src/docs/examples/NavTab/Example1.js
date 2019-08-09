@@ -1,4 +1,4 @@
-/* NavTab */
+/* NavTab with NavTop */
 import React from 'react';
 import { NavTab, Icon, colors } from '@occmundial/occ-atomic';
 

@@ -1,4 +1,4 @@
-/* NavItem */
+/* NavItem white */
 import React from 'react';
 import { NavItem, colors } from '@occmundial/occ-atomic';
 

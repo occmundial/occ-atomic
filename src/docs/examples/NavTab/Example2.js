@@ -1,4 +1,4 @@
-/* NavTab */
+/* NavTab with center */
 import React from 'react';
 import { NavTab } from '@occmundial/occ-atomic';
 

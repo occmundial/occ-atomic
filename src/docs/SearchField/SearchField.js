@@ -1,13 +1,13 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Input } from '@occmundial/occ-atomic';
+import { TextField } from '@occmundial/occ-atomic';
 
 class SearchField extends React.Component{
     render() {
         const { onChange, onClear, value } = this.props;
         return (
             <div>
-                <Input
+                <TextField
                     placeholder="Component"
                     onChange={onChange}
                     clear

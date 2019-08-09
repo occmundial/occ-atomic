@@ -18,7 +18,6 @@ ShallowWrapper {
   />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
-    "checkPropTypes": [Function],
     "getNode": [Function],
     "render": [Function],
     "simulateError": [Function],
@@ -175,18 +174,11 @@ ShallowWrapper {
     "adapter": ReactSixteenAdapter {
       "options": Object {
         "enableComponentDidUpdateOnSetState": true,
-        "legacyContextMode": "parent",
         "lifecycles": Object {
           "componentDidUpdate": Object {
             "onSetState": true,
           },
-          "getChildContext": Object {
-            "calledByRenderer": false,
-          },
-          "getDerivedStateFromError": true,
-          "getDerivedStateFromProps": Object {
-            "hasShouldComponentUpdateBug": false,
-          },
+          "getDerivedStateFromProps": true,
           "getSnapshotBeforeUpdate": true,
           "setState": Object {
             "skipsComponentDidUpdateOnNullish": true,
@@ -195,7 +187,6 @@ ShallowWrapper {
       },
     },
   },
-  Symbol(enzyme.__childContext__): null,
 }
 `;
 
@@ -262,7 +253,6 @@ ShallowWrapper {
   Symbol(enzyme.__unrendered__): <Jss(SlideToggle) />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
-    "checkPropTypes": [Function],
     "getNode": [Function],
     "render": [Function],
     "simulateError": [Function],
@@ -275,13 +265,13 @@ ShallowWrapper {
     "nodeType": "class",
     "props": Object {
       "classes": Object {
-        "checked": "SlideToggle-checked-0-1-38",
-        "cont": "SlideToggle-cont-0-1-36",
-        "disabled": "SlideToggle-disabled-0-1-41",
-        "icon": "SlideToggle-icon-0-1-40",
-        "label": "SlideToggle-label-0-1-42",
-        "slider": "SlideToggle-slider-0-1-39",
-        "switch": "SlideToggle-switch-0-1-37",
+        "checked": "SlideToggle-checked-0-1-42",
+        "cont": "SlideToggle-cont-0-1-40",
+        "disabled": "SlideToggle-disabled-0-1-45",
+        "icon": "SlideToggle-icon-0-1-44",
+        "label": "SlideToggle-label-0-1-46",
+        "slider": "SlideToggle-slider-0-1-43",
+        "switch": "SlideToggle-switch-0-1-41",
       },
     },
     "ref": null,
@@ -295,13 +285,13 @@ ShallowWrapper {
       "nodeType": "class",
       "props": Object {
         "classes": Object {
-          "checked": "SlideToggle-checked-0-1-38",
-          "cont": "SlideToggle-cont-0-1-36",
-          "disabled": "SlideToggle-disabled-0-1-41",
-          "icon": "SlideToggle-icon-0-1-40",
-          "label": "SlideToggle-label-0-1-42",
-          "slider": "SlideToggle-slider-0-1-39",
-          "switch": "SlideToggle-switch-0-1-37",
+          "checked": "SlideToggle-checked-0-1-42",
+          "cont": "SlideToggle-cont-0-1-40",
+          "disabled": "SlideToggle-disabled-0-1-45",
+          "icon": "SlideToggle-icon-0-1-44",
+          "label": "SlideToggle-label-0-1-46",
+          "slider": "SlideToggle-slider-0-1-43",
+          "switch": "SlideToggle-switch-0-1-41",
         },
       },
       "ref": null,
@@ -313,18 +303,11 @@ ShallowWrapper {
     "adapter": ReactSixteenAdapter {
       "options": Object {
         "enableComponentDidUpdateOnSetState": true,
-        "legacyContextMode": "parent",
         "lifecycles": Object {
           "componentDidUpdate": Object {
             "onSetState": true,
           },
-          "getChildContext": Object {
-            "calledByRenderer": false,
-          },
-          "getDerivedStateFromError": true,
-          "getDerivedStateFromProps": Object {
-            "hasShouldComponentUpdateBug": false,
-          },
+          "getDerivedStateFromProps": true,
           "getSnapshotBeforeUpdate": true,
           "setState": Object {
             "skipsComponentDidUpdateOnNullish": true,
@@ -333,6 +316,5 @@ ShallowWrapper {
       },
     },
   },
-  Symbol(enzyme.__childContext__): null,
 }
 `;

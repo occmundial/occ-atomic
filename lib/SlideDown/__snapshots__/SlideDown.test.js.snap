@@ -20,7 +20,6 @@ ShallowWrapper {
   />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
-    "checkPropTypes": [Function],
     "getNode": [Function],
     "render": [Function],
     "simulateError": [Function],
@@ -617,18 +616,11 @@ ShallowWrapper {
     "adapter": ReactSixteenAdapter {
       "options": Object {
         "enableComponentDidUpdateOnSetState": true,
-        "legacyContextMode": "parent",
         "lifecycles": Object {
           "componentDidUpdate": Object {
             "onSetState": true,
           },
-          "getChildContext": Object {
-            "calledByRenderer": false,
-          },
-          "getDerivedStateFromError": true,
-          "getDerivedStateFromProps": Object {
-            "hasShouldComponentUpdateBug": false,
-          },
+          "getDerivedStateFromProps": true,
           "getSnapshotBeforeUpdate": true,
           "setState": Object {
             "skipsComponentDidUpdateOnNullish": true,
@@ -637,7 +629,6 @@ ShallowWrapper {
       },
     },
   },
-  Symbol(enzyme.__childContext__): null,
 }
 `;
 
@@ -686,7 +677,6 @@ ShallowWrapper {
   />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
-    "checkPropTypes": [Function],
     "getNode": [Function],
     "render": [Function],
     "simulateError": [Function],
@@ -699,14 +689,14 @@ ShallowWrapper {
     "nodeType": "class",
     "props": Object {
       "classes": Object {
-        "button": "SlideDown-button-0-1-103",
-        "content": "SlideDown-content-0-1-105",
-        "hide": "SlideDown-hide-0-1-106",
-        "icon": "SlideDown-icon-0-1-109",
-        "show": "SlideDown-show-0-1-107",
-        "tag": "SlideDown-tag-0-1-108",
-        "text": "SlideDown-text-0-1-104",
-        "wrapper": "SlideDown-wrapper-0-1-102",
+        "button": "SlideDown-button-0-1-107",
+        "content": "SlideDown-content-0-1-109",
+        "hide": "SlideDown-hide-0-1-110",
+        "icon": "SlideDown-icon-0-1-113",
+        "show": "SlideDown-show-0-1-111",
+        "tag": "SlideDown-tag-0-1-112",
+        "text": "SlideDown-text-0-1-108",
+        "wrapper": "SlideDown-wrapper-0-1-106",
       },
       "expanded": false,
     },
@@ -721,14 +711,14 @@ ShallowWrapper {
       "nodeType": "class",
       "props": Object {
         "classes": Object {
-          "button": "SlideDown-button-0-1-103",
-          "content": "SlideDown-content-0-1-105",
-          "hide": "SlideDown-hide-0-1-106",
-          "icon": "SlideDown-icon-0-1-109",
-          "show": "SlideDown-show-0-1-107",
-          "tag": "SlideDown-tag-0-1-108",
-          "text": "SlideDown-text-0-1-104",
-          "wrapper": "SlideDown-wrapper-0-1-102",
+          "button": "SlideDown-button-0-1-107",
+          "content": "SlideDown-content-0-1-109",
+          "hide": "SlideDown-hide-0-1-110",
+          "icon": "SlideDown-icon-0-1-113",
+          "show": "SlideDown-show-0-1-111",
+          "tag": "SlideDown-tag-0-1-112",
+          "text": "SlideDown-text-0-1-108",
+          "wrapper": "SlideDown-wrapper-0-1-106",
         },
         "expanded": false,
       },
@@ -741,18 +731,11 @@ ShallowWrapper {
     "adapter": ReactSixteenAdapter {
       "options": Object {
         "enableComponentDidUpdateOnSetState": true,
-        "legacyContextMode": "parent",
         "lifecycles": Object {
           "componentDidUpdate": Object {
             "onSetState": true,
           },
-          "getChildContext": Object {
-            "calledByRenderer": false,
-          },
-          "getDerivedStateFromError": true,
-          "getDerivedStateFromProps": Object {
-            "hasShouldComponentUpdateBug": false,
-          },
+          "getDerivedStateFromProps": true,
           "getSnapshotBeforeUpdate": true,
           "setState": Object {
             "skipsComponentDidUpdateOnNullish": true,
@@ -761,6 +744,5 @@ ShallowWrapper {
       },
     },
   },
-  Symbol(enzyme.__childContext__): null,
 }
 `;

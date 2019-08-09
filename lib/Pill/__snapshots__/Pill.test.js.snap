@@ -40,7 +40,6 @@ ShallowWrapper {
   />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
-    "checkPropTypes": [Function],
     "getNode": [Function],
     "render": [Function],
     "simulateError": [Function],
@@ -60,6 +59,7 @@ ShallowWrapper {
           <Jss(Choice)
             disabled={undefined}
             id={1}
+            idPrefix={undefined}
             onClick={[Function]}
             selected={undefined}
           >
@@ -68,6 +68,7 @@ ShallowWrapper {
           <Jss(Choice)
             disabled={undefined}
             id={2}
+            idPrefix={undefined}
             onClick={[Function]}
             selected={undefined}
           >
@@ -76,6 +77,7 @@ ShallowWrapper {
           <Jss(Choice)
             disabled={undefined}
             id={3}
+            idPrefix={undefined}
             onClick={[Function]}
             selected={undefined}
           >
@@ -84,6 +86,7 @@ ShallowWrapper {
           <Jss(Choice)
             disabled={undefined}
             id={4}
+            idPrefix={undefined}
             onClick={[Function]}
             selected={undefined}
           >
@@ -108,6 +111,7 @@ ShallowWrapper {
             <Jss(Choice)
               disabled={undefined}
               id={1}
+              idPrefix={undefined}
               onClick={[Function]}
               selected={undefined}
             >
@@ -116,6 +120,7 @@ ShallowWrapper {
             <Jss(Choice)
               disabled={undefined}
               id={2}
+              idPrefix={undefined}
               onClick={[Function]}
               selected={undefined}
             >
@@ -124,6 +129,7 @@ ShallowWrapper {
             <Jss(Choice)
               disabled={undefined}
               id={3}
+              idPrefix={undefined}
               onClick={[Function]}
               selected={undefined}
             >
@@ -132,6 +138,7 @@ ShallowWrapper {
             <Jss(Choice)
               disabled={undefined}
               id={4}
+              idPrefix={undefined}
               onClick={[Function]}
               selected={undefined}
             >
@@ -150,6 +157,7 @@ ShallowWrapper {
               "children": "foo",
               "disabled": undefined,
               "id": 1,
+              "idPrefix": undefined,
               "onClick": [Function],
               "selected": undefined,
             },
@@ -165,6 +173,7 @@ ShallowWrapper {
               "children": "bar",
               "disabled": undefined,
               "id": 2,
+              "idPrefix": undefined,
               "onClick": [Function],
               "selected": undefined,
             },
@@ -180,6 +189,7 @@ ShallowWrapper {
               "children": "baz",
               "disabled": undefined,
               "id": 3,
+              "idPrefix": undefined,
               "onClick": [Function],
               "selected": undefined,
             },
@@ -195,6 +205,7 @@ ShallowWrapper {
               "children": "qux",
               "disabled": undefined,
               "id": 4,
+              "idPrefix": undefined,
               "onClick": [Function],
               "selected": undefined,
             },
@@ -223,6 +234,7 @@ ShallowWrapper {
             <Jss(Choice)
               disabled={undefined}
               id={1}
+              idPrefix={undefined}
               onClick={[Function]}
               selected={undefined}
             >
@@ -231,6 +243,7 @@ ShallowWrapper {
             <Jss(Choice)
               disabled={undefined}
               id={2}
+              idPrefix={undefined}
               onClick={[Function]}
               selected={undefined}
             >
@@ -239,6 +252,7 @@ ShallowWrapper {
             <Jss(Choice)
               disabled={undefined}
               id={3}
+              idPrefix={undefined}
               onClick={[Function]}
               selected={undefined}
             >
@@ -247,6 +261,7 @@ ShallowWrapper {
             <Jss(Choice)
               disabled={undefined}
               id={4}
+              idPrefix={undefined}
               onClick={[Function]}
               selected={undefined}
             >
@@ -271,6 +286,7 @@ ShallowWrapper {
               <Jss(Choice)
                 disabled={undefined}
                 id={1}
+                idPrefix={undefined}
                 onClick={[Function]}
                 selected={undefined}
               >
@@ -279,6 +295,7 @@ ShallowWrapper {
               <Jss(Choice)
                 disabled={undefined}
                 id={2}
+                idPrefix={undefined}
                 onClick={[Function]}
                 selected={undefined}
               >
@@ -287,6 +304,7 @@ ShallowWrapper {
               <Jss(Choice)
                 disabled={undefined}
                 id={3}
+                idPrefix={undefined}
                 onClick={[Function]}
                 selected={undefined}
               >
@@ -295,6 +313,7 @@ ShallowWrapper {
               <Jss(Choice)
                 disabled={undefined}
                 id={4}
+                idPrefix={undefined}
                 onClick={[Function]}
                 selected={undefined}
               >
@@ -313,6 +332,7 @@ ShallowWrapper {
                 "children": "foo",
                 "disabled": undefined,
                 "id": 1,
+                "idPrefix": undefined,
                 "onClick": [Function],
                 "selected": undefined,
               },
@@ -328,6 +348,7 @@ ShallowWrapper {
                 "children": "bar",
                 "disabled": undefined,
                 "id": 2,
+                "idPrefix": undefined,
                 "onClick": [Function],
                 "selected": undefined,
               },
@@ -343,6 +364,7 @@ ShallowWrapper {
                 "children": "baz",
                 "disabled": undefined,
                 "id": 3,
+                "idPrefix": undefined,
                 "onClick": [Function],
                 "selected": undefined,
               },
@@ -358,6 +380,7 @@ ShallowWrapper {
                 "children": "qux",
                 "disabled": undefined,
                 "id": 4,
+                "idPrefix": undefined,
                 "onClick": [Function],
                 "selected": undefined,
               },
@@ -377,18 +400,11 @@ ShallowWrapper {
     "adapter": ReactSixteenAdapter {
       "options": Object {
         "enableComponentDidUpdateOnSetState": true,
-        "legacyContextMode": "parent",
         "lifecycles": Object {
           "componentDidUpdate": Object {
             "onSetState": true,
           },
-          "getChildContext": Object {
-            "calledByRenderer": false,
-          },
-          "getDerivedStateFromError": true,
-          "getDerivedStateFromProps": Object {
-            "hasShouldComponentUpdateBug": false,
-          },
+          "getDerivedStateFromProps": true,
           "getSnapshotBeforeUpdate": true,
           "setState": Object {
             "skipsComponentDidUpdateOnNullish": true,
@@ -397,7 +413,6 @@ ShallowWrapper {
       },
     },
   },
-  Symbol(enzyme.__childContext__): null,
 }
 `;
 
@@ -441,7 +456,6 @@ ShallowWrapper {
   />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
-    "checkPropTypes": [Function],
     "getNode": [Function],
     "render": [Function],
     "simulateError": [Function],
@@ -456,6 +470,7 @@ ShallowWrapper {
       "children": Array [
         undefined,
         <Jss(Group)
+          idPrefix={undefined}
           items={
             Array [
               Object {
@@ -493,6 +508,7 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "class",
         "props": Object {
+          "idPrefix": undefined,
           "items": Array [
             Object {
               "id": 1,
@@ -531,6 +547,7 @@ ShallowWrapper {
         "children": Array [
           undefined,
           <Jss(Group)
+            idPrefix={undefined}
             items={
               Array [
                 Object {
@@ -568,6 +585,7 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "class",
           "props": Object {
+            "idPrefix": undefined,
             "items": Array [
               Object {
                 "id": 1,
@@ -602,18 +620,11 @@ ShallowWrapper {
     "adapter": ReactSixteenAdapter {
       "options": Object {
         "enableComponentDidUpdateOnSetState": true,
-        "legacyContextMode": "parent",
         "lifecycles": Object {
           "componentDidUpdate": Object {
             "onSetState": true,
           },
-          "getChildContext": Object {
-            "calledByRenderer": false,
-          },
-          "getDerivedStateFromError": true,
-          "getDerivedStateFromProps": Object {
-            "hasShouldComponentUpdateBug": false,
-          },
+          "getDerivedStateFromProps": true,
           "getSnapshotBeforeUpdate": true,
           "setState": Object {
             "skipsComponentDidUpdateOnNullish": true,
@@ -622,7 +633,6 @@ ShallowWrapper {
       },
     },
   },
-  Symbol(enzyme.__childContext__): null,
 }
 `;
 
@@ -666,7 +676,6 @@ ShallowWrapper {
   />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
-    "checkPropTypes": [Function],
     "getNode": [Function],
     "render": [Function],
     "simulateError": [Function],
@@ -686,32 +695,36 @@ ShallowWrapper {
           <Jss(Stack)
             disabled={undefined}
             id={1}
-            onClick={[Function]}
-            onClose={[Function]}
+            idPrefix={undefined}
+            onClick={null}
+            onClose={null}
           >
             foo
           </Jss(Stack)>
           <Jss(Stack)
             disabled={undefined}
             id={2}
-            onClick={[Function]}
-            onClose={[Function]}
+            idPrefix={undefined}
+            onClick={null}
+            onClose={null}
           >
             bar
           </Jss(Stack)>
           <Jss(Stack)
             disabled={undefined}
             id={3}
-            onClick={[Function]}
-            onClose={[Function]}
+            idPrefix={undefined}
+            onClick={null}
+            onClose={null}
           >
             baz
           </Jss(Stack)>
           <Jss(Stack)
             disabled={undefined}
             id={4}
-            onClick={[Function]}
-            onClose={[Function]}
+            idPrefix={undefined}
+            onClick={null}
+            onClose={null}
           >
             qux
           </Jss(Stack)>
@@ -734,32 +747,36 @@ ShallowWrapper {
             <Jss(Stack)
               disabled={undefined}
               id={1}
-              onClick={[Function]}
-              onClose={[Function]}
+              idPrefix={undefined}
+              onClick={null}
+              onClose={null}
             >
               foo
             </Jss(Stack)>,
             <Jss(Stack)
               disabled={undefined}
               id={2}
-              onClick={[Function]}
-              onClose={[Function]}
+              idPrefix={undefined}
+              onClick={null}
+              onClose={null}
             >
               bar
             </Jss(Stack)>,
             <Jss(Stack)
               disabled={undefined}
               id={3}
-              onClick={[Function]}
-              onClose={[Function]}
+              idPrefix={undefined}
+              onClick={null}
+              onClose={null}
             >
               baz
             </Jss(Stack)>,
             <Jss(Stack)
               disabled={undefined}
               id={4}
-              onClick={[Function]}
-              onClose={[Function]}
+              idPrefix={undefined}
+              onClick={null}
+              onClose={null}
             >
               qux
             </Jss(Stack)>,
@@ -776,8 +793,9 @@ ShallowWrapper {
               "children": "foo",
               "disabled": undefined,
               "id": 1,
-              "onClick": [Function],
-              "onClose": [Function],
+              "idPrefix": undefined,
+              "onClick": null,
+              "onClose": null,
             },
             "ref": null,
             "rendered": "foo",
@@ -791,8 +809,9 @@ ShallowWrapper {
               "children": "bar",
               "disabled": undefined,
               "id": 2,
-              "onClick": [Function],
-              "onClose": [Function],
+              "idPrefix": undefined,
+              "onClick": null,
+              "onClose": null,
             },
             "ref": null,
             "rendered": "bar",
@@ -806,8 +825,9 @@ ShallowWrapper {
               "children": "baz",
               "disabled": undefined,
               "id": 3,
-              "onClick": [Function],
-              "onClose": [Function],
+              "idPrefix": undefined,
+              "onClick": null,
+              "onClose": null,
             },
             "ref": null,
             "rendered": "baz",
@@ -821,8 +841,9 @@ ShallowWrapper {
               "children": "qux",
               "disabled": undefined,
               "id": 4,
-              "onClick": [Function],
-              "onClose": [Function],
+              "idPrefix": undefined,
+              "onClick": null,
+              "onClose": null,
             },
             "ref": null,
             "rendered": "qux",
@@ -849,32 +870,36 @@ ShallowWrapper {
             <Jss(Stack)
               disabled={undefined}
               id={1}
-              onClick={[Function]}
-              onClose={[Function]}
+              idPrefix={undefined}
+              onClick={null}
+              onClose={null}
             >
               foo
             </Jss(Stack)>
             <Jss(Stack)
               disabled={undefined}
               id={2}
-              onClick={[Function]}
-              onClose={[Function]}
+              idPrefix={undefined}
+              onClick={null}
+              onClose={null}
             >
               bar
             </Jss(Stack)>
             <Jss(Stack)
               disabled={undefined}
               id={3}
-              onClick={[Function]}
-              onClose={[Function]}
+              idPrefix={undefined}
+              onClick={null}
+              onClose={null}
             >
               baz
             </Jss(Stack)>
             <Jss(Stack)
               disabled={undefined}
               id={4}
-              onClick={[Function]}
-              onClose={[Function]}
+              idPrefix={undefined}
+              onClick={null}
+              onClose={null}
             >
               qux
             </Jss(Stack)>
@@ -897,32 +922,36 @@ ShallowWrapper {
               <Jss(Stack)
                 disabled={undefined}
                 id={1}
-                onClick={[Function]}
-                onClose={[Function]}
+                idPrefix={undefined}
+                onClick={null}
+                onClose={null}
               >
                 foo
               </Jss(Stack)>,
               <Jss(Stack)
                 disabled={undefined}
                 id={2}
-                onClick={[Function]}
-                onClose={[Function]}
+                idPrefix={undefined}
+                onClick={null}
+                onClose={null}
               >
                 bar
               </Jss(Stack)>,
               <Jss(Stack)
                 disabled={undefined}
                 id={3}
-                onClick={[Function]}
-                onClose={[Function]}
+                idPrefix={undefined}
+                onClick={null}
+                onClose={null}
               >
                 baz
               </Jss(Stack)>,
               <Jss(Stack)
                 disabled={undefined}
                 id={4}
-                onClick={[Function]}
-                onClose={[Function]}
+                idPrefix={undefined}
+                onClick={null}
+                onClose={null}
               >
                 qux
               </Jss(Stack)>,
@@ -939,8 +968,9 @@ ShallowWrapper {
                 "children": "foo",
                 "disabled": undefined,
                 "id": 1,
-                "onClick": [Function],
-                "onClose": [Function],
+                "idPrefix": undefined,
+                "onClick": null,
+                "onClose": null,
               },
               "ref": null,
               "rendered": "foo",
@@ -954,8 +984,9 @@ ShallowWrapper {
                 "children": "bar",
                 "disabled": undefined,
                 "id": 2,
-                "onClick": [Function],
-                "onClose": [Function],
+                "idPrefix": undefined,
+                "onClick": null,
+                "onClose": null,
               },
               "ref": null,
               "rendered": "bar",
@@ -969,8 +1000,9 @@ ShallowWrapper {
                 "children": "baz",
                 "disabled": undefined,
                 "id": 3,
-                "onClick": [Function],
-                "onClose": [Function],
+                "idPrefix": undefined,
+                "onClick": null,
+                "onClose": null,
               },
               "ref": null,
               "rendered": "baz",
@@ -984,8 +1016,9 @@ ShallowWrapper {
                 "children": "qux",
                 "disabled": undefined,
                 "id": 4,
-                "onClick": [Function],
-                "onClose": [Function],
+                "idPrefix": undefined,
+                "onClick": null,
+                "onClose": null,
               },
               "ref": null,
               "rendered": "qux",
@@ -1003,18 +1036,11 @@ ShallowWrapper {
     "adapter": ReactSixteenAdapter {
       "options": Object {
         "enableComponentDidUpdateOnSetState": true,
-        "legacyContextMode": "parent",
         "lifecycles": Object {
           "componentDidUpdate": Object {
             "onSetState": true,
           },
-          "getChildContext": Object {
-            "calledByRenderer": false,
-          },
-          "getDerivedStateFromError": true,
-          "getDerivedStateFromProps": Object {
-            "hasShouldComponentUpdateBug": false,
-          },
+          "getDerivedStateFromProps": true,
           "getSnapshotBeforeUpdate": true,
           "setState": Object {
             "skipsComponentDidUpdateOnNullish": true,
@@ -1023,7 +1049,6 @@ ShallowWrapper {
       },
     },
   },
-  Symbol(enzyme.__childContext__): null,
 }
 `;
 
@@ -1103,7 +1128,6 @@ ShallowWrapper {
   />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
-    "checkPropTypes": [Function],
     "getNode": [Function],
     "render": [Function],
     "simulateError": [Function],
@@ -1194,18 +1218,11 @@ ShallowWrapper {
     "adapter": ReactSixteenAdapter {
       "options": Object {
         "enableComponentDidUpdateOnSetState": true,
-        "legacyContextMode": "parent",
         "lifecycles": Object {
           "componentDidUpdate": Object {
             "onSetState": true,
           },
-          "getChildContext": Object {
-            "calledByRenderer": false,
-          },
-          "getDerivedStateFromError": true,
-          "getDerivedStateFromProps": Object {
-            "hasShouldComponentUpdateBug": false,
-          },
+          "getDerivedStateFromProps": true,
           "getSnapshotBeforeUpdate": true,
           "setState": Object {
             "skipsComponentDidUpdateOnNullish": true,
@@ -1214,6 +1231,5 @@ ShallowWrapper {
       },
     },
   },
-  Symbol(enzyme.__childContext__): null,
 }
 `;

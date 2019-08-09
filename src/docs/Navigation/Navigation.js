@@ -42,9 +42,9 @@ class Navigation extends React.Component {
                             <li className={classes.li}>
                                 <a href="#Colors" className={classes.a}>Colors</a>
                             </li>
-                            {/* <li className={classes.li}>
+                            <li className={classes.li}>
                             <a href="#Icons" className={classes.a}>Icons</a>
-                            </li> */}
+                            </li>
                             {/* <li className={classes.li}>
                                 <a href="#Fonts" className={classes.a}>Fonts</a>
                             </li>
