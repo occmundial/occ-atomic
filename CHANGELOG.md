@@ -4,6 +4,11 @@ All notable changes to this project will be documented in this file.
 
 # Version 1
 
+## 1.7.x
+
+### 1.7.0
+- New icons.
+
 ## 1.6.x
 
 ### 1.6.5
