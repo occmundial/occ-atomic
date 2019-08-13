@@ -4,6 +4,11 @@ All notable changes to this project will be documented in this file.
 
 # Version 1
 
+## 1.8.x
+
+### 1.8.0
+- New `Tip` component.
+
 ## 1.7.x
 
 ### 1.7.0
