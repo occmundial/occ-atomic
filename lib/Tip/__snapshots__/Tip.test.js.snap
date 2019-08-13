@@ -14,7 +14,6 @@ ShallowWrapper {
         "warning": "warning",
       }
     }
-    text=""
     theme="info"
   />,
   Symbol(enzyme.__renderer__): Object {
@@ -42,9 +41,7 @@ ShallowWrapper {
             info={true}
             standard={true}
             tag="p"
-          >
-            
-          </Jss(Text)>
+          />
         </Jss(Flexbox)>
       </Jss(Flexbox)>,
       "className": undefined,
@@ -66,9 +63,7 @@ ShallowWrapper {
               info={true}
               standard={true}
               tag="p"
-            >
-              
-            </Jss(Text)>
+            />
           </Jss(Flexbox)>,
         ],
         "className": "container info",
@@ -87,9 +82,7 @@ ShallowWrapper {
               info={true}
               standard={true}
               tag="p"
-            >
-              
-            </Jss(Text)>,
+            />,
             "flex": "1",
           },
           "ref": null,
@@ -99,7 +92,7 @@ ShallowWrapper {
             "nodeType": "class",
             "props": Object {
               "children": Array [
-                "",
+                undefined,
               ],
               "info": true,
               "standard": true,
@@ -107,7 +100,7 @@ ShallowWrapper {
             },
             "ref": null,
             "rendered": Array [
-              "",
+              undefined,
             ],
             "type": [Function],
           },
@@ -136,9 +129,7 @@ ShallowWrapper {
               info={true}
               standard={true}
               tag="p"
-            >
-              
-            </Jss(Text)>
+            />
           </Jss(Flexbox)>
         </Jss(Flexbox)>,
         "className": undefined,
@@ -160,9 +151,7 @@ ShallowWrapper {
                 info={true}
                 standard={true}
                 tag="p"
-              >
-                
-              </Jss(Text)>
+              />
             </Jss(Flexbox)>,
           ],
           "className": "container info",
@@ -181,9 +170,7 @@ ShallowWrapper {
                 info={true}
                 standard={true}
                 tag="p"
-              >
-                
-              </Jss(Text)>,
+              />,
               "flex": "1",
             },
             "ref": null,
@@ -193,7 +180,7 @@ ShallowWrapper {
               "nodeType": "class",
               "props": Object {
                 "children": Array [
-                  "",
+                  undefined,
                 ],
                 "info": true,
                 "standard": true,
@@ -201,7 +188,7 @@ ShallowWrapper {
               },
               "ref": null,
               "rendered": Array [
-                "",
+                undefined,
               ],
               "type": [Function],
             },
@@ -264,7 +251,6 @@ exports[`TipJSS matches the snapshot 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <Jss(Tip)
-    text=""
     theme="info"
   />,
   Symbol(enzyme.__renderer__): Object {
@@ -288,7 +274,6 @@ ShallowWrapper {
         "success": "Tip-success-0-1-75",
         "warning": "Tip-warning-0-1-74",
       },
-      "text": "",
       "theme": "info",
     },
     "ref": null,
@@ -309,7 +294,6 @@ ShallowWrapper {
           "success": "Tip-success-0-1-75",
           "warning": "Tip-warning-0-1-74",
         },
-        "text": "",
         "theme": "info",
       },
       "ref": null,
