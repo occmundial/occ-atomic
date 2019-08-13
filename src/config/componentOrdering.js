@@ -35,7 +35,8 @@ module.exports = [
             'SwitchGroup',
             'Pill',
             'Modal',
-            'Placeholder'
+            'Placeholder',
+            'Tip'
         ]
     },
     {
