@@ -1,13 +1,14 @@
-/* Default Info Tip */
+/* Themes of Tip */
 import React from 'react';
 import { Tip } from '@occmundial/occ-atomic';
 
 export default function Example1() {
     return (
-        <Tip
-          text="Ahora puedes llegar a más candidatos cuando busquen por ubicación. "
-          bold="Escribe el nombre de la Colonia o la Delegación/Ciudad o el Estado y escoge una de las opciones que se presentan."
-          complement=" Tu vacante aparecerá en más búsquedas y con mayor relevancia por la ubicación de los candidatos."
-        />
+        <div>
+            <Tip text="Tip with some simple text." theme="info" />
+            <Tip text="Tip with some simple text." theme="warning" />
+            <Tip text="Tip with some simple text." theme="success" />
+            <Tip text="Tip with some simple text." theme="error" />
+        </div>
     );
 }
