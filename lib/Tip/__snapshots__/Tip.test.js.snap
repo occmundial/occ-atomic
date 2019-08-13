@@ -1,0 +1,338 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tip matches the snapshot 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Tip
+    classes={
+      Object {
+        "container": "container",
+        "error": "error",
+        "icon": "icon",
+        "info": "info",
+        "success": "success",
+        "warning": "warning",
+      }
+    }
+    text=""
+    theme="info"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <Jss(Flexbox)
+        className="container info"
+        display="flex"
+        justifyContent="start"
+      >
+        <Jss(Flexbox)
+          flex="1"
+        >
+          <Jss(Text)
+            info={true}
+            standard={true}
+            tag="p"
+          >
+            
+          </Jss(Text)>
+        </Jss(Flexbox)>
+      </Jss(Flexbox)>,
+      "className": undefined,
+      "id": undefined,
+      "style": undefined,
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": Array [
+          undefined,
+          <Jss(Flexbox)
+            flex="1"
+          >
+            <Jss(Text)
+              info={true}
+              standard={true}
+              tag="p"
+            >
+              
+            </Jss(Text)>
+          </Jss(Flexbox)>,
+        ],
+        "className": "container info",
+        "display": "flex",
+        "justifyContent": "start",
+      },
+      "ref": null,
+      "rendered": Array [
+        undefined,
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": <Jss(Text)
+              info={true}
+              standard={true}
+              tag="p"
+            >
+              
+            </Jss(Text)>,
+            "flex": "1",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": Array [
+                "",
+              ],
+              "info": true,
+              "standard": true,
+              "tag": "p",
+            },
+            "ref": null,
+            "rendered": Array [
+              "",
+            ],
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <Jss(Flexbox)
+          className="container info"
+          display="flex"
+          justifyContent="start"
+        >
+          <Jss(Flexbox)
+            flex="1"
+          >
+            <Jss(Text)
+              info={true}
+              standard={true}
+              tag="p"
+            >
+              
+            </Jss(Text)>
+          </Jss(Flexbox)>
+        </Jss(Flexbox)>,
+        "className": undefined,
+        "id": undefined,
+        "style": undefined,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            undefined,
+            <Jss(Flexbox)
+              flex="1"
+            >
+              <Jss(Text)
+                info={true}
+                standard={true}
+                tag="p"
+              >
+                
+              </Jss(Text)>
+            </Jss(Flexbox)>,
+          ],
+          "className": "container info",
+          "display": "flex",
+          "justifyContent": "start",
+        },
+        "ref": null,
+        "rendered": Array [
+          undefined,
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": <Jss(Text)
+                info={true}
+                standard={true}
+                tag="p"
+              >
+                
+              </Jss(Text)>,
+              "flex": "1",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": Array [
+                  "",
+                ],
+                "info": true,
+                "standard": true,
+                "tag": "p",
+              },
+              "ref": null,
+              "rendered": Array [
+                "",
+              ],
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
+
+exports[`Tip styles matches the snapshot 1`] = `
+Object {
+  "container": Object {
+    "borderRadius": 6,
+    "padding": Array [
+      8,
+      16,
+    ],
+  },
+  "error": Object {
+    "backgroundColor": "rgba(254, 74, 73, 0.1)",
+  },
+  "icon": Object {
+    "marginRight": 8,
+  },
+  "info": Object {
+    "backgroundColor": "rgba(107, 45, 92, 0.1)",
+  },
+  "success": Object {
+    "backgroundColor": "rgba(9, 204, 153, 0.1)",
+  },
+  "warning": Object {
+    "backgroundColor": "rgba(255, 197, 73, 0.1)",
+  },
+}
+`;
+
+exports[`TipJSS matches the snapshot 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Jss(Tip)
+    text=""
+    theme="info"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "classes": Object {
+        "container": "Tip-container-0-1-72",
+        "error": "Tip-error-0-1-76",
+        "icon": "Tip-icon-0-1-77",
+        "info": "Tip-info-0-1-73",
+        "success": "Tip-success-0-1-75",
+        "warning": "Tip-warning-0-1-74",
+      },
+      "text": "",
+      "theme": "info",
+    },
+    "ref": null,
+    "rendered": null,
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "classes": Object {
+          "container": "Tip-container-0-1-72",
+          "error": "Tip-error-0-1-76",
+          "icon": "Tip-icon-0-1-77",
+          "info": "Tip-info-0-1-73",
+          "success": "Tip-success-0-1-75",
+          "warning": "Tip-warning-0-1-74",
+        },
+        "text": "",
+        "theme": "info",
+      },
+      "ref": null,
+      "rendered": null,
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
