@@ -6,6 +6,9 @@ All notable changes to this project will be documented in this file.
 
 ## 1.8.x
 
+### 1.8.1
+- New icons.
+
 ### 1.8.0
 - New `Tip` component.
 
