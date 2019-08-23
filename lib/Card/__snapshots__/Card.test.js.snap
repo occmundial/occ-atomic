@@ -83,7 +83,7 @@ Object {
       "padding": 32,
     },
     "background": "#ffffff",
-    "borderRadius": 4,
+    "borderRadius": 6,
     "padding": 16,
   },
   "cardNoPadding": Object {

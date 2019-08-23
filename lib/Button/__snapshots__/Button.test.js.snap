@@ -177,7 +177,7 @@ Object {
     "&:hover": Object {
       "textDecoration": "none",
     },
-    "borderRadius": 4,
+    "borderRadius": 6,
     "boxSizing": "border-box",
     "cursor": "pointer",
     "display": "inline-block",
