@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file.
 
 # Version 1
 
+## 1.9.x
+
+### 1.9.0
+- Significant changes in the `Card` component.
+- New `iconSizes` library.
+
 ## 1.8.x
 
 ### 1.8.1
