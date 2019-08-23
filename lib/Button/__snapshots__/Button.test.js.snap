@@ -189,7 +189,10 @@ Object {
     "lineHeight": "24px",
     "marginBottom": 0,
     "maxWidth": "100%",
-    "padding": "0 16px",
+    "padding": Array [
+      0,
+      16,
+    ],
     "position": "relative",
     "textAlign": "center",
     "textDecoration": "none",
@@ -298,10 +301,10 @@ Object {
   },
   "icon": Object {
     "display": "inline-block",
-    "height": 18,
+    "height": 14,
     "marginRight": 4,
     "transition": "0.3s all",
-    "width": 18,
+    "width": 14,
   },
   "iconOnly": Object {
     "& i": Object {
@@ -311,15 +314,15 @@ Object {
   },
   "iconRight": Object {
     "display": "inline-block",
-    "height": 18,
+    "height": 14,
     "marginLeft": 4,
     "transition": "0.3s all",
-    "width": 18,
+    "width": 14,
   },
   "lg": Object {
     "& i": Object {
-      "height": 20,
-      "width": 20,
+      "height": 18,
+      "width": 18,
     },
     "&$iconOnly": Object {
       "padding": "0 16px",
@@ -355,8 +358,8 @@ Object {
   },
   "md": Object {
     "& i": Object {
-      "height": 20,
-      "width": 20,
+      "height": 18,
+      "width": 18,
     },
     "&$iconOnly": Object {
       "padding": "0 12px",
