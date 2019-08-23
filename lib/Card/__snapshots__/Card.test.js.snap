@@ -8,15 +8,12 @@ ShallowWrapper {
       Object {
         "card": "card",
         "cardNoPadding": "cardNoPadding",
-        "shadow0": "shadow0",
-        "shadow1": "shadow1",
-        "shadow2": "shadow2",
-        "shadow3": "shadow3",
-        "shadow4": "shadow4",
-        "shadow5": "shadow5",
+        "flat": "flat",
+        "raisable": "raisable",
+        "raised": "raised",
+        "rest": "rest",
       }
     }
-    shadow={3}
   />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
@@ -32,7 +29,7 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": undefined,
-      "className": "card shadow3",
+      "className": "card flat",
       "id": undefined,
       "style": undefined,
     },
@@ -47,7 +44,7 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": undefined,
-        "className": "card shadow3",
+        "className": "card flat",
         "id": undefined,
         "style": undefined,
       },
@@ -85,6 +82,8 @@ Object {
     "background": "#ffffff",
     "borderRadius": 6,
     "padding": 16,
+    "position": "relative",
+    "transition": "0.3s box-shadow, 0.3s transform",
   },
   "cardNoPadding": Object {
     "@media screen and (min-width:768px)": Object {
@@ -93,23 +92,24 @@ Object {
     "extend": "card",
     "padding": 0,
   },
-  "shadow0": Object {
-    "boxShadow": "0 0 0 0 rgba(0,0,0,0.0), 0 0 0 0 rgba(0,29,124,0)",
-  },
-  "shadow1": Object {
+  "flat": Object {
     "boxShadow": "0 1px 2px 0 rgba(0,0,0,0.12), 0 1px 6px 0 rgba(0,29,124,0.05)",
+    "zIndex": 0,
   },
-  "shadow2": Object {
-    "boxShadow": "0 3px 3px -1px rgba(0,0,0,0.12), 0 3px 12px 0 rgba(0,29,124,0.08)",
+  "raisable": Object {
+    "&:hover": Object {
+      "boxShadow": "0 12px 9px -5px rgba(0,0,0,0.12), 0 10px 32px 0 rgba(0,29,124,0.12)",
+      "transform": "translateY(-4px)",
+      "zIndex": 4,
+    },
   },
-  "shadow3": Object {
-    "boxShadow": "0 6px 5px -3px rgba(0,0,0,0.12), 0 6px 18px 0 rgba(0,29,124,0.08)",
-  },
-  "shadow4": Object {
+  "raised": Object {
     "boxShadow": "0 12px 9px -5px rgba(0,0,0,0.12), 0 10px 32px 0 rgba(0,29,124,0.12)",
+    "zIndex": 4,
   },
-  "shadow5": Object {
-    "boxShadow": "0 17px 12px -7px rgba(0,0,0,0.12), 0 14px 46px 0 rgba(0,29,124,0.16)",
+  "rest": Object {
+    "boxShadow": "0 0 0 0 rgba(0,0,0,0.0), 0 0 0 0 rgba(0,29,124,0)",
+    "zIndex": 1,
   },
 }
 `;
@@ -117,9 +117,7 @@ Object {
 exports[`CardJSS matches the snapshot 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <Jss(Card)
-    shadow={3}
-  />,
+  Symbol(enzyme.__unrendered__): <Jss(Card) />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
@@ -131,19 +129,16 @@ ShallowWrapper {
   Symbol(enzyme.__node__): Object {
     "instance": null,
     "key": undefined,
-    "nodeType": "class",
+    "nodeType": "function",
     "props": Object {
       "classes": Object {
         "card": "Card-card-0-1-1",
         "cardNoPadding": "Card-cardNoPadding-0-1-2",
-        "shadow0": "Card-shadow0-0-1-3",
-        "shadow1": "Card-shadow1-0-1-4",
-        "shadow2": "Card-shadow2-0-1-5",
-        "shadow3": "Card-shadow3-0-1-6",
-        "shadow4": "Card-shadow4-0-1-7",
-        "shadow5": "Card-shadow5-0-1-8",
+        "flat": "Card-flat-0-1-3",
+        "raisable": "Card-raisable-0-1-6",
+        "raised": "Card-raised-0-1-5",
+        "rest": "Card-rest-0-1-4",
       },
-      "shadow": 3,
     },
     "ref": null,
     "rendered": null,
@@ -153,19 +148,16 @@ ShallowWrapper {
     Object {
       "instance": null,
       "key": undefined,
-      "nodeType": "class",
+      "nodeType": "function",
       "props": Object {
         "classes": Object {
           "card": "Card-card-0-1-1",
           "cardNoPadding": "Card-cardNoPadding-0-1-2",
-          "shadow0": "Card-shadow0-0-1-3",
-          "shadow1": "Card-shadow1-0-1-4",
-          "shadow2": "Card-shadow2-0-1-5",
-          "shadow3": "Card-shadow3-0-1-6",
-          "shadow4": "Card-shadow4-0-1-7",
-          "shadow5": "Card-shadow5-0-1-8",
+          "flat": "Card-flat-0-1-3",
+          "raisable": "Card-raisable-0-1-6",
+          "raised": "Card-raised-0-1-5",
+          "rest": "Card-rest-0-1-4",
         },
-        "shadow": 3,
       },
       "ref": null,
       "rendered": null,
