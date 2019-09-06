@@ -6,6 +6,9 @@ All notable changes to this project will be documented in this file.
 
 ## 1.9.x
 
+### 1.9.3
+- Change in `Card` elevations.
+
 ### 1.9.2
 - Change in feedback colors.
 
