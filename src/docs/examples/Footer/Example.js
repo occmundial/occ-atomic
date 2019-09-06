@@ -1,6 +1,6 @@
 /*Universal Footer*/
 import React from 'react';
-import { UniversalFooter } from '@occmundial/occ-atomic';
+import { Footer } from '@occmundial/occ-atomic';
 
 const columns = [
 	[
@@ -133,7 +133,7 @@ const aux = {
 
 export default function Example() {
 	return (
-		<UniversalFooter
+		<Footer
 			columns={columns}
 			bottomLinks={bottomLinks}
 			copyText={copy}

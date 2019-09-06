@@ -43,8 +43,7 @@ module.exports = [
         name: 'Organisms',
         components: [
             'Footer',
-            'Header',
-            'UniversalFooter'
+            'Header'
         ]
     },
     {
