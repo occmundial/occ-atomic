@@ -6,6 +6,9 @@ All notable changes to this project will be documented in this file.
 
 ## 1.9.x
 
+### 1.9.4
+- New `checkSolid` icon.
+
 ### 1.9.3
 - Change in `Card` elevations.
 
