@@ -139,7 +139,7 @@ Object {
     "color": "#dddddd",
   },
   "error": Object {
-    "color": "#fe4a49",
+    "color": "#db3737",
   },
   "heading": Object {
     "fontSize": 22,
@@ -166,7 +166,7 @@ Object {
     "color": "#222222",
   },
   "info": Object {
-    "color": "#6b2d5c",
+    "color": "#5736ab",
   },
   "large": Object {
     "fontSize": 16,

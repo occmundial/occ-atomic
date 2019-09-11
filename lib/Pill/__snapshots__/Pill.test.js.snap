@@ -1071,7 +1071,7 @@ Object {
     },
   },
   "errorAssistiveText": Object {
-    "color": "#fe4a49",
+    "color": "#db3737",
   },
   "errorIcon": Object {
     "marginBottom": -2,
