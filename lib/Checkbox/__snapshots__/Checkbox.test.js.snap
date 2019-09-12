@@ -10,6 +10,7 @@ ShallowWrapper {
         "check": "check",
         "cont": "cont",
         "disabled": "disabled",
+        "indeterminated": "indeterminated",
         "label": "label",
         "overflow": "overflow",
         "right": "right",
@@ -18,6 +19,7 @@ ShallowWrapper {
   />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
     "getNode": [Function],
     "render": [Function],
     "simulateError": [Function],
@@ -100,11 +102,18 @@ ShallowWrapper {
     "adapter": ReactSixteenAdapter {
       "options": Object {
         "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
         "lifecycles": Object {
           "componentDidUpdate": Object {
             "onSetState": true,
           },
-          "getDerivedStateFromProps": true,
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
           "getSnapshotBeforeUpdate": true,
           "setState": Object {
             "skipsComponentDidUpdateOnNullish": true,
@@ -113,6 +122,7 @@ ShallowWrapper {
       },
     },
   },
+  Symbol(enzyme.__childContext__): null,
 }
 `;
 
@@ -176,6 +186,14 @@ Object {
     "opacity": 0.4,
     "pointerEvents": "none",
   },
+  "indeterminated": Object {
+    "& $check:after": Object {
+      "background": Array [
+        "url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMThweCIgaGVpZ2h0PSIxOHB4IiB2aWV3Qm94PSIwIDAgMTggMTgiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CiAgICAgICAgICAgIDxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDAuMDAwMDAwLCAtNi4wMDAwMDApIj4KICAgICAgICAgICAgICAgIDxyZWN0IGlkPSJSZWN0YW5nbGUiIGZpbGw9IiMwODNjYWUiIHg9IjQiIHk9IjE2IiB3aWR0aD0iMTAiIGhlaWdodD0iMiI+PC9yZWN0PgogICAgICAgICAgICA8L2c+CiAgICAgICAgPC9zdmc+)",
+        "!important",
+      ],
+    },
+  },
   "label": Object {
     "cursor": "pointer",
     "flex": "1",
@@ -200,6 +218,7 @@ ShallowWrapper {
   Symbol(enzyme.__unrendered__): <Jss(Checkbox) />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
     "getNode": [Function],
     "render": [Function],
     "simulateError": [Function],
@@ -215,10 +234,11 @@ ShallowWrapper {
         "active": "Checkbox-active-0-1-42",
         "check": "Checkbox-check-0-1-41",
         "cont": "Checkbox-cont-0-1-40",
-        "disabled": "Checkbox-disabled-0-1-43",
-        "label": "Checkbox-label-0-1-44",
-        "overflow": "Checkbox-overflow-0-1-46",
-        "right": "Checkbox-right-0-1-45",
+        "disabled": "Checkbox-disabled-0-1-44",
+        "indeterminated": "Checkbox-indeterminated-0-1-43",
+        "label": "Checkbox-label-0-1-45",
+        "overflow": "Checkbox-overflow-0-1-47",
+        "right": "Checkbox-right-0-1-46",
       },
     },
     "ref": null,
@@ -235,10 +255,11 @@ ShallowWrapper {
           "active": "Checkbox-active-0-1-42",
           "check": "Checkbox-check-0-1-41",
           "cont": "Checkbox-cont-0-1-40",
-          "disabled": "Checkbox-disabled-0-1-43",
-          "label": "Checkbox-label-0-1-44",
-          "overflow": "Checkbox-overflow-0-1-46",
-          "right": "Checkbox-right-0-1-45",
+          "disabled": "Checkbox-disabled-0-1-44",
+          "indeterminated": "Checkbox-indeterminated-0-1-43",
+          "label": "Checkbox-label-0-1-45",
+          "overflow": "Checkbox-overflow-0-1-47",
+          "right": "Checkbox-right-0-1-46",
         },
       },
       "ref": null,
@@ -250,11 +271,18 @@ ShallowWrapper {
     "adapter": ReactSixteenAdapter {
       "options": Object {
         "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
         "lifecycles": Object {
           "componentDidUpdate": Object {
             "onSetState": true,
           },
-          "getDerivedStateFromProps": true,
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
           "getSnapshotBeforeUpdate": true,
           "setState": Object {
             "skipsComponentDidUpdateOnNullish": true,
@@ -263,5 +291,6 @@ ShallowWrapper {
       },
     },
   },
+  Symbol(enzyme.__childContext__): null,
 }
 `;
