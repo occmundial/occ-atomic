@@ -230,13 +230,13 @@ Object {
     ],
   },
   "error": Object {
-    "backgroundColor": "rgba(254, 74, 73, 0.1)",
+    "backgroundColor": "rgba(219, 55, 55, 0.1)",
   },
   "icon": Object {
     "marginRight": 8,
   },
   "info": Object {
-    "backgroundColor": "rgba(107, 45, 92, 0.1)",
+    "backgroundColor": "rgba(87, 54, 171, 0.1)",
   },
   "success": Object {
     "backgroundColor": "rgba(9, 204, 153, 0.1)",
