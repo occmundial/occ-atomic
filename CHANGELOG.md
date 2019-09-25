@@ -6,6 +6,9 @@ All notable changes to this project will be documented in this file.
 
 ## 1.10.x
 
+### 1.10.1
+- Change in `Footer` props.
+
 ### 1.10.0
 - The `Footer` component has been rewritten.
 
