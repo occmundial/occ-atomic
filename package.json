@@ -1,12 +1,13 @@
 {
   "name": "@occmundial/occ-atomic",
-  "version": "1.9.3",
+  "version": "1.10.2",
   "description": "Collection of shareable styled React components for OCC applications.",
   "homepage": "http://occmundial.github.io/occ-atomic",
   "main": "build/index.js",
   "scripts": {
     "prestart": "npm run gen-docs",
     "start": "set NODE_ENV=development && npm-run-all --parallel start-docs gen-docs:watch",
+    "start:mac": "NODE_ENV=development  npm-run-all --parallel start-docs gen-docs:watch",
     "start-docs": "node scripts/server.js",
     "gen-docs": "node scripts/generateComponentData.js",
     "gen-docs:watch": "npm run gen-docs -- --watch",

@@ -4,7 +4,24 @@ All notable changes to this project will be documented in this file.
 
 # Version 1
 
+## 1.10.x
+
+### 1.10.2
+- Fix in `Footer` props.
+
+### 1.10.1
+- Change in `Footer` props.
+
+### 1.10.0
+- The `Footer` component has been rewritten.
+
 ## 1.9.x
+
+### 1.9.5
+- Change of the success color.
+
+### 1.9.4
+- New `checkSolid` icon.
 
 ### 1.9.3
 - Change in `Card` elevations.
@@ -352,37 +369,29 @@ All notable changes to this project will be documented in this file.
 - Fixes in the `Input` component. It solves problems with the theming of the `Input` since version **0.5.0**.
 
 ### 0.6.7
-*This version has problems with the Input and Autocomplete components. We recommend not using it.*
 - Changes in how the references to the `Input` in `Autocomplete` are handled.
 
 ### 0.6.6
-*This version has problems with the Input and Autocomplete components. We recommend not using it.*
 - The `Input` component is wrapped inside another component that handles the theme and provides the desired stylesheet.
 - To validate an `Input` with `redux-form` the input has to be touched first.
 - Fix in the `onKeyUp` function in `Autocomplete`.
 
 ### 0.6.5
-*This version has problems with the Input and Autocomplete components. We recommend not using it.*
 - `Autocomplete` now just checks the cleaned items (result of the array of items being filtered by the `term`) instead of the whole array, to decide if the `Droplist` should be visible or not.
 
 ### 0.6.4
-*This version has problems with the Input and Autocomplete components. We recommend not using it.*
 - The `Droplist` in `Autocomplete` is now not visible if the array of items is empty.
 
 ### 0.6.3
-*This version has problems with the Input and Autocomplete components. We recommend not using it.*
 - New `forceValue` function in `Autocomplete` to change the value through a ref.
 
 ### 0.6.2
-*This version has problems with the Input and Autocomplete components. We recommend not using it.*
 - The `Input` value in `Autocomplete` is cleared if the `selectOnEnter` prop is set and no item is found in the `Droplist`.
 
 ### 0.6.1
-*This version has problems with the Input and Autocomplete components. We recommend not using it.*
 - The `onKeyUp` function in `Input` now just sends the pressed key and not the value.
 
 ### 0.6.0
-*This version has problems with the Input and Autocomplete components. We recommend not using it.*
 - Eslint fixes.
 - New `onKeyUp` function for the `Input` component.
 - New `filter` prop in `Droplist`. Set to false to avoid the `term` prop to filter the list.
@@ -391,24 +400,19 @@ All notable changes to this project will be documented in this file.
 ## 0.5.x
 
 ### 0.5.4
-*This version has problems with the Input and Autocomplete components. We recommend not using it.*
 - New `onClear` function in `Autocomplete`.
 
 ### 0.5.3
-*This version has problems with the Input and Autocomplete components. We recommend not using it.*
 - Fixes in styles of the `clear` icon in the `Input` component when the theme is `flat`.
 
 ### 0.5.2
-*This version has problems with the Input and Autocomplete components. We recommend not using it.*
 - Fixes in propTypes of `Autocomplete`.
 
 ### 0.5.1
-*This version has problems with the Input and Autocomplete components. We recommend not using it.*
 - Changes in the documentation to show the `shape` propTypes.
 - Changes in the `Autocomplete` propTypes.
 
 ### 0.5.0
-*This version has problems with the Input and Autocomplete components. We recommend not using it.*
 - Implementation of new theme in the `Input` and `Autocomplete` components.
 
 ## 0.4.x
