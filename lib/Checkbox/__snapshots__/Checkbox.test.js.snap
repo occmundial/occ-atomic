@@ -189,7 +189,7 @@ Object {
   "indeterminated": Object {
     "& $check:after": Object {
       "background": Array [
-        "url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMThweCIgaGVpZ2h0PSIxOHB4IiB2aWV3Qm94PSIwIDAgMTggMTgiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CiAgICAgICAgICAgIDxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDAuMDAwMDAwLCAtNi4wMDAwMDApIj4KICAgICAgICAgICAgICAgIDxyZWN0IGlkPSJSZWN0YW5nbGUiIGZpbGw9IiMwODNjYWUiIHg9IjQiIHk9IjE2IiB3aWR0aD0iMTAiIGhlaWdodD0iMiI+PC9yZWN0PgogICAgICAgICAgICA8L2c+CiAgICAgICAgPC9zdmc+)",
+        "url(data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgogICAgICAgICAgICB2aWV3Qm94PSIwIDAgMjQgMjQiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDI0IDI0OyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+CiAgICAgICAgPHBvbHlnb24gcG9pbnRzPSI1LjMsMTMuMyA1LjMsMTAuNyAxOC43LDEwLjcgMTguNywxMy4zICIgZmlsbD0iIzA4M2NhZSIgLz4KICAgICAgICA8L3N2Zz4=)",
         "!important",
       ],
     },
