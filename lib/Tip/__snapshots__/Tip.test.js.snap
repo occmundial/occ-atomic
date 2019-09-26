@@ -239,7 +239,7 @@ Object {
     "backgroundColor": "rgba(87, 54, 171, 0.1)",
   },
   "success": Object {
-    "backgroundColor": "rgba(9, 204, 153, 0.1)",
+    "backgroundColor": "rgba(0, 149, 55, 0.1)",
   },
   "warning": Object {
     "backgroundColor": "rgba(255, 197, 73, 0.1)",

@@ -214,7 +214,7 @@ Object {
     "lineHeight": "24px",
   },
   "success": Object {
-    "color": "#09cc99",
+    "color": "#009537",
   },
   "text": Object {
     "fontFamily": "'Open Sans', sans-serif",
