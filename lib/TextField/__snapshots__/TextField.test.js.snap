@@ -321,13 +321,13 @@ Object {
   },
   "error": Object {
     "& $input": Object {
-      "background": "rgba(254, 74, 73, 0.04)",
-      "borderColor": "#fe4a49",
-      "color": "#fe4a49",
+      "background": "rgba(219, 55, 55, 0.04)",
+      "borderColor": "#db3737",
+      "color": "#db3737",
     },
   },
   "errorAssistiveText": Object {
-    "color": "#fe4a49",
+    "color": "#db3737",
   },
   "errorIcon": Object {
     "marginBottom": -2,
