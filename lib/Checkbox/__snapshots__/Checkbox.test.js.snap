@@ -13,6 +13,7 @@ ShallowWrapper {
         "label": "label",
         "overflow": "overflow",
         "right": "right",
+        "undetermined": "undetermined",
       }
     }
   />,
@@ -191,6 +192,14 @@ Object {
     "float": "right",
     "marginLeft": 8,
   },
+  "undetermined": Object {
+    "& $check:after": Object {
+      "background": Array [
+        "url(data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgogICAgICAgICAgICB2aWV3Qm94PSIwIDAgMjQgMjQiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDI0IDI0OyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+CiAgICAgICAgPHBvbHlnb24gcG9pbnRzPSI1LjMsMTMuMyA1LjMsMTAuNyAxOC43LDEwLjcgMTguNywxMy4zICIgZmlsbD0iIzA4M2NhZSIgLz4KICAgICAgICA8L3N2Zz4=)",
+        "!important",
+      ],
+    },
+  },
 }
 `;
 
@@ -215,10 +224,11 @@ ShallowWrapper {
         "active": "Checkbox-active-0-1-42",
         "check": "Checkbox-check-0-1-41",
         "cont": "Checkbox-cont-0-1-40",
-        "disabled": "Checkbox-disabled-0-1-43",
-        "label": "Checkbox-label-0-1-44",
-        "overflow": "Checkbox-overflow-0-1-46",
-        "right": "Checkbox-right-0-1-45",
+        "disabled": "Checkbox-disabled-0-1-44",
+        "label": "Checkbox-label-0-1-45",
+        "overflow": "Checkbox-overflow-0-1-47",
+        "right": "Checkbox-right-0-1-46",
+        "undetermined": "Checkbox-undetermined-0-1-43",
       },
     },
     "ref": null,
@@ -235,10 +245,11 @@ ShallowWrapper {
           "active": "Checkbox-active-0-1-42",
           "check": "Checkbox-check-0-1-41",
           "cont": "Checkbox-cont-0-1-40",
-          "disabled": "Checkbox-disabled-0-1-43",
-          "label": "Checkbox-label-0-1-44",
-          "overflow": "Checkbox-overflow-0-1-46",
-          "right": "Checkbox-right-0-1-45",
+          "disabled": "Checkbox-disabled-0-1-44",
+          "label": "Checkbox-label-0-1-45",
+          "overflow": "Checkbox-overflow-0-1-47",
+          "right": "Checkbox-right-0-1-46",
+          "undetermined": "Checkbox-undetermined-0-1-43",
         },
       },
       "ref": null,
