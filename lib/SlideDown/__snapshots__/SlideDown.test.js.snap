@@ -17,6 +17,12 @@ ShallowWrapper {
       }
     }
     expanded={false}
+    textProps={
+      Object {
+        "strong": true,
+        "tag": "label",
+      }
+    }
   />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
