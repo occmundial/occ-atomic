@@ -18,7 +18,7 @@ export default class Example5 extends React.Component {
         const { show } = this.state;
         this.setState({
             show: !show
-        }, () => {console.log(show)});
+        }, () => console.log(show));
     }
 
     onSlideToggle = (val) => {
