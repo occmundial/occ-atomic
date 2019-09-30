@@ -4,7 +4,7 @@ import { SlideDown, Checkbox, Button } from '@occmundial/occ-atomic';
 
 
 
-export default class Example4 extends React.Component {
+export default class Example5 extends React.Component {
 
     constructor(props) {
         super(props);
