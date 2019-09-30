@@ -7,15 +7,9 @@ export default function Example1() {
         if (value) console.log('Expanded');
         else console.log('Collapsed');
     };
-    const textProps = {
-        heading: true,
-        success: true,
-        large: true,
-        strong: true,
-        tag: 'label',
-    };
+
     return (
-        <SlideDown title="SlideDown" textProps={textProps} onToggle={onToggle}>
+        <SlideDown title="SlideDown" textSize={'lg'} onToggle={onToggle}>
             <Checkbox label="Content of the SlideDown" />
         </SlideDown>
     );
