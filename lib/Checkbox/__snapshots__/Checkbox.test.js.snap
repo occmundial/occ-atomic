@@ -198,6 +198,7 @@ Object {
         "url(data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgogICAgICAgICAgICB2aWV3Qm94PSIwIDAgMjQgMjQiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDI0IDI0OyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+CiAgICAgICAgPHBvbHlnb24gcG9pbnRzPSI1LjMsMTMuMyA1LjMsMTAuNyAxOC43LDEwLjcgMTguNywxMy4zICIgZmlsbD0iIzA4M2NhZSIgLz4KICAgICAgICA8L3N2Zz4=)",
         "!important",
       ],
+      "marginTop": 0,
     },
   },
 }
