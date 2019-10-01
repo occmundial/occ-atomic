@@ -32,7 +32,7 @@ export default class Example5 extends React.Component {
                     <Checkbox label="Content of the SlideDown" />
                 </SlideDown>
                 <br/>
-                <Button onClick={this.toggle}>{`Prop Expanded ${show}`}</Button>
+                <Button sm onClick={this.toggle}>{`Send expanded ${!show}`}</Button>
             </div>
         );
     }
