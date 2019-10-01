@@ -6,6 +6,11 @@ All notable changes to this project will be documented in this file.
 
 ## 1.10.x
 
+### 1.10.3
+- New `undetermined` prop in `Checkbox`.
+- New `textSize` prop in `SlideDown`.
+- Change in the behavior of the `expanded` property of `SlideDown`.
+
 ### 1.10.2
 - Fix in `Footer` props.
 
