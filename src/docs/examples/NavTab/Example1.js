@@ -1,6 +1,6 @@
 /* NavTab with NavTop */
 import React from 'react';
-import { NavTab, Icon, colors } from '@occmundial/occ-atomic';
+import { NavTab, Icon } from '@occmundial/occ-atomic';
 
 class Example1 extends React.Component {
 
@@ -27,7 +27,7 @@ class Example1 extends React.Component {
                 type: 'logo',
                 logo: (
                     <a href="#NavTab">
-                        <Icon iconName="occColor" colors={[colors.bgWhite, colors.bgWhite]} />
+                        <Icon iconName="occHorizontalWhite" />
                     </a>
                 )
             },
@@ -82,7 +82,7 @@ class Example1 extends React.Component {
             type: 'custom',
             custom: (
                 <a href="#NavTab" style={{marginRight:32, display:'inline-block'}}>
-                    <Icon iconName="occColor" />
+                    <Icon iconName="occHorizontalGrey" />
                 </a>
             )
         };
