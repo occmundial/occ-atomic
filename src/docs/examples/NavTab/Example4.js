@@ -11,7 +11,7 @@ class Example4 extends React.Component {
                 type: 'logo',
                 logo: (
                     <a href="#NavTab">
-                        <Icon iconName="occ" colors={[colors.bgWhite]} />
+                        <Icon iconName="occHorizontalWhite" colors={[colors.bgWhite]} />
                     </a>
                 )
             }
@@ -22,7 +22,7 @@ class Example4 extends React.Component {
                 type: 'logo',
                 logo: (
                     <a href="#NavTab">
-                        <Icon iconName="occ" colors={[colors.grey700]} />
+                        <Icon iconName="occHorizontalGrey" colors={[colors.grey700]} />
                     </a>
                 )
             }
