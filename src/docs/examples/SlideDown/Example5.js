@@ -28,7 +28,7 @@ export default class Example5 extends React.Component {
         const { show } = this.state;
         return (
             <div>
-                <SlideDown title="SlideDown" expanded={show} onToggle={this.onSlideToggle}>
+                <SlideDown title="SlideDown" expanded={show} onToggle={this.onSlideToggle} strong>
                     <Checkbox label="Content of the SlideDown" />
                 </SlideDown>
                 <br/>
