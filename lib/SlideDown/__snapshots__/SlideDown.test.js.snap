@@ -17,10 +17,10 @@ ShallowWrapper {
       }
     }
     expanded={false}
+    textSize="md"
   />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
-    "checkPropTypes": [Function],
     "getNode": [Function],
     "render": [Function],
     "simulateError": [Function],
@@ -54,7 +54,7 @@ ShallowWrapper {
                 <div>
                   <Jss(Text)
                     className="text"
-                    strong={true}
+                    standard={true}
                     tag="label"
                   />
                 </div>
@@ -109,7 +109,7 @@ ShallowWrapper {
                 <div>
                   <Jss(Text)
                     className="text"
-                    strong={true}
+                    standard={true}
                     tag="label"
                   />
                 </div>
@@ -158,7 +158,7 @@ ShallowWrapper {
                   <div>
                     <Jss(Text)
                       className="text"
-                      strong={true}
+                      standard={true}
                       tag="label"
                     />
                   </div>
@@ -203,7 +203,7 @@ ShallowWrapper {
                   <div>
                     <Jss(Text)
                       className="text"
-                      strong={true}
+                      standard={true}
                       tag="label"
                     />
                   </div>
@@ -220,7 +220,7 @@ ShallowWrapper {
                   "children": <div>
                     <Jss(Text)
                       className="text"
-                      strong={true}
+                      standard={true}
                       tag="label"
                     />
                   </div>,
@@ -236,7 +236,7 @@ ShallowWrapper {
                     "children": Array [
                       <Jss(Text)
                         className="text"
-                        strong={true}
+                        standard={true}
                         tag="label"
                       />,
                       undefined,
@@ -251,7 +251,7 @@ ShallowWrapper {
                       "props": Object {
                         "children": undefined,
                         "className": "text",
-                        "strong": true,
+                        "standard": true,
                         "tag": "label",
                       },
                       "ref": null,
@@ -347,7 +347,7 @@ ShallowWrapper {
                   <div>
                     <Jss(Text)
                       className="text"
-                      strong={true}
+                      standard={true}
                       tag="label"
                     />
                   </div>
@@ -402,7 +402,7 @@ ShallowWrapper {
                   <div>
                     <Jss(Text)
                       className="text"
-                      strong={true}
+                      standard={true}
                       tag="label"
                     />
                   </div>
@@ -451,7 +451,7 @@ ShallowWrapper {
                     <div>
                       <Jss(Text)
                         className="text"
-                        strong={true}
+                        standard={true}
                         tag="label"
                       />
                     </div>
@@ -496,7 +496,7 @@ ShallowWrapper {
                     <div>
                       <Jss(Text)
                         className="text"
-                        strong={true}
+                        standard={true}
                         tag="label"
                       />
                     </div>
@@ -513,7 +513,7 @@ ShallowWrapper {
                     "children": <div>
                       <Jss(Text)
                         className="text"
-                        strong={true}
+                        standard={true}
                         tag="label"
                       />
                     </div>,
@@ -529,7 +529,7 @@ ShallowWrapper {
                       "children": Array [
                         <Jss(Text)
                           className="text"
-                          strong={true}
+                          standard={true}
                           tag="label"
                         />,
                         undefined,
@@ -544,7 +544,7 @@ ShallowWrapper {
                         "props": Object {
                           "children": undefined,
                           "className": "text",
-                          "strong": true,
+                          "standard": true,
                           "tag": "label",
                         },
                         "ref": null,
@@ -617,18 +617,11 @@ ShallowWrapper {
     "adapter": ReactSixteenAdapter {
       "options": Object {
         "enableComponentDidUpdateOnSetState": true,
-        "legacyContextMode": "parent",
         "lifecycles": Object {
           "componentDidUpdate": Object {
             "onSetState": true,
           },
-          "getChildContext": Object {
-            "calledByRenderer": false,
-          },
-          "getDerivedStateFromError": true,
-          "getDerivedStateFromProps": Object {
-            "hasShouldComponentUpdateBug": false,
-          },
+          "getDerivedStateFromProps": true,
           "getSnapshotBeforeUpdate": true,
           "setState": Object {
             "skipsComponentDidUpdateOnNullish": true,
@@ -637,7 +630,6 @@ ShallowWrapper {
       },
     },
   },
-  Symbol(enzyme.__childContext__): null,
 }
 `;
 
@@ -683,10 +675,10 @@ ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <Jss(SlideDown)
     expanded={false}
+    textSize="md"
   />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
-    "checkPropTypes": [Function],
     "getNode": [Function],
     "render": [Function],
     "simulateError": [Function],
@@ -709,6 +701,7 @@ ShallowWrapper {
         "wrapper": "SlideDown-wrapper-0-1-106",
       },
       "expanded": false,
+      "textSize": "md",
     },
     "ref": null,
     "rendered": null,
@@ -731,6 +724,7 @@ ShallowWrapper {
           "wrapper": "SlideDown-wrapper-0-1-106",
         },
         "expanded": false,
+        "textSize": "md",
       },
       "ref": null,
       "rendered": null,
@@ -741,18 +735,11 @@ ShallowWrapper {
     "adapter": ReactSixteenAdapter {
       "options": Object {
         "enableComponentDidUpdateOnSetState": true,
-        "legacyContextMode": "parent",
         "lifecycles": Object {
           "componentDidUpdate": Object {
             "onSetState": true,
           },
-          "getChildContext": Object {
-            "calledByRenderer": false,
-          },
-          "getDerivedStateFromError": true,
-          "getDerivedStateFromProps": Object {
-            "hasShouldComponentUpdateBug": false,
-          },
+          "getDerivedStateFromProps": true,
           "getSnapshotBeforeUpdate": true,
           "setState": Object {
             "skipsComponentDidUpdateOnNullish": true,
@@ -761,6 +748,5 @@ ShallowWrapper {
       },
     },
   },
-  Symbol(enzyme.__childContext__): null,
 }
 `;
