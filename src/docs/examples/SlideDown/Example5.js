@@ -18,24 +18,21 @@ export default class Example5 extends React.Component {
         const { show } = this.state;
         this.setState({
             show: !show
-        }, () => console.log(show));
+        });
     }
 
     onSlideToggle = (val) => {
-        this.setState({
-            show: val
-        });
     };
 
     render() {
         const { show } = this.state;
         return (
             <div>
-                <SlideDown title="SlideDown" expanded={show} onToggle={this.onSlideToggle}>
+                <SlideDown title="SlideDown" expanded={show} onToggle={this.onSlideToggle} strong>
                     <Checkbox label="Content of the SlideDown" />
                 </SlideDown>
                 <br/>
-                <Button onClick={this.toggle}>Toggle by prop</Button>
+                <Button sm onClick={this.toggle}>{`Send expanded ${!show}`}</Button>
             </div>
         );
     }

@@ -9,7 +9,7 @@ export default function Example4() {
     };
 
     return (
-        <SlideDown title="SlideDown" textSize="lg" onToggle={onToggle}>
+        <SlideDown title="SlideDown" textSize="lg" onToggle={onToggle} strong>
             <Checkbox label="Content of the SlideDown" />
         </SlideDown>
     );
