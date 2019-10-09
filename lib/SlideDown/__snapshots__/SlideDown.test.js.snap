@@ -715,6 +715,7 @@ ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <Jss(SlideDown)
     expanded={false}
+    strong={false}
     textSize="md"
   />,
   Symbol(enzyme.__renderer__): Object {
@@ -741,6 +742,7 @@ ShallowWrapper {
         "wrapper": "SlideDown-wrapper-0-1-106",
       },
       "expanded": false,
+      "strong": false,
       "textSize": "md",
     },
     "ref": null,
@@ -764,6 +766,7 @@ ShallowWrapper {
           "wrapper": "SlideDown-wrapper-0-1-106",
         },
         "expanded": false,
+        "strong": false,
         "textSize": "md",
       },
       "ref": null,
