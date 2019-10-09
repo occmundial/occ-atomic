@@ -1,10 +1,11 @@
-/* Simple toast */
+/* Toast with an icon */
 import React, { Fragment } from 'react';
 import { Toaster, Button, toaster } from '@occmundial/occ-atomic';
 
-export default function Example1() {
+export default function Example4() {
     const toast = {
-        description: 'This toast will be automatically dismissed in 5 seconds'
+        description: 'The icon depends on the toast type',
+        hasIcon: true
     };
     return (
         <Fragment>

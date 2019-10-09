@@ -1,10 +1,14 @@
-/* Simple toast */
+/* Toast with an action button */
 import React, { Fragment } from 'react';
 import { Toaster, Button, toaster } from '@occmundial/occ-atomic';
 
-export default function Example1() {
+export default function Example3() {
     const toast = {
-        description: 'This toast will be automatically dismissed in 5 seconds'
+        description: 'The click on the action button will call a function and dismiss the toast',
+        action: {
+            label: 'Click me',
+            onClick: () => console.log('Action button clicked')
+        }
     };
     return (
         <Fragment>

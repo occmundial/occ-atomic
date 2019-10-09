@@ -1,10 +1,11 @@
-/* Simple toast */
+/* Toast with a title */
 import React, { Fragment } from 'react';
 import { Toaster, Button, toaster } from '@occmundial/occ-atomic';
 
-export default function Example1() {
+export default function Example4() {
     const toast = {
-        description: 'This toast will be automatically dismissed in 5 seconds'
+        title: 'Title of the toast',
+        description: 'This toast has a title',
     };
     return (
         <Fragment>

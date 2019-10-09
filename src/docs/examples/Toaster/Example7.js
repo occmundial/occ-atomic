@@ -4,11 +4,12 @@ import { Toaster, Button, toaster } from '@occmundial/occ-atomic';
 
 export default function Example1() {
     const toast = {
-        description: 'This toast will be automatically dismissed in 5 seconds'
+        description: 'Dismiss this toast by clicking the "Clear" button'
     };
     return (
         <Fragment>
             <Button onClick={() => toaster.success(toast)}>Launch toast</Button>
+            <Button theme="tertiary" onClick={() => toaster.close()}>Clear</Button>
             <Toaster container={document.body} />
         </Fragment>
     );
