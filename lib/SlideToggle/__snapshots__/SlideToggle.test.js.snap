@@ -32,6 +32,7 @@ ShallowWrapper {
       "children": Array [
         <div
           className="switch"
+          name={undefined}
           onClick={[Function]}
         >
           <span
@@ -63,6 +64,7 @@ ShallowWrapper {
             />
           </span>,
           "className": "switch",
+          "name": undefined,
           "onClick": [Function],
         },
         "ref": null,
@@ -105,6 +107,7 @@ ShallowWrapper {
         "children": Array [
           <div
             className="switch"
+            name={undefined}
             onClick={[Function]}
           >
             <span
@@ -136,6 +139,7 @@ ShallowWrapper {
               />
             </span>,
             "className": "switch",
+            "name": undefined,
             "onClick": [Function],
           },
           "ref": null,

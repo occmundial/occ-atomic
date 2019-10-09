@@ -17,7 +17,9 @@ ShallowWrapper {
       }
     }
     expanded={false}
+    strong={false}
     textSize="md"
+    title="Title"
   />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
@@ -55,8 +57,11 @@ ShallowWrapper {
                   <Jss(Text)
                     className="text"
                     standard={true}
+                    strong={false}
                     tag="label"
-                  />
+                  >
+                    Title
+                  </Jss(Text)>
                 </div>
               </Jss(Flexbox)>
             </Jss(Flexbox)>
@@ -110,8 +115,11 @@ ShallowWrapper {
                   <Jss(Text)
                     className="text"
                     standard={true}
+                    strong={false}
                     tag="label"
-                  />
+                  >
+                    Title
+                  </Jss(Text)>
                 </div>
               </Jss(Flexbox)>
             </Jss(Flexbox)>
@@ -159,8 +167,11 @@ ShallowWrapper {
                     <Jss(Text)
                       className="text"
                       standard={true}
+                      strong={false}
                       tag="label"
-                    />
+                    >
+                      Title
+                    </Jss(Text)>
                   </div>
                 </Jss(Flexbox)>
               </Jss(Flexbox)>,
@@ -204,8 +215,11 @@ ShallowWrapper {
                     <Jss(Text)
                       className="text"
                       standard={true}
+                      strong={false}
                       tag="label"
-                    />
+                    >
+                      Title
+                    </Jss(Text)>
                   </div>
                 </Jss(Flexbox)>,
                 "display": "flex",
@@ -221,8 +235,11 @@ ShallowWrapper {
                     <Jss(Text)
                       className="text"
                       standard={true}
+                      strong={false}
                       tag="label"
-                    />
+                    >
+                      Title
+                    </Jss(Text)>
                   </div>,
                   "display": "flex",
                   "wrap": "wrap",
@@ -237,8 +254,11 @@ ShallowWrapper {
                       <Jss(Text)
                         className="text"
                         standard={true}
+                        strong={false}
                         tag="label"
-                      />,
+                      >
+                        Title
+                      </Jss(Text)>,
                       undefined,
                     ],
                   },
@@ -249,13 +269,14 @@ ShallowWrapper {
                       "key": undefined,
                       "nodeType": "class",
                       "props": Object {
-                        "children": undefined,
+                        "children": "Title",
                         "className": "text",
                         "standard": true,
+                        "strong": false,
                         "tag": "label",
                       },
                       "ref": null,
-                      "rendered": null,
+                      "rendered": "Title",
                       "type": [Function],
                     },
                     undefined,
@@ -348,8 +369,11 @@ ShallowWrapper {
                     <Jss(Text)
                       className="text"
                       standard={true}
+                      strong={false}
                       tag="label"
-                    />
+                    >
+                      Title
+                    </Jss(Text)>
                   </div>
                 </Jss(Flexbox)>
               </Jss(Flexbox)>
@@ -403,8 +427,11 @@ ShallowWrapper {
                     <Jss(Text)
                       className="text"
                       standard={true}
+                      strong={false}
                       tag="label"
-                    />
+                    >
+                      Title
+                    </Jss(Text)>
                   </div>
                 </Jss(Flexbox)>
               </Jss(Flexbox)>
@@ -452,8 +479,11 @@ ShallowWrapper {
                       <Jss(Text)
                         className="text"
                         standard={true}
+                        strong={false}
                         tag="label"
-                      />
+                      >
+                        Title
+                      </Jss(Text)>
                     </div>
                   </Jss(Flexbox)>
                 </Jss(Flexbox)>,
@@ -497,8 +527,11 @@ ShallowWrapper {
                       <Jss(Text)
                         className="text"
                         standard={true}
+                        strong={false}
                         tag="label"
-                      />
+                      >
+                        Title
+                      </Jss(Text)>
                     </div>
                   </Jss(Flexbox)>,
                   "display": "flex",
@@ -514,8 +547,11 @@ ShallowWrapper {
                       <Jss(Text)
                         className="text"
                         standard={true}
+                        strong={false}
                         tag="label"
-                      />
+                      >
+                        Title
+                      </Jss(Text)>
                     </div>,
                     "display": "flex",
                     "wrap": "wrap",
@@ -530,8 +566,11 @@ ShallowWrapper {
                         <Jss(Text)
                           className="text"
                           standard={true}
+                          strong={false}
                           tag="label"
-                        />,
+                        >
+                          Title
+                        </Jss(Text)>,
                         undefined,
                       ],
                     },
@@ -542,13 +581,14 @@ ShallowWrapper {
                         "key": undefined,
                         "nodeType": "class",
                         "props": Object {
-                          "children": undefined,
+                          "children": "Title",
                           "className": "text",
                           "standard": true,
+                          "strong": false,
                           "tag": "label",
                         },
                         "ref": null,
-                        "rendered": null,
+                        "rendered": "Title",
                         "type": [Function],
                       },
                       undefined,
@@ -675,6 +715,7 @@ ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <Jss(SlideDown)
     expanded={false}
+    strong={false}
     textSize="md"
   />,
   Symbol(enzyme.__renderer__): Object {
@@ -701,6 +742,7 @@ ShallowWrapper {
         "wrapper": "SlideDown-wrapper-0-1-106",
       },
       "expanded": false,
+      "strong": false,
       "textSize": "md",
     },
     "ref": null,
@@ -724,6 +766,7 @@ ShallowWrapper {
           "wrapper": "SlideDown-wrapper-0-1-106",
         },
         "expanded": false,
+        "strong": false,
         "textSize": "md",
       },
       "ref": null,

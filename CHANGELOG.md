@@ -6,6 +6,10 @@ All notable changes to this project will be documented in this file.
 
 ## 1.11.x
 
+### 1.11.1
+- Changes in the `expanded` behavior in `SlideDown`.
+- New `name` property in `SlideToggle`.
+
 ### 1.11.0
 - New icons.
 - Removed old occ logo icons.
