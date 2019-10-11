@@ -4,6 +4,11 @@ All notable changes to this project will be documented in this file.
 
 # Version 1
 
+## 1.12.x
+
+### 1.12.0
+- New `Toaster` component and `toaster` controller object.
+
 ## 1.11.x
 
 ### 1.11.1
