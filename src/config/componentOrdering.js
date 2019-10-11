@@ -36,7 +36,8 @@ module.exports = [
             'Pill',
             'Modal',
             'Placeholder',
-            'Tip'
+            'Tip',
+            'Toaster'
         ]
     },
     {
