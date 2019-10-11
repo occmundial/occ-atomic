@@ -6,6 +6,9 @@ All notable changes to this project will be documented in this file.
 
 ## 1.12.x
 
+### 1.12.1
+- New `youtubeSolid` icon.
+
 ### 1.12.0
 - New `Toaster` component and `toaster` controller object.
 
