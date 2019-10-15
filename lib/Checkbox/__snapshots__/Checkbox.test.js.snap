@@ -19,6 +19,7 @@ ShallowWrapper {
   />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
     "getNode": [Function],
     "render": [Function],
     "simulateError": [Function],
@@ -33,6 +34,7 @@ ShallowWrapper {
       "children": Array [
         <div
           className="check"
+          id={undefined}
         />,
         undefined,
         undefined,
@@ -50,6 +52,7 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "className": "check",
+          "id": undefined,
         },
         "ref": null,
         "rendered": null,
@@ -69,6 +72,7 @@ ShallowWrapper {
         "children": Array [
           <div
             className="check"
+            id={undefined}
           />,
           undefined,
           undefined,
@@ -86,6 +90,7 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "className": "check",
+            "id": undefined,
           },
           "ref": null,
           "rendered": null,
@@ -101,11 +106,18 @@ ShallowWrapper {
     "adapter": ReactSixteenAdapter {
       "options": Object {
         "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
         "lifecycles": Object {
           "componentDidUpdate": Object {
             "onSetState": true,
           },
-          "getDerivedStateFromProps": true,
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
           "getSnapshotBeforeUpdate": true,
           "setState": Object {
             "skipsComponentDidUpdateOnNullish": true,
@@ -114,6 +126,7 @@ ShallowWrapper {
       },
     },
   },
+  Symbol(enzyme.__childContext__): null,
 }
 `;
 
@@ -210,6 +223,7 @@ ShallowWrapper {
   Symbol(enzyme.__unrendered__): <Jss(Checkbox) />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
     "getNode": [Function],
     "render": [Function],
     "simulateError": [Function],
@@ -262,11 +276,18 @@ ShallowWrapper {
     "adapter": ReactSixteenAdapter {
       "options": Object {
         "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
         "lifecycles": Object {
           "componentDidUpdate": Object {
             "onSetState": true,
           },
-          "getDerivedStateFromProps": true,
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
           "getSnapshotBeforeUpdate": true,
           "setState": Object {
             "skipsComponentDidUpdateOnNullish": true,
@@ -275,5 +296,6 @@ ShallowWrapper {
       },
     },
   },
+  Symbol(enzyme.__childContext__): null,
 }
 `;
