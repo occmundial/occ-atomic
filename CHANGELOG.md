@@ -6,6 +6,12 @@ All notable changes to this project will be documented in this file.
 
 ## 1.12.x
 
+### 1.12.2
+- New `trk` prop for `Checkbox`, `Radio` and `SlideToggle`.
+- Changes in `NavAside` styles.
+- New `title` prop for the link items in `Footer`.
+
+
 ### 1.12.1
 - New `youtubeSolid` icon.
 
