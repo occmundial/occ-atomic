@@ -11,7 +11,6 @@ All notable changes to this project will be documented in this file.
 - Changes in `NavAside` styles.
 - New `title` prop for the link items in `Footer`.
 
-
 ### 1.12.1
 - New `youtubeSolid` icon.
 
