@@ -24,7 +24,6 @@ module.exports = [
     {
         name: 'Molecules',
         components: [
-            'Flatter',
             'Droplist',
             'TextField',
             'Input',
@@ -38,7 +37,8 @@ module.exports = [
             'Modal',
             'Placeholder',
             'Tip',
-            'Toaster'
+            'Toaster',
+            'Flatter'
         ]
     },
     {
