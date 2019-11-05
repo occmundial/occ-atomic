@@ -69,6 +69,7 @@ ShallowWrapper {
         "overlayShow": "overlayShow",
         "showRight": "showRight",
         "top": "top",
+        "topContent": "topContent",
       }
     }
     onClose={[MockFunction]}
@@ -652,6 +653,9 @@ Object {
     },
     "backgroundColor": "#f5f5f8",
     "padding": 16,
+  },
+  "topContent": Object {
+    "minWidth": 0,
   },
 }
 `;

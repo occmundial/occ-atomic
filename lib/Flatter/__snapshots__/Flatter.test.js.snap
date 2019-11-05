@@ -1,0 +1,2535 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Flatter matches the snapshot 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Flatter
+    classes={
+      Object {
+        "container": "container",
+      }
+    }
+    htmlText="<p class=\\"c01601 c01604 c01620 c01636\\">Descripción</p><div><pre class=\\"ql-syntax\\" spellcheck=\\"false\\">GRUPO GAYOSSO, EMPRESA LÍDER Y PIONERA EN SERVICIOS FUNERARIOS, RECONOCIDA COMO UNA DE LAS MEJORES EMPRESAS PARA TRABAJAR, TE INVITA A INTEGRARTE A SU EQUIPO DE TRABAJO COMO:
+ 
+GERENTE COMERCIAL DE DESARROLLO DE VENTAS - MONTERREY
+***OBTEN INGRESOS COMPETITIVOS DENTRO DEL MERCADO LABORAL Y FORMA PARTE DE ESTA GRAN EMPRESA DESARROLLANDO TUS HABILIDADES Y EXPERIENCIA OBTENIENDO ASÍ UN CRECIMIENTO PERSONAL Y PROFESIONAL***
+INTERESADOS:
+***ENVÍA TU CURRICULUM AL CORREO DE CONTACTO O BIEN POSTÚLATE POR ESTE MEDIO***
+***CONTRATACIÓN INMEDIATA***
+OFRECEMOS:
+1) SUELDO BASE: 12,000 MENSUALES
+2) PRESTACIONES DE LEY Y SUPERIORES
+3) BONO GARANTÍA DE 18,000 LOS 3 PRIMEROS MESES 
+4) VALES DE GASOLINA (1500 MENSUALES)
+5) CRECIMIENTO PERSONAL Y PROFESIONAL
+6) CONVENCIONES CON TODOS LOS GASTOS PAGADOS
+7) EXCELENTE AMBIENTE DE TRABAJO
+8) CAPACITACIÓN CONSTANTE 
+9) APOYO PARA LOGRAR OBJETIVOS Y METAS
+10) ZONA DE TRABAJO: MONTERREY
+11) CERTIFICACIONES EN VENTAS
+12) HORARIO DE TRABAJO: LUNES A VIERNES DE 9 AM A 8 PM Y SÁBADOS DE 9 AM A 3 PM (CON DISPONIBILIDAD DE HORARIO)
+SOLO NECESITAS:
+-Escolaridad: Licenciatura Concluida
+-Edad: Indistinta
+-Experiencia: 2 años como gerente de ventas o gerente comercial, manejando una plantilla de 20 a 30 asesores de ventas, de preferencia que haya trabajado con productos o servicios intangibles (TDC, créditos, inmobiliarias, servicios en general)
+-Cuente con automóvil propio (INDISPENSABLE)
+-Disponibilidad de horario
+***POSTÚLATE POR ESTE MEDIO O BIEN MANDA TU CURRICULUM AL CORREO DE CONTACTO y a la brevedad nos pondremos en contacto contigo***
+</pre><p><br></p></div>
+<p class=\\".wasd\\"><code>Regular</code></p><p><strong>Bold</strong></p><p><em>Italic</em></p>
+<p><br></p><p><br></p><ul><li><em>Bullet 1</em></li><li><em>Bullet 2</em></li>
+<li><em>Bullet 3</em></li></ul><p><strong><em>Bold Italic</em></strong>
+<em><strong>Italic Bold</strong></em></p><p><br></p><h4>Heading 4</h4>
+<p>
+<strong>First Row</strong><em>First Row</em><br/><strong>Second Row</strong><em>Second Row</em>
+<strong>First Row</strong><em>First Row</em><br/><strong>Second Row</strong><em>Second Row</em>
+</p>"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <Jss(Text)
+          tag="p"
+        >
+          Descripción
+        </Jss(Text)>,
+        "GRUPO GAYOSSO, EMPRESA LÍDER Y PIONERA EN SERVICIOS FUNERARIOS, RECONOCIDA COMO UNA DE LAS MEJORES EMPRESAS PARA TRABAJAR, TE INVITA A INTEGRARTE A SU EQUIPO DE TRABAJO COMO:",
+        <br />,
+        " ",
+        <br />,
+        "GERENTE COMERCIAL DE DESARROLLO DE VENTAS - MONTERREY",
+        <br />,
+        "***OBTEN INGRESOS COMPETITIVOS DENTRO DEL MERCADO LABORAL Y FORMA PARTE DE ESTA GRAN EMPRESA DESARROLLANDO TUS HABILIDADES Y EXPERIENCIA OBTENIENDO ASÍ UN CRECIMIENTO PERSONAL Y PROFESIONAL***",
+        <br />,
+        "INTERESADOS:",
+        <br />,
+        "***ENVÍA TU CURRICULUM AL CORREO DE CONTACTO O BIEN POSTÚLATE POR ESTE MEDIO***",
+        <br />,
+        "***CONTRATACIÓN INMEDIATA***",
+        <br />,
+        "OFRECEMOS:",
+        <br />,
+        "1) SUELDO BASE: 12,000 MENSUALES",
+        <br />,
+        "2) PRESTACIONES DE LEY Y SUPERIORES",
+        <br />,
+        "3) BONO GARANTÍA DE 18,000 LOS 3 PRIMEROS MESES ",
+        <br />,
+        "4) VALES DE GASOLINA (1500 MENSUALES)",
+        <br />,
+        "5) CRECIMIENTO PERSONAL Y PROFESIONAL",
+        <br />,
+        "6) CONVENCIONES CON TODOS LOS GASTOS PAGADOS",
+        <br />,
+        "7) EXCELENTE AMBIENTE DE TRABAJO",
+        <br />,
+        "8) CAPACITACIÓN CONSTANTE ",
+        <br />,
+        "9) APOYO PARA LOGRAR OBJETIVOS Y METAS",
+        <br />,
+        "10) ZONA DE TRABAJO: MONTERREY",
+        <br />,
+        "11) CERTIFICACIONES EN VENTAS",
+        <br />,
+        "12) HORARIO DE TRABAJO: LUNES A VIERNES DE 9 AM A 8 PM Y SÁBADOS DE 9 AM A 3 PM (CON DISPONIBILIDAD DE HORARIO)",
+        <br />,
+        "SOLO NECESITAS:",
+        <br />,
+        "-Escolaridad: Licenciatura Concluida",
+        <br />,
+        "-Edad: Indistinta",
+        <br />,
+        "-Experiencia: 2 años como gerente de ventas o gerente comercial, manejando una plantilla de 20 a 30 asesores de ventas, de preferencia que haya trabajado con productos o servicios intangibles (TDC, créditos, inmobiliarias, servicios en general)",
+        <br />,
+        "-Cuente con automóvil propio (INDISPENSABLE)",
+        <br />,
+        "-Disponibilidad de horario",
+        <br />,
+        "***POSTÚLATE POR ESTE MEDIO O BIEN MANDA TU CURRICULUM AL CORREO DE CONTACTO y a la brevedad nos pondremos en contacto contigo***",
+        <br />,
+        <Jss(Text)
+          tag="p"
+        >
+          <br />
+        </Jss(Text)>,
+        <br />,
+        <Jss(Text)
+          tag="p"
+        >
+          Regular
+        </Jss(Text)>,
+        <Jss(Text)
+          tag="p"
+        >
+          <Jss(Text)
+            strong={true}
+            tag="strong"
+          >
+            Bold
+          </Jss(Text)>
+        </Jss(Text)>,
+        <Jss(Text)
+          tag="p"
+        >
+          <span
+            style={
+              Object {
+                "fontStyle": "italic",
+              }
+            }
+          >
+            Italic
+          </span>
+        </Jss(Text)>,
+        <br />,
+        <Jss(Text)
+          tag="p"
+        >
+          <br />
+        </Jss(Text)>,
+        <Jss(Text)
+          tag="p"
+        >
+          <br />
+        </Jss(Text)>,
+        <ul>
+          <li>
+            <span
+              style={
+                Object {
+                  "fontStyle": "italic",
+                }
+              }
+            >
+              Bullet 1
+            </span>
+          </li>
+          <li>
+            <span
+              style={
+                Object {
+                  "fontStyle": "italic",
+                }
+              }
+            >
+              Bullet 2
+            </span>
+          </li>
+          <br />
+          <li>
+            <span
+              style={
+                Object {
+                  "fontStyle": "italic",
+                }
+              }
+            >
+              Bullet 3
+            </span>
+          </li>
+        </ul>,
+        <Jss(Text)
+          tag="p"
+        >
+          <Jss(Text)
+            strong={true}
+            tag="strong"
+          >
+            <span
+              style={
+                Object {
+                  "fontStyle": "italic",
+                }
+              }
+            >
+              Bold Italic
+            </span>
+          </Jss(Text)>
+          <br />
+          <span
+            style={
+              Object {
+                "fontStyle": "italic",
+              }
+            }
+          >
+            <Jss(Text)
+              strong={true}
+              tag="strong"
+            >
+              Italic Bold
+            </Jss(Text)>
+          </span>
+        </Jss(Text)>,
+        <Jss(Text)
+          tag="p"
+        >
+          <br />
+        </Jss(Text)>,
+        <Jss(Text)
+          subheading={true}
+          tag="h4"
+        >
+          Heading 4
+        </Jss(Text)>,
+        <br />,
+        <Jss(Text)
+          tag="p"
+        >
+          <br />
+          <Jss(Text)
+            strong={true}
+            tag="strong"
+          >
+            First Row
+          </Jss(Text)>
+          <span
+            style={
+              Object {
+                "fontStyle": "italic",
+              }
+            }
+          >
+            First Row
+          </span>
+          <Jss(Text)
+            strong={true}
+            tag="strong"
+          >
+            Second Row
+          </Jss(Text)>
+          <span
+            style={
+              Object {
+                "fontStyle": "italic",
+              }
+            }
+          >
+            Second Row
+          </span>
+          <br />
+          <Jss(Text)
+            strong={true}
+            tag="strong"
+          >
+            First Row
+          </Jss(Text)>
+          <span
+            style={
+              Object {
+                "fontStyle": "italic",
+              }
+            }
+          >
+            First Row
+          </span>
+          <Jss(Text)
+            strong={true}
+            tag="strong"
+          >
+            Second Row
+          </Jss(Text)>
+          <span
+            style={
+              Object {
+                "fontStyle": "italic",
+              }
+            }
+          >
+            Second Row
+          </span>
+          <br />
+        </Jss(Text)>,
+      ],
+      "className": undefined,
+      "id": undefined,
+      "style": undefined,
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": "0",
+        "nodeType": "class",
+        "props": Object {
+          "children": "Descripción",
+          "tag": "p",
+        },
+        "ref": null,
+        "rendered": "Descripción",
+        "type": [Function],
+      },
+      "GRUPO GAYOSSO, EMPRESA LÍDER Y PIONERA EN SERVICIOS FUNERARIOS, RECONOCIDA COMO UNA DE LAS MEJORES EMPRESAS PARA TRABAJAR, TE INVITA A INTEGRARTE A SU EQUIPO DE TRABAJO COMO:",
+      Object {
+        "instance": null,
+        "key": "1",
+        "nodeType": "host",
+        "props": Object {},
+        "ref": null,
+        "rendered": null,
+        "type": "br",
+      },
+      " ",
+      Object {
+        "instance": null,
+        "key": "2",
+        "nodeType": "host",
+        "props": Object {},
+        "ref": null,
+        "rendered": null,
+        "type": "br",
+      },
+      "GERENTE COMERCIAL DE DESARROLLO DE VENTAS - MONTERREY",
+      Object {
+        "instance": null,
+        "key": "3",
+        "nodeType": "host",
+        "props": Object {},
+        "ref": null,
+        "rendered": null,
+        "type": "br",
+      },
+      "***OBTEN INGRESOS COMPETITIVOS DENTRO DEL MERCADO LABORAL Y FORMA PARTE DE ESTA GRAN EMPRESA DESARROLLANDO TUS HABILIDADES Y EXPERIENCIA OBTENIENDO ASÍ UN CRECIMIENTO PERSONAL Y PROFESIONAL***",
+      Object {
+        "instance": null,
+        "key": "4",
+        "nodeType": "host",
+        "props": Object {},
+        "ref": null,
+        "rendered": null,
+        "type": "br",
+      },
+      "INTERESADOS:",
+      Object {
+        "instance": null,
+        "key": "5",
+        "nodeType": "host",
+        "props": Object {},
+        "ref": null,
+        "rendered": null,
+        "type": "br",
+      },
+      "***ENVÍA TU CURRICULUM AL CORREO DE CONTACTO O BIEN POSTÚLATE POR ESTE MEDIO***",
+      Object {
+        "instance": null,
+        "key": "6",
+        "nodeType": "host",
+        "props": Object {},
+        "ref": null,
+        "rendered": null,
+        "type": "br",
+      },
+      "***CONTRATACIÓN INMEDIATA***",
+      Object {
+        "instance": null,
+        "key": "7",
+        "nodeType": "host",
+        "props": Object {},
+        "ref": null,
+        "rendered": null,
+        "type": "br",
+      },
+      "OFRECEMOS:",
+      Object {
+        "instance": null,
+        "key": "8",
+        "nodeType": "host",
+        "props": Object {},
+        "ref": null,
+        "rendered": null,
+        "type": "br",
+      },
+      "1) SUELDO BASE: 12,000 MENSUALES",
+      Object {
+        "instance": null,
+        "key": "9",
+        "nodeType": "host",
+        "props": Object {},
+        "ref": null,
+        "rendered": null,
+        "type": "br",
+      },
+      "2) PRESTACIONES DE LEY Y SUPERIORES",
+      Object {
+        "instance": null,
+        "key": "10",
+        "nodeType": "host",
+        "props": Object {},
+        "ref": null,
+        "rendered": null,
+        "type": "br",
+      },
+      "3) BONO GARANTÍA DE 18,000 LOS 3 PRIMEROS MESES ",
+      Object {
+        "instance": null,
+        "key": "11",
+        "nodeType": "host",
+        "props": Object {},
+        "ref": null,
+        "rendered": null,
+        "type": "br",
+      },
+      "4) VALES DE GASOLINA (1500 MENSUALES)",
+      Object {
+        "instance": null,
+        "key": "12",
+        "nodeType": "host",
+        "props": Object {},
+        "ref": null,
+        "rendered": null,
+        "type": "br",
+      },
+      "5) CRECIMIENTO PERSONAL Y PROFESIONAL",
+      Object {
+        "instance": null,
+        "key": "13",
+        "nodeType": "host",
+        "props": Object {},
+        "ref": null,
+        "rendered": null,
+        "type": "br",
+      },
+      "6) CONVENCIONES CON TODOS LOS GASTOS PAGADOS",
+      Object {
+        "instance": null,
+        "key": "14",
+        "nodeType": "host",
+        "props": Object {},
+        "ref": null,
+        "rendered": null,
+        "type": "br",
+      },
+      "7) EXCELENTE AMBIENTE DE TRABAJO",
+      Object {
+        "instance": null,
+        "key": "15",
+        "nodeType": "host",
+        "props": Object {},
+        "ref": null,
+        "rendered": null,
+        "type": "br",
+      },
+      "8) CAPACITACIÓN CONSTANTE ",
+      Object {
+        "instance": null,
+        "key": "16",
+        "nodeType": "host",
+        "props": Object {},
+        "ref": null,
+        "rendered": null,
+        "type": "br",
+      },
+      "9) APOYO PARA LOGRAR OBJETIVOS Y METAS",
+      Object {
+        "instance": null,
+        "key": "17",
+        "nodeType": "host",
+        "props": Object {},
+        "ref": null,
+        "rendered": null,
+        "type": "br",
+      },
+      "10) ZONA DE TRABAJO: MONTERREY",
+      Object {
+        "instance": null,
+        "key": "18",
+        "nodeType": "host",
+        "props": Object {},
+        "ref": null,
+        "rendered": null,
+        "type": "br",
+      },
+      "11) CERTIFICACIONES EN VENTAS",
+      Object {
+        "instance": null,
+        "key": "19",
+        "nodeType": "host",
+        "props": Object {},
+        "ref": null,
+        "rendered": null,
+        "type": "br",
+      },
+      "12) HORARIO DE TRABAJO: LUNES A VIERNES DE 9 AM A 8 PM Y SÁBADOS DE 9 AM A 3 PM (CON DISPONIBILIDAD DE HORARIO)",
+      Object {
+        "instance": null,
+        "key": "20",
+        "nodeType": "host",
+        "props": Object {},
+        "ref": null,
+        "rendered": null,
+        "type": "br",
+      },
+      "SOLO NECESITAS:",
+      Object {
+        "instance": null,
+        "key": "21",
+        "nodeType": "host",
+        "props": Object {},
+        "ref": null,
+        "rendered": null,
+        "type": "br",
+      },
+      "-Escolaridad: Licenciatura Concluida",
+      Object {
+        "instance": null,
+        "key": "22",
+        "nodeType": "host",
+        "props": Object {},
+        "ref": null,
+        "rendered": null,
+        "type": "br",
+      },
+      "-Edad: Indistinta",
+      Object {
+        "instance": null,
+        "key": "23",
+        "nodeType": "host",
+        "props": Object {},
+        "ref": null,
+        "rendered": null,
+        "type": "br",
+      },
+      "-Experiencia: 2 años como gerente de ventas o gerente comercial, manejando una plantilla de 20 a 30 asesores de ventas, de preferencia que haya trabajado con productos o servicios intangibles (TDC, créditos, inmobiliarias, servicios en general)",
+      Object {
+        "instance": null,
+        "key": "24",
+        "nodeType": "host",
+        "props": Object {},
+        "ref": null,
+        "rendered": null,
+        "type": "br",
+      },
+      "-Cuente con automóvil propio (INDISPENSABLE)",
+      Object {
+        "instance": null,
+        "key": "25",
+        "nodeType": "host",
+        "props": Object {},
+        "ref": null,
+        "rendered": null,
+        "type": "br",
+      },
+      "-Disponibilidad de horario",
+      Object {
+        "instance": null,
+        "key": "26",
+        "nodeType": "host",
+        "props": Object {},
+        "ref": null,
+        "rendered": null,
+        "type": "br",
+      },
+      "***POSTÚLATE POR ESTE MEDIO O BIEN MANDA TU CURRICULUM AL CORREO DE CONTACTO y a la brevedad nos pondremos en contacto contigo***",
+      Object {
+        "instance": null,
+        "key": "27",
+        "nodeType": "host",
+        "props": Object {},
+        "ref": null,
+        "rendered": null,
+        "type": "br",
+      },
+      Object {
+        "instance": null,
+        "key": "29",
+        "nodeType": "class",
+        "props": Object {
+          "children": <br />,
+          "tag": "p",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": "28",
+          "nodeType": "host",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": "br",
+        },
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "30",
+        "nodeType": "host",
+        "props": Object {},
+        "ref": null,
+        "rendered": null,
+        "type": "br",
+      },
+      Object {
+        "instance": null,
+        "key": "31",
+        "nodeType": "class",
+        "props": Object {
+          "children": "Regular",
+          "tag": "p",
+        },
+        "ref": null,
+        "rendered": "Regular",
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "33",
+        "nodeType": "class",
+        "props": Object {
+          "children": <Jss(Text)
+            strong={true}
+            tag="strong"
+          >
+            Bold
+          </Jss(Text)>,
+          "tag": "p",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": "32",
+          "nodeType": "class",
+          "props": Object {
+            "children": "Bold",
+            "strong": true,
+            "tag": "strong",
+          },
+          "ref": null,
+          "rendered": "Bold",
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "35",
+        "nodeType": "class",
+        "props": Object {
+          "children": <span
+            style={
+              Object {
+                "fontStyle": "italic",
+              }
+            }
+          >
+            Italic
+          </span>,
+          "tag": "p",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": "34",
+          "nodeType": "host",
+          "props": Object {
+            "children": "Italic",
+            "style": Object {
+              "fontStyle": "italic",
+            },
+          },
+          "ref": null,
+          "rendered": "Italic",
+          "type": "span",
+        },
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "36",
+        "nodeType": "host",
+        "props": Object {},
+        "ref": null,
+        "rendered": null,
+        "type": "br",
+      },
+      Object {
+        "instance": null,
+        "key": "38",
+        "nodeType": "class",
+        "props": Object {
+          "children": <br />,
+          "tag": "p",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": "37",
+          "nodeType": "host",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": "br",
+        },
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "40",
+        "nodeType": "class",
+        "props": Object {
+          "children": <br />,
+          "tag": "p",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": "39",
+          "nodeType": "host",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": "br",
+        },
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "48",
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <li>
+              <span
+                style={
+                  Object {
+                    "fontStyle": "italic",
+                  }
+                }
+              >
+                Bullet 1
+              </span>
+            </li>,
+            <li>
+              <span
+                style={
+                  Object {
+                    "fontStyle": "italic",
+                  }
+                }
+              >
+                Bullet 2
+              </span>
+            </li>,
+            <br />,
+            <li>
+              <span
+                style={
+                  Object {
+                    "fontStyle": "italic",
+                  }
+                }
+              >
+                Bullet 3
+              </span>
+            </li>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": "42",
+            "nodeType": "host",
+            "props": Object {
+              "children": <span
+                style={
+                  Object {
+                    "fontStyle": "italic",
+                  }
+                }
+              >
+                Bullet 1
+              </span>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": "41",
+              "nodeType": "host",
+              "props": Object {
+                "children": "Bullet 1",
+                "style": Object {
+                  "fontStyle": "italic",
+                },
+              },
+              "ref": null,
+              "rendered": "Bullet 1",
+              "type": "span",
+            },
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": "44",
+            "nodeType": "host",
+            "props": Object {
+              "children": <span
+                style={
+                  Object {
+                    "fontStyle": "italic",
+                  }
+                }
+              >
+                Bullet 2
+              </span>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": "43",
+              "nodeType": "host",
+              "props": Object {
+                "children": "Bullet 2",
+                "style": Object {
+                  "fontStyle": "italic",
+                },
+              },
+              "ref": null,
+              "rendered": "Bullet 2",
+              "type": "span",
+            },
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": "45",
+            "nodeType": "host",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": "br",
+          },
+          Object {
+            "instance": null,
+            "key": "47",
+            "nodeType": "host",
+            "props": Object {
+              "children": <span
+                style={
+                  Object {
+                    "fontStyle": "italic",
+                  }
+                }
+              >
+                Bullet 3
+              </span>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": "46",
+              "nodeType": "host",
+              "props": Object {
+                "children": "Bullet 3",
+                "style": Object {
+                  "fontStyle": "italic",
+                },
+              },
+              "ref": null,
+              "rendered": "Bullet 3",
+              "type": "span",
+            },
+            "type": "li",
+          },
+        ],
+        "type": "ul",
+      },
+      Object {
+        "instance": null,
+        "key": "54",
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <Jss(Text)
+              strong={true}
+              tag="strong"
+            >
+              <span
+                style={
+                  Object {
+                    "fontStyle": "italic",
+                  }
+                }
+              >
+                Bold Italic
+              </span>
+            </Jss(Text)>,
+            <br />,
+            <span
+              style={
+                Object {
+                  "fontStyle": "italic",
+                }
+              }
+            >
+              <Jss(Text)
+                strong={true}
+                tag="strong"
+              >
+                Italic Bold
+              </Jss(Text)>
+            </span>,
+          ],
+          "tag": "p",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": "50",
+            "nodeType": "class",
+            "props": Object {
+              "children": <span
+                style={
+                  Object {
+                    "fontStyle": "italic",
+                  }
+                }
+              >
+                Bold Italic
+              </span>,
+              "strong": true,
+              "tag": "strong",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": "49",
+              "nodeType": "host",
+              "props": Object {
+                "children": "Bold Italic",
+                "style": Object {
+                  "fontStyle": "italic",
+                },
+              },
+              "ref": null,
+              "rendered": "Bold Italic",
+              "type": "span",
+            },
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "51",
+            "nodeType": "host",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": "br",
+          },
+          Object {
+            "instance": null,
+            "key": "53",
+            "nodeType": "host",
+            "props": Object {
+              "children": <Jss(Text)
+                strong={true}
+                tag="strong"
+              >
+                Italic Bold
+              </Jss(Text)>,
+              "style": Object {
+                "fontStyle": "italic",
+              },
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": "52",
+              "nodeType": "class",
+              "props": Object {
+                "children": "Italic Bold",
+                "strong": true,
+                "tag": "strong",
+              },
+              "ref": null,
+              "rendered": "Italic Bold",
+              "type": [Function],
+            },
+            "type": "span",
+          },
+        ],
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "56",
+        "nodeType": "class",
+        "props": Object {
+          "children": <br />,
+          "tag": "p",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": "55",
+          "nodeType": "host",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": "br",
+        },
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "57",
+        "nodeType": "class",
+        "props": Object {
+          "children": "Heading 4",
+          "subheading": true,
+          "tag": "h4",
+        },
+        "ref": null,
+        "rendered": "Heading 4",
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "58",
+        "nodeType": "host",
+        "props": Object {},
+        "ref": null,
+        "rendered": null,
+        "type": "br",
+      },
+      Object {
+        "instance": null,
+        "key": "70",
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <br />,
+            <Jss(Text)
+              strong={true}
+              tag="strong"
+            >
+              First Row
+            </Jss(Text)>,
+            <span
+              style={
+                Object {
+                  "fontStyle": "italic",
+                }
+              }
+            >
+              First Row
+            </span>,
+            <Jss(Text)
+              strong={true}
+              tag="strong"
+            >
+              Second Row
+            </Jss(Text)>,
+            <span
+              style={
+                Object {
+                  "fontStyle": "italic",
+                }
+              }
+            >
+              Second Row
+            </span>,
+            <br />,
+            <Jss(Text)
+              strong={true}
+              tag="strong"
+            >
+              First Row
+            </Jss(Text)>,
+            <span
+              style={
+                Object {
+                  "fontStyle": "italic",
+                }
+              }
+            >
+              First Row
+            </span>,
+            <Jss(Text)
+              strong={true}
+              tag="strong"
+            >
+              Second Row
+            </Jss(Text)>,
+            <span
+              style={
+                Object {
+                  "fontStyle": "italic",
+                }
+              }
+            >
+              Second Row
+            </span>,
+            <br />,
+          ],
+          "tag": "p",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": "59",
+            "nodeType": "host",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": "br",
+          },
+          Object {
+            "instance": null,
+            "key": "60",
+            "nodeType": "class",
+            "props": Object {
+              "children": "First Row",
+              "strong": true,
+              "tag": "strong",
+            },
+            "ref": null,
+            "rendered": "First Row",
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "61",
+            "nodeType": "host",
+            "props": Object {
+              "children": "First Row",
+              "style": Object {
+                "fontStyle": "italic",
+              },
+            },
+            "ref": null,
+            "rendered": "First Row",
+            "type": "span",
+          },
+          Object {
+            "instance": null,
+            "key": "62",
+            "nodeType": "class",
+            "props": Object {
+              "children": "Second Row",
+              "strong": true,
+              "tag": "strong",
+            },
+            "ref": null,
+            "rendered": "Second Row",
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "63",
+            "nodeType": "host",
+            "props": Object {
+              "children": "Second Row",
+              "style": Object {
+                "fontStyle": "italic",
+              },
+            },
+            "ref": null,
+            "rendered": "Second Row",
+            "type": "span",
+          },
+          Object {
+            "instance": null,
+            "key": "64",
+            "nodeType": "host",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": "br",
+          },
+          Object {
+            "instance": null,
+            "key": "65",
+            "nodeType": "class",
+            "props": Object {
+              "children": "First Row",
+              "strong": true,
+              "tag": "strong",
+            },
+            "ref": null,
+            "rendered": "First Row",
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "66",
+            "nodeType": "host",
+            "props": Object {
+              "children": "First Row",
+              "style": Object {
+                "fontStyle": "italic",
+              },
+            },
+            "ref": null,
+            "rendered": "First Row",
+            "type": "span",
+          },
+          Object {
+            "instance": null,
+            "key": "67",
+            "nodeType": "class",
+            "props": Object {
+              "children": "Second Row",
+              "strong": true,
+              "tag": "strong",
+            },
+            "ref": null,
+            "rendered": "Second Row",
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "68",
+            "nodeType": "host",
+            "props": Object {
+              "children": "Second Row",
+              "style": Object {
+                "fontStyle": "italic",
+              },
+            },
+            "ref": null,
+            "rendered": "Second Row",
+            "type": "span",
+          },
+          Object {
+            "instance": null,
+            "key": "69",
+            "nodeType": "host",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": "br",
+          },
+        ],
+        "type": [Function],
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <Jss(Text)
+            tag="p"
+          >
+            Descripción
+          </Jss(Text)>,
+          "GRUPO GAYOSSO, EMPRESA LÍDER Y PIONERA EN SERVICIOS FUNERARIOS, RECONOCIDA COMO UNA DE LAS MEJORES EMPRESAS PARA TRABAJAR, TE INVITA A INTEGRARTE A SU EQUIPO DE TRABAJO COMO:",
+          <br />,
+          " ",
+          <br />,
+          "GERENTE COMERCIAL DE DESARROLLO DE VENTAS - MONTERREY",
+          <br />,
+          "***OBTEN INGRESOS COMPETITIVOS DENTRO DEL MERCADO LABORAL Y FORMA PARTE DE ESTA GRAN EMPRESA DESARROLLANDO TUS HABILIDADES Y EXPERIENCIA OBTENIENDO ASÍ UN CRECIMIENTO PERSONAL Y PROFESIONAL***",
+          <br />,
+          "INTERESADOS:",
+          <br />,
+          "***ENVÍA TU CURRICULUM AL CORREO DE CONTACTO O BIEN POSTÚLATE POR ESTE MEDIO***",
+          <br />,
+          "***CONTRATACIÓN INMEDIATA***",
+          <br />,
+          "OFRECEMOS:",
+          <br />,
+          "1) SUELDO BASE: 12,000 MENSUALES",
+          <br />,
+          "2) PRESTACIONES DE LEY Y SUPERIORES",
+          <br />,
+          "3) BONO GARANTÍA DE 18,000 LOS 3 PRIMEROS MESES ",
+          <br />,
+          "4) VALES DE GASOLINA (1500 MENSUALES)",
+          <br />,
+          "5) CRECIMIENTO PERSONAL Y PROFESIONAL",
+          <br />,
+          "6) CONVENCIONES CON TODOS LOS GASTOS PAGADOS",
+          <br />,
+          "7) EXCELENTE AMBIENTE DE TRABAJO",
+          <br />,
+          "8) CAPACITACIÓN CONSTANTE ",
+          <br />,
+          "9) APOYO PARA LOGRAR OBJETIVOS Y METAS",
+          <br />,
+          "10) ZONA DE TRABAJO: MONTERREY",
+          <br />,
+          "11) CERTIFICACIONES EN VENTAS",
+          <br />,
+          "12) HORARIO DE TRABAJO: LUNES A VIERNES DE 9 AM A 8 PM Y SÁBADOS DE 9 AM A 3 PM (CON DISPONIBILIDAD DE HORARIO)",
+          <br />,
+          "SOLO NECESITAS:",
+          <br />,
+          "-Escolaridad: Licenciatura Concluida",
+          <br />,
+          "-Edad: Indistinta",
+          <br />,
+          "-Experiencia: 2 años como gerente de ventas o gerente comercial, manejando una plantilla de 20 a 30 asesores de ventas, de preferencia que haya trabajado con productos o servicios intangibles (TDC, créditos, inmobiliarias, servicios en general)",
+          <br />,
+          "-Cuente con automóvil propio (INDISPENSABLE)",
+          <br />,
+          "-Disponibilidad de horario",
+          <br />,
+          "***POSTÚLATE POR ESTE MEDIO O BIEN MANDA TU CURRICULUM AL CORREO DE CONTACTO y a la brevedad nos pondremos en contacto contigo***",
+          <br />,
+          <Jss(Text)
+            tag="p"
+          >
+            <br />
+          </Jss(Text)>,
+          <br />,
+          <Jss(Text)
+            tag="p"
+          >
+            Regular
+          </Jss(Text)>,
+          <Jss(Text)
+            tag="p"
+          >
+            <Jss(Text)
+              strong={true}
+              tag="strong"
+            >
+              Bold
+            </Jss(Text)>
+          </Jss(Text)>,
+          <Jss(Text)
+            tag="p"
+          >
+            <span
+              style={
+                Object {
+                  "fontStyle": "italic",
+                }
+              }
+            >
+              Italic
+            </span>
+          </Jss(Text)>,
+          <br />,
+          <Jss(Text)
+            tag="p"
+          >
+            <br />
+          </Jss(Text)>,
+          <Jss(Text)
+            tag="p"
+          >
+            <br />
+          </Jss(Text)>,
+          <ul>
+            <li>
+              <span
+                style={
+                  Object {
+                    "fontStyle": "italic",
+                  }
+                }
+              >
+                Bullet 1
+              </span>
+            </li>
+            <li>
+              <span
+                style={
+                  Object {
+                    "fontStyle": "italic",
+                  }
+                }
+              >
+                Bullet 2
+              </span>
+            </li>
+            <br />
+            <li>
+              <span
+                style={
+                  Object {
+                    "fontStyle": "italic",
+                  }
+                }
+              >
+                Bullet 3
+              </span>
+            </li>
+          </ul>,
+          <Jss(Text)
+            tag="p"
+          >
+            <Jss(Text)
+              strong={true}
+              tag="strong"
+            >
+              <span
+                style={
+                  Object {
+                    "fontStyle": "italic",
+                  }
+                }
+              >
+                Bold Italic
+              </span>
+            </Jss(Text)>
+            <br />
+            <span
+              style={
+                Object {
+                  "fontStyle": "italic",
+                }
+              }
+            >
+              <Jss(Text)
+                strong={true}
+                tag="strong"
+              >
+                Italic Bold
+              </Jss(Text)>
+            </span>
+          </Jss(Text)>,
+          <Jss(Text)
+            tag="p"
+          >
+            <br />
+          </Jss(Text)>,
+          <Jss(Text)
+            subheading={true}
+            tag="h4"
+          >
+            Heading 4
+          </Jss(Text)>,
+          <br />,
+          <Jss(Text)
+            tag="p"
+          >
+            <br />
+            <Jss(Text)
+              strong={true}
+              tag="strong"
+            >
+              First Row
+            </Jss(Text)>
+            <span
+              style={
+                Object {
+                  "fontStyle": "italic",
+                }
+              }
+            >
+              First Row
+            </span>
+            <Jss(Text)
+              strong={true}
+              tag="strong"
+            >
+              Second Row
+            </Jss(Text)>
+            <span
+              style={
+                Object {
+                  "fontStyle": "italic",
+                }
+              }
+            >
+              Second Row
+            </span>
+            <br />
+            <Jss(Text)
+              strong={true}
+              tag="strong"
+            >
+              First Row
+            </Jss(Text)>
+            <span
+              style={
+                Object {
+                  "fontStyle": "italic",
+                }
+              }
+            >
+              First Row
+            </span>
+            <Jss(Text)
+              strong={true}
+              tag="strong"
+            >
+              Second Row
+            </Jss(Text)>
+            <span
+              style={
+                Object {
+                  "fontStyle": "italic",
+                }
+              }
+            >
+              Second Row
+            </span>
+            <br />
+          </Jss(Text)>,
+        ],
+        "className": undefined,
+        "id": undefined,
+        "style": undefined,
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": "0",
+          "nodeType": "class",
+          "props": Object {
+            "children": "Descripción",
+            "tag": "p",
+          },
+          "ref": null,
+          "rendered": "Descripción",
+          "type": [Function],
+        },
+        "GRUPO GAYOSSO, EMPRESA LÍDER Y PIONERA EN SERVICIOS FUNERARIOS, RECONOCIDA COMO UNA DE LAS MEJORES EMPRESAS PARA TRABAJAR, TE INVITA A INTEGRARTE A SU EQUIPO DE TRABAJO COMO:",
+        Object {
+          "instance": null,
+          "key": "1",
+          "nodeType": "host",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": "br",
+        },
+        " ",
+        Object {
+          "instance": null,
+          "key": "2",
+          "nodeType": "host",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": "br",
+        },
+        "GERENTE COMERCIAL DE DESARROLLO DE VENTAS - MONTERREY",
+        Object {
+          "instance": null,
+          "key": "3",
+          "nodeType": "host",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": "br",
+        },
+        "***OBTEN INGRESOS COMPETITIVOS DENTRO DEL MERCADO LABORAL Y FORMA PARTE DE ESTA GRAN EMPRESA DESARROLLANDO TUS HABILIDADES Y EXPERIENCIA OBTENIENDO ASÍ UN CRECIMIENTO PERSONAL Y PROFESIONAL***",
+        Object {
+          "instance": null,
+          "key": "4",
+          "nodeType": "host",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": "br",
+        },
+        "INTERESADOS:",
+        Object {
+          "instance": null,
+          "key": "5",
+          "nodeType": "host",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": "br",
+        },
+        "***ENVÍA TU CURRICULUM AL CORREO DE CONTACTO O BIEN POSTÚLATE POR ESTE MEDIO***",
+        Object {
+          "instance": null,
+          "key": "6",
+          "nodeType": "host",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": "br",
+        },
+        "***CONTRATACIÓN INMEDIATA***",
+        Object {
+          "instance": null,
+          "key": "7",
+          "nodeType": "host",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": "br",
+        },
+        "OFRECEMOS:",
+        Object {
+          "instance": null,
+          "key": "8",
+          "nodeType": "host",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": "br",
+        },
+        "1) SUELDO BASE: 12,000 MENSUALES",
+        Object {
+          "instance": null,
+          "key": "9",
+          "nodeType": "host",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": "br",
+        },
+        "2) PRESTACIONES DE LEY Y SUPERIORES",
+        Object {
+          "instance": null,
+          "key": "10",
+          "nodeType": "host",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": "br",
+        },
+        "3) BONO GARANTÍA DE 18,000 LOS 3 PRIMEROS MESES ",
+        Object {
+          "instance": null,
+          "key": "11",
+          "nodeType": "host",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": "br",
+        },
+        "4) VALES DE GASOLINA (1500 MENSUALES)",
+        Object {
+          "instance": null,
+          "key": "12",
+          "nodeType": "host",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": "br",
+        },
+        "5) CRECIMIENTO PERSONAL Y PROFESIONAL",
+        Object {
+          "instance": null,
+          "key": "13",
+          "nodeType": "host",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": "br",
+        },
+        "6) CONVENCIONES CON TODOS LOS GASTOS PAGADOS",
+        Object {
+          "instance": null,
+          "key": "14",
+          "nodeType": "host",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": "br",
+        },
+        "7) EXCELENTE AMBIENTE DE TRABAJO",
+        Object {
+          "instance": null,
+          "key": "15",
+          "nodeType": "host",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": "br",
+        },
+        "8) CAPACITACIÓN CONSTANTE ",
+        Object {
+          "instance": null,
+          "key": "16",
+          "nodeType": "host",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": "br",
+        },
+        "9) APOYO PARA LOGRAR OBJETIVOS Y METAS",
+        Object {
+          "instance": null,
+          "key": "17",
+          "nodeType": "host",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": "br",
+        },
+        "10) ZONA DE TRABAJO: MONTERREY",
+        Object {
+          "instance": null,
+          "key": "18",
+          "nodeType": "host",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": "br",
+        },
+        "11) CERTIFICACIONES EN VENTAS",
+        Object {
+          "instance": null,
+          "key": "19",
+          "nodeType": "host",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": "br",
+        },
+        "12) HORARIO DE TRABAJO: LUNES A VIERNES DE 9 AM A 8 PM Y SÁBADOS DE 9 AM A 3 PM (CON DISPONIBILIDAD DE HORARIO)",
+        Object {
+          "instance": null,
+          "key": "20",
+          "nodeType": "host",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": "br",
+        },
+        "SOLO NECESITAS:",
+        Object {
+          "instance": null,
+          "key": "21",
+          "nodeType": "host",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": "br",
+        },
+        "-Escolaridad: Licenciatura Concluida",
+        Object {
+          "instance": null,
+          "key": "22",
+          "nodeType": "host",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": "br",
+        },
+        "-Edad: Indistinta",
+        Object {
+          "instance": null,
+          "key": "23",
+          "nodeType": "host",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": "br",
+        },
+        "-Experiencia: 2 años como gerente de ventas o gerente comercial, manejando una plantilla de 20 a 30 asesores de ventas, de preferencia que haya trabajado con productos o servicios intangibles (TDC, créditos, inmobiliarias, servicios en general)",
+        Object {
+          "instance": null,
+          "key": "24",
+          "nodeType": "host",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": "br",
+        },
+        "-Cuente con automóvil propio (INDISPENSABLE)",
+        Object {
+          "instance": null,
+          "key": "25",
+          "nodeType": "host",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": "br",
+        },
+        "-Disponibilidad de horario",
+        Object {
+          "instance": null,
+          "key": "26",
+          "nodeType": "host",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": "br",
+        },
+        "***POSTÚLATE POR ESTE MEDIO O BIEN MANDA TU CURRICULUM AL CORREO DE CONTACTO y a la brevedad nos pondremos en contacto contigo***",
+        Object {
+          "instance": null,
+          "key": "27",
+          "nodeType": "host",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": "br",
+        },
+        Object {
+          "instance": null,
+          "key": "29",
+          "nodeType": "class",
+          "props": Object {
+            "children": <br />,
+            "tag": "p",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": "28",
+            "nodeType": "host",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": "br",
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "30",
+          "nodeType": "host",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": "br",
+        },
+        Object {
+          "instance": null,
+          "key": "31",
+          "nodeType": "class",
+          "props": Object {
+            "children": "Regular",
+            "tag": "p",
+          },
+          "ref": null,
+          "rendered": "Regular",
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "33",
+          "nodeType": "class",
+          "props": Object {
+            "children": <Jss(Text)
+              strong={true}
+              tag="strong"
+            >
+              Bold
+            </Jss(Text)>,
+            "tag": "p",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": "32",
+            "nodeType": "class",
+            "props": Object {
+              "children": "Bold",
+              "strong": true,
+              "tag": "strong",
+            },
+            "ref": null,
+            "rendered": "Bold",
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "35",
+          "nodeType": "class",
+          "props": Object {
+            "children": <span
+              style={
+                Object {
+                  "fontStyle": "italic",
+                }
+              }
+            >
+              Italic
+            </span>,
+            "tag": "p",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": "34",
+            "nodeType": "host",
+            "props": Object {
+              "children": "Italic",
+              "style": Object {
+                "fontStyle": "italic",
+              },
+            },
+            "ref": null,
+            "rendered": "Italic",
+            "type": "span",
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "36",
+          "nodeType": "host",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": "br",
+        },
+        Object {
+          "instance": null,
+          "key": "38",
+          "nodeType": "class",
+          "props": Object {
+            "children": <br />,
+            "tag": "p",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": "37",
+            "nodeType": "host",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": "br",
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "40",
+          "nodeType": "class",
+          "props": Object {
+            "children": <br />,
+            "tag": "p",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": "39",
+            "nodeType": "host",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": "br",
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "48",
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <li>
+                <span
+                  style={
+                    Object {
+                      "fontStyle": "italic",
+                    }
+                  }
+                >
+                  Bullet 1
+                </span>
+              </li>,
+              <li>
+                <span
+                  style={
+                    Object {
+                      "fontStyle": "italic",
+                    }
+                  }
+                >
+                  Bullet 2
+                </span>
+              </li>,
+              <br />,
+              <li>
+                <span
+                  style={
+                    Object {
+                      "fontStyle": "italic",
+                    }
+                  }
+                >
+                  Bullet 3
+                </span>
+              </li>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": "42",
+              "nodeType": "host",
+              "props": Object {
+                "children": <span
+                  style={
+                    Object {
+                      "fontStyle": "italic",
+                    }
+                  }
+                >
+                  Bullet 1
+                </span>,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": "41",
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Bullet 1",
+                  "style": Object {
+                    "fontStyle": "italic",
+                  },
+                },
+                "ref": null,
+                "rendered": "Bullet 1",
+                "type": "span",
+              },
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": "44",
+              "nodeType": "host",
+              "props": Object {
+                "children": <span
+                  style={
+                    Object {
+                      "fontStyle": "italic",
+                    }
+                  }
+                >
+                  Bullet 2
+                </span>,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": "43",
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Bullet 2",
+                  "style": Object {
+                    "fontStyle": "italic",
+                  },
+                },
+                "ref": null,
+                "rendered": "Bullet 2",
+                "type": "span",
+              },
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": "45",
+              "nodeType": "host",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": "br",
+            },
+            Object {
+              "instance": null,
+              "key": "47",
+              "nodeType": "host",
+              "props": Object {
+                "children": <span
+                  style={
+                    Object {
+                      "fontStyle": "italic",
+                    }
+                  }
+                >
+                  Bullet 3
+                </span>,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": "46",
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Bullet 3",
+                  "style": Object {
+                    "fontStyle": "italic",
+                  },
+                },
+                "ref": null,
+                "rendered": "Bullet 3",
+                "type": "span",
+              },
+              "type": "li",
+            },
+          ],
+          "type": "ul",
+        },
+        Object {
+          "instance": null,
+          "key": "54",
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <Jss(Text)
+                strong={true}
+                tag="strong"
+              >
+                <span
+                  style={
+                    Object {
+                      "fontStyle": "italic",
+                    }
+                  }
+                >
+                  Bold Italic
+                </span>
+              </Jss(Text)>,
+              <br />,
+              <span
+                style={
+                  Object {
+                    "fontStyle": "italic",
+                  }
+                }
+              >
+                <Jss(Text)
+                  strong={true}
+                  tag="strong"
+                >
+                  Italic Bold
+                </Jss(Text)>
+              </span>,
+            ],
+            "tag": "p",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": "50",
+              "nodeType": "class",
+              "props": Object {
+                "children": <span
+                  style={
+                    Object {
+                      "fontStyle": "italic",
+                    }
+                  }
+                >
+                  Bold Italic
+                </span>,
+                "strong": true,
+                "tag": "strong",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": "49",
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Bold Italic",
+                  "style": Object {
+                    "fontStyle": "italic",
+                  },
+                },
+                "ref": null,
+                "rendered": "Bold Italic",
+                "type": "span",
+              },
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "51",
+              "nodeType": "host",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": "br",
+            },
+            Object {
+              "instance": null,
+              "key": "53",
+              "nodeType": "host",
+              "props": Object {
+                "children": <Jss(Text)
+                  strong={true}
+                  tag="strong"
+                >
+                  Italic Bold
+                </Jss(Text)>,
+                "style": Object {
+                  "fontStyle": "italic",
+                },
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": "52",
+                "nodeType": "class",
+                "props": Object {
+                  "children": "Italic Bold",
+                  "strong": true,
+                  "tag": "strong",
+                },
+                "ref": null,
+                "rendered": "Italic Bold",
+                "type": [Function],
+              },
+              "type": "span",
+            },
+          ],
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "56",
+          "nodeType": "class",
+          "props": Object {
+            "children": <br />,
+            "tag": "p",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": "55",
+            "nodeType": "host",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": "br",
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "57",
+          "nodeType": "class",
+          "props": Object {
+            "children": "Heading 4",
+            "subheading": true,
+            "tag": "h4",
+          },
+          "ref": null,
+          "rendered": "Heading 4",
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "58",
+          "nodeType": "host",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": "br",
+        },
+        Object {
+          "instance": null,
+          "key": "70",
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <br />,
+              <Jss(Text)
+                strong={true}
+                tag="strong"
+              >
+                First Row
+              </Jss(Text)>,
+              <span
+                style={
+                  Object {
+                    "fontStyle": "italic",
+                  }
+                }
+              >
+                First Row
+              </span>,
+              <Jss(Text)
+                strong={true}
+                tag="strong"
+              >
+                Second Row
+              </Jss(Text)>,
+              <span
+                style={
+                  Object {
+                    "fontStyle": "italic",
+                  }
+                }
+              >
+                Second Row
+              </span>,
+              <br />,
+              <Jss(Text)
+                strong={true}
+                tag="strong"
+              >
+                First Row
+              </Jss(Text)>,
+              <span
+                style={
+                  Object {
+                    "fontStyle": "italic",
+                  }
+                }
+              >
+                First Row
+              </span>,
+              <Jss(Text)
+                strong={true}
+                tag="strong"
+              >
+                Second Row
+              </Jss(Text)>,
+              <span
+                style={
+                  Object {
+                    "fontStyle": "italic",
+                  }
+                }
+              >
+                Second Row
+              </span>,
+              <br />,
+            ],
+            "tag": "p",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": "59",
+              "nodeType": "host",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": "br",
+            },
+            Object {
+              "instance": null,
+              "key": "60",
+              "nodeType": "class",
+              "props": Object {
+                "children": "First Row",
+                "strong": true,
+                "tag": "strong",
+              },
+              "ref": null,
+              "rendered": "First Row",
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "61",
+              "nodeType": "host",
+              "props": Object {
+                "children": "First Row",
+                "style": Object {
+                  "fontStyle": "italic",
+                },
+              },
+              "ref": null,
+              "rendered": "First Row",
+              "type": "span",
+            },
+            Object {
+              "instance": null,
+              "key": "62",
+              "nodeType": "class",
+              "props": Object {
+                "children": "Second Row",
+                "strong": true,
+                "tag": "strong",
+              },
+              "ref": null,
+              "rendered": "Second Row",
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "63",
+              "nodeType": "host",
+              "props": Object {
+                "children": "Second Row",
+                "style": Object {
+                  "fontStyle": "italic",
+                },
+              },
+              "ref": null,
+              "rendered": "Second Row",
+              "type": "span",
+            },
+            Object {
+              "instance": null,
+              "key": "64",
+              "nodeType": "host",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": "br",
+            },
+            Object {
+              "instance": null,
+              "key": "65",
+              "nodeType": "class",
+              "props": Object {
+                "children": "First Row",
+                "strong": true,
+                "tag": "strong",
+              },
+              "ref": null,
+              "rendered": "First Row",
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "66",
+              "nodeType": "host",
+              "props": Object {
+                "children": "First Row",
+                "style": Object {
+                  "fontStyle": "italic",
+                },
+              },
+              "ref": null,
+              "rendered": "First Row",
+              "type": "span",
+            },
+            Object {
+              "instance": null,
+              "key": "67",
+              "nodeType": "class",
+              "props": Object {
+                "children": "Second Row",
+                "strong": true,
+                "tag": "strong",
+              },
+              "ref": null,
+              "rendered": "Second Row",
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "68",
+              "nodeType": "host",
+              "props": Object {
+                "children": "Second Row",
+                "style": Object {
+                  "fontStyle": "italic",
+                },
+              },
+              "ref": null,
+              "rendered": "Second Row",
+              "type": "span",
+            },
+            Object {
+              "instance": null,
+              "key": "69",
+              "nodeType": "host",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": "br",
+            },
+          ],
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
