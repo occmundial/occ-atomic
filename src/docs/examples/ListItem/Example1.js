@@ -1,10 +1,10 @@
 /* Render a simple List */
 import React from 'react';
-import { ListItem, Text, colors, Flexbox } from '@occmundial/occ-atomic';
+import { ListItem, Text, colors } from '@occmundial/occ-atomic';
 
 export default function Example1() {
     return (
-        <Flexbox display="flex" direction="col">
+        <div>
           <ListItem icon="check" iconColor={colors.prim} size="xxl">
             <Text hero>Miembro 1</Text>
           </ListItem>
@@ -26,6 +26,6 @@ export default function Example1() {
           <ListItem icon="cross" size="sm">
             <Text micro>Miembro 7</Text>
           </ListItem>
-        </Flexbox>
+        </div>
     );
 }
