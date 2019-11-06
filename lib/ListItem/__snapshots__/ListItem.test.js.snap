@@ -1,0 +1,406 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ListItem matches the snapshot 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <ListItem
+    classes={
+      Object {
+        "bulletContainer": "bulletContainer",
+      }
+    }
+    hierarchy={0}
+    iconColor="#222222"
+    size="bs"
+  >
+    <Jss(Text)
+      tag="p"
+    >
+      Hola
+    </Jss(Text)>
+  </ListItem>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <Jss(Flexbox)
+        direction="col"
+        display="flex"
+        style={Object {}}
+      >
+        <Jss(Flexbox)
+          alignItems="start"
+          display="inline-flex"
+        >
+          <div
+            className="bulletContainer"
+          />
+          <Jss(Text)
+            tag="p"
+          >
+            Hola
+          </Jss(Text)>
+        </Jss(Flexbox)>
+      </Jss(Flexbox)>,
+      "className": undefined,
+      "id": undefined,
+      "style": undefined,
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": <Jss(Flexbox)
+          alignItems="start"
+          display="inline-flex"
+        >
+          <div
+            className="bulletContainer"
+          />
+          <Jss(Text)
+            tag="p"
+          >
+            Hola
+          </Jss(Text)>
+        </Jss(Flexbox)>,
+        "direction": "col",
+        "display": "flex",
+        "style": Object {},
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "alignItems": "start",
+          "children": Array [
+            <div
+              className="bulletContainer"
+            />,
+            <Jss(Text)
+              tag="p"
+            >
+              Hola
+            </Jss(Text)>,
+          ],
+          "display": "inline-flex",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                undefined,
+                undefined,
+              ],
+              "className": "bulletContainer",
+            },
+            "ref": null,
+            "rendered": Array [
+              undefined,
+              undefined,
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Hola",
+              "tag": "p",
+            },
+            "ref": null,
+            "rendered": "Hola",
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+      "type": [Function],
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <Jss(Flexbox)
+          direction="col"
+          display="flex"
+          style={Object {}}
+        >
+          <Jss(Flexbox)
+            alignItems="start"
+            display="inline-flex"
+          >
+            <div
+              className="bulletContainer"
+            />
+            <Jss(Text)
+              tag="p"
+            >
+              Hola
+            </Jss(Text)>
+          </Jss(Flexbox)>
+        </Jss(Flexbox)>,
+        "className": undefined,
+        "id": undefined,
+        "style": undefined,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": <Jss(Flexbox)
+            alignItems="start"
+            display="inline-flex"
+          >
+            <div
+              className="bulletContainer"
+            />
+            <Jss(Text)
+              tag="p"
+            >
+              Hola
+            </Jss(Text)>
+          </Jss(Flexbox)>,
+          "direction": "col",
+          "display": "flex",
+          "style": Object {},
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "alignItems": "start",
+            "children": Array [
+              <div
+                className="bulletContainer"
+              />,
+              <Jss(Text)
+                tag="p"
+              >
+                Hola
+              </Jss(Text)>,
+            ],
+            "display": "inline-flex",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  undefined,
+                  undefined,
+                ],
+                "className": "bulletContainer",
+              },
+              "ref": null,
+              "rendered": Array [
+                undefined,
+                undefined,
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Hola",
+                "tag": "p",
+              },
+              "ref": null,
+              "rendered": "Hola",
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+  Symbol(enzyme.__childContext__): null,
+}
+`;
+
+exports[`ListItem styles matches the snapshot 1`] = `
+Object {
+  "bulletContainer": Object {
+    "alignItems": "center",
+    "backgroundRepeat": "no-repeat",
+    "display": "inline-flex",
+    "height": [Function],
+    "marginRight": 8,
+  },
+}
+`;
+
+exports[`ListItemJSS matches the snapshot 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Jss(ListItem)
+    hierarchy={0}
+    iconColor="#222222"
+    size="bs"
+  >
+    <Jss(Text)
+      tag="p"
+    >
+      Hola
+    </Jss(Text)>
+  </Jss(ListItem)>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": <Jss(Text)
+        tag="p"
+      >
+        Hola
+      </Jss(Text)>,
+      "classes": Object {
+        "bulletContainer": "ListItem-bulletContainer-0-1-73 ListItem-bulletContainer-0-1-72",
+      },
+      "hierarchy": 0,
+      "iconColor": "#222222",
+      "size": "bs",
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": "Hola",
+        "tag": "p",
+      },
+      "ref": null,
+      "rendered": "Hola",
+      "type": [Function],
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": <Jss(Text)
+          tag="p"
+        >
+          Hola
+        </Jss(Text)>,
+        "classes": Object {
+          "bulletContainer": "ListItem-bulletContainer-0-1-73 ListItem-bulletContainer-0-1-72",
+        },
+        "hierarchy": 0,
+        "iconColor": "#222222",
+        "size": "bs",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": "Hola",
+          "tag": "p",
+        },
+        "ref": null,
+        "rendered": "Hola",
+        "type": [Function],
+      },
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+  Symbol(enzyme.__childContext__): null,
+}
+`;
