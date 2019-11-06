@@ -8,13 +8,13 @@ export default function Example2() {
            <ListItem icon="check">
             <Text>Miembro 1</Text>
           </ListItem>
-          <ListItem icon="cross" size="sm" hierarchy={1}>
+          <ListItem icon="cross" size="small" hierarchy={1}>
                 <Text micro>sub miembro jerarquía 1</Text>
           </ListItem>
-          <ListItem icon="cross" size="sm" hierarchy={2}>
+          <ListItem icon="cross" size="small" hierarchy={2}>
                 <Text micro>sub miembro jerarquía 2</Text>
           </ListItem>
-          <ListItem icon="cross" size="sm" hierarchy={3}>
+          <ListItem icon="cross" size="small" hierarchy={3}>
                 <Text micro>sub miembro jerarquía 3</Text>
           </ListItem>
         </ul>
