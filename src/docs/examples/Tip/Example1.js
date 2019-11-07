@@ -5,10 +5,10 @@ import { Tip } from '@occmundial/occ-atomic';
 export default function Example1() {
     return (
         <div>
-            <Tip text="Tip with some simple text." theme="info" />
-            <Tip text="Tip with some simple text." theme="warning" />
-            <Tip text="Tip with some simple text." theme="success" />
-            <Tip text="Tip with some simple text." theme="error" />
+            <Tip theme="info">Tip with some simple text.</Tip>
+            <Tip theme="warning">Tip with some simple text.</Tip>
+            <Tip theme="success">Tip with some simple text.</Tip>
+            <Tip theme="error">Tip with some simple text.</Tip>
         </div>
     );
 }
