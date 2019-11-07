@@ -4,6 +4,8 @@ import { Tip } from '@occmundial/occ-atomic';
 
 export default function Example3() {
     return (
-        <Tip text="This tip has some *bold text* and some regular text." theme="info" />
+        <Tip theme="info">
+            This tip has some *bold text* and some regular text.
+        </Tip>
     );
 }
