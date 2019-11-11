@@ -6,6 +6,9 @@ All notable changes to this project will be documented in this file.
 
 ## 1.13.x
 
+### 1.13.1
+- Changes in `Button` themes.
+
 ### 1.13.0
 - Changed the `text` prop to `children` in the `Tip` component.
 - Changes in the opacity of the fixed `NavTab`.
