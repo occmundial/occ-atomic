@@ -61,7 +61,8 @@ class Example3 extends React.Component {
                 key: 3,
                 type: 'button',
                 text: 'Juan Alvez',
-                size: 'md'
+                size: 'md',
+                theme: 'tertiaryWhite'
             }
         ];
         const center = [
@@ -93,10 +94,18 @@ class Example3 extends React.Component {
                 showBar: true
             }
         ];
+        const right2 = [...right];
+        right2[2] = {
+            key: 3,
+            type: 'button',
+            text: 'Juan Alvez',
+            size: 'md',
+            theme: 'ghostGrey'
+        };
         return (
             <div>
                 <NavTab blue left={left} center={center} right={right} />
-                <NavTab left={left2} center={center} right={right} />
+                <NavTab left={left2} center={center} right={right2} />
             </div>
         );
     }
