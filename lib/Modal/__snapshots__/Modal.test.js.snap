@@ -15,7 +15,10 @@ ShallowWrapper {
         "cardShow": "cardShow",
         "cardWrapper": "cardWrapper",
         "closeIcon": "closeIcon",
+        "closePosition": "closePosition",
         "content": "content",
+        "imgLeft": "imgLeft",
+        "imgTop": "imgTop",
         "lg": "lg",
         "mainBtn": "mainBtn",
         "md": "md",
@@ -27,6 +30,7 @@ ShallowWrapper {
         "sm": "sm",
         "title": "title",
         "top": "top",
+        "xl": "xl",
       }
     }
     onClose={[MockFunction]}
@@ -57,31 +61,40 @@ ShallowWrapper {
             shadow={5}
           >
             <Jss(Flexbox)
-              alignItems="start"
-              className="top"
+              direction="col"
               display="flex"
-              justifyContent="end"
             >
-              <div
-                className="closeIcon"
+              <Jss(Flexbox)
+                flex="1"
               >
-                <Jss(Icon)
-                  colors={
-                    Array [
-                      "#222222",
-                    ]
-                  }
-                  height={24}
-                  iconName="close"
-                  onClick={[MockFunction]}
-                  transition="0.3s all"
-                  width={24}
+                <Jss(Flexbox)
+                  alignItems="start"
+                  className="top"
+                  display="flex"
+                  justifyContent="end"
+                >
+                  <div
+                    className="closeIcon"
+                  >
+                    <Jss(Icon)
+                      colors={
+                        Array [
+                          "#222222",
+                        ]
+                      }
+                      height={24}
+                      iconName="close"
+                      onClick={[MockFunction]}
+                      transition="0.3s all"
+                      width={24}
+                    />
+                  </div>
+                </Jss(Flexbox)>
+                <div
+                  className="content"
                 />
-              </div>
+              </Jss(Flexbox)>
             </Jss(Flexbox)>
-            <div
-              className="content"
-            />
           </Jss(Card)>
         </div>
       </div>,
@@ -104,123 +117,18 @@ ShallowWrapper {
             shadow={5}
           >
             <Jss(Flexbox)
-              alignItems="start"
-              className="top"
+              direction="col"
               display="flex"
-              justifyContent="end"
             >
-              <div
-                className="closeIcon"
-              >
-                <Jss(Icon)
-                  colors={
-                    Array [
-                      "#222222",
-                    ]
-                  }
-                  height={24}
-                  iconName="close"
-                  onClick={[MockFunction]}
-                  transition="0.3s all"
-                  width={24}
-                />
-              </div>
-            </Jss(Flexbox)>
-            <div
-              className="content"
-            />
-          </Jss(Card)>
-        </div>,
-        "className": "cardWrapper",
-      },
-      "ref": null,
-      "rendered": Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": <Jss(Card)
-            className="card md cardHide"
-            shadow={5}
-          >
-            <Jss(Flexbox)
-              alignItems="start"
-              className="top"
-              display="flex"
-              justifyContent="end"
-            >
-              <div
-                className="closeIcon"
-              >
-                <Jss(Icon)
-                  colors={
-                    Array [
-                      "#222222",
-                    ]
-                  }
-                  height={24}
-                  iconName="close"
-                  onClick={[MockFunction]}
-                  transition="0.3s all"
-                  width={24}
-                />
-              </div>
-            </Jss(Flexbox)>
-            <div
-              className="content"
-            />
-          </Jss(Card)>,
-          "className": undefined,
-          "onClick": [Function],
-        },
-        "ref": null,
-        "rendered": Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {
-            "children": Array [
               <Jss(Flexbox)
-                alignItems="start"
-                className="top"
-                display="flex"
-                justifyContent="end"
+                flex="1"
               >
-                <div
-                  className="closeIcon"
+                <Jss(Flexbox)
+                  alignItems="start"
+                  className="top"
+                  display="flex"
+                  justifyContent="end"
                 >
-                  <Jss(Icon)
-                    colors={
-                      Array [
-                        "#222222",
-                      ]
-                    }
-                    height={24}
-                    iconName="close"
-                    onClick={[MockFunction]}
-                    transition="0.3s all"
-                    width={24}
-                  />
-                </div>
-              </Jss(Flexbox)>,
-              <div
-                className="content"
-              />,
-              undefined,
-            ],
-            "className": "card md cardHide",
-            "shadow": 5,
-          },
-          "ref": null,
-          "rendered": Array [
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "class",
-              "props": Object {
-                "alignItems": "start",
-                "children": Array [
-                  undefined,
                   <div
                     className="closeIcon"
                   >
@@ -236,21 +144,44 @@ ShallowWrapper {
                       transition="0.3s all"
                       width={24}
                     />
-                  </div>,
-                ],
-                "className": "top",
-                "display": "flex",
-                "justifyContent": "end",
-              },
-              "ref": null,
-              "rendered": Array [
-                undefined,
-                Object {
-                  "instance": null,
-                  "key": undefined,
-                  "nodeType": "host",
-                  "props": Object {
-                    "children": <Jss(Icon)
+                  </div>
+                </Jss(Flexbox)>
+                <div
+                  className="content"
+                />
+              </Jss(Flexbox)>
+            </Jss(Flexbox)>
+          </Jss(Card)>
+        </div>,
+        "className": "cardWrapper",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <Jss(Card)
+            className="card md cardHide"
+            shadow={5}
+          >
+            <Jss(Flexbox)
+              direction="col"
+              display="flex"
+            >
+              <Jss(Flexbox)
+                flex="1"
+              >
+                <Jss(Flexbox)
+                  alignItems="start"
+                  className="top"
+                  display="flex"
+                  justifyContent="end"
+                >
+                  <div
+                    className="closeIcon"
+                  >
+                    <Jss(Icon)
                       colors={
                         Array [
                           "#222222",
@@ -261,47 +192,239 @@ ShallowWrapper {
                       onClick={[MockFunction]}
                       transition="0.3s all"
                       width={24}
+                    />
+                  </div>
+                </Jss(Flexbox)>
+                <div
+                  className="content"
+                />
+              </Jss(Flexbox)>
+            </Jss(Flexbox)>
+          </Jss(Card)>,
+          "className": undefined,
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": <Jss(Flexbox)
+              direction="col"
+              display="flex"
+            >
+              <Jss(Flexbox)
+                flex="1"
+              >
+                <Jss(Flexbox)
+                  alignItems="start"
+                  className="top"
+                  display="flex"
+                  justifyContent="end"
+                >
+                  <div
+                    className="closeIcon"
+                  >
+                    <Jss(Icon)
+                      colors={
+                        Array [
+                          "#222222",
+                        ]
+                      }
+                      height={24}
+                      iconName="close"
+                      onClick={[MockFunction]}
+                      transition="0.3s all"
+                      width={24}
+                    />
+                  </div>
+                </Jss(Flexbox)>
+                <div
+                  className="content"
+                />
+              </Jss(Flexbox)>
+            </Jss(Flexbox)>,
+            "className": "card md cardHide",
+            "shadow": 5,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": Array [
+                undefined,
+                <Jss(Flexbox)
+                  flex="1"
+                >
+                  <Jss(Flexbox)
+                    alignItems="start"
+                    className="top"
+                    display="flex"
+                    justifyContent="end"
+                  >
+                    <div
+                      className="closeIcon"
+                    >
+                      <Jss(Icon)
+                        colors={
+                          Array [
+                            "#222222",
+                          ]
+                        }
+                        height={24}
+                        iconName="close"
+                        onClick={[MockFunction]}
+                        transition="0.3s all"
+                        width={24}
+                      />
+                    </div>
+                  </Jss(Flexbox)>
+                  <div
+                    className="content"
+                  />
+                </Jss(Flexbox)>,
+              ],
+              "direction": "col",
+              "display": "flex",
+            },
+            "ref": null,
+            "rendered": Array [
+              undefined,
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": Array [
+                    <Jss(Flexbox)
+                      alignItems="start"
+                      className="top"
+                      display="flex"
+                      justifyContent="end"
+                    >
+                      <div
+                        className="closeIcon"
+                      >
+                        <Jss(Icon)
+                          colors={
+                            Array [
+                              "#222222",
+                            ]
+                          }
+                          height={24}
+                          iconName="close"
+                          onClick={[MockFunction]}
+                          transition="0.3s all"
+                          width={24}
+                        />
+                      </div>
+                    </Jss(Flexbox)>,
+                    <div
+                      className="content"
                     />,
-                    "className": "closeIcon",
-                  },
-                  "ref": null,
-                  "rendered": Object {
+                    undefined,
+                  ],
+                  "flex": "1",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
                     "instance": null,
                     "key": undefined,
                     "nodeType": "class",
                     "props": Object {
-                      "colors": Array [
-                        "#222222",
+                      "alignItems": "start",
+                      "children": Array [
+                        undefined,
+                        <div
+                          className="closeIcon"
+                        >
+                          <Jss(Icon)
+                            colors={
+                              Array [
+                                "#222222",
+                              ]
+                            }
+                            height={24}
+                            iconName="close"
+                            onClick={[MockFunction]}
+                            transition="0.3s all"
+                            width={24}
+                          />
+                        </div>,
                       ],
-                      "height": 24,
-                      "iconName": "close",
-                      "onClick": [MockFunction],
-                      "transition": "0.3s all",
-                      "width": 24,
+                      "className": "top",
+                      "display": "flex",
+                      "justifyContent": "end",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      undefined,
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": <Jss(Icon)
+                            colors={
+                              Array [
+                                "#222222",
+                              ]
+                            }
+                            height={24}
+                            iconName="close"
+                            onClick={[MockFunction]}
+                            transition="0.3s all"
+                            width={24}
+                          />,
+                          "className": "closeIcon",
+                        },
+                        "ref": null,
+                        "rendered": Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "class",
+                          "props": Object {
+                            "colors": Array [
+                              "#222222",
+                            ],
+                            "height": 24,
+                            "iconName": "close",
+                            "onClick": [MockFunction],
+                            "transition": "0.3s all",
+                            "width": 24,
+                          },
+                          "ref": null,
+                          "rendered": null,
+                          "type": [Function],
+                        },
+                        "type": "div",
+                      },
+                    ],
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": undefined,
+                      "className": "content",
                     },
                     "ref": null,
                     "rendered": null,
-                    "type": [Function],
+                    "type": "div",
                   },
-                  "type": "div",
-                },
-              ],
-              "type": [Function],
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": undefined,
-                "className": "content",
+                  undefined,
+                ],
+                "type": [Function],
               },
-              "ref": null,
-              "rendered": null,
-              "type": "div",
-            },
-            undefined,
-          ],
+            ],
+            "type": [Function],
+          },
           "type": [Function],
         },
         "type": "div",
@@ -328,31 +451,40 @@ ShallowWrapper {
               shadow={5}
             >
               <Jss(Flexbox)
-                alignItems="start"
-                className="top"
+                direction="col"
                 display="flex"
-                justifyContent="end"
               >
-                <div
-                  className="closeIcon"
+                <Jss(Flexbox)
+                  flex="1"
                 >
-                  <Jss(Icon)
-                    colors={
-                      Array [
-                        "#222222",
-                      ]
-                    }
-                    height={24}
-                    iconName="close"
-                    onClick={[MockFunction]}
-                    transition="0.3s all"
-                    width={24}
+                  <Jss(Flexbox)
+                    alignItems="start"
+                    className="top"
+                    display="flex"
+                    justifyContent="end"
+                  >
+                    <div
+                      className="closeIcon"
+                    >
+                      <Jss(Icon)
+                        colors={
+                          Array [
+                            "#222222",
+                          ]
+                        }
+                        height={24}
+                        iconName="close"
+                        onClick={[MockFunction]}
+                        transition="0.3s all"
+                        width={24}
+                      />
+                    </div>
+                  </Jss(Flexbox)>
+                  <div
+                    className="content"
                   />
-                </div>
+                </Jss(Flexbox)>
               </Jss(Flexbox)>
-              <div
-                className="content"
-              />
             </Jss(Card)>
           </div>
         </div>,
@@ -375,123 +507,18 @@ ShallowWrapper {
               shadow={5}
             >
               <Jss(Flexbox)
-                alignItems="start"
-                className="top"
+                direction="col"
                 display="flex"
-                justifyContent="end"
               >
-                <div
-                  className="closeIcon"
-                >
-                  <Jss(Icon)
-                    colors={
-                      Array [
-                        "#222222",
-                      ]
-                    }
-                    height={24}
-                    iconName="close"
-                    onClick={[MockFunction]}
-                    transition="0.3s all"
-                    width={24}
-                  />
-                </div>
-              </Jss(Flexbox)>
-              <div
-                className="content"
-              />
-            </Jss(Card)>
-          </div>,
-          "className": "cardWrapper",
-        },
-        "ref": null,
-        "rendered": Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": <Jss(Card)
-              className="card md cardHide"
-              shadow={5}
-            >
-              <Jss(Flexbox)
-                alignItems="start"
-                className="top"
-                display="flex"
-                justifyContent="end"
-              >
-                <div
-                  className="closeIcon"
-                >
-                  <Jss(Icon)
-                    colors={
-                      Array [
-                        "#222222",
-                      ]
-                    }
-                    height={24}
-                    iconName="close"
-                    onClick={[MockFunction]}
-                    transition="0.3s all"
-                    width={24}
-                  />
-                </div>
-              </Jss(Flexbox)>
-              <div
-                className="content"
-              />
-            </Jss(Card)>,
-            "className": undefined,
-            "onClick": [Function],
-          },
-          "ref": null,
-          "rendered": Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "class",
-            "props": Object {
-              "children": Array [
                 <Jss(Flexbox)
-                  alignItems="start"
-                  className="top"
-                  display="flex"
-                  justifyContent="end"
+                  flex="1"
                 >
-                  <div
-                    className="closeIcon"
+                  <Jss(Flexbox)
+                    alignItems="start"
+                    className="top"
+                    display="flex"
+                    justifyContent="end"
                   >
-                    <Jss(Icon)
-                      colors={
-                        Array [
-                          "#222222",
-                        ]
-                      }
-                      height={24}
-                      iconName="close"
-                      onClick={[MockFunction]}
-                      transition="0.3s all"
-                      width={24}
-                    />
-                  </div>
-                </Jss(Flexbox)>,
-                <div
-                  className="content"
-                />,
-                undefined,
-              ],
-              "className": "card md cardHide",
-              "shadow": 5,
-            },
-            "ref": null,
-            "rendered": Array [
-              Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "class",
-                "props": Object {
-                  "alignItems": "start",
-                  "children": Array [
-                    undefined,
                     <div
                       className="closeIcon"
                     >
@@ -507,21 +534,44 @@ ShallowWrapper {
                         transition="0.3s all"
                         width={24}
                       />
-                    </div>,
-                  ],
-                  "className": "top",
-                  "display": "flex",
-                  "justifyContent": "end",
-                },
-                "ref": null,
-                "rendered": Array [
-                  undefined,
-                  Object {
-                    "instance": null,
-                    "key": undefined,
-                    "nodeType": "host",
-                    "props": Object {
-                      "children": <Jss(Icon)
+                    </div>
+                  </Jss(Flexbox)>
+                  <div
+                    className="content"
+                  />
+                </Jss(Flexbox)>
+              </Jss(Flexbox)>
+            </Jss(Card)>
+          </div>,
+          "className": "cardWrapper",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <Jss(Card)
+              className="card md cardHide"
+              shadow={5}
+            >
+              <Jss(Flexbox)
+                direction="col"
+                display="flex"
+              >
+                <Jss(Flexbox)
+                  flex="1"
+                >
+                  <Jss(Flexbox)
+                    alignItems="start"
+                    className="top"
+                    display="flex"
+                    justifyContent="end"
+                  >
+                    <div
+                      className="closeIcon"
+                    >
+                      <Jss(Icon)
                         colors={
                           Array [
                             "#222222",
@@ -532,47 +582,239 @@ ShallowWrapper {
                         onClick={[MockFunction]}
                         transition="0.3s all"
                         width={24}
+                      />
+                    </div>
+                  </Jss(Flexbox)>
+                  <div
+                    className="content"
+                  />
+                </Jss(Flexbox)>
+              </Jss(Flexbox)>
+            </Jss(Card)>,
+            "className": undefined,
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": <Jss(Flexbox)
+                direction="col"
+                display="flex"
+              >
+                <Jss(Flexbox)
+                  flex="1"
+                >
+                  <Jss(Flexbox)
+                    alignItems="start"
+                    className="top"
+                    display="flex"
+                    justifyContent="end"
+                  >
+                    <div
+                      className="closeIcon"
+                    >
+                      <Jss(Icon)
+                        colors={
+                          Array [
+                            "#222222",
+                          ]
+                        }
+                        height={24}
+                        iconName="close"
+                        onClick={[MockFunction]}
+                        transition="0.3s all"
+                        width={24}
+                      />
+                    </div>
+                  </Jss(Flexbox)>
+                  <div
+                    className="content"
+                  />
+                </Jss(Flexbox)>
+              </Jss(Flexbox)>,
+              "className": "card md cardHide",
+              "shadow": 5,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": Array [
+                  undefined,
+                  <Jss(Flexbox)
+                    flex="1"
+                  >
+                    <Jss(Flexbox)
+                      alignItems="start"
+                      className="top"
+                      display="flex"
+                      justifyContent="end"
+                    >
+                      <div
+                        className="closeIcon"
+                      >
+                        <Jss(Icon)
+                          colors={
+                            Array [
+                              "#222222",
+                            ]
+                          }
+                          height={24}
+                          iconName="close"
+                          onClick={[MockFunction]}
+                          transition="0.3s all"
+                          width={24}
+                        />
+                      </div>
+                    </Jss(Flexbox)>
+                    <div
+                      className="content"
+                    />
+                  </Jss(Flexbox)>,
+                ],
+                "direction": "col",
+                "display": "flex",
+              },
+              "ref": null,
+              "rendered": Array [
+                undefined,
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": Array [
+                      <Jss(Flexbox)
+                        alignItems="start"
+                        className="top"
+                        display="flex"
+                        justifyContent="end"
+                      >
+                        <div
+                          className="closeIcon"
+                        >
+                          <Jss(Icon)
+                            colors={
+                              Array [
+                                "#222222",
+                              ]
+                            }
+                            height={24}
+                            iconName="close"
+                            onClick={[MockFunction]}
+                            transition="0.3s all"
+                            width={24}
+                          />
+                        </div>
+                      </Jss(Flexbox)>,
+                      <div
+                        className="content"
                       />,
-                      "className": "closeIcon",
-                    },
-                    "ref": null,
-                    "rendered": Object {
+                      undefined,
+                    ],
+                    "flex": "1",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
                       "instance": null,
                       "key": undefined,
                       "nodeType": "class",
                       "props": Object {
-                        "colors": Array [
-                          "#222222",
+                        "alignItems": "start",
+                        "children": Array [
+                          undefined,
+                          <div
+                            className="closeIcon"
+                          >
+                            <Jss(Icon)
+                              colors={
+                                Array [
+                                  "#222222",
+                                ]
+                              }
+                              height={24}
+                              iconName="close"
+                              onClick={[MockFunction]}
+                              transition="0.3s all"
+                              width={24}
+                            />
+                          </div>,
                         ],
-                        "height": 24,
-                        "iconName": "close",
-                        "onClick": [MockFunction],
-                        "transition": "0.3s all",
-                        "width": 24,
+                        "className": "top",
+                        "display": "flex",
+                        "justifyContent": "end",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        undefined,
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": <Jss(Icon)
+                              colors={
+                                Array [
+                                  "#222222",
+                                ]
+                              }
+                              height={24}
+                              iconName="close"
+                              onClick={[MockFunction]}
+                              transition="0.3s all"
+                              width={24}
+                            />,
+                            "className": "closeIcon",
+                          },
+                          "ref": null,
+                          "rendered": Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "class",
+                            "props": Object {
+                              "colors": Array [
+                                "#222222",
+                              ],
+                              "height": 24,
+                              "iconName": "close",
+                              "onClick": [MockFunction],
+                              "transition": "0.3s all",
+                              "width": 24,
+                            },
+                            "ref": null,
+                            "rendered": null,
+                            "type": [Function],
+                          },
+                          "type": "div",
+                        },
+                      ],
+                      "type": [Function],
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": undefined,
+                        "className": "content",
                       },
                       "ref": null,
                       "rendered": null,
-                      "type": [Function],
+                      "type": "div",
                     },
-                    "type": "div",
-                  },
-                ],
-                "type": [Function],
-              },
-              Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "host",
-                "props": Object {
-                  "children": undefined,
-                  "className": "content",
+                    undefined,
+                  ],
+                  "type": [Function],
                 },
-                "ref": null,
-                "rendered": null,
-                "type": "div",
-              },
-              undefined,
-            ],
+              ],
+              "type": [Function],
+            },
             "type": [Function],
           },
           "type": "div",
@@ -661,6 +903,15 @@ Object {
     "display": "flex",
     "height": 32,
   },
+  "closePosition": Object {
+    "@media screen and (min-width:768px)": Object {
+      "right": 32,
+      "top": 32,
+    },
+    "position": "absolute",
+    "right": 16,
+    "top": 16,
+  },
   "content": Object {
     "&::-webkit-scrollbar": Object {
       "width": 6,
@@ -677,11 +928,52 @@ Object {
     },
     "marginLeft": -16,
     "marginRight": -16,
-    "maxHeight": "calc(100vh - 192px)",
+    "maxHeight": [Function],
     "overflowX": "auto",
     "paddingLeft": 16,
     "paddingRight": 16,
     "transition": "0.1s height",
+  },
+  "imgLeft": Object {
+    "@media screen and (min-width:768px)": Object {
+      "marginBottom": -32,
+      "marginLeft": -32,
+      "marginRight": 32,
+      "marginTop": -32,
+    },
+    "background": [Function],
+    "borderRadius": Array [
+      6,
+      0,
+      0,
+      6,
+    ],
+    "marginBottom": -16,
+    "marginLeft": -16,
+    "marginRight": 16,
+    "marginTop": -16,
+    "width": 200,
+  },
+  "imgTop": Object {
+    "@media screen and (min-width:768px)": Object {
+      "marginBottom": 32,
+      "marginLeft": -32,
+      "marginRight": -32,
+      "marginTop": -32,
+    },
+    "background": [Function],
+    "borderRadius": Array [
+      6,
+      6,
+      0,
+      0,
+    ],
+    "height": 128,
+    "marginBottom": 16,
+    "marginLeft": -16,
+    "marginRight": -16,
+    "marginTop": -16,
+    "position": "relative",
   },
   "lg": Object {
     "width": 820,
@@ -727,6 +1019,9 @@ Object {
   "title": Object {},
   "top": Object {
     "marginBottom": 16,
+  },
+  "xl": Object {
+    "width": 1024,
   },
 }
 `;
