@@ -30,6 +30,7 @@ ShallowWrapper {
         "sm": "sm",
         "title": "title",
         "top": "top",
+        "xl": "xl",
       }
     }
     onClose={[MockFunction]}
@@ -1018,6 +1019,9 @@ Object {
   "title": Object {},
   "top": Object {
     "marginBottom": 16,
+  },
+  "xl": Object {
+    "width": 1024,
   },
 }
 `;
