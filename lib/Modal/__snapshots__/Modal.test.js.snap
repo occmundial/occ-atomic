@@ -29,6 +29,7 @@ ShallowWrapper {
         "overlayShow": "overlayShow",
         "secBtn": "secBtn",
         "sm": "sm",
+        "title": "title",
         "top": "top",
         "xl": "xl",
       }
@@ -1017,6 +1018,7 @@ Object {
     "maxWidth": "100%",
     "width": 322,
   },
+  "title": Object {},
   "top": Object {
     "marginBottom": 16,
   },
