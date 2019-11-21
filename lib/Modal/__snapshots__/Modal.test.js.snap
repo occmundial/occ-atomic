@@ -11,6 +11,7 @@ ShallowWrapper {
         "@keyframes modalFadeIn": "@keyframes modalFadeIn",
         "bottom": "bottom",
         "card": "card",
+        "cardBlock": "cardBlock",
         "cardHide": "cardHide",
         "cardShow": "cardShow",
         "cardWrapper": "cardWrapper",
@@ -28,7 +29,6 @@ ShallowWrapper {
         "overlayShow": "overlayShow",
         "secBtn": "secBtn",
         "sm": "sm",
-        "title": "title",
         "top": "top",
         "xl": "xl",
       }
@@ -53,7 +53,7 @@ ShallowWrapper {
         className="cardWrapper"
       >
         <div
-          className={undefined}
+          className="cardBlock"
           onClick={[Function]}
         >
           <Jss(Card)
@@ -109,7 +109,7 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": <div
-          className={undefined}
+          className="cardBlock"
           onClick={[Function]}
         >
           <Jss(Card)
@@ -201,7 +201,7 @@ ShallowWrapper {
               </Jss(Flexbox)>
             </Jss(Flexbox)>
           </Jss(Card)>,
-          "className": undefined,
+          "className": "cardBlock",
           "onClick": [Function],
         },
         "ref": null,
@@ -443,7 +443,7 @@ ShallowWrapper {
           className="cardWrapper"
         >
           <div
-            className={undefined}
+            className="cardBlock"
             onClick={[Function]}
           >
             <Jss(Card)
@@ -499,7 +499,7 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": <div
-            className={undefined}
+            className="cardBlock"
             onClick={[Function]}
           >
             <Jss(Card)
@@ -591,7 +591,7 @@ ShallowWrapper {
                 </Jss(Flexbox)>
               </Jss(Flexbox)>
             </Jss(Card)>,
-            "className": undefined,
+            "className": "cardBlock",
             "onClick": [Function],
           },
           "ref": null,
@@ -882,6 +882,9 @@ Object {
     "padding": 16,
     "transition": "0.3s opacity, 0.3s margin-top",
   },
+  "cardBlock": Object {
+    "margin": 12,
+  },
   "cardHide": Object {
     "marginTop": -64,
     "opacity": 0,
@@ -890,13 +893,9 @@ Object {
     "animation": "0.3s modalFadeDown ease-out",
   },
   "cardWrapper": Object {
-    "left": "50%",
     "maxHeight": "100vh",
     "maxWidth": "100vw",
-    "padding": 12,
-    "position": "absolute",
-    "top": "50%",
-    "transform": "translate(-50%, -50%)",
+    "position": "relative",
   },
   "closeIcon": Object {
     "alignItems": "center",
@@ -928,8 +927,6 @@ Object {
     },
     "marginLeft": -16,
     "marginRight": -16,
-    "maxHeight": [Function],
-    "overflowX": "auto",
     "paddingLeft": 16,
     "paddingRight": 16,
     "transition": "0.1s height",
@@ -993,10 +990,14 @@ Object {
     "cursor": "default",
   },
   "overlay": Object {
+    "alignItems": "center",
     "background": "rgba(0, 0, 5, 0.85)",
     "cursor": "pointer",
+    "display": "flex",
     "height": "100%",
+    "justifyContent": "center",
     "left": 0,
+    "overflow": "auto",
     "position": "fixed",
     "top": 0,
     "transition": "0.3s all",
@@ -1016,7 +1017,6 @@ Object {
     "maxWidth": "100%",
     "width": 322,
   },
-  "title": Object {},
   "top": Object {
     "marginBottom": 16,
   },
