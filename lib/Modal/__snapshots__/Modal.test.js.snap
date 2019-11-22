@@ -34,6 +34,8 @@ ShallowWrapper {
         "xl": "xl",
       }
     }
+    imgLeft={Object {}}
+    imgTop={Object {}}
     onClose={[MockFunction]}
     size="md"
   />,
@@ -940,6 +942,9 @@ Object {
       "marginTop": -32,
     },
     "background": [Function],
+    "backgroundColor": [Function],
+    "backgroundPosition": [Function],
+    "backgroundSize": [Function],
     "borderRadius": Array [
       6,
       0,
@@ -960,6 +965,9 @@ Object {
       "marginTop": -32,
     },
     "background": [Function],
+    "backgroundColor": [Function],
+    "backgroundPosition": [Function],
+    "backgroundSize": [Function],
     "borderRadius": Array [
       6,
       6,
