@@ -6,6 +6,9 @@ All notable changes to this project will be documented in this file.
 
 ## 1.13.x
 
+### 1.13.5
+- Changes in the `imgLeft` and `imgTop` props in `Modal`.
+
 ### 1.13.4
 - Changes in the styles of `Modal`.
 
