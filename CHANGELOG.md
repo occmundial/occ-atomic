@@ -4,6 +4,32 @@ All notable changes to this project will be documented in this file.
 
 # Version 1
 
+## 1.13.x
+
+### 1.13.6
+- New `target` prop in `NavIcon`.
+- New `bullet` icon.
+
+### 1.13.5
+- Changes in the `imgLeft` and `imgTop` props in `Modal`.
+
+### 1.13.4
+- Changes in the styles of `Modal`.
+
+### 1.13.3
+- New `imgTop` and `imgLeft` props in `Modal`.
+- New `xl` size in `Modal`.
+
+### 1.13.2
+- Changes in buttons of `NavTab`.
+
+### 1.13.1
+- Changes in `Button` themes.
+
+### 1.13.0
+- Changed the `text` prop to `children` in the `Tip` component.
+- Changes in the opacity of the fixed `NavTab`.
+
 ## 1.12.x
 
 ### 1.12.2

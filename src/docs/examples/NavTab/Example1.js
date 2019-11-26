@@ -55,7 +55,22 @@ class Example1 extends React.Component {
             {
                 key:2,
                 type:'button',
-                text:'Secondary CTA'
+                text:'Secondary CTA',
+                theme:'ghostWhite'
+            }
+        ];
+        const right2 = [
+            {
+                key:1,
+                type:'button',
+                text:'Primary CTA',
+                theme:'ghostPink'
+            },
+            {
+                key:2,
+                type:'button',
+                text:'Secondary CTA',
+                theme:'ghostGrey'
             }
         ];
         const top = [
@@ -89,7 +104,7 @@ class Example1 extends React.Component {
         return (
             <div>
                 <NavTab top={top} blue left={left} right={right} />
-                <NavTab top={top} left={left2} right={right} />
+                <NavTab top={top} left={left2} right={right2} />
             </div>
         );
     }

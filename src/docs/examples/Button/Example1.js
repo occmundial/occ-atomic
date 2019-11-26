@@ -8,9 +8,12 @@ export default function Example1() {
             <Button theme="primary">Primary</Button>
             <Button theme="secondary">Secondary</Button>
             <Button theme="tertiary">Tertiary</Button>
+            <div style={{background:colors.prim, marginTop:'15px', padding:'10px', display:'inline-block'}}>
+                <Button theme="tertiaryWhite">Tertiary White</Button>
+            </div>
             <Button theme="ghostPink">Ghost Pink</Button>
             <Button theme="ghostGrey">Ghost Grey</Button>
-            <div style={{background:colors.sec, marginTop:'15px', padding:'10px', display:'inline-block'}}>
+            <div style={{background:colors.prim, marginTop:'15px', padding:'10px', display:'inline-block'}}>
                 <Button theme="ghostWhite">Ghost White</Button>
             </div>
         </div>
