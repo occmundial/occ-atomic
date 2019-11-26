@@ -6,6 +6,10 @@ All notable changes to this project will be documented in this file.
 
 ## 1.13.x
 
+### 1.13.6
+- New `target` prop in `NavIcon`.
+- New `bullet` icon.
+
 ### 1.13.5
 - Changes in the `imgLeft` and `imgTop` props in `Modal`.
 
