@@ -31,6 +31,7 @@ module.exports = [
             'SubHeader',
             'LayerApp',
             'Pager',
+            'List',
             'ListItem',
             'SlideDown',
             'SwitchGroup',
