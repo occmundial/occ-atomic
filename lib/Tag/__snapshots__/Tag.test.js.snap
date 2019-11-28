@@ -47,7 +47,7 @@ ShallowWrapper {
           Tag
         </span>,
       ],
-      "className": "tag default",
+      "className": "tag default ",
       "style": undefined,
     },
     "ref": null,
@@ -82,7 +82,7 @@ ShallowWrapper {
             Tag
           </span>,
         ],
-        "className": "tag default",
+        "className": "tag default ",
         "style": undefined,
       },
       "ref": null,
@@ -135,7 +135,7 @@ ShallowWrapper {
 exports[`Tag styles matches the snapshot 1`] = `
 Object {
   "default": Object {
-    "background": "#dddddd",
+    "background": "#f5f5f5",
     "color": "#222222",
   },
   "defaultIcon": Object {
@@ -152,13 +152,13 @@ Object {
     "backgroundRepeat": "no-repeat",
     "content": "\\"\\"",
     "display": "inline-block",
-    "height": "12px",
-    "left": "0px",
-    "marginRight": "4px",
-    "paddingBottom": "0px",
+    "height": 12,
+    "left": 0,
+    "marginRight": 4,
+    "paddingBottom": 0,
     "position": "relative",
-    "top": "0px",
-    "width": "12px",
+    "top": 0,
+    "width": 12,
   },
   "info": Object {
     "backgroundColor": "#5736ab",
@@ -175,14 +175,14 @@ Object {
     "background": [Function],
   },
   "tag": Object {
-    "borderRadius": "16px",
+    "borderRadius": 16,
     "boxSizing": "border-box",
     "display": "inline-block",
-    "height": "16px",
+    "height": 16,
     "lineHeight": "12px",
     "overflow": "hidden",
-    "paddingLeft": "8px",
-    "paddingRight": "8px",
+    "paddingLeft": 8,
+    "paddingRight": 8,
     "position": "relative",
     "textAlign": "center",
   },
@@ -190,14 +190,14 @@ Object {
     "boxSizing": "border-box",
     "display": "inline-block",
     "fontFamily": "'Open Sans', sans-serif",
-    "fontSize": "10px",
+    "fontSize": 10,
     "fontStretch": "normal",
     "fontStyle": "normal",
     "fontWeight": "600",
     "letterSpacing": "normal",
     "lineHeight": "12px",
     "overflow": "hidden",
-    "paddingTop": "2px",
+    "paddingTop": 2,
     "position": "relative",
     "textAlign": "center",
   },
@@ -231,7 +231,7 @@ ShallowWrapper {
   Symbol(enzyme.__node__): Object {
     "instance": null,
     "key": undefined,
-    "nodeType": "class",
+    "nodeType": "function",
     "props": Object {
       "children": "Tag",
       "classes": Object {
@@ -259,7 +259,7 @@ ShallowWrapper {
     Object {
       "instance": null,
       "key": undefined,
-      "nodeType": "class",
+      "nodeType": "function",
       "props": Object {
         "children": "Tag",
         "classes": Object {
