@@ -4,21 +4,27 @@ exports[`ListItem matches the snapshot 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <ListItem
+    child={
+      Array [
+        Object {
+          "text": "Hola",
+        },
+      ]
+    }
     classes={
       Object {
         "bulletContainer": "bulletContainer",
+        "crossedLetter": "crossedLetter",
+        "italicLetter": "italicLetter",
+        "liWrapper": "liWrapper",
+        "underlinedLetter": "underlinedLetter",
       }
     }
     hierarchy={0}
+    icon="bullet"
     iconColor="#222222"
     size="bs"
-  >
-    <Jss(Text)
-      tag="p"
-    >
-      Hola
-    </Jss(Text)>
-  </ListItem>,
+  />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "checkPropTypes": [Function],
@@ -44,15 +50,36 @@ ShallowWrapper {
         >
           <div
             className="bulletContainer"
-          />
-          <Jss(Text)
-            tag="p"
           >
-            Hola
-          </Jss(Text)>
+            <Jss(Icon)
+              className={undefined}
+              colors={
+                Array [
+                  "#222222",
+                ]
+              }
+              height={24}
+              iconName="bullet"
+              transition="0.3s all"
+              width={24}
+            />
+          </div>
+          <Jss(Text)
+            heading={false}
+            headline={false}
+            large={false}
+            low={false}
+            micro={false}
+            mid={false}
+            small={false}
+            standard={false}
+            subheading={false}
+            tag="p"
+            white={false}
+          />
         </Jss(Flexbox)>
       </Jss(Flexbox)>,
-      "className": undefined,
+      "className": "undefined liWrapper",
       "id": undefined,
       "style": undefined,
     },
@@ -68,12 +95,33 @@ ShallowWrapper {
         >
           <div
             className="bulletContainer"
-          />
-          <Jss(Text)
-            tag="p"
           >
-            Hola
-          </Jss(Text)>
+            <Jss(Icon)
+              className={undefined}
+              colors={
+                Array [
+                  "#222222",
+                ]
+              }
+              height={24}
+              iconName="bullet"
+              transition="0.3s all"
+              width={24}
+            />
+          </div>
+          <Jss(Text)
+            heading={false}
+            headline={false}
+            large={false}
+            low={false}
+            micro={false}
+            mid={false}
+            small={false}
+            standard={false}
+            subheading={false}
+            tag="p"
+            white={false}
+          />
         </Jss(Flexbox)>,
         "direction": "col",
         "display": "flex",
@@ -89,12 +137,33 @@ ShallowWrapper {
           "children": Array [
             <div
               className="bulletContainer"
-            />,
-            <Jss(Text)
-              tag="p"
             >
-              Hola
-            </Jss(Text)>,
+              <Jss(Icon)
+                className={undefined}
+                colors={
+                  Array [
+                    "#222222",
+                  ]
+                }
+                height={24}
+                iconName="bullet"
+                transition="0.3s all"
+                width={24}
+              />
+            </div>,
+            <Jss(Text)
+              heading={false}
+              headline={false}
+              large={false}
+              low={false}
+              micro={false}
+              mid={false}
+              small={false}
+              standard={false}
+              subheading={false}
+              tag="p"
+              white={false}
+            />,
           ],
           "display": "inline-flex",
         },
@@ -105,17 +174,39 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "host",
             "props": Object {
-              "children": Array [
-                undefined,
-                undefined,
-              ],
+              "children": <Jss(Icon)
+                className={undefined}
+                colors={
+                  Array [
+                    "#222222",
+                  ]
+                }
+                height={24}
+                iconName="bullet"
+                transition="0.3s all"
+                width={24}
+              />,
               "className": "bulletContainer",
             },
             "ref": null,
-            "rendered": Array [
-              undefined,
-              undefined,
-            ],
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "className": undefined,
+                "colors": Array [
+                  "#222222",
+                ],
+                "height": 24,
+                "iconName": "bullet",
+                "transition": "0.3s all",
+                "width": 24,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
             "type": "div",
           },
           Object {
@@ -123,11 +214,21 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "class",
             "props": Object {
-              "children": "Hola",
+              "children": undefined,
+              "heading": false,
+              "headline": false,
+              "large": false,
+              "low": false,
+              "micro": false,
+              "mid": false,
+              "small": false,
+              "standard": false,
+              "subheading": false,
               "tag": "p",
+              "white": false,
             },
             "ref": null,
-            "rendered": "Hola",
+            "rendered": null,
             "type": [Function],
           },
         ],
@@ -135,7 +236,7 @@ ShallowWrapper {
       },
       "type": [Function],
     },
-    "type": "div",
+    "type": "li",
   },
   Symbol(enzyme.__nodes__): Array [
     Object {
@@ -154,15 +255,36 @@ ShallowWrapper {
           >
             <div
               className="bulletContainer"
-            />
-            <Jss(Text)
-              tag="p"
             >
-              Hola
-            </Jss(Text)>
+              <Jss(Icon)
+                className={undefined}
+                colors={
+                  Array [
+                    "#222222",
+                  ]
+                }
+                height={24}
+                iconName="bullet"
+                transition="0.3s all"
+                width={24}
+              />
+            </div>
+            <Jss(Text)
+              heading={false}
+              headline={false}
+              large={false}
+              low={false}
+              micro={false}
+              mid={false}
+              small={false}
+              standard={false}
+              subheading={false}
+              tag="p"
+              white={false}
+            />
           </Jss(Flexbox)>
         </Jss(Flexbox)>,
-        "className": undefined,
+        "className": "undefined liWrapper",
         "id": undefined,
         "style": undefined,
       },
@@ -178,12 +300,33 @@ ShallowWrapper {
           >
             <div
               className="bulletContainer"
-            />
-            <Jss(Text)
-              tag="p"
             >
-              Hola
-            </Jss(Text)>
+              <Jss(Icon)
+                className={undefined}
+                colors={
+                  Array [
+                    "#222222",
+                  ]
+                }
+                height={24}
+                iconName="bullet"
+                transition="0.3s all"
+                width={24}
+              />
+            </div>
+            <Jss(Text)
+              heading={false}
+              headline={false}
+              large={false}
+              low={false}
+              micro={false}
+              mid={false}
+              small={false}
+              standard={false}
+              subheading={false}
+              tag="p"
+              white={false}
+            />
           </Jss(Flexbox)>,
           "direction": "col",
           "display": "flex",
@@ -199,12 +342,33 @@ ShallowWrapper {
             "children": Array [
               <div
                 className="bulletContainer"
-              />,
-              <Jss(Text)
-                tag="p"
               >
-                Hola
-              </Jss(Text)>,
+                <Jss(Icon)
+                  className={undefined}
+                  colors={
+                    Array [
+                      "#222222",
+                    ]
+                  }
+                  height={24}
+                  iconName="bullet"
+                  transition="0.3s all"
+                  width={24}
+                />
+              </div>,
+              <Jss(Text)
+                heading={false}
+                headline={false}
+                large={false}
+                low={false}
+                micro={false}
+                mid={false}
+                small={false}
+                standard={false}
+                subheading={false}
+                tag="p"
+                white={false}
+              />,
             ],
             "display": "inline-flex",
           },
@@ -215,17 +379,39 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "host",
               "props": Object {
-                "children": Array [
-                  undefined,
-                  undefined,
-                ],
+                "children": <Jss(Icon)
+                  className={undefined}
+                  colors={
+                    Array [
+                      "#222222",
+                    ]
+                  }
+                  height={24}
+                  iconName="bullet"
+                  transition="0.3s all"
+                  width={24}
+                />,
                 "className": "bulletContainer",
               },
               "ref": null,
-              "rendered": Array [
-                undefined,
-                undefined,
-              ],
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "className": undefined,
+                  "colors": Array [
+                    "#222222",
+                  ],
+                  "height": 24,
+                  "iconName": "bullet",
+                  "transition": "0.3s all",
+                  "width": 24,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
               "type": "div",
             },
             Object {
@@ -233,11 +419,21 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "class",
               "props": Object {
-                "children": "Hola",
+                "children": undefined,
+                "heading": false,
+                "headline": false,
+                "large": false,
+                "low": false,
+                "micro": false,
+                "mid": false,
+                "small": false,
+                "standard": false,
+                "subheading": false,
                 "tag": "p",
+                "white": false,
               },
               "ref": null,
-              "rendered": "Hola",
+              "rendered": null,
               "type": [Function],
             },
           ],
@@ -245,7 +441,7 @@ ShallowWrapper {
         },
         "type": [Function],
       },
-      "type": "div",
+      "type": "li",
     },
   ],
   Symbol(enzyme.__options__): Object {
@@ -272,7 +468,6 @@ ShallowWrapper {
       },
     },
   },
-  Symbol(enzyme.__childContext__): null,
 }
 `;
 
@@ -282,8 +477,19 @@ Object {
     "alignItems": "center",
     "backgroundRepeat": "no-repeat",
     "display": "inline-flex",
-    "height": [Function],
     "marginRight": 8,
+  },
+  "crossedLetter": Object {
+    "textDecoration": "line-through",
+  },
+  "italicLetter": Object {
+    "fontStyle": "italic !important",
+  },
+  "liWrapper": Object {
+    "listStyle": "none",
+  },
+  "underlinedLetter": Object {
+    "textDecoration": "underline",
   },
 }
 `;
@@ -292,16 +498,18 @@ exports[`ListItemJSS matches the snapshot 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <Jss(ListItem)
+    child={
+      Array [
+        Object {
+          "text": "Hola",
+        },
+      ]
+    }
     hierarchy={0}
+    icon="bullet"
     iconColor="#222222"
     size="bs"
-  >
-    <Jss(Text)
-      tag="p"
-    >
-      Hola
-    </Jss(Text)>
-  </Jss(ListItem)>,
+  />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "checkPropTypes": [Function],
@@ -314,66 +522,54 @@ ShallowWrapper {
   Symbol(enzyme.__node__): Object {
     "instance": null,
     "key": undefined,
-    "nodeType": "class",
+    "nodeType": "function",
     "props": Object {
-      "children": <Jss(Text)
-        tag="p"
-      >
-        Hola
-      </Jss(Text)>,
+      "child": Array [
+        Object {
+          "text": "Hola",
+        },
+      ],
       "classes": Object {
-        "bulletContainer": "ListItem-bulletContainer-0-1-73 ListItem-bulletContainer-0-1-72",
+        "bulletContainer": "ListItem-bulletContainer-0-1-80",
+        "crossedLetter": "ListItem-crossedLetter-0-1-83",
+        "italicLetter": "ListItem-italicLetter-0-1-82",
+        "liWrapper": "ListItem-liWrapper-0-1-81",
+        "underlinedLetter": "ListItem-underlinedLetter-0-1-84",
       },
       "hierarchy": 0,
+      "icon": "bullet",
       "iconColor": "#222222",
       "size": "bs",
     },
     "ref": null,
-    "rendered": Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "class",
-      "props": Object {
-        "children": "Hola",
-        "tag": "p",
-      },
-      "ref": null,
-      "rendered": "Hola",
-      "type": [Function],
-    },
+    "rendered": null,
     "type": [Function],
   },
   Symbol(enzyme.__nodes__): Array [
     Object {
       "instance": null,
       "key": undefined,
-      "nodeType": "class",
+      "nodeType": "function",
       "props": Object {
-        "children": <Jss(Text)
-          tag="p"
-        >
-          Hola
-        </Jss(Text)>,
+        "child": Array [
+          Object {
+            "text": "Hola",
+          },
+        ],
         "classes": Object {
-          "bulletContainer": "ListItem-bulletContainer-0-1-73 ListItem-bulletContainer-0-1-72",
+          "bulletContainer": "ListItem-bulletContainer-0-1-80",
+          "crossedLetter": "ListItem-crossedLetter-0-1-83",
+          "italicLetter": "ListItem-italicLetter-0-1-82",
+          "liWrapper": "ListItem-liWrapper-0-1-81",
+          "underlinedLetter": "ListItem-underlinedLetter-0-1-84",
         },
         "hierarchy": 0,
+        "icon": "bullet",
         "iconColor": "#222222",
         "size": "bs",
       },
       "ref": null,
-      "rendered": Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "class",
-        "props": Object {
-          "children": "Hola",
-          "tag": "p",
-        },
-        "ref": null,
-        "rendered": "Hola",
-        "type": [Function],
-      },
+      "rendered": null,
       "type": [Function],
     },
   ],

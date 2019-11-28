@@ -1,0 +1,2714 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`List matches the snapshot 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <List
+    classes={Object {}}
+    list={
+      Array [
+        Object {
+          "text": "Bullet1",
+        },
+        Object {
+          "size": "small",
+          "text": "Bullet2",
+        },
+        Object {
+          "text": "Bullet3",
+          "textColor": "mid",
+        },
+        Object {
+          "iconColor": "#083cae",
+          "iconName": "cross",
+          "text": "Bullet4",
+        },
+        Object {
+          "hierarchy": 1,
+          "text": "Bullet4.1",
+        },
+        Object {
+          "hierarchy": 2,
+          "text": "Bullet4.1.1",
+        },
+        Object {
+          "props": Object {
+            "italic": true,
+          },
+          "text": "This text is *italic* <-",
+        },
+        Object {
+          "props": Object {
+            "bold": true,
+          },
+          "text": "This text is *bold* <-",
+        },
+        Object {
+          "props": Object {
+            "underlined": true,
+          },
+          "text": "This text is *underlined* <-",
+        },
+        Object {
+          "props": Object {
+            "crossed": true,
+          },
+          "text": "This text is *crossed* <-",
+        },
+        Object {
+          "props": Object {
+            "bold": true,
+            "italic": true,
+            "underlined": true,
+          },
+          "text": "This text is *italic bold underlined* <-",
+        },
+        Object {
+          "link": Object {
+            "href": "https://google.com",
+            "linkStyle": Object {
+              "color": "#0946CB",
+              "textDecoration": "none",
+            },
+            "target": "_blank",
+          },
+          "text": "This text has a  #link# <-",
+        },
+        Object {
+          "link": Object {
+            "href": "https://google.com",
+          },
+          "props": Object {
+            "bold": true,
+          },
+          "text": "This text has a  #link# <- and *bold text* <-",
+        },
+      ]
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <Jss(ListItem)
+          child={
+            Array [
+              Object {
+                "text": "Bullet1",
+              },
+            ]
+          }
+          hierarchy={0}
+          icon="bullet"
+          iconColor="#222222"
+          size="standard"
+          textColor={undefined}
+        />,
+        <Jss(ListItem)
+          child={
+            Array [
+              Object {
+                "text": "Bullet2",
+              },
+            ]
+          }
+          hierarchy={0}
+          icon="bullet"
+          iconColor="#222222"
+          size="small"
+          textColor={undefined}
+        />,
+        <Jss(ListItem)
+          child={
+            Array [
+              Object {
+                "text": "Bullet3",
+              },
+            ]
+          }
+          hierarchy={0}
+          icon="bullet"
+          iconColor="#222222"
+          size="standard"
+          textColor="mid"
+        />,
+        <Jss(ListItem)
+          child={
+            Array [
+              Object {
+                "text": "Bullet4",
+              },
+            ]
+          }
+          hierarchy={0}
+          icon="cross"
+          iconColor="#083cae"
+          size="standard"
+          textColor={undefined}
+        />,
+        <Jss(ListItem)
+          child={
+            Array [
+              Object {
+                "text": "Bullet4.1",
+              },
+            ]
+          }
+          hierarchy={1}
+          icon="bullet"
+          iconColor="#222222"
+          size="standard"
+          textColor={undefined}
+        />,
+        <Jss(ListItem)
+          child={
+            Array [
+              Object {
+                "text": "Bullet4.1.1",
+              },
+            ]
+          }
+          hierarchy={2}
+          icon="bullet"
+          iconColor="#222222"
+          size="standard"
+          textColor={undefined}
+        />,
+        <Jss(ListItem)
+          child={
+            Array [
+              Object {
+                "text": "This text is ",
+              },
+              Object {
+                "props": Object {
+                  "italic": true,
+                },
+                "text": "italic",
+              },
+              Object {
+                "text": " <-",
+              },
+            ]
+          }
+          hierarchy={0}
+          icon="bullet"
+          iconColor="#222222"
+          size="standard"
+          textColor={undefined}
+        />,
+        <Jss(ListItem)
+          child={
+            Array [
+              Object {
+                "text": "This text is ",
+              },
+              Object {
+                "props": Object {
+                  "bold": true,
+                },
+                "text": "bold",
+              },
+              Object {
+                "text": " <-",
+              },
+            ]
+          }
+          hierarchy={0}
+          icon="bullet"
+          iconColor="#222222"
+          size="standard"
+          textColor={undefined}
+        />,
+        <Jss(ListItem)
+          child={
+            Array [
+              Object {
+                "text": "This text is ",
+              },
+              Object {
+                "props": Object {
+                  "underlined": true,
+                },
+                "text": "underlined",
+              },
+              Object {
+                "text": " <-",
+              },
+            ]
+          }
+          hierarchy={0}
+          icon="bullet"
+          iconColor="#222222"
+          size="standard"
+          textColor={undefined}
+        />,
+        <Jss(ListItem)
+          child={
+            Array [
+              Object {
+                "text": "This text is ",
+              },
+              Object {
+                "props": Object {
+                  "crossed": true,
+                },
+                "text": "crossed",
+              },
+              Object {
+                "text": " <-",
+              },
+            ]
+          }
+          hierarchy={0}
+          icon="bullet"
+          iconColor="#222222"
+          size="standard"
+          textColor={undefined}
+        />,
+        <Jss(ListItem)
+          child={
+            Array [
+              Object {
+                "text": "This text is ",
+              },
+              Object {
+                "props": Object {
+                  "bold": true,
+                  "italic": true,
+                  "underlined": true,
+                },
+                "text": "italic bold underlined",
+              },
+              Object {
+                "text": " <-",
+              },
+            ]
+          }
+          hierarchy={0}
+          icon="bullet"
+          iconColor="#222222"
+          size="standard"
+          textColor={undefined}
+        />,
+        <Jss(ListItem)
+          child={
+            Array [
+              Object {
+                "text": "This text has a  ",
+              },
+              Object {
+                "link": Object {
+                  "href": "https://google.com",
+                  "linkStyle": Object {
+                    "color": "#0946CB",
+                    "textDecoration": "none",
+                  },
+                  "target": "_blank",
+                },
+                "text": "link",
+              },
+              Object {
+                "text": " <-",
+              },
+            ]
+          }
+          hierarchy={0}
+          icon="bullet"
+          iconColor="#222222"
+          size="standard"
+          textColor={undefined}
+        />,
+        <Jss(ListItem)
+          child={
+            Array [
+              Object {
+                "text": "This text has a  ",
+              },
+              Object {
+                "link": Object {
+                  "href": "https://google.com",
+                },
+                "text": "link",
+              },
+              Object {
+                "text": " <- and ",
+              },
+              Object {
+                "props": Object {
+                  "bold": true,
+                },
+                "text": "bold text",
+              },
+              Object {
+                "text": " <-",
+              },
+            ]
+          }
+          hierarchy={0}
+          icon="bullet"
+          iconColor="#222222"
+          size="standard"
+          textColor={undefined}
+        />,
+      ],
+      "className": "undefined",
+      "id": undefined,
+      "style": undefined,
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": "0",
+        "nodeType": "class",
+        "props": Object {
+          "child": Array [
+            Object {
+              "text": "Bullet1",
+            },
+          ],
+          "hierarchy": 0,
+          "icon": "bullet",
+          "iconColor": "#222222",
+          "size": "standard",
+          "textColor": undefined,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "1",
+        "nodeType": "class",
+        "props": Object {
+          "child": Array [
+            Object {
+              "text": "Bullet2",
+            },
+          ],
+          "hierarchy": 0,
+          "icon": "bullet",
+          "iconColor": "#222222",
+          "size": "small",
+          "textColor": undefined,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "2",
+        "nodeType": "class",
+        "props": Object {
+          "child": Array [
+            Object {
+              "text": "Bullet3",
+            },
+          ],
+          "hierarchy": 0,
+          "icon": "bullet",
+          "iconColor": "#222222",
+          "size": "standard",
+          "textColor": "mid",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "3",
+        "nodeType": "class",
+        "props": Object {
+          "child": Array [
+            Object {
+              "text": "Bullet4",
+            },
+          ],
+          "hierarchy": 0,
+          "icon": "cross",
+          "iconColor": "#083cae",
+          "size": "standard",
+          "textColor": undefined,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "4",
+        "nodeType": "class",
+        "props": Object {
+          "child": Array [
+            Object {
+              "text": "Bullet4.1",
+            },
+          ],
+          "hierarchy": 1,
+          "icon": "bullet",
+          "iconColor": "#222222",
+          "size": "standard",
+          "textColor": undefined,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "5",
+        "nodeType": "class",
+        "props": Object {
+          "child": Array [
+            Object {
+              "text": "Bullet4.1.1",
+            },
+          ],
+          "hierarchy": 2,
+          "icon": "bullet",
+          "iconColor": "#222222",
+          "size": "standard",
+          "textColor": undefined,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "6",
+        "nodeType": "class",
+        "props": Object {
+          "child": Array [
+            Object {
+              "text": "This text is ",
+            },
+            Object {
+              "props": Object {
+                "italic": true,
+              },
+              "text": "italic",
+            },
+            Object {
+              "text": " <-",
+            },
+          ],
+          "hierarchy": 0,
+          "icon": "bullet",
+          "iconColor": "#222222",
+          "size": "standard",
+          "textColor": undefined,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "7",
+        "nodeType": "class",
+        "props": Object {
+          "child": Array [
+            Object {
+              "text": "This text is ",
+            },
+            Object {
+              "props": Object {
+                "bold": true,
+              },
+              "text": "bold",
+            },
+            Object {
+              "text": " <-",
+            },
+          ],
+          "hierarchy": 0,
+          "icon": "bullet",
+          "iconColor": "#222222",
+          "size": "standard",
+          "textColor": undefined,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "8",
+        "nodeType": "class",
+        "props": Object {
+          "child": Array [
+            Object {
+              "text": "This text is ",
+            },
+            Object {
+              "props": Object {
+                "underlined": true,
+              },
+              "text": "underlined",
+            },
+            Object {
+              "text": " <-",
+            },
+          ],
+          "hierarchy": 0,
+          "icon": "bullet",
+          "iconColor": "#222222",
+          "size": "standard",
+          "textColor": undefined,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "9",
+        "nodeType": "class",
+        "props": Object {
+          "child": Array [
+            Object {
+              "text": "This text is ",
+            },
+            Object {
+              "props": Object {
+                "crossed": true,
+              },
+              "text": "crossed",
+            },
+            Object {
+              "text": " <-",
+            },
+          ],
+          "hierarchy": 0,
+          "icon": "bullet",
+          "iconColor": "#222222",
+          "size": "standard",
+          "textColor": undefined,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "10",
+        "nodeType": "class",
+        "props": Object {
+          "child": Array [
+            Object {
+              "text": "This text is ",
+            },
+            Object {
+              "props": Object {
+                "bold": true,
+                "italic": true,
+                "underlined": true,
+              },
+              "text": "italic bold underlined",
+            },
+            Object {
+              "text": " <-",
+            },
+          ],
+          "hierarchy": 0,
+          "icon": "bullet",
+          "iconColor": "#222222",
+          "size": "standard",
+          "textColor": undefined,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "11",
+        "nodeType": "class",
+        "props": Object {
+          "child": Array [
+            Object {
+              "text": "This text has a  ",
+            },
+            Object {
+              "link": Object {
+                "href": "https://google.com",
+                "linkStyle": Object {
+                  "color": "#0946CB",
+                  "textDecoration": "none",
+                },
+                "target": "_blank",
+              },
+              "text": "link",
+            },
+            Object {
+              "text": " <-",
+            },
+          ],
+          "hierarchy": 0,
+          "icon": "bullet",
+          "iconColor": "#222222",
+          "size": "standard",
+          "textColor": undefined,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "12",
+        "nodeType": "class",
+        "props": Object {
+          "child": Array [
+            Object {
+              "text": "This text has a  ",
+            },
+            Object {
+              "link": Object {
+                "href": "https://google.com",
+              },
+              "text": "link",
+            },
+            Object {
+              "text": " <- and ",
+            },
+            Object {
+              "props": Object {
+                "bold": true,
+              },
+              "text": "bold text",
+            },
+            Object {
+              "text": " <-",
+            },
+          ],
+          "hierarchy": 0,
+          "icon": "bullet",
+          "iconColor": "#222222",
+          "size": "standard",
+          "textColor": undefined,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": "ul",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <Jss(ListItem)
+            child={
+              Array [
+                Object {
+                  "text": "Bullet1",
+                },
+              ]
+            }
+            hierarchy={0}
+            icon="bullet"
+            iconColor="#222222"
+            size="standard"
+            textColor={undefined}
+          />,
+          <Jss(ListItem)
+            child={
+              Array [
+                Object {
+                  "text": "Bullet2",
+                },
+              ]
+            }
+            hierarchy={0}
+            icon="bullet"
+            iconColor="#222222"
+            size="small"
+            textColor={undefined}
+          />,
+          <Jss(ListItem)
+            child={
+              Array [
+                Object {
+                  "text": "Bullet3",
+                },
+              ]
+            }
+            hierarchy={0}
+            icon="bullet"
+            iconColor="#222222"
+            size="standard"
+            textColor="mid"
+          />,
+          <Jss(ListItem)
+            child={
+              Array [
+                Object {
+                  "text": "Bullet4",
+                },
+              ]
+            }
+            hierarchy={0}
+            icon="cross"
+            iconColor="#083cae"
+            size="standard"
+            textColor={undefined}
+          />,
+          <Jss(ListItem)
+            child={
+              Array [
+                Object {
+                  "text": "Bullet4.1",
+                },
+              ]
+            }
+            hierarchy={1}
+            icon="bullet"
+            iconColor="#222222"
+            size="standard"
+            textColor={undefined}
+          />,
+          <Jss(ListItem)
+            child={
+              Array [
+                Object {
+                  "text": "Bullet4.1.1",
+                },
+              ]
+            }
+            hierarchy={2}
+            icon="bullet"
+            iconColor="#222222"
+            size="standard"
+            textColor={undefined}
+          />,
+          <Jss(ListItem)
+            child={
+              Array [
+                Object {
+                  "text": "This text is ",
+                },
+                Object {
+                  "props": Object {
+                    "italic": true,
+                  },
+                  "text": "italic",
+                },
+                Object {
+                  "text": " <-",
+                },
+              ]
+            }
+            hierarchy={0}
+            icon="bullet"
+            iconColor="#222222"
+            size="standard"
+            textColor={undefined}
+          />,
+          <Jss(ListItem)
+            child={
+              Array [
+                Object {
+                  "text": "This text is ",
+                },
+                Object {
+                  "props": Object {
+                    "bold": true,
+                  },
+                  "text": "bold",
+                },
+                Object {
+                  "text": " <-",
+                },
+              ]
+            }
+            hierarchy={0}
+            icon="bullet"
+            iconColor="#222222"
+            size="standard"
+            textColor={undefined}
+          />,
+          <Jss(ListItem)
+            child={
+              Array [
+                Object {
+                  "text": "This text is ",
+                },
+                Object {
+                  "props": Object {
+                    "underlined": true,
+                  },
+                  "text": "underlined",
+                },
+                Object {
+                  "text": " <-",
+                },
+              ]
+            }
+            hierarchy={0}
+            icon="bullet"
+            iconColor="#222222"
+            size="standard"
+            textColor={undefined}
+          />,
+          <Jss(ListItem)
+            child={
+              Array [
+                Object {
+                  "text": "This text is ",
+                },
+                Object {
+                  "props": Object {
+                    "crossed": true,
+                  },
+                  "text": "crossed",
+                },
+                Object {
+                  "text": " <-",
+                },
+              ]
+            }
+            hierarchy={0}
+            icon="bullet"
+            iconColor="#222222"
+            size="standard"
+            textColor={undefined}
+          />,
+          <Jss(ListItem)
+            child={
+              Array [
+                Object {
+                  "text": "This text is ",
+                },
+                Object {
+                  "props": Object {
+                    "bold": true,
+                    "italic": true,
+                    "underlined": true,
+                  },
+                  "text": "italic bold underlined",
+                },
+                Object {
+                  "text": " <-",
+                },
+              ]
+            }
+            hierarchy={0}
+            icon="bullet"
+            iconColor="#222222"
+            size="standard"
+            textColor={undefined}
+          />,
+          <Jss(ListItem)
+            child={
+              Array [
+                Object {
+                  "text": "This text has a  ",
+                },
+                Object {
+                  "link": Object {
+                    "href": "https://google.com",
+                    "linkStyle": Object {
+                      "color": "#0946CB",
+                      "textDecoration": "none",
+                    },
+                    "target": "_blank",
+                  },
+                  "text": "link",
+                },
+                Object {
+                  "text": " <-",
+                },
+              ]
+            }
+            hierarchy={0}
+            icon="bullet"
+            iconColor="#222222"
+            size="standard"
+            textColor={undefined}
+          />,
+          <Jss(ListItem)
+            child={
+              Array [
+                Object {
+                  "text": "This text has a  ",
+                },
+                Object {
+                  "link": Object {
+                    "href": "https://google.com",
+                  },
+                  "text": "link",
+                },
+                Object {
+                  "text": " <- and ",
+                },
+                Object {
+                  "props": Object {
+                    "bold": true,
+                  },
+                  "text": "bold text",
+                },
+                Object {
+                  "text": " <-",
+                },
+              ]
+            }
+            hierarchy={0}
+            icon="bullet"
+            iconColor="#222222"
+            size="standard"
+            textColor={undefined}
+          />,
+        ],
+        "className": "undefined",
+        "id": undefined,
+        "style": undefined,
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": "0",
+          "nodeType": "class",
+          "props": Object {
+            "child": Array [
+              Object {
+                "text": "Bullet1",
+              },
+            ],
+            "hierarchy": 0,
+            "icon": "bullet",
+            "iconColor": "#222222",
+            "size": "standard",
+            "textColor": undefined,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "1",
+          "nodeType": "class",
+          "props": Object {
+            "child": Array [
+              Object {
+                "text": "Bullet2",
+              },
+            ],
+            "hierarchy": 0,
+            "icon": "bullet",
+            "iconColor": "#222222",
+            "size": "small",
+            "textColor": undefined,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "2",
+          "nodeType": "class",
+          "props": Object {
+            "child": Array [
+              Object {
+                "text": "Bullet3",
+              },
+            ],
+            "hierarchy": 0,
+            "icon": "bullet",
+            "iconColor": "#222222",
+            "size": "standard",
+            "textColor": "mid",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "3",
+          "nodeType": "class",
+          "props": Object {
+            "child": Array [
+              Object {
+                "text": "Bullet4",
+              },
+            ],
+            "hierarchy": 0,
+            "icon": "cross",
+            "iconColor": "#083cae",
+            "size": "standard",
+            "textColor": undefined,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "4",
+          "nodeType": "class",
+          "props": Object {
+            "child": Array [
+              Object {
+                "text": "Bullet4.1",
+              },
+            ],
+            "hierarchy": 1,
+            "icon": "bullet",
+            "iconColor": "#222222",
+            "size": "standard",
+            "textColor": undefined,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "5",
+          "nodeType": "class",
+          "props": Object {
+            "child": Array [
+              Object {
+                "text": "Bullet4.1.1",
+              },
+            ],
+            "hierarchy": 2,
+            "icon": "bullet",
+            "iconColor": "#222222",
+            "size": "standard",
+            "textColor": undefined,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "6",
+          "nodeType": "class",
+          "props": Object {
+            "child": Array [
+              Object {
+                "text": "This text is ",
+              },
+              Object {
+                "props": Object {
+                  "italic": true,
+                },
+                "text": "italic",
+              },
+              Object {
+                "text": " <-",
+              },
+            ],
+            "hierarchy": 0,
+            "icon": "bullet",
+            "iconColor": "#222222",
+            "size": "standard",
+            "textColor": undefined,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "7",
+          "nodeType": "class",
+          "props": Object {
+            "child": Array [
+              Object {
+                "text": "This text is ",
+              },
+              Object {
+                "props": Object {
+                  "bold": true,
+                },
+                "text": "bold",
+              },
+              Object {
+                "text": " <-",
+              },
+            ],
+            "hierarchy": 0,
+            "icon": "bullet",
+            "iconColor": "#222222",
+            "size": "standard",
+            "textColor": undefined,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "8",
+          "nodeType": "class",
+          "props": Object {
+            "child": Array [
+              Object {
+                "text": "This text is ",
+              },
+              Object {
+                "props": Object {
+                  "underlined": true,
+                },
+                "text": "underlined",
+              },
+              Object {
+                "text": " <-",
+              },
+            ],
+            "hierarchy": 0,
+            "icon": "bullet",
+            "iconColor": "#222222",
+            "size": "standard",
+            "textColor": undefined,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "9",
+          "nodeType": "class",
+          "props": Object {
+            "child": Array [
+              Object {
+                "text": "This text is ",
+              },
+              Object {
+                "props": Object {
+                  "crossed": true,
+                },
+                "text": "crossed",
+              },
+              Object {
+                "text": " <-",
+              },
+            ],
+            "hierarchy": 0,
+            "icon": "bullet",
+            "iconColor": "#222222",
+            "size": "standard",
+            "textColor": undefined,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "10",
+          "nodeType": "class",
+          "props": Object {
+            "child": Array [
+              Object {
+                "text": "This text is ",
+              },
+              Object {
+                "props": Object {
+                  "bold": true,
+                  "italic": true,
+                  "underlined": true,
+                },
+                "text": "italic bold underlined",
+              },
+              Object {
+                "text": " <-",
+              },
+            ],
+            "hierarchy": 0,
+            "icon": "bullet",
+            "iconColor": "#222222",
+            "size": "standard",
+            "textColor": undefined,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "11",
+          "nodeType": "class",
+          "props": Object {
+            "child": Array [
+              Object {
+                "text": "This text has a  ",
+              },
+              Object {
+                "link": Object {
+                  "href": "https://google.com",
+                  "linkStyle": Object {
+                    "color": "#0946CB",
+                    "textDecoration": "none",
+                  },
+                  "target": "_blank",
+                },
+                "text": "link",
+              },
+              Object {
+                "text": " <-",
+              },
+            ],
+            "hierarchy": 0,
+            "icon": "bullet",
+            "iconColor": "#222222",
+            "size": "standard",
+            "textColor": undefined,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "12",
+          "nodeType": "class",
+          "props": Object {
+            "child": Array [
+              Object {
+                "text": "This text has a  ",
+              },
+              Object {
+                "link": Object {
+                  "href": "https://google.com",
+                },
+                "text": "link",
+              },
+              Object {
+                "text": " <- and ",
+              },
+              Object {
+                "props": Object {
+                  "bold": true,
+                },
+                "text": "bold text",
+              },
+              Object {
+                "text": " <-",
+              },
+            ],
+            "hierarchy": 0,
+            "icon": "bullet",
+            "iconColor": "#222222",
+            "size": "standard",
+            "textColor": undefined,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": "ul",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
+
+exports[`ListItem styles matches the snapshot 1`] = `Object {}`;
+
+exports[`ListItemJSS matches the snapshot 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <List
+    list={
+      Array [
+        Object {
+          "text": "Bullet1",
+        },
+        Object {
+          "size": "small",
+          "text": "Bullet2",
+        },
+        Object {
+          "text": "Bullet3",
+          "textColor": "mid",
+        },
+        Object {
+          "iconColor": "#083cae",
+          "iconName": "cross",
+          "text": "Bullet4",
+        },
+        Object {
+          "hierarchy": 1,
+          "text": "Bullet4.1",
+        },
+        Object {
+          "hierarchy": 2,
+          "text": "Bullet4.1.1",
+        },
+        Object {
+          "props": Object {
+            "italic": true,
+          },
+          "text": "This text is *italic* <-",
+        },
+        Object {
+          "props": Object {
+            "bold": true,
+          },
+          "text": "This text is *bold* <-",
+        },
+        Object {
+          "props": Object {
+            "underlined": true,
+          },
+          "text": "This text is *underlined* <-",
+        },
+        Object {
+          "props": Object {
+            "crossed": true,
+          },
+          "text": "This text is *crossed* <-",
+        },
+        Object {
+          "props": Object {
+            "bold": true,
+            "italic": true,
+            "underlined": true,
+          },
+          "text": "This text is *italic bold underlined* <-",
+        },
+        Object {
+          "link": Object {
+            "href": "https://google.com",
+            "linkStyle": Object {
+              "color": "#0946CB",
+              "textDecoration": "none",
+            },
+            "target": "_blank",
+          },
+          "text": "This text has a  #link# <-",
+        },
+        Object {
+          "link": Object {
+            "href": "https://google.com",
+          },
+          "props": Object {
+            "bold": true,
+          },
+          "text": "This text has a  #link# <- and *bold text* <-",
+        },
+      ]
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <Jss(ListItem)
+          child={
+            Array [
+              Object {
+                "text": "Bullet1",
+              },
+            ]
+          }
+          hierarchy={0}
+          icon="bullet"
+          iconColor="#222222"
+          size="standard"
+          textColor={undefined}
+        />,
+        <Jss(ListItem)
+          child={
+            Array [
+              Object {
+                "text": "Bullet2",
+              },
+            ]
+          }
+          hierarchy={0}
+          icon="bullet"
+          iconColor="#222222"
+          size="small"
+          textColor={undefined}
+        />,
+        <Jss(ListItem)
+          child={
+            Array [
+              Object {
+                "text": "Bullet3",
+              },
+            ]
+          }
+          hierarchy={0}
+          icon="bullet"
+          iconColor="#222222"
+          size="standard"
+          textColor="mid"
+        />,
+        <Jss(ListItem)
+          child={
+            Array [
+              Object {
+                "text": "Bullet4",
+              },
+            ]
+          }
+          hierarchy={0}
+          icon="cross"
+          iconColor="#083cae"
+          size="standard"
+          textColor={undefined}
+        />,
+        <Jss(ListItem)
+          child={
+            Array [
+              Object {
+                "text": "Bullet4.1",
+              },
+            ]
+          }
+          hierarchy={1}
+          icon="bullet"
+          iconColor="#222222"
+          size="standard"
+          textColor={undefined}
+        />,
+        <Jss(ListItem)
+          child={
+            Array [
+              Object {
+                "text": "Bullet4.1.1",
+              },
+            ]
+          }
+          hierarchy={2}
+          icon="bullet"
+          iconColor="#222222"
+          size="standard"
+          textColor={undefined}
+        />,
+        <Jss(ListItem)
+          child={
+            Array [
+              Object {
+                "text": "This text is ",
+              },
+              Object {
+                "props": Object {
+                  "italic": true,
+                },
+                "text": "italic",
+              },
+              Object {
+                "text": " <-",
+              },
+            ]
+          }
+          hierarchy={0}
+          icon="bullet"
+          iconColor="#222222"
+          size="standard"
+          textColor={undefined}
+        />,
+        <Jss(ListItem)
+          child={
+            Array [
+              Object {
+                "text": "This text is ",
+              },
+              Object {
+                "props": Object {
+                  "bold": true,
+                },
+                "text": "bold",
+              },
+              Object {
+                "text": " <-",
+              },
+            ]
+          }
+          hierarchy={0}
+          icon="bullet"
+          iconColor="#222222"
+          size="standard"
+          textColor={undefined}
+        />,
+        <Jss(ListItem)
+          child={
+            Array [
+              Object {
+                "text": "This text is ",
+              },
+              Object {
+                "props": Object {
+                  "underlined": true,
+                },
+                "text": "underlined",
+              },
+              Object {
+                "text": " <-",
+              },
+            ]
+          }
+          hierarchy={0}
+          icon="bullet"
+          iconColor="#222222"
+          size="standard"
+          textColor={undefined}
+        />,
+        <Jss(ListItem)
+          child={
+            Array [
+              Object {
+                "text": "This text is ",
+              },
+              Object {
+                "props": Object {
+                  "crossed": true,
+                },
+                "text": "crossed",
+              },
+              Object {
+                "text": " <-",
+              },
+            ]
+          }
+          hierarchy={0}
+          icon="bullet"
+          iconColor="#222222"
+          size="standard"
+          textColor={undefined}
+        />,
+        <Jss(ListItem)
+          child={
+            Array [
+              Object {
+                "text": "This text is ",
+              },
+              Object {
+                "props": Object {
+                  "bold": true,
+                  "italic": true,
+                  "underlined": true,
+                },
+                "text": "italic bold underlined",
+              },
+              Object {
+                "text": " <-",
+              },
+            ]
+          }
+          hierarchy={0}
+          icon="bullet"
+          iconColor="#222222"
+          size="standard"
+          textColor={undefined}
+        />,
+        <Jss(ListItem)
+          child={
+            Array [
+              Object {
+                "text": "This text has a  ",
+              },
+              Object {
+                "link": Object {
+                  "href": "https://google.com",
+                  "linkStyle": Object {
+                    "color": "#0946CB",
+                    "textDecoration": "none",
+                  },
+                  "target": "_blank",
+                },
+                "text": "link",
+              },
+              Object {
+                "text": " <-",
+              },
+            ]
+          }
+          hierarchy={0}
+          icon="bullet"
+          iconColor="#222222"
+          size="standard"
+          textColor={undefined}
+        />,
+        <Jss(ListItem)
+          child={
+            Array [
+              Object {
+                "text": "This text has a  ",
+              },
+              Object {
+                "link": Object {
+                  "href": "https://google.com",
+                },
+                "text": "link",
+              },
+              Object {
+                "text": " <- and ",
+              },
+              Object {
+                "props": Object {
+                  "bold": true,
+                },
+                "text": "bold text",
+              },
+              Object {
+                "text": " <-",
+              },
+            ]
+          }
+          hierarchy={0}
+          icon="bullet"
+          iconColor="#222222"
+          size="standard"
+          textColor={undefined}
+        />,
+      ],
+      "className": "undefined",
+      "id": undefined,
+      "style": undefined,
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": "0",
+        "nodeType": "class",
+        "props": Object {
+          "child": Array [
+            Object {
+              "text": "Bullet1",
+            },
+          ],
+          "hierarchy": 0,
+          "icon": "bullet",
+          "iconColor": "#222222",
+          "size": "standard",
+          "textColor": undefined,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "1",
+        "nodeType": "class",
+        "props": Object {
+          "child": Array [
+            Object {
+              "text": "Bullet2",
+            },
+          ],
+          "hierarchy": 0,
+          "icon": "bullet",
+          "iconColor": "#222222",
+          "size": "small",
+          "textColor": undefined,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "2",
+        "nodeType": "class",
+        "props": Object {
+          "child": Array [
+            Object {
+              "text": "Bullet3",
+            },
+          ],
+          "hierarchy": 0,
+          "icon": "bullet",
+          "iconColor": "#222222",
+          "size": "standard",
+          "textColor": "mid",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "3",
+        "nodeType": "class",
+        "props": Object {
+          "child": Array [
+            Object {
+              "text": "Bullet4",
+            },
+          ],
+          "hierarchy": 0,
+          "icon": "cross",
+          "iconColor": "#083cae",
+          "size": "standard",
+          "textColor": undefined,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "4",
+        "nodeType": "class",
+        "props": Object {
+          "child": Array [
+            Object {
+              "text": "Bullet4.1",
+            },
+          ],
+          "hierarchy": 1,
+          "icon": "bullet",
+          "iconColor": "#222222",
+          "size": "standard",
+          "textColor": undefined,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "5",
+        "nodeType": "class",
+        "props": Object {
+          "child": Array [
+            Object {
+              "text": "Bullet4.1.1",
+            },
+          ],
+          "hierarchy": 2,
+          "icon": "bullet",
+          "iconColor": "#222222",
+          "size": "standard",
+          "textColor": undefined,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "6",
+        "nodeType": "class",
+        "props": Object {
+          "child": Array [
+            Object {
+              "text": "This text is ",
+            },
+            Object {
+              "props": Object {
+                "italic": true,
+              },
+              "text": "italic",
+            },
+            Object {
+              "text": " <-",
+            },
+          ],
+          "hierarchy": 0,
+          "icon": "bullet",
+          "iconColor": "#222222",
+          "size": "standard",
+          "textColor": undefined,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "7",
+        "nodeType": "class",
+        "props": Object {
+          "child": Array [
+            Object {
+              "text": "This text is ",
+            },
+            Object {
+              "props": Object {
+                "bold": true,
+              },
+              "text": "bold",
+            },
+            Object {
+              "text": " <-",
+            },
+          ],
+          "hierarchy": 0,
+          "icon": "bullet",
+          "iconColor": "#222222",
+          "size": "standard",
+          "textColor": undefined,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "8",
+        "nodeType": "class",
+        "props": Object {
+          "child": Array [
+            Object {
+              "text": "This text is ",
+            },
+            Object {
+              "props": Object {
+                "underlined": true,
+              },
+              "text": "underlined",
+            },
+            Object {
+              "text": " <-",
+            },
+          ],
+          "hierarchy": 0,
+          "icon": "bullet",
+          "iconColor": "#222222",
+          "size": "standard",
+          "textColor": undefined,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "9",
+        "nodeType": "class",
+        "props": Object {
+          "child": Array [
+            Object {
+              "text": "This text is ",
+            },
+            Object {
+              "props": Object {
+                "crossed": true,
+              },
+              "text": "crossed",
+            },
+            Object {
+              "text": " <-",
+            },
+          ],
+          "hierarchy": 0,
+          "icon": "bullet",
+          "iconColor": "#222222",
+          "size": "standard",
+          "textColor": undefined,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "10",
+        "nodeType": "class",
+        "props": Object {
+          "child": Array [
+            Object {
+              "text": "This text is ",
+            },
+            Object {
+              "props": Object {
+                "bold": true,
+                "italic": true,
+                "underlined": true,
+              },
+              "text": "italic bold underlined",
+            },
+            Object {
+              "text": " <-",
+            },
+          ],
+          "hierarchy": 0,
+          "icon": "bullet",
+          "iconColor": "#222222",
+          "size": "standard",
+          "textColor": undefined,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "11",
+        "nodeType": "class",
+        "props": Object {
+          "child": Array [
+            Object {
+              "text": "This text has a  ",
+            },
+            Object {
+              "link": Object {
+                "href": "https://google.com",
+                "linkStyle": Object {
+                  "color": "#0946CB",
+                  "textDecoration": "none",
+                },
+                "target": "_blank",
+              },
+              "text": "link",
+            },
+            Object {
+              "text": " <-",
+            },
+          ],
+          "hierarchy": 0,
+          "icon": "bullet",
+          "iconColor": "#222222",
+          "size": "standard",
+          "textColor": undefined,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "12",
+        "nodeType": "class",
+        "props": Object {
+          "child": Array [
+            Object {
+              "text": "This text has a  ",
+            },
+            Object {
+              "link": Object {
+                "href": "https://google.com",
+              },
+              "text": "link",
+            },
+            Object {
+              "text": " <- and ",
+            },
+            Object {
+              "props": Object {
+                "bold": true,
+              },
+              "text": "bold text",
+            },
+            Object {
+              "text": " <-",
+            },
+          ],
+          "hierarchy": 0,
+          "icon": "bullet",
+          "iconColor": "#222222",
+          "size": "standard",
+          "textColor": undefined,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": "ul",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <Jss(ListItem)
+            child={
+              Array [
+                Object {
+                  "text": "Bullet1",
+                },
+              ]
+            }
+            hierarchy={0}
+            icon="bullet"
+            iconColor="#222222"
+            size="standard"
+            textColor={undefined}
+          />,
+          <Jss(ListItem)
+            child={
+              Array [
+                Object {
+                  "text": "Bullet2",
+                },
+              ]
+            }
+            hierarchy={0}
+            icon="bullet"
+            iconColor="#222222"
+            size="small"
+            textColor={undefined}
+          />,
+          <Jss(ListItem)
+            child={
+              Array [
+                Object {
+                  "text": "Bullet3",
+                },
+              ]
+            }
+            hierarchy={0}
+            icon="bullet"
+            iconColor="#222222"
+            size="standard"
+            textColor="mid"
+          />,
+          <Jss(ListItem)
+            child={
+              Array [
+                Object {
+                  "text": "Bullet4",
+                },
+              ]
+            }
+            hierarchy={0}
+            icon="cross"
+            iconColor="#083cae"
+            size="standard"
+            textColor={undefined}
+          />,
+          <Jss(ListItem)
+            child={
+              Array [
+                Object {
+                  "text": "Bullet4.1",
+                },
+              ]
+            }
+            hierarchy={1}
+            icon="bullet"
+            iconColor="#222222"
+            size="standard"
+            textColor={undefined}
+          />,
+          <Jss(ListItem)
+            child={
+              Array [
+                Object {
+                  "text": "Bullet4.1.1",
+                },
+              ]
+            }
+            hierarchy={2}
+            icon="bullet"
+            iconColor="#222222"
+            size="standard"
+            textColor={undefined}
+          />,
+          <Jss(ListItem)
+            child={
+              Array [
+                Object {
+                  "text": "This text is ",
+                },
+                Object {
+                  "props": Object {
+                    "italic": true,
+                  },
+                  "text": "italic",
+                },
+                Object {
+                  "text": " <-",
+                },
+              ]
+            }
+            hierarchy={0}
+            icon="bullet"
+            iconColor="#222222"
+            size="standard"
+            textColor={undefined}
+          />,
+          <Jss(ListItem)
+            child={
+              Array [
+                Object {
+                  "text": "This text is ",
+                },
+                Object {
+                  "props": Object {
+                    "bold": true,
+                  },
+                  "text": "bold",
+                },
+                Object {
+                  "text": " <-",
+                },
+              ]
+            }
+            hierarchy={0}
+            icon="bullet"
+            iconColor="#222222"
+            size="standard"
+            textColor={undefined}
+          />,
+          <Jss(ListItem)
+            child={
+              Array [
+                Object {
+                  "text": "This text is ",
+                },
+                Object {
+                  "props": Object {
+                    "underlined": true,
+                  },
+                  "text": "underlined",
+                },
+                Object {
+                  "text": " <-",
+                },
+              ]
+            }
+            hierarchy={0}
+            icon="bullet"
+            iconColor="#222222"
+            size="standard"
+            textColor={undefined}
+          />,
+          <Jss(ListItem)
+            child={
+              Array [
+                Object {
+                  "text": "This text is ",
+                },
+                Object {
+                  "props": Object {
+                    "crossed": true,
+                  },
+                  "text": "crossed",
+                },
+                Object {
+                  "text": " <-",
+                },
+              ]
+            }
+            hierarchy={0}
+            icon="bullet"
+            iconColor="#222222"
+            size="standard"
+            textColor={undefined}
+          />,
+          <Jss(ListItem)
+            child={
+              Array [
+                Object {
+                  "text": "This text is ",
+                },
+                Object {
+                  "props": Object {
+                    "bold": true,
+                    "italic": true,
+                    "underlined": true,
+                  },
+                  "text": "italic bold underlined",
+                },
+                Object {
+                  "text": " <-",
+                },
+              ]
+            }
+            hierarchy={0}
+            icon="bullet"
+            iconColor="#222222"
+            size="standard"
+            textColor={undefined}
+          />,
+          <Jss(ListItem)
+            child={
+              Array [
+                Object {
+                  "text": "This text has a  ",
+                },
+                Object {
+                  "link": Object {
+                    "href": "https://google.com",
+                    "linkStyle": Object {
+                      "color": "#0946CB",
+                      "textDecoration": "none",
+                    },
+                    "target": "_blank",
+                  },
+                  "text": "link",
+                },
+                Object {
+                  "text": " <-",
+                },
+              ]
+            }
+            hierarchy={0}
+            icon="bullet"
+            iconColor="#222222"
+            size="standard"
+            textColor={undefined}
+          />,
+          <Jss(ListItem)
+            child={
+              Array [
+                Object {
+                  "text": "This text has a  ",
+                },
+                Object {
+                  "link": Object {
+                    "href": "https://google.com",
+                  },
+                  "text": "link",
+                },
+                Object {
+                  "text": " <- and ",
+                },
+                Object {
+                  "props": Object {
+                    "bold": true,
+                  },
+                  "text": "bold text",
+                },
+                Object {
+                  "text": " <-",
+                },
+              ]
+            }
+            hierarchy={0}
+            icon="bullet"
+            iconColor="#222222"
+            size="standard"
+            textColor={undefined}
+          />,
+        ],
+        "className": "undefined",
+        "id": undefined,
+        "style": undefined,
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": "0",
+          "nodeType": "class",
+          "props": Object {
+            "child": Array [
+              Object {
+                "text": "Bullet1",
+              },
+            ],
+            "hierarchy": 0,
+            "icon": "bullet",
+            "iconColor": "#222222",
+            "size": "standard",
+            "textColor": undefined,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "1",
+          "nodeType": "class",
+          "props": Object {
+            "child": Array [
+              Object {
+                "text": "Bullet2",
+              },
+            ],
+            "hierarchy": 0,
+            "icon": "bullet",
+            "iconColor": "#222222",
+            "size": "small",
+            "textColor": undefined,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "2",
+          "nodeType": "class",
+          "props": Object {
+            "child": Array [
+              Object {
+                "text": "Bullet3",
+              },
+            ],
+            "hierarchy": 0,
+            "icon": "bullet",
+            "iconColor": "#222222",
+            "size": "standard",
+            "textColor": "mid",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "3",
+          "nodeType": "class",
+          "props": Object {
+            "child": Array [
+              Object {
+                "text": "Bullet4",
+              },
+            ],
+            "hierarchy": 0,
+            "icon": "cross",
+            "iconColor": "#083cae",
+            "size": "standard",
+            "textColor": undefined,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "4",
+          "nodeType": "class",
+          "props": Object {
+            "child": Array [
+              Object {
+                "text": "Bullet4.1",
+              },
+            ],
+            "hierarchy": 1,
+            "icon": "bullet",
+            "iconColor": "#222222",
+            "size": "standard",
+            "textColor": undefined,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "5",
+          "nodeType": "class",
+          "props": Object {
+            "child": Array [
+              Object {
+                "text": "Bullet4.1.1",
+              },
+            ],
+            "hierarchy": 2,
+            "icon": "bullet",
+            "iconColor": "#222222",
+            "size": "standard",
+            "textColor": undefined,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "6",
+          "nodeType": "class",
+          "props": Object {
+            "child": Array [
+              Object {
+                "text": "This text is ",
+              },
+              Object {
+                "props": Object {
+                  "italic": true,
+                },
+                "text": "italic",
+              },
+              Object {
+                "text": " <-",
+              },
+            ],
+            "hierarchy": 0,
+            "icon": "bullet",
+            "iconColor": "#222222",
+            "size": "standard",
+            "textColor": undefined,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "7",
+          "nodeType": "class",
+          "props": Object {
+            "child": Array [
+              Object {
+                "text": "This text is ",
+              },
+              Object {
+                "props": Object {
+                  "bold": true,
+                },
+                "text": "bold",
+              },
+              Object {
+                "text": " <-",
+              },
+            ],
+            "hierarchy": 0,
+            "icon": "bullet",
+            "iconColor": "#222222",
+            "size": "standard",
+            "textColor": undefined,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "8",
+          "nodeType": "class",
+          "props": Object {
+            "child": Array [
+              Object {
+                "text": "This text is ",
+              },
+              Object {
+                "props": Object {
+                  "underlined": true,
+                },
+                "text": "underlined",
+              },
+              Object {
+                "text": " <-",
+              },
+            ],
+            "hierarchy": 0,
+            "icon": "bullet",
+            "iconColor": "#222222",
+            "size": "standard",
+            "textColor": undefined,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "9",
+          "nodeType": "class",
+          "props": Object {
+            "child": Array [
+              Object {
+                "text": "This text is ",
+              },
+              Object {
+                "props": Object {
+                  "crossed": true,
+                },
+                "text": "crossed",
+              },
+              Object {
+                "text": " <-",
+              },
+            ],
+            "hierarchy": 0,
+            "icon": "bullet",
+            "iconColor": "#222222",
+            "size": "standard",
+            "textColor": undefined,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "10",
+          "nodeType": "class",
+          "props": Object {
+            "child": Array [
+              Object {
+                "text": "This text is ",
+              },
+              Object {
+                "props": Object {
+                  "bold": true,
+                  "italic": true,
+                  "underlined": true,
+                },
+                "text": "italic bold underlined",
+              },
+              Object {
+                "text": " <-",
+              },
+            ],
+            "hierarchy": 0,
+            "icon": "bullet",
+            "iconColor": "#222222",
+            "size": "standard",
+            "textColor": undefined,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "11",
+          "nodeType": "class",
+          "props": Object {
+            "child": Array [
+              Object {
+                "text": "This text has a  ",
+              },
+              Object {
+                "link": Object {
+                  "href": "https://google.com",
+                  "linkStyle": Object {
+                    "color": "#0946CB",
+                    "textDecoration": "none",
+                  },
+                  "target": "_blank",
+                },
+                "text": "link",
+              },
+              Object {
+                "text": " <-",
+              },
+            ],
+            "hierarchy": 0,
+            "icon": "bullet",
+            "iconColor": "#222222",
+            "size": "standard",
+            "textColor": undefined,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "12",
+          "nodeType": "class",
+          "props": Object {
+            "child": Array [
+              Object {
+                "text": "This text has a  ",
+              },
+              Object {
+                "link": Object {
+                  "href": "https://google.com",
+                },
+                "text": "link",
+              },
+              Object {
+                "text": " <- and ",
+              },
+              Object {
+                "props": Object {
+                  "bold": true,
+                },
+                "text": "bold text",
+              },
+              Object {
+                "text": " <-",
+              },
+            ],
+            "hierarchy": 0,
+            "icon": "bullet",
+            "iconColor": "#222222",
+            "size": "standard",
+            "textColor": undefined,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": "ul",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
