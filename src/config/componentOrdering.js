@@ -32,7 +32,6 @@ module.exports = [
             'LayerApp',
             'Pager',
             'List',
-            'ListItem',
             'SlideDown',
             'SwitchGroup',
             'Pill',
