@@ -15,7 +15,7 @@ const htmlTextExample =
 <li>LI tag # 4 <em>EM tag text</em> <strong>STRONG tag text</strong></li>
 <li>LI tag # 5 <p>Text inside p</p></li>
 <li>LI tag # 6 <p>Text before BR<br> Text after BR</p> inside LI</li>
-<li>
+<li></li>
 <ul>
 <li></li>
 <li>LI tag # 9 hierarchy 3 inside another li tag</li>
