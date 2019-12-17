@@ -941,9 +941,10 @@ Object {
       "marginRight": 32,
       "marginTop": -32,
     },
-    "background": [Function],
     "backgroundColor": [Function],
+    "backgroundImage": [Function],
     "backgroundPosition": [Function],
+    "backgroundRepeat": "no-repeat",
     "backgroundSize": [Function],
     "borderRadius": Array [
       6,
@@ -964,9 +965,10 @@ Object {
       "marginRight": -32,
       "marginTop": -32,
     },
-    "background": [Function],
     "backgroundColor": [Function],
+    "backgroundImage": [Function],
     "backgroundPosition": [Function],
+    "backgroundRepeat": "no-repeat",
     "backgroundSize": [Function],
     "borderRadius": Array [
       6,
