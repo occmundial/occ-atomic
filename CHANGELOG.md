@@ -6,6 +6,9 @@ All notable changes to this project will be documented in this file.
 
 ## 1.13.x
 
+### 1.13.8
+- Fix in `Modal` images styles.
+
 ### 1.13.7
 - Changes in `Tip` themes.
 
