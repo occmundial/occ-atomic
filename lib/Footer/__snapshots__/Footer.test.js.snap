@@ -151,6 +151,7 @@ Object {
       "color": "#777777",
     },
     "color": "#777777",
+    "cursor": "pointer",
     "textDecoration": "none",
   },
   "listElement": Object {

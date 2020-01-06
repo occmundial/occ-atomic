@@ -1,6 +1,6 @@
 {
   "name": "@occmundial/occ-atomic",
-  "version": "1.13.9",
+  "version": "1.13.10",
   "description": "Collection of shareable styled React components for OCC applications.",
   "homepage": "http://occmundial.github.io/occ-atomic",
   "main": "build/index.js",
@@ -28,7 +28,7 @@
     "type": "git",
     "url": "https://github.com/occmundial/occ-atomic"
   },
-  "author": "Luis Díaz",
+  "author": "OCCMundial",
   "license": "ISC",
   "devDependencies": {
     "@babel/cli": "^7.4.4",

@@ -35,7 +35,8 @@ const columns = [
 const bottomLinks = [
 	{ href: '#Footer', key: '1', text: 'Link 10' },
 	{ href: '#Footer', key: '2', text: 'Link 11' },
-	{ href: '#Footer', key: '3', text: 'Link 12' }
+	{ href: '#Footer', key: '3', text: 'Link 12' },
+	{ onClick: () => console.log('This one calls a function'), key: '4', text: 'Link 13' }
 ];
 
 const copy = `OCC-Atomic © ${new Date().getFullYear()} Copyright stuff`;
