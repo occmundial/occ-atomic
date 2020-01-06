@@ -68,7 +68,7 @@ ShallowWrapper {
               display="flex"
             >
               <Jss(Flexbox)
-                flex="1"
+                flex={null}
               >
                 <Jss(Flexbox)
                   alignItems="start"
@@ -124,7 +124,7 @@ ShallowWrapper {
               display="flex"
             >
               <Jss(Flexbox)
-                flex="1"
+                flex={null}
               >
                 <Jss(Flexbox)
                   alignItems="start"
@@ -173,7 +173,7 @@ ShallowWrapper {
               display="flex"
             >
               <Jss(Flexbox)
-                flex="1"
+                flex={null}
               >
                 <Jss(Flexbox)
                   alignItems="start"
@@ -218,7 +218,7 @@ ShallowWrapper {
               display="flex"
             >
               <Jss(Flexbox)
-                flex="1"
+                flex={null}
               >
                 <Jss(Flexbox)
                   alignItems="start"
@@ -260,7 +260,7 @@ ShallowWrapper {
               "children": Array [
                 undefined,
                 <Jss(Flexbox)
-                  flex="1"
+                  flex={null}
                 >
                   <Jss(Flexbox)
                     alignItems="start"
@@ -330,7 +330,7 @@ ShallowWrapper {
                     />,
                     undefined,
                   ],
-                  "flex": "1",
+                  "flex": null,
                 },
                 "ref": null,
                 "rendered": Array [
@@ -458,7 +458,7 @@ ShallowWrapper {
                 display="flex"
               >
                 <Jss(Flexbox)
-                  flex="1"
+                  flex={null}
                 >
                   <Jss(Flexbox)
                     alignItems="start"
@@ -514,7 +514,7 @@ ShallowWrapper {
                 display="flex"
               >
                 <Jss(Flexbox)
-                  flex="1"
+                  flex={null}
                 >
                   <Jss(Flexbox)
                     alignItems="start"
@@ -563,7 +563,7 @@ ShallowWrapper {
                 display="flex"
               >
                 <Jss(Flexbox)
-                  flex="1"
+                  flex={null}
                 >
                   <Jss(Flexbox)
                     alignItems="start"
@@ -608,7 +608,7 @@ ShallowWrapper {
                 display="flex"
               >
                 <Jss(Flexbox)
-                  flex="1"
+                  flex={null}
                 >
                   <Jss(Flexbox)
                     alignItems="start"
@@ -650,7 +650,7 @@ ShallowWrapper {
                 "children": Array [
                   undefined,
                   <Jss(Flexbox)
-                    flex="1"
+                    flex={null}
                   >
                     <Jss(Flexbox)
                       alignItems="start"
@@ -720,7 +720,7 @@ ShallowWrapper {
                       />,
                       undefined,
                     ],
-                    "flex": "1",
+                    "flex": null,
                   },
                   "ref": null,
                   "rendered": Array [
@@ -877,6 +877,11 @@ Object {
     "textAlign": "right",
   },
   "card": Object {
+    "@media screen and (max-width:575px)": Object {
+      "borderRadius": [Function],
+      "minHeight": [Function],
+      "padding": [Function],
+    },
     "@media screen and (min-width:768px)": Object {
       "padding": 32,
     },
@@ -886,6 +891,9 @@ Object {
     "transition": "0.3s opacity, 0.3s margin-top",
   },
   "cardBlock": Object {
+    "@media screen and (max-width:575px)": Object {
+      "margin": [Function],
+    },
     "margin": 12,
   },
   "cardHide": Object {
