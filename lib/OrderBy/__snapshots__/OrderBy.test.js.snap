@@ -10,11 +10,13 @@ ShallowWrapper {
         "card": "card",
         "cardWrap": "cardWrap",
         "icon": "icon",
+        "link": "link",
         "option": "option",
         "show": "show",
         "wrap": "wrap",
       }
     }
+    iconName="arrowDown"
     options={
       Array [
         Object {
@@ -81,6 +83,7 @@ ShallowWrapper {
               onClick={[Function]}
             >
               <Jss(Text)
+                className=""
                 tag="p"
                 value={1}
               >
@@ -92,6 +95,7 @@ ShallowWrapper {
               onClick={[Function]}
             >
               <Jss(Text)
+                className=""
                 tag="p"
                 value={2}
               >
@@ -223,6 +227,7 @@ ShallowWrapper {
               onClick={[Function]}
             >
               <Jss(Text)
+                className=""
                 tag="p"
                 value={1}
               >
@@ -234,6 +239,7 @@ ShallowWrapper {
               onClick={[Function]}
             >
               <Jss(Text)
+                className=""
                 tag="p"
                 value={2}
               >
@@ -256,6 +262,7 @@ ShallowWrapper {
                 onClick={[Function]}
               >
                 <Jss(Text)
+                  className=""
                   tag="p"
                   value={1}
                 >
@@ -267,6 +274,7 @@ ShallowWrapper {
                 onClick={[Function]}
               >
                 <Jss(Text)
+                  className=""
                   tag="p"
                   value={2}
                 >
@@ -284,6 +292,7 @@ ShallowWrapper {
               "nodeType": "host",
               "props": Object {
                 "children": <Jss(Text)
+                  className=""
                   tag="p"
                   value={1}
                 >
@@ -299,6 +308,7 @@ ShallowWrapper {
                 "nodeType": "class",
                 "props": Object {
                   "children": "Option 1",
+                  "className": "",
                   "tag": "p",
                   "value": 1,
                 },
@@ -314,6 +324,7 @@ ShallowWrapper {
               "nodeType": "host",
               "props": Object {
                 "children": <Jss(Text)
+                  className=""
                   tag="p"
                   value={2}
                 >
@@ -329,6 +340,7 @@ ShallowWrapper {
                 "nodeType": "class",
                 "props": Object {
                   "children": "Option 2",
+                  "className": "",
                   "tag": "p",
                   "value": 2,
                 },
@@ -392,6 +404,7 @@ ShallowWrapper {
                 onClick={[Function]}
               >
                 <Jss(Text)
+                  className=""
                   tag="p"
                   value={1}
                 >
@@ -403,6 +416,7 @@ ShallowWrapper {
                 onClick={[Function]}
               >
                 <Jss(Text)
+                  className=""
                   tag="p"
                   value={2}
                 >
@@ -534,6 +548,7 @@ ShallowWrapper {
                 onClick={[Function]}
               >
                 <Jss(Text)
+                  className=""
                   tag="p"
                   value={1}
                 >
@@ -545,6 +560,7 @@ ShallowWrapper {
                 onClick={[Function]}
               >
                 <Jss(Text)
+                  className=""
                   tag="p"
                   value={2}
                 >
@@ -567,6 +583,7 @@ ShallowWrapper {
                   onClick={[Function]}
                 >
                   <Jss(Text)
+                    className=""
                     tag="p"
                     value={1}
                   >
@@ -578,6 +595,7 @@ ShallowWrapper {
                   onClick={[Function]}
                 >
                   <Jss(Text)
+                    className=""
                     tag="p"
                     value={2}
                   >
@@ -595,6 +613,7 @@ ShallowWrapper {
                 "nodeType": "host",
                 "props": Object {
                   "children": <Jss(Text)
+                    className=""
                     tag="p"
                     value={1}
                   >
@@ -610,6 +629,7 @@ ShallowWrapper {
                   "nodeType": "class",
                   "props": Object {
                     "children": "Option 1",
+                    "className": "",
                     "tag": "p",
                     "value": 1,
                   },
@@ -625,6 +645,7 @@ ShallowWrapper {
                 "nodeType": "host",
                 "props": Object {
                   "children": <Jss(Text)
+                    className=""
                     tag="p"
                     value={2}
                   >
@@ -640,6 +661,7 @@ ShallowWrapper {
                   "nodeType": "class",
                   "props": Object {
                     "children": "Option 2",
+                    "className": "",
                     "tag": "p",
                     "value": 2,
                   },
@@ -684,7 +706,10 @@ Object {
     "cursor": "pointer",
   },
   "card": Object {
-    "padding": "8px 16px",
+    "@media screen and (min-width:768px)": Object {
+      "padding": 24,
+    },
+    "padding": 16,
   },
   "cardWrap": Object {
     "marginTop": -16,
@@ -694,12 +719,21 @@ Object {
     "right": 0,
     "top": "100%",
     "transition": "0.3s all",
+    "zIndex": 1,
   },
   "icon": Object {
+    "height": 14,
     "marginLeft": 4,
-    "marginTop": 1,
+    "marginTop": 2,
+    "width": 14,
+  },
+  "link": Object {
+    "color": "#0946CB",
   },
   "option": Object {
+    "&:not(:last-child)": Object {
+      "paddingBottom": 8,
+    },
     "cursor": "pointer",
     "whiteSpace": "nowrap",
   },
@@ -719,6 +753,7 @@ exports[`OrderByJSS matches the snapshot 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <Jss(OrderBy)
+    iconName="arrowDown"
     options={
       Array [
         Object {
@@ -750,10 +785,12 @@ ShallowWrapper {
         "card": "OrderBy-card-0-1-90",
         "cardWrap": "OrderBy-cardWrap-0-1-89",
         "icon": "OrderBy-icon-0-1-88",
+        "link": "OrderBy-link-0-1-93",
         "option": "OrderBy-option-0-1-92",
         "show": "OrderBy-show-0-1-91",
         "wrap": "OrderBy-wrap-0-1-86",
       },
+      "iconName": "arrowDown",
       "options": Array [
         Object {
           "text": "Option 1",
@@ -780,10 +817,12 @@ ShallowWrapper {
           "card": "OrderBy-card-0-1-90",
           "cardWrap": "OrderBy-cardWrap-0-1-89",
           "icon": "OrderBy-icon-0-1-88",
+          "link": "OrderBy-link-0-1-93",
           "option": "OrderBy-option-0-1-92",
           "show": "OrderBy-show-0-1-91",
           "wrap": "OrderBy-wrap-0-1-86",
         },
+        "iconName": "arrowDown",
         "options": Array [
           Object {
             "text": "Option 1",
