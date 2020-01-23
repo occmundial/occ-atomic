@@ -1211,9 +1211,9 @@ Object {
   },
   "onFocus": Object {
     "&:hover": Object {
-      "background": "#e6ecf7",
+      "background": "#ccd7f1",
     },
-    "background": "#e6ecf7",
+    "background": "#ccd7f1",
   },
   "right": Object {
     "float": "right",

@@ -6,6 +6,10 @@ All notable changes to this project will be documented in this file.
 
 ## 1.13.x
 
+### 1.13.11
+- Changes in colors.
+- Changes in `OrderBy` props.
+
 ### 1.13.10
 - The `bottomLinks` array for `Footer` accepts the `onClick` property.
 
