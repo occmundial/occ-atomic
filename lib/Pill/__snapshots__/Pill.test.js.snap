@@ -60,7 +60,9 @@ ShallowWrapper {
             disabled={undefined}
             id={1}
             idPrefix={undefined}
+            leftIcon={undefined}
             onClick={[Function]}
+            rightIcon={undefined}
             selected={undefined}
           >
             foo
@@ -69,7 +71,9 @@ ShallowWrapper {
             disabled={undefined}
             id={2}
             idPrefix={undefined}
+            leftIcon={undefined}
             onClick={[Function]}
+            rightIcon={undefined}
             selected={undefined}
           >
             bar
@@ -78,7 +82,9 @@ ShallowWrapper {
             disabled={undefined}
             id={3}
             idPrefix={undefined}
+            leftIcon={undefined}
             onClick={[Function]}
+            rightIcon={undefined}
             selected={undefined}
           >
             baz
@@ -87,7 +93,9 @@ ShallowWrapper {
             disabled={undefined}
             id={4}
             idPrefix={undefined}
+            leftIcon={undefined}
             onClick={[Function]}
+            rightIcon={undefined}
             selected={undefined}
           >
             qux
@@ -112,7 +120,9 @@ ShallowWrapper {
               disabled={undefined}
               id={1}
               idPrefix={undefined}
+              leftIcon={undefined}
               onClick={[Function]}
+              rightIcon={undefined}
               selected={undefined}
             >
               foo
@@ -121,7 +131,9 @@ ShallowWrapper {
               disabled={undefined}
               id={2}
               idPrefix={undefined}
+              leftIcon={undefined}
               onClick={[Function]}
+              rightIcon={undefined}
               selected={undefined}
             >
               bar
@@ -130,7 +142,9 @@ ShallowWrapper {
               disabled={undefined}
               id={3}
               idPrefix={undefined}
+              leftIcon={undefined}
               onClick={[Function]}
+              rightIcon={undefined}
               selected={undefined}
             >
               baz
@@ -139,7 +153,9 @@ ShallowWrapper {
               disabled={undefined}
               id={4}
               idPrefix={undefined}
+              leftIcon={undefined}
               onClick={[Function]}
+              rightIcon={undefined}
               selected={undefined}
             >
               qux
@@ -158,7 +174,9 @@ ShallowWrapper {
               "disabled": undefined,
               "id": 1,
               "idPrefix": undefined,
+              "leftIcon": undefined,
               "onClick": [Function],
+              "rightIcon": undefined,
               "selected": undefined,
             },
             "ref": null,
@@ -174,7 +192,9 @@ ShallowWrapper {
               "disabled": undefined,
               "id": 2,
               "idPrefix": undefined,
+              "leftIcon": undefined,
               "onClick": [Function],
+              "rightIcon": undefined,
               "selected": undefined,
             },
             "ref": null,
@@ -190,7 +210,9 @@ ShallowWrapper {
               "disabled": undefined,
               "id": 3,
               "idPrefix": undefined,
+              "leftIcon": undefined,
               "onClick": [Function],
+              "rightIcon": undefined,
               "selected": undefined,
             },
             "ref": null,
@@ -206,7 +228,9 @@ ShallowWrapper {
               "disabled": undefined,
               "id": 4,
               "idPrefix": undefined,
+              "leftIcon": undefined,
               "onClick": [Function],
+              "rightIcon": undefined,
               "selected": undefined,
             },
             "ref": null,
@@ -235,7 +259,9 @@ ShallowWrapper {
               disabled={undefined}
               id={1}
               idPrefix={undefined}
+              leftIcon={undefined}
               onClick={[Function]}
+              rightIcon={undefined}
               selected={undefined}
             >
               foo
@@ -244,7 +270,9 @@ ShallowWrapper {
               disabled={undefined}
               id={2}
               idPrefix={undefined}
+              leftIcon={undefined}
               onClick={[Function]}
+              rightIcon={undefined}
               selected={undefined}
             >
               bar
@@ -253,7 +281,9 @@ ShallowWrapper {
               disabled={undefined}
               id={3}
               idPrefix={undefined}
+              leftIcon={undefined}
               onClick={[Function]}
+              rightIcon={undefined}
               selected={undefined}
             >
               baz
@@ -262,7 +292,9 @@ ShallowWrapper {
               disabled={undefined}
               id={4}
               idPrefix={undefined}
+              leftIcon={undefined}
               onClick={[Function]}
+              rightIcon={undefined}
               selected={undefined}
             >
               qux
@@ -287,7 +319,9 @@ ShallowWrapper {
                 disabled={undefined}
                 id={1}
                 idPrefix={undefined}
+                leftIcon={undefined}
                 onClick={[Function]}
+                rightIcon={undefined}
                 selected={undefined}
               >
                 foo
@@ -296,7 +330,9 @@ ShallowWrapper {
                 disabled={undefined}
                 id={2}
                 idPrefix={undefined}
+                leftIcon={undefined}
                 onClick={[Function]}
+                rightIcon={undefined}
                 selected={undefined}
               >
                 bar
@@ -305,7 +341,9 @@ ShallowWrapper {
                 disabled={undefined}
                 id={3}
                 idPrefix={undefined}
+                leftIcon={undefined}
                 onClick={[Function]}
+                rightIcon={undefined}
                 selected={undefined}
               >
                 baz
@@ -314,7 +352,9 @@ ShallowWrapper {
                 disabled={undefined}
                 id={4}
                 idPrefix={undefined}
+                leftIcon={undefined}
                 onClick={[Function]}
+                rightIcon={undefined}
                 selected={undefined}
               >
                 qux
@@ -333,7 +373,9 @@ ShallowWrapper {
                 "disabled": undefined,
                 "id": 1,
                 "idPrefix": undefined,
+                "leftIcon": undefined,
                 "onClick": [Function],
+                "rightIcon": undefined,
                 "selected": undefined,
               },
               "ref": null,
@@ -349,7 +391,9 @@ ShallowWrapper {
                 "disabled": undefined,
                 "id": 2,
                 "idPrefix": undefined,
+                "leftIcon": undefined,
                 "onClick": [Function],
+                "rightIcon": undefined,
                 "selected": undefined,
               },
               "ref": null,
@@ -365,7 +409,9 @@ ShallowWrapper {
                 "disabled": undefined,
                 "id": 3,
                 "idPrefix": undefined,
+                "leftIcon": undefined,
                 "onClick": [Function],
+                "rightIcon": undefined,
                 "selected": undefined,
               },
               "ref": null,
@@ -381,7 +427,9 @@ ShallowWrapper {
                 "disabled": undefined,
                 "id": 4,
                 "idPrefix": undefined,
+                "leftIcon": undefined,
                 "onClick": [Function],
+                "rightIcon": undefined,
                 "selected": undefined,
               },
               "ref": null,
@@ -1140,15 +1188,15 @@ ShallowWrapper {
     "nodeType": "class",
     "props": Object {
       "classes": Object {
-        "assistiveText": "Pill-assistiveText-0-1-19",
-        "bottom": "Pill-bottom-0-1-18",
-        "container": "Pill-container-0-1-13",
-        "disabled": "Pill-disabled-0-1-17",
-        "errorAssistiveText": "Pill-errorAssistiveText-0-1-20",
-        "errorIcon": "Pill-errorIcon-0-1-21",
-        "label": "Pill-label-0-1-15",
-        "left": "Pill-left-0-1-16",
-        "top": "Pill-top-0-1-14",
+        "assistiveText": "Pill-assistiveText-0-1-69",
+        "bottom": "Pill-bottom-0-1-68",
+        "container": "Pill-container-0-1-63",
+        "disabled": "Pill-disabled-0-1-67",
+        "errorAssistiveText": "Pill-errorAssistiveText-0-1-70",
+        "errorIcon": "Pill-errorIcon-0-1-71",
+        "label": "Pill-label-0-1-65",
+        "left": "Pill-left-0-1-66",
+        "top": "Pill-top-0-1-64",
       },
       "group": Array [
         Object {
@@ -1180,15 +1228,15 @@ ShallowWrapper {
       "nodeType": "class",
       "props": Object {
         "classes": Object {
-          "assistiveText": "Pill-assistiveText-0-1-19",
-          "bottom": "Pill-bottom-0-1-18",
-          "container": "Pill-container-0-1-13",
-          "disabled": "Pill-disabled-0-1-17",
-          "errorAssistiveText": "Pill-errorAssistiveText-0-1-20",
-          "errorIcon": "Pill-errorIcon-0-1-21",
-          "label": "Pill-label-0-1-15",
-          "left": "Pill-left-0-1-16",
-          "top": "Pill-top-0-1-14",
+          "assistiveText": "Pill-assistiveText-0-1-69",
+          "bottom": "Pill-bottom-0-1-68",
+          "container": "Pill-container-0-1-63",
+          "disabled": "Pill-disabled-0-1-67",
+          "errorAssistiveText": "Pill-errorAssistiveText-0-1-70",
+          "errorIcon": "Pill-errorIcon-0-1-71",
+          "label": "Pill-label-0-1-65",
+          "left": "Pill-left-0-1-66",
+          "top": "Pill-top-0-1-64",
         },
         "group": Array [
           Object {
