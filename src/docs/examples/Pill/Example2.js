@@ -32,6 +32,13 @@ export default class Example2 extends React.Component {
                     value:40,
                     label:'Element 4',
                     rightIcon: 'plus'
+                },
+                {
+                    id:5,
+                    value:50,
+                    label:'Element 5',
+                    leftIcon: 'back',
+                    rightIcon: 'forward'
                 }
             ]
         };
