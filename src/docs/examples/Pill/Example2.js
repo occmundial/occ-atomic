@@ -17,18 +17,21 @@ export default class Example2 extends React.Component {
                     id:2,
                     value:20,
                     label:'Element 2',
-                    selected: true
+                    selected: true,
+                    leftIcon: 'check'
                 },
                 {
                     id:3,
                     value:30,
                     label:'Element 3',
-                    disabled: true
+                    disabled: true,
+                    leftIcon: 'cross'
                 },
                 {
                     id:4,
                     value:40,
-                    label:'Element 4'
+                    label:'Element 4',
+                    rightIcon: 'plus'
                 }
             ]
         };
