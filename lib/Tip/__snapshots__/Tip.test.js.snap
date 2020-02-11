@@ -224,10 +224,7 @@ exports[`Tip styles matches the snapshot 1`] = `
 Object {
   "container": Object {
     "borderRadius": 6,
-    "padding": Array [
-      8,
-      16,
-    ],
+    "padding": 16,
   },
   "error": Object {
     "backgroundColor": "rgba(219, 55, 55, 0.1)",
