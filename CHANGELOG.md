@@ -6,6 +6,9 @@ All notable changes to this project will be documented in this file.
 
 ## 1.13.x
 
+### 1.13.14
+- Changes in the styles of `Tip`.
+
 ### 1.13.13
 - New `leftIcon` and `rightIcon` props for `choice` Pills.
 - Changes in `Pill` styles.
