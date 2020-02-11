@@ -182,7 +182,7 @@ Object {
     "boxSizing": "border-box",
     "cursor": "pointer",
     "display": "inline-block",
-    "fontFamily": "'Open Sans', sans-serif",
+    "fontFamily": "'hk_grotesk', sans-serif",
     "fontSize": 12,
     "fontWeight": 600,
     "height": 32,

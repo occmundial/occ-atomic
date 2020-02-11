@@ -217,7 +217,7 @@ Object {
     "color": "#009537",
   },
   "text": Object {
-    "fontFamily": "'Open Sans', sans-serif",
+    "fontFamily": "'hk_grotesk', sans-serif",
     "fontStyle": "normal",
     "fontWeight": 400,
     "letterSpacing": 0,

@@ -186,7 +186,7 @@ Object {
     "color": "#727272",
     "flex": "1",
     "float": "left",
-    "fontFamily": "'Open Sans', sans-serif",
+    "fontFamily": "'hk_grotesk', sans-serif",
     "fontSize": "14px",
     "paddingLeft": "5px",
     "paddingRight": "10px",

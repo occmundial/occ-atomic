@@ -586,7 +586,7 @@ Object {
     "borderRadius": "5px",
     "cursor": "pointer",
     "display": "inline-block",
-    "fontFamily": "'Open Sans', sans-serif",
+    "fontFamily": "'hk_grotesk', sans-serif",
     "outline": "0",
     "padding": "3px 13px",
     "transition": "0.3s all",
@@ -603,7 +603,7 @@ Object {
   },
   "pager": Object {
     "color": "#727272",
-    "fontFamily": "'Open Sans', sans-serif",
+    "fontFamily": "'hk_grotesk', sans-serif",
     "fontSize": "13px",
     "listStyle": "none",
     "paddingLeft": "0",

@@ -168,7 +168,7 @@ Object {
   "capital": Object {
     "background": "#dae1e5",
     "color": "#afb8c0",
-    "fontFamily": "'Open Sans', sans-serif",
+    "fontFamily": "'hk_grotesk', sans-serif",
     "fontSize": 28,
     "fontWeight": "600",
     "lineHeight": "70px",
