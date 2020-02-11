@@ -4,6 +4,11 @@ All notable changes to this project will be documented in this file.
 
 # Version 1
 
+## 1.14.x
+
+### 1.14.0-beta.0
+- Change of the font-family in all the components.
+
 ## 1.13.x
 
 ### 1.13.14
