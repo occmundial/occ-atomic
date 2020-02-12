@@ -16,6 +16,9 @@ export default function Example1() {
             <div style={{background:colors.prim, marginTop:'15px', padding:'10px', display:'inline-block'}}>
                 <Button theme="ghostWhite">Ghost White</Button>
             </div>
+            <div style={{background:colors.prim, marginTop:'15px', marginLeft:'15px', padding:'10px', display:'inline-block'}}>
+            <Button theme="alphaWhite"> alpha White</Button>
+            </div>
         </div>
     );
 }
