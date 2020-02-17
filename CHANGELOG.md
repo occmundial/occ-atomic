@@ -6,6 +6,9 @@ All notable changes to this project will be documented in this file.
 
 ## 1.13.x
 
+### 1.13.15
+- New prop `theme` for `SlideDown`.
+
 ### 1.13.14
 - Changes in the styles of `Tip`.
 
