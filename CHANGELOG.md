@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+# Version 2
+
+## 2.0.x
+
+### 2.0.0-beta.0
+- Removed all the deprecated components.
+
 # Version 1
 
 ## 1.13.x
