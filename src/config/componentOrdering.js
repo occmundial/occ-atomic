@@ -4,21 +4,14 @@ module.exports = [
         components: [
             'Avatar',
             'Button',
-            'ButtonAlign',
             'Card',
-            'Check',
             'Checkbox',
             'Icon',
-            'Label',
             'OrderBy',
             'Radio',
-            'RangeCounter',
-            'SightLogo',
             'SlideToggle',
             'Tag',
-            'Text',
-            'Title',
-            'TourTip'
+            'Text'
         ]
     },
     {
@@ -26,13 +19,9 @@ module.exports = [
         components: [
             'Droplist',
             'TextField',
-            'Input',
             'Autocomplete',
-            'SubHeader',
-            'LayerApp',
             'Pager',
             'SlideDown',
-            'SwitchGroup',
             'Pill',
             'Modal',
             'Placeholder',
@@ -41,31 +30,16 @@ module.exports = [
         ]
     },
     {
-        name: 'Organisms',
-        components: [
-            'Footer',
-            'Header'
-        ]
-    },
-    {
-        name: 'Header',
-        components: [
-            'NavItem',
-            'NavIcon',
-            'NavTab',
-            'NavAside'
-        ]
-    },
-    {
         name: 'Layout',
         components: [
             'Grid',
-            'Container',
-            'Row',
-            'Column',
             'Flexbox',
             'Hidden',
-            'Visible'
+            'NavItem',
+            'NavIcon',
+            'NavTab',
+            'NavAside',
+            'Footer'
         ]
     }
 ];
