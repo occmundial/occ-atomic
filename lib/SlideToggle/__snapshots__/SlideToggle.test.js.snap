@@ -194,7 +194,9 @@ ShallowWrapper {
         },
       },
     },
+    Symbol(enzyme.__providerValues__): undefined,
   },
+  Symbol(enzyme.__providerValues__): Map {},
 }
 `;
 
@@ -258,7 +260,7 @@ Object {
 exports[`SlideToggleJSS matches the snapshot 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <Jss(SlideToggle) />,
+  Symbol(enzyme.__unrendered__): <UNDEFINED />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
@@ -270,41 +272,71 @@ ShallowWrapper {
   Symbol(enzyme.__node__): Object {
     "instance": null,
     "key": undefined,
-    "nodeType": "class",
+    "nodeType": "function",
     "props": Object {
-      "classes": Object {
-        "checked": "SlideToggle-checked-0-1-42",
-        "cont": "SlideToggle-cont-0-1-40",
-        "disabled": "SlideToggle-disabled-0-1-45",
-        "icon": "SlideToggle-icon-0-1-44",
-        "label": "SlideToggle-label-0-1-46",
-        "slider": "SlideToggle-slider-0-1-43",
-        "switch": "SlideToggle-switch-0-1-41",
-      },
+      "children": [Function],
     },
     "ref": null,
-    "rendered": null,
-    "type": [Function],
+    "rendered": [Function],
+    "type": Object {
+      "$$typeof": Symbol(react.context),
+      "_calculateChangedBits": null,
+      "_context": Object {
+        "$$typeof": Symbol(react.context),
+        "Consumer": [Circular],
+        "Provider": Object {
+          "$$typeof": Symbol(react.provider),
+          "_context": [Circular],
+        },
+        "_calculateChangedBits": null,
+        "_currentRenderer": null,
+        "_currentRenderer2": null,
+        "_currentValue": Object {
+          "classNamePrefix": "",
+          "disableStylesGeneration": false,
+        },
+        "_currentValue2": Object {
+          "classNamePrefix": "",
+          "disableStylesGeneration": false,
+        },
+        "_threadCount": 0,
+      },
+    },
   },
   Symbol(enzyme.__nodes__): Array [
     Object {
       "instance": null,
       "key": undefined,
-      "nodeType": "class",
+      "nodeType": "function",
       "props": Object {
-        "classes": Object {
-          "checked": "SlideToggle-checked-0-1-42",
-          "cont": "SlideToggle-cont-0-1-40",
-          "disabled": "SlideToggle-disabled-0-1-45",
-          "icon": "SlideToggle-icon-0-1-44",
-          "label": "SlideToggle-label-0-1-46",
-          "slider": "SlideToggle-slider-0-1-43",
-          "switch": "SlideToggle-switch-0-1-41",
-        },
+        "children": [Function],
       },
       "ref": null,
-      "rendered": null,
-      "type": [Function],
+      "rendered": [Function],
+      "type": Object {
+        "$$typeof": Symbol(react.context),
+        "_calculateChangedBits": null,
+        "_context": Object {
+          "$$typeof": Symbol(react.context),
+          "Consumer": [Circular],
+          "Provider": Object {
+            "$$typeof": Symbol(react.provider),
+            "_context": [Circular],
+          },
+          "_calculateChangedBits": null,
+          "_currentRenderer": null,
+          "_currentRenderer2": null,
+          "_currentValue": Object {
+            "classNamePrefix": "",
+            "disableStylesGeneration": false,
+          },
+          "_currentValue2": Object {
+            "classNamePrefix": "",
+            "disableStylesGeneration": false,
+          },
+          "_threadCount": 0,
+        },
+      },
     },
   ],
   Symbol(enzyme.__options__): Object {
@@ -323,6 +355,8 @@ ShallowWrapper {
         },
       },
     },
+    Symbol(enzyme.__providerValues__): undefined,
   },
+  Symbol(enzyme.__providerValues__): Map {},
 }
 `;

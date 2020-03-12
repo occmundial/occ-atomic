@@ -56,12 +56,12 @@ ShallowWrapper {
             className="radio"
             id={undefined}
           />
-          <Jss(Text)
+          <UNDEFINED
             className="label"
             tag="label"
           >
             Option 1
-          </Jss(Text)>
+          </UNDEFINED>
         </div>,
         <div
           className="cont"
@@ -73,12 +73,12 @@ ShallowWrapper {
             className="radio"
             id={undefined}
           />
-          <Jss(Text)
+          <UNDEFINED
             className="label"
             tag="label"
           >
             Option 2
-          </Jss(Text)>
+          </UNDEFINED>
         </div>,
         <div
           className="cont"
@@ -90,12 +90,12 @@ ShallowWrapper {
             className="radio"
             id={undefined}
           />
-          <Jss(Text)
+          <UNDEFINED
             className="label"
             tag="label"
           >
             Option 3
-          </Jss(Text)>
+          </UNDEFINED>
         </div>,
       ],
       "id": undefined,
@@ -112,12 +112,12 @@ ShallowWrapper {
               className="radio"
               id={undefined}
             />,
-            <Jss(Text)
+            <UNDEFINED
               className="label"
               tag="label"
             >
               Option 1
-            </Jss(Text)>,
+            </UNDEFINED>,
             undefined,
           ],
           "className": "cont",
@@ -142,7 +142,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "children": "Option 1",
               "className": "label",
@@ -150,7 +150,13 @@ ShallowWrapper {
             },
             "ref": null,
             "rendered": "Option 1",
-            "type": [Function],
+            "type": Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "InnerComponent": [Function],
+              "displayName": "JssContextSubscriber(Text)",
+              "render": [Function],
+              Symbol(Symbol.hasInstance): [Function],
+            },
           },
           undefined,
         ],
@@ -166,12 +172,12 @@ ShallowWrapper {
               className="radio"
               id={undefined}
             />,
-            <Jss(Text)
+            <UNDEFINED
               className="label"
               tag="label"
             >
               Option 2
-            </Jss(Text)>,
+            </UNDEFINED>,
             undefined,
           ],
           "className": "cont",
@@ -196,7 +202,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "children": "Option 2",
               "className": "label",
@@ -204,7 +210,13 @@ ShallowWrapper {
             },
             "ref": null,
             "rendered": "Option 2",
-            "type": [Function],
+            "type": Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "InnerComponent": [Function],
+              "displayName": "JssContextSubscriber(Text)",
+              "render": [Function],
+              Symbol(Symbol.hasInstance): [Function],
+            },
           },
           undefined,
         ],
@@ -220,12 +232,12 @@ ShallowWrapper {
               className="radio"
               id={undefined}
             />,
-            <Jss(Text)
+            <UNDEFINED
               className="label"
               tag="label"
             >
               Option 3
-            </Jss(Text)>,
+            </UNDEFINED>,
             undefined,
           ],
           "className": "cont",
@@ -250,7 +262,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "children": "Option 3",
               "className": "label",
@@ -258,7 +270,13 @@ ShallowWrapper {
             },
             "ref": null,
             "rendered": "Option 3",
-            "type": [Function],
+            "type": Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "InnerComponent": [Function],
+              "displayName": "JssContextSubscriber(Text)",
+              "render": [Function],
+              Symbol(Symbol.hasInstance): [Function],
+            },
           },
           undefined,
         ],
@@ -284,12 +302,12 @@ ShallowWrapper {
               className="radio"
               id={undefined}
             />
-            <Jss(Text)
+            <UNDEFINED
               className="label"
               tag="label"
             >
               Option 1
-            </Jss(Text)>
+            </UNDEFINED>
           </div>,
           <div
             className="cont"
@@ -301,12 +319,12 @@ ShallowWrapper {
               className="radio"
               id={undefined}
             />
-            <Jss(Text)
+            <UNDEFINED
               className="label"
               tag="label"
             >
               Option 2
-            </Jss(Text)>
+            </UNDEFINED>
           </div>,
           <div
             className="cont"
@@ -318,12 +336,12 @@ ShallowWrapper {
               className="radio"
               id={undefined}
             />
-            <Jss(Text)
+            <UNDEFINED
               className="label"
               tag="label"
             >
               Option 3
-            </Jss(Text)>
+            </UNDEFINED>
           </div>,
         ],
         "id": undefined,
@@ -340,12 +358,12 @@ ShallowWrapper {
                 className="radio"
                 id={undefined}
               />,
-              <Jss(Text)
+              <UNDEFINED
                 className="label"
                 tag="label"
               >
                 Option 1
-              </Jss(Text)>,
+              </UNDEFINED>,
               undefined,
             ],
             "className": "cont",
@@ -370,7 +388,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
                 "children": "Option 1",
                 "className": "label",
@@ -378,7 +396,13 @@ ShallowWrapper {
               },
               "ref": null,
               "rendered": "Option 1",
-              "type": [Function],
+              "type": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "InnerComponent": [Function],
+                "displayName": "JssContextSubscriber(Text)",
+                "render": [Function],
+                Symbol(Symbol.hasInstance): [Function],
+              },
             },
             undefined,
           ],
@@ -394,12 +418,12 @@ ShallowWrapper {
                 className="radio"
                 id={undefined}
               />,
-              <Jss(Text)
+              <UNDEFINED
                 className="label"
                 tag="label"
               >
                 Option 2
-              </Jss(Text)>,
+              </UNDEFINED>,
               undefined,
             ],
             "className": "cont",
@@ -424,7 +448,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
                 "children": "Option 2",
                 "className": "label",
@@ -432,7 +456,13 @@ ShallowWrapper {
               },
               "ref": null,
               "rendered": "Option 2",
-              "type": [Function],
+              "type": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "InnerComponent": [Function],
+                "displayName": "JssContextSubscriber(Text)",
+                "render": [Function],
+                Symbol(Symbol.hasInstance): [Function],
+              },
             },
             undefined,
           ],
@@ -448,12 +478,12 @@ ShallowWrapper {
                 className="radio"
                 id={undefined}
               />,
-              <Jss(Text)
+              <UNDEFINED
                 className="label"
                 tag="label"
               >
                 Option 3
-              </Jss(Text)>,
+              </UNDEFINED>,
               undefined,
             ],
             "className": "cont",
@@ -478,7 +508,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
                 "children": "Option 3",
                 "className": "label",
@@ -486,7 +516,13 @@ ShallowWrapper {
               },
               "ref": null,
               "rendered": "Option 3",
-              "type": [Function],
+              "type": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "InnerComponent": [Function],
+                "displayName": "JssContextSubscriber(Text)",
+                "render": [Function],
+                Symbol(Symbol.hasInstance): [Function],
+              },
             },
             undefined,
           ],
@@ -512,7 +548,9 @@ ShallowWrapper {
         },
       },
     },
+    Symbol(enzyme.__providerValues__): undefined,
   },
+  Symbol(enzyme.__providerValues__): Map {},
 }
 `;
 
@@ -597,9 +635,7 @@ Object {
 exports[`RadioJSS matches the snapshot 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <Jss(Radio)
-    options={Array []}
-  />,
+  Symbol(enzyme.__unrendered__): <UNDEFINED />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
@@ -611,43 +647,71 @@ ShallowWrapper {
   Symbol(enzyme.__node__): Object {
     "instance": null,
     "key": undefined,
-    "nodeType": "class",
+    "nodeType": "function",
     "props": Object {
-      "classes": Object {
-        "active": "Radio-active-0-1-3",
-        "cont": "Radio-cont-0-1-1",
-        "disabled": "Radio-disabled-0-1-4",
-        "label": "Radio-label-0-1-5",
-        "overflow": "Radio-overflow-0-1-7",
-        "radio": "Radio-radio-0-1-2",
-        "right": "Radio-right-0-1-6",
-      },
-      "options": Array [],
+      "children": [Function],
     },
     "ref": null,
-    "rendered": null,
-    "type": [Function],
+    "rendered": [Function],
+    "type": Object {
+      "$$typeof": Symbol(react.context),
+      "_calculateChangedBits": null,
+      "_context": Object {
+        "$$typeof": Symbol(react.context),
+        "Consumer": [Circular],
+        "Provider": Object {
+          "$$typeof": Symbol(react.provider),
+          "_context": [Circular],
+        },
+        "_calculateChangedBits": null,
+        "_currentRenderer": null,
+        "_currentRenderer2": null,
+        "_currentValue": Object {
+          "classNamePrefix": "",
+          "disableStylesGeneration": false,
+        },
+        "_currentValue2": Object {
+          "classNamePrefix": "",
+          "disableStylesGeneration": false,
+        },
+        "_threadCount": 0,
+      },
+    },
   },
   Symbol(enzyme.__nodes__): Array [
     Object {
       "instance": null,
       "key": undefined,
-      "nodeType": "class",
+      "nodeType": "function",
       "props": Object {
-        "classes": Object {
-          "active": "Radio-active-0-1-3",
-          "cont": "Radio-cont-0-1-1",
-          "disabled": "Radio-disabled-0-1-4",
-          "label": "Radio-label-0-1-5",
-          "overflow": "Radio-overflow-0-1-7",
-          "radio": "Radio-radio-0-1-2",
-          "right": "Radio-right-0-1-6",
-        },
-        "options": Array [],
+        "children": [Function],
       },
       "ref": null,
-      "rendered": null,
-      "type": [Function],
+      "rendered": [Function],
+      "type": Object {
+        "$$typeof": Symbol(react.context),
+        "_calculateChangedBits": null,
+        "_context": Object {
+          "$$typeof": Symbol(react.context),
+          "Consumer": [Circular],
+          "Provider": Object {
+            "$$typeof": Symbol(react.provider),
+            "_context": [Circular],
+          },
+          "_calculateChangedBits": null,
+          "_currentRenderer": null,
+          "_currentRenderer2": null,
+          "_currentValue": Object {
+            "classNamePrefix": "",
+            "disableStylesGeneration": false,
+          },
+          "_currentValue2": Object {
+            "classNamePrefix": "",
+            "disableStylesGeneration": false,
+          },
+          "_threadCount": 0,
+        },
+      },
     },
   ],
   Symbol(enzyme.__options__): Object {
@@ -666,6 +730,8 @@ ShallowWrapper {
         },
       },
     },
+    Symbol(enzyme.__providerValues__): undefined,
   },
+  Symbol(enzyme.__providerValues__): Map {},
 }
 `;

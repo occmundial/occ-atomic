@@ -22,14 +22,14 @@ ShallowWrapper {
     },
     "ref": null,
     "rendered": null,
-    "type": <Jss(Button)
+    "type": <Button
       block={false}
       disabled={false}
       size="sm"
       theme="primary"
     >
       Button
-    </Jss(Button)>,
+    </Button>,
   },
   Symbol(enzyme.__nodes__): Array [
     Object {
@@ -42,14 +42,14 @@ ShallowWrapper {
       },
       "ref": null,
       "rendered": null,
-      "type": <Jss(Button)
+      "type": <Button
         block={false}
         disabled={false}
         size="sm"
         theme="primary"
       >
         Button
-      </Jss(Button)>,
+      </Button>,
     },
   ],
   Symbol(enzyme.__options__): Object {
@@ -68,6 +68,8 @@ ShallowWrapper {
         },
       },
     },
+    Symbol(enzyme.__providerValues__): undefined,
   },
+  Symbol(enzyme.__providerValues__): Map {},
 }
 `;

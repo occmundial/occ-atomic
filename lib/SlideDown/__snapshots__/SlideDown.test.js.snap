@@ -40,36 +40,36 @@ ShallowWrapper {
           className="button"
           onClick={[Function]}
         >
-          <Jss(Flexbox)
+          <UNDEFINED
             alignItems="start"
             display="flex"
             justifyContent="between"
           >
-            <Jss(Flexbox)
+            <UNDEFINED
               alignItems="center"
               display="flex"
             >
-              <Jss(Flexbox)
+              <UNDEFINED
                 alignItems="start"
                 display="flex"
                 wrap="wrap"
               >
                 <div>
-                  <Jss(Text)
+                  <UNDEFINED
                     className="text"
                     standard={true}
                     strong={false}
                     tag="label"
                   >
                     Title
-                  </Jss(Text)>
+                  </UNDEFINED>
                 </div>
-              </Jss(Flexbox)>
-            </Jss(Flexbox)>
-            <Jss(Flexbox)
+              </UNDEFINED>
+            </UNDEFINED>
+            <UNDEFINED
               flex="0 0 auto"
             >
-              <Jss(Icon)
+              <UNDEFINED
                 className="icon"
                 colors={
                   Array [
@@ -82,10 +82,9 @@ ShallowWrapper {
                     "transform": "",
                   }
                 }
-                transition="0.3s all"
               />
-            </Jss(Flexbox)>
-          </Jss(Flexbox)>
+            </UNDEFINED>
+          </UNDEFINED>
         </div>,
         false,
       ],
@@ -98,36 +97,36 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": <Jss(Flexbox)
+          "children": <UNDEFINED
             alignItems="start"
             display="flex"
             justifyContent="between"
           >
-            <Jss(Flexbox)
+            <UNDEFINED
               alignItems="center"
               display="flex"
             >
-              <Jss(Flexbox)
+              <UNDEFINED
                 alignItems="start"
                 display="flex"
                 wrap="wrap"
               >
                 <div>
-                  <Jss(Text)
+                  <UNDEFINED
                     className="text"
                     standard={true}
                     strong={false}
                     tag="label"
                   >
                     Title
-                  </Jss(Text)>
+                  </UNDEFINED>
                 </div>
-              </Jss(Flexbox)>
-            </Jss(Flexbox)>
-            <Jss(Flexbox)
+              </UNDEFINED>
+            </UNDEFINED>
+            <UNDEFINED
               flex="0 0 auto"
             >
-              <Jss(Icon)
+              <UNDEFINED
                 className="icon"
                 colors={
                   Array [
@@ -140,10 +139,9 @@ ShallowWrapper {
                     "transform": "",
                   }
                 }
-                transition="0.3s all"
               />
-            </Jss(Flexbox)>
-          </Jss(Flexbox)>,
+            </UNDEFINED>
+          </UNDEFINED>,
           "className": "button",
           "onClick": [Function],
         },
@@ -151,35 +149,35 @@ ShallowWrapper {
         "rendered": Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "class",
+          "nodeType": "function",
           "props": Object {
             "alignItems": "start",
             "children": Array [
-              <Jss(Flexbox)
+              <UNDEFINED
                 alignItems="center"
                 display="flex"
               >
-                <Jss(Flexbox)
+                <UNDEFINED
                   alignItems="start"
                   display="flex"
                   wrap="wrap"
                 >
                   <div>
-                    <Jss(Text)
+                    <UNDEFINED
                       className="text"
                       standard={true}
                       strong={false}
                       tag="label"
                     >
                       Title
-                    </Jss(Text)>
+                    </UNDEFINED>
                   </div>
-                </Jss(Flexbox)>
-              </Jss(Flexbox)>,
-              <Jss(Flexbox)
+                </UNDEFINED>
+              </UNDEFINED>,
+              <UNDEFINED
                 flex="0 0 auto"
               >
-                <Jss(Icon)
+                <UNDEFINED
                   className="icon"
                   colors={
                     Array [
@@ -192,9 +190,8 @@ ShallowWrapper {
                       "transform": "",
                     }
                   }
-                  transition="0.3s all"
                 />
-              </Jss(Flexbox)>,
+              </UNDEFINED>,
             ],
             "display": "flex",
             "justifyContent": "between",
@@ -204,43 +201,43 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
                 "alignItems": "center",
-                "children": <Jss(Flexbox)
+                "children": <UNDEFINED
                   alignItems="start"
                   display="flex"
                   wrap="wrap"
                 >
                   <div>
-                    <Jss(Text)
+                    <UNDEFINED
                       className="text"
                       standard={true}
                       strong={false}
                       tag="label"
                     >
                       Title
-                    </Jss(Text)>
+                    </UNDEFINED>
                   </div>
-                </Jss(Flexbox)>,
+                </UNDEFINED>,
                 "display": "flex",
               },
               "ref": null,
               "rendered": Object {
                 "instance": null,
                 "key": undefined,
-                "nodeType": "class",
+                "nodeType": "function",
                 "props": Object {
                   "alignItems": "start",
                   "children": <div>
-                    <Jss(Text)
+                    <UNDEFINED
                       className="text"
                       standard={true}
                       strong={false}
                       tag="label"
                     >
                       Title
-                    </Jss(Text)>
+                    </UNDEFINED>
                   </div>,
                   "display": "flex",
                   "wrap": "wrap",
@@ -252,14 +249,14 @@ ShallowWrapper {
                   "nodeType": "host",
                   "props": Object {
                     "children": Array [
-                      <Jss(Text)
+                      <UNDEFINED
                         className="text"
                         standard={true}
                         strong={false}
                         tag="label"
                       >
                         Title
-                      </Jss(Text)>,
+                      </UNDEFINED>,
                       undefined,
                     ],
                   },
@@ -268,7 +265,7 @@ ShallowWrapper {
                     Object {
                       "instance": null,
                       "key": undefined,
-                      "nodeType": "class",
+                      "nodeType": "function",
                       "props": Object {
                         "children": "Title",
                         "className": "text",
@@ -278,22 +275,70 @@ ShallowWrapper {
                       },
                       "ref": null,
                       "rendered": "Title",
-                      "type": [Function],
+                      "type": Object {
+                        "$$typeof": Symbol(react.forward_ref),
+                        "InnerComponent": [Function],
+                        "displayName": "JssContextSubscriber(Text)",
+                        "render": [Function],
+                        Symbol(Symbol.hasInstance): [Function],
+                      },
                     },
                     undefined,
                   ],
                   "type": "div",
                 },
-                "type": [Function],
+                "type": Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "InnerComponent": [Function],
+                  "displayName": "JssContextSubscriber(Flexbox)",
+                  "propTypes": Object {
+                    "alignContent": [Function],
+                    "alignItems": [Function],
+                    "alignSelf": [Function],
+                    "children": [Function],
+                    "className": [Function],
+                    "direction": [Function],
+                    "display": [Function],
+                    "flex": [Function],
+                    "id": [Function],
+                    "justifyContent": [Function],
+                    "order": [Function],
+                    "style": [Function],
+                    "wrap": [Function],
+                  },
+                  "render": [Function],
+                  Symbol(Symbol.hasInstance): [Function],
+                },
               },
-              "type": [Function],
+              "type": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "InnerComponent": [Function],
+                "displayName": "JssContextSubscriber(Flexbox)",
+                "propTypes": Object {
+                  "alignContent": [Function],
+                  "alignItems": [Function],
+                  "alignSelf": [Function],
+                  "children": [Function],
+                  "className": [Function],
+                  "direction": [Function],
+                  "display": [Function],
+                  "flex": [Function],
+                  "id": [Function],
+                  "justifyContent": [Function],
+                  "order": [Function],
+                  "style": [Function],
+                  "wrap": [Function],
+                },
+                "render": [Function],
+                Symbol(Symbol.hasInstance): [Function],
+              },
             },
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
-                "children": <Jss(Icon)
+                "children": <UNDEFINED
                   className="icon"
                   colors={
                     Array [
@@ -306,7 +351,6 @@ ShallowWrapper {
                       "transform": "",
                     }
                   }
-                  transition="0.3s all"
                 />,
                 "flex": "0 0 auto",
               },
@@ -314,7 +358,7 @@ ShallowWrapper {
               "rendered": Object {
                 "instance": null,
                 "key": undefined,
-                "nodeType": "class",
+                "nodeType": "function",
                 "props": Object {
                   "className": "icon",
                   "colors": Array [
@@ -324,16 +368,77 @@ ShallowWrapper {
                   "style": Object {
                     "transform": "",
                   },
-                  "transition": "0.3s all",
                 },
                 "ref": null,
                 "rendered": null,
-                "type": [Function],
+                "type": Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "InnerComponent": [Function],
+                  "displayName": "JssContextSubscriber(Icon)",
+                  "propTypes": Object {
+                    "alt": [Function],
+                    "className": [Function],
+                    "colors": [Function],
+                    "display": [Function],
+                    "height": [Function],
+                    "hover": [Function],
+                    "iconName": [Function],
+                    "id": [Function],
+                    "onClick": [Function],
+                    "style": [Function],
+                    "transition": [Function],
+                    "width": [Function],
+                  },
+                  "render": [Function],
+                  Symbol(Symbol.hasInstance): [Function],
+                },
               },
-              "type": [Function],
+              "type": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "InnerComponent": [Function],
+                "displayName": "JssContextSubscriber(Flexbox)",
+                "propTypes": Object {
+                  "alignContent": [Function],
+                  "alignItems": [Function],
+                  "alignSelf": [Function],
+                  "children": [Function],
+                  "className": [Function],
+                  "direction": [Function],
+                  "display": [Function],
+                  "flex": [Function],
+                  "id": [Function],
+                  "justifyContent": [Function],
+                  "order": [Function],
+                  "style": [Function],
+                  "wrap": [Function],
+                },
+                "render": [Function],
+                Symbol(Symbol.hasInstance): [Function],
+              },
             },
           ],
-          "type": [Function],
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "InnerComponent": [Function],
+            "displayName": "JssContextSubscriber(Flexbox)",
+            "propTypes": Object {
+              "alignContent": [Function],
+              "alignItems": [Function],
+              "alignSelf": [Function],
+              "children": [Function],
+              "className": [Function],
+              "direction": [Function],
+              "display": [Function],
+              "flex": [Function],
+              "id": [Function],
+              "justifyContent": [Function],
+              "order": [Function],
+              "style": [Function],
+              "wrap": [Function],
+            },
+            "render": [Function],
+            Symbol(Symbol.hasInstance): [Function],
+          },
         },
         "type": "div",
       },
@@ -352,36 +457,36 @@ ShallowWrapper {
             className="button"
             onClick={[Function]}
           >
-            <Jss(Flexbox)
+            <UNDEFINED
               alignItems="start"
               display="flex"
               justifyContent="between"
             >
-              <Jss(Flexbox)
+              <UNDEFINED
                 alignItems="center"
                 display="flex"
               >
-                <Jss(Flexbox)
+                <UNDEFINED
                   alignItems="start"
                   display="flex"
                   wrap="wrap"
                 >
                   <div>
-                    <Jss(Text)
+                    <UNDEFINED
                       className="text"
                       standard={true}
                       strong={false}
                       tag="label"
                     >
                       Title
-                    </Jss(Text)>
+                    </UNDEFINED>
                   </div>
-                </Jss(Flexbox)>
-              </Jss(Flexbox)>
-              <Jss(Flexbox)
+                </UNDEFINED>
+              </UNDEFINED>
+              <UNDEFINED
                 flex="0 0 auto"
               >
-                <Jss(Icon)
+                <UNDEFINED
                   className="icon"
                   colors={
                     Array [
@@ -394,10 +499,9 @@ ShallowWrapper {
                       "transform": "",
                     }
                   }
-                  transition="0.3s all"
                 />
-              </Jss(Flexbox)>
-            </Jss(Flexbox)>
+              </UNDEFINED>
+            </UNDEFINED>
           </div>,
           false,
         ],
@@ -410,36 +514,36 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": <Jss(Flexbox)
+            "children": <UNDEFINED
               alignItems="start"
               display="flex"
               justifyContent="between"
             >
-              <Jss(Flexbox)
+              <UNDEFINED
                 alignItems="center"
                 display="flex"
               >
-                <Jss(Flexbox)
+                <UNDEFINED
                   alignItems="start"
                   display="flex"
                   wrap="wrap"
                 >
                   <div>
-                    <Jss(Text)
+                    <UNDEFINED
                       className="text"
                       standard={true}
                       strong={false}
                       tag="label"
                     >
                       Title
-                    </Jss(Text)>
+                    </UNDEFINED>
                   </div>
-                </Jss(Flexbox)>
-              </Jss(Flexbox)>
-              <Jss(Flexbox)
+                </UNDEFINED>
+              </UNDEFINED>
+              <UNDEFINED
                 flex="0 0 auto"
               >
-                <Jss(Icon)
+                <UNDEFINED
                   className="icon"
                   colors={
                     Array [
@@ -452,10 +556,9 @@ ShallowWrapper {
                       "transform": "",
                     }
                   }
-                  transition="0.3s all"
                 />
-              </Jss(Flexbox)>
-            </Jss(Flexbox)>,
+              </UNDEFINED>
+            </UNDEFINED>,
             "className": "button",
             "onClick": [Function],
           },
@@ -463,35 +566,35 @@ ShallowWrapper {
           "rendered": Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "alignItems": "start",
               "children": Array [
-                <Jss(Flexbox)
+                <UNDEFINED
                   alignItems="center"
                   display="flex"
                 >
-                  <Jss(Flexbox)
+                  <UNDEFINED
                     alignItems="start"
                     display="flex"
                     wrap="wrap"
                   >
                     <div>
-                      <Jss(Text)
+                      <UNDEFINED
                         className="text"
                         standard={true}
                         strong={false}
                         tag="label"
                       >
                         Title
-                      </Jss(Text)>
+                      </UNDEFINED>
                     </div>
-                  </Jss(Flexbox)>
-                </Jss(Flexbox)>,
-                <Jss(Flexbox)
+                  </UNDEFINED>
+                </UNDEFINED>,
+                <UNDEFINED
                   flex="0 0 auto"
                 >
-                  <Jss(Icon)
+                  <UNDEFINED
                     className="icon"
                     colors={
                       Array [
@@ -504,9 +607,8 @@ ShallowWrapper {
                         "transform": "",
                       }
                     }
-                    transition="0.3s all"
                   />
-                </Jss(Flexbox)>,
+                </UNDEFINED>,
               ],
               "display": "flex",
               "justifyContent": "between",
@@ -516,43 +618,43 @@ ShallowWrapper {
               Object {
                 "instance": null,
                 "key": undefined,
-                "nodeType": "class",
+                "nodeType": "function",
                 "props": Object {
                   "alignItems": "center",
-                  "children": <Jss(Flexbox)
+                  "children": <UNDEFINED
                     alignItems="start"
                     display="flex"
                     wrap="wrap"
                   >
                     <div>
-                      <Jss(Text)
+                      <UNDEFINED
                         className="text"
                         standard={true}
                         strong={false}
                         tag="label"
                       >
                         Title
-                      </Jss(Text)>
+                      </UNDEFINED>
                     </div>
-                  </Jss(Flexbox)>,
+                  </UNDEFINED>,
                   "display": "flex",
                 },
                 "ref": null,
                 "rendered": Object {
                   "instance": null,
                   "key": undefined,
-                  "nodeType": "class",
+                  "nodeType": "function",
                   "props": Object {
                     "alignItems": "start",
                     "children": <div>
-                      <Jss(Text)
+                      <UNDEFINED
                         className="text"
                         standard={true}
                         strong={false}
                         tag="label"
                       >
                         Title
-                      </Jss(Text)>
+                      </UNDEFINED>
                     </div>,
                     "display": "flex",
                     "wrap": "wrap",
@@ -564,14 +666,14 @@ ShallowWrapper {
                     "nodeType": "host",
                     "props": Object {
                       "children": Array [
-                        <Jss(Text)
+                        <UNDEFINED
                           className="text"
                           standard={true}
                           strong={false}
                           tag="label"
                         >
                           Title
-                        </Jss(Text)>,
+                        </UNDEFINED>,
                         undefined,
                       ],
                     },
@@ -580,7 +682,7 @@ ShallowWrapper {
                       Object {
                         "instance": null,
                         "key": undefined,
-                        "nodeType": "class",
+                        "nodeType": "function",
                         "props": Object {
                           "children": "Title",
                           "className": "text",
@@ -590,22 +692,70 @@ ShallowWrapper {
                         },
                         "ref": null,
                         "rendered": "Title",
-                        "type": [Function],
+                        "type": Object {
+                          "$$typeof": Symbol(react.forward_ref),
+                          "InnerComponent": [Function],
+                          "displayName": "JssContextSubscriber(Text)",
+                          "render": [Function],
+                          Symbol(Symbol.hasInstance): [Function],
+                        },
                       },
                       undefined,
                     ],
                     "type": "div",
                   },
-                  "type": [Function],
+                  "type": Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "InnerComponent": [Function],
+                    "displayName": "JssContextSubscriber(Flexbox)",
+                    "propTypes": Object {
+                      "alignContent": [Function],
+                      "alignItems": [Function],
+                      "alignSelf": [Function],
+                      "children": [Function],
+                      "className": [Function],
+                      "direction": [Function],
+                      "display": [Function],
+                      "flex": [Function],
+                      "id": [Function],
+                      "justifyContent": [Function],
+                      "order": [Function],
+                      "style": [Function],
+                      "wrap": [Function],
+                    },
+                    "render": [Function],
+                    Symbol(Symbol.hasInstance): [Function],
+                  },
                 },
-                "type": [Function],
+                "type": Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "InnerComponent": [Function],
+                  "displayName": "JssContextSubscriber(Flexbox)",
+                  "propTypes": Object {
+                    "alignContent": [Function],
+                    "alignItems": [Function],
+                    "alignSelf": [Function],
+                    "children": [Function],
+                    "className": [Function],
+                    "direction": [Function],
+                    "display": [Function],
+                    "flex": [Function],
+                    "id": [Function],
+                    "justifyContent": [Function],
+                    "order": [Function],
+                    "style": [Function],
+                    "wrap": [Function],
+                  },
+                  "render": [Function],
+                  Symbol(Symbol.hasInstance): [Function],
+                },
               },
               Object {
                 "instance": null,
                 "key": undefined,
-                "nodeType": "class",
+                "nodeType": "function",
                 "props": Object {
-                  "children": <Jss(Icon)
+                  "children": <UNDEFINED
                     className="icon"
                     colors={
                       Array [
@@ -618,7 +768,6 @@ ShallowWrapper {
                         "transform": "",
                       }
                     }
-                    transition="0.3s all"
                   />,
                   "flex": "0 0 auto",
                 },
@@ -626,7 +775,7 @@ ShallowWrapper {
                 "rendered": Object {
                   "instance": null,
                   "key": undefined,
-                  "nodeType": "class",
+                  "nodeType": "function",
                   "props": Object {
                     "className": "icon",
                     "colors": Array [
@@ -636,16 +785,77 @@ ShallowWrapper {
                     "style": Object {
                       "transform": "",
                     },
-                    "transition": "0.3s all",
                   },
                   "ref": null,
                   "rendered": null,
-                  "type": [Function],
+                  "type": Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "InnerComponent": [Function],
+                    "displayName": "JssContextSubscriber(Icon)",
+                    "propTypes": Object {
+                      "alt": [Function],
+                      "className": [Function],
+                      "colors": [Function],
+                      "display": [Function],
+                      "height": [Function],
+                      "hover": [Function],
+                      "iconName": [Function],
+                      "id": [Function],
+                      "onClick": [Function],
+                      "style": [Function],
+                      "transition": [Function],
+                      "width": [Function],
+                    },
+                    "render": [Function],
+                    Symbol(Symbol.hasInstance): [Function],
+                  },
                 },
-                "type": [Function],
+                "type": Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "InnerComponent": [Function],
+                  "displayName": "JssContextSubscriber(Flexbox)",
+                  "propTypes": Object {
+                    "alignContent": [Function],
+                    "alignItems": [Function],
+                    "alignSelf": [Function],
+                    "children": [Function],
+                    "className": [Function],
+                    "direction": [Function],
+                    "display": [Function],
+                    "flex": [Function],
+                    "id": [Function],
+                    "justifyContent": [Function],
+                    "order": [Function],
+                    "style": [Function],
+                    "wrap": [Function],
+                  },
+                  "render": [Function],
+                  Symbol(Symbol.hasInstance): [Function],
+                },
               },
             ],
-            "type": [Function],
+            "type": Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "InnerComponent": [Function],
+              "displayName": "JssContextSubscriber(Flexbox)",
+              "propTypes": Object {
+                "alignContent": [Function],
+                "alignItems": [Function],
+                "alignSelf": [Function],
+                "children": [Function],
+                "className": [Function],
+                "direction": [Function],
+                "display": [Function],
+                "flex": [Function],
+                "id": [Function],
+                "justifyContent": [Function],
+                "order": [Function],
+                "style": [Function],
+                "wrap": [Function],
+              },
+              "render": [Function],
+              Symbol(Symbol.hasInstance): [Function],
+            },
           },
           "type": "div",
         },
@@ -670,7 +880,9 @@ ShallowWrapper {
         },
       },
     },
+    Symbol(enzyme.__providerValues__): undefined,
   },
+  Symbol(enzyme.__providerValues__): Map {},
 }
 `;
 
@@ -714,12 +926,7 @@ Object {
 exports[`SlideDownJSS matches the snapshot 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <Jss(SlideDown)
-    expanded={false}
-    strong={false}
-    textSize="md"
-    theme="default"
-  />,
+  Symbol(enzyme.__unrendered__): <UNDEFINED />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
@@ -731,51 +938,71 @@ ShallowWrapper {
   Symbol(enzyme.__node__): Object {
     "instance": null,
     "key": undefined,
-    "nodeType": "class",
+    "nodeType": "function",
     "props": Object {
-      "classes": Object {
-        "button": "SlideDown-button-0-1-111",
-        "content": "SlideDown-content-0-1-113",
-        "hide": "SlideDown-hide-0-1-114",
-        "icon": "SlideDown-icon-0-1-117",
-        "show": "SlideDown-show-0-1-115",
-        "tag": "SlideDown-tag-0-1-116",
-        "text": "SlideDown-text-0-1-112",
-        "wrapper": "SlideDown-wrapper-0-1-110",
-      },
-      "expanded": false,
-      "strong": false,
-      "textSize": "md",
-      "theme": "default",
+      "children": [Function],
     },
     "ref": null,
-    "rendered": null,
-    "type": [Function],
+    "rendered": [Function],
+    "type": Object {
+      "$$typeof": Symbol(react.context),
+      "_calculateChangedBits": null,
+      "_context": Object {
+        "$$typeof": Symbol(react.context),
+        "Consumer": [Circular],
+        "Provider": Object {
+          "$$typeof": Symbol(react.provider),
+          "_context": [Circular],
+        },
+        "_calculateChangedBits": null,
+        "_currentRenderer": null,
+        "_currentRenderer2": null,
+        "_currentValue": Object {
+          "classNamePrefix": "",
+          "disableStylesGeneration": false,
+        },
+        "_currentValue2": Object {
+          "classNamePrefix": "",
+          "disableStylesGeneration": false,
+        },
+        "_threadCount": 0,
+      },
+    },
   },
   Symbol(enzyme.__nodes__): Array [
     Object {
       "instance": null,
       "key": undefined,
-      "nodeType": "class",
+      "nodeType": "function",
       "props": Object {
-        "classes": Object {
-          "button": "SlideDown-button-0-1-111",
-          "content": "SlideDown-content-0-1-113",
-          "hide": "SlideDown-hide-0-1-114",
-          "icon": "SlideDown-icon-0-1-117",
-          "show": "SlideDown-show-0-1-115",
-          "tag": "SlideDown-tag-0-1-116",
-          "text": "SlideDown-text-0-1-112",
-          "wrapper": "SlideDown-wrapper-0-1-110",
-        },
-        "expanded": false,
-        "strong": false,
-        "textSize": "md",
-        "theme": "default",
+        "children": [Function],
       },
       "ref": null,
-      "rendered": null,
-      "type": [Function],
+      "rendered": [Function],
+      "type": Object {
+        "$$typeof": Symbol(react.context),
+        "_calculateChangedBits": null,
+        "_context": Object {
+          "$$typeof": Symbol(react.context),
+          "Consumer": [Circular],
+          "Provider": Object {
+            "$$typeof": Symbol(react.provider),
+            "_context": [Circular],
+          },
+          "_calculateChangedBits": null,
+          "_currentRenderer": null,
+          "_currentRenderer2": null,
+          "_currentValue": Object {
+            "classNamePrefix": "",
+            "disableStylesGeneration": false,
+          },
+          "_currentValue2": Object {
+            "classNamePrefix": "",
+            "disableStylesGeneration": false,
+          },
+          "_threadCount": 0,
+        },
+      },
     },
   ],
   Symbol(enzyme.__options__): Object {
@@ -794,6 +1021,8 @@ ShallowWrapper {
         },
       },
     },
+    Symbol(enzyme.__providerValues__): undefined,
   },
+  Symbol(enzyme.__providerValues__): Map {},
 }
 `;

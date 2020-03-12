@@ -53,21 +53,13 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": Array [
-        <Jss(TextField)
-          autoFocus={false}
-          clear={false}
-          counter={false}
-          disabled={false}
-          hjWhitelist={true}
+        <UNDEFINED
           onBlur={[Function]}
           onChange={[Function]}
           onClear={[Function]}
           onFocus={[Function]}
           onKeyUp={[Function]}
           onRef={[Function]}
-          options={Array []}
-          selectOnFocus={false}
-          type="text"
           valueProp=""
         />,
         null,
@@ -81,27 +73,25 @@ ShallowWrapper {
       Object {
         "instance": null,
         "key": undefined,
-        "nodeType": "class",
+        "nodeType": "function",
         "props": Object {
-          "autoFocus": false,
-          "clear": false,
-          "counter": false,
-          "disabled": false,
-          "hjWhitelist": true,
           "onBlur": [Function],
           "onChange": [Function],
           "onClear": [Function],
           "onFocus": [Function],
           "onKeyUp": [Function],
           "onRef": [Function],
-          "options": Array [],
-          "selectOnFocus": false,
-          "type": "text",
           "valueProp": "",
         },
         "ref": null,
         "rendered": null,
-        "type": [Function],
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "InnerComponent": [Function],
+          "displayName": "JssContextSubscriber(TextField)",
+          "render": [Function],
+          Symbol(Symbol.hasInstance): [Function],
+        },
       },
       null,
     ],
@@ -114,21 +104,13 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": Array [
-          <Jss(TextField)
-            autoFocus={false}
-            clear={false}
-            counter={false}
-            disabled={false}
-            hjWhitelist={true}
+          <UNDEFINED
             onBlur={[Function]}
             onChange={[Function]}
             onClear={[Function]}
             onFocus={[Function]}
             onKeyUp={[Function]}
             onRef={[Function]}
-            options={Array []}
-            selectOnFocus={false}
-            type="text"
             valueProp=""
           />,
           null,
@@ -142,27 +124,25 @@ ShallowWrapper {
         Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "class",
+          "nodeType": "function",
           "props": Object {
-            "autoFocus": false,
-            "clear": false,
-            "counter": false,
-            "disabled": false,
-            "hjWhitelist": true,
             "onBlur": [Function],
             "onChange": [Function],
             "onClear": [Function],
             "onFocus": [Function],
             "onKeyUp": [Function],
             "onRef": [Function],
-            "options": Array [],
-            "selectOnFocus": false,
-            "type": "text",
             "valueProp": "",
           },
           "ref": null,
           "rendered": null,
-          "type": [Function],
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "InnerComponent": [Function],
+            "displayName": "JssContextSubscriber(TextField)",
+            "render": [Function],
+            Symbol(Symbol.hasInstance): [Function],
+          },
         },
         null,
       ],
@@ -185,7 +165,9 @@ ShallowWrapper {
         },
       },
     },
+    Symbol(enzyme.__providerValues__): undefined,
   },
+  Symbol(enzyme.__providerValues__): Map {},
 }
 `;
 
@@ -207,8 +189,7 @@ Object {
 exports[`AutocompleteJSS matches the snapshot 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <Jss(Autocomplete)
-    disableAutoComplete={false}
+  Symbol(enzyme.__unrendered__): <UNDEFINED
     droplistProps={
       Object {
         "items": Array [
@@ -259,7 +240,6 @@ ShallowWrapper {
         },
       ]
     }
-    textfieldProps={Object {}}
   />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
@@ -272,127 +252,71 @@ ShallowWrapper {
   Symbol(enzyme.__node__): Object {
     "instance": null,
     "key": undefined,
-    "nodeType": "class",
+    "nodeType": "function",
     "props": Object {
-      "classes": Object {
-        "autoComplete": "Autocomplete-autoComplete-0-1-74 Autocomplete-autoComplete-0-1-71",
-        "droplist": "Autocomplete-droplist-0-1-73 Autocomplete-droplist-0-1-72",
-      },
-      "disableAutoComplete": false,
-      "droplistProps": Object {
-        "items": Array [
-          Object {
-            "id": 1,
-            "text": "Administrador",
-            "textRight": "(222)",
-          },
-          Object {
-            "id": 2,
-            "text": "Administrador Sr",
-            "textRight": "(134)",
-          },
-          Object {
-            "id": 3,
-            "text": "Administrador Jr",
-            "textRight": "(52)",
-          },
-          Object {
-            "id": 4,
-            "text": "Administrar",
-            "textRight": "(6)",
-          },
-        ],
-      },
-      "items": Array [
-        Object {
-          "id": 1,
-          "text": "Administrador",
-          "textRight": "(222)",
-        },
-        Object {
-          "id": 2,
-          "text": "Administrador Sr",
-          "textRight": "(134)",
-        },
-        Object {
-          "id": 3,
-          "text": "Administrador Jr",
-          "textRight": "(52)",
-        },
-        Object {
-          "id": 4,
-          "text": "Administrar",
-          "textRight": "(6)",
-        },
-      ],
-      "textfieldProps": Object {},
+      "children": [Function],
     },
     "ref": null,
-    "rendered": null,
-    "type": [Function],
+    "rendered": [Function],
+    "type": Object {
+      "$$typeof": Symbol(react.context),
+      "_calculateChangedBits": null,
+      "_context": Object {
+        "$$typeof": Symbol(react.context),
+        "Consumer": [Circular],
+        "Provider": Object {
+          "$$typeof": Symbol(react.provider),
+          "_context": [Circular],
+        },
+        "_calculateChangedBits": null,
+        "_currentRenderer": null,
+        "_currentRenderer2": null,
+        "_currentValue": Object {
+          "classNamePrefix": "",
+          "disableStylesGeneration": false,
+        },
+        "_currentValue2": Object {
+          "classNamePrefix": "",
+          "disableStylesGeneration": false,
+        },
+        "_threadCount": 0,
+      },
+    },
   },
   Symbol(enzyme.__nodes__): Array [
     Object {
       "instance": null,
       "key": undefined,
-      "nodeType": "class",
+      "nodeType": "function",
       "props": Object {
-        "classes": Object {
-          "autoComplete": "Autocomplete-autoComplete-0-1-74 Autocomplete-autoComplete-0-1-71",
-          "droplist": "Autocomplete-droplist-0-1-73 Autocomplete-droplist-0-1-72",
-        },
-        "disableAutoComplete": false,
-        "droplistProps": Object {
-          "items": Array [
-            Object {
-              "id": 1,
-              "text": "Administrador",
-              "textRight": "(222)",
-            },
-            Object {
-              "id": 2,
-              "text": "Administrador Sr",
-              "textRight": "(134)",
-            },
-            Object {
-              "id": 3,
-              "text": "Administrador Jr",
-              "textRight": "(52)",
-            },
-            Object {
-              "id": 4,
-              "text": "Administrar",
-              "textRight": "(6)",
-            },
-          ],
-        },
-        "items": Array [
-          Object {
-            "id": 1,
-            "text": "Administrador",
-            "textRight": "(222)",
-          },
-          Object {
-            "id": 2,
-            "text": "Administrador Sr",
-            "textRight": "(134)",
-          },
-          Object {
-            "id": 3,
-            "text": "Administrador Jr",
-            "textRight": "(52)",
-          },
-          Object {
-            "id": 4,
-            "text": "Administrar",
-            "textRight": "(6)",
-          },
-        ],
-        "textfieldProps": Object {},
+        "children": [Function],
       },
       "ref": null,
-      "rendered": null,
-      "type": [Function],
+      "rendered": [Function],
+      "type": Object {
+        "$$typeof": Symbol(react.context),
+        "_calculateChangedBits": null,
+        "_context": Object {
+          "$$typeof": Symbol(react.context),
+          "Consumer": [Circular],
+          "Provider": Object {
+            "$$typeof": Symbol(react.provider),
+            "_context": [Circular],
+          },
+          "_calculateChangedBits": null,
+          "_currentRenderer": null,
+          "_currentRenderer2": null,
+          "_currentValue": Object {
+            "classNamePrefix": "",
+            "disableStylesGeneration": false,
+          },
+          "_currentValue2": Object {
+            "classNamePrefix": "",
+            "disableStylesGeneration": false,
+          },
+          "_threadCount": 0,
+        },
+      },
     },
   ],
   Symbol(enzyme.__options__): Object {
@@ -411,6 +335,8 @@ ShallowWrapper {
         },
       },
     },
+    Symbol(enzyme.__providerValues__): undefined,
   },
+  Symbol(enzyme.__providerValues__): Map {},
 }
 `;

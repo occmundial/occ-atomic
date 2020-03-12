@@ -34,7 +34,9 @@ ShallowWrapper {
         },
       },
     },
+    Symbol(enzyme.__providerValues__): undefined,
   },
+  Symbol(enzyme.__providerValues__): Map {},
 }
 `;
 
@@ -82,11 +84,11 @@ ShallowWrapper {
         className="ShowElement customeWidth"
         onClick={[Function]}
       >
-        <Jss(Card)
+        <Card
           className="card"
           shadow={5}
         >
-          <Jss(Flexbox)
+          <UNDEFINED
             alignItems="start"
             className="top"
             display="flex"
@@ -95,7 +97,7 @@ ShallowWrapper {
             <div
               className="closeIcon"
             >
-              <Jss(Icon)
+              <UNDEFINED
                 colors={
                   Array [
                     "#222222",
@@ -104,15 +106,14 @@ ShallowWrapper {
                 height={24}
                 iconName="close"
                 onClick={[MockFunction]}
-                transition="0.3s all"
                 width={24}
               />
             </div>
-          </Jss(Flexbox)>
+          </UNDEFINED>
           <div
             className="content"
           />
-        </Jss(Card)>
+        </Card>
       </div>,
       "className": " overlay",
       "onClick": [MockFunction],
@@ -124,11 +125,11 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "host",
       "props": Object {
-        "children": <Jss(Card)
+        "children": <Card
           className="card"
           shadow={5}
         >
-          <Jss(Flexbox)
+          <UNDEFINED
             alignItems="start"
             className="top"
             display="flex"
@@ -137,7 +138,7 @@ ShallowWrapper {
             <div
               className="closeIcon"
             >
-              <Jss(Icon)
+              <UNDEFINED
                 colors={
                   Array [
                     "#222222",
@@ -146,15 +147,14 @@ ShallowWrapper {
                 height={24}
                 iconName="close"
                 onClick={[MockFunction]}
-                transition="0.3s all"
                 width={24}
               />
             </div>
-          </Jss(Flexbox)>
+          </UNDEFINED>
           <div
             className="content"
           />
-        </Jss(Card)>,
+        </Card>,
         "className": "ShowElement customeWidth",
         "onClick": [Function],
       },
@@ -162,10 +162,10 @@ ShallowWrapper {
       "rendered": Object {
         "instance": null,
         "key": undefined,
-        "nodeType": "class",
+        "nodeType": "function",
         "props": Object {
           "children": Array [
-            <Jss(Flexbox)
+            <UNDEFINED
               alignItems="start"
               className="top"
               display="flex"
@@ -174,7 +174,7 @@ ShallowWrapper {
               <div
                 className="closeIcon"
               >
-                <Jss(Icon)
+                <UNDEFINED
                   colors={
                     Array [
                       "#222222",
@@ -183,11 +183,10 @@ ShallowWrapper {
                   height={24}
                   iconName="close"
                   onClick={[MockFunction]}
-                  transition="0.3s all"
                   width={24}
                 />
               </div>
-            </Jss(Flexbox)>,
+            </UNDEFINED>,
             <div
               className="content"
             />,
@@ -200,7 +199,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "alignItems": "start",
               "children": Array [
@@ -208,7 +207,7 @@ ShallowWrapper {
                 <div
                   className="closeIcon"
                 >
-                  <Jss(Icon)
+                  <UNDEFINED
                     colors={
                       Array [
                         "#222222",
@@ -217,7 +216,6 @@ ShallowWrapper {
                     height={24}
                     iconName="close"
                     onClick={[MockFunction]}
-                    transition="0.3s all"
                     width={24}
                   />
                 </div>,
@@ -234,7 +232,7 @@ ShallowWrapper {
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
-                  "children": <Jss(Icon)
+                  "children": <UNDEFINED
                     colors={
                       Array [
                         "#222222",
@@ -243,7 +241,6 @@ ShallowWrapper {
                     height={24}
                     iconName="close"
                     onClick={[MockFunction]}
-                    transition="0.3s all"
                     width={24}
                   />,
                   "className": "closeIcon",
@@ -252,7 +249,7 @@ ShallowWrapper {
                 "rendered": Object {
                   "instance": null,
                   "key": undefined,
-                  "nodeType": "class",
+                  "nodeType": "function",
                   "props": Object {
                     "colors": Array [
                       "#222222",
@@ -260,17 +257,57 @@ ShallowWrapper {
                     "height": 24,
                     "iconName": "close",
                     "onClick": [MockFunction],
-                    "transition": "0.3s all",
                     "width": 24,
                   },
                   "ref": null,
                   "rendered": null,
-                  "type": [Function],
+                  "type": Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "InnerComponent": [Function],
+                    "displayName": "JssContextSubscriber(Icon)",
+                    "propTypes": Object {
+                      "alt": [Function],
+                      "className": [Function],
+                      "colors": [Function],
+                      "display": [Function],
+                      "height": [Function],
+                      "hover": [Function],
+                      "iconName": [Function],
+                      "id": [Function],
+                      "onClick": [Function],
+                      "style": [Function],
+                      "transition": [Function],
+                      "width": [Function],
+                    },
+                    "render": [Function],
+                    Symbol(Symbol.hasInstance): [Function],
+                  },
                 },
                 "type": "div",
               },
             ],
-            "type": [Function],
+            "type": Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "InnerComponent": [Function],
+              "displayName": "JssContextSubscriber(Flexbox)",
+              "propTypes": Object {
+                "alignContent": [Function],
+                "alignItems": [Function],
+                "alignSelf": [Function],
+                "children": [Function],
+                "className": [Function],
+                "direction": [Function],
+                "display": [Function],
+                "flex": [Function],
+                "id": [Function],
+                "justifyContent": [Function],
+                "order": [Function],
+                "style": [Function],
+                "wrap": [Function],
+              },
+              "render": [Function],
+              Symbol(Symbol.hasInstance): [Function],
+            },
           },
           Object {
             "instance": null,
@@ -301,11 +338,11 @@ ShallowWrapper {
           className="ShowElement customeWidth"
           onClick={[Function]}
         >
-          <Jss(Card)
+          <Card
             className="card"
             shadow={5}
           >
-            <Jss(Flexbox)
+            <UNDEFINED
               alignItems="start"
               className="top"
               display="flex"
@@ -314,7 +351,7 @@ ShallowWrapper {
               <div
                 className="closeIcon"
               >
-                <Jss(Icon)
+                <UNDEFINED
                   colors={
                     Array [
                       "#222222",
@@ -323,15 +360,14 @@ ShallowWrapper {
                   height={24}
                   iconName="close"
                   onClick={[MockFunction]}
-                  transition="0.3s all"
                   width={24}
                 />
               </div>
-            </Jss(Flexbox)>
+            </UNDEFINED>
             <div
               className="content"
             />
-          </Jss(Card)>
+          </Card>
         </div>,
         "className": " overlay",
         "onClick": [MockFunction],
@@ -343,11 +379,11 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": <Jss(Card)
+          "children": <Card
             className="card"
             shadow={5}
           >
-            <Jss(Flexbox)
+            <UNDEFINED
               alignItems="start"
               className="top"
               display="flex"
@@ -356,7 +392,7 @@ ShallowWrapper {
               <div
                 className="closeIcon"
               >
-                <Jss(Icon)
+                <UNDEFINED
                   colors={
                     Array [
                       "#222222",
@@ -365,15 +401,14 @@ ShallowWrapper {
                   height={24}
                   iconName="close"
                   onClick={[MockFunction]}
-                  transition="0.3s all"
                   width={24}
                 />
               </div>
-            </Jss(Flexbox)>
+            </UNDEFINED>
             <div
               className="content"
             />
-          </Jss(Card)>,
+          </Card>,
           "className": "ShowElement customeWidth",
           "onClick": [Function],
         },
@@ -381,10 +416,10 @@ ShallowWrapper {
         "rendered": Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "class",
+          "nodeType": "function",
           "props": Object {
             "children": Array [
-              <Jss(Flexbox)
+              <UNDEFINED
                 alignItems="start"
                 className="top"
                 display="flex"
@@ -393,7 +428,7 @@ ShallowWrapper {
                 <div
                   className="closeIcon"
                 >
-                  <Jss(Icon)
+                  <UNDEFINED
                     colors={
                       Array [
                         "#222222",
@@ -402,11 +437,10 @@ ShallowWrapper {
                     height={24}
                     iconName="close"
                     onClick={[MockFunction]}
-                    transition="0.3s all"
                     width={24}
                   />
                 </div>
-              </Jss(Flexbox)>,
+              </UNDEFINED>,
               <div
                 className="content"
               />,
@@ -419,7 +453,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
                 "alignItems": "start",
                 "children": Array [
@@ -427,7 +461,7 @@ ShallowWrapper {
                   <div
                     className="closeIcon"
                   >
-                    <Jss(Icon)
+                    <UNDEFINED
                       colors={
                         Array [
                           "#222222",
@@ -436,7 +470,6 @@ ShallowWrapper {
                       height={24}
                       iconName="close"
                       onClick={[MockFunction]}
-                      transition="0.3s all"
                       width={24}
                     />
                   </div>,
@@ -453,7 +486,7 @@ ShallowWrapper {
                   "key": undefined,
                   "nodeType": "host",
                   "props": Object {
-                    "children": <Jss(Icon)
+                    "children": <UNDEFINED
                       colors={
                         Array [
                           "#222222",
@@ -462,7 +495,6 @@ ShallowWrapper {
                       height={24}
                       iconName="close"
                       onClick={[MockFunction]}
-                      transition="0.3s all"
                       width={24}
                     />,
                     "className": "closeIcon",
@@ -471,7 +503,7 @@ ShallowWrapper {
                   "rendered": Object {
                     "instance": null,
                     "key": undefined,
-                    "nodeType": "class",
+                    "nodeType": "function",
                     "props": Object {
                       "colors": Array [
                         "#222222",
@@ -479,17 +511,57 @@ ShallowWrapper {
                       "height": 24,
                       "iconName": "close",
                       "onClick": [MockFunction],
-                      "transition": "0.3s all",
                       "width": 24,
                     },
                     "ref": null,
                     "rendered": null,
-                    "type": [Function],
+                    "type": Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "InnerComponent": [Function],
+                      "displayName": "JssContextSubscriber(Icon)",
+                      "propTypes": Object {
+                        "alt": [Function],
+                        "className": [Function],
+                        "colors": [Function],
+                        "display": [Function],
+                        "height": [Function],
+                        "hover": [Function],
+                        "iconName": [Function],
+                        "id": [Function],
+                        "onClick": [Function],
+                        "style": [Function],
+                        "transition": [Function],
+                        "width": [Function],
+                      },
+                      "render": [Function],
+                      Symbol(Symbol.hasInstance): [Function],
+                    },
                   },
                   "type": "div",
                 },
               ],
-              "type": [Function],
+              "type": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "InnerComponent": [Function],
+                "displayName": "JssContextSubscriber(Flexbox)",
+                "propTypes": Object {
+                  "alignContent": [Function],
+                  "alignItems": [Function],
+                  "alignSelf": [Function],
+                  "children": [Function],
+                  "className": [Function],
+                  "direction": [Function],
+                  "display": [Function],
+                  "flex": [Function],
+                  "id": [Function],
+                  "justifyContent": [Function],
+                  "order": [Function],
+                  "style": [Function],
+                  "wrap": [Function],
+                },
+                "render": [Function],
+                Symbol(Symbol.hasInstance): [Function],
+              },
             },
             Object {
               "instance": null,
@@ -527,7 +599,9 @@ ShallowWrapper {
         },
       },
     },
+    Symbol(enzyme.__providerValues__): undefined,
   },
+  Symbol(enzyme.__providerValues__): Map {},
 }
 `;
 

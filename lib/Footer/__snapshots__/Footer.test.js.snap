@@ -94,7 +94,9 @@ ShallowWrapper {
         },
       },
     },
+    Symbol(enzyme.__providerValues__): undefined,
   },
+  Symbol(enzyme.__providerValues__): Map {},
 }
 `;
 
@@ -181,7 +183,7 @@ Object {
 exports[`FooterJSS matches the snapshot 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <Jss(WindowSize) />,
+  Symbol(enzyme.__unrendered__): <UNDEFINED />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
@@ -193,45 +195,71 @@ ShallowWrapper {
   Symbol(enzyme.__node__): Object {
     "instance": null,
     "key": undefined,
-    "nodeType": "class",
+    "nodeType": "function",
     "props": Object {
-      "classes": Object {
-        "bottomWrap": "WindowSize-bottomWrap-0-1-8",
-        "buttonMobile": "WindowSize-buttonMobile-0-1-9",
-        "column": "WindowSize-column-0-1-3",
-        "footer": "WindowSize-footer-0-1-1",
-        "footerBottom": "WindowSize-footerBottom-0-1-7",
-        "footerWithoutColumns": "WindowSize-footerWithoutColumns-0-1-2",
-        "link": "WindowSize-link-0-1-4",
-        "listElement": "WindowSize-listElement-0-1-5",
-        "mobileListElement": "WindowSize-mobileListElement-0-1-6",
-      },
+      "children": [Function],
     },
     "ref": null,
-    "rendered": null,
-    "type": [Function],
+    "rendered": [Function],
+    "type": Object {
+      "$$typeof": Symbol(react.context),
+      "_calculateChangedBits": null,
+      "_context": Object {
+        "$$typeof": Symbol(react.context),
+        "Consumer": [Circular],
+        "Provider": Object {
+          "$$typeof": Symbol(react.provider),
+          "_context": [Circular],
+        },
+        "_calculateChangedBits": null,
+        "_currentRenderer": null,
+        "_currentRenderer2": null,
+        "_currentValue": Object {
+          "classNamePrefix": "",
+          "disableStylesGeneration": false,
+        },
+        "_currentValue2": Object {
+          "classNamePrefix": "",
+          "disableStylesGeneration": false,
+        },
+        "_threadCount": 0,
+      },
+    },
   },
   Symbol(enzyme.__nodes__): Array [
     Object {
       "instance": null,
       "key": undefined,
-      "nodeType": "class",
+      "nodeType": "function",
       "props": Object {
-        "classes": Object {
-          "bottomWrap": "WindowSize-bottomWrap-0-1-8",
-          "buttonMobile": "WindowSize-buttonMobile-0-1-9",
-          "column": "WindowSize-column-0-1-3",
-          "footer": "WindowSize-footer-0-1-1",
-          "footerBottom": "WindowSize-footerBottom-0-1-7",
-          "footerWithoutColumns": "WindowSize-footerWithoutColumns-0-1-2",
-          "link": "WindowSize-link-0-1-4",
-          "listElement": "WindowSize-listElement-0-1-5",
-          "mobileListElement": "WindowSize-mobileListElement-0-1-6",
-        },
+        "children": [Function],
       },
       "ref": null,
-      "rendered": null,
-      "type": [Function],
+      "rendered": [Function],
+      "type": Object {
+        "$$typeof": Symbol(react.context),
+        "_calculateChangedBits": null,
+        "_context": Object {
+          "$$typeof": Symbol(react.context),
+          "Consumer": [Circular],
+          "Provider": Object {
+            "$$typeof": Symbol(react.provider),
+            "_context": [Circular],
+          },
+          "_calculateChangedBits": null,
+          "_currentRenderer": null,
+          "_currentRenderer2": null,
+          "_currentValue": Object {
+            "classNamePrefix": "",
+            "disableStylesGeneration": false,
+          },
+          "_currentValue2": Object {
+            "classNamePrefix": "",
+            "disableStylesGeneration": false,
+          },
+          "_threadCount": 0,
+        },
+      },
     },
   ],
   Symbol(enzyme.__options__): Object {
@@ -250,6 +278,8 @@ ShallowWrapper {
         },
       },
     },
+    Symbol(enzyme.__providerValues__): undefined,
   },
+  Symbol(enzyme.__providerValues__): Map {},
 }
 `;
