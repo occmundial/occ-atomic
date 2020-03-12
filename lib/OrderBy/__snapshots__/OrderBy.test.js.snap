@@ -48,7 +48,7 @@ ShallowWrapper {
           className="button"
           onClick={[Function]}
         >
-          <UNDEFINED
+          <Flexbox
             display="inline-flex"
           >
             <UNDEFINED
@@ -67,7 +67,7 @@ ShallowWrapper {
               }
               iconName="arrowDown"
             />
-          </UNDEFINED>
+          </Flexbox>
         </div>,
         <div
           className="cardWrap"
@@ -112,7 +112,7 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": <UNDEFINED
+          "children": <Flexbox
             display="inline-flex"
           >
             <UNDEFINED
@@ -131,7 +131,7 @@ ShallowWrapper {
               }
               iconName="arrowDown"
             />
-          </UNDEFINED>,
+          </Flexbox>,
           "className": "button",
           "onClick": [Function],
         },
@@ -226,28 +226,7 @@ ShallowWrapper {
               },
             },
           ],
-          "type": Object {
-            "$$typeof": Symbol(react.forward_ref),
-            "InnerComponent": [Function],
-            "displayName": "JssContextSubscriber(Flexbox)",
-            "propTypes": Object {
-              "alignContent": [Function],
-              "alignItems": [Function],
-              "alignSelf": [Function],
-              "children": [Function],
-              "className": [Function],
-              "direction": [Function],
-              "display": [Function],
-              "flex": [Function],
-              "id": [Function],
-              "justifyContent": [Function],
-              "order": [Function],
-              "style": [Function],
-              "wrap": [Function],
-            },
-            "render": [Function],
-            Symbol(Symbol.hasInstance): [Function],
-          },
+          "type": [Function],
         },
         "type": "div",
       },
@@ -410,7 +389,7 @@ ShallowWrapper {
             className="button"
             onClick={[Function]}
           >
-            <UNDEFINED
+            <Flexbox
               display="inline-flex"
             >
               <UNDEFINED
@@ -429,7 +408,7 @@ ShallowWrapper {
                 }
                 iconName="arrowDown"
               />
-            </UNDEFINED>
+            </Flexbox>
           </div>,
           <div
             className="cardWrap"
@@ -474,7 +453,7 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": <UNDEFINED
+            "children": <Flexbox
               display="inline-flex"
             >
               <UNDEFINED
@@ -493,7 +472,7 @@ ShallowWrapper {
                 }
                 iconName="arrowDown"
               />
-            </UNDEFINED>,
+            </Flexbox>,
             "className": "button",
             "onClick": [Function],
           },
@@ -588,28 +567,7 @@ ShallowWrapper {
                 },
               },
             ],
-            "type": Object {
-              "$$typeof": Symbol(react.forward_ref),
-              "InnerComponent": [Function],
-              "displayName": "JssContextSubscriber(Flexbox)",
-              "propTypes": Object {
-                "alignContent": [Function],
-                "alignItems": [Function],
-                "alignSelf": [Function],
-                "children": [Function],
-                "className": [Function],
-                "direction": [Function],
-                "display": [Function],
-                "flex": [Function],
-                "id": [Function],
-                "justifyContent": [Function],
-                "order": [Function],
-                "style": [Function],
-                "wrap": [Function],
-              },
-              "render": [Function],
-              Symbol(Symbol.hasInstance): [Function],
-            },
+            "type": [Function],
           },
           "type": "div",
         },

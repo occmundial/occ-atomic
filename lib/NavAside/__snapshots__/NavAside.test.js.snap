@@ -88,7 +88,7 @@ ShallowWrapper {
           className="card"
           shadow={5}
         >
-          <UNDEFINED
+          <Flexbox
             alignItems="start"
             className="top"
             display="flex"
@@ -109,7 +109,7 @@ ShallowWrapper {
                 width={24}
               />
             </div>
-          </UNDEFINED>
+          </Flexbox>
           <div
             className="content"
           />
@@ -129,7 +129,7 @@ ShallowWrapper {
           className="card"
           shadow={5}
         >
-          <UNDEFINED
+          <Flexbox
             alignItems="start"
             className="top"
             display="flex"
@@ -150,7 +150,7 @@ ShallowWrapper {
                 width={24}
               />
             </div>
-          </UNDEFINED>
+          </Flexbox>
           <div
             className="content"
           />
@@ -165,7 +165,7 @@ ShallowWrapper {
         "nodeType": "function",
         "props": Object {
           "children": Array [
-            <UNDEFINED
+            <Flexbox
               alignItems="start"
               className="top"
               display="flex"
@@ -186,7 +186,7 @@ ShallowWrapper {
                   width={24}
                 />
               </div>
-            </UNDEFINED>,
+            </Flexbox>,
             <div
               className="content"
             />,
@@ -286,28 +286,7 @@ ShallowWrapper {
                 "type": "div",
               },
             ],
-            "type": Object {
-              "$$typeof": Symbol(react.forward_ref),
-              "InnerComponent": [Function],
-              "displayName": "JssContextSubscriber(Flexbox)",
-              "propTypes": Object {
-                "alignContent": [Function],
-                "alignItems": [Function],
-                "alignSelf": [Function],
-                "children": [Function],
-                "className": [Function],
-                "direction": [Function],
-                "display": [Function],
-                "flex": [Function],
-                "id": [Function],
-                "justifyContent": [Function],
-                "order": [Function],
-                "style": [Function],
-                "wrap": [Function],
-              },
-              "render": [Function],
-              Symbol(Symbol.hasInstance): [Function],
-            },
+            "type": [Function],
           },
           Object {
             "instance": null,
@@ -342,7 +321,7 @@ ShallowWrapper {
             className="card"
             shadow={5}
           >
-            <UNDEFINED
+            <Flexbox
               alignItems="start"
               className="top"
               display="flex"
@@ -363,7 +342,7 @@ ShallowWrapper {
                   width={24}
                 />
               </div>
-            </UNDEFINED>
+            </Flexbox>
             <div
               className="content"
             />
@@ -383,7 +362,7 @@ ShallowWrapper {
             className="card"
             shadow={5}
           >
-            <UNDEFINED
+            <Flexbox
               alignItems="start"
               className="top"
               display="flex"
@@ -404,7 +383,7 @@ ShallowWrapper {
                   width={24}
                 />
               </div>
-            </UNDEFINED>
+            </Flexbox>
             <div
               className="content"
             />
@@ -419,7 +398,7 @@ ShallowWrapper {
           "nodeType": "function",
           "props": Object {
             "children": Array [
-              <UNDEFINED
+              <Flexbox
                 alignItems="start"
                 className="top"
                 display="flex"
@@ -440,7 +419,7 @@ ShallowWrapper {
                     width={24}
                   />
                 </div>
-              </UNDEFINED>,
+              </Flexbox>,
               <div
                 className="content"
               />,
@@ -540,28 +519,7 @@ ShallowWrapper {
                   "type": "div",
                 },
               ],
-              "type": Object {
-                "$$typeof": Symbol(react.forward_ref),
-                "InnerComponent": [Function],
-                "displayName": "JssContextSubscriber(Flexbox)",
-                "propTypes": Object {
-                  "alignContent": [Function],
-                  "alignItems": [Function],
-                  "alignSelf": [Function],
-                  "children": [Function],
-                  "className": [Function],
-                  "direction": [Function],
-                  "display": [Function],
-                  "flex": [Function],
-                  "id": [Function],
-                  "justifyContent": [Function],
-                  "order": [Function],
-                  "style": [Function],
-                  "wrap": [Function],
-                },
-                "render": [Function],
-                Symbol(Symbol.hasInstance): [Function],
-              },
+              "type": [Function],
             },
             Object {
               "instance": null,
