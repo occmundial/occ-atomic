@@ -41,13 +41,14 @@ ShallowWrapper {
           onClick={[Function]}
           tabIndex="0"
         >
-          <UNDEFINED
+          <Icon
             colors={
               Array [
                 "#adb4bb",
               ]
             }
             iconName="arrowDown"
+            transition="0.3s all"
           />
            
           Previous
@@ -94,13 +95,14 @@ ShallowWrapper {
         >
           Next
            
-          <UNDEFINED
+          <Icon
             colors={
               Array [
                 "#adb4bb",
               ]
             }
             iconName="arrowDown"
+            transition="0.3s all"
           />
         </li>,
       ],
@@ -114,13 +116,14 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": Array [
-            <UNDEFINED
+            <Icon
               colors={
                 Array [
                   "#adb4bb",
                 ]
               }
               iconName="arrowDown"
+              transition="0.3s all"
             />,
             " ",
             "Previous",
@@ -140,30 +143,11 @@ ShallowWrapper {
                 "#adb4bb",
               ],
               "iconName": "arrowDown",
+              "transition": "0.3s all",
             },
             "ref": null,
             "rendered": null,
-            "type": Object {
-              "$$typeof": Symbol(react.forward_ref),
-              "InnerComponent": [Function],
-              "displayName": "JssContextSubscriber(Icon)",
-              "propTypes": Object {
-                "alt": [Function],
-                "className": [Function],
-                "colors": [Function],
-                "display": [Function],
-                "height": [Function],
-                "hover": [Function],
-                "iconName": [Function],
-                "id": [Function],
-                "onClick": [Function],
-                "style": [Function],
-                "transition": [Function],
-                "width": [Function],
-              },
-              "render": [Function],
-              Symbol(Symbol.hasInstance): [Function],
-            },
+            "type": [Function],
           },
           " ",
           "Previous",
@@ -309,13 +293,14 @@ ShallowWrapper {
           "children": Array [
             "Next",
             " ",
-            <UNDEFINED
+            <Icon
               colors={
                 Array [
                   "#adb4bb",
                 ]
               }
               iconName="arrowDown"
+              transition="0.3s all"
             />,
           ],
           "className": "btn next",
@@ -335,30 +320,11 @@ ShallowWrapper {
                 "#adb4bb",
               ],
               "iconName": "arrowDown",
+              "transition": "0.3s all",
             },
             "ref": null,
             "rendered": null,
-            "type": Object {
-              "$$typeof": Symbol(react.forward_ref),
-              "InnerComponent": [Function],
-              "displayName": "JssContextSubscriber(Icon)",
-              "propTypes": Object {
-                "alt": [Function],
-                "className": [Function],
-                "colors": [Function],
-                "display": [Function],
-                "height": [Function],
-                "hover": [Function],
-                "iconName": [Function],
-                "id": [Function],
-                "onClick": [Function],
-                "style": [Function],
-                "transition": [Function],
-                "width": [Function],
-              },
-              "render": [Function],
-              Symbol(Symbol.hasInstance): [Function],
-            },
+            "type": [Function],
           },
         ],
         "type": "li",
@@ -378,13 +344,14 @@ ShallowWrapper {
             onClick={[Function]}
             tabIndex="0"
           >
-            <UNDEFINED
+            <Icon
               colors={
                 Array [
                   "#adb4bb",
                 ]
               }
               iconName="arrowDown"
+              transition="0.3s all"
             />
              
             Previous
@@ -431,13 +398,14 @@ ShallowWrapper {
           >
             Next
              
-            <UNDEFINED
+            <Icon
               colors={
                 Array [
                   "#adb4bb",
                 ]
               }
               iconName="arrowDown"
+              transition="0.3s all"
             />
           </li>,
         ],
@@ -451,13 +419,14 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": Array [
-              <UNDEFINED
+              <Icon
                 colors={
                   Array [
                     "#adb4bb",
                   ]
                 }
                 iconName="arrowDown"
+                transition="0.3s all"
               />,
               " ",
               "Previous",
@@ -477,30 +446,11 @@ ShallowWrapper {
                   "#adb4bb",
                 ],
                 "iconName": "arrowDown",
+                "transition": "0.3s all",
               },
               "ref": null,
               "rendered": null,
-              "type": Object {
-                "$$typeof": Symbol(react.forward_ref),
-                "InnerComponent": [Function],
-                "displayName": "JssContextSubscriber(Icon)",
-                "propTypes": Object {
-                  "alt": [Function],
-                  "className": [Function],
-                  "colors": [Function],
-                  "display": [Function],
-                  "height": [Function],
-                  "hover": [Function],
-                  "iconName": [Function],
-                  "id": [Function],
-                  "onClick": [Function],
-                  "style": [Function],
-                  "transition": [Function],
-                  "width": [Function],
-                },
-                "render": [Function],
-                Symbol(Symbol.hasInstance): [Function],
-              },
+              "type": [Function],
             },
             " ",
             "Previous",
@@ -646,13 +596,14 @@ ShallowWrapper {
             "children": Array [
               "Next",
               " ",
-              <UNDEFINED
+              <Icon
                 colors={
                   Array [
                     "#adb4bb",
                   ]
                 }
                 iconName="arrowDown"
+                transition="0.3s all"
               />,
             ],
             "className": "btn next",
@@ -672,30 +623,11 @@ ShallowWrapper {
                   "#adb4bb",
                 ],
                 "iconName": "arrowDown",
+                "transition": "0.3s all",
               },
               "ref": null,
               "rendered": null,
-              "type": Object {
-                "$$typeof": Symbol(react.forward_ref),
-                "InnerComponent": [Function],
-                "displayName": "JssContextSubscriber(Icon)",
-                "propTypes": Object {
-                  "alt": [Function],
-                  "className": [Function],
-                  "colors": [Function],
-                  "display": [Function],
-                  "height": [Function],
-                  "hover": [Function],
-                  "iconName": [Function],
-                  "id": [Function],
-                  "onClick": [Function],
-                  "style": [Function],
-                  "transition": [Function],
-                  "width": [Function],
-                },
-                "render": [Function],
-                Symbol(Symbol.hasInstance): [Function],
-              },
+              "type": [Function],
             },
           ],
           "type": "li",

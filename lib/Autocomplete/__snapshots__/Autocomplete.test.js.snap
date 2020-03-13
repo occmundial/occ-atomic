@@ -54,12 +54,20 @@ ShallowWrapper {
     "props": Object {
       "children": Array [
         <UNDEFINED
+          autoFocus={false}
+          clear={false}
+          counter={false}
+          disabled={false}
+          hjWhitelist={true}
           onBlur={[Function]}
           onChange={[Function]}
           onClear={[Function]}
           onFocus={[Function]}
           onKeyUp={[Function]}
           onRef={[Function]}
+          options={Array []}
+          selectOnFocus={false}
+          type="text"
           valueProp=""
         />,
         null,
@@ -75,22 +83,75 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "function",
         "props": Object {
+          "autoFocus": false,
+          "clear": false,
+          "counter": false,
+          "disabled": false,
+          "hjWhitelist": true,
           "onBlur": [Function],
           "onChange": [Function],
           "onClear": [Function],
           "onFocus": [Function],
           "onKeyUp": [Function],
           "onRef": [Function],
+          "options": Array [],
+          "selectOnFocus": false,
+          "type": "text",
           "valueProp": "",
         },
         "ref": null,
         "rendered": null,
         "type": Object {
           "$$typeof": Symbol(react.forward_ref),
-          "InnerComponent": [Function],
-          "displayName": "JssContextSubscriber(TextField)",
+          "defaultProps": Object {
+            "autoFocus": false,
+            "clear": false,
+            "counter": false,
+            "disabled": false,
+            "hjWhitelist": true,
+            "options": Array [],
+            "selectOnFocus": false,
+            "type": "text",
+            "valueProp": "",
+          },
+          "propTypes": Object {
+            "alignRight": [Function],
+            "allowError": [Function],
+            "assistiveText": [Function],
+            "autoFocus": [Function],
+            "className": [Function],
+            "clear": [Function],
+            "counter": [Function],
+            "disableAutoComplete": [Function],
+            "disabled": [Function],
+            "error": [Function],
+            "guide": [Function],
+            "hjWhitelist": [Function],
+            "iconName": [Function],
+            "id": [Function],
+            "input": [Function],
+            "inputClassName": [Function],
+            "label": [Function],
+            "lockHeight": [Function],
+            "mask": [Function],
+            "maxLength": [Function],
+            "meta": [Function],
+            "name": [Function],
+            "onBlur": [Function],
+            "onChange": [Function],
+            "onClear": [Function],
+            "onFocus": [Function],
+            "onKeyUp": [Function],
+            "options": [Function],
+            "placeholder": [Function],
+            "regex": [Function],
+            "required": [Function],
+            "selectOnFocus": [Function],
+            "style": [Function],
+            "type": [Function],
+            "valueProp": [Function],
+          },
           "render": [Function],
-          Symbol(Symbol.hasInstance): [Function],
         },
       },
       null,
@@ -105,12 +166,20 @@ ShallowWrapper {
       "props": Object {
         "children": Array [
           <UNDEFINED
+            autoFocus={false}
+            clear={false}
+            counter={false}
+            disabled={false}
+            hjWhitelist={true}
             onBlur={[Function]}
             onChange={[Function]}
             onClear={[Function]}
             onFocus={[Function]}
             onKeyUp={[Function]}
             onRef={[Function]}
+            options={Array []}
+            selectOnFocus={false}
+            type="text"
             valueProp=""
           />,
           null,
@@ -126,22 +195,75 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "function",
           "props": Object {
+            "autoFocus": false,
+            "clear": false,
+            "counter": false,
+            "disabled": false,
+            "hjWhitelist": true,
             "onBlur": [Function],
             "onChange": [Function],
             "onClear": [Function],
             "onFocus": [Function],
             "onKeyUp": [Function],
             "onRef": [Function],
+            "options": Array [],
+            "selectOnFocus": false,
+            "type": "text",
             "valueProp": "",
           },
           "ref": null,
           "rendered": null,
           "type": Object {
             "$$typeof": Symbol(react.forward_ref),
-            "InnerComponent": [Function],
-            "displayName": "JssContextSubscriber(TextField)",
+            "defaultProps": Object {
+              "autoFocus": false,
+              "clear": false,
+              "counter": false,
+              "disabled": false,
+              "hjWhitelist": true,
+              "options": Array [],
+              "selectOnFocus": false,
+              "type": "text",
+              "valueProp": "",
+            },
+            "propTypes": Object {
+              "alignRight": [Function],
+              "allowError": [Function],
+              "assistiveText": [Function],
+              "autoFocus": [Function],
+              "className": [Function],
+              "clear": [Function],
+              "counter": [Function],
+              "disableAutoComplete": [Function],
+              "disabled": [Function],
+              "error": [Function],
+              "guide": [Function],
+              "hjWhitelist": [Function],
+              "iconName": [Function],
+              "id": [Function],
+              "input": [Function],
+              "inputClassName": [Function],
+              "label": [Function],
+              "lockHeight": [Function],
+              "mask": [Function],
+              "maxLength": [Function],
+              "meta": [Function],
+              "name": [Function],
+              "onBlur": [Function],
+              "onChange": [Function],
+              "onClear": [Function],
+              "onFocus": [Function],
+              "onKeyUp": [Function],
+              "options": [Function],
+              "placeholder": [Function],
+              "regex": [Function],
+              "required": [Function],
+              "selectOnFocus": [Function],
+              "style": [Function],
+              "type": [Function],
+              "valueProp": [Function],
+            },
             "render": [Function],
-            Symbol(Symbol.hasInstance): [Function],
           },
         },
         null,
@@ -269,7 +391,7 @@ ShallowWrapper {
           "_context": [Circular],
         },
         "_calculateChangedBits": null,
-        "_currentRenderer": null,
+        "_currentRenderer": Object {},
         "_currentRenderer2": null,
         "_currentValue": Object {
           "classNamePrefix": "",
@@ -304,7 +426,7 @@ ShallowWrapper {
             "_context": [Circular],
           },
           "_calculateChangedBits": null,
-          "_currentRenderer": null,
+          "_currentRenderer": Object {},
           "_currentRenderer2": null,
           "_currentValue": Object {
             "classNamePrefix": "",

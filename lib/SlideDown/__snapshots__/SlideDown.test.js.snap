@@ -69,7 +69,7 @@ ShallowWrapper {
             <Flexbox
               flex="0 0 auto"
             >
-              <UNDEFINED
+              <Icon
                 className="icon"
                 colors={
                   Array [
@@ -82,6 +82,7 @@ ShallowWrapper {
                     "transform": "",
                   }
                 }
+                transition="0.3s all"
               />
             </Flexbox>
           </Flexbox>
@@ -126,7 +127,7 @@ ShallowWrapper {
             <Flexbox
               flex="0 0 auto"
             >
-              <UNDEFINED
+              <Icon
                 className="icon"
                 colors={
                   Array [
@@ -139,6 +140,7 @@ ShallowWrapper {
                     "transform": "",
                   }
                 }
+                transition="0.3s all"
               />
             </Flexbox>
           </Flexbox>,
@@ -177,7 +179,7 @@ ShallowWrapper {
               <Flexbox
                 flex="0 0 auto"
               >
-                <UNDEFINED
+                <Icon
                   className="icon"
                   colors={
                     Array [
@@ -190,6 +192,7 @@ ShallowWrapper {
                       "transform": "",
                     }
                   }
+                  transition="0.3s all"
                 />
               </Flexbox>,
             ],
@@ -296,7 +299,7 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "function",
               "props": Object {
-                "children": <UNDEFINED
+                "children": <Icon
                   className="icon"
                   colors={
                     Array [
@@ -309,6 +312,7 @@ ShallowWrapper {
                       "transform": "",
                     }
                   }
+                  transition="0.3s all"
                 />,
                 "flex": "0 0 auto",
               },
@@ -326,30 +330,11 @@ ShallowWrapper {
                   "style": Object {
                     "transform": "",
                   },
+                  "transition": "0.3s all",
                 },
                 "ref": null,
                 "rendered": null,
-                "type": Object {
-                  "$$typeof": Symbol(react.forward_ref),
-                  "InnerComponent": [Function],
-                  "displayName": "JssContextSubscriber(Icon)",
-                  "propTypes": Object {
-                    "alt": [Function],
-                    "className": [Function],
-                    "colors": [Function],
-                    "display": [Function],
-                    "height": [Function],
-                    "hover": [Function],
-                    "iconName": [Function],
-                    "id": [Function],
-                    "onClick": [Function],
-                    "style": [Function],
-                    "transition": [Function],
-                    "width": [Function],
-                  },
-                  "render": [Function],
-                  Symbol(Symbol.hasInstance): [Function],
-                },
+                "type": [Function],
               },
               "type": [Function],
             },
@@ -402,7 +387,7 @@ ShallowWrapper {
               <Flexbox
                 flex="0 0 auto"
               >
-                <UNDEFINED
+                <Icon
                   className="icon"
                   colors={
                     Array [
@@ -415,6 +400,7 @@ ShallowWrapper {
                       "transform": "",
                     }
                   }
+                  transition="0.3s all"
                 />
               </Flexbox>
             </Flexbox>
@@ -459,7 +445,7 @@ ShallowWrapper {
               <Flexbox
                 flex="0 0 auto"
               >
-                <UNDEFINED
+                <Icon
                   className="icon"
                   colors={
                     Array [
@@ -472,6 +458,7 @@ ShallowWrapper {
                       "transform": "",
                     }
                   }
+                  transition="0.3s all"
                 />
               </Flexbox>
             </Flexbox>,
@@ -510,7 +497,7 @@ ShallowWrapper {
                 <Flexbox
                   flex="0 0 auto"
                 >
-                  <UNDEFINED
+                  <Icon
                     className="icon"
                     colors={
                       Array [
@@ -523,6 +510,7 @@ ShallowWrapper {
                         "transform": "",
                       }
                     }
+                    transition="0.3s all"
                   />
                 </Flexbox>,
               ],
@@ -629,7 +617,7 @@ ShallowWrapper {
                 "key": undefined,
                 "nodeType": "function",
                 "props": Object {
-                  "children": <UNDEFINED
+                  "children": <Icon
                     className="icon"
                     colors={
                       Array [
@@ -642,6 +630,7 @@ ShallowWrapper {
                         "transform": "",
                       }
                     }
+                    transition="0.3s all"
                   />,
                   "flex": "0 0 auto",
                 },
@@ -659,30 +648,11 @@ ShallowWrapper {
                     "style": Object {
                       "transform": "",
                     },
+                    "transition": "0.3s all",
                   },
                   "ref": null,
                   "rendered": null,
-                  "type": Object {
-                    "$$typeof": Symbol(react.forward_ref),
-                    "InnerComponent": [Function],
-                    "displayName": "JssContextSubscriber(Icon)",
-                    "propTypes": Object {
-                      "alt": [Function],
-                      "className": [Function],
-                      "colors": [Function],
-                      "display": [Function],
-                      "height": [Function],
-                      "hover": [Function],
-                      "iconName": [Function],
-                      "id": [Function],
-                      "onClick": [Function],
-                      "style": [Function],
-                      "transition": [Function],
-                      "width": [Function],
-                    },
-                    "render": [Function],
-                    Symbol(Symbol.hasInstance): [Function],
-                  },
+                  "type": [Function],
                 },
                 "type": [Function],
               },

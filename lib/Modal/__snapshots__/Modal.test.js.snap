@@ -79,7 +79,7 @@ ShallowWrapper {
                   <div
                     className="closeIcon"
                   >
-                    <UNDEFINED
+                    <Icon
                       colors={
                         Array [
                           "#222222",
@@ -88,6 +88,7 @@ ShallowWrapper {
                       height={24}
                       iconName="close"
                       onClick={[MockFunction]}
+                      transition="0.3s all"
                       width={24}
                     />
                   </div>
@@ -134,7 +135,7 @@ ShallowWrapper {
                   <div
                     className="closeIcon"
                   >
-                    <UNDEFINED
+                    <Icon
                       colors={
                         Array [
                           "#222222",
@@ -143,6 +144,7 @@ ShallowWrapper {
                       height={24}
                       iconName="close"
                       onClick={[MockFunction]}
+                      transition="0.3s all"
                       width={24}
                     />
                   </div>
@@ -182,7 +184,7 @@ ShallowWrapper {
                   <div
                     className="closeIcon"
                   >
-                    <UNDEFINED
+                    <Icon
                       colors={
                         Array [
                           "#222222",
@@ -191,6 +193,7 @@ ShallowWrapper {
                       height={24}
                       iconName="close"
                       onClick={[MockFunction]}
+                      transition="0.3s all"
                       width={24}
                     />
                   </div>
@@ -226,7 +229,7 @@ ShallowWrapper {
                   <div
                     className="closeIcon"
                   >
-                    <UNDEFINED
+                    <Icon
                       colors={
                         Array [
                           "#222222",
@@ -235,6 +238,7 @@ ShallowWrapper {
                       height={24}
                       iconName="close"
                       onClick={[MockFunction]}
+                      transition="0.3s all"
                       width={24}
                     />
                   </div>
@@ -267,7 +271,7 @@ ShallowWrapper {
                     <div
                       className="closeIcon"
                     >
-                      <UNDEFINED
+                      <Icon
                         colors={
                           Array [
                             "#222222",
@@ -276,6 +280,7 @@ ShallowWrapper {
                         height={24}
                         iconName="close"
                         onClick={[MockFunction]}
+                        transition="0.3s all"
                         width={24}
                       />
                     </div>
@@ -306,7 +311,7 @@ ShallowWrapper {
                       <div
                         className="closeIcon"
                       >
-                        <UNDEFINED
+                        <Icon
                           colors={
                             Array [
                               "#222222",
@@ -315,6 +320,7 @@ ShallowWrapper {
                           height={24}
                           iconName="close"
                           onClick={[MockFunction]}
+                          transition="0.3s all"
                           width={24}
                         />
                       </div>
@@ -339,7 +345,7 @@ ShallowWrapper {
                         <div
                           className="closeIcon"
                         >
-                          <UNDEFINED
+                          <Icon
                             colors={
                               Array [
                                 "#222222",
@@ -348,6 +354,7 @@ ShallowWrapper {
                             height={24}
                             iconName="close"
                             onClick={[MockFunction]}
+                            transition="0.3s all"
                             width={24}
                           />
                         </div>,
@@ -364,7 +371,7 @@ ShallowWrapper {
                         "key": undefined,
                         "nodeType": "host",
                         "props": Object {
-                          "children": <UNDEFINED
+                          "children": <Icon
                             colors={
                               Array [
                                 "#222222",
@@ -373,6 +380,7 @@ ShallowWrapper {
                             height={24}
                             iconName="close"
                             onClick={[MockFunction]}
+                            transition="0.3s all"
                             width={24}
                           />,
                           "className": "closeIcon",
@@ -389,31 +397,12 @@ ShallowWrapper {
                             "height": 24,
                             "iconName": "close",
                             "onClick": [MockFunction],
+                            "transition": "0.3s all",
                             "width": 24,
                           },
                           "ref": null,
                           "rendered": null,
-                          "type": Object {
-                            "$$typeof": Symbol(react.forward_ref),
-                            "InnerComponent": [Function],
-                            "displayName": "JssContextSubscriber(Icon)",
-                            "propTypes": Object {
-                              "alt": [Function],
-                              "className": [Function],
-                              "colors": [Function],
-                              "display": [Function],
-                              "height": [Function],
-                              "hover": [Function],
-                              "iconName": [Function],
-                              "id": [Function],
-                              "onClick": [Function],
-                              "style": [Function],
-                              "transition": [Function],
-                              "width": [Function],
-                            },
-                            "render": [Function],
-                            Symbol(Symbol.hasInstance): [Function],
-                          },
+                          "type": [Function],
                         },
                         "type": "div",
                       },
@@ -480,7 +469,7 @@ ShallowWrapper {
                     <div
                       className="closeIcon"
                     >
-                      <UNDEFINED
+                      <Icon
                         colors={
                           Array [
                             "#222222",
@@ -489,6 +478,7 @@ ShallowWrapper {
                         height={24}
                         iconName="close"
                         onClick={[MockFunction]}
+                        transition="0.3s all"
                         width={24}
                       />
                     </div>
@@ -535,7 +525,7 @@ ShallowWrapper {
                     <div
                       className="closeIcon"
                     >
-                      <UNDEFINED
+                      <Icon
                         colors={
                           Array [
                             "#222222",
@@ -544,6 +534,7 @@ ShallowWrapper {
                         height={24}
                         iconName="close"
                         onClick={[MockFunction]}
+                        transition="0.3s all"
                         width={24}
                       />
                     </div>
@@ -583,7 +574,7 @@ ShallowWrapper {
                     <div
                       className="closeIcon"
                     >
-                      <UNDEFINED
+                      <Icon
                         colors={
                           Array [
                             "#222222",
@@ -592,6 +583,7 @@ ShallowWrapper {
                         height={24}
                         iconName="close"
                         onClick={[MockFunction]}
+                        transition="0.3s all"
                         width={24}
                       />
                     </div>
@@ -627,7 +619,7 @@ ShallowWrapper {
                     <div
                       className="closeIcon"
                     >
-                      <UNDEFINED
+                      <Icon
                         colors={
                           Array [
                             "#222222",
@@ -636,6 +628,7 @@ ShallowWrapper {
                         height={24}
                         iconName="close"
                         onClick={[MockFunction]}
+                        transition="0.3s all"
                         width={24}
                       />
                     </div>
@@ -668,7 +661,7 @@ ShallowWrapper {
                       <div
                         className="closeIcon"
                       >
-                        <UNDEFINED
+                        <Icon
                           colors={
                             Array [
                               "#222222",
@@ -677,6 +670,7 @@ ShallowWrapper {
                           height={24}
                           iconName="close"
                           onClick={[MockFunction]}
+                          transition="0.3s all"
                           width={24}
                         />
                       </div>
@@ -707,7 +701,7 @@ ShallowWrapper {
                         <div
                           className="closeIcon"
                         >
-                          <UNDEFINED
+                          <Icon
                             colors={
                               Array [
                                 "#222222",
@@ -716,6 +710,7 @@ ShallowWrapper {
                             height={24}
                             iconName="close"
                             onClick={[MockFunction]}
+                            transition="0.3s all"
                             width={24}
                           />
                         </div>
@@ -740,7 +735,7 @@ ShallowWrapper {
                           <div
                             className="closeIcon"
                           >
-                            <UNDEFINED
+                            <Icon
                               colors={
                                 Array [
                                   "#222222",
@@ -749,6 +744,7 @@ ShallowWrapper {
                               height={24}
                               iconName="close"
                               onClick={[MockFunction]}
+                              transition="0.3s all"
                               width={24}
                             />
                           </div>,
@@ -765,7 +761,7 @@ ShallowWrapper {
                           "key": undefined,
                           "nodeType": "host",
                           "props": Object {
-                            "children": <UNDEFINED
+                            "children": <Icon
                               colors={
                                 Array [
                                   "#222222",
@@ -774,6 +770,7 @@ ShallowWrapper {
                               height={24}
                               iconName="close"
                               onClick={[MockFunction]}
+                              transition="0.3s all"
                               width={24}
                             />,
                             "className": "closeIcon",
@@ -790,31 +787,12 @@ ShallowWrapper {
                               "height": 24,
                               "iconName": "close",
                               "onClick": [MockFunction],
+                              "transition": "0.3s all",
                               "width": 24,
                             },
                             "ref": null,
                             "rendered": null,
-                            "type": Object {
-                              "$$typeof": Symbol(react.forward_ref),
-                              "InnerComponent": [Function],
-                              "displayName": "JssContextSubscriber(Icon)",
-                              "propTypes": Object {
-                                "alt": [Function],
-                                "className": [Function],
-                                "colors": [Function],
-                                "display": [Function],
-                                "height": [Function],
-                                "hover": [Function],
-                                "iconName": [Function],
-                                "id": [Function],
-                                "onClick": [Function],
-                                "style": [Function],
-                                "transition": [Function],
-                                "width": [Function],
-                              },
-                              "render": [Function],
-                              Symbol(Symbol.hasInstance): [Function],
-                            },
+                            "type": [Function],
                           },
                           "type": "div",
                         },
