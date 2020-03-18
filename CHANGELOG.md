@@ -6,6 +6,9 @@ All notable changes to this project will be documented in this file.
 
 ## 2.0.x
 
+### 2.0.0-beta.1
+- Implementation of `react-jss@10.0.4` in some components.
+
 ### 2.0.0-beta.0
 - Removed all the deprecated components.
 
