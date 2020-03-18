@@ -59,18 +59,18 @@ ShallowWrapper {
           className="cardBlock"
           onClick={[Function]}
         >
-          <Jss(Card)
+          <Card
             className="card md cardHide"
             shadow={5}
           >
-            <Jss(Flexbox)
+            <Flexbox
               direction="col"
               display="flex"
             >
-              <Jss(Flexbox)
+              <Flexbox
                 flex={null}
               >
-                <Jss(Flexbox)
+                <Flexbox
                   alignItems="start"
                   className="top"
                   display="flex"
@@ -79,7 +79,7 @@ ShallowWrapper {
                   <div
                     className="closeIcon"
                   >
-                    <Jss(Icon)
+                    <Icon
                       colors={
                         Array [
                           "#222222",
@@ -92,13 +92,13 @@ ShallowWrapper {
                       width={24}
                     />
                   </div>
-                </Jss(Flexbox)>
+                </Flexbox>
                 <div
                   className="content"
                 />
-              </Jss(Flexbox)>
-            </Jss(Flexbox)>
-          </Jss(Card)>
+              </Flexbox>
+            </Flexbox>
+          </Card>
         </div>
       </div>,
       "className": "overlay overlayHide",
@@ -115,18 +115,18 @@ ShallowWrapper {
           className="cardBlock"
           onClick={[Function]}
         >
-          <Jss(Card)
+          <Card
             className="card md cardHide"
             shadow={5}
           >
-            <Jss(Flexbox)
+            <Flexbox
               direction="col"
               display="flex"
             >
-              <Jss(Flexbox)
+              <Flexbox
                 flex={null}
               >
-                <Jss(Flexbox)
+                <Flexbox
                   alignItems="start"
                   className="top"
                   display="flex"
@@ -135,7 +135,7 @@ ShallowWrapper {
                   <div
                     className="closeIcon"
                   >
-                    <Jss(Icon)
+                    <Icon
                       colors={
                         Array [
                           "#222222",
@@ -148,13 +148,13 @@ ShallowWrapper {
                       width={24}
                     />
                   </div>
-                </Jss(Flexbox)>
+                </Flexbox>
                 <div
                   className="content"
                 />
-              </Jss(Flexbox)>
-            </Jss(Flexbox)>
-          </Jss(Card)>
+              </Flexbox>
+            </Flexbox>
+          </Card>
         </div>,
         "className": "cardWrapper",
       },
@@ -164,18 +164,18 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": <Jss(Card)
+          "children": <Card
             className="card md cardHide"
             shadow={5}
           >
-            <Jss(Flexbox)
+            <Flexbox
               direction="col"
               display="flex"
             >
-              <Jss(Flexbox)
+              <Flexbox
                 flex={null}
               >
-                <Jss(Flexbox)
+                <Flexbox
                   alignItems="start"
                   className="top"
                   display="flex"
@@ -184,7 +184,7 @@ ShallowWrapper {
                   <div
                     className="closeIcon"
                   >
-                    <Jss(Icon)
+                    <Icon
                       colors={
                         Array [
                           "#222222",
@@ -197,13 +197,13 @@ ShallowWrapper {
                       width={24}
                     />
                   </div>
-                </Jss(Flexbox)>
+                </Flexbox>
                 <div
                   className="content"
                 />
-              </Jss(Flexbox)>
-            </Jss(Flexbox)>
-          </Jss(Card)>,
+              </Flexbox>
+            </Flexbox>
+          </Card>,
           "className": "cardBlock",
           "onClick": [Function],
         },
@@ -211,16 +211,16 @@ ShallowWrapper {
         "rendered": Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "class",
+          "nodeType": "function",
           "props": Object {
-            "children": <Jss(Flexbox)
+            "children": <Flexbox
               direction="col"
               display="flex"
             >
-              <Jss(Flexbox)
+              <Flexbox
                 flex={null}
               >
-                <Jss(Flexbox)
+                <Flexbox
                   alignItems="start"
                   className="top"
                   display="flex"
@@ -229,7 +229,7 @@ ShallowWrapper {
                   <div
                     className="closeIcon"
                   >
-                    <Jss(Icon)
+                    <Icon
                       colors={
                         Array [
                           "#222222",
@@ -242,12 +242,12 @@ ShallowWrapper {
                       width={24}
                     />
                   </div>
-                </Jss(Flexbox)>
+                </Flexbox>
                 <div
                   className="content"
                 />
-              </Jss(Flexbox)>
-            </Jss(Flexbox)>,
+              </Flexbox>
+            </Flexbox>,
             "className": "card md cardHide",
             "shadow": 5,
           },
@@ -255,14 +255,14 @@ ShallowWrapper {
           "rendered": Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "children": Array [
                 undefined,
-                <Jss(Flexbox)
+                <Flexbox
                   flex={null}
                 >
-                  <Jss(Flexbox)
+                  <Flexbox
                     alignItems="start"
                     className="top"
                     display="flex"
@@ -271,7 +271,7 @@ ShallowWrapper {
                     <div
                       className="closeIcon"
                     >
-                      <Jss(Icon)
+                      <Icon
                         colors={
                           Array [
                             "#222222",
@@ -284,11 +284,11 @@ ShallowWrapper {
                         width={24}
                       />
                     </div>
-                  </Jss(Flexbox)>
+                  </Flexbox>
                   <div
                     className="content"
                   />
-                </Jss(Flexbox)>,
+                </Flexbox>,
               ],
               "direction": "col",
               "display": "flex",
@@ -299,10 +299,10 @@ ShallowWrapper {
               Object {
                 "instance": null,
                 "key": undefined,
-                "nodeType": "class",
+                "nodeType": "function",
                 "props": Object {
                   "children": Array [
-                    <Jss(Flexbox)
+                    <Flexbox
                       alignItems="start"
                       className="top"
                       display="flex"
@@ -311,7 +311,7 @@ ShallowWrapper {
                       <div
                         className="closeIcon"
                       >
-                        <Jss(Icon)
+                        <Icon
                           colors={
                             Array [
                               "#222222",
@@ -324,7 +324,7 @@ ShallowWrapper {
                           width={24}
                         />
                       </div>
-                    </Jss(Flexbox)>,
+                    </Flexbox>,
                     <div
                       className="content"
                     />,
@@ -337,7 +337,7 @@ ShallowWrapper {
                   Object {
                     "instance": null,
                     "key": undefined,
-                    "nodeType": "class",
+                    "nodeType": "function",
                     "props": Object {
                       "alignItems": "start",
                       "children": Array [
@@ -345,7 +345,7 @@ ShallowWrapper {
                         <div
                           className="closeIcon"
                         >
-                          <Jss(Icon)
+                          <Icon
                             colors={
                               Array [
                                 "#222222",
@@ -371,7 +371,7 @@ ShallowWrapper {
                         "key": undefined,
                         "nodeType": "host",
                         "props": Object {
-                          "children": <Jss(Icon)
+                          "children": <Icon
                             colors={
                               Array [
                                 "#222222",
@@ -389,7 +389,7 @@ ShallowWrapper {
                         "rendered": Object {
                           "instance": null,
                           "key": undefined,
-                          "nodeType": "class",
+                          "nodeType": "function",
                           "props": Object {
                             "colors": Array [
                               "#222222",
@@ -449,18 +449,18 @@ ShallowWrapper {
             className="cardBlock"
             onClick={[Function]}
           >
-            <Jss(Card)
+            <Card
               className="card md cardHide"
               shadow={5}
             >
-              <Jss(Flexbox)
+              <Flexbox
                 direction="col"
                 display="flex"
               >
-                <Jss(Flexbox)
+                <Flexbox
                   flex={null}
                 >
-                  <Jss(Flexbox)
+                  <Flexbox
                     alignItems="start"
                     className="top"
                     display="flex"
@@ -469,7 +469,7 @@ ShallowWrapper {
                     <div
                       className="closeIcon"
                     >
-                      <Jss(Icon)
+                      <Icon
                         colors={
                           Array [
                             "#222222",
@@ -482,13 +482,13 @@ ShallowWrapper {
                         width={24}
                       />
                     </div>
-                  </Jss(Flexbox)>
+                  </Flexbox>
                   <div
                     className="content"
                   />
-                </Jss(Flexbox)>
-              </Jss(Flexbox)>
-            </Jss(Card)>
+                </Flexbox>
+              </Flexbox>
+            </Card>
           </div>
         </div>,
         "className": "overlay overlayHide",
@@ -505,18 +505,18 @@ ShallowWrapper {
             className="cardBlock"
             onClick={[Function]}
           >
-            <Jss(Card)
+            <Card
               className="card md cardHide"
               shadow={5}
             >
-              <Jss(Flexbox)
+              <Flexbox
                 direction="col"
                 display="flex"
               >
-                <Jss(Flexbox)
+                <Flexbox
                   flex={null}
                 >
-                  <Jss(Flexbox)
+                  <Flexbox
                     alignItems="start"
                     className="top"
                     display="flex"
@@ -525,7 +525,7 @@ ShallowWrapper {
                     <div
                       className="closeIcon"
                     >
-                      <Jss(Icon)
+                      <Icon
                         colors={
                           Array [
                             "#222222",
@@ -538,13 +538,13 @@ ShallowWrapper {
                         width={24}
                       />
                     </div>
-                  </Jss(Flexbox)>
+                  </Flexbox>
                   <div
                     className="content"
                   />
-                </Jss(Flexbox)>
-              </Jss(Flexbox)>
-            </Jss(Card)>
+                </Flexbox>
+              </Flexbox>
+            </Card>
           </div>,
           "className": "cardWrapper",
         },
@@ -554,18 +554,18 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": <Jss(Card)
+            "children": <Card
               className="card md cardHide"
               shadow={5}
             >
-              <Jss(Flexbox)
+              <Flexbox
                 direction="col"
                 display="flex"
               >
-                <Jss(Flexbox)
+                <Flexbox
                   flex={null}
                 >
-                  <Jss(Flexbox)
+                  <Flexbox
                     alignItems="start"
                     className="top"
                     display="flex"
@@ -574,7 +574,7 @@ ShallowWrapper {
                     <div
                       className="closeIcon"
                     >
-                      <Jss(Icon)
+                      <Icon
                         colors={
                           Array [
                             "#222222",
@@ -587,13 +587,13 @@ ShallowWrapper {
                         width={24}
                       />
                     </div>
-                  </Jss(Flexbox)>
+                  </Flexbox>
                   <div
                     className="content"
                   />
-                </Jss(Flexbox)>
-              </Jss(Flexbox)>
-            </Jss(Card)>,
+                </Flexbox>
+              </Flexbox>
+            </Card>,
             "className": "cardBlock",
             "onClick": [Function],
           },
@@ -601,16 +601,16 @@ ShallowWrapper {
           "rendered": Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
-              "children": <Jss(Flexbox)
+              "children": <Flexbox
                 direction="col"
                 display="flex"
               >
-                <Jss(Flexbox)
+                <Flexbox
                   flex={null}
                 >
-                  <Jss(Flexbox)
+                  <Flexbox
                     alignItems="start"
                     className="top"
                     display="flex"
@@ -619,7 +619,7 @@ ShallowWrapper {
                     <div
                       className="closeIcon"
                     >
-                      <Jss(Icon)
+                      <Icon
                         colors={
                           Array [
                             "#222222",
@@ -632,12 +632,12 @@ ShallowWrapper {
                         width={24}
                       />
                     </div>
-                  </Jss(Flexbox)>
+                  </Flexbox>
                   <div
                     className="content"
                   />
-                </Jss(Flexbox)>
-              </Jss(Flexbox)>,
+                </Flexbox>
+              </Flexbox>,
               "className": "card md cardHide",
               "shadow": 5,
             },
@@ -645,14 +645,14 @@ ShallowWrapper {
             "rendered": Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
                 "children": Array [
                   undefined,
-                  <Jss(Flexbox)
+                  <Flexbox
                     flex={null}
                   >
-                    <Jss(Flexbox)
+                    <Flexbox
                       alignItems="start"
                       className="top"
                       display="flex"
@@ -661,7 +661,7 @@ ShallowWrapper {
                       <div
                         className="closeIcon"
                       >
-                        <Jss(Icon)
+                        <Icon
                           colors={
                             Array [
                               "#222222",
@@ -674,11 +674,11 @@ ShallowWrapper {
                           width={24}
                         />
                       </div>
-                    </Jss(Flexbox)>
+                    </Flexbox>
                     <div
                       className="content"
                     />
-                  </Jss(Flexbox)>,
+                  </Flexbox>,
                 ],
                 "direction": "col",
                 "display": "flex",
@@ -689,10 +689,10 @@ ShallowWrapper {
                 Object {
                   "instance": null,
                   "key": undefined,
-                  "nodeType": "class",
+                  "nodeType": "function",
                   "props": Object {
                     "children": Array [
-                      <Jss(Flexbox)
+                      <Flexbox
                         alignItems="start"
                         className="top"
                         display="flex"
@@ -701,7 +701,7 @@ ShallowWrapper {
                         <div
                           className="closeIcon"
                         >
-                          <Jss(Icon)
+                          <Icon
                             colors={
                               Array [
                                 "#222222",
@@ -714,7 +714,7 @@ ShallowWrapper {
                             width={24}
                           />
                         </div>
-                      </Jss(Flexbox)>,
+                      </Flexbox>,
                       <div
                         className="content"
                       />,
@@ -727,7 +727,7 @@ ShallowWrapper {
                     Object {
                       "instance": null,
                       "key": undefined,
-                      "nodeType": "class",
+                      "nodeType": "function",
                       "props": Object {
                         "alignItems": "start",
                         "children": Array [
@@ -735,7 +735,7 @@ ShallowWrapper {
                           <div
                             className="closeIcon"
                           >
-                            <Jss(Icon)
+                            <Icon
                               colors={
                                 Array [
                                   "#222222",
@@ -761,7 +761,7 @@ ShallowWrapper {
                           "key": undefined,
                           "nodeType": "host",
                           "props": Object {
-                            "children": <Jss(Icon)
+                            "children": <Icon
                               colors={
                                 Array [
                                   "#222222",
@@ -779,7 +779,7 @@ ShallowWrapper {
                           "rendered": Object {
                             "instance": null,
                             "key": undefined,
-                            "nodeType": "class",
+                            "nodeType": "function",
                             "props": Object {
                               "colors": Array [
                                 "#222222",
@@ -843,7 +843,9 @@ ShallowWrapper {
         },
       },
     },
+    Symbol(enzyme.__providerValues__): undefined,
   },
+  Symbol(enzyme.__providerValues__): Map {},
 }
 `;
 
@@ -1080,6 +1082,8 @@ ShallowWrapper {
         },
       },
     },
+    Symbol(enzyme.__providerValues__): undefined,
   },
+  Symbol(enzyme.__providerValues__): Map {},
 }
 `;

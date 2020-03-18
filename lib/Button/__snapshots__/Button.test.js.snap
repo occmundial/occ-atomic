@@ -1,40 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Button matches the snapshot 1`] = `
-ShallowWrapper {
-  Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <Button
-    block={false}
-    classes={
-      Object {
-        "@keyframes iconRotate": "@keyframes iconRotate",
-        "block": "block",
-        "btn": "btn",
-        "cont": "cont",
-        "disabled": "disabled",
-        "ghostGrey": "ghostGrey",
-        "ghostPink": "ghostPink",
-        "ghostWhite": "ghostWhite",
-        "icon": "icon",
-        "iconOnly": "iconOnly",
-        "iconRight": "iconRight",
-        "lg": "lg",
-        "loadCont": "loadCont",
-        "loadIcon": "loadIcon",
-        "loading": "loading",
-        "md": "md",
-        "primary": "primary",
-        "secondary": "secondary",
-        "tertiary": "tertiary",
-        "tertiaryWhite": "tertiaryWhite",
-      }
-    }
-    disabled={false}
-    size="sm"
-    theme="primary"
-  >
-    Button
-  </Button>,
+ReactWrapper {
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
@@ -43,61 +10,37 @@ ShallowWrapper {
     "simulateEvent": [Function],
     "unmount": [Function],
   },
+  Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__node__): Object {
     "instance": null,
     "key": undefined,
-    "nodeType": "host",
+    "nodeType": "function",
     "props": Object {
-      "children": Array [
+      "block": false,
+      "children": "Button",
+      "disabled": false,
+      "size": "sm",
+      "theme": "primary",
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": <button
+        class="btn-0-2-1 primary-0-2-4 primary-d0-0-2-21"
+      >
         <span
-          className="cont"
+          class="cont-0-2-2"
         >
           
           Button
           
-        </span>,
-        null,
-      ],
-      "className": "btn primary",
-      "id": undefined,
-      "onClick": undefined,
-      "style": undefined,
-    },
-    "ref": null,
-    "rendered": Array [
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": Array [
-            "",
-            "Button",
-            "",
-          ],
-          "className": "cont",
-        },
-        "ref": null,
-        "rendered": Array [
-          "",
-          "Button",
-          "",
-        ],
-        "type": "span",
-      },
-      null,
-    ],
-    "type": "button",
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
+        </span>
+      </button>,
       "key": undefined,
       "nodeType": "host",
       "props": Object {
         "children": Array [
           <span
-            className="cont"
+            className="cont-0-2-2"
           >
             
             Button
@@ -105,7 +48,7 @@ ShallowWrapper {
           </span>,
           null,
         ],
-        "className": "btn primary",
+        "className": "btn-0-2-1 primary-0-2-4 primary-d0-0-2-21",
         "id": undefined,
         "onClick": undefined,
         "style": undefined,
@@ -113,7 +56,13 @@ ShallowWrapper {
       "ref": null,
       "rendered": Array [
         Object {
-          "instance": null,
+          "instance": <span
+            class="cont-0-2-2"
+          >
+            
+            Button
+            
+          </span>,
           "key": undefined,
           "nodeType": "host",
           "props": Object {
@@ -122,7 +71,7 @@ ShallowWrapper {
               "Button",
               "",
             ],
-            "className": "cont",
+            "className": "cont-0-2-2",
           },
           "ref": null,
           "rendered": Array [
@@ -132,413 +81,85 @@ ShallowWrapper {
           ],
           "type": "span",
         },
-        null,
       ],
       "type": "button",
     },
-  ],
-  Symbol(enzyme.__options__): Object {
-    "adapter": ReactSixteenAdapter {
-      "options": Object {
-        "enableComponentDidUpdateOnSetState": true,
-        "lifecycles": Object {
-          "componentDidUpdate": Object {
-            "onSetState": true,
-          },
-          "getDerivedStateFromProps": true,
-          "getSnapshotBeforeUpdate": true,
-          "setState": Object {
-            "skipsComponentDidUpdateOnNullish": true,
-          },
-        },
-      },
-    },
-  },
-}
-`;
-
-exports[`Button styles matches the snapshot 1`] = `
-Object {
-  "@keyframes iconRotate": Object {
-    "from": Object {
-      "transform": "rotate(0deg)",
-    },
-    "to": Object {
-      "transform": "rotate(360deg)",
-    },
-  },
-  "block": Object {
-    "display": "block",
-    "width": "100%",
-  },
-  "btn": Object {
-    "&:focus": Object {
-      "outline": "none",
-    },
-    "&:hover": Object {
-      "textDecoration": "none",
-    },
-    "borderRadius": 6,
-    "boxSizing": "border-box",
-    "cursor": "pointer",
-    "display": "inline-block",
-    "fontFamily": "'Open Sans', sans-serif",
-    "fontSize": 12,
-    "fontWeight": 600,
-    "height": 32,
-    "letterSpacing": 1,
-    "lineHeight": "24px",
-    "marginBottom": 0,
-    "maxWidth": "100%",
-    "padding": Array [
-      0,
-      16,
-    ],
-    "position": "relative",
-    "textAlign": "center",
-    "textDecoration": "none",
-    "textTransform": "uppercase",
-    "touchAction": "manipulation",
-    "transition": "0.3s all",
-    "userSelect": "none",
-    "whiteSpace": "nowrap",
-  },
-  "cont": Object {
-    "alignItems": "center",
-    "display": "flex",
-    "height": "100%",
-    "justifyContent": "center",
-    "pointerEvents": "none",
-    "width": "100%",
-  },
-  "disabled": Object {
-    "& i": Object {
-      "background": [Function],
-    },
-    "&:hover, &:active, &:focus": Object {
-      "background": "#f13465",
-      "border": "1px solid #f13465",
-      "color": "#ffffff",
-    },
-    "background": "#f13465",
-    "border": "1px solid #f13465",
-    "color": "#ffffff",
-    "cursor": "default",
-    "opacity": 0.4,
-    "pointerEvents": "none",
-  },
-  "ghostGrey": Object {
-    "& $loadIcon": Object {
-      "background": "url(data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgogICAgICAgICAgICAJIHZpZXdCb3g9IjAgMCAyNCAyNCIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMjQgMjQ7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KICAgICAgICAgICAgPHN0eWxlIHR5cGU9InRleHQvY3NzIj4KICAgICAgICAgICAgCS5zdDB7ZmlsbDp1cmwoI1NWR0lEXzFfKTt9CiAgICAgICAgICAgIDwvc3R5bGU+CiAgICAgICAgICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iU1ZHSURfMV8iIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4MT0iMjEiIHkxPSIxMiIgeDI9IjMiIHkyPSIxMiI+CiAgICAgICAgICAgIAk8c3RvcCAgb2Zmc2V0PSIwLjE3NzgiIHN0eWxlPSJzdG9wLWNvbG9yOiM3Nzc3Nzc7c3RvcC1vcGFjaXR5OjAiLz4KICAgICAgICAgICAgCTxzdG9wICBvZmZzZXQ9IjAuMjI3MSIgc3R5bGU9InN0b3AtY29sb3I6Izc3Nzc3NztzdG9wLW9wYWNpdHk6MC4xIi8+CiAgICAgICAgICAgIAk8c3RvcCAgb2Zmc2V0PSIwLjMxNTciIHN0eWxlPSJzdG9wLWNvbG9yOiM3Nzc3Nzc7c3RvcC1vcGFjaXR5OjAuNCIvPgogICAgICAgICAgICAJPHN0b3AgIG9mZnNldD0iMC40NTI1IiBzdHlsZT0ic3RvcC1jb2xvcjojNzc3Nzc3O3N0b3Atb3BhY2l0eTowLjciLz4KICAgICAgICAgICAgCTxzdG9wICBvZmZzZXQ9IjAuNTU0NiIgc3R5bGU9InN0b3AtY29sb3I6Izc3Nzc3NyIvPgogICAgICAgICAgICAJPHN0b3AgIG9mZnNldD0iMC45Mjc4IiBzdHlsZT0ic3RvcC1jb2xvcjojNzc3Nzc3Ii8+CiAgICAgICAgICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgICAgICAgICAgIDxwYXRoIGNsYXNzPSJzdDAiIGQ9Ik0xOS4xLDEyYzAuMSw0LTMuMSw3LjItNy4xLDcuMlM0LjgsMTYsNC44LDEyUzgsNC44LDEyLDQuOFYzYy01LDAtOSw0LTksOXM0LDksOSw5czktNCw5LTlIMTkuMXoiLz4KICAgICAgICAgICAgPC9zdmc+)",
-    },
-    "& i": Object {
-      "background": [Function],
-    },
-    "&$disabled": Object {
-      "& i": Object {
-        "background": [Function],
-      },
-      "background": "transparent !important",
-      "border": "none !important",
-      "color": "#222222 !important",
-    },
-    "&:hover, &:active": Object {
-      "& i": Object {
-        "background": [Function],
-      },
-      "color": "#777777",
-    },
-    "background": "transparent",
-    "border": "none",
-    "color": "#222222",
-    "paddingLeft": 0,
-    "paddingRight": 0,
-  },
-  "ghostPink": Object {
-    "& $loadIcon": Object {
-      "background": "url(data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgogICAgICAgICAgICAJIHZpZXdCb3g9IjAgMCAyNCAyNCIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMjQgMjQ7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KICAgICAgICAgICAgPHN0eWxlIHR5cGU9InRleHQvY3NzIj4KICAgICAgICAgICAgCS5zdDB7ZmlsbDp1cmwoI1NWR0lEXzFfKTt9CiAgICAgICAgICAgIDwvc3R5bGU+CiAgICAgICAgICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iU1ZHSURfMV8iIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4MT0iMjEiIHkxPSIxMiIgeDI9IjMiIHkyPSIxMiI+CiAgICAgICAgICAgIAk8c3RvcCAgb2Zmc2V0PSIwLjE3NzgiIHN0eWxlPSJzdG9wLWNvbG9yOiNmMTM0NjU7c3RvcC1vcGFjaXR5OjAiLz4KICAgICAgICAgICAgCTxzdG9wICBvZmZzZXQ9IjAuMjI3MSIgc3R5bGU9InN0b3AtY29sb3I6I2YxMzQ2NTtzdG9wLW9wYWNpdHk6MC4xIi8+CiAgICAgICAgICAgIAk8c3RvcCAgb2Zmc2V0PSIwLjMxNTciIHN0eWxlPSJzdG9wLWNvbG9yOiNmMTM0NjU7c3RvcC1vcGFjaXR5OjAuNCIvPgogICAgICAgICAgICAJPHN0b3AgIG9mZnNldD0iMC40NTI1IiBzdHlsZT0ic3RvcC1jb2xvcjojZjEzNDY1O3N0b3Atb3BhY2l0eTowLjciLz4KICAgICAgICAgICAgCTxzdG9wICBvZmZzZXQ9IjAuNTU0NiIgc3R5bGU9InN0b3AtY29sb3I6I2YxMzQ2NSIvPgogICAgICAgICAgICAJPHN0b3AgIG9mZnNldD0iMC45Mjc4IiBzdHlsZT0ic3RvcC1jb2xvcjojZjEzNDY1Ii8+CiAgICAgICAgICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgICAgICAgICAgIDxwYXRoIGNsYXNzPSJzdDAiIGQ9Ik0xOS4xLDEyYzAuMSw0LTMuMSw3LjItNy4xLDcuMlM0LjgsMTYsNC44LDEyUzgsNC44LDEyLDQuOFYzYy01LDAtOSw0LTksOXM0LDksOSw5czktNCw5LTlIMTkuMXoiLz4KICAgICAgICAgICAgPC9zdmc+)",
-    },
-    "& i": Object {
-      "background": [Function],
-    },
-    "&$disabled": Object {
-      "& i": Object {
-        "background": [Function],
-      },
-      "background": "transparent !important",
-      "border": "none !important",
-      "color": "#f13465 !important",
-    },
-    "&:hover, &:active": Object {
-      "& i": Object {
-        "background": [Function],
-      },
-      "color": "#cc1b4a",
-    },
-    "background": "transparent",
-    "border": "none",
-    "color": "#f13465",
-    "paddingLeft": 0,
-    "paddingRight": 0,
-  },
-  "ghostWhite": Object {
-    "& i": Object {
-      "background": [Function],
-    },
-    "&$disabled": Object {
-      "& i": Object {
-        "background": [Function],
-      },
-      "background": "transparent !important",
-      "border": "none !important",
-      "color": "#ffffff !important",
-    },
-    "&:hover, &:active": Object {
-      "opacity": 0.6,
-    },
-    "background": "transparent",
-    "border": "none",
-    "color": "#ffffff",
-    "paddingLeft": 0,
-    "paddingRight": 0,
-  },
-  "icon": Object {
-    "display": "inline-block",
-    "height": 14,
-    "marginRight": 4,
-    "transition": "0.3s all",
-    "width": 14,
-  },
-  "iconOnly": Object {
-    "& i": Object {
-      "marginRight": 0,
-    },
-    "padding": "0 8px",
-  },
-  "iconRight": Object {
-    "display": "inline-block",
-    "height": 14,
-    "marginLeft": 4,
-    "transition": "0.3s all",
-    "width": 14,
-  },
-  "lg": Object {
-    "& i": Object {
-      "height": 18,
-      "width": 18,
-    },
-    "&$iconOnly": Object {
-      "padding": "0 16px",
-    },
-    "fontSize": 14,
-    "height": 48,
-    "lineHeight": "24px",
-  },
-  "loadCont": Object {
-    "alignItems": "center",
-    "display": "flex",
-    "height": "100%",
-    "justifyContent": "center",
-    "left": 0,
-    "pointerEvents": "none",
-    "position": "absolute",
-    "top": 0,
-    "width": "100%",
-  },
-  "loadIcon": Object {
-    "animation": "iconRotate 1s infinite linear",
-    "background": "url(data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgogICAgICAgICAgICAJIHZpZXdCb3g9IjAgMCAyNCAyNCIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMjQgMjQ7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KICAgICAgICAgICAgPHN0eWxlIHR5cGU9InRleHQvY3NzIj4KICAgICAgICAgICAgCS5zdDB7ZmlsbDp1cmwoI1NWR0lEXzFfKTt9CiAgICAgICAgICAgIDwvc3R5bGU+CiAgICAgICAgICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iU1ZHSURfMV8iIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4MT0iMjEiIHkxPSIxMiIgeDI9IjMiIHkyPSIxMiI+CiAgICAgICAgICAgIAk8c3RvcCAgb2Zmc2V0PSIwLjE3NzgiIHN0eWxlPSJzdG9wLWNvbG9yOiNmZmZmZmY7c3RvcC1vcGFjaXR5OjAiLz4KICAgICAgICAgICAgCTxzdG9wICBvZmZzZXQ9IjAuMjI3MSIgc3R5bGU9InN0b3AtY29sb3I6I2ZmZmZmZjtzdG9wLW9wYWNpdHk6MC4xIi8+CiAgICAgICAgICAgIAk8c3RvcCAgb2Zmc2V0PSIwLjMxNTciIHN0eWxlPSJzdG9wLWNvbG9yOiNmZmZmZmY7c3RvcC1vcGFjaXR5OjAuNCIvPgogICAgICAgICAgICAJPHN0b3AgIG9mZnNldD0iMC40NTI1IiBzdHlsZT0ic3RvcC1jb2xvcjojZmZmZmZmO3N0b3Atb3BhY2l0eTowLjciLz4KICAgICAgICAgICAgCTxzdG9wICBvZmZzZXQ9IjAuNTU0NiIgc3R5bGU9InN0b3AtY29sb3I6I2ZmZmZmZiIvPgogICAgICAgICAgICAJPHN0b3AgIG9mZnNldD0iMC45Mjc4IiBzdHlsZT0ic3RvcC1jb2xvcjojZmZmZmZmIi8+CiAgICAgICAgICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgICAgICAgICAgIDxwYXRoIGNsYXNzPSJzdDAiIGQ9Ik0xOS4xLDEyYzAuMSw0LTMuMSw3LjItNy4xLDcuMlM0LjgsMTYsNC44LDEyUzgsNC44LDEyLDQuOFYzYy01LDAtOSw0LTksOXM0LDksOSw5czktNCw5LTlIMTkuMXoiLz4KICAgICAgICAgICAgPC9zdmc+)",
-    "display": "inline-block",
-    "height": 24,
-    "transition": "0.3s all",
-    "width": 24,
-  },
-  "loading": Object {
-    "& $cont": Object {
-      "visibility": "hidden",
-    },
-    "pointerEvents": "none",
-  },
-  "md": Object {
-    "& i": Object {
-      "height": 18,
-      "width": 18,
-    },
-    "&$iconOnly": Object {
-      "padding": "0 12px",
-    },
-    "fontSize": 14,
-    "height": 40,
-    "lineHeight": "24px",
-  },
-  "primary": Object {
-    "& i": Object {
-      "background": [Function],
-    },
-    "&:hover, &:active": Object {
-      "background": "#cc1b4a",
-      "borderColor": "#cc1b4a",
-      "color": "#ffffff",
-    },
-    "background": "#f13465",
-    "border": "1px solid #f13465",
-    "color": "#ffffff",
-  },
-  "secondary": Object {
-    "& $loadIcon": Object {
-      "background": "url(data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgogICAgICAgICAgICAJIHZpZXdCb3g9IjAgMCAyNCAyNCIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMjQgMjQ7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KICAgICAgICAgICAgPHN0eWxlIHR5cGU9InRleHQvY3NzIj4KICAgICAgICAgICAgCS5zdDB7ZmlsbDp1cmwoI1NWR0lEXzFfKTt9CiAgICAgICAgICAgIDwvc3R5bGU+CiAgICAgICAgICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iU1ZHSURfMV8iIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4MT0iMjEiIHkxPSIxMiIgeDI9IjMiIHkyPSIxMiI+CiAgICAgICAgICAgIAk8c3RvcCAgb2Zmc2V0PSIwLjE3NzgiIHN0eWxlPSJzdG9wLWNvbG9yOiNmMTM0NjU7c3RvcC1vcGFjaXR5OjAiLz4KICAgICAgICAgICAgCTxzdG9wICBvZmZzZXQ9IjAuMjI3MSIgc3R5bGU9InN0b3AtY29sb3I6I2YxMzQ2NTtzdG9wLW9wYWNpdHk6MC4xIi8+CiAgICAgICAgICAgIAk8c3RvcCAgb2Zmc2V0PSIwLjMxNTciIHN0eWxlPSJzdG9wLWNvbG9yOiNmMTM0NjU7c3RvcC1vcGFjaXR5OjAuNCIvPgogICAgICAgICAgICAJPHN0b3AgIG9mZnNldD0iMC40NTI1IiBzdHlsZT0ic3RvcC1jb2xvcjojZjEzNDY1O3N0b3Atb3BhY2l0eTowLjciLz4KICAgICAgICAgICAgCTxzdG9wICBvZmZzZXQ9IjAuNTU0NiIgc3R5bGU9InN0b3AtY29sb3I6I2YxMzQ2NSIvPgogICAgICAgICAgICAJPHN0b3AgIG9mZnNldD0iMC45Mjc4IiBzdHlsZT0ic3RvcC1jb2xvcjojZjEzNDY1Ii8+CiAgICAgICAgICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgICAgICAgICAgIDxwYXRoIGNsYXNzPSJzdDAiIGQ9Ik0xOS4xLDEyYzAuMSw0LTMuMSw3LjItNy4xLDcuMlM0LjgsMTYsNC44LDEyUzgsNC44LDEyLDQuOFYzYy01LDAtOSw0LTksOXM0LDksOSw5czktNCw5LTlIMTkuMXoiLz4KICAgICAgICAgICAgPC9zdmc+)",
-    },
-    "& i": Object {
-      "background": [Function],
-    },
-    "&$disabled": Object {
-      "background": "#feeff3 !important",
-      "border": "1px solid #feeff3 !important",
-      "color": "#f13465 !important",
-    },
-    "&:hover, &:active": Object {
-      "& i": Object {
-        "background": [Function],
-      },
-      "color": "#cc1b4a",
-    },
-    "background": "#feeff3",
-    "border": "1px solid #feeff3",
-    "color": "#f13465",
-  },
-  "tertiary": Object {
-    "& $loadIcon": Object {
-      "background": "url(data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgogICAgICAgICAgICAJIHZpZXdCb3g9IjAgMCAyNCAyNCIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMjQgMjQ7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KICAgICAgICAgICAgPHN0eWxlIHR5cGU9InRleHQvY3NzIj4KICAgICAgICAgICAgCS5zdDB7ZmlsbDp1cmwoI1NWR0lEXzFfKTt9CiAgICAgICAgICAgIDwvc3R5bGU+CiAgICAgICAgICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iU1ZHSURfMV8iIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4MT0iMjEiIHkxPSIxMiIgeDI9IjMiIHkyPSIxMiI+CiAgICAgICAgICAgIAk8c3RvcCAgb2Zmc2V0PSIwLjE3NzgiIHN0eWxlPSJzdG9wLWNvbG9yOiM3Nzc3Nzc7c3RvcC1vcGFjaXR5OjAiLz4KICAgICAgICAgICAgCTxzdG9wICBvZmZzZXQ9IjAuMjI3MSIgc3R5bGU9InN0b3AtY29sb3I6Izc3Nzc3NztzdG9wLW9wYWNpdHk6MC4xIi8+CiAgICAgICAgICAgIAk8c3RvcCAgb2Zmc2V0PSIwLjMxNTciIHN0eWxlPSJzdG9wLWNvbG9yOiM3Nzc3Nzc7c3RvcC1vcGFjaXR5OjAuNCIvPgogICAgICAgICAgICAJPHN0b3AgIG9mZnNldD0iMC40NTI1IiBzdHlsZT0ic3RvcC1jb2xvcjojNzc3Nzc3O3N0b3Atb3BhY2l0eTowLjciLz4KICAgICAgICAgICAgCTxzdG9wICBvZmZzZXQ9IjAuNTU0NiIgc3R5bGU9InN0b3AtY29sb3I6Izc3Nzc3NyIvPgogICAgICAgICAgICAJPHN0b3AgIG9mZnNldD0iMC45Mjc4IiBzdHlsZT0ic3RvcC1jb2xvcjojNzc3Nzc3Ii8+CiAgICAgICAgICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgICAgICAgICAgIDxwYXRoIGNsYXNzPSJzdDAiIGQ9Ik0xOS4xLDEyYzAuMSw0LTMuMSw3LjItNy4xLDcuMlM0LjgsMTYsNC44LDEyUzgsNC44LDEyLDQuOFYzYy01LDAtOSw0LTksOXM0LDksOSw5czktNCw5LTlIMTkuMXoiLz4KICAgICAgICAgICAgPC9zdmc+)",
-    },
-    "& i": Object {
-      "background": [Function],
-    },
-    "&$disabled": Object {
-      "& i": Object {
-        "background": [Function],
-      },
-      "background": "#ffffff !important",
-      "border": "1px solid #dddddd !important",
-      "color": "#222222 !important",
-    },
-    "&:hover, &:active": Object {
-      "& i": Object {
-        "background": [Function],
-      },
-      "color": "#777777",
-    },
-    "background": "#ffffff",
-    "border": "1px solid #dddddd",
-    "color": "#222222",
-  },
-  "tertiaryWhite": Object {
-    "& i": Object {
-      "background": [Function],
-    },
-    "&$disabled": Object {
-      "& i": Object {
-        "background": [Function],
-      },
-      "background": "transparent !important",
-      "border": "1px solid #dddddd !important",
-      "color": "#ffffff !important",
-    },
-    "&:hover, &:active": Object {
-      "opacity": 0.6,
-    },
-    "background": "transparent",
-    "border": "1px solid #dddddd",
-    "color": "#ffffff",
-  },
-}
-`;
-
-exports[`ButtonJSS matches the snapshot 1`] = `
-ShallowWrapper {
-  Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <Jss(Button)
-    block={false}
-    disabled={false}
-    size="sm"
-    theme="primary"
-  />,
-  Symbol(enzyme.__renderer__): Object {
-    "batchedUpdates": [Function],
-    "getNode": [Function],
-    "render": [Function],
-    "simulateError": [Function],
-    "simulateEvent": [Function],
-    "unmount": [Function],
-  },
-  Symbol(enzyme.__node__): Object {
-    "instance": null,
-    "key": undefined,
-    "nodeType": "class",
-    "props": Object {
-      "block": false,
-      "classes": Object {
-        "block": "Button-block-0-1-34 Button-block-0-1-15",
-        "btn": "Button-btn-0-1-28 Button-btn-0-1-1",
-        "cont": "Button-cont-0-1-29 Button-cont-0-1-2",
-        "disabled": "Button-disabled-0-1-27 Button-disabled-0-1-12",
-        "ghostGrey": "Button-ghostGrey-0-1-25 Button-ghostGrey-0-1-9",
-        "ghostPink": "Button-ghostPink-0-1-24 Button-ghostPink-0-1-8",
-        "ghostWhite": "Button-ghostWhite-0-1-26 Button-ghostWhite-0-1-10",
-        "icon": "Button-icon-0-1-35 Button-icon-0-1-16",
-        "iconOnly": "Button-iconOnly-0-1-37 Button-iconOnly-0-1-18",
-        "iconRight": "Button-iconRight-0-1-36 Button-iconRight-0-1-17",
-        "lg": "Button-lg-0-1-33 Button-lg-0-1-14",
-        "loadCont": "Button-loadCont-0-1-30 Button-loadCont-0-1-3",
-        "loadIcon": "Button-loadIcon-0-1-38 Button-loadIcon-0-1-19",
-        "loading": "Button-loading-0-1-31 Button-loading-0-1-11",
-        "md": "Button-md-0-1-32 Button-md-0-1-13",
-        "primary": "Button-primary-0-1-20 Button-primary-0-1-4",
-        "secondary": "Button-secondary-0-1-21 Button-secondary-0-1-5",
-        "tertiary": "Button-tertiary-0-1-22 Button-tertiary-0-1-6",
-        "tertiaryWhite": "Button-tertiaryWhite-0-1-23 Button-tertiaryWhite-0-1-7",
-      },
-      "disabled": false,
-      "size": "sm",
-      "theme": "primary",
-    },
-    "ref": null,
-    "rendered": null,
     "type": [Function],
   },
   Symbol(enzyme.__nodes__): Array [
     Object {
       "instance": null,
       "key": undefined,
-      "nodeType": "class",
+      "nodeType": "function",
       "props": Object {
         "block": false,
-        "classes": Object {
-          "block": "Button-block-0-1-34 Button-block-0-1-15",
-          "btn": "Button-btn-0-1-28 Button-btn-0-1-1",
-          "cont": "Button-cont-0-1-29 Button-cont-0-1-2",
-          "disabled": "Button-disabled-0-1-27 Button-disabled-0-1-12",
-          "ghostGrey": "Button-ghostGrey-0-1-25 Button-ghostGrey-0-1-9",
-          "ghostPink": "Button-ghostPink-0-1-24 Button-ghostPink-0-1-8",
-          "ghostWhite": "Button-ghostWhite-0-1-26 Button-ghostWhite-0-1-10",
-          "icon": "Button-icon-0-1-35 Button-icon-0-1-16",
-          "iconOnly": "Button-iconOnly-0-1-37 Button-iconOnly-0-1-18",
-          "iconRight": "Button-iconRight-0-1-36 Button-iconRight-0-1-17",
-          "lg": "Button-lg-0-1-33 Button-lg-0-1-14",
-          "loadCont": "Button-loadCont-0-1-30 Button-loadCont-0-1-3",
-          "loadIcon": "Button-loadIcon-0-1-38 Button-loadIcon-0-1-19",
-          "loading": "Button-loading-0-1-31 Button-loading-0-1-11",
-          "md": "Button-md-0-1-32 Button-md-0-1-13",
-          "primary": "Button-primary-0-1-20 Button-primary-0-1-4",
-          "secondary": "Button-secondary-0-1-21 Button-secondary-0-1-5",
-          "tertiary": "Button-tertiary-0-1-22 Button-tertiary-0-1-6",
-          "tertiaryWhite": "Button-tertiaryWhite-0-1-23 Button-tertiaryWhite-0-1-7",
-        },
+        "children": "Button",
         "disabled": false,
         "size": "sm",
         "theme": "primary",
       },
       "ref": null,
-      "rendered": null,
+      "rendered": Object {
+        "instance": <button
+          class="btn-0-2-1 primary-0-2-4 primary-d0-0-2-21"
+        >
+          <span
+            class="cont-0-2-2"
+          >
+            
+            Button
+            
+          </span>
+        </button>,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <span
+              className="cont-0-2-2"
+            >
+              
+              Button
+              
+            </span>,
+            null,
+          ],
+          "className": "btn-0-2-1 primary-0-2-4 primary-d0-0-2-21",
+          "id": undefined,
+          "onClick": undefined,
+          "style": undefined,
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": <span
+              class="cont-0-2-2"
+            >
+              
+              Button
+              
+            </span>,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                "",
+                "Button",
+                "",
+              ],
+              "className": "cont-0-2-2",
+            },
+            "ref": null,
+            "rendered": Array [
+              "",
+              "Button",
+              "",
+            ],
+            "type": "span",
+          },
+        ],
+        "type": "button",
+      },
       "type": [Function],
     },
   ],
@@ -559,5 +180,15 @@ ShallowWrapper {
       },
     },
   },
+  Symbol(enzyme.__linkedRoots__): Array [],
+  Symbol(enzyme.__unrendered__): <Button
+    block={false}
+    disabled={false}
+    size="sm"
+    theme="primary"
+  >
+    Button
+  </Button>,
+  Symbol(enzyme.__updatedBy__): null,
 }
 `;

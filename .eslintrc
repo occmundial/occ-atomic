@@ -1,7 +1,7 @@
 {
   root: true,
   parser: 'babel-eslint',
-  plugins: [/*'import', */'jsx-a11y', 'react'],
+  plugins: [/*'import', */'jsx-a11y', 'react', 'react-hooks'],
 env: {
     browser: true,
     commonjs: true,
@@ -88,6 +88,8 @@ rules: {
     "react/react-in-jsx-scope": 1,
     "import/extensions": 0,
     "react/self-closing-comp": 1,
-    "react/sort-comp": 1
+    "react/sort-comp": 1,
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn"
   }
 }

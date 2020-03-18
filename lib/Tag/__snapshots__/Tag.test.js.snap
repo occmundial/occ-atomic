@@ -121,7 +121,9 @@ ShallowWrapper {
         },
       },
     },
+    Symbol(enzyme.__providerValues__): undefined,
   },
+  Symbol(enzyme.__providerValues__): Map {},
 }
 `;
 
@@ -216,11 +218,9 @@ Object {
 exports[`TagJSS matches the snapshot 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <Jss(Tag)
-    theme="default"
-  >
+  Symbol(enzyme.__unrendered__): <UNDEFINED>
     Tag
-  </Jss(Tag)>,
+  </UNDEFINED>,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
@@ -234,29 +234,34 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "function",
     "props": Object {
-      "children": "Tag",
-      "classes": Object {
-        "default": "Tag-default-0-1-24 Tag-default-0-1-3",
-        "defaultIcon": "Tag-defaultIcon-0-1-17 Tag-defaultIcon-0-1-10",
-        "error": "Tag-error-0-1-28 Tag-error-0-1-7",
-        "errorIcon": "Tag-errorIcon-0-1-21 Tag-errorIcon-0-1-14",
-        "icon": "Tag-icon-0-1-30 Tag-icon-0-1-9",
-        "info": "Tag-info-0-1-25 Tag-info-0-1-4",
-        "infoIcon": "Tag-infoIcon-0-1-18 Tag-infoIcon-0-1-11",
-        "link": "Tag-link-0-1-29 Tag-link-0-1-8",
-        "linkIcon": "Tag-linkIcon-0-1-22 Tag-linkIcon-0-1-15",
-        "success": "Tag-success-0-1-26 Tag-success-0-1-5",
-        "successIcon": "Tag-successIcon-0-1-19 Tag-successIcon-0-1-12",
-        "tag": "Tag-tag-0-1-23 Tag-tag-0-1-1",
-        "tagText": "Tag-tagText-0-1-16 Tag-tagText-0-1-2",
-        "warning": "Tag-warning-0-1-27 Tag-warning-0-1-6",
-        "warningIcon": "Tag-warningIcon-0-1-20 Tag-warningIcon-0-1-13",
-      },
-      "theme": "default",
+      "children": [Function],
     },
     "ref": null,
-    "rendered": "Tag",
-    "type": [Function],
+    "rendered": [Function],
+    "type": Object {
+      "$$typeof": Symbol(react.context),
+      "_calculateChangedBits": null,
+      "_context": Object {
+        "$$typeof": Symbol(react.context),
+        "Consumer": [Circular],
+        "Provider": Object {
+          "$$typeof": Symbol(react.provider),
+          "_context": [Circular],
+        },
+        "_calculateChangedBits": null,
+        "_currentRenderer": null,
+        "_currentRenderer2": null,
+        "_currentValue": Object {
+          "classNamePrefix": "",
+          "disableStylesGeneration": false,
+        },
+        "_currentValue2": Object {
+          "classNamePrefix": "",
+          "disableStylesGeneration": false,
+        },
+        "_threadCount": 0,
+      },
+    },
   },
   Symbol(enzyme.__nodes__): Array [
     Object {
@@ -264,29 +269,34 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "function",
       "props": Object {
-        "children": "Tag",
-        "classes": Object {
-          "default": "Tag-default-0-1-24 Tag-default-0-1-3",
-          "defaultIcon": "Tag-defaultIcon-0-1-17 Tag-defaultIcon-0-1-10",
-          "error": "Tag-error-0-1-28 Tag-error-0-1-7",
-          "errorIcon": "Tag-errorIcon-0-1-21 Tag-errorIcon-0-1-14",
-          "icon": "Tag-icon-0-1-30 Tag-icon-0-1-9",
-          "info": "Tag-info-0-1-25 Tag-info-0-1-4",
-          "infoIcon": "Tag-infoIcon-0-1-18 Tag-infoIcon-0-1-11",
-          "link": "Tag-link-0-1-29 Tag-link-0-1-8",
-          "linkIcon": "Tag-linkIcon-0-1-22 Tag-linkIcon-0-1-15",
-          "success": "Tag-success-0-1-26 Tag-success-0-1-5",
-          "successIcon": "Tag-successIcon-0-1-19 Tag-successIcon-0-1-12",
-          "tag": "Tag-tag-0-1-23 Tag-tag-0-1-1",
-          "tagText": "Tag-tagText-0-1-16 Tag-tagText-0-1-2",
-          "warning": "Tag-warning-0-1-27 Tag-warning-0-1-6",
-          "warningIcon": "Tag-warningIcon-0-1-20 Tag-warningIcon-0-1-13",
-        },
-        "theme": "default",
+        "children": [Function],
       },
       "ref": null,
-      "rendered": "Tag",
-      "type": [Function],
+      "rendered": [Function],
+      "type": Object {
+        "$$typeof": Symbol(react.context),
+        "_calculateChangedBits": null,
+        "_context": Object {
+          "$$typeof": Symbol(react.context),
+          "Consumer": [Circular],
+          "Provider": Object {
+            "$$typeof": Symbol(react.provider),
+            "_context": [Circular],
+          },
+          "_calculateChangedBits": null,
+          "_currentRenderer": null,
+          "_currentRenderer2": null,
+          "_currentValue": Object {
+            "classNamePrefix": "",
+            "disableStylesGeneration": false,
+          },
+          "_currentValue2": Object {
+            "classNamePrefix": "",
+            "disableStylesGeneration": false,
+          },
+          "_threadCount": 0,
+        },
+      },
     },
   ],
   Symbol(enzyme.__options__): Object {
@@ -305,6 +315,8 @@ ShallowWrapper {
         },
       },
     },
+    Symbol(enzyme.__providerValues__): undefined,
   },
+  Symbol(enzyme.__providerValues__): Map {},
 }
 `;

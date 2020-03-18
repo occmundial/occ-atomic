@@ -41,7 +41,7 @@ ShallowWrapper {
           onClick={[Function]}
           tabIndex="0"
         >
-          <Jss(Icon)
+          <Icon
             colors={
               Array [
                 "#adb4bb",
@@ -54,35 +54,35 @@ ShallowWrapper {
           Previous
         </li>,
         Array [
-          <Jss(Page)
+          <UNDEFINED
             onClick={[Function]}
             page={1}
             selected={true}
           />,
-          <Jss(Page)
+          <UNDEFINED
             onClick={[Function]}
             page={2}
             selected={false}
           />,
-          <Jss(Page)
+          <UNDEFINED
             onClick={[Function]}
             page={3}
             selected={false}
           />,
-          <Jss(Break)
+          <UNDEFINED
             label="..."
           />,
-          <Jss(Page)
+          <UNDEFINED
             onClick={[Function]}
             page={8}
             selected={false}
           />,
-          <Jss(Page)
+          <UNDEFINED
             onClick={[Function]}
             page={9}
             selected={false}
           />,
-          <Jss(Page)
+          <UNDEFINED
             onClick={[Function]}
             page={10}
             selected={false}
@@ -95,7 +95,7 @@ ShallowWrapper {
         >
           Next
            
-          <Jss(Icon)
+          <Icon
             colors={
               Array [
                 "#adb4bb",
@@ -116,7 +116,7 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": Array [
-            <Jss(Icon)
+            <Icon
               colors={
                 Array [
                   "#adb4bb",
@@ -137,7 +137,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "colors": Array [
                 "#adb4bb",
@@ -157,7 +157,7 @@ ShallowWrapper {
       Object {
         "instance": null,
         "key": "1",
-        "nodeType": "class",
+        "nodeType": "function",
         "props": Object {
           "onClick": [Function],
           "page": 1,
@@ -165,12 +165,18 @@ ShallowWrapper {
         },
         "ref": null,
         "rendered": null,
-        "type": [Function],
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "InnerComponent": [Function],
+          "displayName": "JssContextSubscriber(Page)",
+          "render": [Function],
+          Symbol(Symbol.hasInstance): [Function],
+        },
       },
       Object {
         "instance": null,
         "key": "2",
-        "nodeType": "class",
+        "nodeType": "function",
         "props": Object {
           "onClick": [Function],
           "page": 2,
@@ -178,12 +184,18 @@ ShallowWrapper {
         },
         "ref": null,
         "rendered": null,
-        "type": [Function],
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "InnerComponent": [Function],
+          "displayName": "JssContextSubscriber(Page)",
+          "render": [Function],
+          Symbol(Symbol.hasInstance): [Function],
+        },
       },
       Object {
         "instance": null,
         "key": "3",
-        "nodeType": "class",
+        "nodeType": "function",
         "props": Object {
           "onClick": [Function],
           "page": 3,
@@ -191,23 +203,35 @@ ShallowWrapper {
         },
         "ref": null,
         "rendered": null,
-        "type": [Function],
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "InnerComponent": [Function],
+          "displayName": "JssContextSubscriber(Page)",
+          "render": [Function],
+          Symbol(Symbol.hasInstance): [Function],
+        },
       },
       Object {
         "instance": null,
         "key": "4",
-        "nodeType": "class",
+        "nodeType": "function",
         "props": Object {
           "label": "...",
         },
         "ref": null,
         "rendered": null,
-        "type": [Function],
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "InnerComponent": [Function],
+          "displayName": "JssContextSubscriber(Break)",
+          "render": [Function],
+          Symbol(Symbol.hasInstance): [Function],
+        },
       },
       Object {
         "instance": null,
         "key": "8",
-        "nodeType": "class",
+        "nodeType": "function",
         "props": Object {
           "onClick": [Function],
           "page": 8,
@@ -215,12 +239,18 @@ ShallowWrapper {
         },
         "ref": null,
         "rendered": null,
-        "type": [Function],
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "InnerComponent": [Function],
+          "displayName": "JssContextSubscriber(Page)",
+          "render": [Function],
+          Symbol(Symbol.hasInstance): [Function],
+        },
       },
       Object {
         "instance": null,
         "key": "9",
-        "nodeType": "class",
+        "nodeType": "function",
         "props": Object {
           "onClick": [Function],
           "page": 9,
@@ -228,12 +258,18 @@ ShallowWrapper {
         },
         "ref": null,
         "rendered": null,
-        "type": [Function],
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "InnerComponent": [Function],
+          "displayName": "JssContextSubscriber(Page)",
+          "render": [Function],
+          Symbol(Symbol.hasInstance): [Function],
+        },
       },
       Object {
         "instance": null,
         "key": "10",
-        "nodeType": "class",
+        "nodeType": "function",
         "props": Object {
           "onClick": [Function],
           "page": 10,
@@ -241,7 +277,13 @@ ShallowWrapper {
         },
         "ref": null,
         "rendered": null,
-        "type": [Function],
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "InnerComponent": [Function],
+          "displayName": "JssContextSubscriber(Page)",
+          "render": [Function],
+          Symbol(Symbol.hasInstance): [Function],
+        },
       },
       Object {
         "instance": null,
@@ -251,7 +293,7 @@ ShallowWrapper {
           "children": Array [
             "Next",
             " ",
-            <Jss(Icon)
+            <Icon
               colors={
                 Array [
                   "#adb4bb",
@@ -272,7 +314,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "colors": Array [
                 "#adb4bb",
@@ -302,7 +344,7 @@ ShallowWrapper {
             onClick={[Function]}
             tabIndex="0"
           >
-            <Jss(Icon)
+            <Icon
               colors={
                 Array [
                   "#adb4bb",
@@ -315,35 +357,35 @@ ShallowWrapper {
             Previous
           </li>,
           Array [
-            <Jss(Page)
+            <UNDEFINED
               onClick={[Function]}
               page={1}
               selected={true}
             />,
-            <Jss(Page)
+            <UNDEFINED
               onClick={[Function]}
               page={2}
               selected={false}
             />,
-            <Jss(Page)
+            <UNDEFINED
               onClick={[Function]}
               page={3}
               selected={false}
             />,
-            <Jss(Break)
+            <UNDEFINED
               label="..."
             />,
-            <Jss(Page)
+            <UNDEFINED
               onClick={[Function]}
               page={8}
               selected={false}
             />,
-            <Jss(Page)
+            <UNDEFINED
               onClick={[Function]}
               page={9}
               selected={false}
             />,
-            <Jss(Page)
+            <UNDEFINED
               onClick={[Function]}
               page={10}
               selected={false}
@@ -356,7 +398,7 @@ ShallowWrapper {
           >
             Next
              
-            <Jss(Icon)
+            <Icon
               colors={
                 Array [
                   "#adb4bb",
@@ -377,7 +419,7 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": Array [
-              <Jss(Icon)
+              <Icon
                 colors={
                   Array [
                     "#adb4bb",
@@ -398,7 +440,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
                 "colors": Array [
                   "#adb4bb",
@@ -418,7 +460,7 @@ ShallowWrapper {
         Object {
           "instance": null,
           "key": "1",
-          "nodeType": "class",
+          "nodeType": "function",
           "props": Object {
             "onClick": [Function],
             "page": 1,
@@ -426,12 +468,18 @@ ShallowWrapper {
           },
           "ref": null,
           "rendered": null,
-          "type": [Function],
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "InnerComponent": [Function],
+            "displayName": "JssContextSubscriber(Page)",
+            "render": [Function],
+            Symbol(Symbol.hasInstance): [Function],
+          },
         },
         Object {
           "instance": null,
           "key": "2",
-          "nodeType": "class",
+          "nodeType": "function",
           "props": Object {
             "onClick": [Function],
             "page": 2,
@@ -439,12 +487,18 @@ ShallowWrapper {
           },
           "ref": null,
           "rendered": null,
-          "type": [Function],
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "InnerComponent": [Function],
+            "displayName": "JssContextSubscriber(Page)",
+            "render": [Function],
+            Symbol(Symbol.hasInstance): [Function],
+          },
         },
         Object {
           "instance": null,
           "key": "3",
-          "nodeType": "class",
+          "nodeType": "function",
           "props": Object {
             "onClick": [Function],
             "page": 3,
@@ -452,23 +506,35 @@ ShallowWrapper {
           },
           "ref": null,
           "rendered": null,
-          "type": [Function],
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "InnerComponent": [Function],
+            "displayName": "JssContextSubscriber(Page)",
+            "render": [Function],
+            Symbol(Symbol.hasInstance): [Function],
+          },
         },
         Object {
           "instance": null,
           "key": "4",
-          "nodeType": "class",
+          "nodeType": "function",
           "props": Object {
             "label": "...",
           },
           "ref": null,
           "rendered": null,
-          "type": [Function],
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "InnerComponent": [Function],
+            "displayName": "JssContextSubscriber(Break)",
+            "render": [Function],
+            Symbol(Symbol.hasInstance): [Function],
+          },
         },
         Object {
           "instance": null,
           "key": "8",
-          "nodeType": "class",
+          "nodeType": "function",
           "props": Object {
             "onClick": [Function],
             "page": 8,
@@ -476,12 +542,18 @@ ShallowWrapper {
           },
           "ref": null,
           "rendered": null,
-          "type": [Function],
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "InnerComponent": [Function],
+            "displayName": "JssContextSubscriber(Page)",
+            "render": [Function],
+            Symbol(Symbol.hasInstance): [Function],
+          },
         },
         Object {
           "instance": null,
           "key": "9",
-          "nodeType": "class",
+          "nodeType": "function",
           "props": Object {
             "onClick": [Function],
             "page": 9,
@@ -489,12 +561,18 @@ ShallowWrapper {
           },
           "ref": null,
           "rendered": null,
-          "type": [Function],
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "InnerComponent": [Function],
+            "displayName": "JssContextSubscriber(Page)",
+            "render": [Function],
+            Symbol(Symbol.hasInstance): [Function],
+          },
         },
         Object {
           "instance": null,
           "key": "10",
-          "nodeType": "class",
+          "nodeType": "function",
           "props": Object {
             "onClick": [Function],
             "page": 10,
@@ -502,7 +580,13 @@ ShallowWrapper {
           },
           "ref": null,
           "rendered": null,
-          "type": [Function],
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "InnerComponent": [Function],
+            "displayName": "JssContextSubscriber(Page)",
+            "render": [Function],
+            Symbol(Symbol.hasInstance): [Function],
+          },
         },
         Object {
           "instance": null,
@@ -512,7 +596,7 @@ ShallowWrapper {
             "children": Array [
               "Next",
               " ",
-              <Jss(Icon)
+              <Icon
                 colors={
                   Array [
                     "#adb4bb",
@@ -533,7 +617,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
                 "colors": Array [
                   "#adb4bb",
@@ -568,7 +652,9 @@ ShallowWrapper {
         },
       },
     },
+    Symbol(enzyme.__providerValues__): undefined,
   },
+  Symbol(enzyme.__providerValues__): Map {},
 }
 `;
 
@@ -620,16 +706,7 @@ Object {
 exports[`PagerJSS matches the snapshot 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <Jss(Pager)
-    breakLabel="..."
-    disableInitialCallback={false}
-    hideNumbers={false}
-    marginPagesDisplayed={3}
-    nextLabel="Next"
-    pageCount={10}
-    pageRangeDisplayed={2}
-    previousLabel="Previous"
-  />,
+  Symbol(enzyme.__unrendered__): <UNDEFINED />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
@@ -641,53 +718,71 @@ ShallowWrapper {
   Symbol(enzyme.__node__): Object {
     "instance": null,
     "key": undefined,
-    "nodeType": "class",
+    "nodeType": "function",
     "props": Object {
-      "breakLabel": "...",
-      "classes": Object {
-        "btn": "Pager-btn-0-1-15",
-        "disabled": "Pager-disabled-0-1-18",
-        "next": "Pager-next-0-1-17",
-        "pager": "Pager-pager-0-1-14",
-        "prev": "Pager-prev-0-1-16",
-      },
-      "disableInitialCallback": false,
-      "hideNumbers": false,
-      "marginPagesDisplayed": 3,
-      "nextLabel": "Next",
-      "pageCount": 10,
-      "pageRangeDisplayed": 2,
-      "previousLabel": "Previous",
+      "children": [Function],
     },
     "ref": null,
-    "rendered": null,
-    "type": [Function],
+    "rendered": [Function],
+    "type": Object {
+      "$$typeof": Symbol(react.context),
+      "_calculateChangedBits": null,
+      "_context": Object {
+        "$$typeof": Symbol(react.context),
+        "Consumer": [Circular],
+        "Provider": Object {
+          "$$typeof": Symbol(react.provider),
+          "_context": [Circular],
+        },
+        "_calculateChangedBits": null,
+        "_currentRenderer": null,
+        "_currentRenderer2": null,
+        "_currentValue": Object {
+          "classNamePrefix": "",
+          "disableStylesGeneration": false,
+        },
+        "_currentValue2": Object {
+          "classNamePrefix": "",
+          "disableStylesGeneration": false,
+        },
+        "_threadCount": 0,
+      },
+    },
   },
   Symbol(enzyme.__nodes__): Array [
     Object {
       "instance": null,
       "key": undefined,
-      "nodeType": "class",
+      "nodeType": "function",
       "props": Object {
-        "breakLabel": "...",
-        "classes": Object {
-          "btn": "Pager-btn-0-1-15",
-          "disabled": "Pager-disabled-0-1-18",
-          "next": "Pager-next-0-1-17",
-          "pager": "Pager-pager-0-1-14",
-          "prev": "Pager-prev-0-1-16",
-        },
-        "disableInitialCallback": false,
-        "hideNumbers": false,
-        "marginPagesDisplayed": 3,
-        "nextLabel": "Next",
-        "pageCount": 10,
-        "pageRangeDisplayed": 2,
-        "previousLabel": "Previous",
+        "children": [Function],
       },
       "ref": null,
-      "rendered": null,
-      "type": [Function],
+      "rendered": [Function],
+      "type": Object {
+        "$$typeof": Symbol(react.context),
+        "_calculateChangedBits": null,
+        "_context": Object {
+          "$$typeof": Symbol(react.context),
+          "Consumer": [Circular],
+          "Provider": Object {
+            "$$typeof": Symbol(react.provider),
+            "_context": [Circular],
+          },
+          "_calculateChangedBits": null,
+          "_currentRenderer": null,
+          "_currentRenderer2": null,
+          "_currentValue": Object {
+            "classNamePrefix": "",
+            "disableStylesGeneration": false,
+          },
+          "_currentValue2": Object {
+            "classNamePrefix": "",
+            "disableStylesGeneration": false,
+          },
+          "_threadCount": 0,
+        },
+      },
     },
   ],
   Symbol(enzyme.__options__): Object {
@@ -706,6 +801,8 @@ ShallowWrapper {
         },
       },
     },
+    Symbol(enzyme.__providerValues__): undefined,
   },
+  Symbol(enzyme.__providerValues__): Map {},
 }
 `;

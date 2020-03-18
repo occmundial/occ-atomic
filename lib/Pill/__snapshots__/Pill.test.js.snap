@@ -56,7 +56,7 @@ ShallowWrapper {
         <div
           className={undefined}
         >
-          <Jss(Choice)
+          <UNDEFINED
             disabled={undefined}
             id={1}
             idPrefix={undefined}
@@ -66,8 +66,8 @@ ShallowWrapper {
             selected={undefined}
           >
             foo
-          </Jss(Choice)>
-          <Jss(Choice)
+          </UNDEFINED>
+          <UNDEFINED
             disabled={undefined}
             id={2}
             idPrefix={undefined}
@@ -77,8 +77,8 @@ ShallowWrapper {
             selected={undefined}
           >
             bar
-          </Jss(Choice)>
-          <Jss(Choice)
+          </UNDEFINED>
+          <UNDEFINED
             disabled={undefined}
             id={3}
             idPrefix={undefined}
@@ -88,8 +88,8 @@ ShallowWrapper {
             selected={undefined}
           >
             baz
-          </Jss(Choice)>
-          <Jss(Choice)
+          </UNDEFINED>
+          <UNDEFINED
             disabled={undefined}
             id={4}
             idPrefix={undefined}
@@ -99,7 +99,7 @@ ShallowWrapper {
             selected={undefined}
           >
             qux
-          </Jss(Choice)>
+          </UNDEFINED>
         </div>,
         undefined,
       ],
@@ -116,7 +116,7 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": Array [
-            <Jss(Choice)
+            <UNDEFINED
               disabled={undefined}
               id={1}
               idPrefix={undefined}
@@ -126,8 +126,8 @@ ShallowWrapper {
               selected={undefined}
             >
               foo
-            </Jss(Choice)>,
-            <Jss(Choice)
+            </UNDEFINED>,
+            <UNDEFINED
               disabled={undefined}
               id={2}
               idPrefix={undefined}
@@ -137,8 +137,8 @@ ShallowWrapper {
               selected={undefined}
             >
               bar
-            </Jss(Choice)>,
-            <Jss(Choice)
+            </UNDEFINED>,
+            <UNDEFINED
               disabled={undefined}
               id={3}
               idPrefix={undefined}
@@ -148,8 +148,8 @@ ShallowWrapper {
               selected={undefined}
             >
               baz
-            </Jss(Choice)>,
-            <Jss(Choice)
+            </UNDEFINED>,
+            <UNDEFINED
               disabled={undefined}
               id={4}
               idPrefix={undefined}
@@ -159,7 +159,7 @@ ShallowWrapper {
               selected={undefined}
             >
               qux
-            </Jss(Choice)>,
+            </UNDEFINED>,
           ],
           "className": undefined,
         },
@@ -168,7 +168,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": "1",
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "children": "foo",
               "disabled": undefined,
@@ -181,12 +181,18 @@ ShallowWrapper {
             },
             "ref": null,
             "rendered": "foo",
-            "type": [Function],
+            "type": Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "InnerComponent": [Function],
+              "displayName": "JssContextSubscriber(Choice)",
+              "render": [Function],
+              Symbol(Symbol.hasInstance): [Function],
+            },
           },
           Object {
             "instance": null,
             "key": "2",
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "children": "bar",
               "disabled": undefined,
@@ -199,12 +205,18 @@ ShallowWrapper {
             },
             "ref": null,
             "rendered": "bar",
-            "type": [Function],
+            "type": Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "InnerComponent": [Function],
+              "displayName": "JssContextSubscriber(Choice)",
+              "render": [Function],
+              Symbol(Symbol.hasInstance): [Function],
+            },
           },
           Object {
             "instance": null,
             "key": "3",
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "children": "baz",
               "disabled": undefined,
@@ -217,12 +229,18 @@ ShallowWrapper {
             },
             "ref": null,
             "rendered": "baz",
-            "type": [Function],
+            "type": Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "InnerComponent": [Function],
+              "displayName": "JssContextSubscriber(Choice)",
+              "render": [Function],
+              Symbol(Symbol.hasInstance): [Function],
+            },
           },
           Object {
             "instance": null,
             "key": "4",
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "children": "qux",
               "disabled": undefined,
@@ -235,7 +253,13 @@ ShallowWrapper {
             },
             "ref": null,
             "rendered": "qux",
-            "type": [Function],
+            "type": Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "InnerComponent": [Function],
+              "displayName": "JssContextSubscriber(Choice)",
+              "render": [Function],
+              Symbol(Symbol.hasInstance): [Function],
+            },
           },
         ],
         "type": "div",
@@ -255,7 +279,7 @@ ShallowWrapper {
           <div
             className={undefined}
           >
-            <Jss(Choice)
+            <UNDEFINED
               disabled={undefined}
               id={1}
               idPrefix={undefined}
@@ -265,8 +289,8 @@ ShallowWrapper {
               selected={undefined}
             >
               foo
-            </Jss(Choice)>
-            <Jss(Choice)
+            </UNDEFINED>
+            <UNDEFINED
               disabled={undefined}
               id={2}
               idPrefix={undefined}
@@ -276,8 +300,8 @@ ShallowWrapper {
               selected={undefined}
             >
               bar
-            </Jss(Choice)>
-            <Jss(Choice)
+            </UNDEFINED>
+            <UNDEFINED
               disabled={undefined}
               id={3}
               idPrefix={undefined}
@@ -287,8 +311,8 @@ ShallowWrapper {
               selected={undefined}
             >
               baz
-            </Jss(Choice)>
-            <Jss(Choice)
+            </UNDEFINED>
+            <UNDEFINED
               disabled={undefined}
               id={4}
               idPrefix={undefined}
@@ -298,7 +322,7 @@ ShallowWrapper {
               selected={undefined}
             >
               qux
-            </Jss(Choice)>
+            </UNDEFINED>
           </div>,
           undefined,
         ],
@@ -315,7 +339,7 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": Array [
-              <Jss(Choice)
+              <UNDEFINED
                 disabled={undefined}
                 id={1}
                 idPrefix={undefined}
@@ -325,8 +349,8 @@ ShallowWrapper {
                 selected={undefined}
               >
                 foo
-              </Jss(Choice)>,
-              <Jss(Choice)
+              </UNDEFINED>,
+              <UNDEFINED
                 disabled={undefined}
                 id={2}
                 idPrefix={undefined}
@@ -336,8 +360,8 @@ ShallowWrapper {
                 selected={undefined}
               >
                 bar
-              </Jss(Choice)>,
-              <Jss(Choice)
+              </UNDEFINED>,
+              <UNDEFINED
                 disabled={undefined}
                 id={3}
                 idPrefix={undefined}
@@ -347,8 +371,8 @@ ShallowWrapper {
                 selected={undefined}
               >
                 baz
-              </Jss(Choice)>,
-              <Jss(Choice)
+              </UNDEFINED>,
+              <UNDEFINED
                 disabled={undefined}
                 id={4}
                 idPrefix={undefined}
@@ -358,7 +382,7 @@ ShallowWrapper {
                 selected={undefined}
               >
                 qux
-              </Jss(Choice)>,
+              </UNDEFINED>,
             ],
             "className": undefined,
           },
@@ -367,7 +391,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": "1",
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
                 "children": "foo",
                 "disabled": undefined,
@@ -380,12 +404,18 @@ ShallowWrapper {
               },
               "ref": null,
               "rendered": "foo",
-              "type": [Function],
+              "type": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "InnerComponent": [Function],
+                "displayName": "JssContextSubscriber(Choice)",
+                "render": [Function],
+                Symbol(Symbol.hasInstance): [Function],
+              },
             },
             Object {
               "instance": null,
               "key": "2",
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
                 "children": "bar",
                 "disabled": undefined,
@@ -398,12 +428,18 @@ ShallowWrapper {
               },
               "ref": null,
               "rendered": "bar",
-              "type": [Function],
+              "type": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "InnerComponent": [Function],
+                "displayName": "JssContextSubscriber(Choice)",
+                "render": [Function],
+                Symbol(Symbol.hasInstance): [Function],
+              },
             },
             Object {
               "instance": null,
               "key": "3",
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
                 "children": "baz",
                 "disabled": undefined,
@@ -416,12 +452,18 @@ ShallowWrapper {
               },
               "ref": null,
               "rendered": "baz",
-              "type": [Function],
+              "type": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "InnerComponent": [Function],
+                "displayName": "JssContextSubscriber(Choice)",
+                "render": [Function],
+                Symbol(Symbol.hasInstance): [Function],
+              },
             },
             Object {
               "instance": null,
               "key": "4",
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
                 "children": "qux",
                 "disabled": undefined,
@@ -434,7 +476,13 @@ ShallowWrapper {
               },
               "ref": null,
               "rendered": "qux",
-              "type": [Function],
+              "type": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "InnerComponent": [Function],
+                "displayName": "JssContextSubscriber(Choice)",
+                "render": [Function],
+                Symbol(Symbol.hasInstance): [Function],
+              },
             },
           ],
           "type": "div",
@@ -460,7 +508,9 @@ ShallowWrapper {
         },
       },
     },
+    Symbol(enzyme.__providerValues__): undefined,
   },
+  Symbol(enzyme.__providerValues__): Map {},
 }
 `;
 
@@ -517,7 +567,7 @@ ShallowWrapper {
     "props": Object {
       "children": Array [
         undefined,
-        <Jss(Group)
+        <UNDEFINED
           idPrefix={undefined}
           items={
             Array [
@@ -554,7 +604,7 @@ ShallowWrapper {
       Object {
         "instance": null,
         "key": undefined,
-        "nodeType": "class",
+        "nodeType": "function",
         "props": Object {
           "idPrefix": undefined,
           "items": Array [
@@ -580,7 +630,13 @@ ShallowWrapper {
         },
         "ref": null,
         "rendered": null,
-        "type": [Function],
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "InnerComponent": [Function],
+          "displayName": "JssContextSubscriber(Group)",
+          "render": [Function],
+          Symbol(Symbol.hasInstance): [Function],
+        },
       },
       undefined,
     ],
@@ -594,7 +650,7 @@ ShallowWrapper {
       "props": Object {
         "children": Array [
           undefined,
-          <Jss(Group)
+          <UNDEFINED
             idPrefix={undefined}
             items={
               Array [
@@ -631,7 +687,7 @@ ShallowWrapper {
         Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "class",
+          "nodeType": "function",
           "props": Object {
             "idPrefix": undefined,
             "items": Array [
@@ -657,7 +713,13 @@ ShallowWrapper {
           },
           "ref": null,
           "rendered": null,
-          "type": [Function],
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "InnerComponent": [Function],
+            "displayName": "JssContextSubscriber(Group)",
+            "render": [Function],
+            Symbol(Symbol.hasInstance): [Function],
+          },
         },
         undefined,
       ],
@@ -680,7 +742,9 @@ ShallowWrapper {
         },
       },
     },
+    Symbol(enzyme.__providerValues__): undefined,
   },
+  Symbol(enzyme.__providerValues__): Map {},
 }
 `;
 
@@ -740,7 +804,7 @@ ShallowWrapper {
         <div
           className={undefined}
         >
-          <Jss(Stack)
+          <UNDEFINED
             disabled={undefined}
             id={1}
             idPrefix={undefined}
@@ -748,8 +812,8 @@ ShallowWrapper {
             onClose={null}
           >
             foo
-          </Jss(Stack)>
-          <Jss(Stack)
+          </UNDEFINED>
+          <UNDEFINED
             disabled={undefined}
             id={2}
             idPrefix={undefined}
@@ -757,8 +821,8 @@ ShallowWrapper {
             onClose={null}
           >
             bar
-          </Jss(Stack)>
-          <Jss(Stack)
+          </UNDEFINED>
+          <UNDEFINED
             disabled={undefined}
             id={3}
             idPrefix={undefined}
@@ -766,8 +830,8 @@ ShallowWrapper {
             onClose={null}
           >
             baz
-          </Jss(Stack)>
-          <Jss(Stack)
+          </UNDEFINED>
+          <UNDEFINED
             disabled={undefined}
             id={4}
             idPrefix={undefined}
@@ -775,7 +839,7 @@ ShallowWrapper {
             onClose={null}
           >
             qux
-          </Jss(Stack)>
+          </UNDEFINED>
         </div>,
         undefined,
       ],
@@ -792,7 +856,7 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": Array [
-            <Jss(Stack)
+            <UNDEFINED
               disabled={undefined}
               id={1}
               idPrefix={undefined}
@@ -800,8 +864,8 @@ ShallowWrapper {
               onClose={null}
             >
               foo
-            </Jss(Stack)>,
-            <Jss(Stack)
+            </UNDEFINED>,
+            <UNDEFINED
               disabled={undefined}
               id={2}
               idPrefix={undefined}
@@ -809,8 +873,8 @@ ShallowWrapper {
               onClose={null}
             >
               bar
-            </Jss(Stack)>,
-            <Jss(Stack)
+            </UNDEFINED>,
+            <UNDEFINED
               disabled={undefined}
               id={3}
               idPrefix={undefined}
@@ -818,8 +882,8 @@ ShallowWrapper {
               onClose={null}
             >
               baz
-            </Jss(Stack)>,
-            <Jss(Stack)
+            </UNDEFINED>,
+            <UNDEFINED
               disabled={undefined}
               id={4}
               idPrefix={undefined}
@@ -827,7 +891,7 @@ ShallowWrapper {
               onClose={null}
             >
               qux
-            </Jss(Stack)>,
+            </UNDEFINED>,
           ],
           "className": undefined,
         },
@@ -836,7 +900,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": "1",
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "children": "foo",
               "disabled": undefined,
@@ -847,12 +911,18 @@ ShallowWrapper {
             },
             "ref": null,
             "rendered": "foo",
-            "type": [Function],
+            "type": Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "InnerComponent": [Function],
+              "displayName": "JssContextSubscriber(Stack)",
+              "render": [Function],
+              Symbol(Symbol.hasInstance): [Function],
+            },
           },
           Object {
             "instance": null,
             "key": "2",
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "children": "bar",
               "disabled": undefined,
@@ -863,12 +933,18 @@ ShallowWrapper {
             },
             "ref": null,
             "rendered": "bar",
-            "type": [Function],
+            "type": Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "InnerComponent": [Function],
+              "displayName": "JssContextSubscriber(Stack)",
+              "render": [Function],
+              Symbol(Symbol.hasInstance): [Function],
+            },
           },
           Object {
             "instance": null,
             "key": "3",
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "children": "baz",
               "disabled": undefined,
@@ -879,12 +955,18 @@ ShallowWrapper {
             },
             "ref": null,
             "rendered": "baz",
-            "type": [Function],
+            "type": Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "InnerComponent": [Function],
+              "displayName": "JssContextSubscriber(Stack)",
+              "render": [Function],
+              Symbol(Symbol.hasInstance): [Function],
+            },
           },
           Object {
             "instance": null,
             "key": "4",
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "children": "qux",
               "disabled": undefined,
@@ -895,7 +977,13 @@ ShallowWrapper {
             },
             "ref": null,
             "rendered": "qux",
-            "type": [Function],
+            "type": Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "InnerComponent": [Function],
+              "displayName": "JssContextSubscriber(Stack)",
+              "render": [Function],
+              Symbol(Symbol.hasInstance): [Function],
+            },
           },
         ],
         "type": "div",
@@ -915,7 +1003,7 @@ ShallowWrapper {
           <div
             className={undefined}
           >
-            <Jss(Stack)
+            <UNDEFINED
               disabled={undefined}
               id={1}
               idPrefix={undefined}
@@ -923,8 +1011,8 @@ ShallowWrapper {
               onClose={null}
             >
               foo
-            </Jss(Stack)>
-            <Jss(Stack)
+            </UNDEFINED>
+            <UNDEFINED
               disabled={undefined}
               id={2}
               idPrefix={undefined}
@@ -932,8 +1020,8 @@ ShallowWrapper {
               onClose={null}
             >
               bar
-            </Jss(Stack)>
-            <Jss(Stack)
+            </UNDEFINED>
+            <UNDEFINED
               disabled={undefined}
               id={3}
               idPrefix={undefined}
@@ -941,8 +1029,8 @@ ShallowWrapper {
               onClose={null}
             >
               baz
-            </Jss(Stack)>
-            <Jss(Stack)
+            </UNDEFINED>
+            <UNDEFINED
               disabled={undefined}
               id={4}
               idPrefix={undefined}
@@ -950,7 +1038,7 @@ ShallowWrapper {
               onClose={null}
             >
               qux
-            </Jss(Stack)>
+            </UNDEFINED>
           </div>,
           undefined,
         ],
@@ -967,7 +1055,7 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": Array [
-              <Jss(Stack)
+              <UNDEFINED
                 disabled={undefined}
                 id={1}
                 idPrefix={undefined}
@@ -975,8 +1063,8 @@ ShallowWrapper {
                 onClose={null}
               >
                 foo
-              </Jss(Stack)>,
-              <Jss(Stack)
+              </UNDEFINED>,
+              <UNDEFINED
                 disabled={undefined}
                 id={2}
                 idPrefix={undefined}
@@ -984,8 +1072,8 @@ ShallowWrapper {
                 onClose={null}
               >
                 bar
-              </Jss(Stack)>,
-              <Jss(Stack)
+              </UNDEFINED>,
+              <UNDEFINED
                 disabled={undefined}
                 id={3}
                 idPrefix={undefined}
@@ -993,8 +1081,8 @@ ShallowWrapper {
                 onClose={null}
               >
                 baz
-              </Jss(Stack)>,
-              <Jss(Stack)
+              </UNDEFINED>,
+              <UNDEFINED
                 disabled={undefined}
                 id={4}
                 idPrefix={undefined}
@@ -1002,7 +1090,7 @@ ShallowWrapper {
                 onClose={null}
               >
                 qux
-              </Jss(Stack)>,
+              </UNDEFINED>,
             ],
             "className": undefined,
           },
@@ -1011,7 +1099,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": "1",
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
                 "children": "foo",
                 "disabled": undefined,
@@ -1022,12 +1110,18 @@ ShallowWrapper {
               },
               "ref": null,
               "rendered": "foo",
-              "type": [Function],
+              "type": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "InnerComponent": [Function],
+                "displayName": "JssContextSubscriber(Stack)",
+                "render": [Function],
+                Symbol(Symbol.hasInstance): [Function],
+              },
             },
             Object {
               "instance": null,
               "key": "2",
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
                 "children": "bar",
                 "disabled": undefined,
@@ -1038,12 +1132,18 @@ ShallowWrapper {
               },
               "ref": null,
               "rendered": "bar",
-              "type": [Function],
+              "type": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "InnerComponent": [Function],
+                "displayName": "JssContextSubscriber(Stack)",
+                "render": [Function],
+                Symbol(Symbol.hasInstance): [Function],
+              },
             },
             Object {
               "instance": null,
               "key": "3",
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
                 "children": "baz",
                 "disabled": undefined,
@@ -1054,12 +1154,18 @@ ShallowWrapper {
               },
               "ref": null,
               "rendered": "baz",
-              "type": [Function],
+              "type": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "InnerComponent": [Function],
+                "displayName": "JssContextSubscriber(Stack)",
+                "render": [Function],
+                Symbol(Symbol.hasInstance): [Function],
+              },
             },
             Object {
               "instance": null,
               "key": "4",
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
                 "children": "qux",
                 "disabled": undefined,
@@ -1070,7 +1176,13 @@ ShallowWrapper {
               },
               "ref": null,
               "rendered": "qux",
-              "type": [Function],
+              "type": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "InnerComponent": [Function],
+                "displayName": "JssContextSubscriber(Stack)",
+                "render": [Function],
+                Symbol(Symbol.hasInstance): [Function],
+              },
             },
           ],
           "type": "div",
@@ -1096,7 +1208,9 @@ ShallowWrapper {
         },
       },
     },
+    Symbol(enzyme.__providerValues__): undefined,
   },
+  Symbol(enzyme.__providerValues__): Map {},
 }
 `;
 
@@ -1152,7 +1266,7 @@ Object {
 exports[`PillJSS matches the snapshot 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <Jss(Pill)
+  Symbol(enzyme.__unrendered__): <UNDEFINED
     group={
       Array [
         Object {
@@ -1185,81 +1299,71 @@ ShallowWrapper {
   Symbol(enzyme.__node__): Object {
     "instance": null,
     "key": undefined,
-    "nodeType": "class",
+    "nodeType": "function",
     "props": Object {
-      "classes": Object {
-        "assistiveText": "Pill-assistiveText-0-1-69",
-        "bottom": "Pill-bottom-0-1-68",
-        "container": "Pill-container-0-1-63",
-        "disabled": "Pill-disabled-0-1-67",
-        "errorAssistiveText": "Pill-errorAssistiveText-0-1-70",
-        "errorIcon": "Pill-errorIcon-0-1-71",
-        "label": "Pill-label-0-1-65",
-        "left": "Pill-left-0-1-66",
-        "top": "Pill-top-0-1-64",
-      },
-      "group": Array [
-        Object {
-          "id": 1,
-          "label": "foo",
-        },
-        Object {
-          "id": 2,
-          "label": "bar",
-        },
-        Object {
-          "id": 3,
-          "label": "baz",
-        },
-        Object {
-          "id": 4,
-          "label": "qux",
-        },
-      ],
+      "children": [Function],
     },
     "ref": null,
-    "rendered": null,
-    "type": [Function],
+    "rendered": [Function],
+    "type": Object {
+      "$$typeof": Symbol(react.context),
+      "_calculateChangedBits": null,
+      "_context": Object {
+        "$$typeof": Symbol(react.context),
+        "Consumer": [Circular],
+        "Provider": Object {
+          "$$typeof": Symbol(react.provider),
+          "_context": [Circular],
+        },
+        "_calculateChangedBits": null,
+        "_currentRenderer": null,
+        "_currentRenderer2": null,
+        "_currentValue": Object {
+          "classNamePrefix": "",
+          "disableStylesGeneration": false,
+        },
+        "_currentValue2": Object {
+          "classNamePrefix": "",
+          "disableStylesGeneration": false,
+        },
+        "_threadCount": 0,
+      },
+    },
   },
   Symbol(enzyme.__nodes__): Array [
     Object {
       "instance": null,
       "key": undefined,
-      "nodeType": "class",
+      "nodeType": "function",
       "props": Object {
-        "classes": Object {
-          "assistiveText": "Pill-assistiveText-0-1-69",
-          "bottom": "Pill-bottom-0-1-68",
-          "container": "Pill-container-0-1-63",
-          "disabled": "Pill-disabled-0-1-67",
-          "errorAssistiveText": "Pill-errorAssistiveText-0-1-70",
-          "errorIcon": "Pill-errorIcon-0-1-71",
-          "label": "Pill-label-0-1-65",
-          "left": "Pill-left-0-1-66",
-          "top": "Pill-top-0-1-64",
-        },
-        "group": Array [
-          Object {
-            "id": 1,
-            "label": "foo",
-          },
-          Object {
-            "id": 2,
-            "label": "bar",
-          },
-          Object {
-            "id": 3,
-            "label": "baz",
-          },
-          Object {
-            "id": 4,
-            "label": "qux",
-          },
-        ],
+        "children": [Function],
       },
       "ref": null,
-      "rendered": null,
-      "type": [Function],
+      "rendered": [Function],
+      "type": Object {
+        "$$typeof": Symbol(react.context),
+        "_calculateChangedBits": null,
+        "_context": Object {
+          "$$typeof": Symbol(react.context),
+          "Consumer": [Circular],
+          "Provider": Object {
+            "$$typeof": Symbol(react.provider),
+            "_context": [Circular],
+          },
+          "_calculateChangedBits": null,
+          "_currentRenderer": null,
+          "_currentRenderer2": null,
+          "_currentValue": Object {
+            "classNamePrefix": "",
+            "disableStylesGeneration": false,
+          },
+          "_currentValue2": Object {
+            "classNamePrefix": "",
+            "disableStylesGeneration": false,
+          },
+          "_threadCount": 0,
+        },
+      },
     },
   ],
   Symbol(enzyme.__options__): Object {
@@ -1278,6 +1382,8 @@ ShallowWrapper {
         },
       },
     },
+    Symbol(enzyme.__providerValues__): undefined,
   },
+  Symbol(enzyme.__providerValues__): Map {},
 }
 `;
