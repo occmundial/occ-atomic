@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Grid matches the snapshot 1`] = `"<div class=\\"con-0-2-2\\"></div>"`;
+
+exports[`Grid matches the snapshot with the fluid prop 1`] = `"<div class=\\"conFluid-0-2-1\\"></div>"`;
