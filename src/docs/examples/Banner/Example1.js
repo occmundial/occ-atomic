@@ -8,7 +8,7 @@ export default function Example1() {
             <Banner >
                 <Fragment>      
                     ¿Necesitas ayuda? Contamos con Atención al Cliente las 24 horas del día.
-                    <a href="javascript:void(0)" style={{ color: colors.bgWhite, textDecoration: 'underline', marginLeft: '8px', cursor: 'pointer' }}>
+                    <a style={{ color: colors.bgWhite, textDecoration: 'underline', marginLeft: '8px', cursor: 'pointer' }}>
                         Saber más
                     </a>
                 </Fragment>

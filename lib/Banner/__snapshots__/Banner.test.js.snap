@@ -362,18 +362,19 @@ Object {
     "cursor": "pointer",
   },
   "iconFlex": Object {
-    "@media screen and (max-width:576px)": Object {
-      "padding": 16,
+    "@media screen and (min-width:576px)": Object {
+      "padding": 0,
     },
+    "padding": 16,
   },
   "textBanner": Object {
     "display": "inline-block",
   },
   "textFlex": Object {
-    "@media screen and (max-width:576px)": Object {
-      "textAlign": "start",
+    "@media screen and (min-width:576px)": Object {
+      "textAlign": "center",
     },
-    "textAlign": "center",
+    "textAlign": "start",
   },
 }
 `;
