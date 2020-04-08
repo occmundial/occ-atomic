@@ -40,6 +40,7 @@ export default function Example4() {
             }}
             selectOnEnter
             onChange={(value) => {console.log(value);}}
+            showRecentSearches
         />
     );
 }
