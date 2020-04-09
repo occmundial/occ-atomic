@@ -6,6 +6,9 @@ All notable changes to this project will be documented in this file.
 
 ## 1.13.x
 
+### 1.13.17
+- Added: micro when is mobile in `Banner` component.
+
 ### 1.13.16
 - New `Banner` component.
 
