@@ -4,7 +4,7 @@ import { Droplist } from '@occmundial/occ-atomic';
 
 export default function Example1() {
     const items = [
-        { name: 'Item 1', secondary: '(10)', iconName:'searchSolid' },
+        { name: 'Item 1', secondary: '(10)' },
         { name: 'Item 2', secondary: '(5)' },
         { name: 'Item 3', secondary: '(30)' }
     ];
