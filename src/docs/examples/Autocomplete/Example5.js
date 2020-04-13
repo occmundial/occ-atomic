@@ -4,9 +4,9 @@ import { Autocomplete } from '@occmundial/occ-atomic';
 
 export default function Example5() {
     const items = [
-        { name: 'Item 1', secondary: '(10)' },
-        { name: 'Item 2', secondary: '(5)' },
-        { name: 'Item 3', secondary: '(30)' }
+        { name: 'Item 1', secondary: '(10)', iconName:'clock' },
+        { name: 'Item 2', secondary: '(5)', iconName:'clock' },
+        { name: 'Item 3', secondary: '(30)' , iconName:'clock'}
     ];
     return (
         <Autocomplete
