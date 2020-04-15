@@ -6,6 +6,10 @@ All notable changes to this project will be documented in this file.
 
 ## 1.13.x
 
+### 1.13.17
+- New prop `showInitialData` on `Autocomplete` component.
+- Changes on `Droplist` component to show icons
+
 ### 1.13.16
 - New `Banner` component.
 
