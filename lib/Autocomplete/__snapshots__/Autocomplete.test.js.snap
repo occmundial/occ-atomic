@@ -37,6 +37,7 @@ ShallowWrapper {
         ],
       }
     }
+    showInitialData={false}
     textfieldProps={Object {}}
   />,
   Symbol(enzyme.__renderer__): Object {
@@ -70,7 +71,7 @@ ShallowWrapper {
           type="text"
           valueProp=""
         />,
-        null,
+        "",
       ],
       "className": "autoComplete",
       "id": undefined,
@@ -103,7 +104,7 @@ ShallowWrapper {
         "rendered": null,
         "type": [Function],
       },
-      null,
+      "",
     ],
     "type": "div",
   },
@@ -131,7 +132,7 @@ ShallowWrapper {
             type="text"
             valueProp=""
           />,
-          null,
+          "",
         ],
         "className": "autoComplete",
         "id": undefined,
@@ -164,7 +165,7 @@ ShallowWrapper {
           "rendered": null,
           "type": [Function],
         },
-        null,
+        "",
       ],
       "type": "div",
     },
@@ -259,6 +260,7 @@ ShallowWrapper {
         },
       ]
     }
+    showInitialData={false}
     textfieldProps={Object {}}
   />,
   Symbol(enzyme.__renderer__): Object {
@@ -275,8 +277,8 @@ ShallowWrapper {
     "nodeType": "class",
     "props": Object {
       "classes": Object {
-        "autoComplete": "Autocomplete-autoComplete-0-1-74 Autocomplete-autoComplete-0-1-71",
-        "droplist": "Autocomplete-droplist-0-1-73 Autocomplete-droplist-0-1-72",
+        "autoComplete": "Autocomplete-autoComplete-0-1-77 Autocomplete-autoComplete-0-1-74",
+        "droplist": "Autocomplete-droplist-0-1-76 Autocomplete-droplist-0-1-75",
       },
       "disableAutoComplete": false,
       "droplistProps": Object {
@@ -325,6 +327,7 @@ ShallowWrapper {
           "textRight": "(6)",
         },
       ],
+      "showInitialData": false,
       "textfieldProps": Object {},
     },
     "ref": null,
@@ -338,8 +341,8 @@ ShallowWrapper {
       "nodeType": "class",
       "props": Object {
         "classes": Object {
-          "autoComplete": "Autocomplete-autoComplete-0-1-74 Autocomplete-autoComplete-0-1-71",
-          "droplist": "Autocomplete-droplist-0-1-73 Autocomplete-droplist-0-1-72",
+          "autoComplete": "Autocomplete-autoComplete-0-1-77 Autocomplete-autoComplete-0-1-74",
+          "droplist": "Autocomplete-droplist-0-1-76 Autocomplete-droplist-0-1-75",
         },
         "disableAutoComplete": false,
         "droplistProps": Object {
@@ -388,6 +391,7 @@ ShallowWrapper {
             "textRight": "(6)",
           },
         ],
+        "showInitialData": false,
         "textfieldProps": Object {},
       },
       "ref": null,
