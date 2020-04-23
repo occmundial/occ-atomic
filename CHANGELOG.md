@@ -6,8 +6,13 @@ All notable changes to this project will be documented in this file.
 
 ## 1.13.x
 
+### 1.13.18	
+- Changes on `Droplist` component to show extra content	
+- Changes on `Droplist` component to change color in the icons
+
 ### 1.13.17
-- Added: micro when is mobile in `Banner` component.
+- New prop `showInitialData` on `Autocomplete` component.
+- Changes on `Droplist` component to show icons
 
 ### 1.13.16
 - New `Banner` component.
