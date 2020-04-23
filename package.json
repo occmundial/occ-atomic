@@ -1,6 +1,6 @@
 {
   "name": "@occmundial/occ-atomic",
-  "version": "1.13.18",
+  "version": "1.13.19",
   "description": "Collection of shareable styled React components for OCC applications.",
   "homepage": "http://occmundial.github.io/occ-atomic",
   "main": "build/index.js",
@@ -95,7 +95,8 @@
     "natives": "1.1.6",
     "react-jss": "8.6.0",
     "react-text-mask": "^5.4.3",
-    "react-waypoint": "^8.0.0"
+    "react-waypoint": "^8.0.0",
+    "unorm": "^1.6.0"
   },
   "jest": {
     "testURL": "https://occmundial.github.io/occ-atomic",
