@@ -5,7 +5,7 @@ import { Banner, colors, spacing } from '@occmundial/occ-atomic';
 export default function Example1() {
     return (
         <div>
-            <Banner >
+            <Banner onClose={() => {}}>
                 <Fragment>      
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pretium pretium tempor.
                     <a href="#Banner" 
