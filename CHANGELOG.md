@@ -5,6 +5,8 @@ All notable changes to this project will be documented in this file.
 # Version 1
 
 ## 1.13.x
+### 1.13.20
+- Changes on `Pill` component to fix text overflow on Choice pill type
 
 ### 1.13.19
 - Changes on `Droplist` component to fix normalize error on IE
