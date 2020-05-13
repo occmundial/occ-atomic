@@ -6,7 +6,7 @@ export default function Example1() {
   return (
     <div>
       <Tag size="big">Default Tag</Tag>
-      <Tag theme="info" size="medium">
+      <Tag theme="info" size="big">
         Tag with info theme
       </Tag>
       <Tag theme="success" size="big">
