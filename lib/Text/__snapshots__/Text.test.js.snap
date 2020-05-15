@@ -158,6 +158,7 @@ Object {
       "lineHeight": "48px",
     },
     "fontSize": 28,
+    "fontWeight": 600,
     "lineHeight": "32px",
   },
   "hero": Object {
@@ -167,6 +168,7 @@ Object {
       "lineHeight": "72px",
     },
     "fontSize": 28,
+    "fontWeight": 600,
     "lineHeight": "32px",
   },
   "highEmphasis": Object {
