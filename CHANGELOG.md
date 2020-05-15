@@ -6,6 +6,9 @@ All notable changes to this project will be documented in this file.
 
 ## 1.14.x
 
+### 1.14.0-beta.2
+- Change in font weight.
+
 ### 1.14.0-beta.1
 - Change in font sizes.
 
