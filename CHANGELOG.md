@@ -6,6 +6,9 @@ All notable changes to this project will be documented in this file.
 
 ## 1.14.x
 
+### 1.14.0-beta.1
+- Change in font sizes.
+
 ### 1.14.0-beta.0
 - Change of the font-family in all the components.
 
@@ -19,7 +22,7 @@ All notable changes to this project will be documented in this file.
 
 ### 1.13.18
 - Changes on `Droplist` component to show extra content
-- Changes on `Droplist` component to change color in the icons 
+- Changes on `Droplist` component to change color in the icons
 
 ### 1.13.17
 - New prop `showInitialData` on `Autocomplete` component.
