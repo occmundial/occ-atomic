@@ -1,0 +1,178 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Banner matches the snapshot 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <WindowSize
+    classes={
+      Object {
+        "container": "container",
+        "icon": "icon",
+        "iconFlex": "iconFlex",
+        "textBanner": "textBanner",
+        "textFlex": "textFlex",
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "classes": Object {
+        "container": "container",
+        "icon": "icon",
+        "iconFlex": "iconFlex",
+        "textBanner": "textBanner",
+        "textFlex": "textFlex",
+      },
+      "size": "md",
+      "winWidth": 1024,
+    },
+    "ref": null,
+    "rendered": null,
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "classes": Object {
+          "container": "container",
+          "icon": "icon",
+          "iconFlex": "iconFlex",
+          "textBanner": "textBanner",
+          "textFlex": "textFlex",
+        },
+        "size": "md",
+        "winWidth": 1024,
+      },
+      "ref": null,
+      "rendered": null,
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
+
+exports[`Banner styles matches the snapshot 1`] = `
+Object {
+  "container": Object {
+    "backgroundColor": "#222222",
+    "padding": 16,
+  },
+  "icon": Object {
+    "cursor": "pointer",
+  },
+  "iconFlex": Object {
+    "@media screen and (min-width:576px)": Object {
+      "padding": 0,
+    },
+    "padding": 16,
+  },
+  "textBanner": Object {
+    "display": "inline-block",
+  },
+  "textFlex": Object {
+    "@media screen and (min-width:576px)": Object {
+      "textAlign": "center",
+    },
+    "textAlign": "start",
+  },
+}
+`;
+
+exports[`BannerJSS matches the snapshot 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Jss(WindowSize) />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "classes": Object {
+        "container": "WindowSize-container-0-1-1",
+        "icon": "WindowSize-icon-0-1-5",
+        "iconFlex": "WindowSize-iconFlex-0-1-4",
+        "textBanner": "WindowSize-textBanner-0-1-2",
+        "textFlex": "WindowSize-textFlex-0-1-3",
+      },
+    },
+    "ref": null,
+    "rendered": null,
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "classes": Object {
+          "container": "WindowSize-container-0-1-1",
+          "icon": "WindowSize-icon-0-1-5",
+          "iconFlex": "WindowSize-iconFlex-0-1-4",
+          "textBanner": "WindowSize-textBanner-0-1-2",
+          "textFlex": "WindowSize-textFlex-0-1-3",
+        },
+      },
+      "ref": null,
+      "rendered": null,
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

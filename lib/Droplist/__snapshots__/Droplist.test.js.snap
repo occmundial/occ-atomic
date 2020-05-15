@@ -7,7 +7,10 @@ ShallowWrapper {
     classes={
       Object {
         "block": "block",
+        "extraText": "extraText",
         "group": "group",
+        "icon": "icon",
+        "iconText": "iconText",
         "item": "item",
         "onFocus": "onFocus",
         "right": "right",
@@ -67,18 +70,21 @@ ShallowWrapper {
           onMouseDown={[Function]}
           onMouseUp={[Function]}
         >
-          <Jss(Text)
-            tag="p"
-          >
-            
+          <div>
             <Jss(Text)
-              strong={true}
-              tag="b"
+              className=""
+              tag="p"
             >
               
+              <Jss(Text)
+                strong={true}
+                tag="b"
+              >
+                
+              </Jss(Text)>
+              Administrador
             </Jss(Text)>
-            Administrador
-          </Jss(Text)>
+          </div>
           <span
             className="right"
           >
@@ -96,18 +102,21 @@ ShallowWrapper {
           onMouseDown={[Function]}
           onMouseUp={[Function]}
         >
-          <Jss(Text)
-            tag="p"
-          >
-            
+          <div>
             <Jss(Text)
-              strong={true}
-              tag="b"
+              className=""
+              tag="p"
             >
               
+              <Jss(Text)
+                strong={true}
+                tag="b"
+              >
+                
+              </Jss(Text)>
+              Administrador Sr
             </Jss(Text)>
-            Administrador Sr
-          </Jss(Text)>
+          </div>
           <span
             className="right"
           >
@@ -125,18 +134,21 @@ ShallowWrapper {
           onMouseDown={[Function]}
           onMouseUp={[Function]}
         >
-          <Jss(Text)
-            tag="p"
-          >
-            
+          <div>
             <Jss(Text)
-              strong={true}
-              tag="b"
+              className=""
+              tag="p"
             >
               
+              <Jss(Text)
+                strong={true}
+                tag="b"
+              >
+                
+              </Jss(Text)>
+              Administrador Jr
             </Jss(Text)>
-            Administrador Jr
-          </Jss(Text)>
+          </div>
           <span
             className="right"
           >
@@ -154,18 +166,21 @@ ShallowWrapper {
           onMouseDown={[Function]}
           onMouseUp={[Function]}
         >
-          <Jss(Text)
-            tag="p"
-          >
-            
+          <div>
             <Jss(Text)
-              strong={true}
-              tag="b"
+              className=""
+              tag="p"
             >
               
+              <Jss(Text)
+                strong={true}
+                tag="b"
+              >
+                
+              </Jss(Text)>
+              Administrar
             </Jss(Text)>
-            Administrar
-          </Jss(Text)>
+          </div>
           <span
             className="right"
           >
@@ -190,18 +205,21 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": Array [
-            <Jss(Text)
-              tag="p"
-            >
-              
+            <div>
               <Jss(Text)
-                strong={true}
-                tag="b"
+                className=""
+                tag="p"
               >
                 
+                <Jss(Text)
+                  strong={true}
+                  tag="b"
+                >
+                  
+                </Jss(Text)>
+                Administrador
               </Jss(Text)>
-              Administrador
-            </Jss(Text)>,
+            </div>,
             <span
               className="right"
             >
@@ -223,39 +241,70 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "class",
+            "nodeType": "host",
             "props": Object {
               "children": Array [
-                "",
+                undefined,
                 <Jss(Text)
-                  strong={true}
-                  tag="b"
+                  className=""
+                  tag="p"
                 >
                   
+                  <Jss(Text)
+                    strong={true}
+                    tag="b"
+                  >
+                    
+                  </Jss(Text)>
+                  Administrador
                 </Jss(Text)>,
-                "Administrador",
               ],
-              "tag": "p",
             },
             "ref": null,
             "rendered": Array [
-              "",
+              undefined,
               Object {
                 "instance": null,
                 "key": undefined,
                 "nodeType": "class",
                 "props": Object {
-                  "children": "",
-                  "strong": true,
-                  "tag": "b",
+                  "children": Array [
+                    "",
+                    <Jss(Text)
+                      strong={true}
+                      tag="b"
+                    >
+                      
+                    </Jss(Text)>,
+                    "Administrador",
+                    undefined,
+                  ],
+                  "className": "",
+                  "tag": "p",
                 },
                 "ref": null,
-                "rendered": "",
+                "rendered": Array [
+                  "",
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": "",
+                      "strong": true,
+                      "tag": "b",
+                    },
+                    "ref": null,
+                    "rendered": "",
+                    "type": [Function],
+                  },
+                  "Administrador",
+                  undefined,
+                ],
                 "type": [Function],
               },
-              "Administrador",
             ],
-            "type": [Function],
+            "type": "div",
           },
           Object {
             "instance": null,
@@ -295,18 +344,21 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": Array [
-            <Jss(Text)
-              tag="p"
-            >
-              
+            <div>
               <Jss(Text)
-                strong={true}
-                tag="b"
+                className=""
+                tag="p"
               >
                 
+                <Jss(Text)
+                  strong={true}
+                  tag="b"
+                >
+                  
+                </Jss(Text)>
+                Administrador Sr
               </Jss(Text)>
-              Administrador Sr
-            </Jss(Text)>,
+            </div>,
             <span
               className="right"
             >
@@ -328,39 +380,70 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "class",
+            "nodeType": "host",
             "props": Object {
               "children": Array [
-                "",
+                undefined,
                 <Jss(Text)
-                  strong={true}
-                  tag="b"
+                  className=""
+                  tag="p"
                 >
                   
+                  <Jss(Text)
+                    strong={true}
+                    tag="b"
+                  >
+                    
+                  </Jss(Text)>
+                  Administrador Sr
                 </Jss(Text)>,
-                "Administrador Sr",
               ],
-              "tag": "p",
             },
             "ref": null,
             "rendered": Array [
-              "",
+              undefined,
               Object {
                 "instance": null,
                 "key": undefined,
                 "nodeType": "class",
                 "props": Object {
-                  "children": "",
-                  "strong": true,
-                  "tag": "b",
+                  "children": Array [
+                    "",
+                    <Jss(Text)
+                      strong={true}
+                      tag="b"
+                    >
+                      
+                    </Jss(Text)>,
+                    "Administrador Sr",
+                    undefined,
+                  ],
+                  "className": "",
+                  "tag": "p",
                 },
                 "ref": null,
-                "rendered": "",
+                "rendered": Array [
+                  "",
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": "",
+                      "strong": true,
+                      "tag": "b",
+                    },
+                    "ref": null,
+                    "rendered": "",
+                    "type": [Function],
+                  },
+                  "Administrador Sr",
+                  undefined,
+                ],
                 "type": [Function],
               },
-              "Administrador Sr",
             ],
-            "type": [Function],
+            "type": "div",
           },
           Object {
             "instance": null,
@@ -400,18 +483,21 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": Array [
-            <Jss(Text)
-              tag="p"
-            >
-              
+            <div>
               <Jss(Text)
-                strong={true}
-                tag="b"
+                className=""
+                tag="p"
               >
                 
+                <Jss(Text)
+                  strong={true}
+                  tag="b"
+                >
+                  
+                </Jss(Text)>
+                Administrador Jr
               </Jss(Text)>
-              Administrador Jr
-            </Jss(Text)>,
+            </div>,
             <span
               className="right"
             >
@@ -433,39 +519,70 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "class",
+            "nodeType": "host",
             "props": Object {
               "children": Array [
-                "",
+                undefined,
                 <Jss(Text)
-                  strong={true}
-                  tag="b"
+                  className=""
+                  tag="p"
                 >
                   
+                  <Jss(Text)
+                    strong={true}
+                    tag="b"
+                  >
+                    
+                  </Jss(Text)>
+                  Administrador Jr
                 </Jss(Text)>,
-                "Administrador Jr",
               ],
-              "tag": "p",
             },
             "ref": null,
             "rendered": Array [
-              "",
+              undefined,
               Object {
                 "instance": null,
                 "key": undefined,
                 "nodeType": "class",
                 "props": Object {
-                  "children": "",
-                  "strong": true,
-                  "tag": "b",
+                  "children": Array [
+                    "",
+                    <Jss(Text)
+                      strong={true}
+                      tag="b"
+                    >
+                      
+                    </Jss(Text)>,
+                    "Administrador Jr",
+                    undefined,
+                  ],
+                  "className": "",
+                  "tag": "p",
                 },
                 "ref": null,
-                "rendered": "",
+                "rendered": Array [
+                  "",
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": "",
+                      "strong": true,
+                      "tag": "b",
+                    },
+                    "ref": null,
+                    "rendered": "",
+                    "type": [Function],
+                  },
+                  "Administrador Jr",
+                  undefined,
+                ],
                 "type": [Function],
               },
-              "Administrador Jr",
             ],
-            "type": [Function],
+            "type": "div",
           },
           Object {
             "instance": null,
@@ -505,18 +622,21 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": Array [
-            <Jss(Text)
-              tag="p"
-            >
-              
+            <div>
               <Jss(Text)
-                strong={true}
-                tag="b"
+                className=""
+                tag="p"
               >
                 
+                <Jss(Text)
+                  strong={true}
+                  tag="b"
+                >
+                  
+                </Jss(Text)>
+                Administrar
               </Jss(Text)>
-              Administrar
-            </Jss(Text)>,
+            </div>,
             <span
               className="right"
             >
@@ -538,39 +658,70 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "class",
+            "nodeType": "host",
             "props": Object {
               "children": Array [
-                "",
+                undefined,
                 <Jss(Text)
-                  strong={true}
-                  tag="b"
+                  className=""
+                  tag="p"
                 >
                   
+                  <Jss(Text)
+                    strong={true}
+                    tag="b"
+                  >
+                    
+                  </Jss(Text)>
+                  Administrar
                 </Jss(Text)>,
-                "Administrar",
               ],
-              "tag": "p",
             },
             "ref": null,
             "rendered": Array [
-              "",
+              undefined,
               Object {
                 "instance": null,
                 "key": undefined,
                 "nodeType": "class",
                 "props": Object {
-                  "children": "",
-                  "strong": true,
-                  "tag": "b",
+                  "children": Array [
+                    "",
+                    <Jss(Text)
+                      strong={true}
+                      tag="b"
+                    >
+                      
+                    </Jss(Text)>,
+                    "Administrar",
+                    undefined,
+                  ],
+                  "className": "",
+                  "tag": "p",
                 },
                 "ref": null,
-                "rendered": "",
+                "rendered": Array [
+                  "",
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": "",
+                      "strong": true,
+                      "tag": "b",
+                    },
+                    "ref": null,
+                    "rendered": "",
+                    "type": [Function],
+                  },
+                  "Administrar",
+                  undefined,
+                ],
                 "type": [Function],
               },
-              "Administrar",
             ],
-            "type": [Function],
+            "type": "div",
           },
           Object {
             "instance": null,
@@ -620,18 +771,21 @@ ShallowWrapper {
             onMouseDown={[Function]}
             onMouseUp={[Function]}
           >
-            <Jss(Text)
-              tag="p"
-            >
-              
+            <div>
               <Jss(Text)
-                strong={true}
-                tag="b"
+                className=""
+                tag="p"
               >
                 
+                <Jss(Text)
+                  strong={true}
+                  tag="b"
+                >
+                  
+                </Jss(Text)>
+                Administrador
               </Jss(Text)>
-              Administrador
-            </Jss(Text)>
+            </div>
             <span
               className="right"
             >
@@ -649,18 +803,21 @@ ShallowWrapper {
             onMouseDown={[Function]}
             onMouseUp={[Function]}
           >
-            <Jss(Text)
-              tag="p"
-            >
-              
+            <div>
               <Jss(Text)
-                strong={true}
-                tag="b"
+                className=""
+                tag="p"
               >
                 
+                <Jss(Text)
+                  strong={true}
+                  tag="b"
+                >
+                  
+                </Jss(Text)>
+                Administrador Sr
               </Jss(Text)>
-              Administrador Sr
-            </Jss(Text)>
+            </div>
             <span
               className="right"
             >
@@ -678,18 +835,21 @@ ShallowWrapper {
             onMouseDown={[Function]}
             onMouseUp={[Function]}
           >
-            <Jss(Text)
-              tag="p"
-            >
-              
+            <div>
               <Jss(Text)
-                strong={true}
-                tag="b"
+                className=""
+                tag="p"
               >
                 
+                <Jss(Text)
+                  strong={true}
+                  tag="b"
+                >
+                  
+                </Jss(Text)>
+                Administrador Jr
               </Jss(Text)>
-              Administrador Jr
-            </Jss(Text)>
+            </div>
             <span
               className="right"
             >
@@ -707,18 +867,21 @@ ShallowWrapper {
             onMouseDown={[Function]}
             onMouseUp={[Function]}
           >
-            <Jss(Text)
-              tag="p"
-            >
-              
+            <div>
               <Jss(Text)
-                strong={true}
-                tag="b"
+                className=""
+                tag="p"
               >
                 
+                <Jss(Text)
+                  strong={true}
+                  tag="b"
+                >
+                  
+                </Jss(Text)>
+                Administrar
               </Jss(Text)>
-              Administrar
-            </Jss(Text)>
+            </div>
             <span
               className="right"
             >
@@ -743,18 +906,21 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": Array [
-              <Jss(Text)
-                tag="p"
-              >
-                
+              <div>
                 <Jss(Text)
-                  strong={true}
-                  tag="b"
+                  className=""
+                  tag="p"
                 >
                   
+                  <Jss(Text)
+                    strong={true}
+                    tag="b"
+                  >
+                    
+                  </Jss(Text)>
+                  Administrador
                 </Jss(Text)>
-                Administrador
-              </Jss(Text)>,
+              </div>,
               <span
                 className="right"
               >
@@ -776,39 +942,70 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "class",
+              "nodeType": "host",
               "props": Object {
                 "children": Array [
-                  "",
+                  undefined,
                   <Jss(Text)
-                    strong={true}
-                    tag="b"
+                    className=""
+                    tag="p"
                   >
                     
+                    <Jss(Text)
+                      strong={true}
+                      tag="b"
+                    >
+                      
+                    </Jss(Text)>
+                    Administrador
                   </Jss(Text)>,
-                  "Administrador",
                 ],
-                "tag": "p",
               },
               "ref": null,
               "rendered": Array [
-                "",
+                undefined,
                 Object {
                   "instance": null,
                   "key": undefined,
                   "nodeType": "class",
                   "props": Object {
-                    "children": "",
-                    "strong": true,
-                    "tag": "b",
+                    "children": Array [
+                      "",
+                      <Jss(Text)
+                        strong={true}
+                        tag="b"
+                      >
+                        
+                      </Jss(Text)>,
+                      "Administrador",
+                      undefined,
+                    ],
+                    "className": "",
+                    "tag": "p",
                   },
                   "ref": null,
-                  "rendered": "",
+                  "rendered": Array [
+                    "",
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "children": "",
+                        "strong": true,
+                        "tag": "b",
+                      },
+                      "ref": null,
+                      "rendered": "",
+                      "type": [Function],
+                    },
+                    "Administrador",
+                    undefined,
+                  ],
                   "type": [Function],
                 },
-                "Administrador",
               ],
-              "type": [Function],
+              "type": "div",
             },
             Object {
               "instance": null,
@@ -848,18 +1045,21 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": Array [
-              <Jss(Text)
-                tag="p"
-              >
-                
+              <div>
                 <Jss(Text)
-                  strong={true}
-                  tag="b"
+                  className=""
+                  tag="p"
                 >
                   
+                  <Jss(Text)
+                    strong={true}
+                    tag="b"
+                  >
+                    
+                  </Jss(Text)>
+                  Administrador Sr
                 </Jss(Text)>
-                Administrador Sr
-              </Jss(Text)>,
+              </div>,
               <span
                 className="right"
               >
@@ -881,39 +1081,70 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "class",
+              "nodeType": "host",
               "props": Object {
                 "children": Array [
-                  "",
+                  undefined,
                   <Jss(Text)
-                    strong={true}
-                    tag="b"
+                    className=""
+                    tag="p"
                   >
                     
+                    <Jss(Text)
+                      strong={true}
+                      tag="b"
+                    >
+                      
+                    </Jss(Text)>
+                    Administrador Sr
                   </Jss(Text)>,
-                  "Administrador Sr",
                 ],
-                "tag": "p",
               },
               "ref": null,
               "rendered": Array [
-                "",
+                undefined,
                 Object {
                   "instance": null,
                   "key": undefined,
                   "nodeType": "class",
                   "props": Object {
-                    "children": "",
-                    "strong": true,
-                    "tag": "b",
+                    "children": Array [
+                      "",
+                      <Jss(Text)
+                        strong={true}
+                        tag="b"
+                      >
+                        
+                      </Jss(Text)>,
+                      "Administrador Sr",
+                      undefined,
+                    ],
+                    "className": "",
+                    "tag": "p",
                   },
                   "ref": null,
-                  "rendered": "",
+                  "rendered": Array [
+                    "",
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "children": "",
+                        "strong": true,
+                        "tag": "b",
+                      },
+                      "ref": null,
+                      "rendered": "",
+                      "type": [Function],
+                    },
+                    "Administrador Sr",
+                    undefined,
+                  ],
                   "type": [Function],
                 },
-                "Administrador Sr",
               ],
-              "type": [Function],
+              "type": "div",
             },
             Object {
               "instance": null,
@@ -953,18 +1184,21 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": Array [
-              <Jss(Text)
-                tag="p"
-              >
-                
+              <div>
                 <Jss(Text)
-                  strong={true}
-                  tag="b"
+                  className=""
+                  tag="p"
                 >
                   
+                  <Jss(Text)
+                    strong={true}
+                    tag="b"
+                  >
+                    
+                  </Jss(Text)>
+                  Administrador Jr
                 </Jss(Text)>
-                Administrador Jr
-              </Jss(Text)>,
+              </div>,
               <span
                 className="right"
               >
@@ -986,39 +1220,70 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "class",
+              "nodeType": "host",
               "props": Object {
                 "children": Array [
-                  "",
+                  undefined,
                   <Jss(Text)
-                    strong={true}
-                    tag="b"
+                    className=""
+                    tag="p"
                   >
                     
+                    <Jss(Text)
+                      strong={true}
+                      tag="b"
+                    >
+                      
+                    </Jss(Text)>
+                    Administrador Jr
                   </Jss(Text)>,
-                  "Administrador Jr",
                 ],
-                "tag": "p",
               },
               "ref": null,
               "rendered": Array [
-                "",
+                undefined,
                 Object {
                   "instance": null,
                   "key": undefined,
                   "nodeType": "class",
                   "props": Object {
-                    "children": "",
-                    "strong": true,
-                    "tag": "b",
+                    "children": Array [
+                      "",
+                      <Jss(Text)
+                        strong={true}
+                        tag="b"
+                      >
+                        
+                      </Jss(Text)>,
+                      "Administrador Jr",
+                      undefined,
+                    ],
+                    "className": "",
+                    "tag": "p",
                   },
                   "ref": null,
-                  "rendered": "",
+                  "rendered": Array [
+                    "",
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "children": "",
+                        "strong": true,
+                        "tag": "b",
+                      },
+                      "ref": null,
+                      "rendered": "",
+                      "type": [Function],
+                    },
+                    "Administrador Jr",
+                    undefined,
+                  ],
                   "type": [Function],
                 },
-                "Administrador Jr",
               ],
-              "type": [Function],
+              "type": "div",
             },
             Object {
               "instance": null,
@@ -1058,18 +1323,21 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": Array [
-              <Jss(Text)
-                tag="p"
-              >
-                
+              <div>
                 <Jss(Text)
-                  strong={true}
-                  tag="b"
+                  className=""
+                  tag="p"
                 >
                   
+                  <Jss(Text)
+                    strong={true}
+                    tag="b"
+                  >
+                    
+                  </Jss(Text)>
+                  Administrar
                 </Jss(Text)>
-                Administrar
-              </Jss(Text)>,
+              </div>,
               <span
                 className="right"
               >
@@ -1091,39 +1359,70 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "class",
+              "nodeType": "host",
               "props": Object {
                 "children": Array [
-                  "",
+                  undefined,
                   <Jss(Text)
-                    strong={true}
-                    tag="b"
+                    className=""
+                    tag="p"
                   >
                     
+                    <Jss(Text)
+                      strong={true}
+                      tag="b"
+                    >
+                      
+                    </Jss(Text)>
+                    Administrar
                   </Jss(Text)>,
-                  "Administrar",
                 ],
-                "tag": "p",
               },
               "ref": null,
               "rendered": Array [
-                "",
+                undefined,
                 Object {
                   "instance": null,
                   "key": undefined,
                   "nodeType": "class",
                   "props": Object {
-                    "children": "",
-                    "strong": true,
-                    "tag": "b",
+                    "children": Array [
+                      "",
+                      <Jss(Text)
+                        strong={true}
+                        tag="b"
+                      >
+                        
+                      </Jss(Text)>,
+                      "Administrar",
+                      undefined,
+                    ],
+                    "className": "",
+                    "tag": "p",
                   },
                   "ref": null,
-                  "rendered": "",
+                  "rendered": Array [
+                    "",
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "children": "",
+                        "strong": true,
+                        "tag": "b",
+                      },
+                      "ref": null,
+                      "rendered": "",
+                      "type": [Function],
+                    },
+                    "Administrar",
+                    undefined,
+                  ],
                   "type": [Function],
                 },
-                "Administrar",
               ],
-              "type": [Function],
+              "type": "div",
             },
             Object {
               "instance": null,
@@ -1189,12 +1488,25 @@ Object {
     "borderRadius": 4,
     "overflow": "hidden",
   },
+  "extraText": Object {
+    "color": "#0946CB",
+    "marginLeft": 8,
+  },
   "group": Object {
     "padding": Array [
       16,
       16,
       4,
     ],
+  },
+  "icon": Object {
+    "marginRight": 8,
+    "position": "absolute",
+    "top": 12,
+  },
+  "iconText": Object {
+    "display": "inline-block",
+    "marginLeft": 24,
   },
   "item": Object {
     "&:hover": Object {
@@ -1207,6 +1519,7 @@ Object {
       8,
       16,
     ],
+    "position": "relative",
     "transition": "0.1s all",
   },
   "onFocus": Object {
@@ -1275,7 +1588,10 @@ ShallowWrapper {
     "props": Object {
       "classes": Object {
         "block": "Droplist-block-0-1-40",
+        "extraText": "Droplist-extraText-0-1-47",
         "group": "Droplist-group-0-1-41",
+        "icon": "Droplist-icon-0-1-45",
+        "iconText": "Droplist-iconText-0-1-46",
         "item": "Droplist-item-0-1-42",
         "onFocus": "Droplist-onFocus-0-1-44",
         "right": "Droplist-right-0-1-43",
@@ -1324,7 +1640,10 @@ ShallowWrapper {
       "props": Object {
         "classes": Object {
           "block": "Droplist-block-0-1-40",
+          "extraText": "Droplist-extraText-0-1-47",
           "group": "Droplist-group-0-1-41",
+          "icon": "Droplist-icon-0-1-45",
+          "iconText": "Droplist-iconText-0-1-46",
           "item": "Droplist-item-0-1-42",
           "onFocus": "Droplist-onFocus-0-1-44",
           "right": "Droplist-right-0-1-43",
