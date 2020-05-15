@@ -1,6 +1,6 @@
 export default {
     props: {
-        fontSize:12,
+        fontSize:13,
         borderCollapse:'collapse'
     },
     th: {

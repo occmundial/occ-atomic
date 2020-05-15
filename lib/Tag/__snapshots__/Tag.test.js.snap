@@ -192,7 +192,7 @@ Object {
     "boxSizing": "border-box",
     "display": "inline-block",
     "fontFamily": "'hk_grotesk', sans-serif",
-    "fontSize": 10,
+    "fontSize": 11,
     "fontStretch": "normal",
     "fontStyle": "normal",
     "fontWeight": "600",

@@ -163,7 +163,7 @@ Object {
     "boxSizing": "border-box",
     "color": "#727272",
     "fontFamily": "'hk_grotesk', sans-serif",
-    "fontSize": "14px",
+    "fontSize": "15px",
     "lineHeight": "18px",
   },
   "num": Object {

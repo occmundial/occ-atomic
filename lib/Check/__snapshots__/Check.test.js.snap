@@ -187,7 +187,7 @@ Object {
     "flex": "1",
     "float": "left",
     "fontFamily": "'hk_grotesk', sans-serif",
-    "fontSize": "14px",
+    "fontSize": "15px",
     "paddingLeft": "5px",
     "paddingRight": "10px",
     "paddingTop": "3px",

@@ -5,7 +5,7 @@ export default {
         padding:15
     },
     desc: {
-        fontSize:14
+        fontSize:15
     },
     playroomBtn: {
         marginLeft: spacing.small
