@@ -74,6 +74,7 @@
     "jsdom": "^11.11.0",
     "npm-run-all": "^4.1.3",
     "playroom": "^0.15.1",
+    "prettier": "^2.0.4",
     "prop-types": "^15.6.0",
     "react": "^16.13.0",
     "react-addons-test-utils": "^15.6.2",
@@ -95,7 +96,8 @@
     "natives": "1.1.6",
     "react-jss": "10.0.4",
     "react-text-mask": "^5.4.3",
-    "react-waypoint": "^8.0.0"
+    "react-waypoint": "^8.0.0",
+    "unorm": "^1.6.0"
   },
   "jest": {
     "testURL": "https://occmundial.github.io/occ-atomic",

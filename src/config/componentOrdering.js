@@ -26,6 +26,7 @@ module.exports = [
             'Modal',
             'Placeholder',
             'Tip',
+            'Banner',
             'Toaster'
         ]
     },

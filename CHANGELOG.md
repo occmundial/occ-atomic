@@ -15,6 +15,26 @@ All notable changes to this project will be documented in this file.
 # Version 1
 
 ## 1.13.x
+### 1.13.21
+- Changes on `Pill` component to fix text overflow on Stack and Group pill type
+
+### 1.13.20
+- Changes on `Pill` component to fix text overflow on Choice pill type
+
+### 1.13.19
+- Changes on `Droplist` component to fix normalize error on IE
+- Changes on `Banner` component to change text size on mobile
+
+### 1.13.18
+- Changes on `Droplist` component to show extra content
+- Changes on `Droplist` component to change color in the icons 
+
+### 1.13.17
+- New prop `showInitialData` on `Autocomplete` component.
+- Changes on `Droplist` component to show icons
+
+### 1.13.16
+- New `Banner` component.
 
 ### 1.13.15
 - New prop `theme` for `SlideDown`.

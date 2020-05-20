@@ -28,6 +28,7 @@ ShallowWrapper {
       Object {
         "assistiveText": "assistiveText",
         "bottom": "bottom",
+        "choiceGroup": "choiceGroup",
         "container": "container",
         "disabled": "disabled",
         "errorAssistiveText": "errorAssistiveText",
@@ -54,7 +55,7 @@ ShallowWrapper {
       "children": Array [
         undefined,
         <div
-          className={undefined}
+          className="choiceGroup"
         >
           <UNDEFINED
             disabled={undefined}
@@ -161,7 +162,7 @@ ShallowWrapper {
               qux
             </UNDEFINED>,
           ],
-          "className": undefined,
+          "className": "choiceGroup",
         },
         "ref": null,
         "rendered": Array [
@@ -277,7 +278,7 @@ ShallowWrapper {
         "children": Array [
           undefined,
           <div
-            className={undefined}
+            className="choiceGroup"
           >
             <UNDEFINED
               disabled={undefined}
@@ -384,7 +385,7 @@ ShallowWrapper {
                 qux
               </UNDEFINED>,
             ],
-            "className": undefined,
+            "className": "choiceGroup",
           },
           "ref": null,
           "rendered": Array [
@@ -522,6 +523,7 @@ ShallowWrapper {
       Object {
         "assistiveText": "assistiveText",
         "bottom": "bottom",
+        "choiceGroup": "choiceGroup",
         "container": "container",
         "disabled": "disabled",
         "errorAssistiveText": "errorAssistiveText",
@@ -756,6 +758,7 @@ ShallowWrapper {
       Object {
         "assistiveText": "assistiveText",
         "bottom": "bottom",
+        "choiceGroup": "choiceGroup",
         "container": "container",
         "disabled": "disabled",
         "errorAssistiveText": "errorAssistiveText",
@@ -1222,6 +1225,10 @@ Object {
   "bottom": Object {
     "height": 20,
     "marginTop": 4,
+  },
+  "choiceGroup": Object {
+    "display": "flex",
+    "flexWrap": "wrap",
   },
   "container": Object {
     "marginBottom": 8,
