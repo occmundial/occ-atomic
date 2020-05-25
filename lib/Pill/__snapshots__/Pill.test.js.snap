@@ -1138,7 +1138,7 @@ Object {
       "textDecoration": "none",
     },
     "color": "#222222",
-    "fontFamily": "'hk_grotesk', sans-serif",
+    "fontFamily": "'HK Grotesk', sans-serif",
     "fontSize": 13,
     "lineHeight": "20px",
     "transition": "0.3s all",

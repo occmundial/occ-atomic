@@ -165,7 +165,7 @@ Object {
   },
   "layerApp": Object {
     "boxSizing": "border-box",
-    "fontFamily": "'hk_grotesk', sans-serif",
+    "fontFamily": "'HK Grotesk', sans-serif",
     "height": "100%",
     "left": "0",
     "overflow": "auto",

@@ -290,7 +290,7 @@ Object {
     "color": "#222222",
     "cursor": "pointer",
     "flex": "1",
-    "fontFamily": "'hk_grotesk', sans-serif",
+    "fontFamily": "'HK Grotesk', sans-serif",
     "fontSize": "13px",
     "height": "30px",
     "outline": "0",

@@ -191,7 +191,7 @@ Object {
   "tagText": Object {
     "boxSizing": "border-box",
     "display": "inline-block",
-    "fontFamily": "'hk_grotesk', sans-serif",
+    "fontFamily": "'HK Grotesk', sans-serif",
     "fontSize": 11,
     "fontStretch": "normal",
     "fontStyle": "normal",

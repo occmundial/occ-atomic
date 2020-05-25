@@ -162,7 +162,7 @@ Object {
   "cont": Object {
     "boxSizing": "border-box",
     "color": "#727272",
-    "fontFamily": "'hk_grotesk', sans-serif",
+    "fontFamily": "'HK Grotesk', sans-serif",
     "fontSize": "15px",
     "lineHeight": "18px",
   },

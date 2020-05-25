@@ -144,7 +144,7 @@ Object {
   },
   "subHeader": Object {
     "boxShadow": "0 6px 5px -3px rgba(0,0,0,0.12), 0 6px 18px 0 rgba(0,29,124,0.08)",
-    "fontFamily": "'hk_grotesk', sans-serif",
+    "fontFamily": "'HK Grotesk', sans-serif",
     "fontSize": "16px",
     "height": "60px",
     "padding": "0 15px",
