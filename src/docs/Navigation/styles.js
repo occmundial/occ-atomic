@@ -11,7 +11,7 @@ export default {
         listStyle:'none'
     },
     li: {
-        fontSize:14,
+        fontSize:15,
         padding:'3px 0'
     },
     a: {

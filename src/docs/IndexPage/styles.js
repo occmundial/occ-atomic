@@ -5,10 +5,10 @@ export default {
         padding:15
     },
     desc: {
-        fontSize:14
+        fontSize:15
     },
     gitlink: {
-        fontSize:12,
+        fontSize:13,
         textDecoration:'none',
         color:colors.blue,
         float:'right',

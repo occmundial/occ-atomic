@@ -182,8 +182,8 @@ Object {
     "boxSizing": "border-box",
     "cursor": "pointer",
     "display": "inline-block",
-    "fontFamily": "'Open Sans', sans-serif",
-    "fontSize": 12,
+    "fontFamily": "'HK Grotesk', sans-serif",
+    "fontSize": 13,
     "fontWeight": 600,
     "height": 32,
     "letterSpacing": 1,
@@ -330,7 +330,7 @@ Object {
     "&$iconOnly": Object {
       "padding": "0 16px",
     },
-    "fontSize": 14,
+    "fontSize": 15,
     "height": 48,
     "lineHeight": "24px",
   },
@@ -367,7 +367,7 @@ Object {
     "&$iconOnly": Object {
       "padding": "0 12px",
     },
-    "fontSize": 14,
+    "fontSize": 15,
     "height": 40,
     "lineHeight": "24px",
   },
