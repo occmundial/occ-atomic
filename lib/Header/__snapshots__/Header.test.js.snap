@@ -631,7 +631,7 @@ Object {
   },
   "navbar": Object {
     "border": "none",
-    "fontFamily": "'Open Sans', sans-serif",
+    "fontFamily": "'HK Grotesk', sans-serif",
     "position": "relative",
     "zIndex": "9",
   },

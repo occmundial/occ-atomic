@@ -162,8 +162,8 @@ Object {
   "cont": Object {
     "boxSizing": "border-box",
     "color": "#727272",
-    "fontFamily": "'Open Sans', sans-serif",
-    "fontSize": "14px",
+    "fontFamily": "'HK Grotesk', sans-serif",
+    "fontSize": "15px",
     "lineHeight": "18px",
   },
   "num": Object {

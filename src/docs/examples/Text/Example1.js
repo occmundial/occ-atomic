@@ -9,6 +9,7 @@ export default function Example1() {
             <Text headline>Headline text</Text>
             <Text heading>Heading text</Text>
             <Text subheading>Subheading text</Text>
+            <Text extraLarge>Extra-large</Text>
             <Text large>Large body</Text>
             <Text standard>Standard body</Text>
             <Text small>Small Caption</Text>

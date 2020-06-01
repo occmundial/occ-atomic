@@ -9,7 +9,7 @@ export default {
         maxWidth:'100%',
         borderRadius:10,
         fontFamily:fonts.body,
-        fontSize:14,
+        fontSize:15,
         marginRight:24,
         marginBottom:24,
         overflow:'hidden',
