@@ -6,6 +6,9 @@ All notable changes to this project will be documented in this file.
 
 ## 1.14.x
 
+### 1.14.2
+- Fix `Tag` padding.
+
 ### 1.14.1
 - Fix in `Footer` mobile styles.
 
