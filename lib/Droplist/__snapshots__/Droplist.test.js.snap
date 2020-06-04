@@ -46,12 +46,18 @@ ShallowWrapper {
           "text": "Administrar",
           "textRight": "(6)",
         },
+        Object {
+          "id": 5,
+          "text": "Comunicación",
+          "textRight": "(6)",
+        },
       ]
     }
     term=""
   />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
     "getNode": [Function],
     "render": [Function],
     "simulateError": [Function],
@@ -179,6 +185,38 @@ ShallowWrapper {
                 
               </Jss(Text)>
               Administrar
+            </Jss(Text)>
+          </div>
+          <span
+            className="right"
+          >
+            <Jss(Text)
+              low={true}
+              tag="span"
+            >
+              (6)
+            </Jss(Text)>
+          </span>
+        </div>,
+        <div
+          className="item"
+          onClick={[Function]}
+          onMouseDown={[Function]}
+          onMouseUp={[Function]}
+        >
+          <div>
+            <Jss(Text)
+              className=""
+              tag="p"
+            >
+              
+              <Jss(Text)
+                strong={true}
+                tag="b"
+              >
+                
+              </Jss(Text)>
+              Comunicación
             </Jss(Text)>
           </div>
           <span
@@ -755,6 +793,145 @@ ShallowWrapper {
         ],
         "type": "div",
       },
+      Object {
+        "instance": null,
+        "key": "5",
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div>
+              <Jss(Text)
+                className=""
+                tag="p"
+              >
+                
+                <Jss(Text)
+                  strong={true}
+                  tag="b"
+                >
+                  
+                </Jss(Text)>
+                Comunicación
+              </Jss(Text)>
+            </div>,
+            <span
+              className="right"
+            >
+              <Jss(Text)
+                low={true}
+                tag="span"
+              >
+                (6)
+              </Jss(Text)>
+            </span>,
+          ],
+          "className": "item",
+          "onClick": [Function],
+          "onMouseDown": [Function],
+          "onMouseUp": [Function],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                undefined,
+                <Jss(Text)
+                  className=""
+                  tag="p"
+                >
+                  
+                  <Jss(Text)
+                    strong={true}
+                    tag="b"
+                  >
+                    
+                  </Jss(Text)>
+                  Comunicación
+                </Jss(Text)>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              undefined,
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": Array [
+                    "",
+                    <Jss(Text)
+                      strong={true}
+                      tag="b"
+                    >
+                      
+                    </Jss(Text)>,
+                    "Comunicación",
+                    undefined,
+                  ],
+                  "className": "",
+                  "tag": "p",
+                },
+                "ref": null,
+                "rendered": Array [
+                  "",
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": "",
+                      "strong": true,
+                      "tag": "b",
+                    },
+                    "ref": null,
+                    "rendered": "",
+                    "type": [Function],
+                  },
+                  "Comunicación",
+                  undefined,
+                ],
+                "type": [Function],
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <Jss(Text)
+                low={true}
+                tag="span"
+              >
+                (6)
+              </Jss(Text)>,
+              "className": "right",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "(6)",
+                "low": true,
+                "tag": "span",
+              },
+              "ref": null,
+              "rendered": "(6)",
+              "type": [Function],
+            },
+            "type": "span",
+          },
+        ],
+        "type": "div",
+      },
     ],
     "type": "div",
   },
@@ -880,6 +1057,38 @@ ShallowWrapper {
                   
                 </Jss(Text)>
                 Administrar
+              </Jss(Text)>
+            </div>
+            <span
+              className="right"
+            >
+              <Jss(Text)
+                low={true}
+                tag="span"
+              >
+                (6)
+              </Jss(Text)>
+            </span>
+          </div>,
+          <div
+            className="item"
+            onClick={[Function]}
+            onMouseDown={[Function]}
+            onMouseUp={[Function]}
+          >
+            <div>
+              <Jss(Text)
+                className=""
+                tag="p"
+              >
+                
+                <Jss(Text)
+                  strong={true}
+                  tag="b"
+                >
+                  
+                </Jss(Text)>
+                Comunicación
               </Jss(Text)>
             </div>
             <span
@@ -1456,6 +1665,145 @@ ShallowWrapper {
           ],
           "type": "div",
         },
+        Object {
+          "instance": null,
+          "key": "5",
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div>
+                <Jss(Text)
+                  className=""
+                  tag="p"
+                >
+                  
+                  <Jss(Text)
+                    strong={true}
+                    tag="b"
+                  >
+                    
+                  </Jss(Text)>
+                  Comunicación
+                </Jss(Text)>
+              </div>,
+              <span
+                className="right"
+              >
+                <Jss(Text)
+                  low={true}
+                  tag="span"
+                >
+                  (6)
+                </Jss(Text)>
+              </span>,
+            ],
+            "className": "item",
+            "onClick": [Function],
+            "onMouseDown": [Function],
+            "onMouseUp": [Function],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  undefined,
+                  <Jss(Text)
+                    className=""
+                    tag="p"
+                  >
+                    
+                    <Jss(Text)
+                      strong={true}
+                      tag="b"
+                    >
+                      
+                    </Jss(Text)>
+                    Comunicación
+                  </Jss(Text)>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                undefined,
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": Array [
+                      "",
+                      <Jss(Text)
+                        strong={true}
+                        tag="b"
+                      >
+                        
+                      </Jss(Text)>,
+                      "Comunicación",
+                      undefined,
+                    ],
+                    "className": "",
+                    "tag": "p",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    "",
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "children": "",
+                        "strong": true,
+                        "tag": "b",
+                      },
+                      "ref": null,
+                      "rendered": "",
+                      "type": [Function],
+                    },
+                    "Comunicación",
+                    undefined,
+                  ],
+                  "type": [Function],
+                },
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <Jss(Text)
+                  low={true}
+                  tag="span"
+                >
+                  (6)
+                </Jss(Text)>,
+                "className": "right",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": "(6)",
+                  "low": true,
+                  "tag": "span",
+                },
+                "ref": null,
+                "rendered": "(6)",
+                "type": [Function],
+              },
+              "type": "span",
+            },
+          ],
+          "type": "div",
+        },
       ],
       "type": "div",
     },
@@ -1464,11 +1812,18 @@ ShallowWrapper {
     "adapter": ReactSixteenAdapter {
       "options": Object {
         "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
         "lifecycles": Object {
           "componentDidUpdate": Object {
             "onSetState": true,
           },
-          "getDerivedStateFromProps": true,
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
           "getSnapshotBeforeUpdate": true,
           "setState": Object {
             "skipsComponentDidUpdateOnNullish": true,
@@ -1477,6 +1832,7 @@ ShallowWrapper {
       },
     },
   },
+  Symbol(enzyme.__childContext__): null,
 }
 `;
 
@@ -1530,6 +1886,7 @@ Object {
   },
   "right": Object {
     "float": "right",
+    "marginLeft": 16,
     "transition": "0.1s all",
   },
 }
@@ -1569,12 +1926,18 @@ ShallowWrapper {
           "text": "Administrar",
           "textRight": "(6)",
         },
+        Object {
+          "id": 5,
+          "text": "Comunicación",
+          "textRight": "(6)",
+        },
       ]
     }
     term=""
   />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
     "getNode": [Function],
     "render": [Function],
     "simulateError": [Function],
@@ -1623,6 +1986,11 @@ ShallowWrapper {
         Object {
           "id": 4,
           "text": "Administrar",
+          "textRight": "(6)",
+        },
+        Object {
+          "id": 5,
+          "text": "Comunicación",
           "textRight": "(6)",
         },
       ],
@@ -1677,6 +2045,11 @@ ShallowWrapper {
             "text": "Administrar",
             "textRight": "(6)",
           },
+          Object {
+            "id": 5,
+            "text": "Comunicación",
+            "textRight": "(6)",
+          },
         ],
         "term": "",
       },
@@ -1689,11 +2062,18 @@ ShallowWrapper {
     "adapter": ReactSixteenAdapter {
       "options": Object {
         "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
         "lifecycles": Object {
           "componentDidUpdate": Object {
             "onSetState": true,
           },
-          "getDerivedStateFromProps": true,
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
           "getSnapshotBeforeUpdate": true,
           "setState": Object {
             "skipsComponentDidUpdateOnNullish": true,
@@ -1702,5 +2082,6 @@ ShallowWrapper {
       },
     },
   },
+  Symbol(enzyme.__childContext__): null,
 }
 `;
