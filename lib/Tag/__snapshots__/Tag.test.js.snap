@@ -174,7 +174,7 @@ Object {
     "marginRight": 4,
     "paddingBottom": 0,
     "position": "relative",
-    "top": 0,
+    "top": -2,
   },
   "info": Object {
     "backgroundColor": "rgba(87, 54, 171, 0.1)",
@@ -193,7 +193,9 @@ Object {
   "medium": Object {
     "height": 32,
     "padding": Array [
-      8,
+      5,
+      12,
+      7,
       12,
     ],
   },
@@ -207,7 +209,9 @@ Object {
   "standard": Object {
     "height": 16,
     "padding": Array [
-      2,
+      1,
+      8,
+      3,
       8,
     ],
   },
