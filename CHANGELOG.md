@@ -6,8 +6,11 @@ All notable changes to this project will be documented in this file.
 
 ## 1.14.x
 
-### 1.14.3
+### 1.14.4
 - Changes on `Droplist` component to fix element filter with accents.
+
+### 1.14.3
+- Fix `Stack Pill` text and icon height.
 
 ### 1.14.2
 - Fix `Tag` padding.
