@@ -1530,6 +1530,7 @@ Object {
   },
   "right": Object {
     "float": "right",
+    "marginLeft": 16,
     "transition": "0.1s all",
   },
 }
