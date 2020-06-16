@@ -6,6 +6,10 @@ All notable changes to this project will be documented in this file.
 
 ## 1.14.x
 
+### 1.14.4
+- New `avatarSmile` icon.
+- Changes in `primLight` and `primLighter` colors.
+
 ### 1.14.3
 - Fix `Stack Pill` text and icon height.
 - Changes on `Droplist` component to fix element filter with accents.
