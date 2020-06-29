@@ -6,6 +6,9 @@ All notable changes to this project will be documented in this file.
 
 ## 1.14.x
 
+### 1.14.5
+- New prop `name` on `Icon` component.
+
 ### 1.14.4
 - New `avatarSmile` icon.
 - Changes in `primLight` and `primLighter` colors.
