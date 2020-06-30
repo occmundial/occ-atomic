@@ -27,9 +27,9 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "alt": undefined,
+      "aria-label": undefined,
       "className": "icon",
       "id": undefined,
-      "name": undefined,
       "onClick": undefined,
       "style": undefined,
     },
@@ -44,9 +44,9 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "alt": undefined,
+        "aria-label": undefined,
         "className": "icon",
         "id": undefined,
-        "name": undefined,
         "onClick": undefined,
         "style": undefined,
       },
