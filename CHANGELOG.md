@@ -7,7 +7,7 @@ All notable changes to this project will be documented in this file.
 ## 1.14.x
 
 ### 1.14.8
-- add new prop to set a custom class in footer lists 
+- Add new prop to set a custom class in footer lists.
 
 ### 1.14.7
 - Setting value for `ariaLabel` Icon prop on `List`/`Footer` component.
