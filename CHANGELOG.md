@@ -6,6 +6,10 @@ All notable changes to this project will be documented in this file.
 
 ## 1.14.x
 
+### 1.14.9
+- Add hourGlass icon.
+- Remove duplicated icon 
+
 ### 1.14.8
 - Add new prop to set a custom class in footer lists.
 
