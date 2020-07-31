@@ -6,6 +6,9 @@ All notable changes to this project will be documented in this file.
 
 ## 1.14.x
 
+### 1.14.12
+- New `copy` and `copySolid` icons.
+
 ### 1.14.11
 - New `crossSolid` icon.
 
