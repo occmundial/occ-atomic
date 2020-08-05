@@ -6,6 +6,9 @@ All notable changes to this project will be documented in this file.
 
 ## 1.14.x
 
+### 1.14.13
+- Changes in `trash` and `trashSolid` icons.
+
 ### 1.14.12
 - New `copy` and `copySolid` icons.
 
