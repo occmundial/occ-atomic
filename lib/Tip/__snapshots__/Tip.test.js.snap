@@ -11,6 +11,7 @@ ShallowWrapper {
         "icon": "icon",
         "info": "info",
         "success": "success",
+        "text": "text",
         "warning": "warning",
       }
     }
@@ -18,6 +19,7 @@ ShallowWrapper {
   />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
     "getNode": [Function],
     "render": [Function],
     "simulateError": [Function],
@@ -35,6 +37,7 @@ ShallowWrapper {
         justifyContent="start"
       >
         <Jss(Flexbox)
+          className="text"
           flex="1"
         >
           <Jss(Text)
@@ -57,6 +60,7 @@ ShallowWrapper {
         "children": Array [
           undefined,
           <Jss(Flexbox)
+            className="text"
             flex="1"
           >
             <Jss(Text)
@@ -83,6 +87,7 @@ ShallowWrapper {
               standard={true}
               tag="div"
             />,
+            "className": "text",
             "flex": "1",
           },
           "ref": null,
@@ -123,6 +128,7 @@ ShallowWrapper {
           justifyContent="start"
         >
           <Jss(Flexbox)
+            className="text"
             flex="1"
           >
             <Jss(Text)
@@ -145,6 +151,7 @@ ShallowWrapper {
           "children": Array [
             undefined,
             <Jss(Flexbox)
+              className="text"
               flex="1"
             >
               <Jss(Text)
@@ -171,6 +178,7 @@ ShallowWrapper {
                 standard={true}
                 tag="div"
               />,
+              "className": "text",
               "flex": "1",
             },
             "ref": null,
@@ -204,11 +212,18 @@ ShallowWrapper {
     "adapter": ReactSixteenAdapter {
       "options": Object {
         "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
         "lifecycles": Object {
           "componentDidUpdate": Object {
             "onSetState": true,
           },
-          "getDerivedStateFromProps": true,
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
           "getSnapshotBeforeUpdate": true,
           "setState": Object {
             "skipsComponentDidUpdateOnNullish": true,
@@ -223,6 +238,7 @@ ShallowWrapper {
 exports[`Tip styles matches the snapshot 1`] = `
 Object {
   "container": Object {
+    "alignItems": "center",
     "borderRadius": 6,
     "padding": 16,
   },
@@ -238,6 +254,9 @@ Object {
   "success": Object {
     "backgroundColor": "rgba(0, 149, 55, 0.1)",
   },
+  "text": Object {
+    "minWidth": 0,
+  },
   "warning": Object {
     "backgroundColor": "rgba(255, 197, 73, 0.1)",
   },
@@ -252,6 +271,7 @@ ShallowWrapper {
   />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
     "getNode": [Function],
     "render": [Function],
     "simulateError": [Function],
@@ -269,6 +289,7 @@ ShallowWrapper {
         "icon": "Tip-icon-0-1-78",
         "info": "Tip-info-0-1-74",
         "success": "Tip-success-0-1-76",
+        "text": "Tip-text-0-1-79",
         "warning": "Tip-warning-0-1-75",
       },
       "theme": "info",
@@ -289,6 +310,7 @@ ShallowWrapper {
           "icon": "Tip-icon-0-1-78",
           "info": "Tip-info-0-1-74",
           "success": "Tip-success-0-1-76",
+          "text": "Tip-text-0-1-79",
           "warning": "Tip-warning-0-1-75",
         },
         "theme": "info",
@@ -302,11 +324,18 @@ ShallowWrapper {
     "adapter": ReactSixteenAdapter {
       "options": Object {
         "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
         "lifecycles": Object {
           "componentDidUpdate": Object {
             "onSetState": true,
           },
-          "getDerivedStateFromProps": true,
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
           "getSnapshotBeforeUpdate": true,
           "setState": Object {
             "skipsComponentDidUpdateOnNullish": true,
@@ -315,5 +344,6 @@ ShallowWrapper {
       },
     },
   },
+  Symbol(enzyme.__childContext__): null,
 }
 `;
