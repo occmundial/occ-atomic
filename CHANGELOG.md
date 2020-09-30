@@ -6,6 +6,9 @@ All notable changes to this project will be documented in this file.
 
 ## 1.14.x
 
+### 1.14.15
+- Changes in `Tip` icon styles.
+
 ### 1.14.14
 - Changes in `Tip` styles.
 
