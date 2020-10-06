@@ -7,7 +7,7 @@ All notable changes to this project will be documented in this file.
 ## 1.14.x
 
 ### 1.14.16
-- new `book` icon.
+- New `book` icon.
 
 ### 1.14.15
 - Changes in `Tip` icon styles.
