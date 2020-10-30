@@ -10,8 +10,11 @@ ShallowWrapper {
         "error": "error",
         "icon": "icon",
         "info": "info",
+        "noBorderRadius": "noBorderRadius",
+        "spacedClose": "spacedClose",
         "success": "success",
         "text": "text",
+        "textWithIcon": "textWithIcon",
         "warning": "warning",
       }
     }
@@ -36,14 +39,20 @@ ShallowWrapper {
         justifyContent="start"
       >
         <Jss(Flexbox)
-          className="text"
+          alignItems="center"
+          display="flex"
           flex="1"
+          justifyContent={null}
         >
-          <Jss(Text)
-            info={true}
-            standard={true}
-            tag="div"
-          />
+          <div
+            className="text"
+          >
+            <Jss(Text)
+              info={true}
+              standard={true}
+              tag="div"
+            />
+          </div>
         </Jss(Flexbox)>
       </Jss(Flexbox)>,
       "className": undefined,
@@ -57,17 +66,23 @@ ShallowWrapper {
       "nodeType": "class",
       "props": Object {
         "children": Array [
-          undefined,
           <Jss(Flexbox)
-            className="text"
+            alignItems="center"
+            display="flex"
             flex="1"
+            justifyContent={null}
           >
-            <Jss(Text)
-              info={true}
-              standard={true}
-              tag="div"
-            />
+            <div
+              className="text"
+            >
+              <Jss(Text)
+                info={true}
+                standard={true}
+                tag="div"
+              />
+            </div>
           </Jss(Flexbox)>,
+          undefined,
         ],
         "className": "container info",
         "display": "flex",
@@ -75,41 +90,68 @@ ShallowWrapper {
       },
       "ref": null,
       "rendered": Array [
-        undefined,
         Object {
           "instance": null,
           "key": undefined,
           "nodeType": "class",
           "props": Object {
-            "children": <Jss(Text)
-              info={true}
-              standard={true}
-              tag="div"
-            />,
-            "className": "text",
+            "alignItems": "center",
+            "children": Array [
+              undefined,
+              <div
+                className="text"
+              >
+                <Jss(Text)
+                  info={true}
+                  standard={true}
+                  tag="div"
+                />
+              </div>,
+            ],
+            "display": "flex",
             "flex": "1",
+            "justifyContent": null,
           },
           "ref": null,
-          "rendered": Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "class",
-            "props": Object {
-              "children": Array [
-                undefined,
-              ],
-              "info": true,
-              "standard": true,
-              "tag": "div",
+          "rendered": Array [
+            undefined,
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <Jss(Text)
+                  info={true}
+                  standard={true}
+                  tag="div"
+                />,
+                "className": "text",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": Array [
+                    undefined,
+                  ],
+                  "info": true,
+                  "standard": true,
+                  "tag": "div",
+                },
+                "ref": null,
+                "rendered": Array [
+                  undefined,
+                ],
+                "type": [Function],
+              },
+              "type": "div",
             },
-            "ref": null,
-            "rendered": Array [
-              undefined,
-            ],
-            "type": [Function],
-          },
+          ],
           "type": [Function],
         },
+        undefined,
       ],
       "type": [Function],
     },
@@ -127,14 +169,20 @@ ShallowWrapper {
           justifyContent="start"
         >
           <Jss(Flexbox)
-            className="text"
+            alignItems="center"
+            display="flex"
             flex="1"
+            justifyContent={null}
           >
-            <Jss(Text)
-              info={true}
-              standard={true}
-              tag="div"
-            />
+            <div
+              className="text"
+            >
+              <Jss(Text)
+                info={true}
+                standard={true}
+                tag="div"
+              />
+            </div>
           </Jss(Flexbox)>
         </Jss(Flexbox)>,
         "className": undefined,
@@ -148,17 +196,23 @@ ShallowWrapper {
         "nodeType": "class",
         "props": Object {
           "children": Array [
-            undefined,
             <Jss(Flexbox)
-              className="text"
+              alignItems="center"
+              display="flex"
               flex="1"
+              justifyContent={null}
             >
-              <Jss(Text)
-                info={true}
-                standard={true}
-                tag="div"
-              />
+              <div
+                className="text"
+              >
+                <Jss(Text)
+                  info={true}
+                  standard={true}
+                  tag="div"
+                />
+              </div>
             </Jss(Flexbox)>,
+            undefined,
           ],
           "className": "container info",
           "display": "flex",
@@ -166,41 +220,68 @@ ShallowWrapper {
         },
         "ref": null,
         "rendered": Array [
-          undefined,
           Object {
             "instance": null,
             "key": undefined,
             "nodeType": "class",
             "props": Object {
-              "children": <Jss(Text)
-                info={true}
-                standard={true}
-                tag="div"
-              />,
-              "className": "text",
+              "alignItems": "center",
+              "children": Array [
+                undefined,
+                <div
+                  className="text"
+                >
+                  <Jss(Text)
+                    info={true}
+                    standard={true}
+                    tag="div"
+                  />
+                </div>,
+              ],
+              "display": "flex",
               "flex": "1",
+              "justifyContent": null,
             },
             "ref": null,
-            "rendered": Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "class",
-              "props": Object {
-                "children": Array [
-                  undefined,
-                ],
-                "info": true,
-                "standard": true,
-                "tag": "div",
+            "rendered": Array [
+              undefined,
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <Jss(Text)
+                    info={true}
+                    standard={true}
+                    tag="div"
+                  />,
+                  "className": "text",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": Array [
+                      undefined,
+                    ],
+                    "info": true,
+                    "standard": true,
+                    "tag": "div",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    undefined,
+                  ],
+                  "type": [Function],
+                },
+                "type": "div",
               },
-              "ref": null,
-              "rendered": Array [
-                undefined,
-              ],
-              "type": [Function],
-            },
+            ],
             "type": [Function],
           },
+          undefined,
         ],
         "type": [Function],
       },
@@ -243,11 +324,20 @@ Object {
   "info": Object {
     "backgroundColor": "rgba(87, 54, 171, 0.1)",
   },
+  "noBorderRadius": Object {
+    "borderRadius": 0,
+  },
+  "spacedClose": Object {
+    "marginRight": 48,
+  },
   "success": Object {
     "backgroundColor": "rgba(0, 149, 55, 0.1)",
   },
   "text": Object {
-    "minWidth": 0,
+    "maxWidth": "100%",
+  },
+  "textWithIcon": Object {
+    "maxWidth": "calc(100% - 32px)",
   },
   "warning": Object {
     "backgroundColor": "rgba(255, 197, 73, 0.1)",
@@ -276,12 +366,15 @@ ShallowWrapper {
     "props": Object {
       "classes": Object {
         "container": "Tip-container-0-1-73",
-        "error": "Tip-error-0-1-77",
-        "icon": "Tip-icon-0-1-78",
-        "info": "Tip-info-0-1-74",
-        "success": "Tip-success-0-1-76",
-        "text": "Tip-text-0-1-79",
-        "warning": "Tip-warning-0-1-75",
+        "error": "Tip-error-0-1-78",
+        "icon": "Tip-icon-0-1-79",
+        "info": "Tip-info-0-1-75",
+        "noBorderRadius": "Tip-noBorderRadius-0-1-74",
+        "spacedClose": "Tip-spacedClose-0-1-82",
+        "success": "Tip-success-0-1-77",
+        "text": "Tip-text-0-1-80",
+        "textWithIcon": "Tip-textWithIcon-0-1-81",
+        "warning": "Tip-warning-0-1-76",
       },
       "theme": "info",
     },
@@ -297,12 +390,15 @@ ShallowWrapper {
       "props": Object {
         "classes": Object {
           "container": "Tip-container-0-1-73",
-          "error": "Tip-error-0-1-77",
-          "icon": "Tip-icon-0-1-78",
-          "info": "Tip-info-0-1-74",
-          "success": "Tip-success-0-1-76",
-          "text": "Tip-text-0-1-79",
-          "warning": "Tip-warning-0-1-75",
+          "error": "Tip-error-0-1-78",
+          "icon": "Tip-icon-0-1-79",
+          "info": "Tip-info-0-1-75",
+          "noBorderRadius": "Tip-noBorderRadius-0-1-74",
+          "spacedClose": "Tip-spacedClose-0-1-82",
+          "success": "Tip-success-0-1-77",
+          "text": "Tip-text-0-1-80",
+          "textWithIcon": "Tip-textWithIcon-0-1-81",
+          "warning": "Tip-warning-0-1-76",
         },
         "theme": "info",
       },
