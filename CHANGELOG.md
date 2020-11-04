@@ -6,6 +6,9 @@ All notable changes to this project will be documented in this file.
 
 ## 1.14.x
 
+### 1.14.19
+- Changes in `Tip` component.
+
 ### 1.14.18
 - Changes in `Button` propTypes.
 
