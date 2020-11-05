@@ -4,13 +4,10 @@ All notable changes to this project will be documented in this file.
 
 # Version 1
 
-### 1.14.19
-- New prop `pattern` on `TextField` component.
-
 ## 1.14.x
 
 ### 1.14.19
-- New prop `pattern` on `Input` component.
+- New prop `pattern` on `TextField` component.
 
 ### 1.14.18
 - Changes in `Button` propTypes.
