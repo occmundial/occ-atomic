@@ -120,13 +120,13 @@ exports[`Placeholder styles matches the snapshot 1`] = `
 Object {
   "@keyframes placeholderPulse": Object {
     "0%": Object {
-      "opacity": 0.5,
+      "opacity": 0.4,
     },
     "100%": Object {
-      "opacity": 0.5,
+      "opacity": 0.4,
     },
     "50%": Object {
-      "opacity": 1,
+      "opacity": 0.8,
     },
   },
   "bottombase": Object {
@@ -170,21 +170,21 @@ Object {
   },
   "large": Object {
     "& $placeholder": Object {
-      "height": 16,
+      "height": 15,
     },
     "height": 24,
   },
   "micro": Object {
     "& $placeholder": Object {
-      "height": 10,
+      "height": 11,
     },
     "height": 16,
   },
   "placeholder": Object {
     "animation": "placeholderPulse 1s infinite ease-in-out",
-    "background": "#f5f5f5",
-    "borderRadius": 4,
+    "backgroundImage": [Function],
     "height": [Function],
+    "mixBlendMode": "multiply",
     "width": [Function],
   },
   "round": Object {
@@ -198,13 +198,13 @@ Object {
   },
   "standard": Object {
     "& $placeholder": Object {
-      "height": 14,
+      "height": 13,
     },
     "height": 24,
   },
   "subheading": Object {
     "& $placeholder": Object {
-      "height": 16,
+      "height": 17,
     },
     "height": 24,
   },
