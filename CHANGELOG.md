@@ -8,7 +8,6 @@ All notable changes to this project will be documented in this file.
 
 ### 1.14.19
 - New prop `pattern` on `TextField` component.
-- Changes in `Tip` component.
 
 ### 1.14.18
 - Changes in `Button` propTypes.
