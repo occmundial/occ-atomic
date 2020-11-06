@@ -7,7 +7,9 @@ All notable changes to this project will be documented in this file.
 ## 1.14.x
 
 ### 1.14.19
+- New prop `pattern` on `TextField` component.
 - Changes in `Tip` component.
+- New `round` prop and changes in the `secondary` theme in the `Button` component.
 
 ### 1.14.18
 - Changes in `Button` propTypes.
