@@ -4,12 +4,15 @@ All notable changes to this project will be documented in this file.
 
 # Version 1
 
-## 1.14.x
+## 1.15.x
 
-### 1.14.19
+### 1.15.0
 - New prop `pattern` on `TextField` component.
 - Changes in `Tip` component.
 - New `round` prop and changes in the `secondary` theme in the `Button` component.
+- New color theme for the OCC logo icons.
+
+## 1.14.x
 
 ### 1.14.18
 - Changes in `Button` propTypes.
@@ -85,6 +88,7 @@ All notable changes to this project will be documented in this file.
 - Change of the font-family in all the components.
 
 ## 1.13.x
+
 ### 1.13.21
 - Changes on `Pill` component to fix text overflow on Stack and Group pill type.
 - New `medium` and `big` sizes for the `Tag` component.
