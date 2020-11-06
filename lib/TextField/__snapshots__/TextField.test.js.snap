@@ -75,6 +75,7 @@ ShallowWrapper {
             onChange={[Function]}
             onFocus={[Function]}
             onKeyUp={[Function]}
+            pattern={undefined}
             placeholder={undefined}
             required={undefined}
             type="text"
@@ -109,6 +110,7 @@ ShallowWrapper {
               onChange={[Function]}
               onFocus={[Function]}
               onKeyUp={[Function]}
+              pattern={undefined}
               placeholder={undefined}
               required={undefined}
               type="text"
@@ -137,6 +139,7 @@ ShallowWrapper {
               "onChange": [Function],
               "onFocus": [Function],
               "onKeyUp": [Function],
+              "pattern": undefined,
               "placeholder": undefined,
               "required": undefined,
               "type": "text",
@@ -175,6 +178,7 @@ ShallowWrapper {
               onChange={[Function]}
               onFocus={[Function]}
               onKeyUp={[Function]}
+              pattern={undefined}
               placeholder={undefined}
               required={undefined}
               type="text"
@@ -209,6 +213,7 @@ ShallowWrapper {
                 onChange={[Function]}
                 onFocus={[Function]}
                 onKeyUp={[Function]}
+                pattern={undefined}
                 placeholder={undefined}
                 required={undefined}
                 type="text"
@@ -237,6 +242,7 @@ ShallowWrapper {
                 "onChange": [Function],
                 "onFocus": [Function],
                 "onKeyUp": [Function],
+                "pattern": undefined,
                 "placeholder": undefined,
                 "required": undefined,
                 "type": "text",
