@@ -7,10 +7,12 @@ ShallowWrapper {
     classes={
       Object {
         "container": "container",
+        "cta": "cta",
         "error": "error",
         "icon": "icon",
         "info": "info",
         "noBorderRadius": "noBorderRadius",
+        "promote": "promote",
         "spacedClose": "spacedClose",
         "success": "success",
         "text": "text",
@@ -315,6 +317,10 @@ Object {
     "borderRadius": 6,
     "padding": 16,
   },
+  "cta": Object {
+    "cursor": "pointer",
+    "textDecoration": "underline",
+  },
   "error": Object {
     "backgroundColor": "rgba(219, 55, 55, 0.1)",
   },
@@ -326,6 +332,9 @@ Object {
   },
   "noBorderRadius": Object {
     "borderRadius": 0,
+  },
+  "promote": Object {
+    "backgroundColor": "#222222",
   },
   "spacedClose": Object {
     "marginRight": 48,
@@ -366,14 +375,16 @@ ShallowWrapper {
     "props": Object {
       "classes": Object {
         "container": "Tip-container-0-1-73",
+        "cta": "Tip-cta-0-1-84",
         "error": "Tip-error-0-1-78",
-        "icon": "Tip-icon-0-1-79",
+        "icon": "Tip-icon-0-1-80",
         "info": "Tip-info-0-1-75",
         "noBorderRadius": "Tip-noBorderRadius-0-1-74",
-        "spacedClose": "Tip-spacedClose-0-1-82",
+        "promote": "Tip-promote-0-1-79",
+        "spacedClose": "Tip-spacedClose-0-1-83",
         "success": "Tip-success-0-1-77",
-        "text": "Tip-text-0-1-80",
-        "textWithIcon": "Tip-textWithIcon-0-1-81",
+        "text": "Tip-text-0-1-81",
+        "textWithIcon": "Tip-textWithIcon-0-1-82",
         "warning": "Tip-warning-0-1-76",
       },
       "theme": "info",
@@ -390,14 +401,16 @@ ShallowWrapper {
       "props": Object {
         "classes": Object {
           "container": "Tip-container-0-1-73",
+          "cta": "Tip-cta-0-1-84",
           "error": "Tip-error-0-1-78",
-          "icon": "Tip-icon-0-1-79",
+          "icon": "Tip-icon-0-1-80",
           "info": "Tip-info-0-1-75",
           "noBorderRadius": "Tip-noBorderRadius-0-1-74",
-          "spacedClose": "Tip-spacedClose-0-1-82",
+          "promote": "Tip-promote-0-1-79",
+          "spacedClose": "Tip-spacedClose-0-1-83",
           "success": "Tip-success-0-1-77",
-          "text": "Tip-text-0-1-80",
-          "textWithIcon": "Tip-textWithIcon-0-1-81",
+          "text": "Tip-text-0-1-81",
+          "textWithIcon": "Tip-textWithIcon-0-1-82",
           "warning": "Tip-warning-0-1-76",
         },
         "theme": "info",

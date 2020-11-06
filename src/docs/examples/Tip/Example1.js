@@ -9,6 +9,7 @@ export default function Example1() {
             <Tip theme="warning">Tip with some simple text.</Tip>
             <Tip theme="success">Tip with some simple text.</Tip>
             <Tip theme="error">Tip with some simple text.</Tip>
+            <Tip theme="promote">Tip with some simple text.</Tip>
         </div>
     );
 }
