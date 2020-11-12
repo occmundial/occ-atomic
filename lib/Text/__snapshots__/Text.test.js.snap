@@ -254,7 +254,7 @@ Object {
     "marginTop": 4,
   },
   "warning": Object {
-    "color": "#ffc549",
+    "color": "#e69000",
   },
   "white": Object {
     "color": "#ffffff",

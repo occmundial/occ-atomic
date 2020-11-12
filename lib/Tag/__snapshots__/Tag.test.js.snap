@@ -160,7 +160,7 @@ Object {
     "background": [Function],
   },
   "error": Object {
-    "background": "rgba(219, 55, 55, 0.1)",
+    "background": "#fcebeb",
     "color": "#db3737",
   },
   "errorIcon": Object {
@@ -177,7 +177,7 @@ Object {
     "top": -2,
   },
   "info": Object {
-    "backgroundColor": "rgba(87, 54, 171, 0.1)",
+    "backgroundColor": "#efebf7",
     "color": "#5736ab",
   },
   "infoIcon": Object {
@@ -223,7 +223,7 @@ Object {
     "fontSize": 11,
   },
   "success": Object {
-    "background": "rgba(0, 149, 55, 0.1)",
+    "background": "#e6f5eb",
     "color": "#009537",
   },
   "successIcon": Object {
@@ -253,8 +253,8 @@ Object {
     "textAlign": "center",
   },
   "warning": Object {
-    "background": "rgba(255, 197, 73, 0.1)",
-    "color": "#ffc549",
+    "background": "#fffaed",
+    "color": "#e69000",
   },
   "warningIcon": Object {
     "background": [Function],
