@@ -189,6 +189,7 @@ Object {
       "width": "100%",
     },
     "background": "#f2f2f2",
+    "borderRadius": 4,
     "height": [Function],
     "mixBlendMode": "multiply",
     "overflow": "hidden",
