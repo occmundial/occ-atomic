@@ -322,13 +322,13 @@ Object {
     "textDecoration": "underline",
   },
   "error": Object {
-    "backgroundColor": "rgba(219, 55, 55, 0.1)",
+    "backgroundColor": "#fcebeb",
   },
   "icon": Object {
     "marginRight": 8,
   },
   "info": Object {
-    "backgroundColor": "rgba(87, 54, 171, 0.1)",
+    "backgroundColor": "#efebf7",
   },
   "noBorderRadius": Object {
     "borderRadius": 0,
@@ -340,7 +340,7 @@ Object {
     "marginRight": 48,
   },
   "success": Object {
-    "backgroundColor": "rgba(0, 149, 55, 0.1)",
+    "backgroundColor": "#e6f5eb",
   },
   "text": Object {
     "maxWidth": "100%",
@@ -349,7 +349,7 @@ Object {
     "maxWidth": "calc(100% - 32px)",
   },
   "warning": Object {
-    "backgroundColor": "rgba(255, 197, 73, 0.1)",
+    "backgroundColor": "#fffaed",
   },
 }
 `;

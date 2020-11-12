@@ -6,6 +6,10 @@ All notable changes to this project will be documented in this file.
 
 ## 1.15.x
 
+### 1.15.1
+- Changes in `Placeholder` component.
+- Changes in the `colors` library and in the `Tip` and `Tag` components.
+
 ### 1.15.0
 - New prop `pattern` on `TextField` component.
 - Changes in `Tip` component.

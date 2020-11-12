@@ -47,6 +47,43 @@ const links = [
     {id:1, text:'Text link', hex:colors.textLink, code:'textLink', color:colors.white, height:1}
 ];
 
+const info = [
+    {id:1, text:'Info', hex:colors.info, code:'info', color:colors.white, height:1},
+    {id:2, text:'Info Light', hex:colors.infoLight, code:'infoLight', color:colors.infoText, height:1},
+    {id:3, text:'Info Text', hex:colors.bgWhite, hexText:colors.infoText, code:'infoText', color:colors.infoText, height:1}
+];
+
+const warning = [
+    {id:1, text:'Warning', hex:colors.warning, code:'warning', color:colors.ink, height:1},
+    {id:2, text:'Warning Light', hex:colors.warningLight, code:'warningLight', color:colors.warningText, height:1},
+    {id:3, text:'Warning Text', hex:colors.bgWhite, hexText:colors.warningText, code:'warningText', color:colors.warningText, height:1}
+];
+
+const success = [
+    {id:1, text:'Success', hex:colors.success, code:'success', color:colors.white, height:1},
+    {id:2, text:'Success Light', hex:colors.successLight, code:'successLight', color:colors.successText, height:1},
+    {id:3, text:'Success Text', hex:colors.bgWhite, hexText:colors.successText, code:'successText', color:colors.successText, height:1}
+];
+
+const error = [
+    {id:1, text:'Error', hex:colors.error, code:'error', color:colors.white, height:1},
+    {id:2, text:'Error Light', hex:colors.errorLight, code:'errorLight', color:colors.errorText, height:1},
+    {id:3, text:'Error Text', hex:colors.bgWhite, hexText:colors.errorText, code:'errorText', color:colors.errorText, height:1}
+];
+
+const colorLists = [
+    primary,
+    secondary,
+    ink,
+    background,
+    grey,
+    links,
+    info,
+    warning,
+    success,
+    error
+];
+
 const Colors = ({ classes }) => {
     return (
         <div className={classes.page}>
@@ -57,72 +94,19 @@ const Colors = ({ classes }) => {
             </Card>
             <Card shadow={3} style={{marginTop:30}}>
                 <Flexbox display="flex" wrap="wrap" alignItems="start">
-                    <div className={classes.colorBlock}>
-                        {primary.map(color => (
-                            <div className={classes.colorRow} style={{background:color.hex, color:color.color, height:color.height*48}} key={color.id}>
-                                <div className={classes.colorName}>
-                                    <span className={classes.text}>{color.text}</span>
-                                    <span className={classes.code}>colors.{color.code}</span>
+                    {colorLists.map(list => (
+                        <div className={classes.colorBlock} key={list}>
+                            {list.map(color => (
+                                <div className={classes.colorRow} style={{background:color.hex, color:color.color, height:color.height*48}} key={color.id}>
+                                    <div className={classes.colorName}>
+                                        <span className={classes.text}>{color.text}</span>
+                                        <span className={classes.code}>colors.{color.code}</span>
+                                    </div>
+                                    <div className={classes.hex}>{color.hexText || color.hex}</div>
                                 </div>
-                                <div className={classes.hex}>{color.hex}</div>
-                            </div>
-                        ))}
-                    </div>
-                    <div className={classes.colorBlock}>
-                        {secondary.map(color => (
-                            <div className={classes.colorRow} style={{background:color.hex, color:color.color, height:color.height*48}} key={color.id}>
-                                <div className={classes.colorName}>
-                                    <span className={classes.text}>{color.text}</span>
-                                    <span className={classes.code}>colors.{color.code}</span>
-                                </div>
-                                <div className={classes.hex}>{color.hex}</div>
-                            </div>
-                        ))}
-                    </div>
-                    <div className={classes.colorBlock}>
-                        {ink.map(color => (
-                            <div className={classes.colorRow} style={{background:color.hex, color:color.color, height:color.height*48}} key={color.id}>
-                                <div className={classes.colorName}>
-                                    <span className={classes.text}>{color.text}</span>
-                                    <span className={classes.code}>colors.{color.code}</span>
-                                </div>
-                                <div className={classes.hex}>{color.hex}</div>
-                            </div>
-                        ))}
-                    </div>
-                    <div className={classes.colorBlock}>
-                        {background.map(color => (
-                            <div className={classes.colorRow} style={{background:color.hex, color:color.color, height:color.height*48}} key={color.id}>
-                                <div className={classes.colorName}>
-                                    <span className={classes.text}>{color.text}</span>
-                                    <span className={classes.code}>colors.{color.code}</span>
-                                </div>
-                                <div className={classes.hex}>{color.hex}</div>
-                            </div>
-                        ))}
-                    </div>
-                    <div className={classes.colorBlock}>
-                        {grey.map(color => (
-                            <div className={classes.colorRow} style={{background:color.hex, color:color.color, height:color.height*48}} key={color.id}>
-                                <div className={classes.colorName}>
-                                    <span className={classes.text}>{color.text}</span>
-                                    <span className={classes.code}>colors.{color.code}</span>
-                                </div>
-                                <div className={classes.hex}>{color.hex}</div>
-                            </div>
-                        ))}
-                    </div>
-                    <div className={classes.colorBlock}>
-                        {links.map(color => (
-                            <div className={classes.colorRow} style={{background:color.hex, color:color.color, height:color.height*48}} key={color.id}>
-                                <div className={classes.colorName}>
-                                    <span className={classes.text}>{color.text}</span>
-                                    <span className={classes.code}>colors.{color.code}</span>
-                                </div>
-                                <div className={classes.hex}>{color.hex}</div>
-                            </div>
-                        ))}
-                    </div>
+                            ))}
+                        </div>
+                    ))}
                 </Flexbox>
             </Card>
         </div>
