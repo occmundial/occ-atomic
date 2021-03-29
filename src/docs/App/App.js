@@ -5,7 +5,7 @@ import ComponentPage from '../ComponentPage';
 import CustomPage from '../CustomPage';
 import componentData from '../../config/componentData';
 
-import { Flexbox, NavTab, Icon, Text, TextField} from '@occmundial/occ-atomic';
+import { Flexbox, NavTab, Icon, Text} from '@occmundial/occ-atomic';
 
 class App extends React.Component {
 
@@ -68,7 +68,7 @@ class App extends React.Component {
                 <Flexbox className={classes.app} display="flex">
                     <Navigation components={componentData.map(component => component.name)} />
                     <Flexbox flex="1" className={classes.cardCont}>
-                        component ? <ComponentPage component={component} /> : <CustomPage route={route} />
+                        { component ? <ComponentPage component={component} /> : <CustomPage route={route} /> }
                     </Flexbox>
                 </Flexbox>
             </div>
