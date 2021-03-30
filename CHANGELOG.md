@@ -6,6 +6,9 @@ All notable changes to this project will be documented in this file.
 
 ## 1.15.x
 
+### 1.15.2
+- Remove arrows on input type number in `TextField` component.
+
 ### 1.15.1
 - Changes in `Placeholder` component.
 - Changes in the `colors` library and in the `Tip` and `Tag` components.
