@@ -6,6 +6,10 @@ All notable changes to this project will be documented in this file.
 
 ## 1.15.x
 
+### 1.15.4
+
+- New `inputMode` prop in `TextField` component.
+
 ### 1.15.3
 
 - Fix in the input type for the `TextField` component with mask prop.
