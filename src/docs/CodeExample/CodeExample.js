@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import hljs from 'highlight.js/lib/core';
+import hljs from 'highlight.js/lib/highlight';
 import javascript from 'highlight.js/lib/languages/javascript';
 import xml from 'highlight.js/lib/languages/xml';
 
