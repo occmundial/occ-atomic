@@ -1,6 +1,6 @@
 const path = require('path');
 const webpack = require('webpack');
-const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
+const TerserPlugin = require('terser-webpack-plugin');
 
 const GLOBALS = {
     "process.env.NODE_ENV": JSON.stringify(
@@ -27,16 +27,14 @@ module.exports = {
         new webpack.DefinePlugin(GLOBALS)
     ],
     optimization: {
+        minimize: true,
         minimizer: [
-            new UglifyJsPlugin({
-                cache: true,
+            new TerserPlugin({
                 parallel: true,
-                uglifyOptions: {
-                    compress: false,
-                    ecma: 6,
-                    mangle: true
+                terserOptions: {
+                  ecma: 6,
                 },
-                sourceMap: true
+                extractComments: false
             })
         ]
     },
