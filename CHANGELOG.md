@@ -6,6 +6,10 @@ All notable changes to this project will be documented in this file.
 
 ## 1.15.x
 
+### 1.15.6
+
+- Add `Buffer` in webpack plugins
+
 ### 1.15.5
 
 - New `location` icon.
