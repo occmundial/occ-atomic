@@ -1,4 +1,4 @@
-/* Themes with Icon */
+/*Themes with Icon medium size*/
 import React from 'react';
 import { Tag, colors } from '@occmundial/occ-atomic';
 
