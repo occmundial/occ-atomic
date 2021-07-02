@@ -1,11 +1,16 @@
 /* Themes without Icon big size */
 import React from 'react';
-import { Tag } from '@occmundial/occ-atomic';
+import { Tag, colors } from '@occmundial/occ-atomic';
 
-export default function Example1() {
+export default function Example5() {
   return (
     <div>
       <Tag size="big">Default Tag</Tag>
+      <div style={{background:colors.grey3, display: 'inline-block'}}>
+        <Tag theme="basic" size="big">
+          Tag with basic theme
+        </Tag>
+      </div>
       <Tag theme="info" size="big">
         Tag with info theme
       </Tag>
