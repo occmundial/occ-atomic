@@ -69,6 +69,7 @@ ShallowWrapper {
             autoFocus={false}
             className="input data-hj-whitelist"
             id={undefined}
+            inputMode={undefined}
             maxLength={undefined}
             name={undefined}
             onBlur={[Function]}
@@ -104,6 +105,7 @@ ShallowWrapper {
               autoFocus={false}
               className="input data-hj-whitelist"
               id={undefined}
+              inputMode={undefined}
               maxLength={undefined}
               name={undefined}
               onBlur={[Function]}
@@ -133,6 +135,7 @@ ShallowWrapper {
               "autoFocus": false,
               "className": "input data-hj-whitelist",
               "id": undefined,
+              "inputMode": undefined,
               "maxLength": undefined,
               "name": undefined,
               "onBlur": [Function],
@@ -172,6 +175,7 @@ ShallowWrapper {
               autoFocus={false}
               className="input data-hj-whitelist"
               id={undefined}
+              inputMode={undefined}
               maxLength={undefined}
               name={undefined}
               onBlur={[Function]}
@@ -207,6 +211,7 @@ ShallowWrapper {
                 autoFocus={false}
                 className="input data-hj-whitelist"
                 id={undefined}
+                inputMode={undefined}
                 maxLength={undefined}
                 name={undefined}
                 onBlur={[Function]}
@@ -236,6 +241,7 @@ ShallowWrapper {
                 "autoFocus": false,
                 "className": "input data-hj-whitelist",
                 "id": undefined,
+                "inputMode": undefined,
                 "maxLength": undefined,
                 "name": undefined,
                 "onBlur": [Function],
@@ -363,8 +369,19 @@ Object {
     "top": 8,
   },
   "input": Object {
+    "&::-webkit-inner-spin-button": Object {
+      "-webkit-appearance": "none",
+      "margin": 0,
+    },
+    "&::-webkit-outer-spin-button": Object {
+      "-webkit-appearance": "none",
+      "margin": 0,
+    },
     "&::placeholder": Object {
       "color": "#aaaaaa",
+    },
+    "&[type=number]": Object {
+      "-moz-appearance": "textfield",
     },
     "-webkit-appearance": "none",
     "alignItems": "center",
