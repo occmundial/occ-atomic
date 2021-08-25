@@ -6,6 +6,10 @@ All notable changes to this project will be documented in this file.
 
 ## 1.15.x
 
+### 1.15.8
+
+- New `disabled` prop in `DropList Item`.
+
 ### 1.15.7
 
 - Changes in `tag` styles.
