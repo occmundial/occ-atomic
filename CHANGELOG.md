@@ -6,9 +6,11 @@ All notable changes to this project will be documented in this file.
 
 ## 1.16.x
 
-## 1.16.0
+### 1.16.0
 
 - New icons added.
+
+## 1.15.x
 
 ### 1.15.9
 
