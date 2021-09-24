@@ -15,8 +15,8 @@ jobs:
         run: yarn install
       - name: Test
         run: yarn test
-      # - name: Build
-      #   run: yarn build:lib
+      - name: Build
+        run: yarn build
       - name: Release
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}

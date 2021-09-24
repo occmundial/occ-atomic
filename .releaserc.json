@@ -2,30 +2,23 @@
     "branches": [
         "main"
     ],
-    "dryRun": true,
-    "ci": false,
+    "dryRun": false,
+    "ci": true,
     "debug": true,
     "plugins": [
         "@semantic-release/commit-analyzer",
         "@semantic-release/release-notes-generator",
         "@semantic-release/changelog",
         [
-            "@semantic-release/npm",
-            {
-                "pkgRoot": "dist"
-            }
-        ],
-        "@semantic-release/github",
-        [
             "@semantic-release/exec",
             {
-                "prepareCmd": "npx rjp package.json version nextRelease.version"
+                "prepareCmd": "npx rjp package.json version <%= nextRelease.version %>"
             }
         ],
         [
             "@semantic-release/git",
             {
-                "message": "Release <%= nextRelease.version %> [skip ci]",
+                "message": "ci: Release <%= nextRelease.version %> [skip ci]",
                 "assets": [
                     "package.json",
                     "CHANGELOG.md"
