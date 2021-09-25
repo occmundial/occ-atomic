@@ -47,6 +47,9 @@ module.exports = {
 	resolve: {
 		alias: {
 			'@occmundial/occ-atomic': path.resolve(__dirname, './build/index')
+		},
+		fallback: {
+			buffer: require.resolve('buffer/')
 		}
 	}
 };
