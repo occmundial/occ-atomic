@@ -10,13 +10,13 @@ const GLOBALS = {
 };
 
 module.exports = {
-	devtool: 'eval',
-	entry: ['webpack-dev-server/client?http://localhost:3030', './src/index.js'],
+	devtool: 'source-map',
+	entry: ['./src/index.js'],
 	mode: 'development',
 	output: {
 		path: path.join(__dirname, 'dist'),
 		filename: 'bundle.js',
-		publicPath: '/dist/'
+		publicPath: '/'
 	},
 	plugins: [
 		new webpack.DefinePlugin(GLOBALS),
@@ -40,7 +40,9 @@ module.exports = {
 		]
 	},
 	devServer: {
-		contentBase: 'dist'
+		static: {
+			directory: path.join(__dirname, 'dist'),
+		}
 	},
 	resolve: {
 		alias: {
