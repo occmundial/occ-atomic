@@ -1,8 +1,6 @@
-# Changelog
+# Old logs
 
-All notable changes to this project will be documented in this file.
-
-# Version 1
+The next changes where released before _semantic-release_ was implemented, so the documentation follows a different format.
 
 ## 1.16.x
 
@@ -734,8 +732,6 @@ All notable changes to this project will be documented in this file.
 ### 1.0.0
 
 - New `TextField` component. This component will replace the old `Input` component. In following versions will be deprecated.
-
-# Version 0
 
 ## 0.6.x
 
