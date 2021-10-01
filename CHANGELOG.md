@@ -6,6 +6,10 @@ All notable changes to this project will be documented in this file.
 
 ## 1.16.x
 
+### 1.16.1
+
+- Changes in `Modal` properties
+
 ### 1.16.0
 
 - New icons added.
