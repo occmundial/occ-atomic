@@ -5,7 +5,7 @@ import ComponentPage from '../ComponentPage';
 import CustomPage from '../CustomPage';
 import componentData from '../../config/componentData';
 
-import { Flexbox, NavTab, Icon, Text} from '@occmundial/occ-atomic';
+import { Flexbox, NavTab, Icon, Text } from '@occmundial/occ-atomic';
 
 class App extends React.Component {
 
@@ -18,14 +18,14 @@ class App extends React.Component {
 
     componentDidMount() {
         window.addEventListener('hashchange', () => {
-            this.setState({route: window.location.hash.substr(1)});
+            this.setState({ route: window.location.hash.substr(1) });
         });
     }
 
     render() {
         const { route } = this.state;
         const { classes } = this.props;
-        const component = route ? componentData.filter( component => component.name === route)[0] : undefined;
+        const component = route ? componentData.filter(component => component.name === route)[0] : undefined;
 
         return (
             <div>
@@ -37,7 +37,7 @@ class App extends React.Component {
                             custom: (
                                 <a href="./" className={classes.logo}>
                                     <Flexbox display="flex" alignItems="center">
-                                        <Icon iconName="occatomic" width={45} height={45} style={{marginRight:10}} /> <Text white subheading>OCC-Atomic</Text>
+                                        <Icon iconName="occatomic" width={45} height={45} style={{ marginRight: 10 }} /> <Text white subheading>OCC-Atomic</Text>
                                     </Flexbox>
                                 </a>
                             )
@@ -46,12 +46,6 @@ class App extends React.Component {
                     right={[
                         {
                             key: 0,
-                            type: 'link',
-                            link: './playroom/',
-                            text: 'Probar en Playroom'
-                        },
-                        {
-                            key: 1,
                             type: 'custom',
                             custom: (
                                 <div className={classes.githubBtn}>
@@ -68,7 +62,7 @@ class App extends React.Component {
                 <Flexbox className={classes.app} display="flex">
                     <Navigation components={componentData.map(component => component.name)} />
                     <Flexbox flex="1" className={classes.cardCont}>
-                        { component ? <ComponentPage component={component} /> : <CustomPage route={route} /> }
+                        {component ? <ComponentPage component={component} /> : <CustomPage route={route} />}
                     </Flexbox>
                 </Flexbox>
             </div>
