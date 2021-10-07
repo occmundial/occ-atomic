@@ -2,15 +2,6 @@ const path = require('path');
 const webpack = require('webpack');
 const TerserPlugin = require('terser-webpack-plugin');
 
-const GLOBALS = {
-	'process.env.NODE_ENV': JSON.stringify(
-		process.env.NODE_ENV.indexOf('production') > -1
-			? 'production'
-			: process.env.NODE_ENV
-	),
-	__DEV__: false
-};
-
 module.exports = {
 	resolve: {
 		extensions: ['*', '.js'],
@@ -26,7 +17,10 @@ module.exports = {
 		filename: 'bundle.js'
 	},
 	plugins: [
-		new webpack.DefinePlugin(GLOBALS),
+		new webpack.DefinePlugin({
+			'process.env.NODE_ENV': JSON.stringify(process.env.NODE_ENV || 'production'),
+			__DEV__: false
+		}),
 		new webpack.ProvidePlugin({
 			Buffer: ['buffer', 'Buffer']
 		})

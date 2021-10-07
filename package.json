@@ -19,7 +19,7 @@
     "lint": "esw webpack.config.* lib src --color",
     "lint:watch": "npm run lint -- --watch",
     "prepare": "npm run build && husky install",
-    "predeploy": "set NODE_ENV=production && npm run build:bundle",
+    "predeploy": "npm run build:bundle",
     "deploy": "gh-pages -d dist",
     "semantic-release": "semantic-release"
   },
