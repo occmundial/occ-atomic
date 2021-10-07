@@ -139,7 +139,7 @@ Object {
       0,
       0,
     ],
-    "height": 128,
+    "height": [Function],
     "marginBottom": 16,
     "marginLeft": -16,
     "marginRight": -16,
