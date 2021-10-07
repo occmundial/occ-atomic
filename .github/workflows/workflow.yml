@@ -26,6 +26,7 @@ jobs:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
         run: npx semantic-release
-      - name: Deploy
+      - name: Set Git user
         uses: fregante/setup-git-user@v1
+      - name: Deploy
         run: yarn deploy
