@@ -12,6 +12,7 @@ jobs:
         with:
           fetch-depth: 0
           persist-credentials: false
+      - name: Set Git user
         uses: fregante/setup-git-user@v1
       - name: Setup Node.js
         uses: actions/setup-node@v2
