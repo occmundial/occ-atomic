@@ -12,8 +12,6 @@ jobs:
         with:
           fetch-depth: 0
           persist-credentials: false
-      - name: Set Git user
-        uses: fregante/setup-git-user@v1
       - name: Setup Node.js
         uses: actions/setup-node@v2
         with:
@@ -29,4 +27,5 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
         run: npx semantic-release
       - name: Deploy
+        uses: fregante/setup-git-user@v1
         run: yarn deploy
