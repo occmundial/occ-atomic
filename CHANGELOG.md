@@ -1,3 +1,10 @@
+# [1.17.0](https://github.com/occmundial/occ-atomic/compare/v1.16.0...v1.17.0) (2021-10-07)
+
+
+### Features
+
+* Add imgTop.height prop to the Modal component ([f470487](https://github.com/occmundial/occ-atomic/commit/f470487a1527c86bcdcc62fcd6154e4771cbe827))
+
 # Old logs
 
 The next changes where released before _semantic-release_ was implemented, so the documentation follows a different format.
