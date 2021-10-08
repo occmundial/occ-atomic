@@ -20,7 +20,7 @@
     "lint:watch": "npm run lint -- --watch",
     "prepare": "npm run build && husky install",
     "predeploy": "npm run build:bundle",
-    "deploy": "gh-pages -d dist -u \"github-actions <github-actions@github.com>\"",
+    "deploy": "node scripts/deploy.js",
     "semantic-release": "semantic-release"
   },
   "repository": {
