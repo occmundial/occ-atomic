@@ -1,3 +1,16 @@
+# [1.18.0](https://github.com/occmundial/occ-atomic/compare/v1.17.0...v1.18.0) (2021-10-08)
+
+
+### Bug Fixes
+
+* Rename `warning` icon dependencies ([a91f94c](https://github.com/occmundial/occ-atomic/commit/a91f94c892ccdb87397528ff193121541f1cfba9))
+* Rename old `warning` icon to `warningSolid` ([9692465](https://github.com/occmundial/occ-atomic/commit/9692465c9a395464bd8addb42568b6bc5fa7cf19))
+
+
+### Features
+
+* Add new `warning` Icon ([06780ad](https://github.com/occmundial/occ-atomic/commit/06780adf42f8da96037ef7df4b9b2c8b7d045c62))
+
 # [1.17.0](https://github.com/occmundial/occ-atomic/compare/v1.16.0...v1.17.0) (2021-10-07)
 
 
