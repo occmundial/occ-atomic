@@ -1,3 +1,10 @@
+## [1.18.1](https://github.com/occmundial/occ-atomic/compare/v1.18.0...v1.18.1) (2021-10-12)
+
+
+### Bug Fixes
+
+* Change in property type size ([91113d3](https://github.com/occmundial/occ-atomic/commit/91113d32e9da8105e262fddb1fce42f7278adbd1))
+
 # [1.18.0](https://github.com/occmundial/occ-atomic/compare/v1.17.0...v1.18.0) (2021-10-08)
 
 
