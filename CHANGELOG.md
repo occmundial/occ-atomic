@@ -1,10 +1,49 @@
-# Changelog
+## [1.18.1](https://github.com/occmundial/occ-atomic/compare/v1.18.0...v1.18.1) (2021-10-12)
 
-All notable changes to this project will be documented in this file.
 
-# Version 1
+### Bug Fixes
+
+* Change in property type size ([91113d3](https://github.com/occmundial/occ-atomic/commit/91113d32e9da8105e262fddb1fce42f7278adbd1))
+
+# [1.18.0](https://github.com/occmundial/occ-atomic/compare/v1.17.0...v1.18.0) (2021-10-08)
+
+
+### Bug Fixes
+
+* Rename `warning` icon dependencies ([a91f94c](https://github.com/occmundial/occ-atomic/commit/a91f94c892ccdb87397528ff193121541f1cfba9))
+* Rename old `warning` icon to `warningSolid` ([9692465](https://github.com/occmundial/occ-atomic/commit/9692465c9a395464bd8addb42568b6bc5fa7cf19))
+
+
+### Features
+
+* Add new `warning` Icon ([06780ad](https://github.com/occmundial/occ-atomic/commit/06780adf42f8da96037ef7df4b9b2c8b7d045c62))
+
+# [1.17.0](https://github.com/occmundial/occ-atomic/compare/v1.16.0...v1.17.0) (2021-10-07)
+
+
+### Features
+
+* Add imgTop.height prop to the Modal component ([f470487](https://github.com/occmundial/occ-atomic/commit/f470487a1527c86bcdcc62fcd6154e4771cbe827))
+
+# Old logs
+
+The next changes where released before _semantic-release_ was implemented, so the documentation follows a different format.
+
+## 1.16.x
+
+### 1.16.0
+
+- New icons added.
 
 ## 1.15.x
+
+### 1.15.9
+
+- Changes in `DropList` styles.
+
+### 1.15.8
+
+- New `disabled` prop in `DropList Item`.
 
 ### 1.15.7
 
@@ -720,8 +759,6 @@ All notable changes to this project will be documented in this file.
 ### 1.0.0
 
 - New `TextField` component. This component will replace the old `Input` component. In following versions will be deprecated.
-
-# Version 0
 
 ## 0.6.x
 

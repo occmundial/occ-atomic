@@ -1,0 +1,39 @@
+{
+    "branches": [
+        "main"
+    ],
+    "dryRun": false,
+    "ci": true,
+    "debug": true,
+    "plugins": [
+        "@semantic-release/commit-analyzer",
+        "@semantic-release/release-notes-generator",
+        "@semantic-release/changelog",
+        "@semantic-release/npm",
+        [
+            "@semantic-release/github",
+            {
+                "successComment": false,
+                "failComment": false
+            }
+        ],
+        [
+            "@semantic-release/git",
+            {
+                "message": "ci: Release <%= nextRelease.version %> [skip ci]",
+                "assets": [
+                    "package.json",
+                    "CHANGELOG.md"
+                ]
+            }
+        ],
+        [
+            "semantic-release-slack-bot",
+            {
+                "notifyOnSuccess": true,
+                "notifyOnFail": true,
+                "markdownReleaseNotes": "<%= nextRelease.notes %>"
+            }
+        ]
+    ]
+}
