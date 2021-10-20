@@ -1,3 +1,10 @@
+## [1.18.2](https://github.com/occmundial/occ-atomic/compare/v1.18.1...v1.18.2) (2021-10-20)
+
+
+### Bug Fixes
+
+* Correction of the backgroundSize property of the modal ([022ef26](https://github.com/occmundial/occ-atomic/commit/022ef26d7141f48265783cfacc8df446a5ac9d6c))
+
 ## [1.18.1](https://github.com/occmundial/occ-atomic/compare/v1.18.0...v1.18.1) (2021-10-12)
 
 
