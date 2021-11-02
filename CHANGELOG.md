@@ -1,3 +1,10 @@
+## [1.18.3](https://github.com/occmundial/occ-atomic/compare/v1.18.2...v1.18.3) (2021-11-02)
+
+
+### Bug Fixes
+
+* Correction of the iconName property of the password icon ([a7e2842](https://github.com/occmundial/occ-atomic/commit/a7e2842bcf2f414f3ecee3534d0e3a6730893e30))
+
 ## [1.18.2](https://github.com/occmundial/occ-atomic/compare/v1.18.1...v1.18.2) (2021-10-20)
 
 
