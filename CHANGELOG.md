@@ -1,3 +1,10 @@
+# [1.19.0](https://github.com/occmundial/occ-atomic/compare/v1.18.4...v1.19.0) (2021-12-20)
+
+
+### Features
+
+* New matchJob, cash and profileView icons ([95a0c68](https://github.com/occmundial/occ-atomic/commit/95a0c68fee7d46bd2e674c7674e59b3ebd594dbf))
+
 ## [1.18.4](https://github.com/occmundial/occ-atomic/compare/v1.18.3...v1.18.4) (2021-11-03)
 
 
