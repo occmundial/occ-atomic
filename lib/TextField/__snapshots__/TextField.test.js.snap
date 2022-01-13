@@ -80,9 +80,10 @@ Object {
     "marginRight": 16,
   },
   "icon": Object {
-    "left": 12,
+    "left": 16,
     "position": "absolute",
-    "top": 8,
+    "top": "50%",
+    "transform": "translateY(-50%)",
   },
   "input": Object {
     "&::-webkit-inner-spin-button": Object {
