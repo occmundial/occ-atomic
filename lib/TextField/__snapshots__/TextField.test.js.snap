@@ -21,10 +21,11 @@ Object {
     "height": 24,
     "margin": 0,
     "outline": 0,
-    "padding": 0,
+    "padding": 3,
     "position": "absolute",
     "right": 12,
-    "top": 8,
+    "top": "50%",
+    "transform": "translateY(-50%)",
     "width": 24,
     "zIndex": 1,
   },
@@ -55,6 +56,14 @@ Object {
       "borderColor": "#db3737",
       "color": "#db3737",
     },
+    "& $searchField": Object {
+      "borderWidth": 2,
+      "color": "#222222",
+      "paddingLeft": 7,
+    },
+    "& $searchFieldHasIcon": Object {
+      "paddingLeft": 41,
+    },
   },
   "errorAssistiveText": Object {
     "color": "#db3737",
@@ -62,9 +71,26 @@ Object {
   "errorIcon": Object {
     "marginBottom": -2,
   },
+  "filled": Object {
+    "& $input": Object {
+      "borderColor": "#222222",
+      "borderWidth": 2,
+      "paddingLeft": 7,
+    },
+    "& $searchFieldHasIcon": Object {
+      "paddingLeft": 41,
+    },
+  },
   "focus": Object {
     "& $input": Object {
       "borderColor": "#083cae",
+    },
+    "& $searchField": Object {
+      "borderWidth": 2,
+      "paddingLeft": 7,
+    },
+    "& $searchFieldHasIcon": Object {
+      "paddingLeft": 41,
     },
   },
   "hasClear": Object {
@@ -80,9 +106,10 @@ Object {
     "marginRight": 16,
   },
   "icon": Object {
-    "left": 12,
+    "left": 16,
     "position": "absolute",
-    "top": 8,
+    "top": "50%",
+    "transform": "translateY(-50%)",
   },
   "input": Object {
     "&::-webkit-inner-spin-button": Object {
@@ -116,7 +143,10 @@ Object {
     "height": 40,
     "lineHeight": "24px",
     "outline": "none",
-    "padding": "8px 16px",
+    "padding": Array [
+      8,
+      16,
+    ],
     "transition": "0.3s all",
     "width": "100%",
   },
@@ -160,6 +190,16 @@ Object {
   "right": Object {
     "float": "right",
   },
+  "searchField": Object {
+    "background": Array [
+      "#ffffff",
+      "!important",
+    ],
+    "borderColor": "#777777",
+    "borderRadius": 24,
+    "height": 48,
+  },
+  "searchFieldHasIcon": Object {},
   "select": Object {
     "& optgroup": Object {
       "color": "#777777",
