@@ -1,3 +1,16 @@
+# [1.20.0](https://github.com/occmundial/occ-atomic/compare/v1.19.0...v1.20.0) (2022-01-19)
+
+
+### Bug Fixes
+
+* Change in TextField icons ([989abb3](https://github.com/occmundial/occ-atomic/commit/989abb35e3d7e346a68519939f5cc4b489affb7b))
+* Simplify TextField status logic ([574824a](https://github.com/occmundial/occ-atomic/commit/574824a63c6ba8e83cefafaca102566e53578d0e))
+
+
+### Features
+
+* Add searchField theme to the TextField component ([3f36f4f](https://github.com/occmundial/occ-atomic/commit/3f36f4fcef97130a11afd0ed1e857d289295e491))
+
 # [1.19.0](https://github.com/occmundial/occ-atomic/compare/v1.18.4...v1.19.0) (2021-12-20)
 
 
