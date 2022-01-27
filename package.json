@@ -21,7 +21,8 @@
     "prepare": "npm run build && husky install",
     "predeploy": "npm run build:bundle",
     "deploy": "node scripts/deploy.js",
-    "semantic-release": "semantic-release"
+    "semantic-release": "semantic-release",
+    "audit-fix": "cross-env npm_config_yes=true npx yarn-audit-fix"
   },
   "repository": {
     "type": "git",
@@ -63,6 +64,7 @@
     "base64-url": "^2.2.2",
     "buffer": "^6.0.3",
     "chokidar": "^3.5.2",
+    "cross-env": "^7.0.3",
     "css-loader": "^6.3.0",
     "enzyme": "^3.3.0",
     "enzyme-adapter-react-16": "^1.1.1",
