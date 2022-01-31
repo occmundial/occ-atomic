@@ -1,3 +1,10 @@
+## [1.20.1](https://github.com/occmundial/occ-atomic/compare/v1.20.0...v1.20.1) (2022-01-31)
+
+
+### Bug Fixes
+
+* Change in location icon and new locationSolid icon ([4ec15e1](https://github.com/occmundial/occ-atomic/commit/4ec15e18dabf7f23469d989d57812d45be17f5d4))
+
 # [1.20.0](https://github.com/occmundial/occ-atomic/compare/v1.19.0...v1.20.0) (2022-01-19)
 
 
