@@ -1,3 +1,10 @@
+# [1.21.0](https://github.com/occmundial/occ-atomic/compare/v1.20.1...v1.21.0) (2022-02-16)
+
+
+### Features
+
+* Implement babel plugin ([a73c4fe](https://github.com/occmundial/occ-atomic/commit/a73c4fe73abd82e8c159ed7b6bfae0e26ecb613b))
+
 ## [1.20.1](https://github.com/occmundial/occ-atomic/compare/v1.20.0...v1.20.1) (2022-01-31)
 
 
