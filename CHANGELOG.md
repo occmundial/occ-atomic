@@ -1,3 +1,11 @@
+## [1.21.1](https://github.com/occmundial/occ-atomic/compare/v1.21.0...v1.21.1) (2022-05-27)
+
+
+### Bug Fixes
+
+* Change in dimensions of full screen modal ([c3434a2](https://github.com/occmundial/occ-atomic/commit/c3434a28d1bf6455205b5f37419cd14567ddb126))
+* Ignore plugin directory in doc gen ([d06e206](https://github.com/occmundial/occ-atomic/commit/d06e2064f9ec30066fef70432122d3d49a6ae99f))
+
 # [1.21.0](https://github.com/occmundial/occ-atomic/compare/v1.20.1...v1.21.0) (2022-02-16)
 
 
