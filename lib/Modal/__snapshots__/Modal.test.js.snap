@@ -59,8 +59,8 @@ Object {
     "animation": "0.3s modalFadeDown ease-out",
   },
   "cardWrapper": Object {
-    "maxHeight": "100vh",
-    "maxWidth": "100vw",
+    "maxHeight": "100%",
+    "maxWidth": "100%",
     "position": "relative",
   },
   "closeIcon": Object {
