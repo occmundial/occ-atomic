@@ -47,6 +47,7 @@ Object {
   },
   "cardBlock": Object {
     "@media screen and (max-width:575px)": Object {
+      "height": [Function],
       "margin": [Function],
     },
     "margin": 12,
@@ -59,6 +60,9 @@ Object {
     "animation": "0.3s modalFadeDown ease-out",
   },
   "cardWrapper": Object {
+    "@media screen and (max-width:575px)": Object {
+      "height": [Function],
+    },
     "maxHeight": "100%",
     "maxWidth": "100%",
     "position": "relative",
