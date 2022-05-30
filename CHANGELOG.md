@@ -1,3 +1,10 @@
+## [1.21.2](https://github.com/occmundial/occ-atomic/compare/v1.21.1...v1.21.2) (2022-05-30)
+
+
+### Bug Fixes
+
+* Fix in Modal styles for full screen mode ([eeb7081](https://github.com/occmundial/occ-atomic/commit/eeb70814e172828b3fde2789d674676ac11a565d))
+
 ## [1.21.1](https://github.com/occmundial/occ-atomic/compare/v1.21.0...v1.21.1) (2022-05-27)
 
 
