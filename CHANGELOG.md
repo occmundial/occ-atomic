@@ -1,3 +1,13 @@
+## [1.21.3](https://github.com/occmundial/occ-atomic/compare/v1.21.2...v1.21.3) (2022-08-23)
+
+
+### Bug Fixes
+
+* Change eyeClosed icon and add eyeClosedSolid icon ([156f09d](https://github.com/occmundial/occ-atomic/commit/156f09d73b0580417afb14e8d5aa5b4265636b1c))
+* Change password icon ([e8fb1bb](https://github.com/occmundial/occ-atomic/commit/e8fb1bbee1050a59b5447bce49e114ae5bc7ce28))
+* Change password icon with disabled prop ([a82be12](https://github.com/occmundial/occ-atomic/commit/a82be12c40462a310ff46d3d445b00ffff0ff90d))
+* Indentation ([3ee616f](https://github.com/occmundial/occ-atomic/commit/3ee616fc7f94f4372bbc02605d4fd0d6637a4e3c))
+
 ## [1.21.2](https://github.com/occmundial/occ-atomic/compare/v1.21.1...v1.21.2) (2022-05-30)
 
 
