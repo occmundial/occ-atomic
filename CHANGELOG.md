@@ -1,3 +1,17 @@
+# [1.22.0](https://github.com/occmundial/occ-atomic/compare/v1.21.3...v1.22.0) (2022-11-09)
+
+
+### Bug Fixes
+
+* Indentation tabs to spaces ([bf7bdf8](https://github.com/occmundial/occ-atomic/commit/bf7bdf82ef1cf5b69ad46d5c6e1eae01f0544a02))
+* Remove unnecessary classname in droplist ([6f6bd6a](https://github.com/occmundial/occ-atomic/commit/6f6bd6ad6f9fed0d534f9d30ff748ac1b6e5d866))
+
+
+### Features
+
+* Add testid prop to button, modal and textfield ([86a8155](https://github.com/occmundial/occ-atomic/commit/86a8155ff1ae202c88bc558502912968ebe8a04a))
+* Add testid prop to checkbox, droplist and navitem/icon/tab ([7087d67](https://github.com/occmundial/occ-atomic/commit/7087d67e1977167a384a366cb11036919b3c9572))
+
 ## [1.21.3](https://github.com/occmundial/occ-atomic/compare/v1.21.2...v1.21.3) (2022-08-23)
 
 
