@@ -1,3 +1,10 @@
+## [1.22.2](https://github.com/occmundial/occ-atomic/compare/v1.22.1...v1.22.2) (2022-11-15)
+
+
+### Bug Fixes
+
+* Moves testid to icon component ([09170b8](https://github.com/occmundial/occ-atomic/commit/09170b83c864a054da1e385077e3945b96573ef8))
+
 ## [1.22.1](https://github.com/occmundial/occ-atomic/compare/v1.22.0...v1.22.1) (2022-11-10)
 
 
