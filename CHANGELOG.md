@@ -1,3 +1,10 @@
+# [1.23.0](https://github.com/occmundial/occ-atomic/compare/v1.22.2...v1.23.0) (2022-12-05)
+
+
+### Features
+
+* Add bottomItem children to footer ([6dc470d](https://github.com/occmundial/occ-atomic/commit/6dc470d4f06357bbd3602335ee46f39f0cbc9df7))
+
 ## [1.22.2](https://github.com/occmundial/occ-atomic/compare/v1.22.1...v1.22.2) (2022-11-15)
 
 
