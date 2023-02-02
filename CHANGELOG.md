@@ -1,3 +1,10 @@
+# [1.24.0](https://github.com/occmundial/occ-atomic/compare/v1.23.0...v1.24.0) (2023-02-02)
+
+
+### Features
+
+* Add testId to radio button component ([5e1f467](https://github.com/occmundial/occ-atomic/commit/5e1f4671031d752700c0e3556cdc1c4cf462cc10))
+
 # [1.23.0](https://github.com/occmundial/occ-atomic/compare/v1.22.2...v1.23.0) (2022-12-05)
 
 
