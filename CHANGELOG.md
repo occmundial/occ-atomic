@@ -1,3 +1,11 @@
+# [1.25.0](https://github.com/occmundial/occ-atomic/compare/v1.24.0...v1.25.0) (2023-02-09)
+
+
+### Features
+
+* Add id property to NavItem and NavIcon component ([734911c](https://github.com/occmundial/occ-atomic/commit/734911cd8bbee3987c38d2897bf00ea2b39db09e))
+* Delete description property ([a2e6261](https://github.com/occmundial/occ-atomic/commit/a2e626123c1f86c7ddad83d6ea6ee225bff15a0d))
+
 # [1.24.0](https://github.com/occmundial/occ-atomic/compare/v1.23.0...v1.24.0) (2023-02-02)
 
 
