@@ -1,3 +1,10 @@
+# [1.26.0](https://github.com/occmundial/occ-atomic/compare/v1.25.0...v1.26.0) (2023-02-10)
+
+
+### Features
+
+* Add testId to text component ([029f501](https://github.com/occmundial/occ-atomic/commit/029f50148ffce324dc696707c73219ce8d16ebd7))
+
 # [1.25.0](https://github.com/occmundial/occ-atomic/compare/v1.24.0...v1.25.0) (2023-02-09)
 
 
