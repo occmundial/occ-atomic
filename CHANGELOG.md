@@ -1,3 +1,11 @@
+# [1.27.0](https://github.com/occmundial/occ-atomic/compare/v1.26.0...v1.27.0) (2023-02-16)
+
+
+### Features
+
+* Add missing ids ([2f20288](https://github.com/occmundial/occ-atomic/commit/2f20288510da0018027f2d332e05cb85588bd313))
+* pill data-testid has been added ([bbd3bc2](https://github.com/occmundial/occ-atomic/commit/bbd3bc212c0fa83a373959a3f306e30b395c45e1))
+
 # [1.26.0](https://github.com/occmundial/occ-atomic/compare/v1.25.0...v1.26.0) (2023-02-10)
 
 
