@@ -1,3 +1,11 @@
+# [1.29.0](https://github.com/occmundial/occ-atomic/compare/v1.28.0...v1.29.0) (2023-04-12)
+
+
+### Features
+
+* Add testid to slidetoggle and add data value to radio component ([253690f](https://github.com/occmundial/occ-atomic/commit/253690f1e8bc9fc7a0a82a4430b9e74712be84ba))
+* Update radio data value condition ([b501a24](https://github.com/occmundial/occ-atomic/commit/b501a2450cbb40cdb6ab6e13c637281c84ad7840))
+
 # [1.28.0](https://github.com/occmundial/occ-atomic/compare/v1.27.0...v1.28.0) (2023-02-16)
 
 
