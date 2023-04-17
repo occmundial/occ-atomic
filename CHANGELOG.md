@@ -1,3 +1,10 @@
+## [1.29.1](https://github.com/occmundial/occ-atomic/compare/v1.29.0...v1.29.1) (2023-04-17)
+
+
+### Bug Fixes
+
+* data-testid in Droplist ([c02b8f8](https://github.com/occmundial/occ-atomic/commit/c02b8f89e205e0338630f52b3280b9d7d85f5990))
+
 # [1.29.0](https://github.com/occmundial/occ-atomic/compare/v1.28.0...v1.29.0) (2023-04-12)
 
 
