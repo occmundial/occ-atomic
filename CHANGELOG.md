@@ -1,3 +1,10 @@
+# [1.31.0](https://github.com/occmundial/occ-atomic/compare/v1.30.0...v1.31.0) (2023-05-24)
+
+
+### Features
+
+* Add stars icon ([f49fbd6](https://github.com/occmundial/occ-atomic/commit/f49fbd6616acef15e9b638fa40ff0e59d6adfdf6))
+
 # [1.30.0](https://github.com/occmundial/occ-atomic/compare/v1.29.1...v1.30.0) (2023-04-25)
 
 
