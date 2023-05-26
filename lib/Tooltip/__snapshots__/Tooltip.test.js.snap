@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tooltip matches the snapshot 1`] = `"<div class=\\"activator false\\"></div>"`;
+
+exports[`Tooltip styles matches the snapshot 1`] = `
+Object {
+  "activator": Object {
+    "display": "inline-block",
+  },
+  "dark": Object {
+    "background": "#222222",
+    "color": "#ffffff",
+  },
+  "info": Object {
+    "background": "#efebf7",
+    "color": "#5736ab",
+  },
+  "light": Object {
+    "background": "#ffffff",
+    "color": "#5736ab",
+  },
+  "purple": Object {
+    "background": "#5736ab",
+    "color": "#ffffff",
+  },
+  "tooltip": Object {
+    "borderRadius": "4px",
+    "fontSize": "13px",
+    "lineHeight": "16px",
+    "padding": "16px",
+  },
+}
+`;
