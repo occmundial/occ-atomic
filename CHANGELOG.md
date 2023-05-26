@@ -1,3 +1,11 @@
+# [1.32.0](https://github.com/occmundial/occ-atomic/compare/v1.31.0...v1.32.0) (2023-05-26)
+
+
+### Features
+
+* Tooltip component implementation ([893cbc1](https://github.com/occmundial/occ-atomic/commit/893cbc1d0b2a83e59dd8155a762f96c0c17df90f))
+* Tooltip testing ([784337e](https://github.com/occmundial/occ-atomic/commit/784337e1fd6bc6479d1b7d152a19fae80a00973a))
+
 # [1.31.0](https://github.com/occmundial/occ-atomic/compare/v1.30.0...v1.31.0) (2023-05-24)
 
 
