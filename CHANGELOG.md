@@ -1,3 +1,10 @@
+## [1.32.1](https://github.com/occmundial/occ-atomic/compare/v1.32.0...v1.32.1) (2023-05-31)
+
+
+### Bug Fixes
+
+* Tooltip close delay ([76c2c6b](https://github.com/occmundial/occ-atomic/commit/76c2c6b604193aff5d80668fe7a412c6778ca46b))
+
 # [1.32.0](https://github.com/occmundial/occ-atomic/compare/v1.31.0...v1.32.0) (2023-05-26)
 
 
