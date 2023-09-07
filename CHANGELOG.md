@@ -1,3 +1,15 @@
+# [1.34.0](https://github.com/occmundial/occ-atomic/compare/v1.33.0...v1.34.0) (2023-09-07)
+
+
+### Bug Fixes
+
+* Used data-testid instead id ([463547b](https://github.com/occmundial/occ-atomic/commit/463547b93f15bff17e772a724dd8660378f5437c))
+
+
+### Features
+
+* Added modal, navlogo and navcustom ids ([8292db7](https://github.com/occmundial/occ-atomic/commit/8292db7877edc2bf2e18bb675266da96e66c5c85))
+
 # [1.33.0](https://github.com/occmundial/occ-atomic/compare/v1.32.1...v1.33.0) (2023-08-22)
 
 
