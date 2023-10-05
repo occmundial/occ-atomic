@@ -118,7 +118,7 @@ Object {
     "color": "#009537",
   },
   "text": Object {
-    "fontFamily": "'HK Grotesk', sans-serif",
+    "fontFamily": "'OccText', sans-serif",
     "fontStyle": "normal",
     "fontWeight": 400,
     "letterSpacing": 0,

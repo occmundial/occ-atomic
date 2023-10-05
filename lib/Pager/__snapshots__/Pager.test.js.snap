@@ -16,7 +16,7 @@ Object {
     "borderRadius": "5px",
     "cursor": "pointer",
     "display": "inline-block",
-    "fontFamily": "'HK Grotesk', sans-serif",
+    "fontFamily": "'OccText', sans-serif",
     "outline": "0",
     "padding": "3px 13px",
     "transition": "0.3s all",
@@ -33,7 +33,7 @@ Object {
   },
   "pager": Object {
     "color": "#727272",
-    "fontFamily": "'HK Grotesk', sans-serif",
+    "fontFamily": "'OccText', sans-serif",
     "fontSize": "13px",
     "listStyle": "none",
     "paddingLeft": "0",

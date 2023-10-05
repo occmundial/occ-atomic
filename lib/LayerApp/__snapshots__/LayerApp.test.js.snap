@@ -20,7 +20,7 @@ Object {
   },
   "layerApp": Object {
     "boxSizing": "border-box",
-    "fontFamily": "'HK Grotesk', sans-serif",
+    "fontFamily": "'OccText', sans-serif",
     "height": "100%",
     "left": "0",
     "overflow": "auto",
