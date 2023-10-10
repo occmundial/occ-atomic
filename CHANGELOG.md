@@ -1,3 +1,10 @@
+# [1.35.0](https://github.com/occmundial/occ-atomic/compare/v1.34.0...v1.35.0) (2023-10-10)
+
+
+### Features
+
+* Add new occ logo icons ([494c1d3](https://github.com/occmundial/occ-atomic/commit/494c1d34f3a011830f86b0bfcf98c272631e0fd1))
+
 # [1.34.0](https://github.com/occmundial/occ-atomic/compare/v1.33.0...v1.34.0) (2023-09-07)
 
 
