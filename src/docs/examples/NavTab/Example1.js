@@ -27,7 +27,7 @@ class Example1 extends React.Component {
                 type: 'logo',
                 logo: (
                     <a href="#NavTab">
-                        <Icon iconName="occHorizontalWhite" />
+                        <Icon iconName="occLogoWhite" />
                     </a>
                 )
             },
@@ -97,7 +97,7 @@ class Example1 extends React.Component {
             type: 'custom',
             custom: (
                 <a href="#NavTab" style={{marginRight:32, display:'inline-block'}}>
-                    <Icon iconName="occHorizontalGrey" />
+                    <Icon iconName="occLogoGrey" />
                 </a>
             )
         };
