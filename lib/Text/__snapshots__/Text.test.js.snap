@@ -124,6 +124,9 @@ Object {
     "letterSpacing": 0,
     "margin": 0,
   },
+  "titleCase": Object {
+    "textTransform": "capitalize",
+  },
   "topBase": Object {
     "marginTop": 24,
   },
