@@ -1,3 +1,10 @@
+# [1.36.0](https://github.com/occmundial/occ-atomic/compare/v1.35.0...v1.36.0) (2023-10-17)
+
+
+### Features
+
+* Default Avatar size and titleCase for Text ([5dc6d69](https://github.com/occmundial/occ-atomic/commit/5dc6d69191a4e76da9ab9a61721de4d39759c0fc))
+
 # [1.35.0](https://github.com/occmundial/occ-atomic/compare/v1.34.0...v1.35.0) (2023-10-10)
 
 
