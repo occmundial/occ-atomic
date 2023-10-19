@@ -30,7 +30,7 @@ Object {
     "color": "#222222",
     "cursor": "pointer",
     "flex": "1",
-    "fontFamily": "'HK Grotesk', sans-serif",
+    "fontFamily": "'OccText', sans-serif",
     "fontSize": "13px",
     "height": "30px",
     "outline": "0",

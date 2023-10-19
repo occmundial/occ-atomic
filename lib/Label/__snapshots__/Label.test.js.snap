@@ -65,7 +65,7 @@ Object {
     "borderRadius": "11px",
     "boxSizing": "border-box",
     "display": "inline-block",
-    "fontFamily": "'HK Grotesk', sans-serif",
+    "fontFamily": "'OccText', sans-serif",
     "fontSize": "11px",
     "fontWeight": "normal",
     "height": "22px",

@@ -46,7 +46,7 @@ Object {
   },
   "navbar": Object {
     "border": "none",
-    "fontFamily": "'HK Grotesk', sans-serif",
+    "fontFamily": "'OccText', sans-serif",
     "position": "relative",
     "zIndex": "9",
   },

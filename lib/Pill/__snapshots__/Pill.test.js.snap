@@ -41,7 +41,7 @@ Object {
       "textDecoration": "none",
     },
     "color": "#222222",
-    "fontFamily": "'HK Grotesk', sans-serif",
+    "fontFamily": "'OccText', sans-serif",
     "fontSize": 13,
     "lineHeight": "20px",
     "transition": "0.3s all",

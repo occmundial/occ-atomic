@@ -7,7 +7,7 @@ Object {
   "cont": Object {
     "boxSizing": "border-box",
     "color": "#727272",
-    "fontFamily": "'HK Grotesk', sans-serif",
+    "fontFamily": "'OccText', sans-serif",
     "fontSize": "15px",
     "lineHeight": "18px",
   },
