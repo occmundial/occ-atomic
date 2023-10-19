@@ -5,12 +5,14 @@ exports[`AvatarContent matches the snapshot 1`] = `ShallowWrapper {}`;
 exports[`AvatarContent styles matches the snapshot 1`] = `
 Object {
   "capital": Object {
-    "background": "#dae1e5",
-    "color": "#afb8c0",
-    "fontFamily": "'OccText', sans-serif",
-    "fontSize": 28,
+    "background": "#f5f5f5",
+    "color": "#dddddd",
+    "fontFamily": "'HK Grotesk', sans-serif",
+    "fontSize": "57px",
+    "fontStyle": "normal",
     "fontWeight": "600",
-    "lineHeight": "70px",
+    "letterSpacing": -2,
+    "lineHeight": "72px",
     "textAlign": "center",
   },
   "cont": Object {

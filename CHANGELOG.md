@@ -1,3 +1,17 @@
+# [1.36.0](https://github.com/occmundial/occ-atomic/compare/v1.35.0...v1.36.0) (2023-10-17)
+
+
+### Features
+
+* Default Avatar size and titleCase for Text ([5dc6d69](https://github.com/occmundial/occ-atomic/commit/5dc6d69191a4e76da9ab9a61721de4d39759c0fc))
+
+# [1.35.0](https://github.com/occmundial/occ-atomic/compare/v1.34.0...v1.35.0) (2023-10-10)
+
+
+### Features
+
+* Add new occ logo icons ([494c1d3](https://github.com/occmundial/occ-atomic/commit/494c1d34f3a011830f86b0bfcf98c272631e0fd1))
+
 # [1.34.0](https://github.com/occmundial/occ-atomic/compare/v1.33.0...v1.34.0) (2023-09-07)
 
 
