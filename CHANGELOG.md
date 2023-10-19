@@ -1,3 +1,11 @@
+# [1.37.0](https://github.com/occmundial/occ-atomic/compare/v1.36.0...v1.37.0) (2023-10-19)
+
+
+### Features
+
+* Add new font ([e83f61a](https://github.com/occmundial/occ-atomic/commit/e83f61aa8474ae64f44a75c7b3db06b292084a7f))
+* Remove text transform style ([5b96d63](https://github.com/occmundial/occ-atomic/commit/5b96d63c4ed04f4de6fb3366236da4decbb59f18))
+
 # [1.36.0](https://github.com/occmundial/occ-atomic/compare/v1.35.0...v1.36.0) (2023-10-17)
 
 
