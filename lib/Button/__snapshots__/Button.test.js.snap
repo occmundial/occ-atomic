@@ -42,7 +42,6 @@ Object {
     "position": "relative",
     "textAlign": "center",
     "textDecoration": "none",
-    "textTransform": "uppercase",
     "touchAction": "manipulation",
     "transition": "0.3s all",
     "userSelect": "none",
