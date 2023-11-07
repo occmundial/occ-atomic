@@ -36,11 +36,11 @@ Object {
   },
   "extraLarge": Object {
     "fontSize": 20,
-    "fontWeight": 300,
     "lineHeight": "150%",
   },
   "heading": Object {
     "fontSize": 24,
+    "fontWeight": 400,
     "lineHeight": "110%",
   },
   "headline": Object {
@@ -49,6 +49,7 @@ Object {
       "lineHeight": "110%",
     },
     "fontSize": 28,
+    "fontWeight": 400,
     "lineHeight": "32px",
   },
   "hero": Object {
@@ -58,6 +59,7 @@ Object {
       "lineHeight": "110%",
     },
     "fontSize": 28,
+    "fontWeight": 400,
     "lineHeight": "32px",
   },
   "highEmphasis": Object {
@@ -68,7 +70,6 @@ Object {
   },
   "large": Object {
     "fontSize": 18,
-    "fontWeight": 300,
     "lineHeight": "150%",
   },
   "left": Object {
@@ -82,7 +83,6 @@ Object {
   },
   "micro": Object {
     "fontSize": 12,
-    "fontWeight": 300,
     "lineHeight": "150%",
   },
   "midEmphasis": Object {
@@ -99,12 +99,10 @@ Object {
   },
   "small": Object {
     "fontSize": 14,
-    "fontWeight": 300,
     "lineHeight": "150%",
   },
   "standard": Object {
     "fontSize": 16,
-    "fontWeight": 300,
     "lineHeight": "150%",
   },
   "strong": Object {
@@ -112,6 +110,7 @@ Object {
   },
   "subheading": Object {
     "fontSize": 18,
+    "fontWeight": 400,
     "lineHeight": "110%",
   },
   "success": Object {
@@ -120,7 +119,7 @@ Object {
   "text": Object {
     "fontFamily": "'OccText', sans-serif",
     "fontStyle": "normal",
-    "fontWeight": 400,
+    "fontWeight": 300,
     "letterSpacing": 0,
     "margin": 0,
   },
