@@ -35,32 +35,29 @@ Object {
     "color": "#db3737",
   },
   "extraLarge": Object {
-    "fontSize": 22,
-    "lineHeight": "32px",
+    "fontSize": 20,
+    "fontWeight": 300,
+    "lineHeight": "150%",
   },
   "heading": Object {
-    "fontSize": 22,
-    "fontWeight": 600,
-    "lineHeight": "32px",
+    "fontSize": 24,
+    "lineHeight": "110%",
   },
   "headline": Object {
     "@media screen and (min-width:768px)": Object {
-      "fontSize": 36,
-      "letterSpacing": -0.5,
-      "lineHeight": "48px",
+      "fontSize": 40,
+      "lineHeight": "110%",
     },
     "fontSize": 28,
-    "fontWeight": 600,
     "lineHeight": "32px",
   },
   "hero": Object {
     "@media screen and (min-width:768px)": Object {
-      "fontSize": 57,
-      "letterSpacing": -2,
-      "lineHeight": "72px",
+      "fontSize": 48,
+      "letterSpacing": -0.96,
+      "lineHeight": "110%",
     },
     "fontSize": 28,
-    "fontWeight": 600,
     "lineHeight": "32px",
   },
   "highEmphasis": Object {
@@ -70,8 +67,9 @@ Object {
     "color": "#5736ab",
   },
   "large": Object {
-    "fontSize": 17,
-    "lineHeight": "24px",
+    "fontSize": 18,
+    "fontWeight": 300,
+    "lineHeight": "150%",
   },
   "left": Object {
     "textAlign": "left",
@@ -83,8 +81,9 @@ Object {
     "color": "#aaaaaa",
   },
   "micro": Object {
-    "fontSize": 11,
-    "lineHeight": "16px",
+    "fontSize": 12,
+    "fontWeight": 300,
+    "lineHeight": "150%",
   },
   "midEmphasis": Object {
     "color": "#777777",
@@ -99,20 +98,21 @@ Object {
     "color": "#f13465",
   },
   "small": Object {
-    "fontSize": 13,
-    "lineHeight": "16px",
+    "fontSize": 14,
+    "fontWeight": 300,
+    "lineHeight": "150%",
   },
   "standard": Object {
-    "fontSize": 15,
-    "lineHeight": "24px",
+    "fontSize": 16,
+    "fontWeight": 300,
+    "lineHeight": "150%",
   },
   "strong": Object {
-    "fontWeight": 600,
+    "fontWeight": 400,
   },
   "subheading": Object {
-    "fontSize": 17,
-    "fontWeight": 600,
-    "lineHeight": "24px",
+    "fontSize": 18,
+    "lineHeight": "110%",
   },
   "success": Object {
     "color": "#009537",
