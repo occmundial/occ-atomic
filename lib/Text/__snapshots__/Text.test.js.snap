@@ -36,31 +36,30 @@ Object {
   },
   "extraLarge": Object {
     "fontSize": 20,
-    "lineHeight": "150%",
+    "lineHeight": 1.5,
   },
   "heading": Object {
     "fontSize": 24,
     "fontWeight": 400,
-    "lineHeight": "110%",
+    "lineHeight": 1.1,
   },
   "headline": Object {
     "@media screen and (min-width:768px)": Object {
       "fontSize": 40,
-      "lineHeight": "110%",
     },
     "fontSize": 28,
     "fontWeight": 400,
-    "lineHeight": "32px",
+    "lineHeight": 1.1,
   },
   "hero": Object {
     "@media screen and (min-width:768px)": Object {
       "fontSize": 48,
       "letterSpacing": -0.96,
-      "lineHeight": "110%",
     },
-    "fontSize": 28,
+    "fontSize": 32,
     "fontWeight": 400,
-    "lineHeight": "32px",
+    "letterSpacing": -0.64,
+    "lineHeight": 1.1,
   },
   "highEmphasis": Object {
     "color": "#222222",
@@ -70,7 +69,7 @@ Object {
   },
   "large": Object {
     "fontSize": 18,
-    "lineHeight": "150%",
+    "lineHeight": 1.5,
   },
   "left": Object {
     "textAlign": "left",
@@ -83,7 +82,7 @@ Object {
   },
   "micro": Object {
     "fontSize": 12,
-    "lineHeight": "150%",
+    "lineHeight": 1.5,
   },
   "midEmphasis": Object {
     "color": "#777777",
@@ -99,11 +98,11 @@ Object {
   },
   "small": Object {
     "fontSize": 14,
-    "lineHeight": "150%",
+    "lineHeight": 1.5,
   },
   "standard": Object {
     "fontSize": 16,
-    "lineHeight": "150%",
+    "lineHeight": 1.5,
   },
   "strong": Object {
     "fontWeight": 400,
@@ -111,7 +110,7 @@ Object {
   "subheading": Object {
     "fontSize": 18,
     "fontWeight": 400,
-    "lineHeight": "110%",
+    "lineHeight": 1.1,
   },
   "success": Object {
     "color": "#009537",
