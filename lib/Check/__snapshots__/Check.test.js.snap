@@ -72,7 +72,7 @@ Object {
     "flex": "1",
     "float": "left",
     "fontFamily": "'OccText', sans-serif",
-    "fontSize": "15px",
+    "fontSize": "16px",
     "paddingLeft": "5px",
     "paddingRight": "10px",
     "paddingTop": "3px",
@@ -83,7 +83,7 @@ Object {
     "extend": "label",
     "flex": "none",
     "float": "right",
-    "fontSize": "13px",
+    "fontSize": "14px",
     "paddingRight": "0",
   },
 }
