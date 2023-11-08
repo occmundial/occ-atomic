@@ -32,7 +32,7 @@ Object {
     "fontWeight": 400,
     "height": 32,
     "letterSpacing": 0,
-    "lineHeight": "150%",
+    "lineHeight": 1.5,
     "marginBottom": 0,
     "maxWidth": "100%",
     "padding": Array [
@@ -182,7 +182,7 @@ Object {
     },
     "fontSize": 16,
     "height": 48,
-    "lineHeight": "150%",
+    "lineHeight": 1.5,
   },
   "loadCont": Object {
     "alignItems": "center",
@@ -222,7 +222,7 @@ Object {
     },
     "fontSize": 16,
     "height": 40,
-    "lineHeight": "150%",
+    "lineHeight": 1.5,
   },
   "primary": Object {
     "& i": Object {
