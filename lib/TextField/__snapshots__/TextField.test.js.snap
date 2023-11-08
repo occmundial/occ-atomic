@@ -9,6 +9,7 @@ Object {
   },
   "assistiveText": Object {
     "color": "#aaaaaa",
+    "fontSize": 12,
   },
   "bottom": Object {
     "height": 20,
@@ -138,10 +139,10 @@ Object {
     "color": "#222222",
     "display": "flex",
     "fontFamily": "'OccText', sans-serif",
-    "fontSize": 15,
+    "fontSize": 16,
     "fontWeight": "normal",
     "height": 40,
-    "lineHeight": "24px",
+    "lineHeight": 1.5,
     "outline": "none",
     "padding": Array [
       8,
@@ -166,8 +167,8 @@ Object {
     },
     "color": "#222222",
     "fontFamily": "'OccText', sans-serif",
-    "fontSize": 13,
-    "lineHeight": "20px",
+    "fontSize": 14,
+    "lineHeight": 1.5,
     "transition": "0.3s all",
   },
   "left": Object {
@@ -203,17 +204,17 @@ Object {
   "select": Object {
     "& optgroup": Object {
       "color": "#777777",
-      "fontSize": 13,
+      "fontSize": 14,
       "fontWeight": "normal",
-      "lineHeight": "40px",
+      "lineHeight": 1.5,
     },
     "& option": Object {
       "&:disabled": Object {
         "color": "#aaaaaa",
       },
       "color": "#222222",
-      "fontSize": 15,
-      "lineHeight": "40px",
+      "fontSize": 16,
+      "lineHeight": 1.5,
     },
     "&::-ms-expand": Object {
       "display": "none",

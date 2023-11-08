@@ -24,7 +24,7 @@ Object {
     "width": 18,
   },
   "bigTagText": Object {
-    "fontSize": 17,
+    "fontSize": 16,
   },
   "default": Object {
     "background": "#f5f5f5",
@@ -76,7 +76,7 @@ Object {
     "width": 18,
   },
   "mediumTagText": Object {
-    "fontSize": 15,
+    "fontSize": 16,
   },
   "standard": Object {
     "height": 16,
@@ -92,7 +92,7 @@ Object {
     "width": 12,
   },
   "standardTagText": Object {
-    "fontSize": 11,
+    "fontSize": 10,
   },
   "success": Object {
     "background": "#e6f5eb",
@@ -116,9 +116,9 @@ Object {
     "fontFamily": "'OccText', sans-serif",
     "fontStretch": "normal",
     "fontStyle": "normal",
-    "fontWeight": "600",
+    "fontWeight": "400",
     "letterSpacing": "normal",
-    "lineHeight": 1.4,
+    "lineHeight": 1.5,
     "overflow": "hidden",
     "paddingRight": [Function],
     "position": "relative",

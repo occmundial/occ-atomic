@@ -34,7 +34,7 @@ Object {
   "pager": Object {
     "color": "#727272",
     "fontFamily": "'OccText', sans-serif",
-    "fontSize": "13px",
+    "fontSize": "14px",
     "listStyle": "none",
     "paddingLeft": "0",
   },
