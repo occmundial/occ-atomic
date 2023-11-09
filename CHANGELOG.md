@@ -1,3 +1,18 @@
+# [1.39.0](https://github.com/occmundial/occ-atomic/compare/v1.38.0...v1.39.0) (2023-11-09)
+
+
+### Features
+
+* Add new font styles ([105e874](https://github.com/occmundial/occ-atomic/commit/105e8746850109c3a2815ee0c4e4aba9c4258641))
+* Modify font styles in button component ([5771b56](https://github.com/occmundial/occ-atomic/commit/5771b565b824d23956bcefe45726b295d3db4883))
+* Modify fontWeight in avatar styles ([0b9ab15](https://github.com/occmundial/occ-atomic/commit/0b9ab15dcd51b0637a7f9c740ec9998095f07469))
+* Modify lineHeight ([141a448](https://github.com/occmundial/occ-atomic/commit/141a4489a9b233f4d6fb47d4cbee3f34742e9188))
+* Modify lineHeight ([5338b94](https://github.com/occmundial/occ-atomic/commit/5338b942de7ad741f0b01f85f2fc1ae65dc2f3e2))
+* Update font styles ([374d696](https://github.com/occmundial/occ-atomic/commit/374d696cb494843ff994978bd6f9ca6e659d4146))
+* Update font styles ([ba80d4c](https://github.com/occmundial/occ-atomic/commit/ba80d4c8b8c722930703d4a0af568d7b8b03937d))
+* Update fontSize ([1890bf9](https://github.com/occmundial/occ-atomic/commit/1890bf9e1e8ae0ca51f44af31cd013dda96c0e1a))
+* Update fontSize in check component ([be54e58](https://github.com/occmundial/occ-atomic/commit/be54e5851dcc018a840948e150f83a4a4b8fad5b))
+
 # [1.38.0](https://github.com/occmundial/occ-atomic/compare/v1.37.0...v1.38.0) (2023-11-09)
 
 
