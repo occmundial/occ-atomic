@@ -42,8 +42,8 @@ Object {
     },
     "color": "#222222",
     "fontFamily": "'OccText', sans-serif",
-    "fontSize": 13,
-    "lineHeight": "20px",
+    "fontSize": 14,
+    "lineHeight": 1.5,
     "transition": "0.3s all",
   },
   "left": Object {

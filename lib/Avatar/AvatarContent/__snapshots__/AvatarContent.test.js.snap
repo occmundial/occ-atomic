@@ -10,7 +10,7 @@ Object {
     "fontFamily": "'OccText', sans-serif",
     "fontSize": "57px",
     "fontStyle": "normal",
-    "fontWeight": "600",
+    "fontWeight": "400",
     "letterSpacing": -2,
     "lineHeight": "72px",
     "textAlign": "center",

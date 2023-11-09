@@ -35,33 +35,31 @@ Object {
     "color": "#db3737",
   },
   "extraLarge": Object {
-    "fontSize": 22,
-    "lineHeight": "32px",
+    "fontSize": 20,
+    "lineHeight": 1.5,
   },
   "heading": Object {
-    "fontSize": 22,
-    "fontWeight": 600,
-    "lineHeight": "32px",
+    "fontSize": 24,
+    "fontWeight": 400,
+    "lineHeight": 1.1,
   },
   "headline": Object {
     "@media screen and (min-width:768px)": Object {
-      "fontSize": 36,
-      "letterSpacing": -0.5,
-      "lineHeight": "48px",
+      "fontSize": 40,
     },
     "fontSize": 28,
-    "fontWeight": 600,
-    "lineHeight": "32px",
+    "fontWeight": 400,
+    "lineHeight": 1.1,
   },
   "hero": Object {
     "@media screen and (min-width:768px)": Object {
-      "fontSize": 57,
-      "letterSpacing": -2,
-      "lineHeight": "72px",
+      "fontSize": 48,
+      "letterSpacing": -0.96,
     },
-    "fontSize": 28,
-    "fontWeight": 600,
-    "lineHeight": "32px",
+    "fontSize": 32,
+    "fontWeight": 400,
+    "letterSpacing": -0.64,
+    "lineHeight": 1.1,
   },
   "highEmphasis": Object {
     "color": "#222222",
@@ -70,8 +68,8 @@ Object {
     "color": "#5736ab",
   },
   "large": Object {
-    "fontSize": 17,
-    "lineHeight": "24px",
+    "fontSize": 18,
+    "lineHeight": 1.5,
   },
   "left": Object {
     "textAlign": "left",
@@ -83,8 +81,8 @@ Object {
     "color": "#aaaaaa",
   },
   "micro": Object {
-    "fontSize": 11,
-    "lineHeight": "16px",
+    "fontSize": 12,
+    "lineHeight": 1.5,
   },
   "midEmphasis": Object {
     "color": "#777777",
@@ -99,20 +97,20 @@ Object {
     "color": "#f13465",
   },
   "small": Object {
-    "fontSize": 13,
-    "lineHeight": "16px",
+    "fontSize": 14,
+    "lineHeight": 1.5,
   },
   "standard": Object {
-    "fontSize": 15,
-    "lineHeight": "24px",
+    "fontSize": 16,
+    "lineHeight": 1.5,
   },
   "strong": Object {
-    "fontWeight": 600,
+    "fontWeight": 400,
   },
   "subheading": Object {
-    "fontSize": 17,
-    "fontWeight": 600,
-    "lineHeight": "24px",
+    "fontSize": 18,
+    "fontWeight": 400,
+    "lineHeight": 1.1,
   },
   "success": Object {
     "color": "#009537",
@@ -120,7 +118,7 @@ Object {
   "text": Object {
     "fontFamily": "'OccText', sans-serif",
     "fontStyle": "normal",
-    "fontWeight": 400,
+    "fontWeight": 300,
     "letterSpacing": 0,
     "margin": 0,
   },

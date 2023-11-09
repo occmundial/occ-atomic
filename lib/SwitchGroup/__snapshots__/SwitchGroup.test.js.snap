@@ -31,7 +31,7 @@ Object {
     "cursor": "pointer",
     "flex": "1",
     "fontFamily": "'OccText', sans-serif",
-    "fontSize": "13px",
+    "fontSize": "14px",
     "height": "30px",
     "outline": "0",
     "overflow": "hidden",
