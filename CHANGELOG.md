@@ -1,3 +1,10 @@
+# [1.38.0](https://github.com/occmundial/occ-atomic/compare/v1.37.0...v1.38.0) (2023-11-09)
+
+
+### Features
+
+* Add testId for bottomLinks ([39e677e](https://github.com/occmundial/occ-atomic/commit/39e677e51710f009410a78a2166cf42b73fdfa2b))
+
 # [1.37.0](https://github.com/occmundial/occ-atomic/compare/v1.36.0...v1.37.0) (2023-10-19)
 
 
