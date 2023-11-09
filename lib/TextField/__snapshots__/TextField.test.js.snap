@@ -10,6 +10,7 @@ Object {
   "assistiveText": Object {
     "color": "#aaaaaa",
     "fontSize": 12,
+    "fontWeight": 300,
   },
   "bottom": Object {
     "height": 20,
@@ -140,7 +141,7 @@ Object {
     "display": "flex",
     "fontFamily": "'OccText', sans-serif",
     "fontSize": 16,
-    "fontWeight": "normal",
+    "fontWeight": 300,
     "height": 40,
     "lineHeight": 1.5,
     "outline": "none",
