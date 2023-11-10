@@ -1,3 +1,10 @@
+## [1.39.1](https://github.com/occmundial/occ-atomic/compare/v1.39.0...v1.39.1) (2023-11-10)
+
+
+### Bug Fixes
+
+* Fix fontWeight ([abb9a49](https://github.com/occmundial/occ-atomic/commit/abb9a4979a6a7e309b3ac23137ae04b33a40a738))
+
 # [1.39.0](https://github.com/occmundial/occ-atomic/compare/v1.38.0...v1.39.0) (2023-11-09)
 
 
