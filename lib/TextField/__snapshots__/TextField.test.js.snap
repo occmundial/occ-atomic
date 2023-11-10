@@ -169,6 +169,7 @@ Object {
     "color": "#222222",
     "fontFamily": "'OccText', sans-serif",
     "fontSize": 14,
+    "fontWeight": 300,
     "lineHeight": 1.5,
     "transition": "0.3s all",
   },
