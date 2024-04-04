@@ -1,3 +1,10 @@
+# [1.40.0-beta.1](https://github.com/occmundial/occ-atomic/compare/v1.39.1...v1.40.0-beta.1) (2024-04-04)
+
+
+### Features
+
+* Add new design tokens files ([6b8fbcf](https://github.com/occmundial/occ-atomic/commit/6b8fbcf03f272603020686e229cf3ad1bd3e3a3e))
+
 ## [1.39.1](https://github.com/occmundial/occ-atomic/compare/v1.39.0...v1.39.1) (2023-11-10)
 
 
