@@ -1,3 +1,10 @@
+# [1.40.0-beta.2](https://github.com/occmundial/occ-atomic/compare/v1.40.0-beta.1...v1.40.0-beta.2) (2024-04-05)
+
+
+### Bug Fixes
+
+* Include the tokens into the build ([d3d0e1e](https://github.com/occmundial/occ-atomic/commit/d3d0e1eea096847bfcaf99d6c8f56b17d45faa5f))
+
 # [1.40.0-beta.1](https://github.com/occmundial/occ-atomic/compare/v1.39.1...v1.40.0-beta.1) (2024-04-04)
 
 
