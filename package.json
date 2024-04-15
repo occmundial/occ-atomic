@@ -6,8 +6,7 @@
   "main": "build/index.js",
   "scripts": {
     "prestart": "npm run gen-docs",
-    "start": "set NODE_ENV=development && npm-run-all --parallel start-docs gen-docs:watch",
-    "start:mac": "NODE_ENV=development  npm-run-all --parallel start-docs gen-docs:watch",
+    "start": "cross-env NODE_ENV=development npm-run-all --parallel start-docs gen-docs:watch",
     "start-docs": "webpack serve --port 3030 --config webpack.config.dev.js",
     "gen-docs": "node scripts/generateComponentData.js",
     "gen-docs:watch": "npm run gen-docs -- --watch",
