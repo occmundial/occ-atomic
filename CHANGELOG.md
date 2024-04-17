@@ -1,3 +1,10 @@
+# [2.0.0-beta.3](https://github.com/occmundial/occ-atomic/compare/v2.0.0-beta.2...v2.0.0-beta.3) (2024-04-17)
+
+
+### Bug Fixes
+
+* Update design tokens ([6c96339](https://github.com/occmundial/occ-atomic/commit/6c963392e0b3af43978a5189bdbe0304e046f47c))
+
 # [2.0.0-beta.2](https://github.com/occmundial/occ-atomic/compare/v2.0.0-beta.1...v2.0.0-beta.2) (2024-04-17)
 
 
