@@ -1,30 +1,231 @@
 {
-  "button-large": "400 18px/1.5 'OCC Text'",
-  "button-medium": "400 16px/1.5 'OCC Text'",
-  "button-small": "400 14px/1.5 'OCC Text'",
-  "text-field-label": "400 14px/1.5 'OCC Text'",
-  "text-field-placeholder": "400 16px/1.5 'OCC Text'",
-  "text-field-assistive-text": "400 14px/1.5 'OCC Text'",
-  "alert-default": "400 14px/1.5 'OCC Text'",
-  "alert-description": "300 14px/1.5 'OCC Text'",
-  "display-display-clean": "400 72px/1.1 'OCC Text'",
-  "heading-h1": "400 48px/1.1 'OCC Text'",
-  "heading-h2": "400 40px/1.1 'OCC Text'",
-  "heading-h3": "400 28px/1.1 'OCC Text'",
-  "heading-h4": "400 24px/1.1 'OCC Text'",
-  "heading-h5": "400 18px/1.1 'OCC Text'",
-  "heading-tag": "400 10px/1.5 'OCC Text'",
-  "body-x-large": "300 20px/1.5 'OCC Text'",
-  "body-large-strong": "400 18px/1.5 'OCC Text'",
-  "body-large": "300 18px/1.5 'OCC Text'",
-  "body-regular-strong": "400 16px/1.5 'OCC Text'",
-  "body-regular": "300 16px/1.5 'OCC Text'",
-  "body-small-strong": "400 14px/1.5 'OCC Text'",
-  "body-small": "300 14px/1.5 'OCC Text'",
-  "body-x-small": "300 12px/1.5 'OCC Text'",
-  "mobile-display-clean-m": "400 48px/1.1 'OCC Text'",
-  "mobile-h1-m": "400 32px/1.1 'OCC Text'",
-  "mobile-h2-m": "400 28px/1.1 'OCC Text'",
-  "mobile-h3-m": "400 24px/1.1 'OCC Text'",
-  "mobile-h4-m": "400 20px/1.1 'OCC Text'"
+  "button-large": {
+    "fontFamily": "'OCC Text'",
+    "fontWeight": 400,
+    "lineHeight": 1.5,
+    "fontSize": "18px"
+  },
+  "button-medium": {
+    "fontFamily": "'OCC Text'",
+    "fontWeight": 400,
+    "lineHeight": 1.5,
+    "fontSize": "16px"
+  },
+  "button-small": {
+    "fontFamily": "'OCC Text'",
+    "fontWeight": 400,
+    "lineHeight": 1.5,
+    "fontSize": "14px"
+  },
+  "text-field-label": {
+    "fontFamily": "'OCC Text'",
+    "fontWeight": 400,
+    "lineHeight": 1.5,
+    "fontSize": "14px"
+  },
+  "text-field-placeholder": {
+    "fontFamily": "'OCC Text'",
+    "fontWeight": 400,
+    "lineHeight": 1.5,
+    "fontSize": "16px"
+  },
+  "text-field-assistive-text": {
+    "fontFamily": "'OCC Text'",
+    "fontWeight": 400,
+    "lineHeight": 1.5,
+    "fontSize": "14px"
+  },
+  "alert-default": {
+    "fontFamily": "'OCC Text'",
+    "fontWeight": 400,
+    "lineHeight": 1.5,
+    "fontSize": "14px"
+  },
+  "alert-description": {
+    "fontFamily": "'OCC Text'",
+    "fontWeight": 300,
+    "lineHeight": 1.5,
+    "fontSize": "14px"
+  },
+  "link-large": {
+    "fontFamily": "'OCC Text'",
+    "fontWeight": 300,
+    "lineHeight": 1.5,
+    "fontSize": "18px",
+    "textDecoration": "underline"
+  },
+  "link-x-large": {
+    "fontFamily": "'OCC Text'",
+    "fontWeight": 300,
+    "fontSize": "20px",
+    "lineHeight": 1.5,
+    "textDecoration": "underline"
+  },
+  "link-large-strong": {
+    "fontFamily": "'OCC Text'",
+    "fontWeight": 400,
+    "lineHeight": 1.5,
+    "fontSize": "18px",
+    "textDecoration": "underline"
+  },
+  "link-regular": {
+    "fontFamily": "'OCC Text'",
+    "fontWeight": 300,
+    "lineHeight": 1.5,
+    "fontSize": "16px",
+    "textDecoration": "underline"
+  },
+  "link-regular-strong": {
+    "fontFamily": "'OCC Text'",
+    "fontWeight": 400,
+    "lineHeight": 1.5,
+    "fontSize": "16px",
+    "textDecoration": "underline"
+  },
+  "link-small": {
+    "fontFamily": "'OCC Text'",
+    "fontWeight": 300,
+    "lineHeight": 1.5,
+    "fontSize": "14px",
+    "textDecoration": "underline"
+  },
+  "link-small-strong": {
+    "fontFamily": "'OCC Text'",
+    "fontWeight": 400,
+    "lineHeight": 1.5,
+    "fontSize": "14px",
+    "textDecoration": "underline"
+  },
+  "link-x-small": {
+    "fontFamily": "'OCC Text'",
+    "fontWeight": 300,
+    "lineHeight": 1.5,
+    "fontSize": "12px",
+    "textDecoration": "underline"
+  },
+  "display-display-clean": {
+    "fontFamily": "'OCC Text'",
+    "fontWeight": 400,
+    "lineHeight": 1.1,
+    "fontSize": "72px",
+    "letterSpacing": "-2%"
+  },
+  "heading-h1": {
+    "fontFamily": "'OCC Text'",
+    "fontWeight": 400,
+    "lineHeight": 1.1,
+    "fontSize": "48px",
+    "letterSpacing": "-2%"
+  },
+  "heading-h2": {
+    "fontFamily": "'OCC Text'",
+    "fontWeight": 400,
+    "lineHeight": 1.1,
+    "fontSize": "40px"
+  },
+  "heading-h3": {
+    "fontFamily": "'OCC Text'",
+    "fontWeight": 400,
+    "lineHeight": 1.1,
+    "fontSize": "28px",
+    "letterSpacing": "-2%"
+  },
+  "heading-h4": {
+    "fontFamily": "'OCC Text'",
+    "fontWeight": 400,
+    "fontSize": "24px",
+    "lineHeight": 1.1
+  },
+  "heading-h5": {
+    "fontFamily": "'OCC Text'",
+    "fontWeight": 400,
+    "lineHeight": 1.1,
+    "fontSize": "18px"
+  },
+  "heading-tag": {
+    "fontFamily": "'OCC Text'",
+    "fontWeight": 400,
+    "lineHeight": 1.5,
+    "fontSize": "10px"
+  },
+  "body-x-large": {
+    "fontFamily": "'OCC Text'",
+    "fontWeight": 300,
+    "fontSize": "20px",
+    "lineHeight": 1.5
+  },
+  "body-large-strong": {
+    "fontFamily": "'OCC Text'",
+    "fontWeight": 400,
+    "lineHeight": 1.5,
+    "fontSize": "18px"
+  },
+  "body-large": {
+    "fontFamily": "'OCC Text'",
+    "fontWeight": 300,
+    "lineHeight": 1.5,
+    "fontSize": "18px"
+  },
+  "body-regular-strong": {
+    "fontFamily": "'OCC Text'",
+    "fontWeight": 400,
+    "lineHeight": 1.5,
+    "fontSize": "16px"
+  },
+  "body-regular": {
+    "fontFamily": "'OCC Text'",
+    "fontWeight": 300,
+    "lineHeight": 1.5,
+    "fontSize": "16px"
+  },
+  "body-small-strong": {
+    "fontFamily": "'OCC Text'",
+    "fontWeight": 400,
+    "lineHeight": 1.5,
+    "fontSize": "14px"
+  },
+  "body-small": {
+    "fontFamily": "'OCC Text'",
+    "fontWeight": 300,
+    "lineHeight": 1.5,
+    "fontSize": "14px"
+  },
+  "body-x-small": {
+    "fontFamily": "'OCC Text'",
+    "fontWeight": 300,
+    "lineHeight": 1.5,
+    "fontSize": "12px"
+  },
+  "mobile-display-clean-m": {
+    "fontFamily": "'OCC Text'",
+    "fontWeight": 400,
+    "lineHeight": 1.1,
+    "fontSize": "48px",
+    "letterSpacing": "-2%"
+  },
+  "mobile-h1-m": {
+    "fontFamily": "'OCC Text'",
+    "fontWeight": 400,
+    "lineHeight": 1.1,
+    "fontSize": "32px",
+    "letterSpacing": "-2%"
+  },
+  "mobile-h2-m": {
+    "fontFamily": "'OCC Text'",
+    "fontWeight": 400,
+    "lineHeight": 1.1,
+    "fontSize": "28px"
+  },
+  "mobile-h3-m": {
+    "fontFamily": "'OCC Text'",
+    "fontWeight": 400,
+    "lineHeight": 1.1,
+    "fontSize": "24px"
+  },
+  "mobile-h4-m": {
+    "fontFamily": "'OCC Text'",
+    "fontWeight": 400,
+    "lineHeight": 1.1,
+    "fontSize": "20px"
+  }
 }
