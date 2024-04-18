@@ -1,3 +1,29 @@
+# [2.0.0-beta.3](https://github.com/occmundial/occ-atomic/compare/v2.0.0-beta.2...v2.0.0-beta.3) (2024-04-17)
+
+
+### Bug Fixes
+
+* Update design tokens ([6c96339](https://github.com/occmundial/occ-atomic/commit/6c963392e0b3af43978a5189bdbe0304e046f47c))
+
+# [2.0.0-beta.2](https://github.com/occmundial/occ-atomic/compare/v2.0.0-beta.1...v2.0.0-beta.2) (2024-04-17)
+
+
+### Bug Fixes
+
+* Change font tokens in Button ([7b0b47a](https://github.com/occmundial/occ-atomic/commit/7b0b47ab608530cf4fa6ea31afb2592ad70958c9))
+
+# [2.0.0-beta.1](https://github.com/occmundial/occ-atomic/compare/v1.40.0-beta.2...v2.0.0-beta.1) (2024-04-16)
+
+
+### Features
+
+* Change Button themes and styles ([114375d](https://github.com/occmundial/occ-atomic/commit/114375d8a7a3b56622c00416a007e52a333ed8d4))
+
+
+### BREAKING CHANGES
+
+* The themes of the Button component have changed to match the styles of the button in the new design system. The current themes have slightly different names to the new ones but they all have a corresponding new theme that matches, except for the ghostPink theme.
+
 # [2.0.0-beta.1](https://github.com/occmundial/occ-atomic/compare/v1.40.0-beta.2...v2.0.0-beta.1) (2024-04-16)
 
 
