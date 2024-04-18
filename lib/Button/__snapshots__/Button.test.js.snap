@@ -20,7 +20,7 @@ Object {
     "boxSizing": "border-box",
     "cursor": "pointer",
     "display": "inline-block",
-    "font": "400 14px/1.5 'OccText'",
+    "font": "400 14px/1.5 'OccText', sans-serif",
     "marginBottom": 0,
     "maxWidth": "100%",
     "padding": Array [
@@ -157,7 +157,7 @@ Object {
         "12px",
       ],
     },
-    "font": "400 18px/1.5 'OccText'",
+    "font": "400 18px/1.5 'OccText', sans-serif",
     "padding": Array [
       "12px",
       "32px",
@@ -196,7 +196,7 @@ Object {
         "8px",
       ],
     },
-    "font": "400 16px/1.5 'OccText'",
+    "font": "400 16px/1.5 'OccText', sans-serif",
     "padding": Array [
       "12px",
       "24px",

@@ -85,10 +85,10 @@ Object {
   "display": Object {
     "@media screen and (min-width:768px)": Object {
       "font": "400 72px/1.1 'OCC Text'",
-      "letterSpacing": "0.02em",
+      "letterSpacing": "-0.02em",
     },
     "font": "400 48px/1.1 'OCC Text'",
-    "letterSpacing": "0.02em",
+    "letterSpacing": "-0.02em",
   },
   "error": Object {
     "color": "#8b1313",
@@ -96,10 +96,10 @@ Object {
   "h1": Object {
     "@media screen and (min-width:768px)": Object {
       "font": "400 48px/1.1 'OCC Text'",
-      "letterSpacing": "0.02em",
+      "letterSpacing": "-0.02em",
     },
     "font": "400 32px/1.1 'OCC Text'",
-    "letterSpacing": "0.02em",
+    "letterSpacing": "-0.02em",
   },
   "h2": Object {
     "@media screen and (min-width:768px)": Object {
