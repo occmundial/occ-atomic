@@ -1,3 +1,10 @@
+# [2.0.0-beta.4](https://github.com/occmundial/occ-atomic/compare/v2.0.0-beta.3...v2.0.0-beta.4) (2024-04-19)
+
+
+### Bug Fixes
+
+* Fix loading icon size ([2cf2248](https://github.com/occmundial/occ-atomic/commit/2cf22486a65eb78ce9e7fb18da00a7e237fbcb55))
+
 # [2.0.0-beta.3](https://github.com/occmundial/occ-atomic/compare/v2.0.0-beta.2...v2.0.0-beta.3) (2024-04-17)
 
 
