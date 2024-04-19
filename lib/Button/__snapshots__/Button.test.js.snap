@@ -4,14 +4,6 @@ exports[`Button matches the snapshot 1`] = `ShallowWrapper {}`;
 
 exports[`Button styles matches the snapshot 1`] = `
 Object {
-  "@keyframes iconRotate": Object {
-    "from": Object {
-      "transform": "rotate(0deg)",
-    },
-    "to": Object {
-      "transform": "rotate(360deg)",
-    },
-  },
   "block": Object {
     "display": "block",
     "width": "100%",
@@ -28,7 +20,7 @@ Object {
     "boxSizing": "border-box",
     "cursor": "pointer",
     "display": "inline-block",
-    "font": "400 14px/1.5 'OCCText'",
+    "font": "400 14px/1.5 'OccText', sans-serif",
     "marginBottom": 0,
     "maxWidth": "100%",
     "padding": Array [
@@ -165,7 +157,7 @@ Object {
         "12px",
       ],
     },
-    "font": "400 18px/1.5 'OCCText'",
+    "font": "400 18px/1.5 'OccText', sans-serif",
     "padding": Array [
       "12px",
       "32px",
@@ -204,7 +196,7 @@ Object {
         "8px",
       ],
     },
-    "font": "400 16px/1.5 'OCCText'",
+    "font": "400 16px/1.5 'OccText', sans-serif",
     "padding": Array [
       "12px",
       "24px",
