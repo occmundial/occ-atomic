@@ -1,3 +1,18 @@
+# [2.0.0-beta.5](https://github.com/occmundial/occ-atomic/compare/v2.0.0-beta.4...v2.0.0-beta.5) (2024-04-19)
+
+
+### Bug Fixes
+
+* Changed font variable to the old one ([75dc28b](https://github.com/occmundial/occ-atomic/commit/75dc28bc0bd174057449c45d4ebe79366ffc8433))
+
+
+### Features
+
+* Changed some examples with tables ([3efe252](https://github.com/occmundial/occ-atomic/commit/3efe252c3d8651976f28e951081c717861c0ad56))
+* Updated Text component documentation ([73e4b21](https://github.com/occmundial/occ-atomic/commit/73e4b21d488ba012df82d2e4fb85c18689c5d586))
+* Updated text component with new tokens ([b5f75ee](https://github.com/occmundial/occ-atomic/commit/b5f75eec430126b36c06dcd60bb320ccdf7eee0f))
+* Upgrade font tokens ([069bf92](https://github.com/occmundial/occ-atomic/commit/069bf9237f5b52492961f96f0a6f4a79469f4448))
+
 # [2.0.0-beta.4](https://github.com/occmundial/occ-atomic/compare/v2.0.0-beta.3...v2.0.0-beta.4) (2024-04-19)
 
 
