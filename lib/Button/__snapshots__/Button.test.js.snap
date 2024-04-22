@@ -97,8 +97,14 @@ Object {
     "background": "transparent",
     "border": "none",
     "color": "#f13465",
-    "paddingLeft": 0,
-    "paddingRight": 0,
+    "paddingLeft": Array [
+      0,
+      "!important",
+    ],
+    "paddingRight": Array [
+      0,
+      "!important",
+    ],
   },
   "ghostWhite": Object {
     "& i": Object {
