@@ -51,14 +51,14 @@ Object {
     "& $loadIcon": Object {
       "background": "url(data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgogICAgICAgICAgICAJIHZpZXdCb3g9IjAgMCAyNCAyNCIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMjQgMjQ7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KICAgICAgICAgICAgPHN0eWxlIHR5cGU9InRleHQvY3NzIj4KICAgICAgICAgICAgCS5zdDB7ZmlsbDp1cmwoI1NWR0lEXzFfKTt9CiAgICAgICAgICAgIDwvc3R5bGU+CiAgICAgICAgICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iU1ZHSURfMV8iIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4MT0iMjEiIHkxPSIxMiIgeDI9IjMiIHkyPSIxMiI+CiAgICAgICAgICAgIAk8c3RvcCAgb2Zmc2V0PSIwLjE3NzgiIHN0eWxlPSJzdG9wLWNvbG9yOiM1QTVEN0I7c3RvcC1vcGFjaXR5OjAiLz4KICAgICAgICAgICAgCTxzdG9wICBvZmZzZXQ9IjAuMjI3MSIgc3R5bGU9InN0b3AtY29sb3I6IzVBNUQ3QjtzdG9wLW9wYWNpdHk6MC4xIi8+CiAgICAgICAgICAgIAk8c3RvcCAgb2Zmc2V0PSIwLjMxNTciIHN0eWxlPSJzdG9wLWNvbG9yOiM1QTVEN0I7c3RvcC1vcGFjaXR5OjAuNCIvPgogICAgICAgICAgICAJPHN0b3AgIG9mZnNldD0iMC40NTI1IiBzdHlsZT0ic3RvcC1jb2xvcjojNUE1RDdCO3N0b3Atb3BhY2l0eTowLjciLz4KICAgICAgICAgICAgCTxzdG9wICBvZmZzZXQ9IjAuNTU0NiIgc3R5bGU9InN0b3AtY29sb3I6IzVBNUQ3QiIvPgogICAgICAgICAgICAJPHN0b3AgIG9mZnNldD0iMC45Mjc4IiBzdHlsZT0ic3RvcC1jb2xvcjojNUE1RDdCIi8+CiAgICAgICAgICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgICAgICAgICAgIDxwYXRoIGNsYXNzPSJzdDAiIGQ9Ik0xOS4xLDEyYzAuMSw0LTMuMSw3LjItNy4xLDcuMlM0LjgsMTYsNC44LDEyUzgsNC44LDEyLDQuOFYzYy01LDAtOSw0LTksOXM0LDksOSw5czktNCw5LTlIMTkuMXoiLz4KICAgICAgICAgICAgPC9zdmc+)",
     },
-    "& i": Object {
+    "& span span": Object {
       "background": [Function],
     },
     "&$disabled": Object {
       "background": "transparent",
       "color": "#878A9F",
     },
-    "&$disabled i": Object {
+    "&$disabled span span": Object {
       "background": [Function],
     },
     "&:active": Object {
@@ -77,19 +77,19 @@ Object {
     "& $loadIcon": Object {
       "background": "url(data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgogICAgICAgICAgICAJIHZpZXdCb3g9IjAgMCAyNCAyNCIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMjQgMjQ7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KICAgICAgICAgICAgPHN0eWxlIHR5cGU9InRleHQvY3NzIj4KICAgICAgICAgICAgCS5zdDB7ZmlsbDp1cmwoI1NWR0lEXzFfKTt9CiAgICAgICAgICAgIDwvc3R5bGU+CiAgICAgICAgICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iU1ZHSURfMV8iIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4MT0iMjEiIHkxPSIxMiIgeDI9IjMiIHkyPSIxMiI+CiAgICAgICAgICAgIAk8c3RvcCAgb2Zmc2V0PSIwLjE3NzgiIHN0eWxlPSJzdG9wLWNvbG9yOiNmMTM0NjU7c3RvcC1vcGFjaXR5OjAiLz4KICAgICAgICAgICAgCTxzdG9wICBvZmZzZXQ9IjAuMjI3MSIgc3R5bGU9InN0b3AtY29sb3I6I2YxMzQ2NTtzdG9wLW9wYWNpdHk6MC4xIi8+CiAgICAgICAgICAgIAk8c3RvcCAgb2Zmc2V0PSIwLjMxNTciIHN0eWxlPSJzdG9wLWNvbG9yOiNmMTM0NjU7c3RvcC1vcGFjaXR5OjAuNCIvPgogICAgICAgICAgICAJPHN0b3AgIG9mZnNldD0iMC40NTI1IiBzdHlsZT0ic3RvcC1jb2xvcjojZjEzNDY1O3N0b3Atb3BhY2l0eTowLjciLz4KICAgICAgICAgICAgCTxzdG9wICBvZmZzZXQ9IjAuNTU0NiIgc3R5bGU9InN0b3AtY29sb3I6I2YxMzQ2NSIvPgogICAgICAgICAgICAJPHN0b3AgIG9mZnNldD0iMC45Mjc4IiBzdHlsZT0ic3RvcC1jb2xvcjojZjEzNDY1Ii8+CiAgICAgICAgICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgICAgICAgICAgIDxwYXRoIGNsYXNzPSJzdDAiIGQ9Ik0xOS4xLDEyYzAuMSw0LTMuMSw3LjItNy4xLDcuMlM0LjgsMTYsNC44LDEyUzgsNC44LDEyLDQuOFYzYy01LDAtOSw0LTksOXM0LDksOSw5czktNCw5LTlIMTkuMXoiLz4KICAgICAgICAgICAgPC9zdmc+)",
     },
-    "& i": Object {
+    "& span span": Object {
       "background": [Function],
     },
     "&$disabled": Object {
-      "& i": Object {
+      "& span span": Object {
         "background": [Function],
       },
       "background": "transparent !important",
       "border": "none !important",
-      "color": "#f13465 !important",
+      "color": "#fa90ac !important",
     },
     "&:hover, &:active": Object {
-      "& i": Object {
+      "& span span": Object {
         "background": [Function],
       },
       "color": "#cc1b4a",
@@ -107,14 +107,14 @@ Object {
     ],
   },
   "ghostWhite": Object {
-    "& i": Object {
+    "& span span": Object {
       "background": [Function],
     },
     "&$disabled": Object {
       "background": "transparent",
       "color": "rgba(255,255,255,0.7)",
     },
-    "&$disabled i": Object {
+    "&$disabled span span": Object {
       "background": [Function],
     },
     "&:active": Object {
@@ -131,13 +131,11 @@ Object {
   },
   "icon": Object {
     "display": "inline-block",
-    "height": 16,
     "marginRight": "8px",
     "transition": "0.3s all",
-    "width": 16,
   },
   "iconOnly": Object {
-    "& i": Object {
+    "& span span, & svg": Object {
       "marginRight": 0,
     },
     "padding": Array [
@@ -153,10 +151,6 @@ Object {
     "width": 16,
   },
   "lg": Object {
-    "& i": Object {
-      "height": 24,
-      "width": 24,
-    },
     "&$iconOnly": Object {
       "padding": Array [
         "12px",
@@ -192,10 +186,6 @@ Object {
     "pointerEvents": "none",
   },
   "md": Object {
-    "& i": Object {
-      "height": 24,
-      "width": 24,
-    },
     "&$iconOnly": Object {
       "padding": Array [
         "8px",
@@ -209,7 +199,7 @@ Object {
     ],
   },
   "primary": Object {
-    "& i": Object {
+    "& span span": Object {
       "background": [Function],
     },
     "&$disabled": Object {
@@ -217,7 +207,7 @@ Object {
       "color": "rgba(255,255,255,0.7)",
       "cursor": "not-allowed",
     },
-    "&$disabled i": Object {
+    "&$disabled span span": Object {
       "background": [Function],
     },
     "&:active": Object {
@@ -244,14 +234,14 @@ Object {
     "& $loadIcon": Object {
       "background": "url(data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgogICAgICAgICAgICAJIHZpZXdCb3g9IjAgMCAyNCAyNCIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMjQgMjQ7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KICAgICAgICAgICAgPHN0eWxlIHR5cGU9InRleHQvY3NzIj4KICAgICAgICAgICAgCS5zdDB7ZmlsbDp1cmwoI1NWR0lEXzFfKTt9CiAgICAgICAgICAgIDwvc3R5bGU+CiAgICAgICAgICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iU1ZHSURfMV8iIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4MT0iMjEiIHkxPSIxMiIgeDI9IjMiIHkyPSIxMiI+CiAgICAgICAgICAgIAk8c3RvcCAgb2Zmc2V0PSIwLjE3NzgiIHN0eWxlPSJzdG9wLWNvbG9yOiMwODNDQUU7c3RvcC1vcGFjaXR5OjAiLz4KICAgICAgICAgICAgCTxzdG9wICBvZmZzZXQ9IjAuMjI3MSIgc3R5bGU9InN0b3AtY29sb3I6IzA4M0NBRTtzdG9wLW9wYWNpdHk6MC4xIi8+CiAgICAgICAgICAgIAk8c3RvcCAgb2Zmc2V0PSIwLjMxNTciIHN0eWxlPSJzdG9wLWNvbG9yOiMwODNDQUU7c3RvcC1vcGFjaXR5OjAuNCIvPgogICAgICAgICAgICAJPHN0b3AgIG9mZnNldD0iMC40NTI1IiBzdHlsZT0ic3RvcC1jb2xvcjojMDgzQ0FFO3N0b3Atb3BhY2l0eTowLjciLz4KICAgICAgICAgICAgCTxzdG9wICBvZmZzZXQ9IjAuNTU0NiIgc3R5bGU9InN0b3AtY29sb3I6IzA4M0NBRSIvPgogICAgICAgICAgICAJPHN0b3AgIG9mZnNldD0iMC45Mjc4IiBzdHlsZT0ic3RvcC1jb2xvcjojMDgzQ0FFIi8+CiAgICAgICAgICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgICAgICAgICAgIDxwYXRoIGNsYXNzPSJzdDAiIGQ9Ik0xOS4xLDEyYzAuMSw0LTMuMSw3LjItNy4xLDcuMlM0LjgsMTYsNC44LDEyUzgsNC44LDEyLDQuOFYzYy01LDAtOSw0LTksOXM0LDksOSw5czktNCw5LTlIMTkuMXoiLz4KICAgICAgICAgICAgPC9zdmc+)",
     },
-    "& i": Object {
+    "& span span": Object {
       "background": [Function],
     },
     "&$disabled": Object {
       "background": "hsl(221 91.2% 35.7% / 0.1)",
       "color": "#486EC3",
     },
-    "&$disabled i": Object {
+    "&$disabled span span": Object {
       "background": [Function],
     },
     "&:active": Object {
@@ -270,7 +260,7 @@ Object {
     "& $loadIcon": Object {
       "background": "url(data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgogICAgICAgICAgICAJIHZpZXdCb3g9IjAgMCAyNCAyNCIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMjQgMjQ7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KICAgICAgICAgICAgPHN0eWxlIHR5cGU9InRleHQvY3NzIj4KICAgICAgICAgICAgCS5zdDB7ZmlsbDp1cmwoI1NWR0lEXzFfKTt9CiAgICAgICAgICAgIDwvc3R5bGU+CiAgICAgICAgICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iU1ZHSURfMV8iIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4MT0iMjEiIHkxPSIxMiIgeDI9IjMiIHkyPSIxMiI+CiAgICAgICAgICAgIAk8c3RvcCAgb2Zmc2V0PSIwLjE3NzgiIHN0eWxlPSJzdG9wLWNvbG9yOiMwODNDQUU7c3RvcC1vcGFjaXR5OjAiLz4KICAgICAgICAgICAgCTxzdG9wICBvZmZzZXQ9IjAuMjI3MSIgc3R5bGU9InN0b3AtY29sb3I6IzA4M0NBRTtzdG9wLW9wYWNpdHk6MC4xIi8+CiAgICAgICAgICAgIAk8c3RvcCAgb2Zmc2V0PSIwLjMxNTciIHN0eWxlPSJzdG9wLWNvbG9yOiMwODNDQUU7c3RvcC1vcGFjaXR5OjAuNCIvPgogICAgICAgICAgICAJPHN0b3AgIG9mZnNldD0iMC40NTI1IiBzdHlsZT0ic3RvcC1jb2xvcjojMDgzQ0FFO3N0b3Atb3BhY2l0eTowLjciLz4KICAgICAgICAgICAgCTxzdG9wICBvZmZzZXQ9IjAuNTU0NiIgc3R5bGU9InN0b3AtY29sb3I6IzA4M0NBRSIvPgogICAgICAgICAgICAJPHN0b3AgIG9mZnNldD0iMC45Mjc4IiBzdHlsZT0ic3RvcC1jb2xvcjojMDgzQ0FFIi8+CiAgICAgICAgICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgICAgICAgICAgIDxwYXRoIGNsYXNzPSJzdDAiIGQ9Ik0xOS4xLDEyYzAuMSw0LTMuMSw3LjItNy4xLDcuMlM0LjgsMTYsNC44LDEyUzgsNC44LDEyLDQuOFYzYy01LDAtOSw0LTksOXM0LDksOSw5czktNCw5LTlIMTkuMXoiLz4KICAgICAgICAgICAgPC9zdmc+)",
     },
-    "& i": Object {
+    "& span span": Object {
       "background": [Function],
     },
     "&$disabled": Object {
@@ -278,7 +268,7 @@ Object {
       "color": "#486EC3",
       "outline": "2px solid #8DA5DA",
     },
-    "&$disabled i": Object {
+    "&$disabled span span": Object {
       "background": [Function],
     },
     "&:active": Object {
@@ -299,14 +289,14 @@ Object {
     "outlineOffset": "-2px",
   },
   "tertiaryWhite": Object {
-    "& i": Object {
+    "& span span": Object {
       "background": [Function],
     },
     "&$disabled": Object {
       "background": "transparent",
       "color": "rgba(255,255,255,0.7)",
     },
-    "&$disabled i": Object {
+    "&$disabled span span": Object {
       "background": [Function],
     },
     "&:active": Object {
