@@ -29,7 +29,7 @@ class App extends React.Component {
 			: undefined;
 
 		return (
-			<AtomicProvider data={{ iconsUrl: 'https://cdn-icons.occ.com.mx/atomic-icons-1.7.0-beta.6.svg' }}>
+			<AtomicProvider data={{ iconsUrl: 'https://cdn-icons.occ.com.mx/atomic-icons-1.7.0-beta.8.svg' }}>
 				<div>
 					<NavTab
 						left={[
