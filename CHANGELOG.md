@@ -1,3 +1,23 @@
+# [2.0.0-beta.7](https://github.com/occmundial/occ-atomic/compare/v2.0.0-beta.6...v2.0.0-beta.7) (2024-04-24)
+
+
+### Bug Fixes
+
+* Add missed icons ([a5527c5](https://github.com/occmundial/occ-atomic/commit/a5527c5eff5afb23c142c0b412756ee8f6a11b02))
+* Adjust styles for ghostPink theme and button icons ([942a2c9](https://github.com/occmundial/occ-atomic/commit/942a2c967cea88479154a65a98f2961bfbd406ce))
+* Adjust styles for ghostPink theme and button icons ([9e2576e](https://github.com/occmundial/occ-atomic/commit/9e2576efb42856f1a91ab271ea4b823fbbfbf45d))
+* Change logic to fallback legacy icons ([60f37f4](https://github.com/occmundial/occ-atomic/commit/60f37f48391713faba97f6d4f93e60519d79b348))
+
+
+### Features
+
+* Add logic to use atomic icons and static icons ([6fe277e](https://github.com/occmundial/occ-atomic/commit/6fe277ed83927d29af3cf06573cb6d08a0f399ab))
+* Add logic to use atomic icons and static icons ([0b9a9e4](https://github.com/occmundial/occ-atomic/commit/0b9a9e41c37a4fcff6c14c8e79da4885662ccba1))
+* Add to mapped icons stars solid icon ([5c96982](https://github.com/occmundial/occ-atomic/commit/5c9698235dc690bb8e1c913cc140854fc64c530b))
+* Adds testing icon to legacy icons ([a0bca6c](https://github.com/occmundial/occ-atomic/commit/a0bca6c33f54e731b645a953499dbc5b96d03d90))
+* Change occ logo blue color to blue token ([4b7d63d](https://github.com/occmundial/occ-atomic/commit/4b7d63d0743a8caecc019f8326733c4cf2017b2f))
+* Update atomic icons ([cdaa9bd](https://github.com/occmundial/occ-atomic/commit/cdaa9bda879f0d8aabe44a79cd16a0eedd3a7e8d))
+
 # [2.0.0-beta.6](https://github.com/occmundial/occ-atomic/compare/v2.0.0-beta.5...v2.0.0-beta.6) (2024-04-22)
 
 
