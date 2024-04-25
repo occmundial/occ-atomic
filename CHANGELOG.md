@@ -1,3 +1,10 @@
+# [2.0.0-beta.9](https://github.com/occmundial/occ-atomic/compare/v2.0.0-beta.8...v2.0.0-beta.9) (2024-04-25)
+
+
+### Bug Fixes
+
+* Add exception for the provider in the babel plugin ([4383e87](https://github.com/occmundial/occ-atomic/commit/4383e876ef28bb773dca3ff9149dfe1ad7cc53a1))
+
 # [2.0.0-beta.8](https://github.com/occmundial/occ-atomic/compare/v2.0.0-beta.7...v2.0.0-beta.8) (2024-04-25)
 
 
