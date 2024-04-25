@@ -1,3 +1,10 @@
+# [2.0.0-beta.11](https://github.com/occmundial/occ-atomic/compare/v2.0.0-beta.10...v2.0.0-beta.11) (2024-04-25)
+
+
+### Bug Fixes
+
+* Update tip and toast icons ([07f3474](https://github.com/occmundial/occ-atomic/commit/07f347420e2f3d278274018cd9039508cbd7e504))
+
 # [2.0.0-beta.10](https://github.com/occmundial/occ-atomic/compare/v2.0.0-beta.9...v2.0.0-beta.10) (2024-04-25)
 
 
