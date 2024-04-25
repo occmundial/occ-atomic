@@ -1,3 +1,10 @@
+# [2.0.0-beta.10](https://github.com/occmundial/occ-atomic/compare/v2.0.0-beta.9...v2.0.0-beta.10) (2024-04-25)
+
+
+### Bug Fixes
+
+* Change the import declaration for the provider ([4fae96e](https://github.com/occmundial/occ-atomic/commit/4fae96e40028fc5d93438f7df3fd7342c0f6392a))
+
 # [2.0.0-beta.9](https://github.com/occmundial/occ-atomic/compare/v2.0.0-beta.8...v2.0.0-beta.9) (2024-04-25)
 
 
