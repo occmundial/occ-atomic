@@ -1,3 +1,10 @@
+# [2.0.0-beta.12](https://github.com/occmundial/occ-atomic/compare/v2.0.0-beta.11...v2.0.0-beta.12) (2024-04-26)
+
+
+### Bug Fixes
+
+* Change name of the import for AtomicProvider in babel ([d0157de](https://github.com/occmundial/occ-atomic/commit/d0157de2321bce412dc0662a98f89a6196dbc917))
+
 # [2.0.0-beta.11](https://github.com/occmundial/occ-atomic/compare/v2.0.0-beta.10...v2.0.0-beta.11) (2024-04-25)
 
 
