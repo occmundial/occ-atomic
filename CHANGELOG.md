@@ -1,3 +1,10 @@
+# [2.0.0-beta.13](https://github.com/occmundial/occ-atomic/compare/v2.0.0-beta.12...v2.0.0-beta.13) (2024-04-29)
+
+
+### Features
+
+* Map arrow down to chevron down ([9bd47fa](https://github.com/occmundial/occ-atomic/commit/9bd47fab659f3f7743d6f0b6a48dc9ecf599022d))
+
 # [2.0.0-beta.12](https://github.com/occmundial/occ-atomic/compare/v2.0.0-beta.11...v2.0.0-beta.12) (2024-04-26)
 
 
