@@ -8,7 +8,6 @@ module.exports = [
 			'Card',
 			'Check',
 			'Checkbox',
-			'Fab',
 			'Icon',
 			'Label',
 			'OrderBy',
@@ -40,7 +39,8 @@ module.exports = [
 			'Placeholder',
 			'Tip',
 			'Banner',
-			'Toaster'
+			'Toaster',
+			'Fab',
 		]
 	},
 	{
