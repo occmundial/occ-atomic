@@ -1,3 +1,19 @@
+# [2.0.0-beta.14](https://github.com/occmundial/occ-atomic/compare/v2.0.0-beta.13...v2.0.0-beta.14) (2024-05-07)
+
+
+### Features
+
+* Add hover shadow ([207b7a2](https://github.com/occmundial/occ-atomic/commit/207b7a2819771ff7384c7c53448f37d5dfb7e146))
+* Add new fab component ([2164eea](https://github.com/occmundial/occ-atomic/commit/2164eea04ed268165609db2bcd80be4dd02df6a2))
+* Remove fab border transition ([485e64c](https://github.com/occmundial/occ-atomic/commit/485e64ca574f3300a159b8c4a5bedf11ee49b32d))
+* Remove fab border transition ([9561c59](https://github.com/occmundial/occ-atomic/commit/9561c599981f8ccfc76ccdb00b35576d01f53578))
+* Update fab snapshot test ([d75b525](https://github.com/occmundial/occ-atomic/commit/d75b525dd32c4f4b38cebf4f5cd8e0dd1034752e))
+* Update ghost pink loading icon ([9292276](https://github.com/occmundial/occ-atomic/commit/92922766abe7c0010b9f4f4b8265c2105c019f3c))
+* Update snapshots ([438e896](https://github.com/occmundial/occ-atomic/commit/438e8968d5d228d1b9bad3883be676fa1bc8f2b1))
+* Update snapshots ([0395996](https://github.com/occmundial/occ-atomic/commit/0395996ad4f21e6db5b917005c9ccf1c8a9dd0df))
+* Update tokens path and add outline offset ([a7e6807](https://github.com/occmundial/occ-atomic/commit/a7e6807e1936d98c8f72e483b1b131dcfa714877))
+* Update tokens path and add outline offset ([89eeb16](https://github.com/occmundial/occ-atomic/commit/89eeb16a797cb4996069f369bce34b9efb025a3d))
+
 # [2.0.0-beta.13](https://github.com/occmundial/occ-atomic/compare/v2.0.0-beta.12...v2.0.0-beta.13) (2024-04-29)
 
 
