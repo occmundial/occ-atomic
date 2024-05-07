@@ -8,6 +8,7 @@ module.exports = [
 			'Card',
 			'Check',
 			'Checkbox',
+			'Fab',
 			'Icon',
 			'Label',
 			'OrderBy',
