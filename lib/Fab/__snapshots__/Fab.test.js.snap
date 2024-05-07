@@ -1,3 +1,16 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`FAB matches the snapshot 1`] = `ShallowWrapper {}`;
+exports[`FAB matches the snapshot 1`] = `
+<button
+  className="Button-btn-0-1-28 Button-btn-0-1-1 Button-tertiary-0-1-23 Button-tertiary-0-1-6 fab Button-iconOnly-0-1-38 Button-iconOnly-0-1-18 Button-round-0-1-40 Button-round-0-1-20"
+>
+  <span
+    className="Button-cont-0-1-29 Button-cont-0-1-2"
+  >
+    <span
+      className="Icon-oldIcon-0-1-45 Icon-oldIcon-0-1-43 Button-icon-0-1-36 Button-icon-0-1-16"
+    />
+    
+  </span>
+</button>
+`;
