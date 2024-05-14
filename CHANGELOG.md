@@ -1,3 +1,11 @@
+# [2.0.0-beta.16](https://github.com/occmundial/occ-atomic/compare/v2.0.0-beta.15...v2.0.0-beta.16) (2024-05-14)
+
+
+### Bug Fixes
+
+* Adjust icon in prev and next button ([8d78c19](https://github.com/occmundial/occ-atomic/commit/8d78c196ce2a27990084683fbeb95b0b9e49be02))
+* Change tabs to spaces ([ba606c3](https://github.com/occmundial/occ-atomic/commit/ba606c3951a779fd05937fed49f785cc529cd611))
+
 # [2.0.0-beta.15](https://github.com/occmundial/occ-atomic/compare/v2.0.0-beta.14...v2.0.0-beta.15) (2024-05-10)
 
 
