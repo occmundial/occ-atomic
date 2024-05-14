@@ -15,7 +15,6 @@ Object {
     "border": "1px solid #bfbfbf",
     "borderRadius": "5px",
     "cursor": "pointer",
-    "display": "inline-block",
     "fontFamily": "'OccText', sans-serif",
     "outline": "0",
     "padding": "3px 13px",
@@ -25,24 +24,28 @@ Object {
     "opacity": "0.4",
     "pointerEvents": "none",
   },
-  "next": Object {
-    "& span": Object {
-      "transform": "rotate(-90deg)",
-    },
+  "listItemNext": Object {
     "marginLeft": "15px",
   },
+  "listItemPrevious": Object {
+    "marginRight": "15px",
+  },
+  "next": Object {
+    "alignItems": "center",
+    "display": "flex",
+  },
   "pager": Object {
+    "alignItems": "center",
     "color": "#727272",
+    "display": "flex",
     "fontFamily": "'OccText', sans-serif",
     "fontSize": "14px",
     "listStyle": "none",
     "paddingLeft": "0",
   },
   "prev": Object {
-    "& span": Object {
-      "transform": "rotate(90deg)",
-    },
-    "marginRight": "15px",
+    "alignItems": "center",
+    "display": "flex",
   },
 }
 `;
