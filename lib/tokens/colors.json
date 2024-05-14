@@ -473,7 +473,8 @@
         "disabled": "#8DA5DA",
         "subtle": {
           "default": "#E9EEF8",
-          "hover": "#CAD5EE"
+          "hover": "#CAD5EE",
+          "active": "#ABBDE4"
         }
       },
       "ghost": {
@@ -515,7 +516,8 @@
   },
   "border": {
     "inverse": {
-      "default": "#fff",
+      "bold": "#fff",
+      "default": "rgba(255,255,255,0.5)",
       "subtle": "rgba(255,255,255,0.2)"
     },
     "default": {
