@@ -7,108 +7,59 @@ Object {
   "alignRight": Object {
     "textAlign": "right",
   },
+  "assistiveError": Object {
+    "color": "#8b1313",
+  },
   "assistiveText": Object {
-    "color": "#aaaaaa",
-    "fontSize": 12,
-    "fontWeight": 300,
+    "color": "#5A5D7B",
+    "font": "400 14px/1.5 'OccText', sans-serif",
+  },
+  "assistiveTextWrap": Object {
+    "display": "flex",
   },
   "bottom": Object {
-    "height": 20,
-    "marginTop": 4,
-  },
-  "clear": Object {
-    "background": "none",
-    "border": 0,
-    "cursor": "pointer",
-    "height": 24,
-    "margin": 0,
-    "outline": 0,
-    "padding": 3,
-    "position": "absolute",
-    "right": 12,
-    "top": "50%",
-    "transform": "translateY(-50%)",
-    "width": 24,
-    "zIndex": 1,
+    "display": "flex",
+    "justifyContent": "space-between",
+    "marginTop": "8px",
   },
   "container": Object {
-    "marginBottom": 8,
     "position": "relative",
   },
   "counter": Object {
-    "color": "#aaaaaa",
+    "color": "#5A5D7B",
+    "font": "400 14px/1.5 'OccText', sans-serif",
   },
   "default": Object {},
   "disabled": Object {
     "& $input": Object {
-      "borderColor": "#dddddd",
-      "color": "#dddddd",
-      "paddingTop": 9,
-    },
-    "& $label": Object {
-      "color": "#dddddd",
-    },
-    "& $passIcon": Object {
-      "cursor": "auto",
+      "background": "#EDEDF1",
+      "color": "#878A9F",
     },
   },
   "error": Object {
     "& $input": Object {
-      "background": "rgba(219, 55, 55, 0.04)",
-      "borderColor": "#db3737",
-      "color": "#db3737",
-    },
-    "& $searchField": Object {
-      "borderWidth": 2,
-      "color": "#222222",
-      "paddingLeft": 7,
-    },
-    "& $searchFieldHasIcon": Object {
-      "paddingLeft": 41,
-    },
-  },
-  "errorAssistiveText": Object {
-    "color": "#db3737",
-  },
-  "errorIcon": Object {
-    "marginBottom": -2,
-  },
-  "filled": Object {
-    "& $input": Object {
-      "borderColor": "#222222",
-      "borderWidth": 2,
-      "paddingLeft": 7,
-    },
-    "& $searchFieldHasIcon": Object {
-      "paddingLeft": 41,
+      "boxShadow": "inset 0 0 0 1px #e82020",
     },
   },
   "focus": Object {
     "& $input": Object {
-      "borderColor": "#083cae",
-    },
-    "& $searchField": Object {
-      "borderWidth": 2,
-      "paddingLeft": 7,
-    },
-    "& $searchFieldHasIcon": Object {
-      "paddingLeft": 41,
+      "boxShadow": "inset 0 0 0 2px #0059CD, 0 0 0 8px rgba(0,110,255,0.3) !important",
     },
   },
   "hasClear": Object {
-    "paddingRight": 42,
+    "paddingRight": "48px",
   },
   "hasIcon": Object {
-    "paddingLeft": 42,
+    "paddingLeft": "48px",
   },
   "hasPass": Object {
-    "paddingRight": 42,
+    "paddingRight": "48px",
   },
   "hasRightIcon": Object {
-    "marginRight": 16,
+    "marginRight": "48px",
   },
   "icon": Object {
-    "left": 16,
+    "left": "16px",
     "position": "absolute",
     "top": "50%",
     "transform": "translateY(-50%)",
@@ -123,7 +74,10 @@ Object {
       "margin": 0,
     },
     "&::placeholder": Object {
-      "color": "#aaaaaa",
+      "color": "#5A5D7B",
+    },
+    "&:hover": Object {
+      "boxShadow": "inset 0 0 0 1px #6C6F89",
     },
     "&[type=number]": Object {
       "-moz-appearance": "textfield",
@@ -131,25 +85,22 @@ Object {
     "-webkit-appearance": "none",
     "alignItems": "center",
     "appearance": "none",
-    "background": "#ffffff",
-    "border": "1px solid #dddddd",
-    "borderRadius": 4,
-    "boxShadow": "none",
+    "background": "#fff",
+    "border": "none",
+    "borderRadius": "4px",
+    "boxShadow": "inset 0 0 0 1px #D3D4DC",
     "boxSizing": "border-box",
-    "caretColor": "#083cae",
-    "color": "#222222",
+    "caretColor": "#083CAE",
+    "color": "#080D39",
     "display": "flex",
-    "fontFamily": "'OccText', sans-serif",
-    "fontSize": 16,
-    "fontWeight": 300,
-    "height": 40,
-    "lineHeight": 1.5,
+    "font": "400 16px/1.5 'OccText', sans-serif",
+    "height": 48,
     "outline": "none",
     "padding": Array [
-      8,
-      16,
+      "4px",
+      "16px",
     ],
-    "transition": "0.3s all",
+    "transition": "all cubic-bezier(0.25,0.46,0.45,0.94) 0.2s",
     "width": "100%",
   },
   "inputDisabled": Object {
@@ -161,88 +112,50 @@ Object {
     "position": "relative",
   },
   "label": Object {
-    "& a": Object {
-      "color": "#1476fb",
-      "outline": "none",
-      "textDecoration": "none",
-    },
-    "color": "#222222",
-    "fontFamily": "'OccText', sans-serif",
-    "fontSize": 14,
-    "fontWeight": 300,
-    "lineHeight": 1.5,
-    "transition": "0.3s all",
+    "color": "#080D39",
+    "font": "400 14px/1.5 'OccText', sans-serif",
   },
-  "left": Object {
-    "float": "left",
-  },
-  "passIcon": Object {
-    "background": "none",
-    "border": 0,
-    "cursor": "pointer",
-    "height": 24,
-    "margin": 0,
-    "outline": 0,
-    "padding": 3,
+  "rightButton": Object {
     "position": "absolute",
-    "right": 12,
-    "top": 8,
-    "width": 24,
+    "right": "4px",
+    "top": "50%",
+    "transform": "translateY(-50%)",
     "zIndex": 1,
   },
-  "right": Object {
-    "float": "right",
-  },
-  "searchField": Object {
-    "background": Array [
-      "#ffffff",
-      "!important",
-    ],
-    "borderColor": "#777777",
-    "borderRadius": 24,
-    "height": 48,
-  },
-  "searchFieldHasIcon": Object {},
   "select": Object {
     "& optgroup": Object {
-      "color": "#777777",
-      "fontSize": 14,
-      "fontWeight": "normal",
-      "lineHeight": 1.5,
+      "color": "#5A5D7B",
+      "font": "400 14px/1.5 'OccText', sans-serif",
     },
     "& option": Object {
       "&:disabled": Object {
-        "color": "#aaaaaa",
+        "color": "#878A9F",
       },
-      "color": "#222222",
-      "fontSize": 16,
-      "lineHeight": 1.5,
+      "color": "#080D39",
+      "font": "400 16px/1.5 'OccText', sans-serif",
     },
     "&::-ms-expand": Object {
       "display": "none",
     },
     "&:invalid, & option[value=\\"\\"]": Object {
-      "color": "#aaaaaa",
+      "color": "#878A9F",
     },
-    "paddingRight": 32,
+    "paddingRight": "48px",
   },
   "selectIcon": Object {
-    "background": "none",
-    "border": 0,
-    "height": 24,
-    "margin": 0,
-    "outline": 0,
-    "padding": "3px 0",
     "pointerEvents": "none",
     "position": "absolute",
-    "right": 12,
-    "top": 8,
-    "width": 18,
-    "zIndex": 1,
+    "right": "16px",
+    "top": "50%",
+    "transform": "translateY(-50%)",
   },
   "textarea": Object {
     "alignItems": "flex-start",
     "height": 120,
+    "paddingg": Array [
+      "12px",
+      "16px",
+    ],
     "resize": "none",
   },
   "top": Object {
@@ -250,7 +163,8 @@ Object {
       "clear": "both",
       "content": "\\"\\"",
     },
-    "height": 24,
+    "display": "flex",
+    "marginBottom": "8px",
   },
 }
 `;
