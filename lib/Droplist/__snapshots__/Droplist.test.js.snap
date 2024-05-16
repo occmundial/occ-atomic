@@ -14,31 +14,39 @@ Object {
       "8px",
     ],
   },
+  "corpDisabled": Object {
+    "color": "#878A9F",
+  },
   "disabled": Object {
     "pointerEvents": "none",
   },
   "extraText": Object {
+    "color": "#083CAE",
+    "display": "inline-block",
+    "font": "400 10px/1.5 'OccText', sans-serif",
     "marginLeft": "4px",
   },
   "group": Object {
+    "display": "inline-block",
     "padding": Array [
       "8px",
       "16px",
       0,
     ],
   },
+  "groupText": Object {
+    "font": "400 14px/1.5 'OccText', sans-serif",
+  },
   "highlighted": Object {
     "background": "hsl(221 91.2% 35.7% / 0.05)",
+    "font": "400 16px/1.5 'OccText', sans-serif",
   },
   "icon": Object {
     "marginRight": "8px",
   },
-  "iconText": Object {
-    "display": "inline-block",
-  },
   "item": Object {
     "&:active, &:focus": Object {
-      "& > $right": Object {
+      "& > $rightText": Object {
         "color": "#080D39",
       },
       "background": "hsl(221 91.2% 35.7% / 0.1)",
@@ -64,6 +72,11 @@ Object {
   "itemPointer": Object {
     "cursor": "pointer",
   },
+  "mainText": Object {
+    "color": "#080D39",
+    "display": "inline-block",
+    "font": "400 16px/1.5 'OccText', sans-serif",
+  },
   "onFocus": Object {
     "&:hover": Object {
       "background": "hsl(221 91.2% 35.7% / 0.1)",
@@ -71,9 +84,14 @@ Object {
     "background": "hsl(221 91.2% 35.7% / 0.1)",
   },
   "right": Object {
-    "float": "right",
     "marginLeft": "16px",
-    "transition": "0.1s all",
+  },
+  "rightText": Object {
+    "color": "#5A5D7B",
+    "font": "400 14px/1.5 'OccText', sans-serif",
+  },
+  "text": Object {
+    "margin": 0,
   },
 }
 `;
