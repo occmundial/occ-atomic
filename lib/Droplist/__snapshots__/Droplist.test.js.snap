@@ -10,9 +10,7 @@ Object {
     "borderRadius": "4px",
     "boxShadow": "0 9px 12px -5px rgba(8,13,56,0.12), 0 10px 32px 0 rgba(9,61,173,0.12)",
     "overflow": "hidden",
-    "padding": Array [
-      "8px",
-    ],
+    "padding": "8px",
   },
   "corpDisabled": Object {
     "color": "#878A9F",
