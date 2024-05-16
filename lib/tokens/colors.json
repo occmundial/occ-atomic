@@ -257,7 +257,7 @@
     "selected": {
       "bg": {
         "default": "#0059CD",
-        "hover": "#0047A5"
+        "hover": "#083CAE"
       }
     },
     "bg": {
@@ -279,7 +279,7 @@
     "selected": {
       "bg": {
         "default": "#0059CD",
-        "hover": "#0047A5",
+        "hover": "#083CAE",
         "disabled": "#8DA5DA"
       },
       "border": {
@@ -310,7 +310,7 @@
     "selected": {
       "bg": {
         "default": "#0059CD",
-        "hover": "#0047A5",
+        "hover": "#083CAE",
         "disabled": "hsl(221 91.2% 35.7% / 0.1)"
       },
       "border": {
@@ -354,7 +354,7 @@
     "track": {
       "bg": {
         "default": "#0059CD",
-        "hover": "#0047A5",
+        "hover": "#083CAE",
         "disabled": "#8DA5DA"
       }
     },
@@ -379,7 +379,7 @@
     "selected": {
       "bg": {
         "default": "#0059CD",
-        "hover": "#0047A5",
+        "hover": "#083CAE",
         "disabled": "#8DA5DA"
       },
       "border": {
@@ -439,6 +439,12 @@
       }
     }
   },
+  "nav": {
+    "bg": {
+      "inverse": "#083CAE",
+      "default": "#fff"
+    }
+  },
   "bg": {
     "action": {
       "primary": {
@@ -469,7 +475,7 @@
       },
       "brand": {
         "default": "#0059CD",
-        "hover": "#0047A5",
+        "hover": "#083CAE",
         "disabled": "#8DA5DA",
         "subtle": {
           "default": "#E9EEF8",
