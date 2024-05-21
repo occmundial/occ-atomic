@@ -1,3 +1,20 @@
+# [2.0.0-beta.17](https://github.com/occmundial/occ-atomic/compare/v2.0.0-beta.16...v2.0.0-beta.17) (2024-05-21)
+
+
+### Bug Fixes
+
+* Add events to Button ([cbac2b8](https://github.com/occmundial/occ-atomic/commit/cbac2b8a19cc93c76529a2aa4f91a685a5b7f9c7))
+
+
+### Features
+
+* Update TextField styles ([0d0218e](https://github.com/occmundial/occ-atomic/commit/0d0218ea0df146da1b07482676eb99ad57d186b7))
+
+
+### BREAKING CHANGES
+
+* Remove the lockHeight and searchField properties
+
 # [2.0.0-beta.16](https://github.com/occmundial/occ-atomic/compare/v2.0.0-beta.15...v2.0.0-beta.16) (2024-05-14)
 
 
