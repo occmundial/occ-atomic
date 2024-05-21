@@ -1,3 +1,18 @@
+# [2.0.0-beta.18](https://github.com/occmundial/occ-atomic/compare/v2.0.0-beta.17...v2.0.0-beta.18) (2024-05-21)
+
+
+### Bug Fixes
+
+* Change icon size ([2b6affe](https://github.com/occmundial/occ-atomic/commit/2b6affe0c6a40c080ebd9281dc8b4901aaffe4c4))
+* Change text component for html tags for text in droplist ([50f4972](https://github.com/occmundial/occ-atomic/commit/50f4972c306351416efe83700a6d4dcffa83f259))
+* Resolve merge conflicts ([b771fab](https://github.com/occmundial/occ-atomic/commit/b771fab5304a66febe94bc808eb383f7b1d47741))
+* Update snapshots ([6f32f65](https://github.com/occmundial/occ-atomic/commit/6f32f65188207312c1fa26ce2e4ffd4338ac99cf))
+
+
+### Features
+
+* Update droplist styles with new design tokens ([27fdaf2](https://github.com/occmundial/occ-atomic/commit/27fdaf288e82a8493eb05d0315f4385585e71a04))
+
 # [2.0.0-beta.17](https://github.com/occmundial/occ-atomic/compare/v2.0.0-beta.16...v2.0.0-beta.17) (2024-05-21)
 
 
