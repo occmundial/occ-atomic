@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: occ-atomic
+  annotations:
+    github.com/project-slug: occmundial/occ-atomic
+    design-tokens.occdeep.io/platform: tailwind
+    design-tokens.occdeep.io/path: lib/tokens
+    design-tokens.occdeep.io/branch: beta
+spec:
+  type: service
+  lifecycle: production
+  owner: ui-team
