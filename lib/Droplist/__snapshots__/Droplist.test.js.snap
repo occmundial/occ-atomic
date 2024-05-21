@@ -5,59 +5,91 @@ exports[`Droplist matches the snapshot 1`] = `ShallowWrapper {}`;
 exports[`Droplist styles matches the snapshot 1`] = `
 Object {
   "block": Object {
-    "background": "#ffffff",
-    "border": "1px solid #dddddd",
-    "borderRadius": 4,
+    "background": "#fff",
+    "border": "1px solid #D3D4DC",
+    "borderRadius": "4px",
+    "boxShadow": "0 9px 12px -5px rgba(8,13,56,0.12), 0 10px 32px 0 rgba(9,61,173,0.12)",
     "overflow": "hidden",
+    "padding": "8px",
+  },
+  "corpDisabled": Object {
+    "color": "#878A9F",
+  },
+  "disabled": Object {
+    "pointerEvents": "none",
   },
   "extraText": Object {
-    "marginLeft": 8,
-  },
-  "extraTextColor": Object {
-    "color": "#0946CB",
+    "color": "#083CAE",
+    "display": "inline-block",
+    "font": "400 10px/1.5 'OccText', sans-serif",
+    "marginLeft": "4px",
   },
   "group": Object {
+    "display": "inline-block",
     "padding": Array [
-      16,
-      16,
-      4,
+      "8px",
+      "16px",
+      0,
     ],
   },
-  "icon": Object {
-    "marginRight": 8,
-    "position": "absolute",
-    "top": 12,
+  "groupText": Object {
+    "font": "400 14px/1.5 'OccText', sans-serif",
   },
-  "iconText": Object {
-    "display": "inline-block",
-    "marginLeft": 24,
+  "highlighted": Object {
+    "background": "hsl(221 91.2% 35.7% / 0.05)",
+    "font": "400 16px/1.5 'OccText', sans-serif",
+  },
+  "icon": Object {
+    "marginRight": "8px",
   },
   "item": Object {
-    "&:hover": Object {
-      "background": "#fafafa",
+    "&:active, &:focus": Object {
+      "& > $rightText": Object {
+        "color": "#080D39",
+      },
+      "background": "hsl(221 91.2% 35.7% / 0.1)",
     },
+    "&:hover": Object {
+      "background": "hsl(221 91.2% 35.7% / 0.05)",
+    },
+    "alignItems": "center",
+    "borderRadius": "4px",
     "display": "flex",
     "justifyContent": "space-between",
     "padding": Array [
-      8,
-      16,
+      "12px",
+      "16px",
     ],
     "position": "relative",
     "transition": "0.1s all",
   },
+  "itemContainer": Object {
+    "alignItems": "center",
+    "display": "flex",
+  },
   "itemPointer": Object {
     "cursor": "pointer",
   },
+  "mainText": Object {
+    "color": "#080D39",
+    "display": "inline-block",
+    "font": "400 16px/1.5 'OccText', sans-serif",
+  },
   "onFocus": Object {
     "&:hover": Object {
-      "background": "#e4edff",
+      "background": "hsl(221 91.2% 35.7% / 0.1)",
     },
-    "background": "#e4edff",
+    "background": "hsl(221 91.2% 35.7% / 0.1)",
   },
   "right": Object {
-    "float": "right",
-    "marginLeft": 16,
-    "transition": "0.1s all",
+    "marginLeft": "16px",
+  },
+  "rightText": Object {
+    "color": "#5A5D7B",
+    "font": "400 14px/1.5 'OccText', sans-serif",
+  },
+  "text": Object {
+    "margin": 0,
   },
 }
 `;
