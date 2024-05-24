@@ -6,38 +6,57 @@ exports[`SlideToggle styles matches the snapshot 1`] = `
 Object {
   "checked": Object {
     "& $icon": Object {
-      "background": "url(data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgoJCQkgdmlld0JveD0iMCAwIDI0IDI0IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCAyNCAyNDsiIHhtbDpzcGFjZT0icHJlc2VydmUiPgoJCTxwYXRoIGZpbGw9IiMwODNjYWUiIGQ9Ik0xOC4zLDcuM2wxLjQsMS40bC04LjcsOWMtMC40LDAuNC0xLDAuNC0xLjQsMC4xbC00LjMtMy42bDEuMy0xLjVsMy42LDNDMTAuMiwxNS42LDE4LjMsNy4zLDE4LjMsNy4zeiIvPgoJCTwvc3ZnPg==)",
+      "background": "url(data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgoJCQkgdmlld0JveD0iMCAwIDI0IDI0IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCAyNCAyNDsiIHhtbDpzcGFjZT0icHJlc2VydmUiPgoJCTxwYXRoIGZpbGw9IiMwMDZFRkYiIGQ9Ik0xOC4zLDcuM2wxLjQsMS40bC04LjcsOWMtMC40LDAuNC0xLDAuNC0xLjQsMC4xbC00LjMtMy42bDEuMy0xLjVsMy42LDNDMTAuMiwxNS42LDE4LjMsNy4zLDE4LjMsNy4zeiIvPgoJCTwvc3ZnPg==)",
     },
     "& $slider": Object {
       "left": 16,
     },
-    "background": "#083cae",
+    "background": "#0059CD",
   },
   "cont": Object {
+    "&:focus $switch$checked": Object {
+      "background": "#0059CD",
+      "boxShadow": "0 0 0 8px rgba(0,110,255,0.3)",
+    },
+    "&:focus $switch:not($checked)": Object {
+      "background": "#E9EEF8",
+      "boxShadow": "0 0 0 8px hsl(221 91.2% 35.7% / 0.3)",
+    },
+    "&:hover $switch$checked, &:active $switch$checked": Object {
+      "background": "#083CAE",
+    },
+    "&:hover $switch:not($checked), &:active $switch:not($checked)": Object {
+      "background": "#CAD5EE",
+    },
     "alignItems": "start",
     "boxSizing": "border-box",
     "cursor": "pointer",
     "display": "flex",
     "outline": 0,
-    "paddingBottom": 8,
-    "paddingTop": 8,
+    "paddingBottom": "8px",
+    "paddingTop": "8px",
   },
   "disabled": Object {
-    "opacity": 0.4,
+    "& $icon": Object {
+      "background": "url(data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgogICAgICAgIAkgdmlld0JveD0iMCAwIDI0IDI0IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCAyNCAyNDsiIHhtbDpzcGFjZT0icHJlc2VydmUiPgogICAgICAgIDxwYXRoIGZpbGw9IiNEM0Q0REMiIGQ9Ik0xMi4xLDEwLjhsNC42LTQuNkwxOCw3LjRMMTMuNCwxMmw0LjYsNC42TDE2LjcsMThsLTQuNi00LjZMNy40LDE4bC0xLjMtMS4zbDQuNi00LjZMNi4yLDcuNGwxLjMtMS4zTDEyLjEsMTAuOHoiLz4KICAgICAgICA8L3N2Zz4=)",
+    },
+    "& $switch": Object {
+      "background": "#EDEDF1",
+    },
     "pointerEvents": "none",
   },
   "icon": Object {
-    "background": "url(data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgogICAgICAgIAkgdmlld0JveD0iMCAwIDI0IDI0IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCAyNCAyNDsiIHhtbDpzcGFjZT0icHJlc2VydmUiPgogICAgICAgIDxwYXRoIGZpbGw9IiNhYWFhYWEiIGQ9Ik0xMi4xLDEwLjhsNC42LTQuNkwxOCw3LjRMMTMuNCwxMmw0LjYsNC42TDE2LjcsMThsLTQuNi00LjZMNy40LDE4bC0xLjMtMS4zbDQuNi00LjZMNi4yLDcuNGwxLjMtMS4zTDEyLjEsMTAuOHoiLz4KICAgICAgICA8L3N2Zz4=)",
+    "background": "url(data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgogICAgICAgIAkgdmlld0JveD0iMCAwIDI0IDI0IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCAyNCAyNDsiIHhtbDpzcGFjZT0icHJlc2VydmUiPgogICAgICAgIDxwYXRoIGZpbGw9IiM4REE1REEiIGQ9Ik0xMi4xLDEwLjhsNC42LTQuNkwxOCw3LjRMMTMuNCwxMmw0LjYsNC42TDE2LjcsMThsLTQuNi00LjZMNy40LDE4bC0xLjMtMS4zbDQuNi00LjZMNi4yLDcuNGwxLjMtMS4zTDEyLjEsMTAuOHoiLz4KICAgICAgICA8L3N2Zz4=)",
     "display": "block",
     "height": "100%",
     "transition": "0.3s all",
     "width": "100%",
   },
   "label": Object {
-    "marginLeft": 8,
+    "marginLeft": "8px",
   },
   "slider": Object {
-    "background": "#ffffff",
+    "background": "#fff",
     "borderRadius": "50%",
     "cursor": "pointer",
     "height": 20,
@@ -48,10 +67,10 @@ Object {
     "width": 20,
   },
   "switch": Object {
-    "background": "#dddddd",
+    "background": "#E9EEF8",
     "borderRadius": 34,
     "display": "inline-block",
-    "height": 24,
+    "height": "24px",
     "position": "relative",
     "transition": "0.3s all",
     "width": 38,
