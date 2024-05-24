@@ -448,20 +448,18 @@
   "pill": {
     "selected": {
       "bg": {
+        "default": "#0059CD",
+        "hover": "#083CAE",
+        "active": "#06308A",
+        "disabled": "#8DA5DA"
+      }
+    },
+    "unselected": {
+      "bg": {
         "default": "hsl(221 91.2% 35.7% / 0.05)",
         "hover": "hsl(221 91.2% 35.7% / 0.1)",
         "active": "hsl(221 91.2% 35.7% / 0.2)",
         "disabled": "hsl(221 91.2% 35.7% / 0.1)"
-      }
-    },
-    "unselected": {
-      "border": {
-        "default": "#D3D4DC",
-        "disabled": "#EDEDF1"
-      },
-      "bg": {
-        "hover": "hsl(234 75.4% 12.7% / 0.05)",
-        "active": "hsl(234 75.4% 12.7% / 0.1)"
       }
     }
   },
@@ -496,6 +494,7 @@
       "brand": {
         "default": "#0059CD",
         "hover": "#083CAE",
+        "active": "#06308A",
         "disabled": "#8DA5DA",
         "subtle": {
           "default": "#E9EEF8",
