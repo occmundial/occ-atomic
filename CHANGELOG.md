@@ -1,3 +1,26 @@
+# [3.0.0-beta.1](https://github.com/occmundial/occ-atomic/compare/v2.0.0...v3.0.0-beta.1) (2024-05-27)
+
+
+### Bug Fixes
+
+* Add events to Button ([cbac2b8](https://github.com/occmundial/occ-atomic/commit/cbac2b8a19cc93c76529a2aa4f91a685a5b7f9c7))
+* Change icon size ([2b6affe](https://github.com/occmundial/occ-atomic/commit/2b6affe0c6a40c080ebd9281dc8b4901aaffe4c4))
+* Change text component for html tags for text in droplist ([50f4972](https://github.com/occmundial/occ-atomic/commit/50f4972c306351416efe83700a6d4dcffa83f259))
+* Resolve merge conflicts ([b771fab](https://github.com/occmundial/occ-atomic/commit/b771fab5304a66febe94bc808eb383f7b1d47741))
+* Update snapshots ([6f32f65](https://github.com/occmundial/occ-atomic/commit/6f32f65188207312c1fa26ce2e4ffd4338ac99cf))
+
+
+### Features
+
+* Update Autocomplete styles ([fa449be](https://github.com/occmundial/occ-atomic/commit/fa449be2322c75857e6350ee9dee596cd441b033))
+* Update droplist styles with new design tokens ([27fdaf2](https://github.com/occmundial/occ-atomic/commit/27fdaf288e82a8493eb05d0315f4385585e71a04))
+* Update TextField styles ([0d0218e](https://github.com/occmundial/occ-atomic/commit/0d0218ea0df146da1b07482676eb99ad57d186b7))
+
+
+### BREAKING CHANGES
+
+* Remove the lockHeight and searchField properties
+
 # [2.0.0](https://github.com/occmundial/occ-atomic/compare/v1.39.1...v2.0.0) (2024-05-27)
 
 
