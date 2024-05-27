@@ -71,7 +71,7 @@ function getExampleFiles(examplesPath, componentName) {
 
 function getDirectories(filepath) {
     return fs.readdirSync(filepath).filter(function(file) {
-        if (file === 'index.js' || file === 'subatomic' || file === 'WindowSize' || file === 'plugin') {
+        if (file === 'index.js' || file === 'subatomic' || file === 'tokens' || file === 'WindowSize' || file === 'plugin') {
             return false;
         } else {
             return fs.statSync(path.join(filepath, file, file+'.js')).isFile();

@@ -1,0 +1,8 @@
+{
+  "br-xs": "4px",
+  "br-sm": "8px",
+  "br-md": "16px",
+  "br-lg": "24px",
+  "br-xl": "40px",
+  "br-full": "9999px"
+}

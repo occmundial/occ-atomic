@@ -39,7 +39,8 @@ module.exports = [
 			'Placeholder',
 			'Tip',
 			'Banner',
-			'Toaster'
+			'Toaster',
+			'Fab',
 		]
 	},
 	{

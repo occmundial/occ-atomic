@@ -1,3 +1,202 @@
+# [2.0.0-beta.16](https://github.com/occmundial/occ-atomic/compare/v2.0.0-beta.15...v2.0.0-beta.16) (2024-05-14)
+
+
+### Bug Fixes
+
+* Adjust icon in prev and next button ([8d78c19](https://github.com/occmundial/occ-atomic/commit/8d78c196ce2a27990084683fbeb95b0b9e49be02))
+* Change tabs to spaces ([ba606c3](https://github.com/occmundial/occ-atomic/commit/ba606c3951a779fd05937fed49f785cc529cd611))
+
+# [2.0.0-beta.15](https://github.com/occmundial/occ-atomic/compare/v2.0.0-beta.14...v2.0.0-beta.15) (2024-05-10)
+
+
+### Features
+
+* Updated radio styles and documentation ([2c39496](https://github.com/occmundial/occ-atomic/commit/2c39496186092fe20434ce4a030c28e42cebff91))
+
+# [2.0.0-beta.14](https://github.com/occmundial/occ-atomic/compare/v2.0.0-beta.13...v2.0.0-beta.14) (2024-05-07)
+
+
+### Features
+
+* Add hover shadow ([207b7a2](https://github.com/occmundial/occ-atomic/commit/207b7a2819771ff7384c7c53448f37d5dfb7e146))
+* Add new fab component ([2164eea](https://github.com/occmundial/occ-atomic/commit/2164eea04ed268165609db2bcd80be4dd02df6a2))
+* Remove fab border transition ([485e64c](https://github.com/occmundial/occ-atomic/commit/485e64ca574f3300a159b8c4a5bedf11ee49b32d))
+* Remove fab border transition ([9561c59](https://github.com/occmundial/occ-atomic/commit/9561c599981f8ccfc76ccdb00b35576d01f53578))
+* Update fab snapshot test ([d75b525](https://github.com/occmundial/occ-atomic/commit/d75b525dd32c4f4b38cebf4f5cd8e0dd1034752e))
+* Update ghost pink loading icon ([9292276](https://github.com/occmundial/occ-atomic/commit/92922766abe7c0010b9f4f4b8265c2105c019f3c))
+* Update snapshots ([438e896](https://github.com/occmundial/occ-atomic/commit/438e8968d5d228d1b9bad3883be676fa1bc8f2b1))
+* Update snapshots ([0395996](https://github.com/occmundial/occ-atomic/commit/0395996ad4f21e6db5b917005c9ccf1c8a9dd0df))
+* Update tokens path and add outline offset ([a7e6807](https://github.com/occmundial/occ-atomic/commit/a7e6807e1936d98c8f72e483b1b131dcfa714877))
+* Update tokens path and add outline offset ([89eeb16](https://github.com/occmundial/occ-atomic/commit/89eeb16a797cb4996069f369bce34b9efb025a3d))
+
+# [2.0.0-beta.13](https://github.com/occmundial/occ-atomic/compare/v2.0.0-beta.12...v2.0.0-beta.13) (2024-04-29)
+
+
+### Features
+
+* Map arrow down to chevron down ([9bd47fa](https://github.com/occmundial/occ-atomic/commit/9bd47fab659f3f7743d6f0b6a48dc9ecf599022d))
+
+# [2.0.0-beta.12](https://github.com/occmundial/occ-atomic/compare/v2.0.0-beta.11...v2.0.0-beta.12) (2024-04-26)
+
+
+### Bug Fixes
+
+* Change name of the import for AtomicProvider in babel ([d0157de](https://github.com/occmundial/occ-atomic/commit/d0157de2321bce412dc0662a98f89a6196dbc917))
+
+# [2.0.0-beta.11](https://github.com/occmundial/occ-atomic/compare/v2.0.0-beta.10...v2.0.0-beta.11) (2024-04-25)
+
+
+### Bug Fixes
+
+* Update tip and toast icons ([07f3474](https://github.com/occmundial/occ-atomic/commit/07f347420e2f3d278274018cd9039508cbd7e504))
+
+# [2.0.0-beta.10](https://github.com/occmundial/occ-atomic/compare/v2.0.0-beta.9...v2.0.0-beta.10) (2024-04-25)
+
+
+### Bug Fixes
+
+* Change the import declaration for the provider ([4fae96e](https://github.com/occmundial/occ-atomic/commit/4fae96e40028fc5d93438f7df3fd7342c0f6392a))
+
+# [2.0.0-beta.9](https://github.com/occmundial/occ-atomic/compare/v2.0.0-beta.8...v2.0.0-beta.9) (2024-04-25)
+
+
+### Bug Fixes
+
+* Add exception for the provider in the babel plugin ([4383e87](https://github.com/occmundial/occ-atomic/commit/4383e876ef28bb773dca3ff9149dfe1ad7cc53a1))
+
+# [2.0.0-beta.8](https://github.com/occmundial/occ-atomic/compare/v2.0.0-beta.7...v2.0.0-beta.8) (2024-04-25)
+
+
+### Features
+
+* Validate render icon in button logic ([c445f00](https://github.com/occmundial/occ-atomic/commit/c445f00b7f89b94c102b0e113b503d0e1a5193d4))
+* Validate render icon in button logic ([91dbc46](https://github.com/occmundial/occ-atomic/commit/91dbc464acceec6b1c7c9d2dde28976d04a5bf30))
+
+# [2.0.0-beta.7](https://github.com/occmundial/occ-atomic/compare/v2.0.0-beta.6...v2.0.0-beta.7) (2024-04-24)
+
+
+### Bug Fixes
+
+* Add missed icons ([a5527c5](https://github.com/occmundial/occ-atomic/commit/a5527c5eff5afb23c142c0b412756ee8f6a11b02))
+* Adjust styles for ghostPink theme and button icons ([942a2c9](https://github.com/occmundial/occ-atomic/commit/942a2c967cea88479154a65a98f2961bfbd406ce))
+* Adjust styles for ghostPink theme and button icons ([9e2576e](https://github.com/occmundial/occ-atomic/commit/9e2576efb42856f1a91ab271ea4b823fbbfbf45d))
+* Change logic to fallback legacy icons ([60f37f4](https://github.com/occmundial/occ-atomic/commit/60f37f48391713faba97f6d4f93e60519d79b348))
+
+
+### Features
+
+* Add logic to use atomic icons and static icons ([6fe277e](https://github.com/occmundial/occ-atomic/commit/6fe277ed83927d29af3cf06573cb6d08a0f399ab))
+* Add logic to use atomic icons and static icons ([0b9a9e4](https://github.com/occmundial/occ-atomic/commit/0b9a9e41c37a4fcff6c14c8e79da4885662ccba1))
+* Add to mapped icons stars solid icon ([5c96982](https://github.com/occmundial/occ-atomic/commit/5c9698235dc690bb8e1c913cc140854fc64c530b))
+* Adds testing icon to legacy icons ([a0bca6c](https://github.com/occmundial/occ-atomic/commit/a0bca6c33f54e731b645a953499dbc5b96d03d90))
+* Change occ logo blue color to blue token ([4b7d63d](https://github.com/occmundial/occ-atomic/commit/4b7d63d0743a8caecc019f8326733c4cf2017b2f))
+* Update atomic icons ([cdaa9bd](https://github.com/occmundial/occ-atomic/commit/cdaa9bda879f0d8aabe44a79cd16a0eedd3a7e8d))
+
+# [2.0.0-beta.6](https://github.com/occmundial/occ-atomic/compare/v2.0.0-beta.5...v2.0.0-beta.6) (2024-04-22)
+
+
+### Bug Fixes
+
+* Force padding of 0 in ghostPink button ([778ef27](https://github.com/occmundial/occ-atomic/commit/778ef27301183f43ace721b625582c14c353009b))
+
+# [2.0.0-beta.5](https://github.com/occmundial/occ-atomic/compare/v2.0.0-beta.4...v2.0.0-beta.5) (2024-04-19)
+
+
+### Bug Fixes
+
+* Changed font variable to the old one ([75dc28b](https://github.com/occmundial/occ-atomic/commit/75dc28bc0bd174057449c45d4ebe79366ffc8433))
+
+
+### Features
+
+* Changed some examples with tables ([3efe252](https://github.com/occmundial/occ-atomic/commit/3efe252c3d8651976f28e951081c717861c0ad56))
+* Updated Text component documentation ([73e4b21](https://github.com/occmundial/occ-atomic/commit/73e4b21d488ba012df82d2e4fb85c18689c5d586))
+* Updated text component with new tokens ([b5f75ee](https://github.com/occmundial/occ-atomic/commit/b5f75eec430126b36c06dcd60bb320ccdf7eee0f))
+* Upgrade font tokens ([069bf92](https://github.com/occmundial/occ-atomic/commit/069bf9237f5b52492961f96f0a6f4a79469f4448))
+
+# [2.0.0-beta.4](https://github.com/occmundial/occ-atomic/compare/v2.0.0-beta.3...v2.0.0-beta.4) (2024-04-19)
+
+
+### Bug Fixes
+
+* Fix loading icon size ([2cf2248](https://github.com/occmundial/occ-atomic/commit/2cf22486a65eb78ce9e7fb18da00a7e237fbcb55))
+
+# [2.0.0-beta.3](https://github.com/occmundial/occ-atomic/compare/v2.0.0-beta.2...v2.0.0-beta.3) (2024-04-17)
+
+
+### Bug Fixes
+
+* Update design tokens ([6c96339](https://github.com/occmundial/occ-atomic/commit/6c963392e0b3af43978a5189bdbe0304e046f47c))
+
+# [2.0.0-beta.2](https://github.com/occmundial/occ-atomic/compare/v2.0.0-beta.1...v2.0.0-beta.2) (2024-04-17)
+
+
+### Bug Fixes
+
+* Change font tokens in Button ([7b0b47a](https://github.com/occmundial/occ-atomic/commit/7b0b47ab608530cf4fa6ea31afb2592ad70958c9))
+
+# [2.0.0-beta.1](https://github.com/occmundial/occ-atomic/compare/v1.40.0-beta.2...v2.0.0-beta.1) (2024-04-16)
+
+
+### Features
+
+* Change Button themes and styles ([114375d](https://github.com/occmundial/occ-atomic/commit/114375d8a7a3b56622c00416a007e52a333ed8d4))
+
+
+### BREAKING CHANGES
+
+* The themes of the Button component have changed to match the styles of the button in the new design system. The current themes have slightly different names to the new ones but they all have a corresponding new theme that matches, except for the ghostPink theme.
+
+# [2.0.0-beta.1](https://github.com/occmundial/occ-atomic/compare/v1.40.0-beta.2...v2.0.0-beta.1) (2024-04-16)
+
+
+### Features
+
+* Change Button themes and styles ([114375d](https://github.com/occmundial/occ-atomic/commit/114375d8a7a3b56622c00416a007e52a333ed8d4))
+
+
+### BREAKING CHANGES
+
+* The themes of the Button component have changed to match the styles of the button in the new design system. The current themes have slightly different names to the new ones but they all have a corresponding new theme that matches, except for the ghostPink theme.
+
+# [2.0.0-beta.1](https://github.com/occmundial/occ-atomic/compare/v1.40.0-beta.2...v2.0.0-beta.1) (2024-04-16)
+
+
+### Features
+
+* Change Button themes and styles ([114375d](https://github.com/occmundial/occ-atomic/commit/114375d8a7a3b56622c00416a007e52a333ed8d4))
+
+
+### BREAKING CHANGES
+
+* The themes of the Button component have changed to match the styles of the button in the new design system. The current themes have slightly different names to the new ones but they all have a corresponding new theme that matches, except for the ghostPink theme.
+
+# [2.0.0-beta.1](https://github.com/occmundial/occ-atomic/compare/v1.40.0-beta.2...v2.0.0-beta.1) (2024-04-16)
+
+
+### Features
+
+* Change Button themes and styles ([114375d](https://github.com/occmundial/occ-atomic/commit/114375d8a7a3b56622c00416a007e52a333ed8d4))
+
+
+### BREAKING CHANGES
+
+* The themes of the Button component have changed to match the styles of the button in the new design system. The current themes have slightly different names to the new ones but they all have a corresponding new theme that matches, except for the ghostPink theme.
+
+# [1.40.0-beta.2](https://github.com/occmundial/occ-atomic/compare/v1.40.0-beta.1...v1.40.0-beta.2) (2024-04-05)
+
+
+### Bug Fixes
+
+* Include the tokens into the build ([d3d0e1e](https://github.com/occmundial/occ-atomic/commit/d3d0e1eea096847bfcaf99d6c8f56b17d45faa5f))
+
+# [1.40.0-beta.1](https://github.com/occmundial/occ-atomic/compare/v1.39.1...v1.40.0-beta.1) (2024-04-04)
+
+
+### Features
+
+* Add new design tokens files ([6b8fbcf](https://github.com/occmundial/occ-atomic/commit/6b8fbcf03f272603020686e229cf3ad1bd3e3a3e))
+
 ## [1.39.1](https://github.com/occmundial/occ-atomic/compare/v1.39.0...v1.39.1) (2023-11-10)
 
 

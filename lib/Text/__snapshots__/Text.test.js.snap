@@ -4,72 +4,132 @@ exports[`Text matches the snapshot 1`] = `ShallowWrapper {}`;
 
 exports[`Text styles matches the snapshot 1`] = `
 Object {
-  "bottomBase": Object {
-    "marginBottom": 24,
+  "bodyLarge": Object {
+    "font": "300 18px/1.5 'OccText', sans-serif",
   },
-  "bottomLarge": Object {
-    "marginBottom": 48,
+  "bodyLargeStrong": Object {
+    "font": "400 18px/1.5 'OccText', sans-serif",
   },
-  "bottomMedium": Object {
-    "marginBottom": 32,
+  "bodyRegular": Object {
+    "font": "300 16px/1.5 'OccText', sans-serif",
   },
-  "bottomSmall": Object {
-    "marginBottom": 16,
+  "bodyRegularStrong": Object {
+    "font": "400 16px/1.5 'OccText', sans-serif",
   },
-  "bottomTiny": Object {
-    "marginBottom": 8,
+  "bodySmall": Object {
+    "font": "300 14px/1.5 'OccText', sans-serif",
   },
-  "bottomXLarge": Object {
-    "marginBottom": 64,
+  "bodySmallStrong": Object {
+    "font": "400 14px/1.5 'OccText', sans-serif",
   },
-  "bottomXTiny": Object {
-    "marginBottom": 4,
+  "bodyXLarge": Object {
+    "font": "300 20px/1.5 'OccText', sans-serif",
+  },
+  "bodyXSmall": Object {
+    "font": "300 12px/1.5 'OccText', sans-serif",
+  },
+  "bottom0": Object {
+    "marginBottom": "2px",
+  },
+  "bottom1": Object {
+    "marginBottom": "4px",
+  },
+  "bottom10": Object {
+    "marginBottom": "80px",
+  },
+  "bottom11": Object {
+    "marginBottom": "120px",
+  },
+  "bottom12": Object {
+    "marginBottom": "160px",
+  },
+  "bottom2": Object {
+    "marginBottom": "8px",
+  },
+  "bottom3": Object {
+    "marginBottom": "12px",
+  },
+  "bottom4": Object {
+    "marginBottom": "16px",
+  },
+  "bottom5": Object {
+    "marginBottom": "24px",
+  },
+  "bottom6": Object {
+    "marginBottom": "32px",
+  },
+  "bottom7": Object {
+    "marginBottom": "40px",
+  },
+  "bottom8": Object {
+    "marginBottom": "48px",
+  },
+  "bottom9": Object {
+    "marginBottom": "64px",
   },
   "center": Object {
     "textAlign": "center",
   },
+  "corpDisabled": Object {
+    "color": "#878A9F",
+  },
+  "corpPrimary": Object {
+    "color": "#080D39",
+  },
+  "corpSecondary": Object {
+    "color": "#5A5D7B",
+  },
   "disabled": Object {
     "color": "#dddddd",
   },
+  "display": Object {
+    "@media screen and (min-width:768px)": Object {
+      "font": "400 72px/1.1 'OccText', sans-serif",
+      "letterSpacing": "-0.02em",
+    },
+    "font": "400 48px/1.1 'OccText', sans-serif",
+    "letterSpacing": "-0.02em",
+  },
   "error": Object {
-    "color": "#db3737",
+    "color": "#8b1313",
   },
-  "extraLarge": Object {
-    "fontSize": 20,
-    "lineHeight": 1.5,
-  },
-  "heading": Object {
-    "fontSize": 24,
-    "fontWeight": 400,
-    "lineHeight": 1.1,
-  },
-  "headline": Object {
+  "h1": Object {
     "@media screen and (min-width:768px)": Object {
-      "fontSize": 40,
+      "font": "400 48px/1.1 'OccText', sans-serif",
+      "letterSpacing": "-0.02em",
     },
-    "fontSize": 28,
-    "fontWeight": 400,
-    "lineHeight": 1.1,
+    "font": "400 32px/1.1 'OccText', sans-serif",
+    "letterSpacing": "-0.02em",
   },
-  "hero": Object {
+  "h2": Object {
     "@media screen and (min-width:768px)": Object {
-      "fontSize": 48,
-      "letterSpacing": -0.96,
+      "font": "400 40px/1.1 'OccText', sans-serif",
     },
-    "fontSize": 32,
-    "fontWeight": 400,
-    "letterSpacing": -0.64,
-    "lineHeight": 1.1,
+    "font": "400 28px/1.1 'OccText', sans-serif",
   },
-  "highEmphasis": Object {
-    "color": "#222222",
+  "h3": Object {
+    "@media screen and (min-width:768px)": Object {
+      "font": "400 28px/1.1 'OccText', sans-serif",
+    },
+    "font": "400 24px/1.1 'OccText', sans-serif",
+  },
+  "h4": Object {
+    "@media screen and (min-width:768px)": Object {
+      "font": "400 24px/1.1 'OccText', sans-serif",
+    },
+    "font": "400 20px/1.1 'OccText', sans-serif",
+  },
+  "h5": Object {
+    "font": "400 18px/1.1 'OccText', sans-serif",
+  },
+  "indigoPrimary": Object {
+    "color": "#083CAE",
+  },
+  "indigoSecondary": Object {
+    "color": "#486EC3",
   },
   "info": Object {
     "color": "#5736ab",
-  },
-  "large": Object {
-    "fontSize": 18,
-    "lineHeight": 1.5,
   },
   "left": Object {
     "textAlign": "left",
@@ -77,43 +137,20 @@ Object {
   "link": Object {
     "color": "#0946CB",
   },
-  "lowEmphasis": Object {
-    "color": "#aaaaaa",
-  },
-  "micro": Object {
-    "fontSize": 12,
-    "lineHeight": 1.5,
-  },
-  "midEmphasis": Object {
-    "color": "#777777",
-  },
-  "primary": Object {
-    "color": "#083cae",
+  "pinkPrimary": Object {
+    "color": "#D32E58",
   },
   "right": Object {
     "textAlign": "right",
   },
-  "secondary": Object {
-    "color": "#f13465",
-  },
-  "small": Object {
-    "fontSize": 14,
-    "lineHeight": 1.5,
-  },
-  "standard": Object {
-    "fontSize": 16,
-    "lineHeight": 1.5,
-  },
   "strong": Object {
     "fontWeight": 400,
   },
-  "subheading": Object {
-    "fontSize": 18,
-    "fontWeight": 400,
-    "lineHeight": 1.1,
-  },
   "success": Object {
-    "color": "#009537",
+    "color": "#16542e",
+  },
+  "tag": Object {
+    "font": "400 10px/1.5 'OccText', sans-serif",
   },
   "text": Object {
     "fontFamily": "'OccText', sans-serif",
@@ -125,32 +162,53 @@ Object {
   "titleCase": Object {
     "textTransform": "capitalize",
   },
-  "topBase": Object {
-    "marginTop": 24,
+  "top0": Object {
+    "marginTop": "2px",
   },
-  "topLarge": Object {
-    "marginTop": 48,
+  "top1": Object {
+    "marginTop": "4px",
   },
-  "topMedium": Object {
-    "marginTop": 32,
+  "top10": Object {
+    "marginTop": "80px",
   },
-  "topSmall": Object {
-    "marginTop": 16,
+  "top11": Object {
+    "marginTop": "120px",
   },
-  "topTiny": Object {
-    "marginTop": 8,
+  "top12": Object {
+    "marginTop": "160px",
   },
-  "topXLarge": Object {
-    "marginTop": 64,
+  "top2": Object {
+    "marginTop": "8px",
   },
-  "topXTiny": Object {
-    "marginTop": 4,
+  "top3": Object {
+    "marginTop": "12px",
+  },
+  "top4": Object {
+    "marginTop": "16px",
+  },
+  "top5": Object {
+    "marginTop": "24px",
+  },
+  "top6": Object {
+    "marginTop": "32px",
+  },
+  "top7": Object {
+    "marginTop": "40px",
+  },
+  "top8": Object {
+    "marginTop": "48px",
+  },
+  "top9": Object {
+    "marginTop": "64px",
   },
   "warning": Object {
-    "color": "#e69000",
+    "color": "#664a0e",
   },
-  "white": Object {
-    "color": "#ffffff",
+  "whitePrimary": Object {
+    "color": "#fff",
+  },
+  "whiteSecondary": Object {
+    "color": "rgba(255,255,255,0.7)",
   },
 }
 `;

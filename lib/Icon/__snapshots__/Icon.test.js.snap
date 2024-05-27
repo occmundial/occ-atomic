@@ -8,6 +8,12 @@ Object {
     "cursor": "pointer",
   },
   "icon": Object {
+    "border": "0",
+    "boxSizing": "border-box",
+    "display": [Function],
+    "outline": "0",
+  },
+  "oldIcon": Object {
     "&:hover": Object {
       "background": [Function],
     },

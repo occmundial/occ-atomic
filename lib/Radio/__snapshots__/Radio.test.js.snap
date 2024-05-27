@@ -5,39 +5,92 @@ exports[`Radio matches the snapshot 1`] = `ShallowWrapper {}`;
 exports[`Radio styles matches the snapshot 1`] = `
 Object {
   "active": Object {
-    "& $radio:after": Object {
-      "background": Array [
-        "#083cae",
-        "!important",
-      ],
+    "& $radio": Object {
+      "&:after": Object {
+        "background": "#0059CD",
+      },
+      "&:before": Object {
+        "borderColor": "#0059CD",
+        "borderWidth": 2,
+      },
     },
   },
   "cont": Object {
-    "&:after": Object {
-      "clear": "both",
-      "content": "\\"\\"",
-      "display": "table",
+    "&$active": Object {
+      "&:active": Object {
+        "& $radio:after": Object {
+          "background": "#0047A5",
+        },
+        "& $radio:before": Object {
+          "borderColor": "#0047A5",
+          "borderWidth": "3px",
+          "boxShadow": "initial",
+        },
+      },
+      "&:focus $radio:before": Object {
+        "borderColor": "#0059CD",
+        "boxShadow": undefined,
+      },
+      "&:hover": Object {
+        "& $radio:after": Object {
+          "background": "#0047A5",
+        },
+        "& $radio:before": Object {
+          "borderColor": "#0047A5",
+          "boxShadow": "initial",
+        },
+      },
     },
-    "&:hover $radio:after": Object {
-      "background": "#dddddd",
+    "&:not($active)": Object {
+      "&:active $radio:before": Object {
+        "borderColor": "#6C6F89",
+        "borderWidth": "2px",
+        "boxShadow": "initial",
+      },
+      "&:focus $radio:before": Object {
+        "borderColor": "#D3D4DC",
+        "boxShadow": undefined,
+      },
+      "&:hover $radio:before": Object {
+        "borderColor": "#6C6F89",
+        "boxShadow": "initial",
+      },
     },
     "alignItems": "start",
     "boxSizing": "border-box",
     "cursor": "pointer",
     "display": "flex",
     "outline": "0",
-    "paddingBottom": 8,
-    "paddingTop": 8,
+    "paddingBottom": "8px",
+    "paddingTop": "8px",
   },
   "disabled": Object {
-    "opacity": 0.4,
+    "& :not($radio)": Object {
+      "opacity": 0.4,
+    },
+    "&$active": Object {
+      "& $radio:after": Object {
+        "background": "#8DA5DA",
+      },
+      "& $radio:before": Object {
+        "borderColor": "#8DA5DA",
+      },
+    },
+    "&:not($active)": Object {
+      "& $radio:after": Object {
+        "background": "#EDEDF1",
+      },
+      "& $radio:before": Object {
+        "background": "#EDEDF1",
+      },
+    },
     "pointerEvents": "none",
   },
   "label": Object {
     "cursor": "pointer",
     "flex": "1",
     "float": "left",
-    "marginLeft": 8,
+    "marginLeft": "8px",
   },
   "overflow": Object {
     "overflow": "hidden",
@@ -46,36 +99,38 @@ Object {
   },
   "radio": Object {
     "&:after": Object {
-      "background": "transparent",
+      "background": "#fff",
       "borderRadius": "50%",
+      "boxSizing": "border-box",
       "content": "\\"\\"",
-      "height": 6,
+      "height": 10,
       "left": "50%",
       "position": "absolute",
       "top": "50%",
       "transform": "translate(-50%, -50%)",
       "transition": "0.3s all",
-      "width": 6,
+      "width": 10,
     },
     "&:before": Object {
-      "background": "#ffffff",
-      "border": "1px solid #dddddd",
+      "background": "#fff",
+      "border": "1px solid #D3D4DC",
       "borderRadius": "50%",
+      "boxSizing": "border-box",
       "content": "\\"\\"",
-      "height": 16,
+      "height": 20,
       "left": "50%",
       "position": "absolute",
       "top": "50%",
       "transform": "translate(-50%, -50%)",
-      "width": 16,
+      "width": 20,
     },
-    "height": 24,
+    "height": "24px",
     "position": "relative",
-    "width": 24,
+    "width": "24px",
   },
   "right": Object {
     "float": "right",
-    "marginLeft": 8,
+    "marginLeft": "8px",
   },
 }
 `;
