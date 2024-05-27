@@ -1,3 +1,10 @@
+# [2.0.0-beta.19](https://github.com/occmundial/occ-atomic/compare/v2.0.0-beta.18...v2.0.0-beta.19) (2024-05-27)
+
+
+### Features
+
+* Update Autocomplete styles ([fa449be](https://github.com/occmundial/occ-atomic/commit/fa449be2322c75857e6350ee9dee596cd441b033))
+
 # [2.0.0-beta.18](https://github.com/occmundial/occ-atomic/compare/v2.0.0-beta.17...v2.0.0-beta.18) (2024-05-21)
 
 
