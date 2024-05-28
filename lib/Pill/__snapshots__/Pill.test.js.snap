@@ -22,13 +22,8 @@ Object {
   "container": Object {
     "display": "flex",
     "flexDirection": "column",
-    "marginBottom": 8,
+    "marginBottom": "8px",
     "position": "relative",
-  },
-  "disabled": Object {
-    "& $label": Object {
-      "color": "#878A9F",
-    },
   },
   "errorAssistiveText": Object {
     "color": "#8b1313",
