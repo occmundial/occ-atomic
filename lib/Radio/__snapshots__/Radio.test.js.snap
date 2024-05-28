@@ -19,7 +19,7 @@ Object {
     "&$active": Object {
       "&:active": Object {
         "& $radio:after": Object {
-          "background": "#0047A5",
+          "background": "#083CAE",
         },
         "& $radio:before": Object {
           "borderColor": "#0047A5",
@@ -33,7 +33,7 @@ Object {
       },
       "&:hover": Object {
         "& $radio:after": Object {
-          "background": "#0047A5",
+          "background": "#083CAE",
         },
         "& $radio:before": Object {
           "borderColor": "#0047A5",
