@@ -1,3 +1,10 @@
+# [3.0.0-beta.2](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.1...v3.0.0-beta.2) (2024-05-28)
+
+
+### Features
+
+* Updated toogle component and documentation ([fad2eca](https://github.com/occmundial/occ-atomic/commit/fad2eca12daa8802b85b5f35bab564b90ce9bd10))
+
 # [3.0.0-beta.1](https://github.com/occmundial/occ-atomic/compare/v2.0.0...v3.0.0-beta.1) (2024-05-27)
 
 
