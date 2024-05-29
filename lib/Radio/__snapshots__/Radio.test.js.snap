@@ -29,7 +29,7 @@ Object {
       },
       "&:focus $radio:before": Object {
         "borderColor": "#0059CD",
-        "boxShadow": undefined,
+        "boxShadow": "0 0 0 8px rgba(0,110,255,0.3)",
       },
       "&:hover": Object {
         "& $radio:after": Object {
@@ -49,7 +49,7 @@ Object {
       },
       "&:focus $radio:before": Object {
         "borderColor": "#D3D4DC",
-        "boxShadow": undefined,
+        "boxShadow": "0 0 0 8px rgba(0,110,255,0.3)",
       },
       "&:hover $radio:before": Object {
         "borderColor": "#6C6F89",
