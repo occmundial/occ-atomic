@@ -50,7 +50,6 @@ export default class Example1 extends React.Component {
                 assistiveText="Assistive Text"
                 onChange={this.onChange}
                 selected={selected}
-                disabled
             />
         );
     }
