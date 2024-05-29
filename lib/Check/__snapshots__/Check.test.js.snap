@@ -7,68 +7,73 @@ Object {
   "active": Object {
     "& $check": Object {
       "&:after": Object {
-        "background": "url(data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgoJCQkgdmlld0JveD0iMCAwIDI0IDI0IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCAyNCAyNDsiIHhtbDpzcGFjZT0icHJlc2VydmUiPgoJCTxwYXRoIGZpbGw9IiNmZmZmZmYiIGQ9Ik0xOC4zLDcuM2wxLjQsMS40bC04LjcsOWMtMC40LDAuNC0xLDAuNC0xLjQsMC4xbC00LjMtMy42bDEuMy0xLjVsMy42LDNDMTAuMiwxNS42LDE4LjMsNy4zLDE4LjMsNy4zeiIvPgoJCTwvc3ZnPg==)",
+        "background": "url(data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgoJCQkgdmlld0JveD0iMCAwIDI0IDI0IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCAyNCAyNDsiIHhtbDpzcGFjZT0icHJlc2VydmUiPgoJCTxwYXRoIGZpbGw9IiNmZmYiIGQ9Ik0xOC4zLDcuM2wxLjQsMS40bC04LjcsOWMtMC40LDAuNC0xLDAuNC0xLjQsMC4xbC00LjMtMy42bDEuMy0xLjVsMy42LDNDMTAuMiwxNS42LDE4LjMsNy4zLDE4LjMsNy4zeiIvPgoJCTwvc3ZnPg==)",
       },
-      "background": "#09ba8a",
-      "borderColor": "#09ba8a",
-    },
-    "& $label": Object {
-      "color": "#222222",
+      "background": "#0059CD",
+      "borderColor": "rgba(255,255,255,0.2)",
     },
   },
   "check": Object {
     "&:after": Object {
       "content": "\\"\\"",
       "display": "block",
-      "height": "14px",
+      "height": "18px",
       "left": "0",
       "position": "absolute",
       "top": "0",
-      "width": "14px",
+      "width": "18px",
     },
-    "border": "1px solid #bfbfbf",
-    "borderRadius": "1px",
+    "background": "#fff",
+    "border": "1px solid #D3D4DC",
+    "borderRadius": "4px",
     "boxSizing": "border-box",
-    "flex": "0 0 16px",
+    "flex": "0 0 20px",
     "float": "left",
-    "height": "16px",
+    "height": "20px",
     "margin": "4px",
     "position": "relative",
     "transition": "0.3s all",
-    "width": "16px",
+    "width": "20px",
   },
   "cont": Object {
+    "&$active": Object {
+      "&:hover $check, &:active $check": Object {
+        "background": "#083CAE",
+      },
+    },
     "&:after": Object {
       "clear": "both",
       "content": "\\"\\"",
       "display": "table",
     },
-    "&:hover $check": Object {
-      "borderColor": "#09ba8a",
-    },
-    "&:hover $label": Object {
-      "color": "#222222",
+    "&:focus $check": Object {
+      "borderWidth": 1,
+      "boxShadow": "0 0 0 8px rgba(0,110,255,0.3)",
     },
     "boxSizing": "border-box",
     "cursor": "pointer",
     "display": "flex",
+    "height": "24px",
     "marginBottom": "15px",
     "outline": "0",
+    "width": "24px",
   },
   "disabled": Object {
-    "& $check": Object {
-      "borderColor": "#e0e0e0",
-    },
-    "& $label": Object {
-      "color": "#bfbfbf",
-    },
     "&$active $check": Object {
-      "background": "#e0e0e0",
+      "&:after": Object {
+        "background": "url(data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgoJCQkgdmlld0JveD0iMCAwIDI0IDI0IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCAyNCAyNDsiIHhtbDpzcGFjZT0icHJlc2VydmUiPgoJCTxwYXRoIGZpbGw9IiM4REE1REEiIGQ9Ik0xOC4zLDcuM2wxLjQsMS40bC04LjcsOWMtMC40LDAuNC0xLDAuNC0xLjQsMC4xbC00LjMtMy42bDEuMy0xLjVsMy42LDNDMTAuMiwxNS42LDE4LjMsNy4zLDE4LjMsNy4zeiIvPgoJCTwvc3ZnPg==)",
+      },
+      "background": "hsl(221 91.2% 35.7% / 0.1)",
+      "borderColor": "rgba(255,255,255,0.2)",
+    },
+    "&:not($active) $check": Object {
+      "background": "#EDEDF1",
+      "borderColor": "#D3D4DC",
     },
     "pointerEvents": "none",
   },
   "label": Object {
-    "color": "#727272",
+    "color": undefined,
     "flex": "1",
     "float": "left",
     "fontFamily": "'OccText', sans-serif",
@@ -79,7 +84,7 @@ Object {
     "transition": "0.3s all",
   },
   "right": Object {
-    "color": "#bfbfbf",
+    "color": undefined,
     "extend": "label",
     "flex": "none",
     "float": "right",
