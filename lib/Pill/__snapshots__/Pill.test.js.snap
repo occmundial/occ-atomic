@@ -9,52 +9,42 @@ exports[`Pill matches the stack snapshot 1`] = `ShallowWrapper {}`;
 exports[`Pill styles matches the snapshot 1`] = `
 Object {
   "assistiveText": Object {
-    "color": "#aaaaaa",
+    "font": "400 14px/1.5 'OccText', sans-serif",
+    "transition": "0.3s all",
   },
   "bottom": Object {
-    "height": 20,
-    "marginTop": 4,
+    "height": 21,
   },
   "choiceGroup": Object {
     "display": "flex",
     "flexWrap": "wrap",
   },
   "container": Object {
-    "marginBottom": 8,
+    "display": "flex",
+    "flexDirection": "column",
+    "marginBottom": "8px",
     "position": "relative",
   },
-  "disabled": Object {
-    "& $label": Object {
-      "color": "#dddddd",
-    },
-  },
   "errorAssistiveText": Object {
-    "color": "#db3737",
+    "color": "#8b1313",
   },
   "errorIcon": Object {
     "marginBottom": -2,
   },
   "label": Object {
-    "& a": Object {
-      "color": "#1476fb",
-      "outline": "none",
-      "textDecoration": "none",
-    },
-    "color": "#222222",
-    "fontFamily": "'OccText', sans-serif",
-    "fontSize": 14,
-    "lineHeight": 1.5,
+    "color": "#080D39",
+    "font": "400 14px/1.5 'OccText', sans-serif",
     "transition": "0.3s all",
   },
   "left": Object {
     "float": "left",
   },
   "top": Object {
-    "&:after": Object {
-      "clear": "both",
-      "content": "\\"\\"",
-    },
-    "height": 24,
+    "height": 21,
+    "marginBottom": "8px",
+  },
+  "validAssistiveText": Object {
+    "color": "#5A5D7B",
   },
 }
 `;
