@@ -1,3 +1,18 @@
+# [3.0.0-beta.3](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.2...v3.0.0-beta.3) (2024-05-30)
+
+
+### Bug Fixes
+
+* Remove bg from group pill on focus ([6cdb2f1](https://github.com/occmundial/occ-atomic/commit/6cdb2f1573b6a297810d4e075c462ccc2b9140b1))
+* Remove repeated selectors and change usecallback dependencies ([4d23be0](https://github.com/occmundial/occ-atomic/commit/4d23be0f88672df2e3c39578e3a4638385c23594))
+* Resolve conflicts with beta ([0e51771](https://github.com/occmundial/occ-atomic/commit/0e5177122818b55d51a28d013c10164f18abaf97))
+
+
+### Features
+
+* Disabled all group items when pill disabled prop is true ([922cb8a](https://github.com/occmundial/occ-atomic/commit/922cb8a0146f21a0ad3a49da87321a3ebc6c6feb))
+* Update pill styles with design tokens ([a6caadc](https://github.com/occmundial/occ-atomic/commit/a6caadc0170b290865332278fa4b3850ee452faa))
+
 # [3.0.0-beta.2](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.1...v3.0.0-beta.2) (2024-05-28)
 
 
