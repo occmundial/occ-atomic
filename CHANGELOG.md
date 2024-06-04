@@ -1,3 +1,10 @@
+# [3.0.0-beta.5](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.4...v3.0.0-beta.5) (2024-06-04)
+
+
+### Bug Fixes
+
+* Remove fixed size for right-side icon in button ([1228467](https://github.com/occmundial/occ-atomic/commit/1228467ba0d107bba0e70603c28a3ccffaec306b))
+
 # [3.0.0-beta.4](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.3...v3.0.0-beta.4) (2024-06-04)
 
 
