@@ -1,3 +1,10 @@
+# [3.0.0-beta.4](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.3...v3.0.0-beta.4) (2024-06-04)
+
+
+### Bug Fixes
+
+* Make toggle unshrinkable inside a flex box ([6067fba](https://github.com/occmundial/occ-atomic/commit/6067fbad2276824bcec0c35748beea0006b73300))
+
 # [3.0.0-beta.3](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.2...v3.0.0-beta.3) (2024-05-30)
 
 
