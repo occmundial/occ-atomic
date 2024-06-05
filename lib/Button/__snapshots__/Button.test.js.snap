@@ -145,10 +145,8 @@ Object {
   },
   "iconRight": Object {
     "display": "inline-block",
-    "height": 16,
     "marginLeft": "8px",
     "transition": "0.3s all",
-    "width": 16,
   },
   "lg": Object {
     "&$iconOnly": Object {

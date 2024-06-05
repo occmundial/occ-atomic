@@ -4,44 +4,96 @@ exports[`Tip matches the snapshot 1`] = `ShallowWrapper {}`;
 
 exports[`Tip styles matches the snapshot 1`] = `
 Object {
+  "closeIcon": Object {
+    "marginLeft": "16px",
+  },
   "container": Object {
     "alignItems": "center",
-    "borderRadius": 6,
-    "padding": 16,
+    "borderRadius": "4px",
+    "padding": Array [
+      "16px",
+    ],
   },
   "cta": Object {
     "cursor": "pointer",
+    "font": "400 14px/1.5 'OccText', sans-serif",
     "textDecoration": "underline",
+    "textWrap": "nowrap",
+  },
+  "ctaLarge": Object {
+    "alignSelf": "center",
+    "marginLeft": "16px",
+  },
+  "ctaSmall": Object {
+    "alignSelf": "start",
+    "margin": Array [
+      "8px",
+      0,
+      0,
+    ],
   },
   "error": Object {
-    "backgroundColor": "#fcebeb",
+    "backgroundColor": "#fce8e8",
+    "outline": "1px solid #FBDFDF",
+    "outlineOffset": "-1px",
   },
   "icon": Object {
-    "marginRight": 8,
+    "flexShrink": 0,
+    "marginRight": "8px",
   },
   "info": Object {
-    "backgroundColor": "#efebf7",
+    "backgroundColor": "#e3efff",
+    "outline": "1px solid #e3efff",
+    "outlineOffset": "-1px",
   },
   "noBorderRadius": Object {
     "borderRadius": 0,
   },
-  "promote": Object {
-    "backgroundColor": "#222222",
+  "normalText": Object {
+    "display": "inline-block",
+    "font": "400 14px/1.5 'OccText', sans-serif",
+    "margin": 0,
   },
-  "spacedClose": Object {
-    "marginRight": 48,
+  "promote": Object {
+    "backgroundColor": "#000",
+  },
+  "small": Object {
+    "maxWidth": 360,
+    "padding": "12px",
   },
   "success": Object {
-    "backgroundColor": "#e6f5eb",
+    "backgroundColor": "#ebfbf1",
+    "outline": "1px solid #d7f6e3",
+    "outlineOffset": "-1px",
   },
   "text": Object {
     "maxWidth": "100%",
   },
-  "textWithIcon": Object {
-    "maxWidth": "calc(100% - 32px)",
+  "textContainer": Object {
+    "padding": Array [
+      "12px",
+      0,
+    ],
+  },
+  "textError": Object {
+    "color": "#8b1313",
+  },
+  "textInfo": Object {
+    "color": "#083CAE",
+  },
+  "textPromote": Object {
+    "color": "#fff",
+  },
+  "textSuccess": Object {
+    "color": "#16542e",
+  },
+  "textWarning": Object {
+    "color": "#664a0e",
   },
   "warning": Object {
-    "backgroundColor": "#fffaed",
+    "backgroundColor": "#fff8e9",
+    "outline": "1px solid #fff1d3",
+    "outlineOffset": "-1px",
   },
 }
 `;
