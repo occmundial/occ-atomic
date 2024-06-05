@@ -70,6 +70,7 @@ Object {
     "background": "#E9EEF8",
     "borderRadius": 34,
     "display": "inline-block",
+    "flexShrink": 0,
     "height": "24px",
     "position": "relative",
     "transition": "0.3s all",

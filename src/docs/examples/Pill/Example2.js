@@ -11,34 +11,41 @@ export default class Example2 extends React.Component {
                 {
                     id:1,
                     value:10,
-                    label:'Element 1'
+                    label:'Label',
+                    leftIcon: 'person',
+                    rightIcon: 'x'
                 },
                 {
                     id:2,
                     value:20,
-                    label:'Element 2',
+                    label:'Label',
                     selected: true,
-                    leftIcon: 'check'
+                    leftIcon: 'person',
+                    rightIcon: 'x'
                 },
                 {
                     id:3,
                     value:30,
-                    label:'Element 3',
+                    label:'Label',
+                    selected: true,
                     disabled: true,
-                    leftIcon: 'cross'
+                    leftIcon: 'person',
+                    rightIcon: 'x'
                 },
                 {
                     id:4,
                     value:40,
-                    label:'Element 4',
-                    rightIcon: 'plus'
+                    label:'Label',
+                    disabled: true,
+                    leftIcon: 'person',
+                    rightIcon: 'x'
                 },
                 {
                     id:5,
                     value:50,
-                    label:'Element 5',
-                    leftIcon: 'back',
-                    rightIcon: 'forward'
+                    label:'Label',
+                    leftIcon: 'person',
+                    rightIcon: 'x'
                 }
             ]
         };
