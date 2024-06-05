@@ -1,3 +1,10 @@
+# [3.0.0-beta.6](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.5...v3.0.0-beta.6) (2024-06-05)
+
+
+### Bug Fixes
+
+* Text new emphasis props ([bc3e934](https://github.com/occmundial/occ-atomic/commit/bc3e934299230cb0b3a0fddeb4c8fcd2b72a052f))
+
 # [3.0.0-beta.5](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.4...v3.0.0-beta.5) (2024-06-04)
 
 

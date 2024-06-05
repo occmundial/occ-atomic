@@ -343,7 +343,7 @@
     },
     "info": {
       "bg": "#e3efff",
-      "border": "#e3efff"
+      "border": "#b9d7ff"
     },
     "neutral": {
       "bg": "#000",
@@ -402,7 +402,7 @@
     },
     "info": {
       "bg": "#e3efff",
-      "border": "#e3efff"
+      "border": "#b9d7ff"
     },
     "featured": {
       "border": "rgba(255,255,255,0.2)",
@@ -567,7 +567,7 @@
       "subtle": "#d7f6e3"
     },
     "info": {
-      "subtle": "#e3efff"
+      "subtle": "#b9d7ff"
     }
   },
   "text": {
