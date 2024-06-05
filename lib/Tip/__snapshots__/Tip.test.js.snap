@@ -11,6 +11,7 @@ Object {
     "alignItems": "center",
     "borderRadius": "4px",
     "minHeight": "56px",
+    "outlineOffset": "-1px",
     "padding": Array [
       "16px",
     ],
@@ -36,7 +37,6 @@ Object {
   "error": Object {
     "backgroundColor": "#fce8e8",
     "outline": "1px solid #FBDFDF",
-    "outlineOffset": "-1px",
   },
   "icon": Object {
     "flexShrink": 0,
@@ -44,8 +44,7 @@ Object {
   },
   "info": Object {
     "backgroundColor": "#e3efff",
-    "outline": "1px solid #e3efff",
-    "outlineOffset": "-1px",
+    "outline": "1px solid #b9d7ff",
   },
   "noBorderRadius": Object {
     "borderRadius": 0,
@@ -57,6 +56,7 @@ Object {
   },
   "promote": Object {
     "backgroundColor": "#000",
+    "outline": "1px solid rgba(255,255,255,0.2)",
   },
   "small": Object {
     "maxWidth": 360,
@@ -65,7 +65,6 @@ Object {
   "success": Object {
     "backgroundColor": "#ebfbf1",
     "outline": "1px solid #d7f6e3",
-    "outlineOffset": "-1px",
   },
   "text": Object {
     "maxWidth": "100%",
@@ -94,7 +93,6 @@ Object {
   "warning": Object {
     "backgroundColor": "#fff8e9",
     "outline": "1px solid #fff1d3",
-    "outlineOffset": "-1px",
   },
 }
 `;
