@@ -10,6 +10,7 @@ Object {
   "container": Object {
     "alignItems": "center",
     "borderRadius": "4px",
+    "minHeight": "56px",
     "padding": Array [
       "16px",
     ],
