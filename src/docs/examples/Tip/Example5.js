@@ -1,17 +1,55 @@
 /* Tip with other properties */
 import React from 'react';
-import { Tip } from '@occmundial/occ-atomic';
+import { Tip, Flexbox } from '@occmundial/occ-atomic';
 
 export default function Example5() {
     return (
-        <Tip
-            theme="info"
-            icon
-            center
-            noBorderRadius
-            onClose={() => alert('Closing tip')}
-        >
-            This tip is using some of the other props available.
-        </Tip>
+        <Flexbox display="flex" direction="col" style={{ gap: 8 }}>
+            <Tip
+                icon
+                center
+                noBorderRadius
+                onClose={() => alert('Closing tip')}
+                theme="info"
+            >
+                Tip with some simple text.
+            </Tip>
+            <Tip
+                icon
+                center
+                noBorderRadius
+                onClose={() => alert('Closing tip')}
+                theme="warning"
+            >
+                Tip with some simple text.
+            </Tip>
+            <Tip
+                icon
+                center
+                noBorderRadius
+                onClose={() => alert('Closing tip')}
+                theme="success"
+            >
+                Tip with some simple text.
+            </Tip>
+            <Tip
+                icon
+                center
+                noBorderRadius
+                onClose={() => alert('Closing tip')}
+                theme="error"
+            >
+                Tip with some simple text.
+            </Tip>
+            <Tip
+                icon
+                center
+                noBorderRadius
+                onClose={() => alert('Closing tip')}
+                theme="promote"
+            >
+                Tip with some simple text.
+            </Tip>
+        </Flexbox>
     );
 }
