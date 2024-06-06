@@ -1,3 +1,10 @@
+# [3.0.0-beta.9](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.8...v3.0.0-beta.9) (2024-06-06)
+
+
+### Bug Fixes
+
+* Move use memo before early return ([3d290c9](https://github.com/occmundial/occ-atomic/commit/3d290c9675fb24e20d131fdbaeef023920f3e439))
+
 # [3.0.0-beta.8](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.7...v3.0.0-beta.8) (2024-06-06)
 
 
