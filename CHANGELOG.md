@@ -1,3 +1,11 @@
+# [3.0.0-beta.10](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.9...v3.0.0-beta.10) (2024-06-06)
+
+
+### Features
+
+* Checkbox redesigned and documentation created ([48fbc8d](https://github.com/occmundial/occ-atomic/commit/48fbc8d0a912c300324fe244e9692a49f3a152b5))
+* Remove updates to component ([ab71716](https://github.com/occmundial/occ-atomic/commit/ab71716991a7700134dbafe0d8eda63e18ff8eab))
+
 # [3.0.0-beta.9](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.8...v3.0.0-beta.9) (2024-06-06)
 
 
