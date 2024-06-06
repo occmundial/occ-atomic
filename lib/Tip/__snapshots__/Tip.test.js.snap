@@ -4,6 +4,10 @@ exports[`Tip matches the snapshot 1`] = `ShallowWrapper {}`;
 
 exports[`Tip styles matches the snapshot 1`] = `
 Object {
+  "bannerContent": Object {
+    "margin": "auto",
+    "maxWidth": "1200px",
+  },
   "closeIcon": Object {
     "marginLeft": "16px",
   },
@@ -13,6 +17,7 @@ Object {
     "minHeight": "56px",
     "outlineOffset": "-1px",
     "padding": Array [
+      "8px",
       "16px",
     ],
   },
@@ -46,6 +51,9 @@ Object {
     "backgroundColor": "#e3efff",
     "outline": "1px solid #b9d7ff",
   },
+  "largePadding": Object {
+    "padding": "12px",
+  },
   "noBorderRadius": Object {
     "borderRadius": 0,
   },
@@ -62,6 +70,9 @@ Object {
     "maxWidth": 360,
     "padding": "12px",
   },
+  "smallPadding": Object {
+    "padding": "8px",
+  },
   "success": Object {
     "backgroundColor": "#ebfbf1",
     "outline": "1px solid #d7f6e3",
@@ -77,18 +88,23 @@ Object {
   },
   "textError": Object {
     "color": "#8b1313",
+    "textDecorationColor": "#8b1313",
   },
   "textInfo": Object {
     "color": "#083CAE",
+    "textDecorationColor": "#083CAE",
   },
   "textPromote": Object {
     "color": "#fff",
+    "textDecorationColor": "#fff",
   },
   "textSuccess": Object {
     "color": "#16542e",
+    "textDecorationColor": "#16542e",
   },
   "textWarning": Object {
     "color": "#664a0e",
+    "textDecorationColor": "#664a0e",
   },
   "warning": Object {
     "backgroundColor": "#fff8e9",
