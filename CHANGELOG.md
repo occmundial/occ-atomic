@@ -1,3 +1,23 @@
+# [3.0.0-beta.8](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.7...v3.0.0-beta.8) (2024-06-06)
+
+
+### Bug Fixes
+
+* Add border for promote alert ([5050f18](https://github.com/occmundial/occ-atomic/commit/5050f187b60f98118654ecbbe3e2cba7b29790ab))
+* Add min height to tip container ([579d263](https://github.com/occmundial/occ-atomic/commit/579d26306d59ce73b5084f9cd632dd12ed162fc5))
+* Resolve conflicts ([0a15dfa](https://github.com/occmundial/occ-atomic/commit/0a15dfa8d8da38a724d71622809f0e02c5bed0e9))
+
+
+### Features
+
+* Render tip in banner component ([239e2c8](https://github.com/occmundial/occ-atomic/commit/239e2c82c23d79698bd912931b314ceddf252fb4))
+* Update tip component with new design tokens ([b2367fc](https://github.com/occmundial/occ-atomic/commit/b2367fcaade288609df4c841c91fb308841ae4b0))
+
+
+### Performance Improvements
+
+* Memoize text replace in tip text component ([69180ce](https://github.com/occmundial/occ-atomic/commit/69180ce9cb1e812769e31a837257d8c8e6f24199))
+
 # [3.0.0-beta.7](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.6...v3.0.0-beta.7) (2024-06-06)
 
 
