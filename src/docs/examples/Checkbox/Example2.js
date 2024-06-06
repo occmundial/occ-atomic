@@ -6,6 +6,8 @@ export default function Example2() {
     return (
         <div style={{display:'inline-block'}}>
             <Checkbox label="Disabled" disabled />
+            <Checkbox label="Disabled" disabled undetermined />
+            <Checkbox label="Disabled" disabled value={true} />
         </div>
     );
 }

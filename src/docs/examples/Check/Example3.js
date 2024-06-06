@@ -6,6 +6,7 @@ export default function Example3() {
     return (
         <div style={{display:'inline-block'}}>
             <Check label="Disabled" disabled />
+            <Check label="Disabled" disabled value />
         </div>
     );
 }
