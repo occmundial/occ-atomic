@@ -1,3 +1,11 @@
+# [3.0.0-beta.7](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.6...v3.0.0-beta.7) (2024-06-06)
+
+
+### Bug Fixes
+
+* Fix radio styles and add a form nav behavior ([59f0320](https://github.com/occmundial/occ-atomic/commit/59f03207a45b1ec27e02970668cffe2cfd5931a9))
+* Ignore tab index if radio element is disabled ([e479098](https://github.com/occmundial/occ-atomic/commit/e4790982a127408a474f688a4647612ef8fbb446))
+
 # [3.0.0-beta.6](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.5...v3.0.0-beta.6) (2024-06-05)
 
 
