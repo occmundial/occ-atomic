@@ -19,7 +19,7 @@ class Example extends React.Component {
     }
 
     sanitizeName(code) {
-        return code.substr(0, code.indexOf('\r')).replace(/[\/*]/g, '').trim();
+        return code.substr(0, code.indexOf('\n')).replace(/[\/*]/g, '').trim();
     }
 
     render() {
