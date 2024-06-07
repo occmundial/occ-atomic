@@ -1,3 +1,11 @@
+# [3.0.0-beta.11](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.10...v3.0.0-beta.11) (2024-06-07)
+
+
+### Bug Fixes
+
+* Call hoc window size and improve tip text use memo ([840e108](https://github.com/occmundial/occ-atomic/commit/840e1089cb3e80c6b2d2686c56b577166f6bc66f))
+* Resolve conflicts ([23e9ba8](https://github.com/occmundial/occ-atomic/commit/23e9ba8008ffe55e8af6910394580123032aee0e))
+
 # [3.0.0-beta.10](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.9...v3.0.0-beta.10) (2024-06-06)
 
 
