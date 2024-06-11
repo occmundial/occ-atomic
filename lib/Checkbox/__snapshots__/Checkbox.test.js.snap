@@ -13,6 +13,9 @@ Object {
       "borderColor": "rgba(255,255,255,0.2)",
     },
   },
+  "alignLeft": Object {
+    "flex": "none",
+  },
   "check": Object {
     "&:after": Object {
       "background": "transparent",
@@ -38,6 +41,7 @@ Object {
       "position": "absolute",
       "top": "50%",
       "transform": "translate(-50%, -50%)",
+      "transition": "0.3s all",
       "width": 20,
     },
     "height": "24px",
@@ -110,6 +114,7 @@ Object {
   "right": Object {
     "float": "right",
     "marginLeft": "8px",
+    "pointerEvents": "none",
   },
   "undetermined": Object {
     "& $check:after": Object {
