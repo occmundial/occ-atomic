@@ -1,12 +1,14 @@
 /* Themes of Tip */
 import React from 'react';
-import { Banner, Flexbox } from '@occmundial/occ-atomic';
+import PropTypes from 'prop-types';
+import { Banner, Flexbox, WindowSize, grid } from '@occmundial/occ-atomic';
 
-export default function Example1() {
+function Example1({ winWidth }) {
     return (
         <Flexbox display="flex" direction="col" style={{ gap: 8 }}>
             <Banner
                 onClose={() => {}}
+                size={winWidth < grid.xs ? 'small' : 'large'}
                 cta={{
                     text: 'Lorem ipsum.',
                     onClick: () => alert('CTA clicked!')
@@ -17,6 +19,7 @@ export default function Example1() {
             </Banner>
             <Banner
                 onClose={() => {}}
+                size={winWidth < grid.xs ? 'small' : 'large'}
                 cta={{
                     text: 'Lorem ipsum.',
                     onClick: () => alert('CTA clicked!')
@@ -27,6 +30,7 @@ export default function Example1() {
             </Banner>
             <Banner
                 onClose={() => {}}
+                size={winWidth < grid.xs ? 'small' : 'large'}
                 cta={{
                     text: 'Lorem ipsum.',
                     onClick: () => alert('CTA clicked!')
@@ -37,6 +41,7 @@ export default function Example1() {
             </Banner>
             <Banner
                 onClose={() => {}}
+                size={winWidth < grid.xs ? 'small' : 'large'}
                 cta={{
                     text: 'Lorem ipsum.',
                     onClick: () => alert('CTA clicked!')
@@ -47,6 +52,7 @@ export default function Example1() {
             </Banner>
             <Banner
                 onClose={() => {}}
+                size={winWidth < grid.xs ? 'small' : 'large'}
                 cta={{
                     text: 'Lorem ipsum.',
                     onClick: () => alert('CTA clicked!')
@@ -58,3 +64,9 @@ export default function Example1() {
         </Flexbox>
     );
 }
+
+Example1.propTypes = {
+    winWidth: PropTypes.number
+};
+
+export default WindowSize(Example1);

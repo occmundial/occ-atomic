@@ -1,13 +1,14 @@
-/* Tip small size */
+/* Tip small size on window width < 576px */
 import React from 'react';
-import { Tip } from '@occmundial/occ-atomic';
+import PropTypes from 'prop-types';
+import { Tip, WindowSize, grid } from '@occmundial/occ-atomic';
 
-export default function Example3() {
+function Example3({ winWidth }) {
     return (
         <Tip
             icon
             theme="info"
-            size="small"
+            size={winWidth < grid.xs ? 'small' : 'large'}
             onClose={() => true}
             cta={{
                 text: 'Click here.',
@@ -21,3 +22,9 @@ export default function Example3() {
         </Tip>
     );
 }
+
+Example3.propTypes = {
+    winWidth: PropTypes.number
+};
+
+export default WindowSize(Example3);
