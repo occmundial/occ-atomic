@@ -120,5 +120,8 @@
     "roots": [
       "<rootDir>/lib/"
     ]
+  },
+  "volta": {
+    "node": "16.18.0"
   }
 }
