@@ -1,3 +1,10 @@
+## [2.0.1](https://github.com/occmundial/occ-atomic/compare/v2.0.0...v2.0.1) (2024-06-12)
+
+
+### Bug Fixes
+
+* Remove fixed size for right-side icon in button ([1228467](https://github.com/occmundial/occ-atomic/commit/1228467ba0d107bba0e70603c28a3ccffaec306b))
+
 # [2.0.0](https://github.com/occmundial/occ-atomic/compare/v1.39.1...v2.0.0) (2024-05-27)
 
 
