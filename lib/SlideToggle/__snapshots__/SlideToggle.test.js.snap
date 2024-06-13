@@ -53,12 +53,12 @@ Object {
     "width": "100%",
   },
   "label": Object {
+    "cursor": "pointer",
     "marginLeft": "8px",
   },
   "slider": Object {
     "background": "#fff",
     "borderRadius": "50%",
-    "cursor": "pointer",
     "height": 20,
     "left": 2,
     "position": "absolute",
