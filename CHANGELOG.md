@@ -1,3 +1,10 @@
+# [3.0.0-beta.13](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.12...v3.0.0-beta.13) (2024-06-13)
+
+
+### Bug Fixes
+
+* Add form nav behavior to SwitchToggle ([e1e74ed](https://github.com/occmundial/occ-atomic/commit/e1e74edf8306250d0ae7a723b758c9426593c295))
+
 # [3.0.0-beta.12](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.11...v3.0.0-beta.12) (2024-06-07)
 
 
