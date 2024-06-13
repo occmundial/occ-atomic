@@ -26,7 +26,7 @@ Object {
       "background": "#083CAE",
     },
     "&:hover $switch:not($checked), &:active $switch:not($checked)": Object {
-      "background": "#CAD5EE",
+      "background": "#CAD5EE !important",
     },
     "alignItems": "start",
     "boxSizing": "border-box",
