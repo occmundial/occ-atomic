@@ -1,3 +1,10 @@
+# [3.0.0-beta.14](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.13...v3.0.0-beta.14) (2024-06-13)
+
+
+### Bug Fixes
+
+* Fix toggle background on focus when hovered ([8c35f96](https://github.com/occmundial/occ-atomic/commit/8c35f96b77fdb3d1692d864159561842a3213bba))
+
 # [3.0.0-beta.13](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.12...v3.0.0-beta.13) (2024-06-13)
 
 
