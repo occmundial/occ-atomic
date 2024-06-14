@@ -4,7 +4,7 @@ import { Toaster, Button, toaster } from '@occmundial/occ-atomic';
 
 export default function Example4() {
     const toast = {
-        description: 'The icon depends on the toast type',
+        title: 'The icon depends on the toast type',
         hasIcon: true
     };
     return (

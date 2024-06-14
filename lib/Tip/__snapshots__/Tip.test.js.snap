@@ -88,23 +88,18 @@ Object {
   },
   "textError": Object {
     "color": "#8b1313",
-    "textDecorationColor": "#8b1313",
   },
   "textInfo": Object {
     "color": "#083CAE",
-    "textDecorationColor": "#083CAE",
   },
   "textPromote": Object {
     "color": "#fff",
-    "textDecorationColor": "#fff",
   },
   "textSuccess": Object {
     "color": "#16542e",
-    "textDecorationColor": "#16542e",
   },
   "textWarning": Object {
     "color": "#664a0e",
-    "textDecorationColor": "#664a0e",
   },
   "warning": Object {
     "backgroundColor": "#fff8e9",

@@ -5,6 +5,7 @@ import { Toaster, Button, toaster } from '@occmundial/occ-atomic';
 export default function Example6() {
     const addToast = (type) => {
         const data = {
+            title: `Toast type: ${type}`,
             description: `This is the ${type} toast`
         };
         if (type === 'success') toaster.success(data);
