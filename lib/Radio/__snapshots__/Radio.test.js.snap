@@ -38,6 +38,10 @@ Object {
         },
       },
     },
+    "&:focus-visible $radio:before": Object {
+      "borderColor": "#0059CD",
+      "boxShadow": "0 0 0 8px rgba(0,110,255,0.3)",
+    },
     "&:not($active)": Object {
       "&:active $radio:before": Object {
         "borderColor": "#6C6F89",
@@ -46,10 +50,6 @@ Object {
       "&:hover $radio:before": Object {
         "borderColor": "#6C6F89",
       },
-    },
-    "&:not(:active):focus-visible $radio:before": Object {
-      "borderColor": "#0059CD",
-      "boxShadow": "0 0 0 8px rgba(0,110,255,0.3)",
     },
     "alignItems": "center",
     "boxSizing": "border-box",

@@ -14,17 +14,17 @@ Object {
     "background": "#0059CD",
   },
   "cont": Object {
+    "&:focus-visible $switch$checked": Object {
+      "boxShadow": "0 0 0 8px rgba(0,110,255,0.3)",
+    },
+    "&:focus-visible $switch:not($checked)": Object {
+      "boxShadow": "0 0 0 8px hsl(221 91.2% 35.7% / 0.3)",
+    },
     "&:hover $switch$checked, &:active $switch$checked": Object {
       "background": "#083CAE",
     },
     "&:hover $switch:not($checked), &:active $switch:not($checked)": Object {
       "background": "#CAD5EE",
-    },
-    "&:not(:active):focus-visible $switch$checked": Object {
-      "boxShadow": "0 0 0 8px rgba(0,110,255,0.3)",
-    },
-    "&:not(:active):focus-visible $switch:not($checked)": Object {
-      "boxShadow": "0 0 0 8px hsl(221 91.2% 35.7% / 0.3)",
     },
     "alignItems": "start",
     "boxSizing": "border-box",
