@@ -29,10 +29,6 @@ Object {
           "borderWidth": "3px",
         },
       },
-      "&:focus $radio:before": Object {
-        "borderColor": "#0059CD",
-        "boxShadow": "0 0 0 8px rgba(0,110,255,0.3)",
-      },
       "&:hover": Object {
         "& $radio:after": Object {
           "background": "#083CAE",
@@ -46,16 +42,14 @@ Object {
       "&:active $radio:before": Object {
         "borderColor": "#6C6F89",
         "borderWidth": "2px",
-        "boxShadow": "initial",
-      },
-      "&:focus $radio:before": Object {
-        "borderColor": "#D3D4DC",
-        "boxShadow": "0 0 0 8px rgba(0,110,255,0.3)",
       },
       "&:hover $radio:before": Object {
         "borderColor": "#6C6F89",
-        "boxShadow": "initial",
       },
+    },
+    "&:not(:active):focus-visible $radio:before": Object {
+      "borderColor": "#0059CD",
+      "boxShadow": "0 0 0 8px rgba(0,110,255,0.3)",
     },
     "alignItems": "center",
     "boxSizing": "border-box",
@@ -92,6 +86,7 @@ Object {
     "flex": "1",
     "float": "left",
     "marginLeft": "8px",
+    "pointerEvents": "none",
   },
   "overflow": Object {
     "overflow": "hidden",
@@ -129,6 +124,7 @@ Object {
     "alignItems": "center",
     "display": "flex",
     "height": "24px",
+    "pointerEvents": "none",
     "position": "relative",
     "width": "24px",
   },

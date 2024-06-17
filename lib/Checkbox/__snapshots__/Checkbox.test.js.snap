@@ -59,10 +59,6 @@ Object {
       "content": "\\"\\"",
       "display": "table",
     },
-    "&:focus $check:before": Object {
-      "borderWidth": 1,
-      "boxShadow": "0 0 0 8px rgba(0,110,255,0.3)",
-    },
     "&:not($active), &:not($undetermined)": Object {
       "&:active $check:before": Object {
         "borderWidth": 2,
@@ -70,6 +66,10 @@ Object {
       "&:hover $check:before, &:active $check:before": Object {
         "borderColor": "#6C6F89",
       },
+    },
+    "&:not(:active):focus-visible $check:before": Object {
+      "borderWidth": 1,
+      "boxShadow": "0 0 0 8px rgba(0,110,255,0.3)",
     },
     "alignItems": "start",
     "boxSizing": "border-box",
