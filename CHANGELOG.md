@@ -1,3 +1,11 @@
+# [3.0.0-beta.15](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.14...v3.0.0-beta.15) (2024-06-18)
+
+
+### Bug Fixes
+
+* Centered select icon and set cursor pointer for select box ([05fa3f1](https://github.com/occmundial/occ-atomic/commit/05fa3f1ca0efdf7e2b75c468eb23279aafbc58ce))
+* Remove class condition ([59ef135](https://github.com/occmundial/occ-atomic/commit/59ef1353213a9df3737d59c13385254767c41372))
+
 # [3.0.0-beta.14](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.13...v3.0.0-beta.14) (2024-06-13)
 
 
