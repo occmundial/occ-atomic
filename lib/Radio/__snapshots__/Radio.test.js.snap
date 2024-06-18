@@ -80,8 +80,8 @@ Object {
     "flex": 1,
     "minHeight": 48,
     "overflow": "hidden",
-    "paddingBottom": 4,
-    "paddingTop": 4,
+    "paddingBottom": "4px",
+    "paddingTop": "4px",
   },
   "overflow": Object {
     "overflow": "hidden",
