@@ -5,76 +5,91 @@ exports[`SlideToggle matches the snapshot 1`] = `ShallowWrapper {}`;
 exports[`SlideToggle styles matches the snapshot 1`] = `
 Object {
   "checked": Object {
-    "& $icon": Object {
-      "background": "url(data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgoJCQkgdmlld0JveD0iMCAwIDI0IDI0IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCAyNCAyNDsiIHhtbDpzcGFjZT0icHJlc2VydmUiPgoJCTxwYXRoIGZpbGw9IiMwMDZFRkYiIGQ9Ik0xOC4zLDcuM2wxLjQsMS40bC04LjcsOWMtMC40LDAuNC0xLDAuNC0xLjQsMC4xbC00LjMtMy42bDEuMy0xLjVsMy42LDNDMTAuMiwxNS42LDE4LjMsNy4zLDE4LjMsNy4zeiIvPgoJCTwvc3ZnPg==)",
-    },
     "& $slider": Object {
-      "left": 16,
+      "left": "calc(100% - 28px)",
     },
-    "background": "#0059CD",
+    "& $switchBg": Object {
+      "background": "#0059CD",
+    },
   },
   "cont": Object {
-    "&:focus $switch$checked": Object {
-      "background": "#0059CD",
-      "boxShadow": "0 0 0 8px rgba(0,110,255,0.3)",
+    "&:active $switch $switchBg": Object {
+      "boxShadow": "inset 0 0 0 2px rgba(255,255,255,0.2)",
     },
-    "&:focus $switch:not($checked)": Object {
-      "background": "#E9EEF8",
+    "&:focus-visible $switch": Object {
       "boxShadow": "0 0 0 8px hsl(221 91.2% 35.7% / 0.3)",
     },
-    "&:hover $switch$checked, &:active $switch$checked": Object {
+    "&:focus-visible $switch$checked": Object {
+      "boxShadow": "0 0 0 8px rgba(0,110,255,0.3)",
+    },
+    "&:hover $switch $switchBg, &:active $switch $switchBg": Object {
+      "background": "#CAD5EE",
+    },
+    "&:hover $switch$checked $switchBg, &:active $switch$checked $switchBg": Object {
       "background": "#083CAE",
     },
-    "&:hover $switch:not($checked), &:active $switch:not($checked)": Object {
-      "background": "#CAD5EE !important",
-    },
-    "alignItems": "start",
+    "alignItems": "flex-start",
     "boxSizing": "border-box",
     "cursor": "pointer",
     "display": "flex",
     "outline": 0,
-    "paddingBottom": "8px",
-    "paddingTop": "8px",
   },
   "disabled": Object {
-    "& $icon": Object {
-      "background": "url(data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgogICAgICAgIAkgdmlld0JveD0iMCAwIDI0IDI0IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCAyNCAyNDsiIHhtbDpzcGFjZT0icHJlc2VydmUiPgogICAgICAgIDxwYXRoIGZpbGw9IiNEM0Q0REMiIGQ9Ik0xMi4xLDEwLjhsNC42LTQuNkwxOCw3LjRMMTMuNCwxMmw0LjYsNC42TDE2LjcsMThsLTQuNi00LjZMNy40LDE4bC0xLjMtMS4zbDQuNi00LjZMNi4yLDcuNGwxLjMtMS4zTDEyLjEsMTAuOHoiLz4KICAgICAgICA8L3N2Zz4=)",
-    },
-    "& $switch": Object {
+    "& $switch $switchBg": Object {
       "background": "#EDEDF1",
+      "boxShadow": "inset 0 0 0 1px #D3D4DC",
     },
     "pointerEvents": "none",
   },
   "icon": Object {
-    "background": "url(data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgogICAgICAgIAkgdmlld0JveD0iMCAwIDI0IDI0IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCAyNCAyNDsiIHhtbDpzcGFjZT0icHJlc2VydmUiPgogICAgICAgIDxwYXRoIGZpbGw9IiM4REE1REEiIGQ9Ik0xMi4xLDEwLjhsNC42LTQuNkwxOCw3LjRMMTMuNCwxMmw0LjYsNC42TDE2LjcsMThsLTQuNi00LjZMNy40LDE4bC0xLjMtMS4zbDQuNi00LjZMNi4yLDcuNGwxLjMtMS4zTDEyLjEsMTAuOHoiLz4KICAgICAgICA8L3N2Zz4=)",
-    "display": "block",
-    "height": "100%",
-    "transition": "0.3s all",
-    "width": "100%",
+    "margin": 4,
   },
   "label": Object {
     "cursor": "pointer",
-    "marginLeft": "8px",
+    "marginLeft": "12px",
+  },
+  "labelWrap": Object {
+    "alignItems": "center",
+    "display": "flex",
+    "minHeight": 48,
+    "overflow": "hidden",
+    "paddingBottom": "4px",
+    "paddingTop": "4px",
   },
   "slider": Object {
     "background": "#fff",
     "borderRadius": "50%",
-    "height": 20,
-    "left": 2,
+    "height": 24,
+    "left": 4,
     "position": "absolute",
-    "top": 2,
-    "transition": "0.3s all",
-    "width": 20,
+    "top": "50%",
+    "transform": "translateY(-50%)",
+    "transition": "all cubic-bezier(0.25,0.46,0.45,0.94) 0.2s",
+    "width": 24,
   },
   "switch": Object {
-    "background": "#E9EEF8",
-    "borderRadius": 34,
+    "borderRadius": "9999px",
     "display": "inline-block",
     "flexShrink": 0,
-    "height": "24px",
+    "height": 32,
     "position": "relative",
-    "transition": "0.3s all",
-    "width": 38,
+    "transition": "all cubic-bezier(0.25,0.46,0.45,0.94) 0.2s",
+    "width": 52,
+  },
+  "switchBg": Object {
+    "background": "#E9EEF8",
+    "borderRadius": "9999px",
+    "boxShadow": "inset 0 0 0 1px rgba(255,255,255,0.2)",
+    "height": 32,
+    "transition": "all cubic-bezier(0.25,0.46,0.45,0.94) 0.2s",
+    "width": 52,
+  },
+  "switchWrap": Object {
+    "alignItems": "center",
+    "display": "flex",
+    "flexShrink": 0,
+    "height": 48,
+    "width": 52,
   },
 }
 `;

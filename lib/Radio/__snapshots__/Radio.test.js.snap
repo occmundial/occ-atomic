@@ -6,12 +6,11 @@ exports[`Radio styles matches the snapshot 1`] = `
 Object {
   "active": Object {
     "& $radio": Object {
-      "&:after": Object {
+      "& $radioInner": Object {
         "background": "#0059CD",
       },
-      "&:before": Object {
-        "borderColor": "#0059CD",
-        "borderWidth": 2,
+      "& $radioOuter": Object {
+        "boxShadow": "inset 0 0 0 2px #0059CD",
       },
     },
   },
@@ -21,77 +20,68 @@ Object {
   "cont": Object {
     "&$active": Object {
       "&:active": Object {
-        "& $radio:after": Object {
+        "& $radio $radioInner": Object {
           "background": "#083CAE",
         },
-        "& $radio:before": Object {
-          "borderColor": "#0047A5",
-          "borderWidth": "3px",
+        "& $radio $radioOuter": Object {
+          "boxShadow": "inset 0 0 0 3px #0047A5 !important",
         },
-      },
-      "&:focus $radio:before": Object {
-        "borderColor": "#0059CD",
-        "boxShadow": "0 0 0 8px rgba(0,110,255,0.3)",
       },
       "&:hover": Object {
-        "& $radio:after": Object {
+        "& $radio $radioInner": Object {
           "background": "#083CAE",
         },
-        "& $radio:before": Object {
-          "borderColor": "#0047A5",
+        "& $radio $radioOuter": Object {
+          "boxShadow": "inset 0 0 0 2px #0047A5",
         },
       },
     },
-    "&:not($active)": Object {
-      "&:active $radio:before": Object {
-        "borderColor": "#6C6F89",
-        "borderWidth": "2px",
-        "boxShadow": "initial",
-      },
-      "&:focus $radio:before": Object {
-        "borderColor": "#D3D4DC",
-        "boxShadow": "0 0 0 8px rgba(0,110,255,0.3)",
-      },
-      "&:hover $radio:before": Object {
-        "borderColor": "#6C6F89",
-        "boxShadow": "initial",
-      },
+    "&:active $radio $radioOuter": Object {
+      "boxShadow": "inset 0 0 0 2px #6C6F89",
     },
-    "alignItems": "center",
+    "&:focus-visible $radio": Object {
+      "boxShadow": "0 0 0 8px rgba(0,110,255,0.3)",
+    },
+    "&:hover $radio $radioOuter": Object {
+      "boxShadow": "inset 0 0 0 1px #6C6F89",
+    },
+    "alignItems": "flex-start",
     "boxSizing": "border-box",
     "cursor": "pointer",
     "display": "flex",
     "outline": "0",
-    "paddingBottom": "8px",
-    "paddingTop": "8px",
   },
   "disabled": Object {
-    "& :not($radio)": Object {
-      "opacity": 0.4,
+    "& $radio $radioInner": Object {
+      "background": "#EDEDF1",
+    },
+    "& $radio $radioOuter": Object {
+      "background": "#EDEDF1",
     },
     "&$active": Object {
-      "& $radio:after": Object {
+      "& $radio $radioInner": Object {
         "background": "#8DA5DA",
       },
-      "& $radio:before": Object {
-        "borderColor": "#8DA5DA",
-      },
-    },
-    "&:not($active)": Object {
-      "& $radio:after": Object {
-        "background": "#EDEDF1",
-      },
-      "& $radio:before": Object {
-        "background": "#EDEDF1",
+      "& $radio $radioOuter": Object {
+        "boxShadow": "inset 0 0 0 2px #8DA5DA",
       },
     },
     "pointerEvents": "none",
   },
   "label": Object {
     "cursor": "pointer",
-    "flex": "1",
-    "float": "left",
-    "marginLeft": "8px",
+    "flex": 1,
+    "marginLeft": "12px",
+    "pointerEvents": "none",
+  },
+  "labelWrap": Object {
+    "alignItems": "center",
+    "display": "flex",
+    "flex": 1,
+    "minHeight": 48,
+    "overflow": "hidden",
+    "paddingBottom": "4px",
+    "paddingTop": "4px",
   },
   "overflow": Object {
     "overflow": "hidden",
@@ -99,41 +89,43 @@ Object {
     "whiteSpace": "nowrap",
   },
   "radio": Object {
-    "&:after": Object {
-      "background": "#fff",
-      "borderRadius": "50%",
-      "boxSizing": "border-box",
-      "content": "\\"\\"",
-      "height": 10,
-      "left": "50%",
-      "position": "absolute",
-      "top": "50%",
-      "transform": "translate(-50%, -50%)",
-      "transition": "0.3s all",
-      "width": 10,
-    },
-    "&:before": Object {
-      "background": "#fff",
-      "border": "1px solid #D3D4DC",
-      "borderRadius": "50%",
-      "boxSizing": "border-box",
-      "content": "\\"\\"",
-      "height": 20,
-      "left": "50%",
-      "position": "absolute",
-      "top": "50%",
-      "transform": "translate(-50%, -50%)",
-      "transition": "0.3s all",
-      "width": 20,
-    },
+    "alignItems": "center",
+    "borderRadius": "9999px",
+    "display": "grid",
+    "height": 20,
+    "justifyContent": "center",
+    "transition": "all cubic-bezier(0.25,0.46,0.45,0.94) 0.2s",
+    "width": 20,
+  },
+  "radioInner": Object {
+    "background": "#fff",
+    "borderRadius": "9999px",
+    "gridColumnStart": 1,
+    "gridRowStart": 1,
+    "height": 10,
+    "margin": 5,
+    "transition": "all cubic-bezier(0.25,0.46,0.45,0.94) 0.2s",
+    "width": 10,
+  },
+  "radioOuter": Object {
+    "background": "#fff",
+    "borderRadius": "9999px",
+    "boxShadow": "inset 0 0 0 1px #D3D4DC",
+    "gridColumnStart": 1,
+    "gridRowStart": 1,
+    "height": 20,
+    "transition": "all cubic-bezier(0.25,0.46,0.45,0.94) 0.2s",
+    "width": 20,
+  },
+  "radioWrap": Object {
     "alignItems": "center",
     "display": "flex",
-    "height": "24px",
-    "position": "relative",
-    "width": "24px",
+    "flexShrink": 0,
+    "height": 48,
+    "justifyContent": "center",
+    "width": 52,
   },
   "right": Object {
-    "float": "right",
     "marginLeft": "8px",
     "pointerEvents": "none",
   },
