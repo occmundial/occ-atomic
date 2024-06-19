@@ -1,3 +1,11 @@
+# [3.0.0-beta.17](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.16...v3.0.0-beta.17) (2024-06-19)
+
+
+### Bug Fixes
+
+* Change icon size and adjust margin ([0411455](https://github.com/occmundial/occ-atomic/commit/041145590cd765e5b81937f07ef676d2fc5e8826))
+* Remove selector not active for focus visible ([dbec333](https://github.com/occmundial/occ-atomic/commit/dbec33316a94826d2007a044b634f944ffe01715))
+
 # [3.0.0-beta.16](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.15...v3.0.0-beta.16) (2024-06-19)
 
 
