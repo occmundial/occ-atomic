@@ -463,6 +463,18 @@
       }
     }
   },
+  "avatar": {
+    "bg": {
+      "default": "#E9EEF8",
+      "hover": "#CAD5EE",
+      "active": "#ABBDE4",
+      "disabled": "#EDEDF1",
+      "overlay": {
+        "hover": "hsl(234 75.4% 12.7% / 0.3)",
+        "active": "hsl(234 75.4% 12.7% / 0.4)"
+      }
+    }
+  },
   "bg": {
     "action": {
       "primary": {
