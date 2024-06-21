@@ -1,6 +1,6 @@
 {
   "name": "@occmundial/occ-atomic",
-  "version": "3.0.0-beta.12",
+  "version": "3.0.0-beta.17",
   "description": "Collection of shareable styled React components for OCC applications.",
   "homepage": "http://occmundial.github.io/occ-atomic",
   "main": "build/index.js",
@@ -120,5 +120,8 @@
     "roots": [
       "<rootDir>/lib/"
     ]
+  },
+  "volta": {
+    "node": "16.18.0"
   }
 }

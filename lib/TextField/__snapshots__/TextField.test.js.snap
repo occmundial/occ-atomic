@@ -115,6 +115,9 @@ Object {
     "color": "#080D39",
     "font": "400 14px/1.5 'OccText', sans-serif",
   },
+  "pointer": Object {
+    "cursor": "pointer",
+  },
   "rightButton": Object {
     "position": "absolute",
     "right": "4px",
