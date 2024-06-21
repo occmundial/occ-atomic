@@ -1,3 +1,33 @@
+# [3.0.0-beta.18](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.17...v3.0.0-beta.18) (2024-06-21)
+
+
+### Bug Fixes
+
+* Replace onKeyDown for onKeyUp ([e574e9c](https://github.com/occmundial/occ-atomic/commit/e574e9c42f7a55723794269ede7a4f58dd899e58))
+
+# [3.0.0-beta.17](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.16...v3.0.0-beta.17) (2024-06-19)
+
+
+### Bug Fixes
+
+* Change icon size and adjust margin ([0411455](https://github.com/occmundial/occ-atomic/commit/041145590cd765e5b81937f07ef676d2fc5e8826))
+* Remove selector not active for focus visible ([dbec333](https://github.com/occmundial/occ-atomic/commit/dbec33316a94826d2007a044b634f944ffe01715))
+
+# [3.0.0-beta.16](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.15...v3.0.0-beta.16) (2024-06-19)
+
+
+### Bug Fixes
+
+* Change focus behavior in form components ([a3b6c9b](https://github.com/occmundial/occ-atomic/commit/a3b6c9b5194b1d8302a6f73bb5522df9e6a756fc))
+* Changes to structure and styles of Checkbox ([6ed54c0](https://github.com/occmundial/occ-atomic/commit/6ed54c0a5ebae0542431b8305d0da8a052c2d3fb))
+* Changes to structure and styles of Radio ([694c995](https://github.com/occmundial/occ-atomic/commit/694c9950a4c6c43a5bd7987536a293835860421e))
+* Changes to structure and styles of SlideToggle ([5ec340f](https://github.com/occmundial/occ-atomic/commit/5ec340f0cc09b04d032ebb888034a92cf71f2f8a))
+* Fix focus styles in form components ([e69d45b](https://github.com/occmundial/occ-atomic/commit/e69d45b84c3e35a433f37feb7c9b0012137bc2bb))
+* Fix spacing and sizing of radio, checkbox and toggle ([b3a71c2](https://github.com/occmundial/occ-atomic/commit/b3a71c2e30e2b810036104a4ee57b6b805d2780c))
+* Fix styles and icon color on Checkbox ([1c4e360](https://github.com/occmundial/occ-atomic/commit/1c4e360ec0d3291048d14f4ccd3859d0bdbc2817))
+* Fix transition value in SlideToggle ([8423fc6](https://github.com/occmundial/occ-atomic/commit/8423fc6b9eea3219ed052add95f27ef4d181f5b5))
+* Update componentData ([ff7c0bd](https://github.com/occmundial/occ-atomic/commit/ff7c0bd47ed55d652b01ace7526867d751a6e1c7))
+
 # [3.0.0-beta.15](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.14...v3.0.0-beta.15) (2024-06-18)
 
 
