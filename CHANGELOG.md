@@ -1,3 +1,10 @@
+# [3.0.0-beta.18](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.17...v3.0.0-beta.18) (2024-06-21)
+
+
+### Bug Fixes
+
+* Replace onKeyDown for onKeyUp ([e574e9c](https://github.com/occmundial/occ-atomic/commit/e574e9c42f7a55723794269ede7a4f58dd899e58))
+
 # [3.0.0-beta.17](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.16...v3.0.0-beta.17) (2024-06-19)
 
 
