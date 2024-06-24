@@ -12,19 +12,15 @@ Object {
     "background": [Function],
   },
   "big": Object {
-    "borderRadius": 32,
-    "height": 40,
+    "minHeight": "32px",
     "padding": Array [
-      8,
-      16,
+      "8px",
+      "16px",
     ],
   },
   "bigIcon": Object {
-    "height": 18,
-    "width": 18,
-  },
-  "bigTagText": Object {
-    "fontSize": 16,
+    "height": "16px",
+    "width": "16px",
   },
   "default": Object {
     "background": "#f5f5f5",
@@ -34,10 +30,19 @@ Object {
     "background": [Function],
   },
   "error": Object {
-    "background": "#fcebeb",
-    "color": "#db3737",
+    "background": "#fce8e8",
+    "border": "1px solid #FBDFDF",
+    "color": "#8b1313",
   },
   "errorIcon": Object {
+    "background": [Function],
+  },
+  "featured": Object {
+    "background": "#0059CD",
+    "border": "1px solid rgba(255,255,255,0.2)",
+    "color": "#fff",
+  },
+  "featuredIcon": Object {
     "background": [Function],
   },
   "icon": Object {
@@ -45,12 +50,13 @@ Object {
     "content": "\\"\\"",
     "display": "inline-block",
     "left": 0,
-    "marginRight": 4,
+    "marginRight": "4px",
     "paddingBottom": 0,
   },
   "info": Object {
-    "backgroundColor": "#efebf7",
-    "color": "#5736ab",
+    "background": "#e3efff",
+    "border": "1px solid #b9d7ff",
+    "color": "#083CAE",
   },
   "infoIcon": Object {
     "background": [Function],
@@ -63,46 +69,39 @@ Object {
     "background": [Function],
   },
   "medium": Object {
-    "height": 32,
     "padding": Array [
-      5,
-      12,
-      7,
-      12,
+      "8px",
+      "12px",
     ],
   },
-  "mediumIcon": Object {
-    "height": 18,
-    "width": 18,
+  "promo": Object {
+    "background": "#080D39",
+    "border": "1px solid rgba(255,255,255,0.2)",
+    "color": "#fff",
   },
-  "mediumTagText": Object {
-    "fontSize": 16,
+  "promoIcon": Object {
+    "background": [Function],
   },
   "standard": Object {
-    "height": 16,
     "padding": Array [
-      1,
-      8,
-      3,
-      8,
+      "2px",
+      "8px",
     ],
   },
   "standardIcon": Object {
-    "height": 12,
-    "width": 12,
-  },
-  "standardTagText": Object {
-    "fontSize": 10,
+    "height": "12px",
+    "width": "12px",
   },
   "success": Object {
-    "background": "#e6f5eb",
-    "color": "#009537",
+    "background": "#ebfbf1",
+    "border": "1px solid #d7f6e3",
+    "color": "#16542e",
   },
   "successIcon": Object {
     "background": [Function],
   },
   "tag": Object {
-    "borderRadius": 16,
+    "borderRadius": "9999px",
     "boxSizing": "border-box",
     "display": "inline-block",
     "lineHeight": "12px",
@@ -113,20 +112,19 @@ Object {
   "tagText": Object {
     "boxSizing": "border-box",
     "display": "inline-block",
-    "fontFamily": "'OccText', sans-serif",
+    "font": "400 10px/1.5 'OccText', sans-serif",
     "fontStretch": "normal",
     "fontStyle": "normal",
-    "fontWeight": "400",
     "letterSpacing": "normal",
-    "lineHeight": 1.5,
     "overflow": "hidden",
     "paddingRight": [Function],
     "position": "relative",
     "textAlign": "center",
   },
   "warning": Object {
-    "background": "#fffaed",
-    "color": "#e69000",
+    "background": "#fff8e9",
+    "border": "1px solid #fff1d3",
+    "color": "#664a0e",
   },
   "warningIcon": Object {
     "background": [Function],
