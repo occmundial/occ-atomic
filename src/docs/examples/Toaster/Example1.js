@@ -4,7 +4,7 @@ import { Toaster, Button, toaster } from '@occmundial/occ-atomic';
 
 export default function Example1() {
     const toast = {
-        description: 'This toast will be automatically dismissed in 5 seconds'
+        title: 'Simple toast'
     };
     return (
         <Fragment>
