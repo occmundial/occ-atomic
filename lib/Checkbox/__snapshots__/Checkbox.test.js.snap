@@ -5,106 +5,103 @@ exports[`Checkbox matches the snapshot 1`] = `ShallowWrapper {}`;
 exports[`Checkbox styles matches the snapshot 1`] = `
 Object {
   "active": Object {
-    "& $check:after": Object {
-      "background": "url(data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgoJCQkgdmlld0JveD0iMCAwIDI0IDI0IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCAyNCAyNDsiIHhtbDpzcGFjZT0icHJlc2VydmUiPgoJCTxwYXRoIGZpbGw9IiNmZmYiIGQ9Ik0xOC4zLDcuM2wxLjQsMS40bC04LjcsOWMtMC40LDAuNC0xLDAuNC0xLjQsMC4xbC00LjMtMy42bDEuMy0xLjVsMy42LDNDMTAuMiwxNS42LDE4LjMsNy4zLDE4LjMsNy4zeiIvPgoJCTwvc3ZnPg==)",
-    },
-    "& $check:before": Object {
+    "& $check $box": Object {
       "background": "#0059CD",
-      "borderColor": "rgba(255,255,255,0.2)",
+      "boxShadow": "inset 0 0 0 1px rgba(255,255,255,0.2)",
     },
   },
   "alignLeft": Object {
     "flex": "none",
   },
+  "box": Object {
+    "background": "#fff",
+    "borderRadius": "4px",
+    "boxShadow": "inset 0 0 0 1px #D3D4DC",
+    "gridColumnStart": 1,
+    "gridRowStart": 1,
+    "height": 20,
+    "transition": "all cubic-bezier(0.25,0.46,0.45,0.94) 0.2s",
+    "width": 20,
+  },
   "check": Object {
-    "&:after": Object {
-      "background": "transparent",
-      "boxSizing": "border-box",
-      "content": "\\"\\"",
-      "height": 20,
-      "left": "50%",
-      "marginTop": -1,
-      "position": "absolute",
-      "top": "50%",
-      "transform": "translate(-50%, -50%)",
-      "transition": "0.3s all",
-      "width": 20,
-    },
-    "&:before": Object {
-      "background": "#fff",
-      "border": "1px solid #D3D4DC",
-      "borderRadius": "4px",
-      "boxSizing": "border-box",
-      "content": "\\"\\"",
-      "height": 20,
-      "left": "50%",
-      "position": "absolute",
-      "top": "50%",
-      "transform": "translate(-50%, -50%)",
-      "transition": "0.3s all",
-      "width": 20,
-    },
-    "height": "24px",
-    "position": "relative",
-    "width": "24px",
+    "alignItems": "center",
+    "borderRadius": "4px",
+    "display": "grid",
+    "height": 20,
+    "justifyContent": "center",
+    "transition": "all cubic-bezier(0.25,0.46,0.45,0.94) 0.2s",
+    "width": 20,
+  },
+  "checkWrap": Object {
+    "alignItems": "center",
+    "display": "flex",
+    "flexShrink": 0,
+    "height": 48,
+    "justifyContent": "center",
+    "width": 52,
   },
   "cont": Object {
     "&$active, &$undetermined": Object {
-      "&:hover $check:before, &:active $check:before": Object {
+      "&:active $check $box": Object {
         "background": "#083CAE",
+        "boxShadow": "inset 0 0 0 2px rgba(255,255,255,0.2)",
       },
+      "&:hover $check $box": Object {
+        "background": "#083CAE",
+        "boxShadow": "inset 0 0 0 1px rgba(255,255,255,0.2)",
+      },
+    },
+    "&:active $check $box": Object {
+      "boxShadow": "inset 0 0 0 2px #6C6F89",
     },
     "&:after": Object {
       "clear": "both",
       "content": "\\"\\"",
       "display": "table",
     },
-    "&:focus $check:before": Object {
-      "borderWidth": 1,
+    "&:focus-visible $check": Object {
       "boxShadow": "0 0 0 8px rgba(0,110,255,0.3)",
     },
-    "&:not($active), &:not($undetermined)": Object {
-      "&:active $check:before": Object {
-        "borderWidth": 2,
-      },
-      "&:hover $check:before, &:active $check:before": Object {
-        "borderColor": "#6C6F89",
-      },
+    "&:hover $check $box": Object {
+      "boxShadow": "inset 0 0 0 1px #6C6F89",
     },
-    "alignItems": "start",
+    "alignItems": "flex-start",
     "boxSizing": "border-box",
     "cursor": "pointer",
     "display": "flex",
     "outline": "0",
-    "paddingBottom": "8px",
-    "paddingTop": "8px",
   },
   "disabled": Object {
-    "&$active $check:after": Object {
-      "background": "url(data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgoJCQkgdmlld0JveD0iMCAwIDI0IDI0IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCAyNCAyNDsiIHhtbDpzcGFjZT0icHJlc2VydmUiPgoJCTxwYXRoIGZpbGw9IiM4REE1REEiIGQ9Ik0xOC4zLDcuM2wxLjQsMS40bC04LjcsOWMtMC40LDAuNC0xLDAuNC0xLjQsMC4xbC00LjMtMy42bDEuMy0xLjVsMy42LDNDMTAuMiwxNS42LDE4LjMsNy4zLDE4LjMsNy4zeiIvPgoJCTwvc3ZnPg==)",
+    "& $check $box": Object {
+      "background": "#EDEDF1",
+      "boxShadow": "inset 0 0 0 1px #D3D4DC",
     },
     "&$active, &$undetermined": Object {
-      "& $check:before": Object {
+      "& $check $box": Object {
         "background": "hsl(221 91.2% 35.7% / 0.1)",
-        "borderColor": "rgba(255,255,255,0.2)",
-      },
-    },
-    "&$undetermined $check:after": Object {
-      "background": "url(data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgogICAgICAgICAgICB2aWV3Qm94PSIwIDAgMjQgMjQiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDI0IDI0OyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+CiAgICAgICAgPHBvbHlnb24gcG9pbnRzPSI1LjMsMTMuMyA1LjMsMTAuNyAxOC43LDEwLjcgMTguNywxMy4zICIgZmlsbD0iIzhEQTVEQSIgLz4KICAgICAgICA8L3N2Zz4=)",
-    },
-    "&:not($active), &:not($undetermined)": Object {
-      "& $check:before": Object {
-        "background": "#EDEDF1",
-        "borderColor": "#D3D4DC",
+        "boxShadow": "inset 0 0 0 1px rgba(255,255,255,0.2)",
       },
     },
     "pointerEvents": "none",
   },
+  "icon": Object {
+    "gridColumnStart": 1,
+    "gridRowStart": 1,
+    "margin": 2,
+  },
   "label": Object {
     "cursor": "pointer",
-    "flex": "1",
-    "float": "left",
-    "marginLeft": "8px",
+    "flex": 1,
+    "marginLeft": "12px",
+  },
+  "labelWrap": Object {
+    "alignItems": "center",
+    "display": "flex",
+    "flex": 1,
+    "minHeight": 48,
+    "overflow": "hidden",
+    "paddingBottom": "4px",
+    "paddingTop": "4px",
   },
   "overflow": Object {
     "overflow": "hidden",
@@ -112,18 +109,13 @@ Object {
     "whiteSpace": "nowrap",
   },
   "right": Object {
-    "float": "right",
     "marginLeft": "8px",
     "pointerEvents": "none",
   },
   "undetermined": Object {
-    "& $check:after": Object {
-      "background": "url(data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgogICAgICAgICAgICB2aWV3Qm94PSIwIDAgMjQgMjQiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDI0IDI0OyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+CiAgICAgICAgPHBvbHlnb24gcG9pbnRzPSI1LjMsMTMuMyA1LjMsMTAuNyAxOC43LDEwLjcgMTguNywxMy4zICIgZmlsbD0iI2ZmZiIgLz4KICAgICAgICA8L3N2Zz4=)",
-      "marginTop": 0,
-    },
-    "& $check:before": Object {
+    "& $check $box": Object {
       "background": "#0059CD",
-      "borderColor": "rgba(255,255,255,0.2)",
+      "boxShadow": "inset 0 0 0 1px rgba(255,255,255,0.2)",
     },
   },
 }
