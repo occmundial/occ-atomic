@@ -2,32 +2,4 @@
 
 exports[`Banner matches the snapshot 1`] = `ShallowWrapper {}`;
 
-exports[`Banner styles matches the snapshot 1`] = `
-Object {
-  "container": Object {
-    "backgroundColor": "#222222",
-    "padding": 16,
-  },
-  "icon": Object {
-    "cursor": "pointer",
-  },
-  "iconFlex": Object {
-    "@media screen and (min-width:576px)": Object {
-      "padding": 0,
-    },
-    "paddingLeft": 16,
-    "paddingTop": 16,
-  },
-  "textBanner": Object {
-    "display": "inline-block",
-  },
-  "textFlex": Object {
-    "@media screen and (min-width:576px)": Object {
-      "textAlign": "center",
-    },
-    "textAlign": "start",
-  },
-}
-`;
-
 exports[`BannerJSS matches the snapshot 1`] = `ShallowWrapper {}`;
