@@ -6,8 +6,7 @@ export default function Example7() {
     const addToast = (type) => {
         const data = {
             title: `Toast type: ${type} with icon`,
-            description: `This is the ${type} toast`,
-            hasIcon: true
+            description: `This is the ${type} toast`
         };
         if (type === 'success') toaster.success(data);
         else if (type === 'error') toaster.error(data);

@@ -1,3 +1,10 @@
+# [3.0.0-beta.19](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.18...v3.0.0-beta.19) (2024-06-21)
+
+
+### Bug Fixes
+
+* Prevent default to avoid scroll on key down ([9ee17d2](https://github.com/occmundial/occ-atomic/commit/9ee17d2a247a02a7be7e1c743669c8833d3f5748))
+
 # [3.0.0-beta.18](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.17...v3.0.0-beta.18) (2024-06-21)
 
 
