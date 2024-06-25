@@ -1,3 +1,18 @@
+# [3.0.0-beta.20](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.19...v3.0.0-beta.20) (2024-06-25)
+
+
+### Bug Fixes
+
+* Add condition to set test id prop ([4e90cea](https://github.com/occmundial/occ-atomic/commit/4e90cea0a6f5c627c8b2a398a9aef449fa3e1b7c))
+* Adjust tip styles and add banner prop ([04d17ff](https://github.com/occmundial/occ-atomic/commit/04d17ff0fe74186da32d15f91001406344867bb4))
+* Merge beta changes ([218b68a](https://github.com/occmundial/occ-atomic/commit/218b68a7347b025dc2cdd8171f7d4c22bbd383f1))
+* Resolve component data conflicts ([c390f1f](https://github.com/occmundial/occ-atomic/commit/c390f1f485415dc15251386527c0caaa70e9814f))
+
+
+### Features
+
+* Add test id prop and add new tests ([aba7d32](https://github.com/occmundial/occ-atomic/commit/aba7d3215e0b19e635b53546f66accd327ebed42))
+
 # [3.0.0-beta.19](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.18...v3.0.0-beta.19) (2024-06-21)
 
 
