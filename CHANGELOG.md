@@ -1,3 +1,20 @@
+# [3.0.0-beta.21](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.20...v3.0.0-beta.21) (2024-06-25)
+
+
+### Bug Fixes
+
+* Add outline border and merge with beta ([a212aa3](https://github.com/occmundial/occ-atomic/commit/a212aa3f87471092a246925e79a9d787535b13ba))
+* Resolve conflicts ([99b08cb](https://github.com/occmundial/occ-atomic/commit/99b08cb290979fa7f1aad3dd2c04f65b1b494559))
+* Resolve conflicts ([81776b7](https://github.com/occmundial/occ-atomic/commit/81776b701b168e66a1f1dfa7b785227b40a76dc9))
+* Set md size for tip close icon ([759e6d1](https://github.com/occmundial/occ-atomic/commit/759e6d10842e2c55cf81d2aff57f60479e3a3395))
+* Set min width for desktop and conditionated on mouse events ([98857fd](https://github.com/occmundial/occ-atomic/commit/98857fd313d247e618c64dbbaacea93c6ab084ae))
+
+
+### Features
+
+* Add close icon prop and conditionated onclose func ([e456d38](https://github.com/occmundial/occ-atomic/commit/e456d384a82d4b6105e27bb36d693b43d5608c1c))
+* Update toaster with new design tokens ([88edaa8](https://github.com/occmundial/occ-atomic/commit/88edaa8fe5c3c04bc9f634f6a287c1614c893d15))
+
 # [3.0.0-beta.20](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.19...v3.0.0-beta.20) (2024-06-25)
 
 
