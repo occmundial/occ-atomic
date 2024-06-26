@@ -1,3 +1,10 @@
+# [3.0.0-beta.22](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.21...v3.0.0-beta.22) (2024-06-26)
+
+
+### Features
+
+* Tag compnent and documentation updated ([718378f](https://github.com/occmundial/occ-atomic/commit/718378ffd916c98673a3b10f7b9ba827d806aa1c))
+
 # [3.0.0-beta.21](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.20...v3.0.0-beta.21) (2024-06-25)
 
 
