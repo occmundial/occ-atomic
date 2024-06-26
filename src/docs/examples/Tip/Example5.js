@@ -1,4 +1,4 @@
-/* Tip with other properties */
+/* Tip with banner prop */
 import React from 'react';
 import { Tip, Flexbox } from '@occmundial/occ-atomic';
 
@@ -7,8 +7,7 @@ export default function Example5() {
         <Flexbox display="flex" direction="col" style={{ gap: 8 }}>
             <Tip
                 icon
-                center
-                noBorderRadius
+                banner
                 onClose={() => alert('Closing tip')}
                 theme="info"
             >
@@ -16,8 +15,7 @@ export default function Example5() {
             </Tip>
             <Tip
                 icon
-                center
-                noBorderRadius
+                banner
                 onClose={() => alert('Closing tip')}
                 theme="warning"
             >
@@ -25,8 +23,7 @@ export default function Example5() {
             </Tip>
             <Tip
                 icon
-                center
-                noBorderRadius
+                banner
                 onClose={() => alert('Closing tip')}
                 theme="success"
             >
@@ -34,8 +31,7 @@ export default function Example5() {
             </Tip>
             <Tip
                 icon
-                center
-                noBorderRadius
+                banner
                 onClose={() => alert('Closing tip')}
                 theme="error"
             >
@@ -43,8 +39,7 @@ export default function Example5() {
             </Tip>
             <Tip
                 icon
-                center
-                noBorderRadius
+                banner
                 onClose={() => alert('Closing tip')}
                 theme="promote"
             >

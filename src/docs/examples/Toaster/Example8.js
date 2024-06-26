@@ -4,6 +4,7 @@ import { Toaster, Button, toaster } from '@occmundial/occ-atomic';
 
 export default function Example8() {
     const toast = {
+        title: 'Simple toast',
         description: 'Dismiss this toast by clicking the "Clear" button'
     };
     return (

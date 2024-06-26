@@ -10,6 +10,7 @@ export default function Example4() {
                 text: 'Click here.',
                 onClick: () => alert('CTA clicked!')
             }}
+            onClose={() => alert('Closing tip')}
         >
             This tip has a call to action.
         </Tip>

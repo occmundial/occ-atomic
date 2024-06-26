@@ -4,6 +4,7 @@ import { Toaster, Button, toaster } from '@occmundial/occ-atomic';
 
 export default function Example2() {
     const toast = {
+        title: 'Toast with a longer timeout',
         description: 'This toast will be automatically dismissed in 8 seconds',
         timer: 'longer'
     };

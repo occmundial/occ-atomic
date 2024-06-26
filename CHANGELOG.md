@@ -1,3 +1,35 @@
+# [3.0.0-beta.21](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.20...v3.0.0-beta.21) (2024-06-25)
+
+
+### Bug Fixes
+
+* Add outline border and merge with beta ([a212aa3](https://github.com/occmundial/occ-atomic/commit/a212aa3f87471092a246925e79a9d787535b13ba))
+* Resolve conflicts ([99b08cb](https://github.com/occmundial/occ-atomic/commit/99b08cb290979fa7f1aad3dd2c04f65b1b494559))
+* Resolve conflicts ([81776b7](https://github.com/occmundial/occ-atomic/commit/81776b701b168e66a1f1dfa7b785227b40a76dc9))
+* Set md size for tip close icon ([759e6d1](https://github.com/occmundial/occ-atomic/commit/759e6d10842e2c55cf81d2aff57f60479e3a3395))
+* Set min width for desktop and conditionated on mouse events ([98857fd](https://github.com/occmundial/occ-atomic/commit/98857fd313d247e618c64dbbaacea93c6ab084ae))
+
+
+### Features
+
+* Add close icon prop and conditionated onclose func ([e456d38](https://github.com/occmundial/occ-atomic/commit/e456d384a82d4b6105e27bb36d693b43d5608c1c))
+* Update toaster with new design tokens ([88edaa8](https://github.com/occmundial/occ-atomic/commit/88edaa8fe5c3c04bc9f634f6a287c1614c893d15))
+
+# [3.0.0-beta.20](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.19...v3.0.0-beta.20) (2024-06-25)
+
+
+### Bug Fixes
+
+* Add condition to set test id prop ([4e90cea](https://github.com/occmundial/occ-atomic/commit/4e90cea0a6f5c627c8b2a398a9aef449fa3e1b7c))
+* Adjust tip styles and add banner prop ([04d17ff](https://github.com/occmundial/occ-atomic/commit/04d17ff0fe74186da32d15f91001406344867bb4))
+* Merge beta changes ([218b68a](https://github.com/occmundial/occ-atomic/commit/218b68a7347b025dc2cdd8171f7d4c22bbd383f1))
+* Resolve component data conflicts ([c390f1f](https://github.com/occmundial/occ-atomic/commit/c390f1f485415dc15251386527c0caaa70e9814f))
+
+
+### Features
+
+* Add test id prop and add new tests ([aba7d32](https://github.com/occmundial/occ-atomic/commit/aba7d3215e0b19e635b53546f66accd327ebed42))
+
 # [3.0.0-beta.19](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.18...v3.0.0-beta.19) (2024-06-21)
 
 

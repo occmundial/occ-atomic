@@ -4,44 +4,61 @@ exports[`Tip matches the snapshot 1`] = `ShallowWrapper {}`;
 
 exports[`Tip styles matches the snapshot 1`] = `
 Object {
-  "bannerContent": Object {
-    "margin": "auto",
-    "maxWidth": "1200px",
-  },
-  "closeIcon": Object {
+  "closeIconMargin": Object {
     "marginLeft": "16px",
   },
+  "closeIconSmallMargin": Object {
+    "marginLeft": "12px",
+  },
   "container": Object {
+    "@media screen and (min-width:576px)": Object {
+      "padding": Array [
+        "8px",
+        "16px",
+      ],
+    },
     "alignItems": "center",
     "borderRadius": "4px",
     "minHeight": "56px",
     "outlineOffset": "-1px",
-    "padding": Array [
-      "8px",
-      "16px",
-    ],
+    "padding": "12px",
   },
   "cta": Object {
+    "alignSelf": "start",
     "cursor": "pointer",
     "font": "400 14px/1.5 'OccText', sans-serif",
-    "textDecoration": "underline",
-    "textWrap": "nowrap",
-  },
-  "ctaLarge": Object {
-    "alignSelf": "center",
-    "marginLeft": "16px",
-  },
-  "ctaSmall": Object {
-    "alignSelf": "start",
     "margin": Array [
       "8px",
       0,
       0,
     ],
+    "textDecoration": "underline",
+    "textWrap": "nowrap",
+  },
+  "ctaAlert": Object {
+    "alignSelf": "center",
+    "margin": Array [
+      0,
+      0,
+      0,
+      "16px",
+    ],
+  },
+  "ctaBanner": Object {
+    "alignSelf": "center",
+    "margin": Array [
+      0,
+      0,
+      0,
+      "8px",
+    ],
   },
   "error": Object {
     "backgroundColor": "#fce8e8",
     "outline": "1px solid #FBDFDF",
+  },
+  "growText": Object {
+    "flexGrow": 1,
   },
   "icon": Object {
     "flexShrink": 0,
@@ -51,8 +68,12 @@ Object {
     "backgroundColor": "#e3efff",
     "outline": "1px solid #b9d7ff",
   },
-  "largePadding": Object {
-    "padding": "12px",
+  "maxWidth": Object {
+    "margin": Array [
+      0,
+      "auto",
+    ],
+    "maxWidth": "1200px",
   },
   "noBorderRadius": Object {
     "borderRadius": 0,
@@ -66,45 +87,27 @@ Object {
     "backgroundColor": "#000",
     "outline": "1px solid rgba(255,255,255,0.2)",
   },
-  "small": Object {
-    "maxWidth": 360,
-    "padding": "12px",
-  },
-  "smallPadding": Object {
-    "padding": "8px",
-  },
   "success": Object {
     "backgroundColor": "#ebfbf1",
     "outline": "1px solid #d7f6e3",
   },
-  "text": Object {
-    "maxWidth": "100%",
-  },
   "textContainer": Object {
-    "padding": Array [
-      "12px",
-      0,
-    ],
+    "flex": 1,
   },
   "textError": Object {
     "color": "#8b1313",
-    "textDecorationColor": "#8b1313",
   },
   "textInfo": Object {
     "color": "#083CAE",
-    "textDecorationColor": "#083CAE",
   },
   "textPromote": Object {
     "color": "#fff",
-    "textDecorationColor": "#fff",
   },
   "textSuccess": Object {
     "color": "#16542e",
-    "textDecorationColor": "#16542e",
   },
   "textWarning": Object {
     "color": "#664a0e",
-    "textDecorationColor": "#664a0e",
   },
   "warning": Object {
     "backgroundColor": "#fff8e9",

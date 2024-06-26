@@ -4,7 +4,8 @@ import { Toaster, Button, toaster } from '@occmundial/occ-atomic';
 
 export default function Example3() {
     const toast = {
-        description: 'The click on the action button will call a function and dismiss the toast',
+        title: 'Toast with action button',
+        description: 'The click on the action button will call a function and dismiss the toast. The click on the action button will call a function and dismiss the toast. The click on the action button will call a function and dismiss the toast',
         action: {
             label: 'Click me',
             onClick: () => console.log('Action button clicked')
