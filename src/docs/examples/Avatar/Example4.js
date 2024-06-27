@@ -4,6 +4,6 @@ import { Avatar } from '@occmundial/occ-atomic';
 
 export default function Example4() {
     return (
-        <Avatar name="John Doe" size={40} />
+        <Avatar name="John Doe" size={64} />
     );
 }
