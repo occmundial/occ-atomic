@@ -1,3 +1,10 @@
+# [3.0.0-beta.23](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.22...v3.0.0-beta.23) (2024-06-27)
+
+
+### Bug Fixes
+
+* Align vertical centered tip and banner text ([032a704](https://github.com/occmundial/occ-atomic/commit/032a704707562dab93707a3c31aa1b26dc6be0dd))
+
 # [3.0.0-beta.22](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.21...v3.0.0-beta.22) (2024-06-26)
 
 
