@@ -10,14 +10,6 @@ Object {
     "opacity": 0,
     "transition": "all cubic-bezier(0.25,0.46,0.45,0.94) 0.2s",
   },
-  "capital": Object {
-    "color": "#083CAE",
-    "display": "inline-block",
-    "font": "400 16px/1.5 'OccText', sans-serif",
-    "gridColumnStart": "1",
-    "gridRowStart": "1",
-    "textAlign": "center",
-  },
   "clickable": Object {
     "&:active": Object {
       "background": "#ABBDE4",
@@ -47,7 +39,7 @@ Object {
     "background": "#EDEDF1",
     "pointerEvents": "none",
   },
-  "disabledCapital": Object {
+  "disabledInitials": Object {
     "color": "#878A9F",
   },
   "editable": Object {
@@ -68,6 +60,14 @@ Object {
     "&:hover $overlay": Object {
       "background": "hsl(234 75.4% 12.7% / 0.3)",
     },
+  },
+  "initials": Object {
+    "color": "#083CAE",
+    "display": "inline-block",
+    "font": "400 16px/1.5 'OccText', sans-serif",
+    "gridColumnStart": "1",
+    "gridRowStart": "1",
+    "textAlign": "center",
   },
   "overlay": Object {
     "alignItems": "center",
