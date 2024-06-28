@@ -1,3 +1,11 @@
+# [3.0.0-beta.24](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.23...v3.0.0-beta.24) (2024-06-28)
+
+
+### Bug Fixes
+
+* Handle key press on Avatar ([5821f9a](https://github.com/occmundial/occ-atomic/commit/5821f9ab94ee67af5a6ceebfe587dfa23656a9be))
+* Update structure and styles of Avatar ([ed5ad44](https://github.com/occmundial/occ-atomic/commit/ed5ad44f42e8e2665f6b1e59db149fc27b8842f4))
+
 # [3.0.0-beta.23](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.22...v3.0.0-beta.23) (2024-06-27)
 
 
