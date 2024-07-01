@@ -189,7 +189,7 @@
   "button": {
     "primary": {
       "bg": {
-        "default": "#D32E58",
+        "default": "#0059CD",
         "hover": "#A32444",
         "active": "#821C36",
         "disabled": "#F6809E"
