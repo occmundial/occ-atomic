@@ -1,3 +1,11 @@
+# [3.0.0-beta.25](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.24...v3.0.0-beta.25) (2024-07-03)
+
+
+### Bug Fixes
+
+* Add hover styles to alert link action ([1e7efde](https://github.com/occmundial/occ-atomic/commit/1e7efde311085677f43c5057769d406c88d13c33))
+* Move hover styles to cta classname ([b457e9b](https://github.com/occmundial/occ-atomic/commit/b457e9b639627361ee4b272dc64663457d67a60f))
+
 # [3.0.0-beta.24](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.23...v3.0.0-beta.24) (2024-06-28)
 
 
