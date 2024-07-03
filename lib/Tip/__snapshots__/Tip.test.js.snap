@@ -24,7 +24,12 @@ Object {
     "padding": "12px",
   },
   "cta": Object {
+    "&:hover": Object {
+      "backgroundSize": "100%",
+      "cursor": "pointer",
+    },
     "alignSelf": "start",
+    "backgroundSize": "0%",
     "cursor": "pointer",
     "font": "400 14px/1.5 'OccText', sans-serif",
     "margin": Array [
@@ -34,6 +39,7 @@ Object {
     ],
     "textDecoration": "underline",
     "textWrap": "nowrap",
+    "transition": "all ease-out 150ms",
   },
   "ctaAlert": Object {
     "alignSelf": "center",
@@ -67,6 +73,46 @@ Object {
   "info": Object {
     "backgroundColor": "#e3efff",
     "outline": "1px solid #b9d7ff",
+  },
+  "linkError": Object {
+    "&:active": Object {
+      "background": "linear-gradient(hsl(0 81.3% 51.8% / 0.2), hsl(0 81.3% 51.8% / 0.2))",
+    },
+    "background": "linear-gradient(hsl(0 81.3% 51.8% / 0.1), hsl(0 81.3% 51.8% / 0.1))",
+    "backgroundRepeat": "no-repeat",
+    "color": "#8b1313",
+  },
+  "linkInfo": Object {
+    "&:active": Object {
+      "background": "linear-gradient(hsl(221 91.2% 35.7% / 0.2), hsl(221 91.2% 35.7% / 0.2))",
+    },
+    "background": "linear-gradient(hsl(221 91.2% 35.7% / 0.1), hsl(221 91.2% 35.7% / 0.1))",
+    "backgroundRepeat": "no-repeat",
+    "color": "#083CAE",
+  },
+  "linkPromote": Object {
+    "&:active": Object {
+      "background": "linear-gradient(rgba(255,255,255,0.3), rgba(255,255,255,0.3))",
+    },
+    "background": "linear-gradient(rgba(255,255,255,0.2), rgba(255,255,255,0.2))",
+    "backgroundRepeat": "no-repeat",
+    "color": "#fff",
+  },
+  "linkSuccess": Object {
+    "&:active": Object {
+      "background": "linear-gradient(hsl(143 63.8% 52.4% / 0.2), hsl(143 63.8% 52.4% / 0.2))",
+    },
+    "background": "linear-gradient(hsl(143 63.8% 52.4% / 0.1), hsl(143 63.8% 52.4% / 0.1))",
+    "backgroundRepeat": "no-repeat",
+    "color": "#16542e",
+  },
+  "linkWarning": Object {
+    "&:active": Object {
+      "background": "linear-gradient(hsl(41.1 100% 57.1% / 0.2), hsl(41.1 100% 57.1% / 0.2))",
+    },
+    "background": "linear-gradient(hsl(41.1 100% 57.1% / 0.1), hsl(41.1 100% 57.1% / 0.1))",
+    "backgroundRepeat": "no-repeat",
+    "color": "#664a0e",
   },
   "maxWidth": Object {
     "margin": Array [
