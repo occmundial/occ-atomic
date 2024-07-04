@@ -31,16 +31,18 @@ Object {
   },
   "error": Object {
     "background": "#fce8e8",
-    "border": "1px solid #FBDFDF",
     "color": "#8b1313",
+    "outline": "1px solid #FBDFDF",
+    "outlineOffset": -1,
   },
   "errorIcon": Object {
     "background": [Function],
   },
   "featured": Object {
     "background": "#0059CD",
-    "border": "1px solid rgba(255,255,255,0.2)",
     "color": "#fff",
+    "outline": "1px solid rgba(255,255,255,0.2)",
+    "outlineOffset": -1,
   },
   "featuredIcon": Object {
     "background": [Function],
@@ -55,8 +57,9 @@ Object {
   },
   "info": Object {
     "background": "#e3efff",
-    "border": "1px solid #b9d7ff",
     "color": "#083CAE",
+    "outline": "1px solid #b9d7ff",
+    "outlineOffset": -1,
   },
   "infoIcon": Object {
     "background": [Function],
@@ -76,8 +79,9 @@ Object {
   },
   "promo": Object {
     "background": "#080D39",
-    "border": "1px solid rgba(255,255,255,0.2)",
     "color": "#fff",
+    "outline": "1px solid rgba(255,255,255,0.2)",
+    "outlineOffset": -1,
   },
   "promoIcon": Object {
     "background": [Function],
@@ -94,8 +98,9 @@ Object {
   },
   "success": Object {
     "background": "#ebfbf1",
-    "border": "1px solid #d7f6e3",
     "color": "#16542e",
+    "outline": "1px solid #d7f6e3",
+    "outlineOffset": -1,
   },
   "successIcon": Object {
     "background": [Function],
@@ -123,8 +128,9 @@ Object {
   },
   "warning": Object {
     "background": "#fff8e9",
-    "border": "1px solid #fff1d3",
     "color": "#664a0e",
+    "outline": "1px solid #fff1d3",
+    "outlineOffset": -1,
   },
   "warningIcon": Object {
     "background": [Function],
