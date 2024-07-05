@@ -1,3 +1,10 @@
+# [3.0.0-beta.26](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.25...v3.0.0-beta.26) (2024-07-05)
+
+
+### Bug Fixes
+
+* Align title if not description ([ef6a12a](https://github.com/occmundial/occ-atomic/commit/ef6a12a1dba3d5440220cfe2798801d7d08c441c))
+
 # [3.0.0-beta.25](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.24...v3.0.0-beta.25) (2024-07-03)
 
 
