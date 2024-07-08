@@ -31,7 +31,7 @@ Object {
   },
   "error": Object {
     "background": "#fce8e8",
-    "border": "1px solid #FBDFDF",
+    "boxShadow": "inset 0px 0px 0px 1px #FBDFDF",
     "color": "#8b1313",
   },
   "errorIcon": Object {
@@ -39,7 +39,7 @@ Object {
   },
   "featured": Object {
     "background": "#0059CD",
-    "border": "1px solid rgba(255,255,255,0.2)",
+    "boxShadow": "inset 0px 0px 0px 1px rgba(255,255,255,0.2)",
     "color": "#fff",
   },
   "featuredIcon": Object {
@@ -55,7 +55,7 @@ Object {
   },
   "info": Object {
     "background": "#e3efff",
-    "border": "1px solid #b9d7ff",
+    "boxShadow": "inset 0px 0px 0px 1px #b9d7ff",
     "color": "#083CAE",
   },
   "infoIcon": Object {
@@ -76,7 +76,7 @@ Object {
   },
   "promo": Object {
     "background": "#080D39",
-    "border": "1px solid rgba(255,255,255,0.2)",
+    "boxShadow": "inset 0px 0px 0px 1px rgba(255,255,255,0.2)",
     "color": "#fff",
   },
   "promoIcon": Object {
@@ -94,7 +94,7 @@ Object {
   },
   "success": Object {
     "background": "#ebfbf1",
-    "border": "1px solid #d7f6e3",
+    "boxShadow": "inset 0px 0px 0px 1px #d7f6e3",
     "color": "#16542e",
   },
   "successIcon": Object {
@@ -123,7 +123,7 @@ Object {
   },
   "warning": Object {
     "background": "#fff8e9",
-    "border": "1px solid #fff1d3",
+    "boxShadow": "inset 0px 0px 0px 1px #fff1d3",
     "color": "#664a0e",
   },
   "warningIcon": Object {
