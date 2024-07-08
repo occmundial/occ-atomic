@@ -1,3 +1,11 @@
+# [3.0.0-beta.28](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.27...v3.0.0-beta.28) (2024-07-08)
+
+
+### Bug Fixes
+
+* Add hover transition styles to link toaster ([dcb67ab](https://github.com/occmundial/occ-atomic/commit/dcb67aba17e6f669d5554f397c516aca687ebc53))
+* Move css to flexbox props ([cedb764](https://github.com/occmundial/occ-atomic/commit/cedb7644bdc88a19ca385e4a0d8902f19900eaf0))
+
 # [3.0.0-beta.27](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.26...v3.0.0-beta.27) (2024-07-08)
 
 
