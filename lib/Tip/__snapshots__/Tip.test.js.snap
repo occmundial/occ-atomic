@@ -138,7 +138,6 @@ Object {
     "outline": "1px solid #d7f6e3",
   },
   "textContainer": Object {
-    "alignSelf": "center",
     "flex": 1,
   },
   "textError": Object {
