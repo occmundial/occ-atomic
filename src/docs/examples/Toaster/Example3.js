@@ -1,15 +1,12 @@
-/* Toast with an action button */
+/* Toast with a longer timeout */
 import React, { Fragment } from 'react';
 import { Toaster, Button, toaster } from '@occmundial/occ-atomic';
 
-export default function Example3() {
+export default function Example2() {
     const toast = {
-        title: 'Toast with action button',
-        description: 'The click on the action button will call a function and dismiss the toast. The click on the action button will call a function and dismiss the toast. The click on the action button will call a function and dismiss the toast',
-        action: {
-            label: 'Click me',
-            onClick: () => console.log('Action button clicked')
-        }
+        title: 'Toast with a longer timeout',
+        description: 'This toast will be automatically dismissed in 8 seconds',
+        timer: 'longer'
     };
     return (
         <Fragment>
