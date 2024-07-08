@@ -1,3 +1,15 @@
+# [3.0.0-beta.27](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.26...v3.0.0-beta.27) (2024-07-08)
+
+
+### Bug Fixes
+
+* CHanged outlines with shadows ([bba0c01](https://github.com/occmundial/occ-atomic/commit/bba0c01a54a13b1b405c2405eb1ab764cc1ab367))
+
+
+### Features
+
+*  Changed tag border to outline ([89ccbaf](https://github.com/occmundial/occ-atomic/commit/89ccbaf7f1d0c183940cfb3ef2fb8f270928aedf))
+
 # [3.0.0-beta.26](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.25...v3.0.0-beta.26) (2024-07-05)
 
 
