@@ -6,3 +6,4 @@ coverage
 dist/bundle.js
 \.idea/
 .vscode
+src/config/componentData.js
