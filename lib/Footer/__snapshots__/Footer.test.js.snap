@@ -13,8 +13,6 @@ Object {
   },
   "column": Object {
     "paddingBottom": 16,
-    "paddingLeft": 12,
-    "paddingRight": 12,
   },
   "footer": Object {
     "@media (min-width: 992px)": Object {
@@ -30,10 +28,6 @@ Object {
       0,
       32,
     ],
-  },
-  "footerBottom": Object {
-    "paddingLeft": 12,
-    "paddingRight": 12,
   },
   "footerWithoutColumns": Object {
     "@media (min-width: 992px)": Object {
