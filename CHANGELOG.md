@@ -1,3 +1,16 @@
+# [3.0.0-beta.30](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.29...v3.0.0-beta.30) (2024-07-16)
+
+
+### Bug Fixes
+
+* Remove unnecesary bp props in grid col ([97e839a](https://github.com/occmundial/occ-atomic/commit/97e839aa4621fcbb964615167165132628b646c3))
+* Remove unnecesary margins and set auto ([96d016a](https://github.com/occmundial/occ-atomic/commit/96d016a6f3f461f5b44cbd299d8c135dc846561c))
+
+
+### Features
+
+* Update grid with new design tokens ([0fd904d](https://github.com/occmundial/occ-atomic/commit/0fd904d044323108a1e573a93e7e1a6dea99d0ef))
+
 # [3.0.0-beta.29](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.28...v3.0.0-beta.29) (2024-07-09)
 
 

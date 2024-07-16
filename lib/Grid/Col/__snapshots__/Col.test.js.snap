@@ -795,10 +795,42 @@ Object {
     },
   },
   "col": Object {
+    "@media (min-width: 1200px)": Object {
+      "padding": Array [
+        0,
+        "12px",
+      ],
+    },
+    "@media (min-width: 1500px)": Object {
+      "padding": Array [
+        0,
+        "12px",
+      ],
+    },
+    "@media (min-width: 576px)": Object {
+      "padding": Array [
+        0,
+        "8px",
+      ],
+    },
+    "@media (min-width: 768px)": Object {
+      "padding": Array [
+        0,
+        "12px",
+      ],
+    },
+    "@media (min-width: 992px)": Object {
+      "padding": Array [
+        0,
+        "12px",
+      ],
+    },
     "boxSizing": "border-box",
     "minHeight": "1px",
-    "paddingLeft": 12,
-    "paddingRight": 12,
+    "padding": Array [
+      0,
+      6,
+    ],
     "position": "relative",
   },
   "offset-xxs1": Object {

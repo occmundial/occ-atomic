@@ -28,6 +28,22 @@ class Example extends React.Component {
         const { code, description, name } = this.props.example;
         const ExampleComponent = require(`../examples/${this.props.componentName}/${name}`).default;
         const title = this.sanitizeName(code);
+
+        if (this.props.componentName === 'Grid')
+            return (
+                <div className={classes.example}>
+                    { description && <h4>{description}</h4> }
+                    <SlideDown title={title} expanded>
+                        <ExampleComponent />
+                        <p>
+                            <a href="#" className={classes.toggleCode} onClick={this.toggleCode}>
+                                {showCode ? "Hide" : "Show"} Code
+                            </a>
+                        </p>
+                        {showCode && <CodeExample>{code}</CodeExample>}
+                    </SlideDown>
+                </div>
+            )
         return (
             <div className={classes.example}>
                 { description && <h4>{description}</h4> }
