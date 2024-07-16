@@ -4,48 +4,15 @@ exports[`Pager matches the snapshot 1`] = `ShallowWrapper {}`;
 
 exports[`Pager styles matches the snapshot 1`] = `
 Object {
-  "btn": Object {
-    "& span": Object {
-      "marginBottom": "-2px",
-    },
-    "&:hover": Object {
-      "background": "#ECECEE",
-      "borderColor": "#ECECEE",
-    },
-    "border": "1px solid #bfbfbf",
-    "borderRadius": "5px",
-    "cursor": "pointer",
-    "fontFamily": "'OccText', sans-serif",
-    "outline": "0",
-    "padding": "3px 13px",
-    "transition": "0.3s all",
-  },
-  "disabled": Object {
-    "opacity": "0.4",
-    "pointerEvents": "none",
-  },
-  "listItemNext": Object {
-    "marginLeft": "15px",
-  },
-  "listItemPrevious": Object {
-    "marginRight": "15px",
-  },
   "next": Object {
-    "alignItems": "center",
-    "display": "flex",
+    "marginLeft": "8px",
   },
   "pager": Object {
     "alignItems": "center",
-    "color": "#727272",
-    "display": "flex",
-    "fontFamily": "'OccText', sans-serif",
-    "fontSize": "14px",
-    "listStyle": "none",
-    "paddingLeft": "0",
+    "display": "inline-flex",
   },
   "prev": Object {
-    "alignItems": "center",
-    "display": "flex",
+    "marginRight": "8px",
   },
 }
 `;
