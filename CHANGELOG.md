@@ -1,3 +1,17 @@
+# [3.0.0-beta.31](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.30...v3.0.0-beta.31) (2024-07-16)
+
+
+### Bug Fixes
+
+* Change styles and behavior of the Pager component ([5e65e50](https://github.com/occmundial/occ-atomic/commit/5e65e505f31f77425d5de127ae4c83b007a88d5a))
+* Fix styles of button with only an icon on the right ([f77f44e](https://github.com/occmundial/occ-atomic/commit/f77f44e7d0b7c40ec0bd388712acfdcde1a45489))
+
+
+### BREAKING CHANGES
+
+* Rename Pager's prop names.
+The logic and behavior of the Pager has changed too, now is the parent component the responsible for handling the page number, the Pager is only a modifier and no longer has an internal state and management of the current page.
+
 # [3.0.0-beta.30](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.29...v3.0.0-beta.30) (2024-07-16)
 
 
