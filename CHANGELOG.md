@@ -1,3 +1,11 @@
+# [3.0.0-beta.32](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.31...v3.0.0-beta.32) (2024-07-16)
+
+
+### Bug Fixes
+
+* Fix icon for the previous button of Pager ([c86e51a](https://github.com/occmundial/occ-atomic/commit/c86e51afd8362bb45cf43b4e7f9c357b0e6a7f13))
+* Replace ul for div in the Pager component ([9484174](https://github.com/occmundial/occ-atomic/commit/9484174789bcb4c7d32c0544b26d2e0ac88334c0))
+
 # [3.0.0-beta.31](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.30...v3.0.0-beta.31) (2024-07-16)
 
 
