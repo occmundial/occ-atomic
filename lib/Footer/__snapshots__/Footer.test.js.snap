@@ -13,8 +13,6 @@ Object {
   },
   "column": Object {
     "paddingBottom": 16,
-    "paddingLeft": 12,
-    "paddingRight": 12,
   },
   "footer": Object {
     "@media (min-width: 992px)": Object {
