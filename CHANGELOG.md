@@ -1,3 +1,38 @@
+# [3.0.0-beta.32](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.31...v3.0.0-beta.32) (2024-07-16)
+
+
+### Bug Fixes
+
+* Fix icon for the previous button of Pager ([c86e51a](https://github.com/occmundial/occ-atomic/commit/c86e51afd8362bb45cf43b4e7f9c357b0e6a7f13))
+* Replace ul for div in the Pager component ([9484174](https://github.com/occmundial/occ-atomic/commit/9484174789bcb4c7d32c0544b26d2e0ac88334c0))
+
+# [3.0.0-beta.31](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.30...v3.0.0-beta.31) (2024-07-16)
+
+
+### Bug Fixes
+
+* Change styles and behavior of the Pager component ([5e65e50](https://github.com/occmundial/occ-atomic/commit/5e65e505f31f77425d5de127ae4c83b007a88d5a))
+* Fix styles of button with only an icon on the right ([f77f44e](https://github.com/occmundial/occ-atomic/commit/f77f44e7d0b7c40ec0bd388712acfdcde1a45489))
+
+
+### BREAKING CHANGES
+
+* Rename Pager's prop names.
+The logic and behavior of the Pager has changed too, now is the parent component the responsible for handling the page number, the Pager is only a modifier and no longer has an internal state and management of the current page.
+
+# [3.0.0-beta.30](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.29...v3.0.0-beta.30) (2024-07-16)
+
+
+### Bug Fixes
+
+* Remove unnecesary bp props in grid col ([97e839a](https://github.com/occmundial/occ-atomic/commit/97e839aa4621fcbb964615167165132628b646c3))
+* Remove unnecesary margins and set auto ([96d016a](https://github.com/occmundial/occ-atomic/commit/96d016a6f3f461f5b44cbd299d8c135dc846561c))
+
+
+### Features
+
+* Update grid with new design tokens ([0fd904d](https://github.com/occmundial/occ-atomic/commit/0fd904d044323108a1e573a93e7e1a6dea99d0ef))
+
 # [3.0.0-beta.29](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.28...v3.0.0-beta.29) (2024-07-09)
 
 

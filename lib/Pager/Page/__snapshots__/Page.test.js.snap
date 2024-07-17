@@ -5,21 +5,45 @@ exports[`Page matches the snapshot 1`] = `ShallowWrapper {}`;
 exports[`Page styles matches the snapshot 1`] = `
 Object {
   "active": Object {
-    "background": "#1476fb !important",
-    "color": "#ffffff",
+    "background": "#0059CD !important",
+    "color": "#fff !important",
+    "zIndex": 1,
   },
-  "li": Object {
-    "&:hover": Object {
-      "background": "#ECECEE",
+  "disabled": Object {
+    "background": "transparent",
+    "color": "#878A9F",
+    "pointerEvents": "none",
+  },
+  "page": Object {
+    "&:active": Object {
+      "background": "hsl(234 75.4% 12.7% / 0.1)",
     },
-    "borderRadius": "13px",
+    "&:focus-visible": Object {
+      "boxShadow": "0 0 0 8px hsl(234 75.4% 12.7% / 0.1)",
+    },
+    "&:hover": Object {
+      "background": "hsl(234 75.4% 12.7% / 0.05)",
+    },
+    "alignItems": "center",
+    "background": "transparent",
+    "border": "none",
+    "borderRadius": "4px",
+    "color": "#5A5D7B",
     "cursor": "pointer",
-    "display": "inline-block",
-    "marginLeft": "4px",
-    "marginRight": "4px",
-    "outline": "0",
-    "padding": "2px 11px",
+    "display": "flex",
+    "font": "400 14px/1.5 'OccText', sans-serif",
+    "gap": "8px",
+    "justifyContent": "center",
+    "minWidth": 45,
+    "outline": "none",
+    "padding": Array [
+      "12px",
+      "8px",
+    ],
     "transition": "0.3s all",
+  },
+  "static": Object {
+    "pointerEvents": "none",
   },
 }
 `;
