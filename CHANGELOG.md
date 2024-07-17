@@ -1,3 +1,13 @@
+# [3.0.0-beta.33](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.32...v3.0.0-beta.33) (2024-07-17)
+
+
+### Bug Fixes
+
+* Remove unnecesary div ([ab699f9](https://github.com/occmundial/occ-atomic/commit/ab699f9370b51dfdb7e57d21840ce452702aecf2))
+* Resolve conflicts with beta ([e046e67](https://github.com/occmundial/occ-atomic/commit/e046e6717789a3d2ef8fd055d752a933eab18e33))
+* Revert footer changes and remove row ([3345402](https://github.com/occmundial/occ-atomic/commit/33454022daeb247db464b297ba0596cdd5956cc1))
+* Revert footer changes and remove row ([6345b4e](https://github.com/occmundial/occ-atomic/commit/6345b4ef24107127e0d1654ac32e7c3625c52442))
+
 # [3.0.0-beta.32](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.31...v3.0.0-beta.32) (2024-07-16)
 
 
