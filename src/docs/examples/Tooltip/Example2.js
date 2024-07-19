@@ -1,35 +1,27 @@
 /* Placement Top */
 import React from 'react';
-import { Tooltip, Flexbox, Button } from '@occmundial/occ-atomic';
+import { Tooltip, Flexbox, Button, Grid } from '@occmundial/occ-atomic';
 
 export default function Example2() {
 	return (
-		<Flexbox
-			display="flex"
-			justifyContent="center"
-			alignItems="center"
-			wrap="wrap"
-		>
-			<Flexbox flex-direction="col">
-				<div
-					style={{
-						display: 'flex',
-						flexDirection: 'column',
-						gap: '70px',
-						marginTop: '50px'
-					}}
-				>
-					<Tooltip placement="top" text="Top" open>
-						<Button size="md">Button</Button>
+		<Grid>
+			<Grid.Row>
+				<Grid.Col xxs={{ col: 12 }} sm={{ col: 6 }}>
+					<Tooltip placement="top" text="This is the tooltip message" open>
+						<Button size="md">Button Large</Button>
 					</Tooltip>
-					<Tooltip placement="top-start" text="Top-start" open>
-						<Button size="md">Button</Button>
+				</Grid.Col>
+				<Grid.Col xxs={{ col: 12 }} sm={{ col: 6 }}>
+					<Tooltip placement="top-start" text="This is the tooltip message" open>
+						<Button size="md">Button Large</Button>
 					</Tooltip>
-					<Tooltip placement="top-end" text="Top-end" open>
-						<Button size="md">Button</Button>
+				</Grid.Col>
+				<Grid.Col xxs={{ col: 12 }} sm={{ col: 6 }} style={{ paddingTop: 80 }}>
+					<Tooltip placement="top-end" text="This is the tooltip message" open>
+						<Button size="md">Button Large</Button>
 					</Tooltip>
-				</div>
-			</Flexbox>
-		</Flexbox>
+				</Grid.Col>
+			</Grid.Row>
+		</Grid>
 	);
 }

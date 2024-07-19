@@ -12,14 +12,14 @@ export default function Example3() {
 		>
 			<Flexbox flex-direction="col">
 				<div style={{ display: 'flex', flexDirection: 'column', gap: '70px' }}>
-					<Tooltip placement="bottom" text="Bottom" open>
+					<Tooltip placement="bottom" text="Bottom" open theme="dark">
 						<Button size="md">Button</Button>
 					</Tooltip>
-					<Tooltip placement="bottom-start" text="Bottom-start" open>
+					<Tooltip placement="bottom-start" text="Bottom-start" open theme="dark">
 						<Button size="md">Button</Button>
 					</Tooltip>
-					<div style={{ marginBottom: '50px' }}>
-						<Tooltip placement="bottom-end" text="Botton-end" open>
+					<div style={{ marginTop: '8px' }}>
+						<Tooltip placement="bottom-end" text="Botton-end" open theme="dark">
 							<Button size="md">Button</Button>
 						</Tooltip>
 					</div>

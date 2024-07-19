@@ -12,10 +12,16 @@ export default function Example4() {
 		>
 			<Flexbox flex-direction="col">
 				<div style={{ display: 'flex', flexDirection: 'column', gap: '20px' }}>
-					<Tooltip placement="left" text="Left" open>
+					<Tooltip placement="left" text="Left" open theme="dark">
 						<Button size="md">Button</Button>
 					</Tooltip>
-					<Tooltip placement="right" text="Right" open>
+					<Tooltip placement="right" text="Right" open theme="dark">
+						<Button size="md">Button</Button>
+					</Tooltip>
+					<Tooltip placement="left" text="Left" open theme="light">
+						<Button size="md">Button</Button>
+					</Tooltip>
+					<Tooltip placement="right" text="Right" open theme="light">
 						<Button size="md">Button</Button>
 					</Tooltip>
 				</div>
