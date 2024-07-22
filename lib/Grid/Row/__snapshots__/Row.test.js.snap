@@ -18,18 +18,6 @@ Object {
         "-6px",
       ],
     },
-    "@media (min-width: 1200px)": Object {
-      "margin": Array [
-        0,
-        "-12px",
-      ],
-    },
-    "@media (min-width: 1500px)": Object {
-      "margin": Array [
-        0,
-        "-12px",
-      ],
-    },
     "@media (min-width: 576px)": Object {
       "margin": Array [
         0,
@@ -37,12 +25,6 @@ Object {
       ],
     },
     "@media (min-width: 768px)": Object {
-      "margin": Array [
-        0,
-        "-12px",
-      ],
-    },
-    "@media (min-width: 992px)": Object {
       "margin": Array [
         0,
         "-12px",

@@ -795,18 +795,6 @@ Object {
     },
   },
   "col": Object {
-    "@media (min-width: 1200px)": Object {
-      "padding": Array [
-        0,
-        "12px",
-      ],
-    },
-    "@media (min-width: 1500px)": Object {
-      "padding": Array [
-        0,
-        "12px",
-      ],
-    },
     "@media (min-width: 576px)": Object {
       "padding": Array [
         0,
@@ -814,12 +802,6 @@ Object {
       ],
     },
     "@media (min-width: 768px)": Object {
-      "padding": Array [
-        0,
-        "12px",
-      ],
-    },
-    "@media (min-width: 992px)": Object {
       "padding": Array [
         0,
         "12px",
