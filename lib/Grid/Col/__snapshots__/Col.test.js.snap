@@ -431,98 +431,50 @@ Object {
     },
     "xs1": Object {
       "float": "left",
-      "padding": Array [
-        0,
-        "8px",
-      ],
       "width": "8.333333333333334%",
     },
     "xs10": Object {
       "float": "left",
-      "padding": Array [
-        0,
-        "8px",
-      ],
       "width": "83.33333333333334%",
     },
     "xs11": Object {
       "float": "left",
-      "padding": Array [
-        0,
-        "8px",
-      ],
       "width": "91.66666666666667%",
     },
     "xs12": Object {
       "float": "left",
-      "padding": Array [
-        0,
-        "8px",
-      ],
       "width": "100%",
     },
     "xs2": Object {
       "float": "left",
-      "padding": Array [
-        0,
-        "8px",
-      ],
       "width": "16.666666666666668%",
     },
     "xs3": Object {
       "float": "left",
-      "padding": Array [
-        0,
-        "8px",
-      ],
       "width": "25%",
     },
     "xs4": Object {
       "float": "left",
-      "padding": Array [
-        0,
-        "8px",
-      ],
       "width": "33.333333333333336%",
     },
     "xs5": Object {
       "float": "left",
-      "padding": Array [
-        0,
-        "8px",
-      ],
       "width": "41.66666666666667%",
     },
     "xs6": Object {
       "float": "left",
-      "padding": Array [
-        0,
-        "8px",
-      ],
       "width": "50%",
     },
     "xs7": Object {
       "float": "left",
-      "padding": Array [
-        0,
-        "8px",
-      ],
       "width": "58.333333333333336%",
     },
     "xs8": Object {
       "float": "left",
-      "padding": Array [
-        0,
-        "8px",
-      ],
       "width": "66.66666666666667%",
     },
     "xs9": Object {
       "float": "left",
-      "padding": Array [
-        0,
-        "8px",
-      ],
       "width": "75%",
     },
   },
@@ -637,98 +589,50 @@ Object {
     },
     "sm1": Object {
       "float": "left",
-      "padding": Array [
-        0,
-        "12px",
-      ],
       "width": "8.333333333333334%",
     },
     "sm10": Object {
       "float": "left",
-      "padding": Array [
-        0,
-        "12px",
-      ],
       "width": "83.33333333333334%",
     },
     "sm11": Object {
       "float": "left",
-      "padding": Array [
-        0,
-        "12px",
-      ],
       "width": "91.66666666666667%",
     },
     "sm12": Object {
       "float": "left",
-      "padding": Array [
-        0,
-        "12px",
-      ],
       "width": "100%",
     },
     "sm2": Object {
       "float": "left",
-      "padding": Array [
-        0,
-        "12px",
-      ],
       "width": "16.666666666666668%",
     },
     "sm3": Object {
       "float": "left",
-      "padding": Array [
-        0,
-        "12px",
-      ],
       "width": "25%",
     },
     "sm4": Object {
       "float": "left",
-      "padding": Array [
-        0,
-        "12px",
-      ],
       "width": "33.333333333333336%",
     },
     "sm5": Object {
       "float": "left",
-      "padding": Array [
-        0,
-        "12px",
-      ],
       "width": "41.66666666666667%",
     },
     "sm6": Object {
       "float": "left",
-      "padding": Array [
-        0,
-        "12px",
-      ],
       "width": "50%",
     },
     "sm7": Object {
       "float": "left",
-      "padding": Array [
-        0,
-        "12px",
-      ],
       "width": "58.333333333333336%",
     },
     "sm8": Object {
       "float": "left",
-      "padding": Array [
-        0,
-        "12px",
-      ],
       "width": "66.66666666666667%",
     },
     "sm9": Object {
       "float": "left",
-      "padding": Array [
-        0,
-        "12px",
-      ],
       "width": "75%",
     },
   },
@@ -891,8 +795,24 @@ Object {
     },
   },
   "col": Object {
+    "@media (min-width: 576px)": Object {
+      "padding": Array [
+        0,
+        "8px",
+      ],
+    },
+    "@media (min-width: 768px)": Object {
+      "padding": Array [
+        0,
+        "12px",
+      ],
+    },
     "boxSizing": "border-box",
     "minHeight": "1px",
+    "padding": Array [
+      0,
+      6,
+    ],
     "position": "relative",
   },
   "offset-xxs1": Object {
@@ -1005,98 +925,50 @@ Object {
   },
   "xxs1": Object {
     "float": "left",
-    "padding": Array [
-      0,
-      6,
-    ],
     "width": "8.333333333333334%",
   },
   "xxs10": Object {
     "float": "left",
-    "padding": Array [
-      0,
-      6,
-    ],
     "width": "83.33333333333334%",
   },
   "xxs11": Object {
     "float": "left",
-    "padding": Array [
-      0,
-      6,
-    ],
     "width": "91.66666666666667%",
   },
   "xxs12": Object {
     "float": "left",
-    "padding": Array [
-      0,
-      6,
-    ],
     "width": "100%",
   },
   "xxs2": Object {
     "float": "left",
-    "padding": Array [
-      0,
-      6,
-    ],
     "width": "16.666666666666668%",
   },
   "xxs3": Object {
     "float": "left",
-    "padding": Array [
-      0,
-      6,
-    ],
     "width": "25%",
   },
   "xxs4": Object {
     "float": "left",
-    "padding": Array [
-      0,
-      6,
-    ],
     "width": "33.333333333333336%",
   },
   "xxs5": Object {
     "float": "left",
-    "padding": Array [
-      0,
-      6,
-    ],
     "width": "41.66666666666667%",
   },
   "xxs6": Object {
     "float": "left",
-    "padding": Array [
-      0,
-      6,
-    ],
     "width": "50%",
   },
   "xxs7": Object {
     "float": "left",
-    "padding": Array [
-      0,
-      6,
-    ],
     "width": "58.333333333333336%",
   },
   "xxs8": Object {
     "float": "left",
-    "padding": Array [
-      0,
-      6,
-    ],
     "width": "66.66666666666667%",
   },
   "xxs9": Object {
     "float": "left",
-    "padding": Array [
-      0,
-      6,
-    ],
     "width": "75%",
   },
 }

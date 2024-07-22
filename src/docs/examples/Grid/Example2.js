@@ -4,7 +4,7 @@ import { Grid, colors, Card, grid, WindowSize } from '@occmundial/occ-atomic';
 
 function Example2({ winWidth }) {
   return (
-    <Grid style={{ background: colors.grey1 }}>
+    <Grid>
       <Grid.Row>
         <Grid.Col
           xxs={{ col: 3 }}
