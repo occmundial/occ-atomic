@@ -8,17 +8,17 @@ export default function Example2() {
 			<Grid.Row>
 				<Grid.Col xxs={{ col: 12 }} sm={{ col: 6 }}>
 					<Tooltip placement="top" text="This is the tooltip message placed at top" open>
-						<Button size="md">Button Large</Button>
+						<Button icon="plus"></Button>
 					</Tooltip>
 				</Grid.Col>
 				<Grid.Col xxs={{ col: 12 }} sm={{ col: 6 }}>
 					<Tooltip placement="top-start" text="This is the tooltip message placed at top-start" open>
-						<Button size="md">Button Large</Button>
+						<Button icon="plus"></Button>
 					</Tooltip>
 				</Grid.Col>
 				<Grid.Col xxs={{ col: 12 }} sm={{ col: 6 }} style={{ paddingTop: 80 }}>
 					<Tooltip placement="top-end" text="This is the tooltip message placed at top-end" open>
-						<Button size="md">Button Large</Button>
+						<Button icon="plus"></Button>
 					</Tooltip>
 				</Grid.Col>
 			</Grid.Row>

@@ -19,10 +19,10 @@ export default function Example1() {
 						marginTop: '50px'
 					}}
 				>
-					<Tooltip text="Light Theme" theme="light" open icon="check">
+					<Tooltip text="Light Theme" theme="light" open icon="check-circle">
 						<Button size="md">Button</Button>
 					</Tooltip>
-					<Tooltip text="Dark Theme" theme="dark" open icon="check">
+					<Tooltip text="Dark Theme" theme="dark" open icon="check-circle">
 						<Button size="md">Button</Button>
 					</Tooltip>
 				</div>

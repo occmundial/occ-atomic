@@ -1,28 +1,17 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Tooltip matches the snapshot 1`] = `"<div class=\\"activator \\"></div>"`;
+exports[`Tooltip matches the snapshot 1`] = `"<div class=\\"activator false\\"></div>"`;
 
 exports[`Tooltip styles matches the snapshot 1`] = `
 Object {
   "activator": Object {
     "display": "inline-block",
   },
-  "bottom": Object {
-    "bottom": "100%",
-    "left": "50%",
-    "position": "inherit",
-    "transform": "translateY(1px)",
-  },
-  "bottomEnd": Object {
-    "bottom": "100%",
-    "left": "50%",
-    "position": "inherit",
-    "transform": "translateY(1px)",
-  },
-  "bottomStart": Object {
-    "bottom": "100%",
-    "position": "inherit",
-    "transform": "translateY(1px)",
+  "content": Object {
+    "alignItems": "center",
+    "display": "flex",
+    "gap": "4px",
+    "justifyContent": "center",
   },
   "dark": Object {
     "background": "#000",
@@ -33,20 +22,11 @@ Object {
     "background": "#efebf7",
     "color": "#5736ab",
   },
-  "left": Object {
-    "bottom": "50%",
-    "position": "inherit",
-    "right": "0%",
-    "transform": "translateX(calc(50% + 3.5px)) translateY(50%) rotate(90deg)",
-  },
   "light": Object {
     "&:after": Object {
       "boxShadow": "inset -2px -2px 0 -1px #EDEDF1",
     },
-    "background": Object {
-      "default": "#fff",
-      "inverse": "#080D39",
-    },
+    "background": "#fff",
     "boxShadow": "inset 0 0 0 1px #EDEDF1",
     "color": "#5736ab",
   },
@@ -54,42 +34,16 @@ Object {
     "background": "#5736ab",
     "color": "#ffffff",
   },
-  "right": Object {
-    "bottom": "50%",
-    "left": "0%",
-    "position": "inherit",
-    "transform": "translateX(calc(-50% - 3.5px)) translateY(50%) rotate(-90deg)",
-  },
   "text": Object {
     "font": "300 12px/1.5 'OccText', sans-serif",
     "margin": 0,
   },
   "tooltip": Object {
-    "alignItems": "center",
     "borderRadius": "4px",
-    "display": "flex",
-    "gap": "4px",
     "padding": Array [
       "8px",
       "12px",
     ],
-  },
-  "top": Object {
-    "left": "50%",
-    "marginTop": "-1px",
-    "position": "inherit",
-    "transform": "rotate(180deg)",
-  },
-  "topEnd": Object {
-    "marginTop": "-1px",
-    "position": "inherit",
-    "right": "0%",
-    "transform": "rotate(180deg)",
-  },
-  "topStart": Object {
-    "marginTop": "-1px",
-    "position": "inherit",
-    "transform": "rotate(180deg)",
   },
 }
 `;

@@ -1,3 +1,11 @@
+# [3.0.0-beta.34](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.33...v3.0.0-beta.34) (2024-07-22)
+
+
+### Bug Fixes
+
+* Reuse col breakpoints ([0da7c54](https://github.com/occmundial/occ-atomic/commit/0da7c541bbf6ceb5df8a2c0011cc0e18068ad5fb))
+* Revert some changes, remove unnecesary bp and add padding to grid ([6eb2e99](https://github.com/occmundial/occ-atomic/commit/6eb2e9960029d94c5fcd7eb23efc31366135a7ea))
+
 # [3.0.0-beta.33](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.32...v3.0.0-beta.33) (2024-07-17)
 
 
