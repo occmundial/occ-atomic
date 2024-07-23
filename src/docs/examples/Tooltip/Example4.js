@@ -13,7 +13,7 @@ export default function Example4() {
 			<Flexbox display='flex' direction="col" style={{ gap: 20 }}>
 				<Flexbox>
 					<Tooltip placement="left" text="Left" open theme="dark">
-						<Button size="md">Button with largte content</Button>
+						<Button size="md">Button with large content</Button>
 					</Tooltip>
 				</Flexbox>
 				<Flexbox>
