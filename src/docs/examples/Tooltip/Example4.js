@@ -10,21 +10,27 @@ export default function Example4() {
 			alignItems="center"
 			wrap="wrap"
 		>
-			<Flexbox flex-direction="col">
-				<div style={{ display: 'flex', flexDirection: 'column', gap: '20px' }}>
+			<Flexbox display='flex' direction="col" style={{ gap: 20 }}>
+				<Flexbox>
 					<Tooltip placement="left" text="Left" open theme="dark">
-						<Button size="md">Button</Button>
+						<Button size="md">Button with largte content</Button>
 					</Tooltip>
+				</Flexbox>
+				<Flexbox>
 					<Tooltip placement="right" text="Right" open theme="dark">
 						<Button size="md">Button</Button>
 					</Tooltip>
+				</Flexbox>
+				<Flexbox>
 					<Tooltip placement="left" text="Left" open theme="light">
 						<Button size="md">Button</Button>
 					</Tooltip>
+				</Flexbox>
+				<Flexbox>
 					<Tooltip placement="right" text="Right" open theme="light">
 						<Button size="md">Button</Button>
 					</Tooltip>
-				</div>
+				</Flexbox>
 			</Flexbox>
 		</Flexbox>
 	);
