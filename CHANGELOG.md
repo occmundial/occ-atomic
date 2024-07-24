@@ -1,3 +1,12 @@
+# [3.0.0-beta.36](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.35...v3.0.0-beta.36) (2024-07-24)
+
+
+### Bug Fixes
+
+* Pass props directly ([39fc2c4](https://github.com/occmundial/occ-atomic/commit/39fc2c455fead75aec07995b3f99123774b28100))
+* Remove unnecesary arrow padding ([fcbf53b](https://github.com/occmundial/occ-atomic/commit/fcbf53bbf2f750dab61d82021be54f5eb95f3e7b))
+* Remove unnused variable ([613405c](https://github.com/occmundial/occ-atomic/commit/613405c2466d79a0694f33aa0b19c2d55160ca8b))
+
 # [3.0.0-beta.35](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.34...v3.0.0-beta.35) (2024-07-24)
 
 
