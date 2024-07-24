@@ -1,3 +1,17 @@
+# [3.0.0-beta.35](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.34...v3.0.0-beta.35) (2024-07-24)
+
+
+### Bug Fixes
+
+* Change end start tooltip behaviour ([220bcb8](https://github.com/occmundial/occ-atomic/commit/220bcb8c071735ab33eb20817afb5cfcc83106b8))
+* Change svg to floating arrow ([09b1d67](https://github.com/occmundial/occ-atomic/commit/09b1d67810e5b354b3656efc92b623e3e55abc9c))
+* Set min width for end or start and update examples ([65a9f31](https://github.com/occmundial/occ-atomic/commit/65a9f315dc38c011a4563b7726e5bbd4fd2c2725))
+
+
+### Features
+
+* Update tooltip with new design tokens ([1843c88](https://github.com/occmundial/occ-atomic/commit/1843c887fc232adc0b4877b8348777448394395f))
+
 # [3.0.0-beta.34](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.33...v3.0.0-beta.34) (2024-07-22)
 
 
