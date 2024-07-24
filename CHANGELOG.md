@@ -1,3 +1,10 @@
+# [3.0.0-beta.37](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.36...v3.0.0-beta.37) (2024-07-24)
+
+
+### Bug Fixes
+
+* Add placement to use memo dependencies ([3a14e00](https://github.com/occmundial/occ-atomic/commit/3a14e00b5fe72d55043f1be4b1fb57f1c860d584))
+
 # [3.0.0-beta.36](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.35...v3.0.0-beta.36) (2024-07-24)
 
 
