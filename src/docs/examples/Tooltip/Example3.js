@@ -16,10 +16,10 @@ export default function Example3() {
 						<Button size="md">Button with large content</Button>
 					</Tooltip>
 					<Tooltip placement="bottom-start" text="Bottom-start large content" open theme="dark">
-						<Button size="md">Button with </Button>
+						<Button size="md">Button</Button>
 					</Tooltip>
 					<div style={{ marginTop: '8px' }}>
-						<Tooltip placement="bottom-end" text="Botton-end" open theme="dark">
+						<Tooltip placement="bottom-end" text="Botton" open theme="dark">
 							<Button size="md">Button with large content</Button>
 						</Tooltip>
 					</div>
