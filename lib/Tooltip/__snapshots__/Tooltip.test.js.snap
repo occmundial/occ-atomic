@@ -1,14 +1,21 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Tooltip matches the snapshot 1`] = `"<div class=\\"activator false\\"></div>"`;
+exports[`Tooltip matches the snapshot 1`] = `"<div class=\\"activator \\"></div>"`;
 
 exports[`Tooltip styles matches the snapshot 1`] = `
 Object {
   "activator": Object {
     "display": "inline-block",
   },
+  "content": Object {
+    "alignItems": "center",
+    "display": "flex",
+    "gap": "4px",
+    "justifyContent": "center",
+  },
   "dark": Object {
-    "background": "#222222",
+    "background": "#000",
+    "boxShadow": "inset 0 0 0 1px rgba(255,255,255,0.2)",
     "color": "#ffffff",
   },
   "info": Object {
@@ -16,18 +23,27 @@ Object {
     "color": "#5736ab",
   },
   "light": Object {
-    "background": "#ffffff",
+    "&:after": Object {
+      "boxShadow": "inset -2px -2px 0 -1px #EDEDF1",
+    },
+    "background": "#fff",
+    "boxShadow": "inset 0 0 0 1px #EDEDF1",
     "color": "#5736ab",
   },
   "purple": Object {
     "background": "#5736ab",
     "color": "#ffffff",
   },
+  "text": Object {
+    "font": "300 12px/1.5 'OccText', sans-serif",
+    "margin": 0,
+  },
   "tooltip": Object {
     "borderRadius": "4px",
-    "fontSize": "14px",
-    "lineHeight": 1.5,
-    "padding": "16px",
+    "padding": Array [
+      "8px",
+      "12px",
+    ],
   },
 }
 `;
