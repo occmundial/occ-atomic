@@ -1,3 +1,10 @@
+# [3.0.0-beta.38](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.37...v3.0.0-beta.38) (2024-07-25)
+
+
+### Bug Fixes
+
+* Icon disabled styles ([d8bc738](https://github.com/occmundial/occ-atomic/commit/d8bc73881275ec1537e5a06bd37f9a869a5fe210))
+
 # [3.0.0-beta.37](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.36...v3.0.0-beta.37) (2024-07-24)
 
 
