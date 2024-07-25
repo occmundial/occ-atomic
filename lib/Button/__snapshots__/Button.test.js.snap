@@ -262,7 +262,7 @@ Object {
       },
       "background": "transparent",
       "color": "#486EC3",
-      "outline": "2px solid #8DA5DA",
+      "outlineColor": "#8DA5DA",
     },
     "&:active": Object {
       "background": "hsl(221 91.2% 35.7% / 0.1)",
