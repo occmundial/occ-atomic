@@ -1,3 +1,10 @@
+## [2.0.2](https://github.com/occmundial/occ-atomic/compare/v2.0.1...v2.0.2) (2024-07-26)
+
+
+### Bug Fixes
+
+* Icon disabled styles ([cee2a23](https://github.com/occmundial/occ-atomic/commit/cee2a2352b8a2e410fbe56c5106b88ba9c8b0487))
+
 ## [2.0.1](https://github.com/occmundial/occ-atomic/compare/v2.0.0...v2.0.1) (2024-06-12)
 
 
