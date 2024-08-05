@@ -27,50 +27,29 @@ Object {
       "opacity": 1,
     },
   },
-  "bottom": Object {
-    "marginTop": 8,
-    "textAlign": "right",
-  },
   "card": Object {
     "@media screen and (max-width:575px)": Object {
       "borderRadius": [Function],
       "minHeight": [Function],
-      "padding": [Function],
     },
-    "@media screen and (min-width:768px)": Object {
-      "padding": 32,
-    },
+    "background": "#fff",
+    "border": "1px solid #D3D4DC",
+    "borderRadius": "8px",
     "cursor": "auto",
     "maxWidth": "100%",
-    "padding": 16,
+    "overflow": "hidden",
     "transition": "0.3s opacity, 0.3s margin-top",
   },
   "cardBlock": Object {
     "@media screen and (max-width:575px)": Object {
-      "height": [Function],
       "margin": [Function],
     },
     "margin": 12,
   },
-  "cardHide": Object {
-    "marginTop": -64,
-    "opacity": 0,
-  },
-  "cardShow": Object {
-    "animation": "0.3s modalFadeDown ease-out",
-  },
   "cardWrapper": Object {
-    "@media screen and (max-width:575px)": Object {
-      "height": [Function],
-    },
-    "maxHeight": "100%",
-    "maxWidth": "100%",
+    "maxHeight": "100vh",
+    "maxWidth": "100vw",
     "position": "relative",
-  },
-  "closeIcon": Object {
-    "alignItems": "center",
-    "display": "flex",
-    "height": 32,
   },
   "closePosition": Object {
     "@media screen and (min-width:768px)": Object {
@@ -89,83 +68,126 @@ Object {
       "background": "#dddddd",
       "borderRadius": 3,
     },
-    "@media screen and (min-width:768px)": Object {
-      "marginLeft": -32,
-      "marginRight": -32,
-      "paddingLeft": 32,
-      "paddingRight": 32,
-    },
-    "marginLeft": -16,
-    "marginRight": -16,
-    "paddingLeft": 16,
-    "paddingRight": 16,
+    "flex": 1,
+    "overflow": "auto",
     "transition": "0.1s height",
   },
-  "imgLeft": Object {
-    "@media screen and (min-width:768px)": Object {
-      "marginBottom": -32,
-      "marginLeft": -32,
-      "marginRight": 32,
-      "marginTop": -32,
+  "contentChild": Object {
+    "@media screen and (min-width:576px)": Object {
+      "padding": Array [
+        "12px",
+        "40px",
+      ],
     },
-    "backgroundColor": [Function],
-    "backgroundImage": [Function],
-    "backgroundPosition": [Function],
-    "backgroundRepeat": "no-repeat",
-    "backgroundSize": [Function],
-    "borderRadius": Array [
-      6,
-      0,
-      0,
-      6,
+    "borderBottom": "1px solid transparent",
+    "padding": "12px",
+  },
+  "contentWrapper": Object {
+    "flex": 1,
+    "height": "auto",
+    "maxHeight": "85vh",
+  },
+  "footer": Object {
+    "@media screen and (min-width:576px)": Object {
+      "flexDirection": "row",
+      "gap": "8px",
+      "justifyContent": "flex-end",
+      "padding": Array [
+        "16px",
+        "40px",
+      ],
+    },
+    "borderTop": "1px solid transparent",
+    "display": "flex",
+    "flexDirection": "column-reverse",
+    "flexGrow": 0,
+    "gap": "4px",
+    "padding": "12px",
+    "textAlign": "right",
+  },
+  "footerBorder": Object {
+    "borderTop": "1px solid #EDEDF1",
+  },
+  "fullSize": Object {
+    "& $contentWrapper": Object {
+      "@media screen and (min-width:576px)": Object {
+        "height": "auto",
+        "maxHeight": "85vh",
+      },
+      "height": "100vh",
+      "maxHeight": "100vh",
+      "overflow": "auto",
+    },
+    "@media screen and (max-width:575px)": Object {
+      "border": 0,
+      "width": "100% !important",
+    },
+  },
+  "header": Object {
+    "@media screen and (min-width:576px)": Object {
+      "height": 72,
+      "padding": Array [
+        "16px",
+        "16px",
+        "16px",
+        "40px",
+      ],
+    },
+    "alignItems": "center",
+    "background": "transparent",
+    "border": "1px solid transparent",
+    "display": "flex",
+    "flexGrow": 0,
+    "height": 56,
+    "padding": Array [
+      "8px",
+      "12px",
     ],
-    "marginBottom": -16,
-    "marginLeft": -16,
-    "marginRight": 16,
-    "marginTop": -16,
-    "width": 200,
+    "transition": "0.2s all",
+    "zIndex": 1,
+  },
+  "headerBorder": Object {
+    "borderBottom": "1px solid #EDEDF1",
+  },
+  "hide": Object {
+    "& $card": Object {
+      "marginTop": -64,
+      "opacity": 0,
+    },
+    "opacity": 0,
+  },
+  "imgLeft": Object {
+    "@media screen and (min-width:576px)": Object {
+      "display": "block",
+      "width": 200,
+    },
+    "display": "none",
   },
   "imgTop": Object {
-    "@media screen and (min-width:768px)": Object {
-      "marginBottom": 32,
-      "marginLeft": -32,
-      "marginRight": -32,
-      "marginTop": -32,
-    },
-    "backgroundColor": [Function],
-    "backgroundImage": [Function],
-    "backgroundPosition": [Function],
-    "backgroundRepeat": "no-repeat",
-    "backgroundSize": [Function],
-    "borderRadius": Array [
-      6,
-      6,
-      0,
-      0,
-    ],
-    "height": [Function],
-    "marginBottom": 16,
-    "marginLeft": -16,
-    "marginRight": -16,
-    "marginTop": -16,
-    "position": "relative",
+    "aspectRatio": "21 / 9",
+    "maxHeight": 200,
+    "objectFit": "cover",
+    "width": "100%",
   },
   "lg": Object {
     "width": 820,
   },
-  "mainBtn": Object {
-    "marginLeft": 24,
-    "marginTop": 16,
-  },
   "md": Object {
     "@media screen and (max-width:767px)": Object {
       "maxWidth": "100%",
-      "width": 322,
     },
-    "width": 520,
+    "width": 600,
   },
   "noClose": Object {
     "cursor": "default",
+  },
+  "noFooter": Object {
+    "paddingBottom": "40px",
+  },
+  "noHeader": Object {
+    "@media screen and (min-width:768px)": Object {
+      "paddingTop": "40px",
+    },
   },
   "overlay": Object {
     "alignItems": "center",
@@ -175,29 +197,59 @@ Object {
     "height": "100%",
     "justifyContent": "center",
     "left": 0,
-    "overflow": "auto",
     "position": "fixed",
     "top": 0,
     "transition": "0.3s all",
     "width": "100%",
     "zIndex": 1000,
   },
-  "overlayHide": Object {
-    "opacity": 0,
-  },
-  "overlayShow": Object {
+  "show": Object {
+    "& $card": Object {
+      "animation": "0.3s modalFadeDown ease-out",
+    },
     "animation": "0.3s modalFadeIn linear",
   },
-  "secBtn": Object {
-    "marginTop": 16,
-  },
   "sm": Object {
+    "& $contentChild": Object {
+      "padding": "12px",
+    },
+    "& $footer": Object {
+      "flexDirection": "column-reverse",
+      "gap": "4px",
+      "padding": "12px",
+    },
+    "& $header": Object {
+      "height": 56,
+      "padding": Array [
+        "8px",
+        "12px",
+      ],
+    },
+    "& $title": Object {
+      "font": "400 20px/1.1 'OccText', sans-serif",
+    },
     "maxWidth": "100%",
-    "width": 322,
+    "width": 320,
   },
-  "title": Object {},
-  "top": Object {
-    "marginBottom": 16,
+  "solidHeader": Object {
+    "background": "#fff",
+  },
+  "split": Object {
+    "display": "flex",
+    "flexDirection": "row",
+  },
+  "stickyHeader": Object {
+    "@media screen and (min-width:576px)": Object {
+      "marginBottom": -72,
+    },
+    "marginBottom": -56,
+  },
+  "title": Object {
+    "@media screen and (min-width:576px)": Object {
+      "font": "400 24px/1.1 'OccText', sans-serif",
+    },
+    "font": "400 20px/1.1 'OccText', sans-serif",
+    "margin": 0,
   },
   "xl": Object {
     "width": 1024,
