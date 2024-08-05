@@ -1,3 +1,10 @@
+# [3.0.0-beta.40](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.39...v3.0.0-beta.40) (2024-08-05)
+
+
+### Features
+
+* Update the Modal component ([b10976b](https://github.com/occmundial/occ-atomic/commit/b10976b0a7e2020d714f2097b3fb6b4f12aadb6e))
+
 # [3.0.0-beta.39](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.38...v3.0.0-beta.39) (2024-07-31)
 
 
