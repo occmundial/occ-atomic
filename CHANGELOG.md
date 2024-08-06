@@ -1,3 +1,17 @@
+# [3.0.0-beta.40](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.39...v3.0.0-beta.40) (2024-08-05)
+
+
+### Features
+
+* Update the Modal component ([b10976b](https://github.com/occmundial/occ-atomic/commit/b10976b0a7e2020d714f2097b3fb6b4f12aadb6e))
+
+# [3.0.0-beta.39](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.38...v3.0.0-beta.39) (2024-07-31)
+
+
+### Bug Fixes
+
+* Render initials only if there's no photo prop ([b643eab](https://github.com/occmundial/occ-atomic/commit/b643eab76f676c126962b9935eaeba7f563d2ac9))
+
 # [3.0.0-beta.38](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.37...v3.0.0-beta.38) (2024-07-25)
 
 
