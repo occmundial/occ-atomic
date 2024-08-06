@@ -7,34 +7,75 @@ Object {
   "button": Object {
     "cursor": "pointer",
   },
+  "buttonPadding": Object {
+    "paddingLeft": "16px",
+    "paddingRight": "16px",
+  },
   "content": Object {
-    "transition": "0.3s all ease-out",
+    "overflow": "hidden",
+    "transform": "translateY(-10px)",
+    "transition": "transform cubic-bezier(0.25,0.46,0.45,0.94) 0.2s",
+  },
+  "contentWrapper": Object {
+    "display": "grid",
+    "gridTemplateRows": "0fr",
+    "opacity": 0,
+    "transition": "grid-template-rows cubic-bezier(0.25,0.46,0.45,0.94) 0.2s 0.05s, opacity cubic-bezier(0.25,0.46,0.45,0.94) 0.2s",
+  },
+  "divider": Object {
+    "border": "1px solid #EDEDF1",
+    "marginTop": "-2px",
+  },
+  "flexContainer": Object {
+    "gap": "16px",
   },
   "hide": Object {
-    "marginBottom": 16,
-    "marginTop": -16,
+    "marginBottom": "16px",
+    "marginTop": NaN,
     "opacity": 0,
     "pointerEvents": "none",
   },
   "icon": Object {
-    "marginLeft": 8,
-    "marginTop": 4,
+    "transition": "rotate cubic-bezier(0.25,0.46,0.45,0.94) 0.2s",
+  },
+  "largePadding": Object {
+    "paddingBottom": "16px",
+    "paddingTop": "16px",
+  },
+  "leftIcon": Object {
+    "marginRight": "8px",
+  },
+  "normalPadding": Object {
+    "paddingBottom": "12px",
+    "paddingTop": "12px",
+  },
+  "rotateIcon": Object {
+    "transform": "rotate(-180deg)",
   },
   "show": Object {
     "marginBottom": 0,
     "marginTop": 0,
     "opacity": 1,
   },
+  "showContent": Object {
+    "transform": "translateY(0px)",
+    "transition": "transform cubic-bezier(0.25,0.46,0.45,0.94) 0.2s 0.05s",
+  },
+  "showContentWrapper": Object {
+    "gridTemplateRows": "1fr",
+    "opacity": 1,
+    "transition": "grid-template-rows cubic-bezier(0.25,0.46,0.45,0.94) 0.2s, opacity cubic-bezier(0.25,0.46,0.45,0.94) 0.2s 0.05s",
+  },
   "tag": Object {
-    "marginLeft": 8,
-    "marginTop": 4,
+    "marginLeft": "8px",
+    "marginTop": "4px",
     "pointerEvents": "none",
   },
   "text": Object {
     "cursor": "pointer",
   },
   "wrapper": Object {
-    "marginBottom": 16,
+    "marginBottom": "16px",
   },
 }
 `;
