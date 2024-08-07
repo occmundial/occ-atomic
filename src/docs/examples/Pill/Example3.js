@@ -24,6 +24,22 @@ export default class Example3 extends React.Component {
                 {
                     id:4,
                     label:'Element 4'
+                },
+                {
+                    id:5,
+                    label:'Element 4'
+                },
+                {
+                    id:6,
+                    label:'Element 4'
+                },
+                {
+                    id:7,
+                    label:'Element 4'
+                },
+                {
+                    id:8,
+                    label:'Element 4'
                 }
             ],
             id: ''
