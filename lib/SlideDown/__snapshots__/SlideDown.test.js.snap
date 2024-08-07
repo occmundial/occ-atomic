@@ -29,12 +29,6 @@ Object {
   "flexContainer": Object {
     "gap": "16px",
   },
-  "hide": Object {
-    "marginBottom": "16px",
-    "marginTop": NaN,
-    "opacity": 0,
-    "pointerEvents": "none",
-  },
   "icon": Object {
     "transition": "rotate cubic-bezier(0.25,0.46,0.45,0.94) 0.2s",
   },
@@ -52,12 +46,8 @@ Object {
   "rotateIcon": Object {
     "transform": "rotate(-180deg)",
   },
-  "show": Object {
-    "marginBottom": 0,
-    "marginTop": 0,
-    "opacity": 1,
-  },
   "showContent": Object {
+    "marginBottom": "12px",
     "transform": "translateY(0px)",
     "transition": "transform cubic-bezier(0.25,0.46,0.45,0.94) 0.2s 0.05s",
   },
