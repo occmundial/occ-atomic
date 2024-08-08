@@ -1,3 +1,17 @@
+# [3.0.0-beta.41](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.40...v3.0.0-beta.41) (2024-08-07)
+
+
+### Bug Fixes
+
+* Add no padding prop to slide down navigation menu ([bda81dc](https://github.com/occmundial/occ-atomic/commit/bda81dc102efb4c2bba25a83638baeb00cad2f60))
+* Remove component data file ([6e58558](https://github.com/occmundial/occ-atomic/commit/6e58558cba4627e3e6ee3aea7ac2d55f21ffd5c0))
+
+
+### Features
+
+* Add custom title prop ([fd14212](https://github.com/occmundial/occ-atomic/commit/fd142127a26207e28c3ab57fa32486066fb03f75))
+* Update slidedown with new design tokens ([930da58](https://github.com/occmundial/occ-atomic/commit/930da58f04c7b87b5687784dc67fcb7eb2e200e7))
+
 # [3.0.0-beta.40](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.39...v3.0.0-beta.40) (2024-08-05)
 
 
