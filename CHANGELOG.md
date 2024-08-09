@@ -1,3 +1,10 @@
+# [3.0.0-beta.44](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.43...v3.0.0-beta.44) (2024-08-09)
+
+
+### Features
+
+* Placeholder styles and documentation revamp ([1b66e82](https://github.com/occmundial/occ-atomic/commit/1b66e82cab64d8a23bd7dd336c9bb4666242846c))
+
 # [3.0.0-beta.43](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.42...v3.0.0-beta.43) (2024-08-08)
 
 
