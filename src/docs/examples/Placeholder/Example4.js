@@ -2,7 +2,7 @@
 import React from 'react';
 import { Placeholder, Flexbox, Grid, spacing } from '@occmundial/occ-atomic';
 
-export default function Example2() {
+export default function Example4() {
     return (
         <Grid fluid>
             <Grid.Row>
