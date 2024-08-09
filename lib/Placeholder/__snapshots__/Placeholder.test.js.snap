@@ -12,6 +12,38 @@ Object {
       "transform": "translate3d(100%, 0, 0)",
     },
   },
+  "bodyLarge": Object {
+    "height": 18,
+    "margin": "4.5px 0",
+  },
+  "bodyLargeStrong": Object {
+    "height": 18,
+    "margin": "4.5px 0",
+  },
+  "bodyRegular": Object {
+    "height": 16,
+    "margin": "4px 0",
+  },
+  "bodyRegularStrong": Object {
+    "height": 16,
+    "margin": "4px 0",
+  },
+  "bodySmall": Object {
+    "height": 14,
+    "margin": "3.5px 0",
+  },
+  "bodySmallStrong": Object {
+    "height": 14,
+    "margin": "3.5px 0",
+  },
+  "bodyXLarge": Object {
+    "height": 20,
+    "margin": "5px 0",
+  },
+  "bodyXSmall": Object {
+    "height": 12,
+    "margin": "3px 0",
+  },
   "bottombase": Object {
     "marginBottom": 24,
   },
@@ -33,40 +65,67 @@ Object {
   "bottomxTiny": Object {
     "marginBottom": 4,
   },
-  "heading": Object {
-    "& $placeholder": Object {
-      "height": 22,
+  "dark": Object {
+    "&:after": Object {
+      "background": "linear-gradient(90deg, rgba(255,255,255,0), rgba(255,255,255,0.1) , rgba(255,255,255,0) )",
     },
-    "height": 32,
+    "background": "rgba(255,255,255,0.1)",
+    "overflow": "hidden",
   },
-  "headline": Object {
-    "& $placeholder": Object {
-      "height": 36,
+  "display": Object {
+    "@media screen and (min-width:768px)": Object {
+      "height": 72,
+      "margin": "3.6px 0",
     },
     "height": 48,
+    "margin": "2.4px 0",
   },
-  "hero": Object {
-    "& $placeholder": Object {
-      "height": 57,
+  "h1": Object {
+    "@media screen and (min-width:768px)": Object {
+      "height": 48,
+      "margin": "2.4px 0",
     },
-    "height": 72,
+    "height": 32,
+    "margin": "1.6px 0",
   },
-  "large": Object {
-    "& $placeholder": Object {
-      "height": 17,
+  "h2": Object {
+    "@media screen and (min-width:768px)": Object {
+      "height": 40,
+      "margin": "2px 0",
+    },
+    "height": 28,
+    "margin": "1.4px 0",
+  },
+  "h3": Object {
+    "@media screen and (min-width:768px)": Object {
+      "height": 30.8,
+      "margin": "1.4px 0",
     },
     "height": 24,
+    "margin": "1.2px 0",
   },
-  "micro": Object {
-    "& $placeholder": Object {
-      "height": 11,
+  "h4": Object {
+    "@media screen and (min-width:768px)": Object {
+      "height": 24,
+      "padding": "1.2px 0",
     },
-    "height": 16,
+    "height": 20,
+    "margin": "1px 0",
+  },
+  "h5": Object {
+    "height": 18,
+    "margin": "0.9px 0",
+  },
+  "light": Object {
+    "&:after": Object {
+      "background": "linear-gradient(90deg, rgba(0,0,0,0.0) , rgba(0,0,0,0.05) , rgba(0,0,0,0.0) )",
+    },
+    "background": "rgba(0,0,0,0.05)",
+    "overflow": "hidden",
   },
   "placeholder": Object {
     "&:after": Object {
       "animation": "progress 2s ease-in-out infinite",
-      "background": "linear-gradient(90deg, rgba(204, 204, 204, 0), rgba(204, 204, 204, 0.7), rgba(204, 204, 204, 0))",
       "content": "\\"\\"",
       "height": "100%",
       "left": 0,
@@ -74,10 +133,8 @@ Object {
       "top": 0,
       "width": "100%",
     },
-    "background": "#f2f2f2",
     "borderRadius": 4,
     "height": [Function],
-    "mixBlendMode": "multiply",
     "overflow": "hidden",
     "position": "relative",
     "width": [Function],
@@ -85,23 +142,9 @@ Object {
   "round": Object {
     "borderRadius": "50%",
   },
-  "small": Object {
-    "& $placeholder": Object {
-      "height": 13,
-    },
-    "height": 16,
-  },
-  "standard": Object {
-    "& $placeholder": Object {
-      "height": 15,
-    },
-    "height": 24,
-  },
-  "subheading": Object {
-    "& $placeholder": Object {
-      "height": 17,
-    },
-    "height": 24,
+  "tag": Object {
+    "height": 10,
+    "margin": "2.5px 0",
   },
   "topbase": Object {
     "marginTop": 24,
