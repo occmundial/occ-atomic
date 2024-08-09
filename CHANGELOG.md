@@ -1,3 +1,17 @@
+# [3.0.0-beta.43](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.42...v3.0.0-beta.43) (2024-08-08)
+
+
+### Bug Fixes
+
+* Remove tag margin top ([1ded38b](https://github.com/occmundial/occ-atomic/commit/1ded38b41d781d9d15ba210d8b879a316cda0dd7))
+
+# [3.0.0-beta.42](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.41...v3.0.0-beta.42) (2024-08-08)
+
+
+### Bug Fixes
+
+* Change div divider for box shadow ([a2f1f8d](https://github.com/occmundial/occ-atomic/commit/a2f1f8d1af7b122b7546c6b405c93344a1aa9391))
+
 # [3.0.0-beta.41](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.40...v3.0.0-beta.41) (2024-08-07)
 
 
