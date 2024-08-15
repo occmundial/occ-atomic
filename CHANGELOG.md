@@ -1,3 +1,15 @@
+# [3.0.0-beta.45](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.44...v3.0.0-beta.45) (2024-08-15)
+
+
+### Bug Fixes
+
+* Resolve conflicts ([c52608d](https://github.com/occmundial/occ-atomic/commit/c52608d63b00072280a8731515276bd477ca41fd))
+
+
+### Features
+
+* Add disabled state ([717d1cc](https://github.com/occmundial/occ-atomic/commit/717d1cc4c9a2fd3becb2d03b7663729778c59ec2))
+
 # [3.0.0-beta.44](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.43...v3.0.0-beta.44) (2024-08-09)
 
 
