@@ -51,7 +51,6 @@ export default function Example1() {
 						title="Title 3"
 						icon={tabsProps.withIcon ? 'search' : ''}
 						value="value3"
-                        disabled
 						counter={tabsProps.withCounter ? '20' : ''}
 					/>
 					<Tab
