@@ -1,3 +1,10 @@
+# [3.0.0-beta.47](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.46...v3.0.0-beta.47) (2024-08-26)
+
+
+### Bug Fixes
+
+* Adjust icon size and align button items ([41702cc](https://github.com/occmundial/occ-atomic/commit/41702cc20135eb298d730a41e51d87e04bc86051))
+
 # [3.0.0-beta.46](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.45...v3.0.0-beta.46) (2024-08-26)
 
 
