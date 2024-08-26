@@ -45,7 +45,7 @@ module.exports = [
 	},
 	{
 		name: 'Organisms',
-		components: ['Footer', 'Header']
+		components: ['Footer', 'Header', 'Tabs']
 	},
 	{
 		name: 'Header',
