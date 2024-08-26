@@ -1,3 +1,10 @@
+# [3.0.0-beta.46](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.45...v3.0.0-beta.46) (2024-08-26)
+
+
+### Features
+
+* Create tabs component ([bf5af21](https://github.com/occmundial/occ-atomic/commit/bf5af2136a5c78716ba4aeca66406532ec3451cc))
+
 # [3.0.0-beta.45](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.44...v3.0.0-beta.45) (2024-08-15)
 
 
