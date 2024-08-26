@@ -1,3 +1,11 @@
+# [3.0.0-beta.48](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.47...v3.0.0-beta.48) (2024-08-26)
+
+
+### Bug Fixes
+
+* Validate tab status to set correct styles ([1261415](https://github.com/occmundial/occ-atomic/commit/1261415e7ae4cc06336cd62fc6122c5a3152b0f5))
+* Validate tab status to set correct styles ([c125026](https://github.com/occmundial/occ-atomic/commit/c125026d0af8504be3188e1f04a2a83c48ce0c46))
+
 # [3.0.0-beta.47](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.46...v3.0.0-beta.47) (2024-08-26)
 
 
