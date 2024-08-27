@@ -8,40 +8,55 @@ export default function Example5() {
             <Tip
                 icon
                 banner
-                onClose={() => alert('Closing tip')}
                 theme="info"
+                cta={{
+                    text: 'Click here.',
+                    onClick: () => alert('CTA clicked!')
+                }}
             >
                 Tip with some simple text.
             </Tip>
             <Tip
                 icon
                 banner
-                onClose={() => alert('Closing tip')}
                 theme="warning"
+                cta={{
+                    text: 'Click here.',
+                    onClick: () => alert('CTA clicked!')
+                }}
             >
                 Tip with some simple text.
             </Tip>
             <Tip
                 icon
                 banner
-                onClose={() => alert('Closing tip')}
                 theme="success"
+                cta={{
+                    text: 'Click here.',
+                    onClick: () => alert('CTA clicked!')
+                }}
             >
                 Tip with some simple text.
             </Tip>
             <Tip
                 icon
                 banner
-                onClose={() => alert('Closing tip')}
                 theme="error"
+                cta={{
+                    text: 'Click here.',
+                    onClick: () => alert('CTA clicked!')
+                }}
             >
                 Tip with some simple text.
             </Tip>
             <Tip
                 icon
                 banner
-                onClose={() => alert('Closing tip')}
                 theme="promote"
+                cta={{
+                    text: 'Click here.',
+                    onClick: () => alert('CTA clicked!')
+                }}
             >
                 Tip with some simple text.
             </Tip>
