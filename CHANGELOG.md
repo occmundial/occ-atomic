@@ -1,3 +1,10 @@
+# [3.0.0-beta.49](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.48...v3.0.0-beta.49) (2024-08-27)
+
+
+### Bug Fixes
+
+* Tip banner align ([f1b3ad2](https://github.com/occmundial/occ-atomic/commit/f1b3ad2143c360978d9e067b8298b3c90a306ddc))
+
 # [3.0.0-beta.48](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.47...v3.0.0-beta.48) (2024-08-26)
 
 
