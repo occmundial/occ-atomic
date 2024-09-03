@@ -115,10 +115,6 @@ Object {
     "color": "#664a0e",
   },
   "maxWidth": Object {
-    "margin": Array [
-      0,
-      "auto",
-    ],
     "maxWidth": "1200px",
   },
   "noBorderRadius": Object {
