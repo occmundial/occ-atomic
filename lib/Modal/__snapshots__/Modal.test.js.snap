@@ -169,6 +169,9 @@ Object {
     "objectFit": "cover",
     "width": "100%",
   },
+  "imgTopPadding": Object {
+    "paddingTop": "24px",
+  },
   "lg": Object {
     "width": 820,
   },
