@@ -1,3 +1,10 @@
+# [3.0.0-beta.52](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.51...v3.0.0-beta.52) (2024-09-03)
+
+
+### Bug Fixes
+
+* Add cursor pointer to bottom links ([93eb978](https://github.com/occmundial/occ-atomic/commit/93eb9787735c7846c35ae797f71a3b515cc0913e))
+
 # [3.0.0-beta.51](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.50...v3.0.0-beta.51) (2024-09-03)
 
 
