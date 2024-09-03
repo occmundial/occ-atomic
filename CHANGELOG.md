@@ -1,3 +1,10 @@
+# [3.0.0-beta.51](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.50...v3.0.0-beta.51) (2024-09-03)
+
+
+### Bug Fixes
+
+* Add margin zero to grid and add padding top for modal when img top ([cd5416c](https://github.com/occmundial/occ-atomic/commit/cd5416c2ce4fbf1000afd51938c2a24f56999eee))
+
 # [3.0.0-beta.50](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.49...v3.0.0-beta.50) (2024-09-03)
 
 
