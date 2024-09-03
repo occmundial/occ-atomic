@@ -1,3 +1,10 @@
+# [3.0.0-beta.50](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.49...v3.0.0-beta.50) (2024-09-03)
+
+
+### Features
+
+* Update footer design and use design tokens ([2e83d4f](https://github.com/occmundial/occ-atomic/commit/2e83d4f7f135570a6c4a375c28bedab578f1a8f4))
+
 # [3.0.0-beta.49](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.48...v3.0.0-beta.49) (2024-08-27)
 
 
