@@ -1,3 +1,10 @@
+# [3.0.0-beta.53](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.52...v3.0.0-beta.53) (2024-09-04)
+
+
+### Bug Fixes
+
+* Add tabindex zero to bottom links ([18de40b](https://github.com/occmundial/occ-atomic/commit/18de40b3e5182dc2c7f2dca8bcf9c2a5eef82ffb))
+
 # [3.0.0-beta.52](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.51...v3.0.0-beta.52) (2024-09-03)
 
 
