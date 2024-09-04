@@ -1,3 +1,11 @@
+# [3.0.0-beta.56](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.55...v3.0.0-beta.56) (2024-09-04)
+
+
+### Bug Fixes
+
+* Add default value for new props ([2841eae](https://github.com/occmundial/occ-atomic/commit/2841eaec4e570934f6b02f21f9e262892f3a33fd))
+* Add new props to set bg transparent and borders ([dd0a333](https://github.com/occmundial/occ-atomic/commit/dd0a3334ebc1b4edfa75d9a0d2520b2cccd14309))
+
 # [3.0.0-beta.55](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.54...v3.0.0-beta.55) (2024-09-04)
 
 
