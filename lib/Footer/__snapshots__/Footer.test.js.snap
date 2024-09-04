@@ -23,6 +23,9 @@ Object {
     "flexDirection": "column",
     "gap": "16px",
   },
+  "borderTop": Object {
+    "borderTop": "1px solid #EDEDF1",
+  },
   "bottomContainer": Object {
     "@media (min-width: 768px)": Object {
       "rowGap": "24px",
@@ -50,34 +53,28 @@ Object {
   "column": Object {
     "@media (min-width: 576px)": Object {
       "columnGap": "16px",
-      "flexDirection": "row",
+      "gridTemplateColumns": "repeat(2, minmax(0, 1fr))",
       "rowGap": "40px",
     },
     "@media (min-width: 992px)": Object {
       "columnGap": "24px",
+      "gridTemplateColumns": "repeat(4, minmax(0, 1fr))",
       "rowGap": 0,
     },
-    "display": "flex",
-    "flexDirection": "column",
-    "flexWrap": "wrap",
+    "display": "grid",
   },
   "copyright": Object {
     "& > p": Object {
       "margin": 0,
     },
     "color": "#5A5D7B",
-    "font": "300 16px/1.5 'OccText', sans-serif",
+    "font": "300 14px/1.5 'OccText', sans-serif",
   },
   "divider": Object {
     "borderTop": "1px solid #EDEDF1",
   },
   "footer": Object {
     "backgroundColor": "#fff",
-    "borderTop": "1px solid #EDEDF1",
-    "padding": Array [
-      "40px",
-      0,
-    ],
   },
   "footerContainer": Object {
     "@media (min-width: 576px)": Object {
@@ -88,7 +85,14 @@ Object {
     },
     "display": "flex",
     "flexDirection": "column",
+    "padding": Array [
+      "40px",
+      0,
+    ],
     "rowGap": "24px",
+  },
+  "footerTransparent": Object {
+    "backgroundColor": "transparent",
   },
   "link": Object {
     "&:focus-visible": Object {
@@ -101,7 +105,8 @@ Object {
       "color": "#080D39",
     },
     "color": "#5A5D7B",
-    "font": "300 16px/1.5 'OccText', sans-serif",
+    "cursor": "pointer",
+    "font": "300 14px/1.5 'OccText', sans-serif",
     "textDecoration": "none",
     "transition": "all cubic-bezier(0.25,0.46,0.45,0.94) 0.2s",
   },
@@ -117,15 +122,6 @@ Object {
       0,
     ],
     "width": 1,
-  },
-  "listContainer": Object {
-    "@media (min-width: 576px)": Object {
-      "flexBasis": "calc(50% - 16px)",
-    },
-    "@media (min-width: 992px)": Object {
-      "flexBasis": "calc(25% - 24px)",
-    },
-    "flexBasis": "100%",
   },
   "listElement": Object {
     "@media (min-width: 768px)": Object {

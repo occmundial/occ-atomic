@@ -80,6 +80,7 @@ export default function Example() {
         copyText={copyText}
         listClassName=""
         sectionDivider
+        footerDivider
       />
     </Fragment>
   );
