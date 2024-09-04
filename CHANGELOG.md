@@ -1,3 +1,10 @@
+# [3.0.0-beta.55](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.54...v3.0.0-beta.55) (2024-09-04)
+
+
+### Bug Fixes
+
+* Change display flex for grid in columns links ([cfd1291](https://github.com/occmundial/occ-atomic/commit/cfd12917a84d009d8d6176861592533ffc491d1f))
+
 # [3.0.0-beta.54](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.53...v3.0.0-beta.54) (2024-09-04)
 
 
