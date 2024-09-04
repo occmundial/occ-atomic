@@ -1,3 +1,24 @@
+# [3.0.0-beta.54](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.53...v3.0.0-beta.54) (2024-09-04)
+
+
+### Bug Fixes
+
+* Change font size of bottom links and copyright ([6706894](https://github.com/occmundial/occ-atomic/commit/6706894747f3cd2497f6c3eae290564948134a9d))
+
+# [3.0.0-beta.53](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.52...v3.0.0-beta.53) (2024-09-04)
+
+
+### Bug Fixes
+
+* Add tabindex zero to bottom links ([18de40b](https://github.com/occmundial/occ-atomic/commit/18de40b3e5182dc2c7f2dca8bcf9c2a5eef82ffb))
+
+# [3.0.0-beta.52](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.51...v3.0.0-beta.52) (2024-09-03)
+
+
+### Bug Fixes
+
+* Add cursor pointer to bottom links ([93eb978](https://github.com/occmundial/occ-atomic/commit/93eb9787735c7846c35ae797f71a3b515cc0913e))
+
 # [3.0.0-beta.51](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.50...v3.0.0-beta.51) (2024-09-03)
 
 
