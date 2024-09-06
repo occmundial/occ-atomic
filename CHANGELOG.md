@@ -1,3 +1,10 @@
+# [3.0.0-beta.57](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.56...v3.0.0-beta.57) (2024-09-04)
+
+
+### Bug Fixes
+
+* Set only padding vertical for footer container ([5a593ab](https://github.com/occmundial/occ-atomic/commit/5a593ab8f785ef3f5c04c5718d925227d17df39d))
+
 # [3.0.0-beta.56](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.55...v3.0.0-beta.56) (2024-09-04)
 
 
