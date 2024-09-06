@@ -1,3 +1,12 @@
+# [3.0.0-beta.58](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.57...v3.0.0-beta.58) (2024-09-06)
+
+
+### Bug Fixes
+
+* Change id prev button ([540ee04](https://github.com/occmundial/occ-atomic/commit/540ee0452f6ee114325ed236d922b3c1b1869f19))
+* Replace id value with id option ([f3348d8](https://github.com/occmundial/occ-atomic/commit/f3348d88c0565fbaee12562aea0a7346ff78bd7b))
+* Replace id value with id option ([ba79747](https://github.com/occmundial/occ-atomic/commit/ba79747235d73ddb48228fc403d0b58ddea93a7d))
+
 # [3.0.0-beta.57](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.56...v3.0.0-beta.57) (2024-09-04)
 
 
