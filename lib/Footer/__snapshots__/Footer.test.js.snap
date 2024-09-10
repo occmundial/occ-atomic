@@ -85,10 +85,8 @@ Object {
     },
     "display": "flex",
     "flexDirection": "column",
-    "padding": Array [
-      "40px",
-      0,
-    ],
+    "paddingBottom": "40px",
+    "paddingTop": "40px",
     "rowGap": "24px",
   },
   "footerTransparent": Object {
