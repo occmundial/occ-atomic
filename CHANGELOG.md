@@ -1,3 +1,13 @@
+# [3.0.0-beta.59](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.58...v3.0.0-beta.59) (2024-09-10)
+
+
+### Bug Fixes
+
+* Remove margin bottom from slidedown wrapper ([7b90312](https://github.com/occmundial/occ-atomic/commit/7b90312aa7246e0e66f2f25a278f0bfa2e211106))
+* Remove margin bottom from slidedown wrapper ([44e67ca](https://github.com/occmundial/occ-atomic/commit/44e67ca6b2e85f5d61cec6807e7edb0d55d7be2e))
+* Remove margin bottom from slidedown wrapper ([47e3233](https://github.com/occmundial/occ-atomic/commit/47e323333ad15d01d629adc1dccbd2c79892411e))
+* Remove margin bottom from slidedown wrapper ([b6ce89b](https://github.com/occmundial/occ-atomic/commit/b6ce89bcbd383dd038d2abe2635c4fd86adb396b))
+
 # [3.0.0-beta.58](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.57...v3.0.0-beta.58) (2024-09-06)
 
 
