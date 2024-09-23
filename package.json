@@ -95,7 +95,7 @@
     "webpack-dev-server": "^4.2.0"
   },
   "dependencies": {
-    "@floating-ui/react": "^0.24.1",
+    "@floating-ui/react": "0.24.1",
     "class-autobind": "^0.1.4",
     "hex-rgba": "^1.0.2",
     "idx": "^2.5.6",
