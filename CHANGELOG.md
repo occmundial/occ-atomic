@@ -1,3 +1,10 @@
+# [3.0.0-beta.60](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.59...v3.0.0-beta.60) (2024-09-23)
+
+
+### Features
+
+* Add menu componente and delete deprecated header comps ([572334c](https://github.com/occmundial/occ-atomic/commit/572334ce94949fbcbf7dfaa165cfb349d6c4f762))
+
 # [3.0.0-beta.59](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.58...v3.0.0-beta.59) (2024-09-10)
 
 
