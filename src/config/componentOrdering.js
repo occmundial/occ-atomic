@@ -40,16 +40,16 @@ module.exports = [
 			'Tip',
 			'Banner',
 			'Toaster',
-			'Fab',
+			'Fab'
 		]
 	},
 	{
 		name: 'Organisms',
-		components: ['Footer', 'Header', 'Tabs']
+		components: ['Footer', 'Tabs']
 	},
 	{
 		name: 'Header',
-		components: ['NavItem', 'NavIcon', 'NavTab', 'NavAside']
+		components: ['NavItem', 'NavIcon', 'NavTab', 'NavAside', 'Menu']
 	},
 	{
 		name: 'Layout',
