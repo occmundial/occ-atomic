@@ -19,23 +19,23 @@ export default class Example1 extends React.Component {
           }}
         />
         <MenuDivider style={{ margin: "4px 0" }} />
-        <MenuItem component="a" href="#Test">
+        <MenuItem component="a" href="#MenuList">
           Configuración
         </MenuItem>
-        <MenuItem component="a" href="#Test">
+        <MenuItem component="a" href="#MenuList">
           Administrador de cuentas
         </MenuItem>
-        <MenuItem component="a" href="#Test">
+        <MenuItem component="a" href="#MenuList">
           Datos de facturación
         </MenuItem>
-        <MenuItem component="a" href="#Test">
+        <MenuItem component="a" href="#MenuList">
           Reporte de uso
         </MenuItem>
-        <MenuItem component="a" href="#Test">
+        <MenuItem component="a" href="#MenuList">
           Estado de cuenta
         </MenuItem>
         <MenuDivider style={{ margin: "4px 0" }} />
-        <MenuItem component="a" href="#Test">
+        <MenuItem component="a" href="#MenuList">
           Sitio de candidatos
         </MenuItem>
         <MenuItem onClick={() => console.log('logged-out')}>
