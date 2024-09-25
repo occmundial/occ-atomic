@@ -3,11 +3,6 @@ import React from 'react';
 import { MenuUser, MenuItem, MenuList, MenuDivider } from '@occmundial/occ-atomic';
 
 export default class Example1 extends React.Component {
-  constructor(props) {
-    super(props);
-    this.ref = React.createRef();
-  }
-
   render() {
     return (
       <MenuList>
