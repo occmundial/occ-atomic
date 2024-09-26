@@ -1,3 +1,86 @@
+# [3.0.0-beta.60](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.59...v3.0.0-beta.60) (2024-09-23)
+
+
+### Features
+
+* Add menu componente and delete deprecated header comps ([572334c](https://github.com/occmundial/occ-atomic/commit/572334ce94949fbcbf7dfaa165cfb349d6c4f762))
+
+# [3.0.0-beta.59](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.58...v3.0.0-beta.59) (2024-09-10)
+
+
+### Bug Fixes
+
+* Remove margin bottom from slidedown wrapper ([7b90312](https://github.com/occmundial/occ-atomic/commit/7b90312aa7246e0e66f2f25a278f0bfa2e211106))
+* Remove margin bottom from slidedown wrapper ([44e67ca](https://github.com/occmundial/occ-atomic/commit/44e67ca6b2e85f5d61cec6807e7edb0d55d7be2e))
+* Remove margin bottom from slidedown wrapper ([47e3233](https://github.com/occmundial/occ-atomic/commit/47e323333ad15d01d629adc1dccbd2c79892411e))
+* Remove margin bottom from slidedown wrapper ([b6ce89b](https://github.com/occmundial/occ-atomic/commit/b6ce89bcbd383dd038d2abe2635c4fd86adb396b))
+
+# [3.0.0-beta.58](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.57...v3.0.0-beta.58) (2024-09-06)
+
+
+### Bug Fixes
+
+* Change id prev button ([540ee04](https://github.com/occmundial/occ-atomic/commit/540ee0452f6ee114325ed236d922b3c1b1869f19))
+* Replace id value with id option ([f3348d8](https://github.com/occmundial/occ-atomic/commit/f3348d88c0565fbaee12562aea0a7346ff78bd7b))
+* Replace id value with id option ([ba79747](https://github.com/occmundial/occ-atomic/commit/ba79747235d73ddb48228fc403d0b58ddea93a7d))
+
+# [3.0.0-beta.57](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.56...v3.0.0-beta.57) (2024-09-04)
+
+
+### Bug Fixes
+
+* Set only padding vertical for footer container ([5a593ab](https://github.com/occmundial/occ-atomic/commit/5a593ab8f785ef3f5c04c5718d925227d17df39d))
+
+# [3.0.0-beta.56](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.55...v3.0.0-beta.56) (2024-09-04)
+
+
+### Bug Fixes
+
+* Add default value for new props ([2841eae](https://github.com/occmundial/occ-atomic/commit/2841eaec4e570934f6b02f21f9e262892f3a33fd))
+* Add new props to set bg transparent and borders ([dd0a333](https://github.com/occmundial/occ-atomic/commit/dd0a3334ebc1b4edfa75d9a0d2520b2cccd14309))
+
+# [3.0.0-beta.55](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.54...v3.0.0-beta.55) (2024-09-04)
+
+
+### Bug Fixes
+
+* Change display flex for grid in columns links ([cfd1291](https://github.com/occmundial/occ-atomic/commit/cfd12917a84d009d8d6176861592533ffc491d1f))
+
+# [3.0.0-beta.54](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.53...v3.0.0-beta.54) (2024-09-04)
+
+
+### Bug Fixes
+
+* Change font size of bottom links and copyright ([6706894](https://github.com/occmundial/occ-atomic/commit/6706894747f3cd2497f6c3eae290564948134a9d))
+
+# [3.0.0-beta.53](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.52...v3.0.0-beta.53) (2024-09-04)
+
+
+### Bug Fixes
+
+* Add tabindex zero to bottom links ([18de40b](https://github.com/occmundial/occ-atomic/commit/18de40b3e5182dc2c7f2dca8bcf9c2a5eef82ffb))
+
+# [3.0.0-beta.52](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.51...v3.0.0-beta.52) (2024-09-03)
+
+
+### Bug Fixes
+
+* Add cursor pointer to bottom links ([93eb978](https://github.com/occmundial/occ-atomic/commit/93eb9787735c7846c35ae797f71a3b515cc0913e))
+
+# [3.0.0-beta.51](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.50...v3.0.0-beta.51) (2024-09-03)
+
+
+### Bug Fixes
+
+* Add margin zero to grid and add padding top for modal when img top ([cd5416c](https://github.com/occmundial/occ-atomic/commit/cd5416c2ce4fbf1000afd51938c2a24f56999eee))
+
+# [3.0.0-beta.50](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.49...v3.0.0-beta.50) (2024-09-03)
+
+
+### Features
+
+* Update footer design and use design tokens ([2e83d4f](https://github.com/occmundial/occ-atomic/commit/2e83d4f7f135570a6c4a375c28bedab578f1a8f4))
+
 # [3.0.0-beta.49](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.48...v3.0.0-beta.49) (2024-08-27)
 
 

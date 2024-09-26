@@ -4,79 +4,135 @@ exports[`Footer matches the snapshot 1`] = `ShallowWrapper {}`;
 
 exports[`Footer styles matches the snapshot 1`] = `
 Object {
-  "bottomWrap": Object {
-    "borderTop": "1px solid #dddddd",
-    "paddingTop": 24,
+  "auxContainer": Object {
+    "@media (min-width: 992px)": Object {
+      "flexDirection": "row",
+      "gap": "64px",
+    },
+    "alignItems": "center",
+    "display": "flex",
+    "flexDirection": "column",
+    "gap": "24px",
+    "justifyContent": "center",
   },
-  "buttonMobile": Object {
-    "marginTop": 16,
+  "badgesContainer": Object {
+    "@media (min-width: 576px)": Object {
+      "flexDirection": "row",
+    },
+    "display": "flex",
+    "flexDirection": "column",
+    "gap": "16px",
+  },
+  "borderTop": Object {
+    "borderTop": "1px solid #EDEDF1",
+  },
+  "bottomContainer": Object {
+    "@media (min-width: 768px)": Object {
+      "rowGap": "24px",
+    },
+    "display": "flex",
+    "flexDirection": "column",
+    "rowGap": "16px",
+  },
+  "bottomLinksContainer": Object {
+    "@media (min-width: 768px)": Object {
+      "alignItems": "stretch",
+      "flexDirection": "row",
+    },
+    "columnGap": "24px",
+    "display": "flex",
+    "flexDirection": "column",
+    "justifyContent": "center",
+    "rowGap": "16px",
+  },
+  "bottomSection": Object {
+    "display": "flex",
+    "flexDirection": "column",
+    "rowGap": "40px",
   },
   "column": Object {
-    "paddingBottom": 16,
+    "@media (min-width: 576px)": Object {
+      "columnGap": "16px",
+      "gridTemplateColumns": "repeat(2, minmax(0, 1fr))",
+      "rowGap": "40px",
+    },
+    "@media (min-width: 992px)": Object {
+      "columnGap": "24px",
+      "gridTemplateColumns": "repeat(4, minmax(0, 1fr))",
+      "rowGap": 0,
+    },
+    "display": "grid",
+  },
+  "copyright": Object {
+    "& > p": Object {
+      "margin": 0,
+    },
+    "color": "#5A5D7B",
+    "font": "300 14px/1.5 'OccText', sans-serif",
+  },
+  "divider": Object {
+    "borderTop": "1px solid #EDEDF1",
   },
   "footer": Object {
-    "@media (min-width: 992px)": Object {
-      "padding": Array [
-        32,
-        0,
-        32,
-      ],
-    },
-    "backgroundColor": "#f5f5f8",
-    "padding": Array [
-      24,
-      0,
-      32,
-    ],
+    "backgroundColor": "#fff",
   },
-  "footerWithoutColumns": Object {
-    "@media (min-width: 992px)": Object {
-      "padding": Array [
-        0,
-        0,
-        32,
-      ],
+  "footerContainer": Object {
+    "@media (min-width: 576px)": Object {
+      "rowGap": "40px",
     },
-    "backgroundColor": "#f5f5f8",
-    "padding": Array [
-      0,
-      0,
-      32,
-    ],
+    "@media (min-width: 992px)": Object {
+      "rowGap": "48px",
+    },
+    "display": "flex",
+    "flexDirection": "column",
+    "paddingBottom": "40px",
+    "paddingTop": "40px",
+    "rowGap": "24px",
+  },
+  "footerTransparent": Object {
+    "backgroundColor": "transparent",
   },
   "link": Object {
-    "&:hover, &:focus, &:active": Object {
-      "color": "#777777",
+    "&:focus-visible": Object {
+      "borderRadius": "4px",
+      "boxShadow": "0 0 0 8px hsl(234 75.4% 12.7% / 0.1)",
+      "color": "#080D39",
+      "outline": 0,
     },
-    "color": "#777777",
+    "&:hover": Object {
+      "color": "#080D39",
+    },
+    "color": "#5A5D7B",
     "cursor": "pointer",
+    "font": "300 14px/1.5 'OccText', sans-serif",
     "textDecoration": "none",
+    "transition": "all cubic-bezier(0.25,0.46,0.45,0.94) 0.2s",
   },
-  "list": Object {
-    "&:not(:first-child)": Object {
-      "marginLeft": 16,
+  "linkDivider": Object {
+    "@media (min-width: 768px)": Object {
+      "display": "block",
     },
+    "alignSelf": "stretch",
+    "backgroundColor": "#6C6F89",
+    "display": "none",
+    "margin": Array [
+      "2px",
+      0,
+    ],
+    "width": 1,
   },
   "listElement": Object {
-    "&:first-child": Object {
-      "paddingLeft": 0,
+    "@media (min-width: 768px)": Object {
+      "display": "inline-block",
+      "position": "relative",
     },
-    "&:not(:last-child)": Object {
-      "&::after": Object {
-        "content": "\\"|\\"",
-        "position": "absolute",
-        "right": -2,
-      },
-    },
-    "display": "inline-block",
-    "paddingLeft": 16,
-    "paddingRight": 16,
-    "position": "relative",
-  },
-  "mobileListElement": Object {
     "display": "block",
-    "paddingBottom": 8,
-    "paddingLeft": 0,
+    "textAlign": "center",
+  },
+  "socialMediaContainer": Object {
+    "columnGap": "4px",
+    "direction": "row",
+    "display": "flex",
   },
 }
 `;

@@ -65,9 +65,6 @@ Object {
   "text": Object {
     "cursor": "pointer",
   },
-  "wrapper": Object {
-    "marginBottom": "16px",
-  },
 }
 `;
 

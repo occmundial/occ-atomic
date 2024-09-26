@@ -1268,7 +1268,7 @@
   dependencies:
     "@floating-ui/dom" "^1.2.7"
 
-"@floating-ui/react@^0.24.1":
+"@floating-ui/react@0.24.1":
   version "0.24.1"
   resolved "https://registry.yarnpkg.com/@floating-ui/react/-/react-0.24.1.tgz#9ef81c78045c4b88ac062755826a3daf7cbe23d6"
   integrity sha512-qjCKUZDEz/4bnJmu4gn66TqsoX912/re8JGEi3pXazsphmyh327l0UpTgpBAT3WkNbnzAH7Adt3wKlLMNtfupw==
