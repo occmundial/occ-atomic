@@ -30,6 +30,7 @@ class Example1 extends React.Component {
                     header={(
                         <NavTab right={[
                             {
+                                key: 0,
                                 type: 'icon',
                                 iconName: 'x',
                                 onClick: () => this.setState({ show: false })
