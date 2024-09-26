@@ -13,11 +13,15 @@ Object {
     "transition": "0.3s all",
   },
   "bottom": Object {
+    "alignItems": "center",
+    "display": "flex",
     "height": 21,
+    "marginTop": "8px",
   },
   "choiceGroup": Object {
     "display": "flex",
     "flexWrap": "wrap",
+    "gap": "16px 8px",
   },
   "container": Object {
     "display": "flex",
@@ -38,6 +42,11 @@ Object {
   },
   "left": Object {
     "float": "left",
+  },
+  "stackGroup": Object {
+    "display": "flex",
+    "flexWrap": "wrap",
+    "gap": "16px 8px",
   },
   "top": Object {
     "height": 21,
