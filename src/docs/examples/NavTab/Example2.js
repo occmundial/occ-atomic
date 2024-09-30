@@ -1,95 +1,160 @@
-/* NavTab with NavTop */
+/** NavTab (Logged) */
 import React, { useState } from 'react';
-import { NavTab, Icon } from '@occmundial/occ-atomic';
+import { NavTab, Icon, NavAvatarButton, Menu, MenuList, MenuDivider, MenuUser, MenuItem, grid } from '@occmundial/occ-atomic';
+
+function MenuDropdown({ className,  dark = false, placement = 'left' }) {
+  const [open, setOpen] = useState(false);
+
+  const avatarButtonHandler = () => {
+    setOpen(!open);
+  };
+
+  return (
+    <div style={{ position: 'relative' }}>
+      <Menu placement={placement} triggerElement={
+        (
+          <div>
+            <NavAvatarButton
+              mini
+              className={className}
+              photo="https://i.pravatar.cc/300"
+              theme={dark ? "ghostGrey" : "ghostWhite"}
+              onClick={avatarButtonHandler}
+            />
+          </div>
+        )
+      }>
+        <MenuList component="nav" margin="size-3" dense>
+          <MenuUser
+            title="Nombre Apellido"
+            subtitle="ejemplo@correo.com"
+            avatarProps={{
+              photo: "https://i.pravatar.cc/300"
+            }}
+          />
+          <MenuDivider style={{ margin: "4px 0" }} />
+          <MenuItem component="a" href="#MenuList">
+            Configuración
+          </MenuItem>
+          <MenuItem component="a" href="#MenuList">
+            Administrador de cuentas
+          </MenuItem>
+          <MenuItem component="a" href="#MenuList">
+            Datos de facturación
+          </MenuItem>
+          <MenuItem component="a" href="#MenuList">
+            Reporte de uso
+          </MenuItem>
+          <MenuItem component="a" href="#MenuList">
+            Estado de cuenta
+          </MenuItem>
+          <MenuDivider style={{ margin: "4px 0" }} />
+          <MenuItem component="a" href="#MenuList">
+            Sitio de candidatos
+          </MenuItem>
+          <MenuItem onClick={() => console.log('logged-out')}>
+            Cerrar sesión
+          </MenuItem>
+        </MenuList>
+      </Menu>
+    </div>
+  );
+}
 
 function Example2() {
-  const [dropdown, setDropdown] = useState(false);
+  const [selected, setSelected] = useState('Vacantes');
   const left = [
     {
       key: 0,
       type: 'logo',
       logo: (
-        <a href="#NavTab">
-          <Icon iconName="occLogoWhite" />   
+        <a href="#NavTab" style={{ display: 'flex' }}>
+          <Icon iconName="occLogoWhite" />
         </a>
       )
     },
     {
       key: 1,
-      type: 'dropdownLink',
-      text: 'Dropdown link',
-      onClick: () => setDropdown(!dropdown),
-      selected: dropdown
+      type: 'navButton',
+      label: 'Vacantes',
+      className: 'only-desktop',
+      selected: selected === 'Vacantes',
+      showBar: true,
+      onClick: () => setSelected('Vacantes')
     },
     {
       key: 2,
-      type: 'link',
-      text: 'Standard link',
-      link: '#NavTab'
-    }
-  ];
-  const right = [
-    {
-      key: 1,
-      type: 'button',
-      text: 'Primary CTA',
-      theme: 'primary'
-    },
-    {
-      key: 2,
-      type: 'button',
-      text: 'Secondary CTA',
-      theme: 'ghostWhite'
-    }
-  ];
-  const right2 = [
-    {
-      key: 1,
-      type: 'button',
-      text: 'Primary CTA',
-      theme: 'ghostPink'
-    },
-    {
-      key: 2,
-      type: 'button',
-      text: 'Secondary CTA',
-      theme: 'ghostGrey'
-    }
-  ];
-  const top = [
-    {
-      key: 1,
-      text: 'First link',
-      link: '#NavTab'
-    },
-    {
-      key: 2,
-      text: 'Current link',
-      link: '#NavTab',
-      selected: true
+      type: 'navButton',
+      label: 'Talento',
+      className: 'only-desktop',
+      selected: selected === 'Talento',
+      showBar: true,
+      onClick: () => setSelected('Talento')
     },
     {
       key: 3,
-      text: 'onClick item',
-      onClick: () => { console.log('whatever'); }
+      type: 'navButton',
+      label: 'Ayuda',
+      className: 'only-desktop',
+      selected: selected === 'Ayuda',
+      showBar: true,
+      onClick: () => setSelected('Ayuda')
     }
   ];
   const left2 = [...left];
   left2[0] = {
     key: 0,
-    type: 'custom',
-    custom: (
-      <a href="#NavTab" style={{ marginRight: 32, display: 'inline-block' }}>
+    type: 'logo',
+    logo: (
+      <a href="#NavTab" style={{ display: 'flex' }}>
         <Icon iconName="occLogoBlue" />
       </a>
     )
   };
+  const right = [
+    {
+      key: 0,
+      type: 'button',
+      className: 'only-desktop',
+      icon: 'search'
+    },
+    {
+      key: 1,
+      type: 'custom',
+      custom: <MenuDropdown className="only-desktop" />
+    },
+    {
+      key: 2,
+      type: 'button',
+      className: 'only-mobile',
+      icon: 'bars'
+    },
+  ];
+  const right2 = [...right];
+  right2[1] = {
+    ...right[1],
+    custom: <MenuDropdown className="only-desktop" dark />
+  };
   return (
-    <div>
-      <NavTab top={top} blue left={left} right={right} />
-      <NavTab top={top} left={left2} right={right2} />
-    </div>
-  );
+    <React.Fragment>
+      <style>
+        {`
+          @media screen and (min-width: ${grid.sm}px) {
+            .only-mobile {
+              display: none;
+            } 
+          }
+          @media screen and (max-width: ${grid.sm - 1}px) {
+            .only-desktop {
+              display: none;
+            } 
+          }
+        `}
+      </style>
+      <NavTab isResponsive blue left={left} right={right} />
+      <NavTab isResponsive left={left2} right={right2} />
+    </React.Fragment>
+  )
 }
 
 export default Example2;
