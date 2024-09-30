@@ -1,62 +1,43 @@
-/* NavTab with icons */
+/* NavTab with menu button */
 import React from 'react';
-import { NavTab } from '@occmundial/occ-atomic';
+import { NavTab, Icon, colors } from '@occmundial/occ-atomic';
 
-class Example5 extends React.Component {
-
-    constructor(props) {
-        super(props);
-        this.state = {
-            selected: false
-        };
-        this.onChange = this.onChange.bind(this);
+function Example5() {
+  const left = [
+    {
+      key: 1,
+      type: 'logo',
+      logo: (
+        <a href="#NavTab">
+          <Icon iconName="occLogoWhite" colors={[colors.bgWhite]} />
+        </a>
+      )
     }
-
-    onChange(selected) {
-        this.setState({ selected });
+  ];
+  const left2 = [
+    {
+      key: 1,
+      type: 'logo',
+      logo: (
+        <a href="#NavTab">
+          <Icon iconName="occLogoBlue" colors={[colors.grey700]} />
+        </a>
+      )
     }
-
-    render() {
-        const { selected } = this.state;
-        const flexCenter = [
-            {
-                key:1,
-                type:'icon',
-                iconName:'panel',
-                label: 'Dashboard',
-                selected: selected === 'dashboard',
-                onClick: () => this.onChange('dashboard'),
-                direction: 'col',
-                width: 96
-            },
-            {
-                key:2,
-                type:'icon',
-                iconName:'search',
-                label: 'Search',
-                selected: selected === 'search',
-                onClick: () => this.onChange('search'),
-                direction: 'col',
-                width: 96
-            },
-            {
-                key:3,
-                type:'icon',
-                iconName:'user',
-                label: 'Profile',
-                selected: selected === 'profile',
-                onClick: () => this.onChange('profile'),
-                direction: 'col',
-                width: 96
-            }
-        ];
-        return (
-            <div>
-                <NavTab blue flexCenter={flexCenter} />
-                <NavTab flexCenter={flexCenter} />
-            </div>
-        );
+  ];
+  const right = [
+    {
+      key: 0,
+      type: 'navButton',
+      iconName: 'bars'
     }
+  ];
+  return (
+    <div>
+      <NavTab blue left={left} right={right} />
+      <NavTab left={left2} right={right} />
+    </div>
+  );
 }
 
 export default Example5;

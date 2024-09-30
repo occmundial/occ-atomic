@@ -1,3 +1,11 @@
+# [3.0.0-beta.61](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.60...v3.0.0-beta.61) (2024-09-30)
+
+
+### Features
+
+* Created and redisigned the header related components ([b8255ad](https://github.com/occmundial/occ-atomic/commit/b8255ad1ad66dc29b572a9caef12abd1cb2868c8))
+* Created MenuItem, MenuDivider, MenuUser and MenuList ([1e0cc04](https://github.com/occmundial/occ-atomic/commit/1e0cc04f9f3a6e91fac95ef211de595d93029b30))
+
 # [3.0.0-beta.60](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.59...v3.0.0-beta.60) (2024-09-23)
 
 
