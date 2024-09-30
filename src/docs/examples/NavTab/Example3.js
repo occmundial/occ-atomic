@@ -13,25 +13,25 @@ function Example3() {
   const right = [
     {
       key: 1,
-      type: 'navButton',
-      iconName: 'messages'
+      type: 'button',
+      icon: 'messages'
     }
   ];
   const center = [
     {
       key: 1,
-      type: 'navButton',
-      iconName: 'panel'
+      type: 'button',
+      icon: 'panel'
     },
     {
       key: 2,
-      type: 'navButton',
-      iconName: 'search'
+      type: 'button',
+      icon: 'search'
     },
     {
       key: 3,
-      type: 'navButton',
-      iconName: 'user'
+      type: 'button',
+      icon: 'user'
     }
   ];
   return (
