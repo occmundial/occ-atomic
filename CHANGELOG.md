@@ -1,3 +1,10 @@
+# [3.0.0-beta.62](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.61...v3.0.0-beta.62) (2024-09-30)
+
+
+### Features
+
+* Adjusted NavTab examples ([bccb094](https://github.com/occmundial/occ-atomic/commit/bccb09481c608c05ad56611898645b5ca57a1745))
+
 # [3.0.0-beta.61](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.60...v3.0.0-beta.61) (2024-09-30)
 
 
