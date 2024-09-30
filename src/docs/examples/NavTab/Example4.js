@@ -81,7 +81,7 @@ function Example4() {
     type: 'button',
     text: 'Juan Alvez',
     size: 'md',
-    theme: 'ghostGrey'
+    theme: 'tertiary'
   };
   return (
     <div>
