@@ -1,3 +1,10 @@
+# [3.0.0-beta.63](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.62...v3.0.0-beta.63) (2024-09-30)
+
+
+### Bug Fixes
+
+* Exampl4 button color ([db1879e](https://github.com/occmundial/occ-atomic/commit/db1879ec8445274018099ef3acd41fee8dc097b4))
+
 # [3.0.0-beta.62](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.61...v3.0.0-beta.62) (2024-09-30)
 
 
