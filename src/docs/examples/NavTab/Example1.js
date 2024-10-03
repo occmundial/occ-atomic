@@ -108,7 +108,7 @@ function Example1() {
       <NavTab isResponsive blue left={left} right={right} />
       <NavTab isResponsive left={left2} right={right2} />
     </React.Fragment>
-  )
+  );
 }
 
 export default Example1;

@@ -1,6 +1,6 @@
 /** NavTab (Logged) */
 import React, { useState } from 'react';
-import { NavTab, Icon, NavAvatarButton, Menu, MenuList, MenuDivider, MenuUser, MenuItem, grid } from '@occmundial/occ-atomic';
+import { NavTab, Icon, NavAvatarButton, Menu, MenuList, MenuDivider, MenuUser, MenuItem, grid } from '@occmundial/occ-atomic';  
 
 function MenuDropdown({ className,  dark = false, placement = 'left' }) {
   const [open, setOpen] = useState(false);
@@ -15,10 +15,9 @@ function MenuDropdown({ className,  dark = false, placement = 'left' }) {
         (
           <div>
             <NavAvatarButton
-              mini
               className={className}
               photo="https://i.pravatar.cc/300"
-              theme={dark ? "ghostGrey" : "ghostWhite"}
+              darkMode={dark}
               onClick={avatarButtonHandler}
             />
           </div>

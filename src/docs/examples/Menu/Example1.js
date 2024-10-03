@@ -10,7 +10,7 @@ export default function Example1() {
         (
           <div>
             <Button
-              theme="ghost"
+              theme="ghostGrey"
             >Open</Button>
           </div>
         )
