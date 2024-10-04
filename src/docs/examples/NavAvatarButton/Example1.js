@@ -5,10 +5,13 @@ function Example1() {
 
   return (
     <React.Fragment>
-      <NavAvatarButton
-        photo="https://i.pravatar.cc/300"
-        onClick={() => console.log('clicked')}
-      />
+      <div style={{ padding: '8px 16px', display: 'inline-block' }}>
+        <NavAvatarButton
+          photo="https://i.pravatar.cc/300"
+          onClick={() => console.log('clicked')}
+        />
+      </div>
+
       <div style={{ padding: '8px 16px', background: nav.bg.inverse, display: 'inline-block' }}>
         <NavAvatarButton
           darkMode

@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import { NavTab, Icon, NavAvatarButton, Menu, MenuList, MenuDivider, MenuUser, MenuItem, grid } from '@occmundial/occ-atomic';  
 
-function MenuDropdown({ className,  dark = false, placement = 'left' }) {
+function MenuDropdown({ className,  darkMode = false, placement = 'left' }) {
   const [open, setOpen] = useState(false);
 
   const avatarButtonHandler = () => {
@@ -17,13 +17,13 @@ function MenuDropdown({ className,  dark = false, placement = 'left' }) {
             <NavAvatarButton
               className={className}
               photo="https://i.pravatar.cc/300"
-              darkMode={dark}
+              darkMode={darkMode}
               onClick={avatarButtonHandler}
             />
           </div>
         )
       }>
-        <MenuList component="nav" margin="size-3" dense>
+        <MenuList component="nav" dense>
           <MenuUser
             title="Nombre Apellido"
             subtitle="ejemplo@correo.com"
@@ -120,7 +120,7 @@ function Example2() {
     {
       key: 1,
       type: 'custom',
-      custom: <MenuDropdown className="only-desktop" />
+      custom: <MenuDropdown className={{ button: "only-desktop" }} darkMode />
     },
     {
       key: 2,
@@ -132,7 +132,7 @@ function Example2() {
   const right2 = [...right];
   right2[1] = {
     ...right[1],
-    custom: <MenuDropdown className="only-desktop" dark />
+    custom: <MenuDropdown className={{ button: "only-desktop" }} />
   };
   return (
     <React.Fragment>
