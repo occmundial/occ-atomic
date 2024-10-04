@@ -1,3 +1,10 @@
+# [3.0.0-beta.64](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.63...v3.0.0-beta.64) (2024-10-03)
+
+
+### Features
+
+* Added NavAvatarButton documetation and made some small adjustments ([24abd49](https://github.com/occmundial/occ-atomic/commit/24abd49f6c64a963f44a16f9b9a0f69bdd7d381d))
+
 # [3.0.0-beta.63](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.62...v3.0.0-beta.63) (2024-09-30)
 
 
