@@ -1,8 +1,8 @@
 /** NavTab (Logged) */
 import React, { useState } from 'react';
-import { NavTab, Icon, NavAvatarButton, Menu, MenuList, MenuDivider, MenuUser, MenuItem, grid } from '@occmundial/occ-atomic';  
+import { NavTab, Icon, NavAvatarButton, Menu, MenuList, MenuDivider, MenuUser, MenuItem, grid } from '@occmundial/occ-atomic';
 
-function MenuDropdown({ className,  darkMode = false, placement = 'left' }) {
+function MenuDropdown({ className, darkMode = false }) {
   const [open, setOpen] = useState(false);
 
   const avatarButtonHandler = () => {
@@ -11,18 +11,20 @@ function MenuDropdown({ className,  darkMode = false, placement = 'left' }) {
 
   return (
     <div style={{ position: 'relative' }}>
-      <Menu placement={placement} triggerElement={
-        (
-          <div>
-            <NavAvatarButton
-              className={className}
-              photo="https://i.pravatar.cc/300"
-              darkMode={darkMode}
-              onClick={avatarButtonHandler}
-            />
-          </div>
-        )
-      }>
+      <Menu 
+        placement="bottom-end"
+        triggerElement={
+          (
+            <div>
+              <NavAvatarButton
+                className={className}
+                photo="https://i.pravatar.cc/300"
+                darkMode={darkMode}
+                onClick={avatarButtonHandler}
+              />
+            </div>
+          )
+        }>
         <MenuList component="nav" dense>
           <MenuUser
             title="Nombre Apellido"
