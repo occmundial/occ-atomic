@@ -1,3 +1,10 @@
+# [3.0.0-beta.66](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.65...v3.0.0-beta.66) (2024-10-04)
+
+
+### Bug Fixes
+
+* Menu orientation relative to target ([d1d60f7](https://github.com/occmundial/occ-atomic/commit/d1d60f764376ad46acd5f788981ba794b9786a96))
+
 # [3.0.0-beta.65](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.64...v3.0.0-beta.65) (2024-10-04)
 
 
