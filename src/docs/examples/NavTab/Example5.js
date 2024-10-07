@@ -1,41 +1,46 @@
-/* NavTab with menu button */
-import React from 'react';
-import { NavTab, Icon, colors } from '@occmundial/occ-atomic';
+/* NavTab with icons */
+import React, { useState } from 'react';
+import { NavTab } from '@occmundial/occ-atomic';
 
 function Example5() {
-  const left = [
+  const [selected, setSelected] = useState(false);
+  const flexCenter = [
     {
       key: 1,
-      type: 'logo',
-      logo: (
-        <a href="#NavTab">
-          <Icon iconName="occLogoWhite" colors={[colors.bgWhite]} />
-        </a>
-      )
-    }
-  ];
-  const left2 = [
-    {
-      key: 1,
-      type: 'logo',
-      logo: (
-        <a href="#NavTab">
-          <Icon iconName="occLogoBlue" colors={[colors.grey700]} />
-        </a>
-      )
-    }
-  ];
-  const right = [
-    {
-      key: 0,
       type: 'navButton',
-      iconName: 'bars'
+      iconName: 'panel',
+      label: 'Dashboard',
+      selected: selected === 'dashboard',
+      onClick: () => setSelected('dashboard'),
+      direction: 'col',
+      width: 96
+    },
+    {
+      key: 2,
+      type: 'navButton',
+      iconName: 'search',
+      label: 'Search',
+      selected: selected === 'search',
+      onClick: () => setSelected('search'),
+      direction: 'col',
+      width: 96
+    },
+    {
+      key: 3,
+      type: 'navButton',
+      iconName: 'user',
+      label: 'Profile',
+      selected: selected === 'profile',
+      onClick: () => setSelected('profile'),
+      direction: 'col',
+      width: 96
     }
   ];
+
   return (
     <div>
-      <NavTab blue left={left} right={right} />
-      <NavTab left={left2} right={right} />
+      <NavTab blue flexCenter={flexCenter} />
+      <NavTab flexCenter={flexCenter} />
     </div>
   );
 }

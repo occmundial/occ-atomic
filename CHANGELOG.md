@@ -1,3 +1,41 @@
+# [3.0.0-beta.66](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.65...v3.0.0-beta.66) (2024-10-04)
+
+
+### Bug Fixes
+
+* Menu orientation relative to target ([d1d60f7](https://github.com/occmundial/occ-atomic/commit/d1d60f764376ad46acd5f788981ba794b9786a96))
+
+# [3.0.0-beta.65](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.64...v3.0.0-beta.65) (2024-10-04)
+
+
+### Bug Fixes
+
+* Menu items dense prop ([c8cbfac](https://github.com/occmundial/occ-atomic/commit/c8cbfac53fc263ce87e6f36ea9b6b853eb8e832e))
+* NavAvatar button props and adjusment to documentation ([e963e9e](https://github.com/occmundial/occ-atomic/commit/e963e9e0088126499b419f2e27451b8276d28b7c))
+* Renoved menu default padding ([abb3bcb](https://github.com/occmundial/occ-atomic/commit/abb3bcbc0e2dca02a92e629d736c00b2f5bf5888))
+* Spacing classes incorrect generation ([0f3bc9e](https://github.com/occmundial/occ-atomic/commit/0f3bc9eb8d380d48a66b17b5771f56aed31ff0e6))
+
+# [3.0.0-beta.64](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.63...v3.0.0-beta.64) (2024-10-03)
+
+
+### Features
+
+* Added NavAvatarButton documetation and made some small adjustments ([24abd49](https://github.com/occmundial/occ-atomic/commit/24abd49f6c64a963f44a16f9b9a0f69bdd7d381d))
+
+# [3.0.0-beta.63](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.62...v3.0.0-beta.63) (2024-09-30)
+
+
+### Bug Fixes
+
+* Exampl4 button color ([db1879e](https://github.com/occmundial/occ-atomic/commit/db1879ec8445274018099ef3acd41fee8dc097b4))
+
+# [3.0.0-beta.62](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.61...v3.0.0-beta.62) (2024-09-30)
+
+
+### Features
+
+* Adjusted NavTab examples ([bccb094](https://github.com/occmundial/occ-atomic/commit/bccb09481c608c05ad56611898645b5ca57a1745))
+
 # [3.0.0-beta.61](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.60...v3.0.0-beta.61) (2024-09-30)
 
 

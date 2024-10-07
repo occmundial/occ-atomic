@@ -1,10 +1,10 @@
 {
-  "focus-pink": "0 0 0 8px hsl(344 87.1% 57.5% / 0.3)",
-  "focus-indigo": "0 0 0 8px hsl(221 91.2% 35.7% / 0.3)",
+  "focus-pink": "0 0 0 8px rgba(241, 52, 101, 0.3)",
+  "focus-indigo": "0 0 0 8px rgba(8, 60, 174, 0.3)",
   "focus-bright-blue": "0 0 0 8px rgba(0,110,255,0.3)",
   "focus-white": "0 0 0 8px rgba(255,255,255,0.2)",
   "focus-sky": "0 0 0 8px rgba(206,216,240,0.4)",
-  "focus-corp": "0 0 0 8px hsl(234 75.4% 12.7% / 0.1)",
+  "focus-corp": "0 0 0 8px rgba(8, 13, 57, 0.1)",
   "elevation-elevation-1": "0 1px 2px 0 rgba(8,13,57,0.12), 0 1px 6px 0 rgba(9,61,173,0.05)",
   "elevation-elevation-2": "0 3px 3px -1px rgba(8,13,57,0.12), 0 3px 12px 0 rgba(9,61,173,0.08)",
   "elevation-elevation-3": "0 4px 5px -3px rgba(8,13,56,0.12), 0 6px 18px 0 rgba(9,61,173,0.08)",

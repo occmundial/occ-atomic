@@ -1,65 +1,6 @@
-/** NavTab */
+/** NavTab (Unlogged) */
 import React, { useState } from 'react';
-import { NavTab, Icon, NavAvatarButton, Menu, MenuList, MenuDivider, MenuUser, MenuItem, grid } from '@occmundial/occ-atomic';
-
-function MenuDropdown({ dark = false, placement = 'left' }) {
-  const [open, setOpen] = useState(false);
-
-  const avatarButtonHandler = () => {
-    setOpen(!open);
-  };
-
-  return (
-    <div style={{ position: 'relative' }}>
-      <Menu placement={placement} triggerElement={
-        (
-          <div>
-            <NavAvatarButton
-              mini
-              className="only-destop"
-              photo="https://i.pravatar.cc/300"
-              theme={dark ? "ghostGrey" : "ghostWhite"}
-              onClick={avatarButtonHandler}
-            />
-          </div>
-        )
-      }>
-        <MenuList component="nav" margin="size-3" dense>
-          <MenuUser
-            title="Nombre Apellido"
-            subtitle="ejemplo@correo.com"
-            avatarProps={{
-              photo: "https://i.pravatar.cc/300"
-            }}
-          />
-          <MenuDivider style={{ margin: "4px 0" }} />
-          <MenuItem component="a" href="#MenuList">
-            Configuración
-          </MenuItem>
-          <MenuItem component="a" href="#MenuList">
-            Administrador de cuentas
-          </MenuItem>
-          <MenuItem component="a" href="#MenuList">
-            Datos de facturación
-          </MenuItem>
-          <MenuItem component="a" href="#MenuList">
-            Reporte de uso
-          </MenuItem>
-          <MenuItem component="a" href="#MenuList">
-            Estado de cuenta
-          </MenuItem>
-          <MenuDivider style={{ margin: "4px 0" }} />
-          <MenuItem component="a" href="#MenuList">
-            Sitio de candidatos
-          </MenuItem>
-          <MenuItem onClick={() => console.log('logged-out')}>
-            Cerrar sesión
-          </MenuItem>
-        </MenuList>
-      </Menu>
-    </div>
-  );
-}
+import { NavTab, Icon, grid } from '@occmundial/occ-atomic';
 
 function Example1() {
   const [selected, setSelected] = useState('Vacantes');
@@ -115,25 +56,38 @@ function Example1() {
     {
       key: 0,
       type: 'button',
-      icon: 'cart'
-    },
-    {
-      key: 2,
-      type: 'custom',
-      custom: <MenuDropdown />
+      text: 'Juan Alvez',
+      size: 'md',
+      className: 'only-desktop',
     },
     {
       key: 1,
       type: 'button',
+      text: 'Juan Alvez',
+      size: 'md',
+      theme: 'tertiaryWhite',
+      className: 'only-desktop',
+    },
+    {
+      key: 2,
+      type: 'button',
+      icon: 'search'
+    },
+    {
+      key: 3,
+      type: 'button',
       className: 'only-mobile',
-      icon: 'messages'
+      icon: 'bars'
     },
   ];
   const right2 = [...right];
+  right2[0] = {
+    ...right[0],
+    theme: 'ghostGrey'
+  };
   right2[1] = {
-    key: 2,
-    type: 'custom',
-    custom: <MenuDropdown dark />
+    ...right[1],
+    theme: 'tertiary'
   };
   return (
     <React.Fragment>
@@ -154,7 +108,7 @@ function Example1() {
       <NavTab isResponsive blue left={left} right={right} />
       <NavTab isResponsive left={left2} right={right2} />
     </React.Fragment>
-  )
+  );
 }
 
 export default Example1;
