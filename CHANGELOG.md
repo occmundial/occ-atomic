@@ -1,3 +1,17 @@
+# [3.0.0-beta.67](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.66...v3.0.0-beta.67) (2024-10-10)
+
+
+### Bug Fixes
+
+* Pass ref to nav avatar button and update menu example ([6aecf3d](https://github.com/occmundial/occ-atomic/commit/6aecf3d9d3353b2b397b42c1fd168561715f4f63))
+* Update NavAside styles ([313b8c0](https://github.com/occmundial/occ-atomic/commit/313b8c0da245dae3f08d25b0e9359067afac9835))
+
+
+### Features
+
+* Add a Drawer component ([255f022](https://github.com/occmundial/occ-atomic/commit/255f02222f2c3bfd46f6792611d05eafec92816e))
+* Implement triggerRef into the Menu component ([18e5ae8](https://github.com/occmundial/occ-atomic/commit/18e5ae80ef60d6da6d7cb3a7fd04492cc3ae9b4f))
+
 # [3.0.0-beta.66](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.65...v3.0.0-beta.66) (2024-10-04)
 
 
