@@ -1,6 +1,6 @@
 {
   "bright-blue": {
-    "100": "#f7faff",
+    "100": "#F2F6FC",
     "200": "#e3efff",
     "300": "#b9d7ff",
     "400": "#90c0ff",
@@ -550,7 +550,8 @@
     "success": "#ebfbf1",
     "info": "#e3efff",
     "overlay": "rgba(0,0,0,0.8)",
-    "neutral": "#000"
+    "neutral": "#000",
+    "default-alt": "#F2F6FC"
   },
   "icon": {
     "brand": {
