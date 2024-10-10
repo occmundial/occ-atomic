@@ -62,13 +62,13 @@ Object {
       "color": "#878A9F",
     },
     "&:active": Object {
-      "background": "hsl(234 75.4% 12.7% / 0.1)",
+      "background": "rgba(8, 13, 57, 0.1)",
     },
     "&:focus-visible": Object {
-      "boxShadow": "0 0 0 8px hsl(234 75.4% 12.7% / 0.1)",
+      "boxShadow": "0 0 0 8px rgba(8, 13, 57, 0.1)",
     },
     "&:hover": Object {
-      "background": "hsl(234 75.4% 12.7% / 0.05)",
+      "background": "rgba(8, 13, 57, 0.05)",
     },
     "background": "transparent",
     "color": "#5A5D7B",
@@ -102,7 +102,7 @@ Object {
   },
   "ghostWhite": Object {
     "& $icon, & $iconRight": Object {
-      "fill": "#fff",
+      "fill": "rgba(255,255,255,0.7)",
     },
     "&$disabled": Object {
       "& $icon, & $iconRight": Object {
@@ -168,7 +168,7 @@ Object {
     "width": "100%",
   },
   "loadIcon": Object {
-    "fill": "#fff",
+    "fill": "rgba(255,255,255,0.7)",
     "height": 24,
     "width": 24,
   },
@@ -193,7 +193,7 @@ Object {
   },
   "primary": Object {
     "& $icon, & $iconRight": Object {
-      "fill": "#fff",
+      "fill": "rgba(255,255,255,0.7)",
     },
     "&$disabled": Object {
       "& $icon, & $iconRight": Object {
@@ -210,7 +210,7 @@ Object {
       "outline": "2px solid rgba(255,255,255,0.2)",
     },
     "&:focus-visible": Object {
-      "boxShadow": "0 0 0 8px hsl(344 87.1% 57.5% / 0.3)",
+      "boxShadow": "0 0 0 8px rgba(241, 52, 101, 0.3)",
     },
     "&:hover": Object {
       "background": "#A32444",
@@ -234,19 +234,19 @@ Object {
       "& $icon, & $iconRight": Object {
         "fill": "#8DA5DA",
       },
-      "background": "hsl(221 91.2% 35.7% / 0.1)",
+      "background": "rgba(8, 60, 174, 0.1)",
       "color": "#486EC3",
     },
     "&:active": Object {
-      "background": "hsl(221 91.2% 35.7% / 0.2)",
+      "background": "rgba(8, 60, 174, 0.2)",
     },
     "&:focus-visible": Object {
-      "boxShadow": "0 0 0 8px hsl(221 91.2% 35.7% / 0.3)",
+      "boxShadow": "0 0 0 8px rgba(8, 60, 174, 0.3)",
     },
     "&:hover": Object {
-      "background": "hsl(221 91.2% 35.7% / 0.1)",
+      "background": "rgba(8, 60, 174, 0.1)",
     },
-    "background": "hsl(221 91.2% 35.7% / 0.05)",
+    "background": "rgba(8, 60, 174, 0.05)",
     "color": "#083CAE",
   },
   "tertiary": Object {
@@ -265,16 +265,16 @@ Object {
       "outlineColor": "#8DA5DA",
     },
     "&:active": Object {
-      "background": "hsl(221 91.2% 35.7% / 0.1)",
+      "background": "rgba(8, 60, 174, 0.1)",
     },
     "&:focus": Object {
       "outline": "2px solid #083CAE",
     },
     "&:focus-visible": Object {
-      "boxShadow": "0 0 0 8px hsl(221 91.2% 35.7% / 0.3)",
+      "boxShadow": "0 0 0 8px rgba(8, 60, 174, 0.3)",
     },
     "&:hover": Object {
-      "background": "hsl(221 91.2% 35.7% / 0.05)",
+      "background": "rgba(8, 60, 174, 0.05)",
     },
     "background": "transparent",
     "color": "#083CAE",
@@ -283,7 +283,7 @@ Object {
   },
   "tertiaryWhite": Object {
     "& $icon, & $iconRight": Object {
-      "fill": "#fff",
+      "fill": "rgba(255,255,255,0.7)",
     },
     "&$disabled": Object {
       "& $icon, & $iconRight": Object {

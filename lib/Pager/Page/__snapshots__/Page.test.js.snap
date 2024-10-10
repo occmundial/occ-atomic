@@ -16,13 +16,13 @@ Object {
   },
   "page": Object {
     "&:active": Object {
-      "background": "hsl(234 75.4% 12.7% / 0.1)",
+      "background": "rgba(8, 13, 57, 0.1)",
     },
     "&:focus-visible": Object {
-      "boxShadow": "0 0 0 8px hsl(234 75.4% 12.7% / 0.1)",
+      "boxShadow": "0 0 0 8px rgba(8, 13, 57, 0.1)",
     },
     "&:hover": Object {
-      "background": "hsl(234 75.4% 12.7% / 0.05)",
+      "background": "rgba(8, 13, 57, 0.05)",
     },
     "alignItems": "center",
     "background": "transparent",

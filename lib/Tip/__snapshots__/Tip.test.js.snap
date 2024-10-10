@@ -84,9 +84,9 @@ Object {
   },
   "linkInfo": Object {
     "&:active": Object {
-      "background": "linear-gradient(hsl(221 91.2% 35.7% / 0.2), hsl(221 91.2% 35.7% / 0.2))",
+      "background": "linear-gradient(rgba(8, 60, 174, 0.2), rgba(8, 60, 174, 0.2))",
     },
-    "background": "linear-gradient(hsl(221 91.2% 35.7% / 0.1), hsl(221 91.2% 35.7% / 0.1))",
+    "background": "linear-gradient(rgba(8, 60, 174, 0.1), rgba(8, 60, 174, 0.1))",
     "backgroundRepeat": "no-repeat",
     "color": "#083CAE",
   },

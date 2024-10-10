@@ -11,22 +11,6 @@ Object {
       "overflow": "hidden",
     },
   },
-  "@keyframes asideShow": Object {
-    "from": Object {
-      "left": [Function],
-    },
-    "to": Object {
-      "left": "0px",
-    },
-  },
-  "@keyframes asideShowRight": Object {
-    "from": Object {
-      "right": [Function],
-    },
-    "to": Object {
-      "right": "0px",
-    },
-  },
   "@keyframes overlayFadeIn": Object {
     "from": Object {
       "opacity": 0,
@@ -35,25 +19,31 @@ Object {
       "opacity": 1,
     },
   },
-  "OpenElement": Object {
-    "animation": "0.3s asideShow ease-out",
-    "left": "0px !important",
+  "@keyframes showFromLeft": Object {
+    "from": Object {
+      "left": -320,
+    },
+    "to": Object {
+      "left": 0,
+    },
   },
-  "OpenElementRight": Object {
-    "animation": "0.3s asideShowRight ease-out",
-    "right": "0px !important",
+  "@keyframes showFromRight": Object {
+    "from": Object {
+      "right": -320,
+    },
+    "to": Object {
+      "right": 0,
+    },
   },
-  "ShowElement": Object {
-    "backgroundColor": "#ffffff",
+  "block": Object {
+    "backgroundColor": "#fff",
     "height": "100%",
-    "left": "-320px",
     "maxWidth": "calc(100% - 32px)",
-    "opacity": "1 !important",
     "overflow": "hidden",
     "position": "fixed",
-    "top": "0",
-    "transition": "0.4s all",
-    "width": "320px",
+    "top": 0,
+    "transition": "0.3s left, 0.3s right",
+    "width": 320,
   },
   "card": Object {
     "cursor": "auto",
@@ -64,50 +54,52 @@ Object {
   "closeIcon": Object {
     "alignItems": "center",
     "display": "flex",
-    "height": 32,
+    "height": "32px",
   },
   "content": Object {
     "@media screen and (min-width:768px)": Object {
-      "padding": 32,
+      "padding": "32px",
     },
-    "backgroundColor": "#ffffff",
-    "padding": 16,
+    "backgroundColor": "#fff",
+    "padding": "16px",
   },
-  "customeWidth": Object {
-    "left": [Function],
-    "width": [Function],
+  "hideLeft": Object {
+    "left": -320,
   },
-  "customeWidthRight": Object {
-    "right": [Function],
-    "width": [Function],
+  "hideRight": Object {
+    "right": -320,
   },
   "overlay": Object {
-    "background": "rgba(0, 0, 5, 0.85)",
+    "background": "rgba(0,0,0,0.8)",
     "cursor": "pointer",
     "height": "100%",
     "left": 0,
-    "opacity": 0,
     "position": "fixed",
     "top": 0,
     "transition": "0.3s opacity",
-    "transitionDelay": "0.2s",
     "width": "100%",
     "zIndex": 1000,
   },
+  "overlayHide": Object {
+    "opacity": 0,
+  },
   "overlayShow": Object {
     "animation": "0.3s overlayFadeIn linear",
-    "opacity": 1,
+  },
+  "showLeft": Object {
+    "animation": "0.3s showFromLeft ease-out",
+    "left": 0,
   },
   "showRight": Object {
-    "left": "auto",
-    "right": "-320px",
+    "animation": "0.3s showFromRight ease-out",
+    "right": 0,
   },
   "top": Object {
     "@media screen and (min-width:768px)": Object {
-      "padding": 32,
+      "padding": "32px",
     },
-    "backgroundColor": "#f5f5f8",
-    "padding": 16,
+    "backgroundColor": "#F8FAFD",
+    "padding": "16px",
   },
   "topContent": Object {
     "minWidth": 0,

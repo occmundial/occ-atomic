@@ -95,7 +95,7 @@ Object {
   "link": Object {
     "&:focus-visible": Object {
       "borderRadius": "4px",
-      "boxShadow": "0 0 0 8px hsl(234 75.4% 12.7% / 0.1)",
+      "boxShadow": "0 0 0 8px rgba(8, 13, 57, 0.1)",
       "color": "#080D39",
       "outline": 0,
     },

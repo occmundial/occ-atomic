@@ -44,21 +44,21 @@ Object {
   },
   "editable": Object {
     "&:active $overlay": Object {
-      "background": "hsl(234 75.4% 12.7% / 0.4)",
+      "background": "rgba(8, 13, 57, 0.4)",
     },
     "&:hover $camera": Object {
       "opacity": 1,
     },
     "&:hover $overlay": Object {
-      "background": "hsl(234 75.4% 12.7% / 0.3)",
+      "background": "rgba(8, 13, 57, 0.3)",
     },
   },
   "hoverPhoto": Object {
     "&:active $overlay": Object {
-      "background": "hsl(234 75.4% 12.7% / 0.4)",
+      "background": "rgba(8, 13, 57, 0.4)",
     },
     "&:hover $overlay": Object {
-      "background": "hsl(234 75.4% 12.7% / 0.3)",
+      "background": "rgba(8, 13, 57, 0.3)",
     },
   },
   "initials": Object {
