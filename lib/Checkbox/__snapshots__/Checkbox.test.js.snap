@@ -78,7 +78,7 @@ Object {
     },
     "&$active, &$undetermined": Object {
       "& $check $box": Object {
-        "background": "hsl(221 91.2% 35.7% / 0.1)",
+        "background": "rgba(8, 60, 174, 0.1)",
         "boxShadow": "inset 0 0 0 1px rgba(255,255,255,0.2)",
       },
     },

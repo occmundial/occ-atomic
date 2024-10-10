@@ -49,7 +49,7 @@ module.exports = [
 	},
 	{
 		name: 'Header',
-		components: ['NavItem', 'NavIcon', 'NavTab', 'NavAside', 'Menu', 'MenuList', 'MenuItem', 'MenuUser', 'MenuDivider', 'NavAvatarButton']
+		components: ['NavItem', 'NavIcon', 'NavTab', 'NavAside', 'Menu', 'MenuList', 'MenuItem', 'MenuUser', 'MenuDivider', 'NavAvatarButton', 'Drawer']
 	},
 	{
 		name: 'Layout',

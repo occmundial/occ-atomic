@@ -17,7 +17,7 @@ Object {
       "boxShadow": "inset 0 0 0 2px rgba(255,255,255,0.2)",
     },
     "&:focus-visible $switch": Object {
-      "boxShadow": "0 0 0 8px hsl(221 91.2% 35.7% / 0.3)",
+      "boxShadow": "0 0 0 8px rgba(8, 60, 174, 0.3)",
     },
     "&:focus-visible $switch$checked": Object {
       "boxShadow": "0 0 0 8px rgba(0,110,255,0.3)",
