@@ -36,7 +36,7 @@ Object {
     "font": "400 14px/1.5 'OccText', sans-serif",
   },
   "highlighted": Object {
-    "background": "hsl(221 91.2% 35.7% / 0.05)",
+    "background": "rgba(8, 60, 174, 0.05)",
     "font": "400 16px/1.5 'OccText', sans-serif",
   },
   "icon": Object {
@@ -47,10 +47,10 @@ Object {
       "& > $rightText": Object {
         "color": "#080D39",
       },
-      "background": "hsl(221 91.2% 35.7% / 0.1)",
+      "background": "rgba(8, 60, 174, 0.1)",
     },
     "&:hover": Object {
-      "background": "hsl(221 91.2% 35.7% / 0.05)",
+      "background": "rgba(8, 60, 174, 0.05)",
     },
     "alignItems": "center",
     "borderRadius": "4px",
@@ -77,9 +77,9 @@ Object {
   },
   "onFocus": Object {
     "&:hover": Object {
-      "background": "hsl(221 91.2% 35.7% / 0.1)",
+      "background": "rgba(8, 60, 174, 0.1)",
     },
-    "background": "hsl(221 91.2% 35.7% / 0.1)",
+    "background": "rgba(8, 60, 174, 0.1)",
   },
   "right": Object {
     "marginLeft": "16px",
