@@ -19,12 +19,11 @@ function Example1({ winWidth }) {
 	const [open, setOpen] = useState(false);
 	const [reference, setReference] = useState(null);
 	const isMobile = winWidth < grid.xs;
-	console.log({ winWidth, isMobile, grid, reference });
 
 	return (
 		<div style={{ position: 'relative' }}>
 			<NavAvatarButton
-				theme="ghost"
+				theme="ghostGrey"
 				photo="https://i.pravatar.cc/300"
 				onClick={() => setOpen(open => !open)}
 				reference={setReference}
