@@ -1,3 +1,10 @@
+# [3.0.0-beta.68](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.67...v3.0.0-beta.68) (2024-11-11)
+
+
+### Features
+
+* Add id property ([563eafa](https://github.com/occmundial/occ-atomic/commit/563eafa6ec44dd27b6584725d57e815ffc1a2506))
+
 # [3.0.0-beta.67](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.66...v3.0.0-beta.67) (2024-10-10)
 
 
