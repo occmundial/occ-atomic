@@ -1,3 +1,10 @@
+# [3.0.0-beta.69](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.68...v3.0.0-beta.69) (2025-02-04)
+
+
+### Bug Fixes
+
+* Remove missing NavIcon references ([a269690](https://github.com/occmundial/occ-atomic/commit/a269690bc1ea23ed98bdbcc8a4debcad5f01b3aa))
+
 # [3.0.0-beta.68](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.67...v3.0.0-beta.68) (2024-11-11)
 
 
