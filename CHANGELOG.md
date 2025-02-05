@@ -1,3 +1,10 @@
+# [3.0.0-beta.70](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.69...v3.0.0-beta.70) (2025-02-05)
+
+
+### Bug Fixes
+
+* Remove padding ([d803d5d](https://github.com/occmundial/occ-atomic/commit/d803d5d43329b02043a1738a5ddf09dde43e91db))
+
 # [3.0.0-beta.69](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.68...v3.0.0-beta.69) (2025-02-04)
 
 
