@@ -1,3 +1,10 @@
+# [3.0.0-beta.71](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.70...v3.0.0-beta.71) (2025-02-06)
+
+
+### Bug Fixes
+
+* Fix include tokens into build ([0f60aa1](https://github.com/occmundial/occ-atomic/commit/0f60aa1f653779ea007c9e4c500770e60469987c))
+
 # [3.0.0-beta.70](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.69...v3.0.0-beta.70) (2025-02-05)
 
 
