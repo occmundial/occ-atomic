@@ -246,11 +246,21 @@
   "text-field": {
     "border": {
       "default": "#D3D4DC",
+      "inverse": {
+        "default": "rgba(255,255,255,0.2)",
+        "hover": "rgba(255,255,255,0.5)",
+        "focus": "#0059CD",
+        "error": "#ed4d4d"
+      },
       "hover": "#6C6F89",
       "focus": "#0059CD",
       "error": "#e82020"
     },
     "bg": {
+      "inverse": {
+        "default": "rgba(0,0,0,0.05)",
+        "disabled": "rgba(255,255,255,0.1)"
+      },
       "default": "#fff",
       "disabled": "#EDEDF1"
     }
@@ -541,7 +551,8 @@
     },
     "default": "#F8FAFD",
     "inverse": {
-      "default": "#141621"
+      "default": "#141621",
+      "disabled": "rgba(255,255,255,0.1)"
     },
     "surface": {
       "default": "#fff",
@@ -596,6 +607,9 @@
     },
     "error": {
       "default": "#e82020",
+      "inverse": {
+        "default": "#ed4d4d"
+      },
       "subtle": "#FBDFDF"
     },
     "warning": {
@@ -628,6 +642,9 @@
     },
     "warning": "#664a0e",
     "error": "#8b1313",
+    "inverse": {
+      "error": "#ed4d4d"
+    },
     "success": "#16542e"
   }
 }
