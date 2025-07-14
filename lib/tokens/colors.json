@@ -357,6 +357,12 @@
       "bg": "#e3efff",
       "border": "#b9d7ff"
     },
+    "inverse": {
+      "info": {
+        "bg": "#06308A",
+        "border": "#2E5ABB"
+      }
+    },
     "neutral": {
       "bg": "#000",
       "border": "rgba(255,255,255,0.2)"
@@ -552,7 +558,8 @@
     "default": "#F8FAFD",
     "inverse": {
       "default": "#141621",
-      "disabled": "rgba(255,255,255,0.1)"
+      "disabled": "rgba(255,255,255,0.1)",
+      "info": "#06308A"
     },
     "surface": {
       "default": "#fff",
@@ -574,15 +581,18 @@
       "default": "#083CAE",
       "bold": "#006EFF"
     },
+    "inverse": {
+      "brand": {
+        "default": "#ABBDE4"
+      },
+      "bold": "#fff",
+      "default": "rgba(255,255,255,0.7)",
+      "disabled": "rgba(255,255,255,0.3)"
+    },
     "default": {
       "bold": "#080D39",
       "default": "#5A5D7B",
       "disabled": "#D3D4DC"
-    },
-    "inverse": {
-      "bold": "#fff",
-      "default": "rgba(255,255,255,0.7)",
-      "disabled": "rgba(255,255,255,0.3)"
     },
     "success": "#38d373",
     "error": "#e82020",
@@ -592,7 +602,8 @@
     "inverse": {
       "bold": "#fff",
       "default": "rgba(255,255,255,0.5)",
-      "subtle": "rgba(255,255,255,0.2)"
+      "subtle": "rgba(255,255,255,0.2)",
+      "info": "#2E5ABB"
     },
     "default": {
       "subtle": "#EDEDF1",
@@ -633,6 +644,12 @@
       "primary": "#083CAE",
       "secondary": "#486EC3"
     },
+    "inverse": {
+      "indigo": {
+        "primary": "#F8FAFD"
+      },
+      "error": "#ed4d4d"
+    },
     "white": {
       "primary": "#fff",
       "secondary": "rgba(255,255,255,0.7)"
@@ -642,9 +659,6 @@
     },
     "warning": "#664a0e",
     "error": "#8b1313",
-    "inverse": {
-      "error": "#ed4d4d"
-    },
     "success": "#16542e"
   }
 }
