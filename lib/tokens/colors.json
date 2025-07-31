@@ -349,13 +349,11 @@
       "bg": "#fce8e8",
       "border": "#FBDFDF"
     },
-    "inverse": {
+    "dark": {
       "error": {
         "bg": "#610d0d",
         "border": "#FBDFDF"
-      }
-    },
-    "dark": {
+      },
       "info": {
         "bg": "#06308A",
         "border": "#2E5ABB"
@@ -564,11 +562,11 @@
     "default": "#F8FAFD",
     "dark": {
       "default": "#141621",
-      "info": "#06308A"
+      "info": "#06308A",
+      "error": "#610d0d"
     },
     "inverse": {
-      "disabled": "rgba(255,255,255,0.1)",
-      "error": "#610d0d"
+      "disabled": "rgba(255,255,255,0.1)"
     },
     "surface": {
       "default": "#fff",
@@ -593,13 +591,13 @@
     "dark": {
       "brand": {
         "default": "#ABBDE4"
-      }
+      },
+      "error": "#f17979"
     },
     "inverse": {
       "bold": "#fff",
       "default": "rgba(255,255,255,0.7)",
-      "disabled": "rgba(255,255,255,0.3)",
-      "error": "#f17979"
+      "disabled": "rgba(255,255,255,0.3)"
     },
     "default": {
       "bold": "#080D39",
@@ -661,8 +659,13 @@
     "inverse": {
       "indigo": {
         "primary": "#3089FF"
-      },
-      "error": "#ed4d4d"
+      }
+    },
+    "dark": {
+      "error": {
+        "primary": "#ed4d4d",
+        "secondary": "#FBDFDF"
+      }
     },
     "white": {
       "primary": "#fff",
