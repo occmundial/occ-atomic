@@ -349,6 +349,16 @@
       "bg": "#fce8e8",
       "border": "#FBDFDF"
     },
+    "inverse": {
+      "error": {
+        "bg": "#610d0d",
+        "border": "#FBDFDF"
+      },
+      "info": {
+        "bg": "#06308A",
+        "border": "#2E5ABB"
+      }
+    },
     "success": {
       "bg": "#ebfbf1",
       "border": "#d7f6e3"
@@ -356,12 +366,6 @@
     "info": {
       "bg": "#e3efff",
       "border": "#b9d7ff"
-    },
-    "inverse": {
-      "info": {
-        "bg": "#06308A",
-        "border": "#2E5ABB"
-      }
     },
     "neutral": {
       "bg": "#000",
@@ -556,15 +560,18 @@
       }
     },
     "default": "#F8FAFD",
+    "dark": {
+      "default": "#141621"
+    },
     "inverse": {
-      "default": "#141621",
       "disabled": "rgba(255,255,255,0.1)",
-      "info": "#06308A"
+      "info": "#06308A",
+      "error": "#610d0d"
     },
     "surface": {
       "default": "#fff",
       "inverse": "#080D39",
-      "inverse-alt": "#191B29"
+      "dark": "#191B29"
     },
     "disabled": "#EDEDF1",
     "warning": "#fff8e9",
@@ -587,7 +594,8 @@
       },
       "bold": "#fff",
       "default": "rgba(255,255,255,0.7)",
-      "disabled": "rgba(255,255,255,0.3)"
+      "disabled": "rgba(255,255,255,0.3)",
+      "error": "#f17979"
     },
     "default": {
       "bold": "#080D39",
