@@ -353,7 +353,9 @@
       "error": {
         "bg": "#610d0d",
         "border": "#FBDFDF"
-      },
+      }
+    },
+    "dark": {
       "info": {
         "bg": "#06308A",
         "border": "#2E5ABB"
