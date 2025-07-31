@@ -561,11 +561,11 @@
     },
     "default": "#F8FAFD",
     "dark": {
-      "default": "#141621"
+      "default": "#141621",
+      "info": "#06308A"
     },
     "inverse": {
       "disabled": "rgba(255,255,255,0.1)",
-      "info": "#06308A",
       "error": "#610d0d"
     },
     "surface": {
@@ -588,10 +588,12 @@
       "default": "#083CAE",
       "bold": "#006EFF"
     },
-    "inverse": {
+    "dark": {
       "brand": {
         "default": "#ABBDE4"
-      },
+      }
+    },
+    "inverse": {
       "bold": "#fff",
       "default": "rgba(255,255,255,0.7)",
       "disabled": "rgba(255,255,255,0.3)",
@@ -610,7 +612,9 @@
     "inverse": {
       "bold": "#fff",
       "default": "rgba(255,255,255,0.5)",
-      "subtle": "rgba(255,255,255,0.2)",
+      "subtle": "rgba(255,255,255,0.2)"
+    },
+    "dark": {
       "info": "#2E5ABB"
     },
     "default": {
