@@ -478,6 +478,12 @@
     "selected": {
       "bg": {
         "default": "#0059CD",
+        "dark": {
+          "default": "rgba(8, 60, 174, 0.4)",
+          "hover": "rgba(8, 60, 174, 0.6)",
+          "active": "rgba(8, 60, 174, 0.5)",
+          "disabled": "rgba(255,255,255,0.05)"
+        },
         "hover": "#083CAE",
         "active": "#06308A",
         "disabled": "#8DA5DA"
@@ -486,9 +492,21 @@
     "unselected": {
       "bg": {
         "default": "rgba(8, 60, 174, 0.05)",
+        "dark": {
+          "default": "rgba(8, 60, 174, 0.05)",
+          "hover": "rgba(8, 60, 174, 0.2)",
+          "active": "rgba(8, 60, 174, 0.1)",
+          "disabled": "rgba(8, 60, 174, 0.1)"
+        },
         "hover": "rgba(8, 60, 174, 0.1)",
         "active": "rgba(8, 60, 174, 0.2)",
         "disabled": "rgba(8, 60, 174, 0.1)"
+      },
+      "border": {
+        "dark": {
+          "default": "rgba(8, 60, 174, 0.05)",
+          "disabled": "rgba(255,255,255,0.2)"
+        }
       }
     }
   },
@@ -560,13 +578,27 @@
         "active": "rgba(8, 13, 57, 0.1)"
       }
     },
-    "default": "#F8FAFD",
     "dark": {
+      "action": {
+        "secondary": {
+          "default": "rgba(8, 60, 174, 0.05)",
+          "hover": "rgba(8, 60, 174, 0.2)",
+          "active": "rgba(8, 60, 174, 0.1)",
+          "disabled": "rgba(8, 60, 174, 0.1)"
+        },
+        "brand": {
+          "default": "rgba(8, 60, 174, 0.4)",
+          "hover": "rgba(8, 60, 174, 0.6)",
+          "active": "rgba(8, 60, 174, 0.5)",
+          "disabled": "rgba(255,255,255,0.05)"
+        }
+      },
       "default": "#141621",
       "disabled": "rgba(255,255,255,0.1)",
       "info": "#06308A",
       "error": "#610d0d"
     },
+    "default": "#F8FAFD",
     "surface": {
       "default": "#fff",
       "inverse": "#080D39",
@@ -614,7 +646,8 @@
     },
     "dark": {
       "default": "rgba(255,255,255,0.5)",
-      "info": "#2E5ABB"
+      "info": "#2E5ABB",
+      "pill": "rgba(8, 60, 174, 0.05)"
     },
     "default": {
       "subtle": "#EDEDF1",
