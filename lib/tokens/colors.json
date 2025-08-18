@@ -470,6 +470,7 @@
   "nav": {
     "bg": {
       "inverse": "#083CAE",
+      "dark": "#191B29",
       "default": "#fff"
     }
   },
