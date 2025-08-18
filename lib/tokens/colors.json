@@ -504,7 +504,7 @@
       },
       "border": {
         "dark": {
-          "default": "rgba(8, 60, 174, 0.05)",
+          "default": "rgba(255,255,255,0.5)",
           "disabled": "rgba(255,255,255,0.2)"
         }
       }
@@ -646,8 +646,7 @@
     },
     "dark": {
       "default": "rgba(255,255,255,0.5)",
-      "info": "#2E5ABB",
-      "pill": "rgba(8, 60, 174, 0.05)"
+      "info": "#2E5ABB"
     },
     "default": {
       "subtle": "#EDEDF1",
