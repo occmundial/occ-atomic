@@ -505,7 +505,8 @@
       "border": {
         "dark": {
           "default": "rgba(255,255,255,0.5)",
-          "disabled": "rgba(255,255,255,0.2)"
+          "disabled": "rgba(255,255,255,0.2)",
+          "focus": "#0059CD"
         }
       }
     }
