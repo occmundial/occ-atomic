@@ -426,6 +426,12 @@
       "bg": "#e3efff",
       "border": "#b9d7ff"
     },
+    "dark": {
+      "info": {
+        "bg": "#06308A",
+        "border": "#2E5ABB"
+      }
+    },
     "featured": {
       "border": "rgba(255,255,255,0.2)",
       "bg": "#0059CD"
