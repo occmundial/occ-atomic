@@ -535,6 +535,14 @@
       }
     }
   },
+  "card-carousel": {
+    "bg": {
+      "dark": "rgba(255,255,255,0.05)"
+    },
+    "border": {
+      "dark": "rgba(255,255,255,0.2)"
+    }
+  },
   "bg": {
     "action": {
       "primary": {
