@@ -352,11 +352,19 @@
     "dark": {
       "error": {
         "bg": "#2e0606",
-        "border": "#FBDFDF"
+        "border": "#610d0d"
       },
       "info": {
         "bg": "#06308A",
         "border": "#2E5ABB"
+      },
+      "warning": {
+        "bg": "#332507",
+        "border": "#664a0e"
+      },
+      "success": {
+        "bg": "#0b2a17",
+        "border": "#16542e"
       }
     },
     "success": {
