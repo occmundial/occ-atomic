@@ -1,3 +1,15 @@
+# [3.0.0-beta.72](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.71...v3.0.0-beta.72) (2025-08-28)
+
+
+### Bug Fixes
+
+* Fix import to export tokens ([f472135](https://github.com/occmundial/occ-atomic/commit/f4721359396da2ada6c9906613c2745b873a6d14))
+
+
+### Features
+
+* Added props size and classname to modal buttons ([1ca430d](https://github.com/occmundial/occ-atomic/commit/1ca430d482a5362b9dcff08636d11ed660eb3ab2))
+
 # [3.0.0-beta.71](https://github.com/occmundial/occ-atomic/compare/v3.0.0-beta.70...v3.0.0-beta.71) (2025-02-06)
 
 
