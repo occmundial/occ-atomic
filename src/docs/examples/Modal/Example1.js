@@ -30,12 +30,16 @@ export default class Example1 extends React.Component {
                     title="Modal"
                     mainBtn={{
                         text:'Agree',
+                        size: 'md',
+                        className: 'custom-class',
                         onClick:() => {
                             alert('Done!');
                         }
                     }}
                     secBtn={{
                         text:'Cancel',
+                        size: 'md',
+                        className: 'custom-class',
                         onClick:this.toggle
                     }}
                 >
